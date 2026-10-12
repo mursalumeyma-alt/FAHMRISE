@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  code, pre, kbd {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Hide scrollbar utility */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom modern scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Markdown reader content styling */
+.reader-content h1 {
+  @apply text-2xl md:text-3xl font-extrabold text-white mt-8 mb-4 tracking-tight pb-3 border-b border-slate-800;
+}
+.reader-content h2 {
+  @apply text-xl md:text-2xl font-bold text-emerald-400 mt-6 mb-3 tracking-tight;
+}
+.reader-content h3 {
+  @apply text-lg md:text-xl font-semibold text-slate-100 mt-5 mb-2;
+}
+.reader-content h4 {
+  @apply text-base font-semibold text-slate-200 mt-4 mb-2;
+}
+.reader-content p {
+  @apply text-slate-300 leading-relaxed my-3 text-base md:text-lg;
+}
+.reader-content ul {
+  @apply list-disc list-inside my-3 space-y-2 text-slate-300 ml-2;
+}
+.reader-content ol {
+  @apply list-decimal list-inside my-3 space-y-2 text-slate-300 ml-2;
+}
+.reader-content li {
+  @apply leading-relaxed;
+}
+.reader-content blockquote {
+  @apply border-l-4 border-emerald-500 bg-slate-900/80 p-4 rounded-r-xl my-4 text-slate-200 shadow-inner;
+}
+.reader-content table {
+  @apply w-full text-left border-collapse my-6 text-sm md:text-base;
+}
+.reader-content th {
+  @apply bg-slate-800/80 text-emerald-400 p-3 font-semibold border border-slate-700;
+}
+.reader-content td {
+  @apply p-3 border border-slate-800 bg-slate-900/40 text-slate-300;
+}
+.reader-content code:not(pre code) {
+  @apply bg-slate-800 text-emerald-300 px-1.5 py-0.5 rounded text-sm font-mono border border-slate-700;
+}
+.reader-content pre {
+  @apply bg-slate-950 text-slate-100 p-4 rounded-xl my-4 overflow-x-auto border border-slate-800 font-mono text-sm leading-relaxed shadow-lg;
+}
+.reader-content hr {
+  @apply border-slate-800 my-6;
+}
+
+/* Animations */
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+}
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+/* Arabic Typography Utilities with Anti-clipping Diacritic Padding */
+.arabic-letter-hero {
+  font-family: 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
+  font-size: clamp(3.5rem, 8vw, 6rem); /* 56px on mobile, 72-96px on desktop */
+  line-height: 1.6;
+  padding: 0.5rem 0.75rem;
+  direction: rtl;
+  text-rendering: optimizeLegibility;
+}
+
+.arabic-comparison {
+  font-family: 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
+  font-size: clamp(2.25rem, 5vw, 3rem); /* 36px to 48px */
+  line-height: 1.7;
+  padding: 0.25rem 0.5rem;
+  direction: rtl;
+  text-rendering: optimizeLegibility;
+}
+
+.arabic-text-flow {
+  font-family: 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
+  font-size: clamp(1.5rem, 3.5vw, 2.25rem); /* 24px to 36px */
+  line-height: 1.9;
+  direction: rtl;
+  text-rendering: optimizeLegibility;
+}
