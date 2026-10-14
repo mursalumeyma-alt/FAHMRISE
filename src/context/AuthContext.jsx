@@ -57,6 +57,22 @@ export function AuthProvider({ children }) {
     }
   };
 
+  const loginTeacherReviewer = async () => {
+    setError(null);
+    try {
+      const data = await api.auth.teacherReviewerLogin();
+      localStorage.setItem('fahmrise_token', data.token);
+      setToken(data.token);
+      setUser(data.user);
+      setEnrollments(data.enrollments || []);
+      setSubscription(data.subscription || null);
+      return data;
+    } catch (err) {
+      setError(err.message || 'Teacher review access login failed');
+      throw err;
+    }
+  };
+
   const register = async (userData) => {
     setError(null);
     try {
@@ -125,13 +141,22 @@ export function AuthProvider({ children }) {
     }
   };
 
+  const isTeacherReviewer = Boolean(
+    user?.role === 'teacher_reviewer' || 
+    user?.isTeacherReviewer || 
+    user?.email === 'teacher@fahmrise.com'
+  );
+
   const isSubscriptionActive = () => {
+    if (isTeacherReviewer) return true;
     if (!subscription) return false;
     return subscription.status === 'active' && new Date(subscription.expiresAt).getTime() > Date.now();
   };
 
   const isEnrolledIn = (bookId) => {
     if (!bookId) return false;
+    // Teacher Reviewer has full unrestricted access across all courses
+    if (isTeacherReviewer) return true;
     // If user has an active subscription, all courses are accessible
     if (isSubscriptionActive()) return true;
 
@@ -162,14 +187,16 @@ export function AuthProvider({ children }) {
     token,
     enrollments,
     subscription,
+    isTeacherReviewer,
     isSubscriptionActive,
-    subscriptionExpiresAt: subscription?.expiresAt,
-    daysRemaining: subscription?.daysRemaining,
-    formattedExpiresAt: subscription?.formattedExpiresAt,
+    subscriptionExpiresAt: isTeacherReviewer ? 'Teacher Reviewer Pass (1 Year Unlocked)' : subscription?.expiresAt,
+    daysRemaining: isTeacherReviewer ? 365 : subscription?.daysRemaining,
+    formattedExpiresAt: isTeacherReviewer ? 'Teacher Reviewer Pass (Full Access)' : subscription?.formattedExpiresAt,
     loading,
     error,
     login,
     loginDemo,
+    loginTeacherReviewer,
     register,
     logout,
     updateProfile,
@@ -179,6 +206,7 @@ export function AuthProvider({ children }) {
     renewSubscription,
     testToggleSubscription
   };
+
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }

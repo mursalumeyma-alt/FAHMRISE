@@ -1578,6 +1578,46 @@ export default function AdminPage() {
                 </div>
               </div>
 
+              {/* Category-Specific Standard Starting Prices Table */}
+              <div className="mt-4 pt-4 border-t border-slate-800 space-y-3">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                  <div className="text-xs font-bold uppercase tracking-wider text-slate-300">
+                    Category Standard Suggested Starting Prices & Commission Model
+                  </div>
+                  <span className="self-start sm:self-center text-[11px] font-mono font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-2.5 py-0.5 rounded-full">
+                    Platform Split: 70% Coach / 30% FAHMRISE
+                  </span>
+                </div>
+
+                <div className="overflow-x-auto rounded-xl border border-slate-800/80 bg-slate-950/60">
+                  <table className="w-full text-left text-xs">
+                    <thead>
+                      <tr className="border-b border-slate-800 text-[10px] uppercase tracking-wider text-slate-400 bg-slate-900/60">
+                        <th className="py-2.5 px-3 font-semibold">Coaching Category</th>
+                        <th className="py-2.5 px-3 font-semibold text-right text-amber-200">One-to-One (per 60-min session)</th>
+                        <th className="py-2.5 px-3 font-semibold text-right text-teal-200">Small Group (per learner / session)</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-800/50">
+                      {[
+                        { cat: "Qur’an Recitation & Tajweed", one: "KSh 1,500", grp: "KSh 500" },
+                        { cat: "Arabic Language (Grammar & Conversation)", one: "KSh 1,500", grp: "KSh 500" },
+                        { cat: "Islamic Studies", one: "KSh 1,500", grp: "KSh 500" },
+                        { cat: "Technology & Software Engineering", one: "KSh 2,500", grp: "KSh 1,000" },
+                        { cat: "Modern Career Skills & Business", one: "KSh 2,000", grp: "KSh 750" },
+                        { cat: "Other Specialized Areas", one: "Custom quote", grp: "Custom quote" }
+                      ].map((row, rIdx) => (
+                        <tr key={rIdx} className="hover:bg-slate-900/40">
+                          <td className="py-2 px-3 text-slate-200 font-medium">{row.cat}</td>
+                          <td className="py-2 px-3 text-right font-mono font-bold text-amber-300">{row.one}</td>
+                          <td className="py-2 px-3 text-right font-mono font-bold text-teal-300">{row.grp}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
               {coachRates?.disclaimer && (
                 <div className="text-[11px] text-amber-300/80 bg-amber-500/10 border border-amber-500/20 rounded-lg p-2.5">
                   <span className="font-semibold text-amber-300">Active Public Disclaimer:</span> {coachRates.disclaimer}

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useSearchParams, useParams } from 'react-router-dom';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
+import { coursesData, practiceProjectsData } from '../data/coursesData';
 import { 
   BookOpen, 
   Filter, 
@@ -21,7 +22,9 @@ import {
   Compass,
   Info,
   FolderGit2,
-  Terminal
+  Terminal,
+  Search,
+  X
 } from 'lucide-react';
 
 // Custom Crisp React Atom Icon
@@ -49,6 +52,19 @@ const CATEGORIES = [
   { id: 'Career Skills', label: 'Career Skills' }
 ];
 
+// Category Icons Mapping
+function getCategoryIcon(catId) {
+  switch (catId) {
+    case 'Technology': return Code2;
+    case 'Projects': return FolderGit2;
+    case 'Islamic Studies': return BookMarked;
+    case 'Business': return Briefcase;
+    case 'International Languages': return Globe;
+    case 'Career Skills': return TrendingUp;
+    default: return Layers;
+  }
+}
+
 // Dedicated Live Curriculum Tracks Metadata
 const LIVE_TRACKS = [
   {
@@ -71,36 +87,42 @@ const LIVE_TRACKS = [
     syllabus: [
       {
         id: 'lang-track-1',
+        courseId: 'arabic-language-learning',
         number: '01',
         title: 'Arabic Language Learning',
         desc: 'Alphabet, phonetics, root vocabulary, applied grammar, conversation, and classical reading.'
       },
       {
         id: 'lang-track-2',
+        courseId: 'english-language-learning',
         number: '02',
         title: 'English Language Learning',
         desc: 'Phonetics, core vocabulary, social greetings, sentence mechanics, listening comprehension, and fluency.'
       },
       {
         id: 'lang-track-3',
+        courseId: 'french-language-learning',
         number: '03',
         title: 'French Language Learning',
         desc: 'Pronunciation, essential vocabulary, greetings, grammar foundations, listening skills, and conversation.'
       },
       {
         id: 'lang-track-4',
+        courseId: 'swahili-language-learning',
         number: '04',
         title: 'Swahili Language Learning',
         desc: 'Kiswahili phonetics, vocabulary, greetings, noun classes, sentence structure, and marketplace conversation.'
       },
       {
         id: 'lang-track-5',
+        courseId: 'japanese-language-learning',
         number: '05',
         title: 'Japanese Language Learning',
         desc: 'Writing systems (Hiragana, Katakana, Kanji), pronunciation, greetings, numbers, particles, and daily dialogues.'
       },
       {
         id: 'lang-track-6',
+        courseId: 'somali-language-learning',
         number: '06',
         title: 'Somali Language Learning',
         desc: 'Latin script (1972), unique pharyngeal sounds (X, C) & DH, vowel lengths, greetings, family, numbers, verbs, and market dialogues.'
@@ -126,7 +148,7 @@ export function normalizeCategory(param) {
   if (lower.includes('project')) {
     return 'Projects';
   }
-  if (lower.includes('international') || lower.includes('arabic') || lower.includes('language') || lower.includes('swahili') || lower.includes('french') || lower.includes('english')) {
+  if (lower.includes('international') || lower.includes('arabic') || lower.includes('language') || lower.includes('swahili') || lower.includes('french') || lower.includes('english') || lower.includes('japanese') || lower.includes('somali')) {
     return 'International Languages';
   }
   if (lower.includes('career') || lower.includes('skill') || lower.includes('job') || lower.includes('comm')) {
@@ -144,78 +166,78 @@ export function normalizeCategory(param) {
   return 'All';
 }
 
-// Robust Category Matcher
+// Strict Category Matcher — each category displays only its own courses
 function matchesCategory(course, selectedCategory) {
   if (!selectedCategory || selectedCategory === 'All') return true;
   if (selectedCategory === 'Projects') return false; // Handled in dedicated projects block
 
   const cat = String(course.category || '').toLowerCase().trim();
-  const subCat = String(course.subCategory || '').toLowerCase().trim();
-  const title = String(course.title || '').toLowerCase().trim();
+  const sel = selectedCategory.toLowerCase().trim();
 
-  switch (selectedCategory) {
-    case 'Technology':
-      return cat === 'technology' || 
-             subCat.includes('tech') || 
-             subCat.includes('web') || 
-             subCat.includes('frontend') || 
-             subCat.includes('backend') || 
-             subCat.includes('data') || 
-             subCat.includes('cyber') || 
-             subCat.includes('javascript') || 
-             subCat.includes('python') || 
-             subCat.includes('sql') || 
-             subCat.includes('power bi') || 
-             subCat.includes('spreadsheet') || 
-             subCat.includes('full-stack');
+  if (cat === sel) return true;
 
-    case 'Islamic Studies':
-      return cat === 'islamic studies' || 
-             cat.includes('islamic') || 
-             subCat.includes('quran') || 
-             subCat.includes('tajweed') || 
-             subCat.includes('hadith') || 
-             subCat.includes('tafsir') || 
-             subCat.includes('salah') || 
-             subCat.includes('aqeedah') || 
-             subCat.includes('manner') || 
-             subCat.includes('adab') || 
-             subCat.includes('akhlaq') || 
-             subCat.includes('dua');
-
-    case 'Business':
-      return cat === 'business' || 
-             subCat.includes('entrepreneur') || 
-             subCat.includes('management') || 
-             subCat.includes('strategy') || 
-             subCat.includes('marketing') || 
-             subCat.includes('ecommerce') || 
-             subCat.includes('finance') || 
-             subCat.includes('startup');
-
-    case 'International Languages':
-    case 'Languages & Arabic':
-      return cat === 'international languages' || 
-             cat.includes('international') ||
-             (cat.includes('language') && !cat.includes('javascript') && !cat.includes('python')) ||
-             subCat.includes('language') || 
-             subCat.includes('arabic') || 
-             subCat.includes('english') || 
-             subCat.includes('french') || 
-             subCat.includes('swahili');
-
-    case 'Career Skills':
-      return cat === 'career skills' || 
-             cat.includes('career') || 
-             subCat.includes('career') || 
-             subCat.includes('communication') || 
-             subCat.includes('job') || 
-             subCat.includes('portfolio') || 
-             subCat.includes('freelancing');
-
-    default:
-      return cat === selectedCategory.toLowerCase();
+  if (sel === 'international languages') {
+    return cat === 'international languages' || cat === 'languages & arabic' || cat === 'languages';
   }
+  if (sel === 'islamic studies') {
+    return cat === 'islamic studies';
+  }
+  if (sel === 'technology') {
+    return cat === 'technology';
+  }
+  if (sel === 'business') {
+    return cat === 'business';
+  }
+  if (sel === 'career skills') {
+    return cat === 'career skills';
+  }
+
+  return false;
+}
+
+
+// Search Matcher for courses
+function matchesSearch(course, query) {
+  if (!query || !query.trim()) return true;
+  const terms = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
+
+  const haystack = [
+    course.title,
+    course.subtitle,
+    course.description,
+    course.category,
+    course.subCategory,
+    course.level,
+    course.author,
+    course.instructor,
+    Array.isArray(course.keywords) ? course.keywords.join(' ') : '',
+    Array.isArray(course.tags) ? course.tags.join(' ') : ''
+  ].join(' ').toLowerCase();
+
+  return terms.every(term => haystack.includes(term));
+}
+
+// Project category matcher
+function matchesProjectCategory(selectedCategory) {
+  return selectedCategory === 'All' || selectedCategory === 'Projects' || selectedCategory === 'Technology';
+}
+
+
+// Project search matcher
+function matchesProjectSearch(project, query) {
+  if (!query || !query.trim()) return true;
+  const terms = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
+
+  const haystack = [
+    project.title,
+    project.description,
+    project.category,
+    project.difficulty,
+    Array.isArray(project.skillsLearned) ? project.skillsLearned.join(' ') : '',
+    Array.isArray(project.techStack) ? project.techStack.join(' ') : ''
+  ].join(' ').toLowerCase();
+
+  return terms.every(term => haystack.includes(term));
 }
 
 export default function BookCatalogPage() {
@@ -227,29 +249,61 @@ export default function BookCatalogPage() {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [searchQuery, setSearchQuery] = useState('');
   const [enrolledTracks, setEnrolledTracks] = useState({});
 
-  // Synchronize category with URL parameter
+  // Synchronize category & search query with URL parameter
   useEffect(() => {
-    const rawParam = categorySlug || searchParams.get('category');
-    if (rawParam) {
-      const normalized = normalizeCategory(rawParam);
+    const rawCategory = categorySlug || searchParams.get('category');
+    if (rawCategory) {
+      const normalized = normalizeCategory(rawCategory);
       setSelectedCategory(normalized);
     } else if (categorySlug === undefined && !searchParams.get('category')) {
       setSelectedCategory('All');
     }
+
+    const rawQ = searchParams.get('q');
+    if (rawQ !== null) {
+      setSearchQuery(rawQ);
+    }
   }, [categorySlug, searchParams]);
 
-  // Sync category change to URL immediately
+  // Synchronize filter updates with URL parameters
+  const updateUrlParams = (newCategory, newQuery) => {
+    const updated = new URLSearchParams(searchParams);
+
+    if (newCategory && newCategory !== 'All') {
+      updated.set('category', newCategory);
+    } else {
+      updated.delete('category');
+    }
+
+    // Always clean up obsolete level query param
+    updated.delete('level');
+
+    if (newQuery && newQuery.trim()) {
+      updated.set('q', newQuery.trim());
+    } else {
+      updated.delete('q');
+    }
+
+    setSearchParams(updated, { replace: true });
+  };
+
   const handleSelectCategory = (cat) => {
     setSelectedCategory(cat);
-    const updatedParams = new URLSearchParams(searchParams);
-    if (cat === 'All') {
-      updatedParams.delete('category');
-    } else {
-      updatedParams.set('category', cat);
-    }
-    setSearchParams(updatedParams, { replace: true });
+    updateUrlParams(cat, searchQuery);
+  };
+
+  const handleSearchChange = (query) => {
+    setSearchQuery(query);
+    updateUrlParams(selectedCategory, query);
+  };
+
+  const handleResetAllFilters = () => {
+    setSelectedCategory('All');
+    setSearchQuery('');
+    setSearchParams({}, { replace: true });
   };
 
   // Initialize track exploration from local storage
@@ -270,17 +324,21 @@ export default function BookCatalogPage() {
       try {
         setLoading(true);
         const data = await api.books.getAll();
-        setCourses(data.courses || data.books || []);
-        if (data.projects && Array.isArray(data.projects)) {
-          setProjects(data.projects);
+        const loadedCourses = (data && (data.courses || data.books)) || [];
+        const sourceCourses = loadedCourses.length > 0 ? loadedCourses : coursesData;
+        const uniqueCourses = Array.from(new Map(sourceCourses.map(c => [c.id, c])).values());
+        setCourses(uniqueCourses);
+        if (data && data.projects && Array.isArray(data.projects) && data.projects.length > 0) {
+          const uniqueProjects = Array.from(new Map(data.projects.map(p => [p.id, p])).values());
+          setProjects(uniqueProjects);
         } else {
-          const pData = await api.books.getProjects().catch(() => ({ projects: [] }));
-          setProjects(pData.projects || []);
+          setProjects(practiceProjectsData);
         }
       } catch (err) {
         console.error('Failed to load catalog data:', err);
-        setCourses([]);
-        setProjects([]);
+        const uniqueCourses = Array.from(new Map(coursesData.map(c => [c.id, c])).values());
+        setCourses(uniqueCourses);
+        setProjects(practiceProjectsData);
       } finally {
         setLoading(false);
       }
@@ -289,30 +347,50 @@ export default function BookCatalogPage() {
     loadCatalog();
   }, []);
 
-  // 1. Filter Courses by Category
-  const filteredCourses = courses.filter((course) => {
-    return matchesCategory(course, selectedCategory);
-  });
+  // 1. Filter Courses by Category and Search Query (guaranteed unique by ID)
+  const filteredCourses = React.useMemo(() => {
+    const matched = courses.filter((course) => {
+      return matchesCategory(course, selectedCategory) &&
+             matchesSearch(course, searchQuery);
+    });
+    return Array.from(new Map(matched.map(c => [c.id, c])).values());
+  }, [courses, selectedCategory, searchQuery]);
 
   const availableCourses = filteredCourses.filter(c => !c.isComingSoon && c.status !== 'coming_soon');
   const comingSoonCourses = filteredCourses.filter(c => c.isComingSoon || c.status === 'coming_soon');
 
-  // 2. Filter Live Tracks by Category (Display on All Categories view)
+  // 2. Filter Live Tracks by Category (Display on All Categories view or International Languages)
   const filteredLiveTracks = LIVE_TRACKS.filter((track) => {
-    if (selectedCategory === 'All') return true;
+    if (selectedCategory === 'All' || selectedCategory === 'International Languages') {
+      if (searchQuery && !matchesSearch({ title: track.fullTitle, subtitle: track.subtitle, description: track.description, category: track.category }, searchQuery)) {
+        return false;
+      }
+      return true;
+    }
     return false;
   });
 
-  // 3. Filter Practice Projects by Category
+  // 3. Filter Practice Projects by Category and Search Query
   const filteredProjects = projects.filter((project) => {
-    if (selectedCategory !== 'All' && selectedCategory !== 'Projects' && selectedCategory !== 'Technology') {
-      return false;
-    }
-    return true;
+    return matchesProjectCategory(selectedCategory) &&
+           matchesProjectSearch(project, searchQuery);
   });
 
-  const shouldShowProjects = selectedCategory === 'Projects' || selectedCategory === 'All';
-  const hasAnyResults = availableCourses.length > 0 || comingSoonCourses.length > 0 || filteredLiveTracks.length > 0 || (shouldShowProjects && filteredProjects.length > 0);
+  const shouldShowProjects = selectedCategory === 'Projects' || 
+    (selectedCategory === 'All' && !searchQuery) || 
+    (selectedCategory === 'Technology' && !searchQuery) || 
+    (searchQuery && filteredProjects.length > 0);
+
+  const totalResultsCount = availableCourses.length + comingSoonCourses.length + (shouldShowProjects ? filteredProjects.length : 0);
+  const hasAnyResults = totalResultsCount > 0 || filteredLiveTracks.length > 0;
+
+  // Category counts calculation (guaranteed unique course counts)
+  const getCategoryCount = (catId) => {
+    if (catId === 'All') return new Set(courses.map(c => c.id)).size + (projects ? projects.length : 0);
+    if (catId === 'Projects') return projects ? projects.length : 0;
+    const matchingCourses = courses.filter(c => matchesCategory(c, catId));
+    return new Set(matchingCourses.map(c => c.id)).size;
+  };
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 py-6 sm:py-10 px-3 sm:px-6 lg:px-8 w-full max-w-full overflow-x-hidden">
@@ -332,42 +410,83 @@ export default function BookCatalogPage() {
           </p>
         </div>
 
-        {/* Simplified Clean Category Dropdown */}
-        <div className="bg-slate-900/90 border border-slate-800/90 rounded-2xl p-4 sm:p-5 backdrop-blur-md shadow-xl w-full">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div className="flex flex-col sm:flex-row sm:items-center gap-3">
-              <label 
-                htmlFor="category-select" 
-                className="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-300 flex items-center gap-2 cursor-pointer select-none"
-              >
-                <Filter className="w-4 h-4 text-emerald-400" />
-                <span>Category</span>
-              </label>
-              <div className="relative min-w-[240px] sm:min-w-[300px]">
-                <select
-                  id="category-select"
-                  value={selectedCategory}
-                  onChange={(e) => handleSelectCategory(e.target.value)}
-                  className="w-full appearance-none bg-slate-950/90 border border-slate-700/80 hover:border-slate-600 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 text-slate-100 font-semibold text-xs sm:text-sm rounded-xl px-4 py-2.5 sm:py-3 pr-10 transition-all cursor-pointer shadow-inner outline-none"
-                  aria-label="Category"
+        {/* Category Navigation, Search, and Experience Level Filters */}
+        <div className="bg-slate-900/90 border border-slate-800/90 rounded-2xl p-4 sm:p-5 backdrop-blur-md shadow-xl space-y-4 w-full">
+          
+          {/* 1. Category Navigation Pills (Horizontal Desktop & Scrollable Mobile) */}
+          <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
+            {CATEGORIES.map((cat) => {
+              const isSelected = selectedCategory === cat.id;
+              const Icon = getCategoryIcon(cat.id);
+              const count = getCategoryCount(cat.id);
+              return (
+                <button
+                  key={cat.id}
+                  onClick={() => handleSelectCategory(cat.id)}
+                  className={`px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-xl font-bold text-xs sm:text-sm flex items-center gap-2 whitespace-nowrap transition-all border shrink-0 cursor-pointer ${
+                    isSelected
+                      ? 'bg-emerald-500 text-slate-950 border-emerald-400 shadow-glow font-extrabold'
+                      : 'bg-slate-950/80 hover:bg-slate-800 text-slate-300 hover:text-white border-slate-800 hover:border-slate-700'
+                  }`}
+                  aria-pressed={isSelected}
                 >
-                  {CATEGORIES.map((cat) => (
-                    <option key={cat.id} value={cat.id} className="bg-slate-900 text-slate-100 py-2">
-                      {cat.label}
-                    </option>
-                  ))}
-                </select>
-                <ChevronDown className="absolute right-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-emerald-400 pointer-events-none" />
-              </div>
+                  <Icon className={`w-4 h-4 ${isSelected ? 'text-slate-950' : 'text-emerald-400'}`} />
+                  <span>{cat.label}</span>
+                  <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono ${
+                    isSelected
+                      ? 'bg-slate-950/20 text-slate-950 font-black'
+                      : 'bg-slate-900 text-slate-400 border border-slate-700/60'
+                  }`}>
+                    {count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+
+          {/* 2. Controls Bar: Search Input and Mobile Category Dropdown */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-3 border-t border-slate-800/80">
+            
+            {/* Search Input */}
+            <div className="relative flex-1 min-w-[220px]">
+              <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 pointer-events-none" />
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => handleSearchChange(e.target.value)}
+                placeholder="Search courses, topics, keywords..."
+                className="w-full bg-slate-950/90 border border-slate-800 hover:border-slate-700 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 text-slate-100 text-xs sm:text-sm rounded-xl pl-10 pr-9 py-2.5 outline-none transition-all placeholder:text-slate-500 shadow-inner"
+              />
+              {searchQuery && (
+                <button
+                  onClick={() => handleSearchChange('')}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white p-0.5"
+                  title="Clear search"
+                  aria-label="Clear search"
+                >
+                  <X className="w-3.5 h-3.5" />
+                </button>
+              )}
             </div>
 
-            {/* Course Count Display */}
-            <div className="text-xs text-slate-400 font-medium">
-              <span>
-                Showing <strong className="text-white font-bold">{selectedCategory === 'Projects' ? filteredProjects.length : availableCourses.length}</strong> {(selectedCategory === 'Projects' ? filteredProjects.length : availableCourses.length) === 1 ? (selectedCategory === 'Projects' ? 'project' : 'course') : (selectedCategory === 'Projects' ? 'projects' : 'courses')}
-                {selectedCategory !== 'All' ? ` in ${selectedCategory}` : ' across all categories'}
-              </span>
+            {/* Mobile Category Dropdown (Responsive backup for small screens) */}
+            <div className="relative sm:hidden w-full">
+              <select
+                id="category-select"
+                value={selectedCategory}
+                onChange={(e) => handleSelectCategory(e.target.value)}
+                className="w-full appearance-none bg-slate-950/90 border border-slate-800 text-slate-200 text-xs rounded-lg px-3 py-2 pr-8 outline-none"
+                aria-label="Category Select"
+              >
+                {CATEGORIES.map((cat) => (
+                  <option key={cat.id} value={cat.id} className="bg-slate-900 text-slate-100">
+                    {cat.label}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown className="absolute right-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-emerald-400 pointer-events-none" />
             </div>
+
           </div>
         </div>
 
@@ -378,17 +497,24 @@ export default function BookCatalogPage() {
             <p className="text-sm">Loading FAHMRISE catalog...</p>
           </div>
         ) : !hasAnyResults ? (
-          /* Clean Empty Category State */
-          <div className="text-center py-16 bg-slate-900/40 rounded-2xl border border-slate-800/60 space-y-3 px-4 max-w-xl mx-auto">
+          /* Clean Empty Category & Filter State */
+          <div className="text-center py-16 bg-slate-900/40 rounded-2xl border border-slate-800/60 space-y-4 px-4 max-w-xl mx-auto">
             <div className="w-14 h-14 rounded-2xl bg-slate-800/80 border border-slate-700/60 flex items-center justify-center mx-auto text-slate-400">
               <BookOpen className="w-7 h-7" />
             </div>
-            <div className="space-y-1">
-              <h3 className="text-base sm:text-lg font-bold text-white">No courses found</h3>
+            <div className="space-y-1.5">
+              <h3 className="text-base sm:text-lg font-bold text-white">No courses or projects found</h3>
               <p className="text-xs sm:text-sm text-slate-400 max-w-md mx-auto leading-relaxed">
-                No courses are currently available in category "{selectedCategory}".
+                No educational resources matched category <strong>"{selectedCategory}"</strong>
+                {searchQuery ? ` matching "${searchQuery}"` : ''}.
               </p>
             </div>
+            <button
+              onClick={handleResetAllFilters}
+              className="px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs transition-all shadow-sm cursor-pointer"
+            >
+              Reset All Filters
+            </button>
           </div>
         ) : (
           <div className="space-y-10">
@@ -738,13 +864,13 @@ export default function BookCatalogPage() {
                                 <Layers className="w-3.5 h-3.5 text-emerald-400" />
                                 <span>Track Curriculum Modules (Click to Open)</span>
                               </span>
-                              <span className="text-[10px] text-emerald-400 font-medium">5 Modules</span>
+                              <span className="text-[10px] text-emerald-400 font-medium">{track.syllabus?.length || 6} Language Pathways</span>
                             </div>
                             <div className="space-y-1.5">
                               {track.syllabus.map((item) => (
                                 <Link
                                   key={item.number}
-                                  to={track.trackUrl || `/tracks/international-languages`}
+                                  to={item.courseId ? `/courses/${item.courseId}` : (track.trackUrl || `/tracks/international-languages`)}
                                   className="flex items-start gap-2.5 text-xs p-2 rounded-lg bg-slate-900/60 hover:bg-slate-800/80 border border-transparent hover:border-slate-700/80 transition-all group/item"
                                 >
                                   <span className="text-[10px] font-mono font-bold text-emerald-400 bg-emerald-500/10 group-hover/item:bg-emerald-500/20 px-1.5 py-0.5 rounded border border-emerald-500/20 flex-shrink-0">

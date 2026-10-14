@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Link, useNavigate, useSearchParams } from 'react-router-dom';
+import { Link, useNavigate, useSearchParams, useLocation } from 'react-router-dom';
 import {
   BookOpen,
   CheckCircle2,
@@ -51,14 +51,36 @@ import LanguageNewsSection from '../components/news/LanguageNewsSection';
 export default function ArabicTrackPage() {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
-  const { user, isEnrolledIn } = useAuth();
+  const { user, isEnrolledIn, isTeacherReviewer } = useAuth();
+
   const progressContext = useProgress();
 
-  // Active language pathway selection (defaults to English or URL param)
-  const initialLang = searchParams.get('lang') || 'english-language-learning';
-  const [selectedLangId, setSelectedLangId] = useState(
-    ALL_LANGUAGE_TRACKS[initialLang] ? initialLang : 'english-language-learning'
-  );
+  const location = useLocation();
+
+  // Active language pathway selection (detects URL route or ?lang= param)
+  const getLanguageFromUrl = () => {
+    const langParam = searchParams.get('lang');
+    if (langParam && ALL_LANGUAGE_TRACKS[langParam]) {
+      return langParam;
+    }
+    const path = (location.pathname || '').toLowerCase();
+    if (path.includes('arabic')) return 'arabic-language-learning';
+    if (path.includes('swahili') || path.includes('kiswahili')) return 'swahili-language-learning';
+    if (path.includes('somali')) return 'somali-language-learning';
+    if (path.includes('japanese') || path.includes('nihon')) return 'japanese-language-learning';
+    if (path.includes('french') || path.includes('francais')) return 'french-language-learning';
+    if (path.includes('english')) return 'english-language-learning';
+    return 'arabic-language-learning';
+  };
+
+  const [selectedLangId, setSelectedLangId] = useState(getLanguageFromUrl());
+
+  useEffect(() => {
+    const activeFromUrl = getLanguageFromUrl();
+    if (activeFromUrl && activeFromUrl !== selectedLangId) {
+      setSelectedLangId(activeFromUrl);
+    }
+  }, [searchParams, location.pathname]);
 
   const handleSelectLanguage = (langId) => {
     setSelectedLangId(langId);
@@ -309,7 +331,7 @@ export default function ArabicTrackPage() {
           <div className="space-y-3 text-center sm:text-left">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold">
               <Globe className="w-4 h-4 text-emerald-400" />
-              <span>International Languages Track • 4 Global Pathways</span>
+              <span>International Languages Track • 6 Global Pathways</span>
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
             </div>
 
@@ -322,8 +344,8 @@ export default function ArabicTrackPage() {
             </p>
           </div>
 
-          {/* 4 Interactive Language Switcher Tabs */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 pt-2">
+          {/* 6 Interactive Language Switcher Tabs */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 pt-2">
             {internationalTrack.languages.map((lang) => {
               const isSelected = lang.id === selectedLangId;
               return (
@@ -408,6 +430,19 @@ export default function ArabicTrackPage() {
                 ))}
               </div>
 
+              {/* Teacher Reviewer Active Banner */}
+              {isTeacherReviewer && (
+                <div className="p-3.5 bg-gradient-to-r from-blue-950/80 via-indigo-950/70 to-slate-900 border border-indigo-500/40 rounded-2xl text-xs text-indigo-200 flex items-center justify-between gap-3 animate-in fade-in">
+                  <div className="flex items-center gap-2">
+                    <GraduationCap className="w-4 h-4 text-indigo-400 flex-shrink-0" />
+                    <span><strong>Teacher Reviewer Mode Active</strong>: Unrestricted free evaluation pass for Arabic curriculum (all 37 lessons unlocked).</span>
+                  </div>
+                  <span className="text-[10px] font-black px-2.5 py-0.5 rounded-full bg-emerald-500 text-slate-950 uppercase tracking-wide">
+                    Free Review Pass
+                  </span>
+                </div>
+              )}
+
               {/* Action Buttons */}
               <div className="flex flex-wrap items-center gap-3 pt-4">
                 <Link
@@ -415,15 +450,31 @@ export default function ArabicTrackPage() {
                   className="px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 font-bold text-sm transition-all shadow-glow flex items-center gap-2"
                 >
                   <BookOpen className="w-4 h-4" />
-                  <span>Start Learning in Reader (Chapter 1)</span>
+                  <span>
+                    {isTeacherReviewer
+                      ? 'Review in Reader (Free Teacher Access)'
+                      : isEnrolledIn(track.id)
+                      ? 'Continue Learning in Reader'
+                      : 'Preview Chapter 1 (Free)'}
+                  </span>
                   <ArrowRight className="w-4 h-4" />
                 </Link>
+
+                {!isTeacherReviewer && !isEnrolledIn(track.id) && (
+                  <Link
+                    to={`/checkout/${track.id}`}
+                    className="px-5 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-emerald-500 hover:from-amber-400 hover:to-emerald-400 text-slate-950 font-extrabold text-sm shadow-md transition-all flex items-center gap-1.5"
+                  >
+                    <span>Upgrade to Arabic Track ({track.priceDisplay || 'KSh 5,000'})</span>
+                    <ChevronRight className="w-4 h-4" />
+                  </Link>
+                )}
 
                 <Link
                   to={`/courses/${track.id}`}
                   className="px-5 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-sm border border-slate-700 transition-all flex items-center gap-2"
                 >
-                  <span>Course Details & Enrollment</span>
+                  <span>Course Details</span>
                   <ChevronRight className="w-4 h-4" />
                 </Link>
               </div>
@@ -453,10 +504,13 @@ export default function ArabicTrackPage() {
                 </div>
                 <div className="p-2.5 rounded-xl bg-slate-900 border border-slate-800">
                   <span className="text-slate-500 block text-[10px] uppercase font-bold">Access</span>
-                  <span className="font-bold text-amber-400">{track.priceDisplay}</span>
+                  <span className="font-bold text-amber-400">
+                    {isTeacherReviewer ? 'Free (Teacher Pass)' : (track.priceDisplay || 'Separate Upgrade')}
+                  </span>
                 </div>
               </div>
             </div>
+
           </div>
 
         </div>

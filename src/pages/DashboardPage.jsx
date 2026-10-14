@@ -23,7 +23,8 @@ import {
   Check,
   Printer,
   ExternalLink,
-  Download
+  Download,
+  GraduationCap
 } from 'lucide-react';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
@@ -38,6 +39,7 @@ export default function DashboardPage() {
     user, 
     subscription, 
     isSubscriptionActive, 
+    isTeacherReviewer,
     daysRemaining, 
     formattedExpiresAt,
     renewSubscription,
@@ -45,6 +47,7 @@ export default function DashboardPage() {
     refreshSubscription,
     isEnrolledIn
   } = useAuth();
+
   
   const { progress, fetchProgress, resetCourseProgress } = useProgress();
   const navigate = useNavigate();
@@ -239,9 +242,56 @@ export default function DashboardPage() {
         </div>
 
         {/* ========================================================================= */}
-        {/* 1. SUBSCRIPTION STATUS BANNER (ACTIVE VS EXPIRED) */}
+        {/* 1. LEARNER & TEACHER ACCESS STATUS BANNER */}
         {/* ========================================================================= */}
-        {activeSub ? (
+        {isTeacherReviewer ? (
+          /* TEACHER REVIEWER DASHBOARD BANNER */
+          <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-blue-950/80 via-indigo-950/70 to-slate-900 border-2 border-indigo-500/50 shadow-2xl space-y-4 animate-in fade-in">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
+              <div className="flex items-start gap-4">
+                <div className="w-14 h-14 rounded-2xl bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 flex items-center justify-center flex-shrink-0 shadow-inner">
+                  <GraduationCap className="w-8 h-8" />
+                </div>
+                <div className="space-y-1.5">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <h2 className="text-xl font-black text-white">Teacher Reviewer Mode: Active</h2>
+                    <span className="text-[10px] font-extrabold px-2.5 py-0.5 rounded-full bg-emerald-500 text-slate-950 uppercase tracking-wide">
+                      Full Access Pass Unlocked
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-300 max-w-2xl leading-relaxed">
+                    Welcome to the FAHMRISE evaluation session. All courses across <strong>Technology</strong>, <strong>Islamic Studies</strong>, <strong>Business</strong>, and <strong>International Languages</strong> are pre-authorized with zero payment locks. Inspect curriculum structure, read lesson chapters, test quizzes, and verify practice sandboxes.
+                  </p>
+                  <div className="flex flex-wrap items-center gap-2 pt-1 text-[11px] text-indigo-300">
+                    <span className="px-2.5 py-1 rounded-lg bg-slate-950/80 border border-indigo-900/60 font-mono">
+                      Account: teacher@fahmrise.com
+                    </span>
+                    <span className="px-2.5 py-1 rounded-lg bg-slate-950/80 border border-indigo-900/60 font-mono text-emerald-400">
+                      Sample Student Progress Loaded
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col sm:flex-row items-center gap-3 flex-shrink-0">
+                <Link
+                  to="/courses"
+                  className="w-full sm:w-auto px-5 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-teal-400 hover:from-indigo-400 hover:to-teal-300 text-slate-950 font-black text-xs shadow-lg flex items-center justify-center gap-2 transition-all transform hover:-translate-y-0.5"
+                >
+                  <BookOpen className="w-4 h-4" />
+                  <span>Browse All Courses</span>
+                </Link>
+                <Link
+                  to="/practice"
+                  className="w-full sm:w-auto px-4 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs border border-slate-700 flex items-center justify-center gap-1.5 transition-colors"
+                >
+                  <Code2 className="w-4 h-4 text-emerald-400" />
+                  <span>Practice Arena</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        ) : activeSub ? (
           /* ACTIVE SUBSCRIPTION BANNER */
           <div className="p-6 rounded-3xl bg-gradient-to-r from-emerald-950/70 via-slate-900 to-teal-950/60 border border-emerald-500/40 shadow-xl space-y-4">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
@@ -251,13 +301,13 @@ export default function DashboardPage() {
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
-                    <h2 className="text-base font-bold text-white">Monthly All-Access: ACTIVE</h2>
+                    <h2 className="text-base font-bold text-white">All-Access Learning Pass: Active</h2>
                     <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500 text-slate-950">
                       {daysRemaining} Days Left
                     </span>
                   </div>
                   <p className="text-xs text-slate-300 mt-0.5">
-                    All premium courses, practice projects, quizzes, and certificates are unlocked.
+                    All courses, practice projects, quizzes, and certificates are unlocked.
                   </p>
                   <p className="text-[11px] text-emerald-400/90 font-mono mt-1 flex items-center gap-1">
                     <Calendar className="w-3.5 h-3.5" />
@@ -267,100 +317,45 @@ export default function DashboardPage() {
               </div>
 
               <div className="flex items-center gap-2.5">
-                <button
-                  onClick={handleRenew}
-                  disabled={renewing}
-                  className="px-4 py-2.5 rounded-xl bg-emerald-500/20 text-emerald-300 hover:bg-emerald-500/30 border border-emerald-500/40 text-xs font-bold transition-all flex items-center gap-1.5"
+                <Link
+                  to="/courses"
+                  className="px-4 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-bold transition-all flex items-center gap-1.5 shadow-glow"
                 >
-                  <RefreshCw className={`w-3.5 h-3.5 ${renewing ? 'animate-spin' : ''}`} />
-                  <span>{renewing ? 'Extending...' : 'Extend +30 Days'}</span>
-                </button>
+                  <BookOpen className="w-3.5 h-3.5" />
+                  <span>Explore Courses</span>
+                </Link>
               </div>
             </div>
-
-            {renewSuccess && (
-              <div className="p-3 bg-emerald-950/80 border border-emerald-500/50 rounded-xl text-xs text-emerald-300 flex items-center gap-2 animate-in fade-in">
-                <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                <span>Subscription extended by 30 days! All learning progress preserved.</span>
-              </div>
-            )}
           </div>
         ) : (
-          /* EXPIRED SUBSCRIPTION BANNER */
-          <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-rose-950/60 via-slate-900 to-amber-950/50 border border-rose-500/40 shadow-2xl space-y-4 animate-in fade-in">
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-              <div className="flex items-start gap-4">
-                <div className="w-14 h-14 rounded-2xl bg-rose-500/20 text-rose-400 border border-rose-500/40 flex items-center justify-center flex-shrink-0">
-                  <Lock className="w-7 h-7" />
+          /* GENERAL ENROLLED LEARNER BANNER */
+          <div className="p-6 rounded-3xl bg-slate-900/90 border border-slate-800 shadow-xl space-y-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div className="flex items-start gap-3.5">
+                <div className="w-12 h-12 rounded-2xl bg-teal-500/20 text-teal-400 border border-teal-500/30 flex items-center justify-center flex-shrink-0">
+                  <BookOpen className="w-6 h-6" />
                 </div>
-                <div className="space-y-1.5">
-                  <div className="flex items-center gap-2">
-                    <h2 className="text-lg font-black text-white">Monthly Subscription Expired</h2>
-                    <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/30">
-                      Action Required
-                    </span>
-                  </div>
-                  <p className="text-xs text-slate-300 leading-relaxed max-w-xl">
-                    Your 30-day subscription has ended. Premium courses are currently locked 🔒.
+                <div>
+                  <h2 className="text-base font-bold text-white">Welcome to Your Learning Dashboard</h2>
+                  <p className="text-xs text-slate-300 mt-0.5">
+                    Continue your lessons below or explore newly released courses and practice tracks.
                   </p>
-                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-xl bg-slate-950/80 border border-slate-800 text-[11px] text-emerald-400 font-medium">
-                    <span>💾 <strong>Zero Progress Lost</strong>: Your completed chapters, quizzes, and earned certificates are safely preserved.</span>
-                  </div>
                 </div>
               </div>
 
-              <div className="flex flex-col sm:flex-row items-center gap-3">
-                <button
-                  onClick={handleRenew}
-                  disabled={renewing}
-                  className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-sm shadow-glow flex items-center justify-center gap-2 transition-all transform hover:-translate-y-0.5"
+              <div className="flex items-center gap-2.5">
+                <Link
+                  to="/courses"
+                  className="px-4 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-bold transition-all flex items-center gap-1.5 shadow-glow"
                 >
-                  {renewing ? (
-                    <>
-                      <RefreshCw className="w-4 h-4 animate-spin" />
-                      <span>Renewing Access...</span>
-                    </>
-                  ) : (
-                    <>
-                      <Unlock className="w-4 h-4" />
-                      <span>Renew Subscription — KSh 350</span>
-                    </>
-                  )}
-                </button>
+                  <BookOpen className="w-3.5 h-3.5" />
+                  <span>Explore Catalog</span>
+                </Link>
               </div>
             </div>
           </div>
         )}
 
-        {/* Live Evaluation State Toggle Bar */}
-        <div className="p-3 bg-slate-900/60 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-3 text-xs">
-          <span className="text-slate-400 flex items-center gap-1.5">
-            <ShieldCheck className="w-4 h-4 text-amber-400" />
-            <span><strong>Subscription Test Toggle</strong> (Instant Active/Expired State Switching):</span>
-          </span>
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => handleTestToggle('active')}
-              className={`px-3 py-1.5 rounded-xl font-bold transition-all ${
-                activeSub
-                  ? 'bg-emerald-500 text-slate-950 shadow-glow'
-                  : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
-              }`}
-            >
-              Set Active (30 Days)
-            </button>
-            <button
-              onClick={() => handleTestToggle('expired')}
-              className={`px-3 py-1.5 rounded-xl font-bold transition-all ${
-                !activeSub
-                  ? 'bg-rose-500 text-white shadow-glow'
-                  : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
-              }`}
-            >
-              Set Expired (Lock Premium)
-            </button>
-          </div>
-        </div>
 
         {/* Overview Stats */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

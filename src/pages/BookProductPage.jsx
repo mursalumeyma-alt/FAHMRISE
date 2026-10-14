@@ -20,6 +20,7 @@ import {
 } from 'lucide-react';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
+import { CoursesDB } from '../data/coursesData';
 import Badge from '../components/common/Badge';
 
 export default function BookProductPage() {
@@ -40,12 +41,18 @@ export default function BookProductPage() {
       try {
         setLoading(true);
         const data = await api.books.getById(targetId);
-        setCourse(data.course || data.book);
+        if (data && (data.course || data.book)) {
+          setCourse(data.course || data.book);
+          return;
+        }
       } catch (err) {
-        console.error('Failed to load course:', err);
-      } finally {
-        setLoading(false);
+        console.error('Failed to load course from API:', err);
       }
+      const localCourse = CoursesDB.getCourseById(targetId);
+      if (localCourse) {
+        setCourse(localCourse);
+      }
+      setLoading(false);
     }
     loadCourse();
   }, [targetId]);
@@ -64,9 +71,9 @@ export default function BookProductPage() {
   if (!course) {
     const raw = String(targetId || '').toLowerCase().replace(/[^a-z0-9]/g, '');
     let redirectToCategory = null;
-    if (raw.includes('react') || raw.includes('frontend')) {
-      redirectToCategory = 'React';
-    } else if (raw.includes('arabic') || raw.includes('language') || raw.includes('international') || raw.includes('swahili') || raw.includes('french') || raw.includes('english')) {
+    if (raw.includes('react') || raw.includes('frontend') || raw.includes('html') || raw.includes('css') || raw.includes('javascript') || raw.includes('backend') || raw.includes('fullstack') || raw.includes('sql') || raw.includes('python') || raw.includes('powerbi') || raw.includes('cyber')) {
+      redirectToCategory = 'Technology';
+    } else if (raw.includes('arabic') || raw.includes('language') || raw.includes('international') || raw.includes('swahili') || raw.includes('french') || raw.includes('english') || raw.includes('japanese') || raw.includes('somali')) {
       redirectToCategory = 'International Languages';
     } else if (raw.includes('career') || raw.includes('skill')) {
       redirectToCategory = 'Career Skills';

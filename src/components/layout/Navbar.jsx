@@ -18,11 +18,13 @@ import {
   Zap,
   Lock,
   RefreshCw,
-  Coins
+  Coins,
+  GraduationCap
 } from 'lucide-react';
 
 export default function Navbar() {
-  const { user, logout, subscription, isSubscriptionActive, daysRemaining } = useAuth();
+  const { user, logout, subscription, isSubscriptionActive, daysRemaining, isTeacherReviewer } = useAuth();
+
   const { progress } = useProgress();
   const navigate = useNavigate();
   const location = useLocation();
@@ -121,8 +123,13 @@ export default function Navbar() {
                   />
                   <span className="text-slate-200 font-semibold text-xs max-w-[80px] xl:max-w-[110px] truncate">{user.name}</span>
                   
-                  {/* Subscription Pill */}
-                  {subscription && (
+                  {/* Subscription / Teacher Reviewer Pill */}
+                  {isTeacherReviewer ? (
+                    <span className="text-[9px] xl:text-[10px] font-bold px-2 py-0.5 rounded border whitespace-nowrap bg-indigo-950 text-indigo-300 border-indigo-700/80 flex items-center gap-1 shadow-sm">
+                      <GraduationCap className="w-3 h-3 text-indigo-400" />
+                      <span>Teacher Reviewer</span>
+                    </span>
+                  ) : subscription && (
                     <span className={`text-[9px] xl:text-[10px] font-bold px-1.5 py-0.5 rounded border whitespace-nowrap ${
                       activeSub
                         ? 'bg-emerald-950 text-emerald-300 border-emerald-800/80'
@@ -142,7 +149,20 @@ export default function Navbar() {
                       <p className="font-bold text-white truncate">{user.name}</p>
                       <p className="text-slate-400 truncate">{user.email}</p>
                       
-                      {subscription && (
+                      {isTeacherReviewer ? (
+                        <div className="mt-2 p-2.5 rounded-xl bg-indigo-950/80 border border-indigo-500/40 space-y-1">
+                          <div className="flex items-center justify-between text-[11px]">
+                            <span className="text-indigo-300 font-bold flex items-center gap-1">
+                              <GraduationCap className="w-3.5 h-3.5 text-indigo-400" />
+                              Reviewer Mode
+                            </span>
+                            <span className="text-emerald-400 font-bold">Full Access 🔓</span>
+                          </div>
+                          <p className="text-[10px] text-slate-300 leading-tight">
+                            All courses, lessons, quizzes & sandboxes unlocked for inspection.
+                          </p>
+                        </div>
+                      ) : subscription && (
                         <div className="mt-2 p-2 rounded-xl bg-slate-950 border border-slate-800/80 space-y-1">
                           <div className="flex items-center justify-between text-[11px]">
                             <span className="text-slate-400">Monthly Plan:</span>
@@ -211,6 +231,14 @@ export default function Navbar() {
               <div className="flex items-center gap-2">
                 <Link
                   to="/login"
+                  className="px-2.5 xl:px-3 py-1.5 xl:py-2 rounded-xl text-xs xl:text-sm font-bold bg-indigo-500/20 text-indigo-300 hover:bg-indigo-500/30 border border-indigo-500/40 transition-all flex items-center gap-1.5 whitespace-nowrap shadow-sm"
+                  title="Teacher Reviewer & Supervisor Access"
+                >
+                  <GraduationCap className="w-3.5 h-3.5 text-indigo-400" />
+                  <span>Teacher Review</span>
+                </Link>
+                <Link
+                  to="/login"
                   className="px-3 xl:px-4 py-1.5 xl:py-2 text-xs xl:text-sm font-semibold text-slate-300 hover:text-white transition-colors"
                 >
                   Log In
@@ -225,6 +253,7 @@ export default function Navbar() {
               </div>
             )}
           </div>
+
 
           {/* Mobile/Tablet Menu Button */}
           <div className="flex lg:hidden items-center gap-2">
@@ -319,23 +348,34 @@ export default function Navbar() {
                 </button>
               </div>
             ) : (
-              <div className="grid grid-cols-2 gap-2 pt-2">
+              <div className="space-y-2 pt-2">
                 <Link
                   to="/login"
                   onClick={() => setMobileOpen(false)}
-                  className="w-full text-center py-2.5 rounded-xl bg-slate-900 text-slate-200 text-sm font-semibold border border-slate-800"
+                  className="w-full text-center py-2.5 rounded-xl bg-indigo-950/80 text-indigo-300 border border-indigo-500/40 text-sm font-bold flex items-center justify-center gap-2"
                 >
-                  Log In
+                  <GraduationCap className="w-4 h-4 text-indigo-400" />
+                  <span>Teacher Review Access</span>
                 </Link>
-                <Link
-                  to="/signup"
-                  onClick={() => setMobileOpen(false)}
-                  className="w-full text-center py-2.5 rounded-xl bg-emerald-500 text-slate-950 text-sm font-semibold shadow-glow"
-                >
-                  Sign Up
-                </Link>
+                <div className="grid grid-cols-2 gap-2">
+                  <Link
+                    to="/login"
+                    onClick={() => setMobileOpen(false)}
+                    className="w-full text-center py-2.5 rounded-xl bg-slate-900 text-slate-200 text-sm font-semibold border border-slate-800"
+                  >
+                    Log In
+                  </Link>
+                  <Link
+                    to="/signup"
+                    onClick={() => setMobileOpen(false)}
+                    className="w-full text-center py-2.5 rounded-xl bg-emerald-500 text-slate-950 text-sm font-semibold shadow-glow"
+                  >
+                    Sign Up
+                  </Link>
+                </div>
               </div>
             )}
+
           </div>
         </div>
       )}

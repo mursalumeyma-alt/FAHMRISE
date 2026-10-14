@@ -43,24 +43,66 @@ function extractYouTubeVideoId(videoLesson) {
   return null;
 }
 
-export default function LessonVideoPlayer({ videoLesson }) {
+// English learning video IDs - strictly prohibited as fallbacks for Arabic, Kiswahili or other non-English language courses
+const ENGLISH_ONLY_VIDEO_IDS = new Set([
+  'RWLaMgeD8gU', 'juKd26qkNAw', 'iZnjTX_NHBQ', 'JOt10vhUtYE', 'I1Gt-4Qahdk', 'VxjFEj0dx18'
+]);
+
+function isMismatchedLanguageVideo(videoLesson, courseId, courseLanguage) {
+  if (!videoLesson) return true;
+  const courseKey = String(courseId || courseLanguage || '').toLowerCase();
+  const isTargetArabic = courseKey.includes('arabic') || videoLesson.language === 'arabic';
+  const isTargetSwahili = courseKey.includes('swahili') || courseKey.includes('kiswahili') || videoLesson.language === 'swahili';
+
+  const extractedId = extractYouTubeVideoId(videoLesson);
+
+  if (isTargetArabic || isTargetSwahili) {
+    // English video ID passed to Arabic or Swahili lesson
+    if (extractedId && ENGLISH_ONLY_VIDEO_IDS.has(extractedId)) {
+      return true;
+    }
+    // Channel is EnglishClass101
+    const channel = String(videoLesson.channel || '').toLowerCase();
+    if (channel.includes('englishclass101') || (channel.includes('english') && !channel.includes('arabic') && !channel.includes('swahili'))) {
+      return true;
+    }
+    // Title explicitly says English without mentioning Arabic or Swahili
+    const title = String(videoLesson.title || '').toLowerCase();
+    if (title.includes('english alphabet') || title.includes('learn english') || (title.includes('english') && !title.includes('arabic') && !title.includes('swahili'))) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguage }) {
   const [isPlayerVisible, setIsPlayerVisible] = useState(true);
   const [showTranscript, setShowTranscript] = useState(false);
   const [retryKey, setRetryKey] = useState(0);
 
+  const isLanguageMismatched = useMemo(
+    () => isMismatchedLanguageVideo(videoLesson, courseId, courseLanguage),
+    [videoLesson, courseId, courseLanguage]
+  );
+
   // Extract clean 11-character YouTube video ID
-  const videoId = useMemo(() => extractYouTubeVideoId(videoLesson), [videoLesson]);
+  const videoId = useMemo(() => {
+    if (isLanguageMismatched) return null;
+    return extractYouTubeVideoId(videoLesson);
+  }, [videoLesson, isLanguageMismatched]);
 
   // Derive genuine watch URL and embed URL safely
   const embedUrl = useMemo(() => {
-    if (!videoId) return null;
+    if (!videoId || isLanguageMismatched) return null;
     return `https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1&enablejsapi=1`;
-  }, [videoId]);
+  }, [videoId, isLanguageMismatched]);
 
   const watchUrl = useMemo(() => {
+    if (isLanguageMismatched) return null;
     if (videoId) return `https://www.youtube.com/watch?v=${videoId}`;
     return videoLesson?.watchUrl || videoLesson?.url || null;
-  }, [videoId, videoLesson]);
+  }, [videoId, videoLesson, isLanguageMismatched]);
 
   // Reset states whenever a new video or lesson is loaded
   useEffect(() => {
@@ -172,18 +214,22 @@ export default function LessonVideoPlayer({ videoLesson }) {
                 className="w-full h-full border-0"
               />
             ) : (
-              /* Clean Video Banner when direct embedding is not available */
-              <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center space-y-3 bg-slate-950">
-                <div className="w-12 h-12 rounded-2xl bg-teal-500/10 border border-teal-500/20 text-teal-400 flex items-center justify-center">
-                  <Play className="w-6 h-6 ml-0.5" />
+              /* Clean Video Unavailable Banner */
+              <div className="w-full h-full min-h-[220px] flex flex-col items-center justify-center p-6 text-center space-y-3 bg-slate-950">
+                <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-amber-400 flex items-center justify-center">
+                  <Play className="w-6 h-6 ml-0.5 opacity-60" />
                 </div>
                 <div className="space-y-1">
-                  <p className="text-sm font-bold text-white">{videoLesson.title || 'Video Lecture Available'}</p>
+                  <p className="text-sm font-bold text-white">
+                    {isLanguageMismatched ? 'Video Unavailable for This Language' : 'Video Lecture Unavailable'}
+                  </p>
                   <p className="text-xs text-slate-400 max-w-md mx-auto">
-                    You can watch this video lecture on YouTube or study the lesson notes and vocabulary below.
+                    {isLanguageMismatched
+                      ? 'This lesson requires dedicated native audio and does not use an unverified fallback video. Structured lesson notes, vocabulary, and interactive exercises are provided below.'
+                      : 'Video lecture is currently unavailable for this lesson. Comprehensive study notes, vocabulary, and interactive practice exercises are fully self-contained below.'}
                   </p>
                 </div>
-                {watchUrl && (
+                {watchUrl && !isLanguageMismatched && (
                   <a
                     href={watchUrl}
                     target="_blank"
@@ -214,7 +260,7 @@ export default function LessonVideoPlayer({ videoLesson }) {
                 className="text-teal-400 hover:text-teal-300 font-semibold underline underline-offset-2 flex items-center gap-1 flex-shrink-0"
               >
                 <BookOpen className="w-3.5 h-3.5 text-teal-400" />
-                <span>{videoLesson.sourceName || 'Somali Lessons'}</span>
+                <span>{videoLesson.sourceName || 'Verified Open Learning Portal'}</span>
               </a>
             )}
           </div>

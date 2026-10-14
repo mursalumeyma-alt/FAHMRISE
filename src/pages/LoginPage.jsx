@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { LogIn, Sparkles, ShieldCheck, ArrowRight, Lock, Mail, ChevronRight } from 'lucide-react';
+import { LogIn, Sparkles, ShieldCheck, ArrowRight, Lock, Mail, ChevronRight, GraduationCap } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import Alert from '../components/common/Alert';
 
 export default function LoginPage() {
-  const { login, loginDemo } = useAuth();
+  const { login, loginDemo, loginTeacherReviewer } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -44,6 +44,19 @@ export default function LoginPage() {
     }
   };
 
+  const handleTeacherReviewerLogin = async () => {
+    setError(null);
+    setLoading(true);
+    try {
+      await loginTeacherReviewer();
+      navigate(redirect);
+    } catch (err) {
+      setError('Teacher review access login failed: ' + (err.message || 'Please try again.'));
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-6">
@@ -62,24 +75,54 @@ export default function LoginPage() {
           <p className="text-xs text-slate-400">Understand. Learn. Rise. Sign in to your account.</p>
         </div>
 
-        {/* 1-Click Demo Evaluation Box */}
-        <div className="p-4 bg-gradient-to-r from-emerald-950/60 to-amber-950/40 border border-emerald-500/40 rounded-2xl space-y-2.5 shadow-lg">
-          <div className="flex items-center gap-2 text-xs font-bold text-emerald-400">
-            <Sparkles className="w-4 h-4 text-emerald-400" />
-            <span>Instant Evaluation / Demo Access</span>
+        {/* Clearly Labelled Teacher Demo / Reviewer Access Card */}
+        <div className="p-5 bg-gradient-to-r from-blue-950/80 via-indigo-950/70 to-slate-900 border-2 border-indigo-500/60 rounded-2xl space-y-3 shadow-2xl relative overflow-hidden">
+          <div className="absolute top-0 right-0 px-3 py-1 bg-indigo-500 text-slate-950 font-black text-[10px] uppercase tracking-wider rounded-bl-xl shadow">
+            Supervisor & Teacher Pass
           </div>
-          <p className="text-[11px] text-slate-300">
-            Click below to instantly log in as <strong>Demo Learner</strong> (demo@fahmrise.com).
+          <div className="flex items-center gap-2 text-sm font-black text-indigo-300">
+            <GraduationCap className="w-5 h-5 text-indigo-400" />
+            <span>Teacher Demo / Reviewer Access</span>
+          </div>
+          <p className="text-xs text-slate-200 leading-relaxed">
+            Specially configured for teachers and reviewers. Inspect all courses across <strong>Technology</strong>, <strong>Islamic Studies</strong>, <strong>Business</strong>, and <strong>International Languages</strong> with zero payment locks, pre-loaded sample coursework, full reader access, quizzes, and live progress tracking.
           </p>
+          <div className="pt-1">
+            <button
+              type="button"
+              onClick={handleTeacherReviewerLogin}
+              disabled={loading}
+              className="w-full py-3 px-4 bg-gradient-to-r from-indigo-500 to-teal-400 hover:from-indigo-400 hover:to-teal-300 text-slate-950 font-black text-xs sm:text-sm rounded-xl shadow-lg transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2"
+            >
+              <GraduationCap className="w-4 h-4 text-slate-950" />
+              <span>🎓 Enter as Teacher Reviewer (1-Click Demo)</span>
+            </button>
+          </div>
+          <div className="flex items-center justify-between text-[11px] text-slate-400 pt-1.5 border-t border-indigo-900/50">
+            <span>Email: <code className="text-indigo-300 font-mono">teacher@fahmrise.com</code></span>
+            <span>Password: <code className="text-indigo-300 font-mono">teacher123</code></span>
+          </div>
+        </div>
+
+        {/* 1-Click Demo Evaluation Box */}
+        <div className="p-4 bg-slate-900/80 border border-slate-800 rounded-2xl space-y-2 shadow-lg">
+          <div className="flex items-center justify-between text-xs font-bold text-slate-300">
+            <span className="flex items-center gap-1.5 text-emerald-400">
+              <Sparkles className="w-3.5 h-3.5 text-emerald-400" />
+              <span>Standard Student Demo</span>
+            </span>
+            <span className="text-[10px] text-slate-500 font-mono">demo@fahmrise.com</span>
+          </div>
           <button
             type="button"
             onClick={handleDemoLogin}
             disabled={loading}
-            className="w-full py-2.5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-xs rounded-xl shadow-glow transition-all flex items-center justify-center gap-2"
+            className="w-full py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs rounded-xl transition-all flex items-center justify-center gap-1.5 border border-slate-700"
           >
-            <span>⚡ 1-Click Demo Login</span>
+            <span>⚡ Log In as Demo Learner</span>
           </button>
         </div>
+
 
         {/* Main Login Form */}
         <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 space-y-6 shadow-xl">

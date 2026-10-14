@@ -27,11 +27,14 @@ import {
   CheckCircle,
   Video,
   BookMarked,
-  ExternalLink
+  ExternalLink,
+  GraduationCap
 } from 'lucide-react';
+
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useProgress } from '../context/ProgressContext';
+import { CoursesDB } from '../data/coursesData';
 import AiTutorDrawer from '../components/ai/AiTutorDrawer';
 import Badge from '../components/common/Badge';
 import AudioPlayer from '../components/common/AudioPlayer';
@@ -246,7 +249,17 @@ export default function ReaderPage() {
   const params = useParams();
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
-  const { user, isEnrolledIn, subscription, isSubscriptionActive, renewSubscription, refreshSubscription } = useAuth();
+  const { 
+    user, 
+    isEnrolledIn, 
+    subscription, 
+    isSubscriptionActive, 
+    isTeacherReviewer, 
+    loginTeacherReviewer,
+    renewSubscription, 
+    refreshSubscription 
+  } = useAuth();
+
   const { progress, markLessonComplete, isLessonCompleted, isSmallLessonCompleted, fetchProgress } = useProgress();
 
   // Resolve bookId and lessonId safely
@@ -273,7 +286,13 @@ export default function ReaderPage() {
       targetBookId = 'data-analysis-spreadsheets';
     } else if (raw === 'backend-developer-zero-to-job-ready' || raw === 'backend-developer' || raw === 'backend-job-ready' || raw === 'backend' || raw === 'node-backend' || raw === 'express-backend' || raw === 'node-from-zero' || raw === 'express-from-zero' || raw === 'backend-engineering') {
       targetBookId = 'backend-developer-zero-to-job-ready';
-    } else if (raw === 'frontend-developer-zero-to-job-ready' || raw === 'frontend-developer' || raw === 'frontend-job-ready' || raw === 'frontend' || raw === 'html-from-zero' || raw === 'css-from-zero' || raw === 'javascript-from-zero' || raw === 'react-frontend' || raw === 'web-development' || raw === 'web-dev') {
+    } else if (raw === 'html-from-zero' || raw === 'html' || raw === 'learn-html') {
+      targetBookId = 'html-from-zero';
+    } else if (raw === 'css-from-zero' || raw === 'css' || raw === 'learn-css') {
+      targetBookId = 'css-from-zero';
+    } else if (raw === 'javascript-from-zero' || raw === 'javascript' || raw === 'learn-javascript' || raw === 'js-from-zero') {
+      targetBookId = 'javascript-from-zero';
+    } else if (raw === 'frontend-developer-zero-to-job-ready' || raw === 'frontend-developer' || raw === 'frontend-job-ready' || raw === 'frontend' || raw === 'react-frontend' || raw === 'web-development' || raw === 'web-dev') {
       targetBookId = 'frontend-developer-zero-to-job-ready';
     } else if (raw === 'cybersecurity-fundamentals' || raw === 'digital-safety' || raw === 'cyber-security' || raw === 'cybersecurity' || raw === 'online-safety') {
       targetBookId = 'cybersecurity-fundamentals';
@@ -293,7 +312,7 @@ export default function ReaderPage() {
       targetBookId = 'islamic-manners-and-duas';
     } else if (raw === 'quran-tajweed-from-zero' || raw === 'tajweed-from-zero' || raw === 'tajweed' || raw === 'quran-recitation' || raw === 'quran-recitation-and-tajweed' || raw === 'huruf-al-hijaa') {
       targetBookId = 'quran-tajweed-from-zero';
-    } else if (raw === 'arabic-language-learning' || raw === 'arabic-language-from-zero' || raw === 'arabic-language-mastery' || raw === 'learn-arabic' || raw === 'arabic') {
+    } else if (raw === 'arabic-language-learning' || raw === 'arabic-language-from-zero' || raw === 'arabic-language-mastery' || raw === 'learn-arabic' || raw === 'arabic' || raw === 'international-languages' || raw === 'languages') {
       targetBookId = 'arabic-language-learning';
     } else if (raw === 'english-language-learning' || raw === 'english-language-skills' || raw === 'english-language' || raw === 'learn-english' || raw === 'english') {
       targetBookId = 'english-language-learning';
@@ -301,6 +320,10 @@ export default function ReaderPage() {
       targetBookId = 'french-language-learning';
     } else if (raw === 'swahili-language-learning' || raw === 'swahili-language-skills' || raw === 'swahili-language' || raw === 'kiswahili-skills' || raw === 'learn-swahili' || raw === 'swahili' || raw === 'kiswahili') {
       targetBookId = 'swahili-language-learning';
+    } else if (raw === 'japanese-language-learning' || raw === 'japanese-language' || raw === 'learn-japanese' || raw === 'japanese' || raw === 'nihongo') {
+      targetBookId = 'japanese-language-learning';
+    } else if (raw === 'somali-language-learning' || raw === 'somali-language' || raw === 'learn-somali' || raw === 'somali' || raw === 'af-somali') {
+      targetBookId = 'somali-language-learning';
     }
     // 2. Check if params.bookId is a single standalone lesson ID (e.g. /reader/data-1 or /reader/pbi-3)
     else if (/^m\d+-l\d+$/i.test(raw) || /^ar-\d+$/i.test(raw)) {
@@ -314,6 +337,12 @@ export default function ReaderPage() {
       targetLessonId = raw;
     } else if (/^sw-\d+$/i.test(raw)) {
       targetBookId = 'swahili-language-learning';
+      targetLessonId = raw;
+    } else if (/^jp-\d+$/i.test(raw) || /^ja-\d+$/i.test(raw)) {
+      targetBookId = 'japanese-language-learning';
+      targetLessonId = raw;
+    } else if (/^so-\d+$/i.test(raw)) {
+      targetBookId = 'somali-language-learning';
       targetLessonId = raw;
     } else if (/^pbi-\d+$/i.test(raw)) {
       targetBookId = 'power-bi-business-intelligence';
@@ -396,9 +425,12 @@ export default function ReaderPage() {
   useEffect(() => {
     async function loadData() {
       setLoading(true);
+      setCurrentLesson(null);
+      setPrevLesson(null);
+      setNextLesson(null);
       try {
         const bookData = await api.books.getById(targetBookId);
-        const loadedCourse = bookData.course || bookData.book;
+        const loadedCourse = (bookData && (bookData.course || bookData.book)) || CoursesDB.getCourseById(targetBookId);
         setCourse(loadedCourse);
 
         // Determine active lesson ID with robust fallback
@@ -415,7 +447,7 @@ export default function ReaderPage() {
           setCurrentLesson(lessonData.lesson);
           setPrevLesson(lessonData.prevLesson);
           setNextLesson(lessonData.nextLesson);
-          setIsLocked(lessonData.isLocked);
+          setIsLocked(isTeacherReviewer ? false : Boolean(lessonData.isLocked));
           setLockReason(lessonData.lockReason);
 
           if (lessonData.lesson?.id) {
@@ -429,7 +461,7 @@ export default function ReaderPage() {
             setCurrentLesson(fallbackLessonData.lesson);
             setPrevLesson(fallbackLessonData.prevLesson);
             setNextLesson(fallbackLessonData.nextLesson);
-            setIsLocked(fallbackLessonData.isLocked);
+            setIsLocked(isTeacherReviewer ? false : Boolean(fallbackLessonData.isLocked));
             setLockReason(fallbackLessonData.lockReason);
             if (firstLesson.id) {
               setOpenChapters(prev => ({ ...prev, [firstLesson.id]: true }));
@@ -461,7 +493,8 @@ export default function ReaderPage() {
     }
     loadData();
     window.scrollTo(0, 0);
-  }, [targetBookId, targetLessonId, subscription]);
+  }, [targetBookId, targetLessonId, subscription, isTeacherReviewer]);
+
 
   // Handle small lesson parameter synchronization
   const handleSelectSmallLesson = (index) => {
@@ -756,55 +789,62 @@ export default function ReaderPage() {
         {/* Main Content Area */}
         <main className="flex-1 px-4 sm:px-8 lg:px-12 py-8 max-w-4xl space-y-8">
           
-          {isLocked ? (
+          {isLocked && !isTeacherReviewer ? (
             /* LOCKED LESSON PROMPT */
-            <div className="p-8 sm:p-12 rounded-3xl bg-slate-900/90 border border-rose-500/40 text-center space-y-6 my-12 shadow-2xl">
-              <div className="w-16 h-16 rounded-2xl bg-rose-500/20 text-rose-400 border border-rose-500/40 flex items-center justify-center mx-auto">
+            <div className="p-8 sm:p-12 rounded-3xl bg-slate-900/90 border border-indigo-500/40 text-center space-y-6 my-12 shadow-2xl animate-in fade-in">
+              <div className="w-16 h-16 rounded-2xl bg-indigo-500/20 text-indigo-400 border border-indigo-500/40 flex items-center justify-center mx-auto">
                 <Lock className="w-8 h-8" />
               </div>
 
               <div className="space-y-2">
-                <span className="text-xs uppercase font-bold tracking-wider text-rose-400">
-                  {lockReason === 'subscription_expired' ? 'Subscription Expired • Progress Preserved' : 'Monthly Subscription Required'}
+                <span className="text-xs uppercase font-bold tracking-wider text-indigo-400">
+                  Course Enrollment Required
                 </span>
                 <h2 className="text-2xl font-black text-white">
                   Unlock Chapter {currentLesson.number}: {currentLesson.title}
                 </h2>
                 <p className="text-xs sm:text-sm text-slate-300 max-w-md mx-auto leading-relaxed">
-                  This chapter is part of the <strong>{course.title}</strong> premium curriculum. 
+                  This chapter is part of the <strong>{course.title}</strong> curriculum. Enroll to access all reading chapters, interactive exercises, code sandboxes, and completion certificates.
                 </p>
                 <div className="p-3 bg-slate-950 rounded-2xl border border-slate-800 text-xs text-emerald-400 max-w-md mx-auto">
-                  💾 <strong>Learning Progress Safe</strong>: Your completed chapters and quiz scores are saved. Renewing immediately restores full reading access.
+                  💾 <strong>Learning Progress Safe</strong>: Your completed chapters and quiz scores are preserved.
                 </div>
               </div>
 
               <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
-                <button
-                  onClick={handleQuickRenew}
-                  disabled={renewing}
-                  className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-extrabold text-sm flex items-center justify-center gap-2"
+                <Link
+                  to={`/checkout/${course.id}`}
+                  className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-sm shadow-glow flex items-center justify-center gap-2 transition-all transform hover:-translate-y-0.5"
                 >
-                  {renewing ? (
-                    <>
-                      <RefreshCw className="w-4 h-4 animate-spin" />
-                      <span>Renewing...</span>
-                    </>
-                  ) : (
-                    <>
-                      <Unlock className="w-4 h-4" />
-                      <span>Renew Subscription — KSh 350</span>
-                    </>
-                  )}
+                  <Unlock className="w-4 h-4" />
+                  <span>{course.id.includes('arabic') ? 'Upgrade to Arabic Track' : 'Enroll in Course'} {course.price ? `(KSh ${course.price.toLocaleString()})` : '(Free)'}</span>
+
+                </Link>
+
+                <button
+                  onClick={async () => {
+                    try {
+                      await loginTeacherReviewer();
+                      setIsLocked(false);
+                    } catch (err) {
+                      navigate('/login');
+                    }
+                  }}
+                  className="w-full sm:w-auto px-5 py-3.5 rounded-xl bg-gradient-to-r from-indigo-500 to-teal-400 hover:from-indigo-400 hover:to-teal-300 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-md transition-all transform hover:-translate-y-0.5"
+                >
+                  <GraduationCap className="w-4 h-4 text-slate-950" />
+                  <span>🎓 Teacher Reviewer Unlock (1-Click)</span>
                 </button>
 
                 <Link
                   to={`/reader/${targetBookId}/${course.lessons[0]?.id || 'lesson-1'}`}
-                  className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-slate-800 text-slate-300 hover:text-white text-xs font-semibold"
+                  className="w-full sm:w-auto px-5 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold border border-slate-700"
                 >
                   Read Free Preview (Lesson 1)
                 </Link>
               </div>
             </div>
+
           ) : (
             /* UNLOCKED LESSON CONTENT */
             <>
@@ -1153,10 +1193,25 @@ export default function ReaderPage() {
                     </div>
                   )}
 
-                  {/* Resilient English Video Lesson Player (if available) */}
-                  {currentLesson.videoLesson && (
-                    <LessonVideoPlayer videoLesson={currentLesson.videoLesson} />
-                  )}
+                  {/* Resilient Video Lesson Player */}
+                  {currentLesson.videoLesson ? (
+                    <LessonVideoPlayer 
+                      key={`${targetBookId}-${currentLesson.id}`}
+                      videoLesson={currentLesson.videoLesson} 
+                      courseId={targetBookId}
+                      courseLanguage={course?.category === 'International Languages' ? targetBookId : null}
+                    />
+                  ) : (course?.category === 'International Languages' && (
+                    <div className="my-6 p-5 sm:p-6 rounded-3xl bg-slate-900/95 border border-slate-800 shadow-2xl space-y-3">
+                      <div className="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-wider">
+                        <Play className="w-4 h-4 opacity-70" />
+                        <span>Video Lecture Unavailable</span>
+                      </div>
+                      <p className="text-xs text-slate-300">
+                        A dedicated native-language video lecture is currently being prepared for this chapter. The complete lesson notes, vocabulary bank, dialogues, and practice drills below are fully self-contained.
+                      </p>
+                    </div>
+                  ))}
 
                   {/* Lesson Body Rendered Markdown */}
                   <div className="prose prose-invert max-w-none text-slate-300 space-y-6 text-sm sm:text-base leading-relaxed">

@@ -3,12 +3,25 @@ import {
   HelpCircle, 
   Coins, 
   ArrowRight,
-  HeartHandshake
+  HeartHandshake,
+  Sparkles,
+  ShieldCheck,
+  CheckCircle2
 } from 'lucide-react';
 import CoachApplicationModal from '../components/coach/CoachApplicationModal';
+import CoachApplicationForm from '../components/coach/CoachApplicationForm';
 
 export default function BecomeCoachPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const scrollToApply = () => {
+    const el = document.getElementById('apply-section');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      setIsModalOpen(true);
+    }
+  };
 
   const faqs = [
     {
@@ -17,7 +30,7 @@ export default function BecomeCoachPage() {
     },
     {
       q: "How are the coaching rates decided?",
-      a: "Applicants propose their preferred rate and teaching format during the application process. Final terms and scheduling are confirmed with FAHMRISE academic administrators upon review and approval."
+      a: "FAHMRISE establishes standard suggested starting prices per category (e.g. KSh 1,500 for Qur’an Recitation, Arabic, and Islamic Studies; KSh 2,500 for Technology; KSh 2,000 for Business; and KSh 500–1,000 for Small Groups). These are suggested starting prices, not guaranteed earnings or compulsory prices. Coaches may propose a different rate during application, subject to FAHMRISE review and approval."
     },
     {
       q: "Is my application data kept private?",
@@ -28,8 +41,8 @@ export default function BecomeCoachPage() {
       a: "Profiles are not automatically published. Our academic team reviews every application to ensure curriculum alignment and quality standards before granting verified coach privileges."
     },
     {
-      q: "How do payouts work in Kenya and East Africa?",
-      a: "Coaching earnings will be disbursed transparently in Kenyan Shillings (KSh) through supported mobile money (M-Pesa) and direct bank transfers."
+      q: "How do platform commission and payouts work in Kenya and East Africa?",
+      a: "FAHMRISE operates on a transparent 70/30 revenue split: coaches receive 70% of gross tuition, while a 30% platform commission covers student discovery, secure M-Pesa automated processing, and live interactive video tools. Earnings are disbursed transparently in Kenyan Shillings (KSh) via M-Pesa and direct bank transfers without upfront listing fees."
     }
   ];
 
@@ -37,7 +50,7 @@ export default function BecomeCoachPage() {
     <div className="min-h-screen bg-slate-950 text-slate-100">
       
       {/* Page Hero */}
-      <div className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-slate-900 via-slate-950 to-slate-950 border-b border-slate-800">
+      <div className="relative py-16 sm:py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-slate-900 via-slate-950 to-slate-950 border-b border-slate-800">
         <div className="max-w-5xl mx-auto text-center relative z-10">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-6">
             <HeartHandshake className="w-4 h-4 text-emerald-400" />
@@ -57,15 +70,29 @@ export default function BecomeCoachPage() {
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <button
-              onClick={() => setIsModalOpen(true)}
-              className="px-8 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm rounded-xl transition-all shadow-xl shadow-emerald-950/50 flex items-center gap-2 cursor-pointer hover:scale-105"
+              onClick={scrollToApply}
+              className="px-8 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm rounded-xl transition-all shadow-xl shadow-emerald-950/50 flex items-center gap-2 cursor-pointer hover:scale-105 active:scale-95"
             >
               <Coins className="w-4 h-4" />
               <span>Apply to Become a Coach</span>
             </button>
+            <button
+              onClick={() => setIsModalOpen(true)}
+              className="px-6 py-3.5 bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white font-semibold text-sm rounded-xl transition-all border border-slate-700 flex items-center gap-2 cursor-pointer"
+            >
+              <Sparkles className="w-4 h-4 text-teal-400" />
+              <span>Open Quick Modal</span>
+            </button>
           </div>
         </div>
       </div>
+
+      {/* RESTORED ORIGINAL SECTION: Apply to Become a FAHMRISE Coach */}
+      <section id="apply-section" className="py-16 px-4 sm:px-6 lg:px-8 border-b border-slate-850 bg-slate-950/70 scroll-mt-10">
+        <div className="max-w-4xl mx-auto">
+          <CoachApplicationForm isModal={false} />
+        </div>
+      </section>
 
       {/* FAQs Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
@@ -95,8 +122,8 @@ export default function BecomeCoachPage() {
             Submit your application today. Our academic review committee will review your proposal and get in touch with you.
           </p>
           <button
-            onClick={() => setIsModalOpen(true)}
-            className="px-8 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm rounded-xl transition-all shadow-lg shadow-emerald-950/40 inline-flex items-center gap-2"
+            onClick={scrollToApply}
+            className="px-8 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm rounded-xl transition-all shadow-lg shadow-emerald-950/40 inline-flex items-center gap-2 cursor-pointer hover:scale-105 active:scale-95"
           >
             <span>Express Your Interest Now</span>
             <ArrowRight className="w-4 h-4" />

@@ -9,6 +9,37 @@ export const INTERNATIONAL_LANGUAGES_TRACK = {
   category: 'International Languages',
   languages: [
     {
+      id: 'arabic-language-learning',
+      courseId: 'arabic-language-learning',
+      language: 'Arabic',
+      nativeTitle: 'العَرَبِيَّة',
+      flag: '🇸🇦',
+      title: 'Arabic Language Learning',
+      subtitle: 'Learn Arabic letters, pronunciation, vocabulary, grammar, reading, and conversation through a dedicated language-learning curriculum.',
+      description: 'Develop practical language skills through structured lessons in reading, writing, pronunciation, vocabulary, grammar, listening, and conversation across world languages.',
+      status: 'available',
+      isAvailable: true,
+      isComingSoon: false,
+      badge: 'Separate Upgrade • Arabic Track',
+      badgeColor: 'emerald',
+      price: 5000,
+      priceDisplay: 'KSh 5,000 (Separate Upgrade)',
+      estimatedHours: '40 – 60 Hours',
+      totalLessons: 37,
+      totalModules: 5,
+      level: 'Beginner to Intermediate',
+      coverColor: 'from-cyan-700 via-teal-800 to-slate-900',
+      actionUrl: '/reader/arabic-language-learning',
+      courseUrl: '/courses/arabic-language-learning',
+      syllabusSummary: [
+        'Arabic Alphabet, Vowels & Phonetics (Huruf & Makharij)',
+        'Essential Vocabulary & Triliteral Root System',
+        'Applied Grammar & Morphology (Nahw & Sarf)',
+        'Everyday Conversational Fluency & Dialogues',
+        'Reading Classical Texts & Sacred Literature'
+      ]
+    },
+    {
       id: 'english-language-learning',
       courseId: 'english-language-learning',
       language: 'English',
@@ -102,37 +133,6 @@ export const INTERNATIONAL_LANGUAGES_TRACK = {
         'Sentence Building, Noun Classes (Ngeli) & Tense Markers',
         'Swahili Listening Comprehension & Spoken Nuance',
         'Practical Swahili Conversations & Marketplace Scenarios'
-      ]
-    },
-    {
-      id: 'arabic-language-learning',
-      courseId: 'arabic-language-learning',
-      language: 'Arabic',
-      nativeTitle: 'العَرَبِيَّة',
-      flag: '🇸🇦',
-      title: 'Arabic Language Learning',
-      subtitle: 'Learn Arabic letters, pronunciation, vocabulary, grammar, reading, and conversation through a dedicated language-learning curriculum.',
-      description: 'Develop practical language skills through structured lessons in reading, writing, pronunciation, vocabulary, grammar, listening, and conversation across world languages.',
-      status: 'available',
-      isAvailable: true,
-      isComingSoon: false,
-      badge: 'Available Now • 100% Free',
-      badgeColor: 'emerald',
-      price: 0,
-      priceDisplay: 'Free',
-      estimatedHours: '40 – 60 Hours',
-      totalLessons: 37,
-      totalModules: 5,
-      level: 'Beginner to Intermediate',
-      coverColor: 'from-cyan-700 via-teal-800 to-slate-900',
-      actionUrl: '/reader/arabic-language-learning',
-      courseUrl: '/courses/arabic-language-learning',
-      syllabusSummary: [
-        'Arabic Alphabet, Vowels & Phonetics (Huruf & Makharij)',
-        'Essential Vocabulary & Triliteral Root System',
-        'Applied Grammar & Morphology (Nahw & Sarf)',
-        'Everyday Conversational Fluency & Dialogues',
-        'Reading Classical Texts & Sacred Literature'
       ]
     },
     {
@@ -943,7 +943,7 @@ export const ARABIC_TRACK_DATA = {
   nativeTitle: 'العَرَبِيَّة',
   flag: '🇸🇦',
   arabicTitle: 'العَرَبِيَّة',
-  badge: 'Available Now • 100% Free',
+  badge: 'Separate Upgrade • Arabic Track',
   subtitle: 'Learn Arabic letters, pronunciation, vocabulary, grammar, reading, and conversation through a dedicated language-learning curriculum.',
   trackDescription: 'Develop practical language skills through structured courses in reading, writing, pronunciation, vocabulary, grammar, listening, and conversation.',
   tagline: 'Understand. Learn. Rise.',
@@ -951,8 +951,8 @@ export const ARABIC_TRACK_DATA = {
   subCategory: 'Arabic Language',
   level: 'Beginner to Intermediate',
   estimatedHours: '40 – 60 Hours (Self-Paced)',
-  price: 0,
-  priceDisplay: 'Free',
+  price: 5000,
+  priceDisplay: 'KSh 5,000 (Separate Upgrade)',
   targetAudience: 'Designed for beginners seeking practical reading, comprehension, and conversational fluency in Arabic from zero.',
   
   learningOutcomes: [
