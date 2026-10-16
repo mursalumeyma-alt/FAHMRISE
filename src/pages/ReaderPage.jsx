@@ -28,7 +28,9 @@ import {
   Video,
   BookMarked,
   ExternalLink,
-  GraduationCap
+  GraduationCap,
+  Info,
+  Layers
 } from 'lucide-react';
 
 import { api } from '../services/api';
@@ -241,6 +243,108 @@ function renderMarkdownBlock(paragraph, pIdx, copySnippet, copiedIndex) {
       {lines.map((line, lIdx) => (
         <p key={lIdx}>{renderInlineMarkdown(line)}</p>
       ))}
+    </div>
+  );
+}
+
+// Standalone 28-Letter Arabic Orthography & Positional Forms Table Component
+function ArabicOrthographyGuide({ guide }) {
+  if (!guide || !guide.letters) return null;
+  return (
+    <div className="my-8 p-6 sm:p-8 rounded-3xl bg-slate-900/95 border border-teal-500/40 shadow-2xl space-y-6">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-slate-800">
+        <div>
+          <h3 className="text-xl sm:text-2xl font-black text-white flex items-center gap-2.5">
+            <Layers className="w-6 h-6 text-teal-400" />
+            <span>The 28 Letters of the Arabic Alphabet</span>
+          </h3>
+          <p className="text-xs sm:text-sm text-slate-300 mt-1">
+            Complete Right-to-Left (RTL) consonant inventory with Isolated, Initial, Medial, and Final cursive forms.
+          </p>
+        </div>
+        <span className="text-xs font-mono px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 border border-teal-500/30 font-bold self-start sm:self-center">
+          28 Letters • RTL Cursive
+        </span>
+      </div>
+
+      {/* 28 Letters Positional Table */}
+      <div className="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-950">
+        <table className="w-full text-left text-xs sm:text-sm">
+          <thead className="bg-slate-900/90 text-slate-300 font-bold uppercase tracking-wider text-[11px] border-b border-slate-800">
+            <tr>
+              <th className="py-3 px-4">#</th>
+              <th className="py-3 px-4">Letter</th>
+              <th className="py-3 px-4">Name</th>
+              <th className="py-3 px-4">Translit.</th>
+              <th className="py-3 px-4 text-center">Isolated</th>
+              <th className="py-3 px-4 text-center">Initial</th>
+              <th className="py-3 px-4 text-center">Medial</th>
+              <th className="py-3 px-4 text-center">Final</th>
+              <th className="py-3 px-4">Type</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-slate-850 font-mono text-slate-200">
+            {guide.letters.map((item, idx) => (
+              <tr key={idx} className="hover:bg-slate-900/60 transition-colors">
+                <td className="py-3 px-4 text-slate-500 text-xs">{idx + 1}</td>
+                <td className="py-3 px-4 font-serif text-2xl text-teal-300 font-bold" dir="rtl">{item.isolated}</td>
+                <td className="py-3 px-4 font-sans font-semibold text-white">{item.name}</td>
+                <td className="py-3 px-4 text-slate-400">{item.trans}</td>
+                <td className="py-3 px-4 text-center font-serif text-2xl text-emerald-300" dir="rtl">{item.isolated}</td>
+                <td className="py-3 px-4 text-center font-serif text-2xl text-cyan-300" dir="rtl">{item.initial}</td>
+                <td className="py-3 px-4 text-center font-serif text-2xl text-teal-300" dir="rtl">{item.medial}</td>
+                <td className="py-3 px-4 text-center font-serif text-2xl text-amber-300" dir="rtl">{item.final}</td>
+                <td className="py-3 px-4 font-sans">
+                  {item.nonConnector ? (
+                    <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 font-bold">
+                      Non-Connector
+                    </span>
+                  ) : (
+                    <span className="text-[10px] px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700">
+                      Connector
+                    </span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      {/* The 6 Non-Connecting Letters Rule */}
+      <div className="p-5 sm:p-6 rounded-2xl bg-amber-950/30 border border-amber-500/40 space-y-2.5">
+        <h4 className="text-sm sm:text-base font-bold text-amber-300 flex items-center gap-2">
+          <Info className="w-4 h-4 text-amber-400" />
+          <span>The 6 Non-Connecting Letters (حروف القطع)</span>
+        </h4>
+        <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">
+          In Arabic, 6 letters connect only from the right (to preceding letters), but <strong>NEVER</strong> connect forward to following letters on the left:
+          <strong className="text-amber-200 font-serif text-xl mx-2" dir="rtl">ا ، د ، ذ ، ر ، ز ، و</strong>
+          (Alif, Dāl, Dhāl, Rā', Zāy, and Wāw / Waw). Any letter appearing after one of these six must begin in its initial or isolated form.
+        </p>
+      </div>
+
+      {/* Difference Between Alif and Hamzah */}
+      <div className="p-5 sm:p-6 rounded-2xl bg-teal-950/40 border border-teal-500/40 space-y-2.5">
+        <h4 className="text-sm sm:text-base font-bold text-teal-300 flex items-center gap-2">
+          <CheckCircle2 className="w-4 h-4 text-teal-400" />
+          <span>Difference Between Alif (ا) and Hamzah (ء)</span>
+        </h4>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-200 leading-relaxed">
+          <div className="p-3.5 bg-slate-950/80 rounded-xl border border-slate-800 space-y-1">
+            <span className="font-bold text-teal-400 text-sm">Hamzah (ء / أ / إ / ؤ / ئ)</span>
+            <p className="text-slate-300">
+              A true consonant representing a phonetic glottal stop (/ʔ/). It carries short vowels (Fathah, Kasrah, Dammah) or Sukun and can initiate a word (e.g. <span className="font-serif text-base text-teal-200" dir="rtl">أَكَلَ</span>).
+            </p>
+          </div>
+          <div className="p-3.5 bg-slate-950/80 rounded-xl border border-slate-800 space-y-1">
+            <span className="font-bold text-cyan-400 text-sm">Alif (ا)</span>
+            <p className="text-slate-300">
+              Never carries a short vowel. It functions either as a prolongation of the Fathah sound (Madd Asli long vowel 'aa', e.g. <span className="font-serif text-base text-cyan-200" dir="rtl">كِتَاب</span>) or as a bearer/seat (kursi) for Hamzah.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
@@ -891,13 +995,23 @@ export default function ReaderPage() {
                                 : 'bg-slate-900/80 text-slate-400 hover:text-slate-200 border border-slate-800'
                             }`}
                           >
-                            <span>{idx + 1}. {sl.title.split(' ')[0]}</span>
+                            <span>{idx + 1}. {sl.title}</span>
                             {isDone && <Check className="w-3 h-3 text-emerald-400" />}
                           </button>
                         );
                       })}
                     </div>
                   </div>
+
+                  {/* Resilient Video Lesson Player for Chapter */}
+                  {currentLesson.videoLesson && (
+                    <LessonVideoPlayer 
+                      key={`${targetBookId}-${currentLesson.id}`}
+                      videoLesson={currentLesson.videoLesson} 
+                      courseId={targetBookId}
+                      courseLanguage={course?.category === 'International Languages' ? targetBookId : null}
+                    />
+                  )}
 
                   {/* Audio Pronunciation (Tajweed & Phonetics) */}
                   {(activeSmallLesson.audio || activeSmallLesson.arabic || activeSmallLesson.sound || targetBookId.includes('tajweed') || targetBookId.includes('quran')) && (
@@ -965,6 +1079,11 @@ export default function ReaderPage() {
                       customShapes={activeSmallLesson.shapeTable}
                       customNote={activeSmallLesson.shapeStyleNote}
                     />
+                  )}
+
+                  {/* Comprehensive 28-Letter Arabic Orthography Guide & Positional Forms */}
+                  {activeSmallLesson.orthographyGuide && (
+                    <ArabicOrthographyGuide guide={activeSmallLesson.orthographyGuide} />
                   )}
 
                   {/* Key Points Box */}
@@ -1230,6 +1349,11 @@ export default function ReaderPage() {
                       </div>
                     )}
                   </div>
+
+                  {/* Comprehensive 28-Letter Arabic Orthography Guide & Positional Forms */}
+                  {currentLesson.orthographyGuide && (
+                    <ArabicOrthographyGuide guide={currentLesson.orthographyGuide} />
+                  )}
 
                   {/* Interactive Language Vocabulary Bank (if available) */}
                   {currentLesson.vocabulary && currentLesson.vocabulary.length > 0 && (

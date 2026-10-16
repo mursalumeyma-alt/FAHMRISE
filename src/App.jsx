@@ -26,6 +26,7 @@ import AdminPage from './pages/AdminPage';
 import BecomeCoachPage from './pages/BecomeCoachPage';
 import InstructorDashboardPage from './pages/InstructorDashboardPage';
 import ArabicTrackPage from './pages/ArabicTrackPage';
+import FullStackProjectsPage from './pages/FullStackProjectsPage';
 
 // Protected Route Guard (For authenticated learners & admins)
 function ProtectedRoute({ children }) {
@@ -172,6 +173,12 @@ export default function App() {
                 
                 {/* Practice Arena (10 Progressive JS Projects) */}
                 <Route path="/practice/:practiceId?" element={<PracticePage />} />
+
+                {/* Full Stack Development Projects & Deployment (6 Progressive Projects) */}
+                <Route path="/fullstack-projects" element={<FullStackProjectsPage />} />
+                <Route path="/fullstack-projects/:projectId" element={<FullStackProjectsPage />} />
+                <Route path="/projects/fullstack" element={<FullStackProjectsPage />} />
+                <Route path="/projects/fullstack/:projectId" element={<FullStackProjectsPage />} />
 
                 {/* Quizzes */}
                 <Route path="/quiz/:quizId?" element={<QuizPage />} />

@@ -19,7 +19,8 @@ import {
   Lock,
   RefreshCw,
   Coins,
-  GraduationCap
+  GraduationCap,
+  Rocket
 } from 'lucide-react';
 
 export default function Navbar() {
@@ -41,6 +42,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: 'Course Catalog', path: '/courses', icon: Layers },
+    { name: 'Full Stack Projects', path: '/fullstack-projects', icon: Rocket, badge: '6 Projects' },
     { name: 'Practice Arena', path: '/practice', icon: Code2, badge: '10 Projects' },
     { name: 'AI Tutor', path: '/ai-tutor', icon: Bot, badge: 'Voice' },
     { name: 'Become a Coach', path: '/become-a-coach', icon: Sparkles, badge: 'Apply' },
@@ -191,6 +193,14 @@ export default function Navbar() {
                     >
                       <BookOpen className="w-4 h-4 text-teal-400" />
                       <span>Browse All Courses</span>
+                    </Link>
+
+                    <Link
+                      to="/fullstack-projects"
+                      className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-300 hover:text-white hover:bg-slate-800/70"
+                    >
+                      <Rocket className="w-4 h-4 text-indigo-400" />
+                      <span>Full Stack Projects</span>
                     </Link>
 
                     {(user?.role === 'instructor' || user?.role === 'admin') && (

@@ -1,5 +1,5 @@
 // Centralized API Service for FAHMRISE Frontend ("Understand. Learn. Rise.")
-import { coursesData, practiceProjectsData, CoursesDB } from '../data/coursesData';
+import { coursesData, practiceProjectsData, fullstackProjectsData, CoursesDB } from '../data/coursesData';
 
 const API_BASE = '/api';
 
@@ -985,6 +985,73 @@ export const api = {
     },
     async getResources() {
       const res = await fetch(`${API_BASE}/somali-learning/resources`);
+      return handleResponse(res);
+    }
+  },
+
+  // Full Stack Development Projects & Deployment Verifier
+  fullstackProjects: {
+    async getAll(params = {}) {
+      try {
+        const query = new URLSearchParams(params).toString();
+        const res = await fetch(`${API_BASE}/fullstack-projects${query ? `?${query}` : ''}`, {
+          headers: getAuthHeaders()
+        });
+        if (res.ok) {
+          const data = await res.json();
+          if (data && Array.isArray(data.projects)) {
+            return data;
+          }
+        }
+      } catch (err) {
+        console.warn('Network request to /api/fullstack-projects failed, using local fallback:', err.message);
+      }
+      return {
+        success: true,
+        projects: fullstackProjectsData || [],
+        total: (fullstackProjectsData || []).length
+      };
+    },
+
+    async getById(id) {
+      try {
+        const res = await fetch(`${API_BASE}/fullstack-projects/${encodeURIComponent(id)}`, {
+          headers: getAuthHeaders()
+        });
+        if (res.ok) return await res.json();
+      } catch (err) {
+        console.warn(`Network request to /api/fullstack-projects/${id} failed, using local fallback:`, err.message);
+      }
+      const p = (fullstackProjectsData || []).find(proj => proj.id === id || proj.slug === id);
+      return {
+        success: true,
+        project: p || null,
+        submission: null
+      };
+    },
+
+    async verifyDeployment(id, data) {
+      const res = await fetch(`${API_BASE}/fullstack-projects/${encodeURIComponent(id)}/verify`, {
+        method: 'POST',
+        headers: getAuthHeaders(),
+        body: JSON.stringify(data)
+      });
+      return handleResponse(res);
+    },
+
+    async submitProject(id, data) {
+      const res = await fetch(`${API_BASE}/fullstack-projects/${encodeURIComponent(id)}/submit`, {
+        method: 'POST',
+        headers: getAuthHeaders(),
+        body: JSON.stringify(data)
+      });
+      return handleResponse(res);
+    },
+
+    async getMySubmissions() {
+      const res = await fetch(`${API_BASE}/fullstack-projects/submissions/me`, {
+        headers: getAuthHeaders()
+      });
       return handleResponse(res);
     }
   }

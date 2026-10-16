@@ -80,17 +80,32 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
   const [isPlayerVisible, setIsPlayerVisible] = useState(true);
   const [showTranscript, setShowTranscript] = useState(false);
   const [retryKey, setRetryKey] = useState(0);
+  const [selectedRefIndex, setSelectedRefIndex] = useState(0);
+
+  const references = useMemo(() => {
+    if (Array.isArray(videoLesson?.references) && videoLesson.references.length > 0) {
+      return videoLesson.references;
+    }
+    return null;
+  }, [videoLesson]);
+
+  const activeVideo = useMemo(() => {
+    if (references && references[selectedRefIndex]) {
+      return references[selectedRefIndex];
+    }
+    return videoLesson;
+  }, [references, selectedRefIndex, videoLesson]);
 
   const isLanguageMismatched = useMemo(
-    () => isMismatchedLanguageVideo(videoLesson, courseId, courseLanguage),
-    [videoLesson, courseId, courseLanguage]
+    () => isMismatchedLanguageVideo(activeVideo, courseId, courseLanguage),
+    [activeVideo, courseId, courseLanguage]
   );
 
   // Extract clean 11-character YouTube video ID
   const videoId = useMemo(() => {
     if (isLanguageMismatched) return null;
-    return extractYouTubeVideoId(videoLesson);
-  }, [videoLesson, isLanguageMismatched]);
+    return extractYouTubeVideoId(activeVideo);
+  }, [activeVideo, isLanguageMismatched]);
 
   // Derive genuine watch URL and embed URL safely
   const embedUrl = useMemo(() => {
@@ -101,14 +116,15 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
   const watchUrl = useMemo(() => {
     if (isLanguageMismatched) return null;
     if (videoId) return `https://www.youtube.com/watch?v=${videoId}`;
-    return videoLesson?.watchUrl || videoLesson?.url || null;
-  }, [videoId, videoLesson, isLanguageMismatched]);
+    return activeVideo?.watchUrl || activeVideo?.url || null;
+  }, [videoId, activeVideo, isLanguageMismatched]);
 
   // Reset states whenever a new video or lesson is loaded
   useEffect(() => {
     setShowTranscript(false);
     setRetryKey(0);
-  }, [videoId, videoLesson?.id, videoLesson?.title]);
+    setSelectedRefIndex(0);
+  }, [videoLesson?.id, videoLesson?.title, videoLesson?.videoId]);
 
   if (!videoLesson) return null;
 
@@ -119,6 +135,42 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
   return (
     <div className="my-6 p-5 sm:p-6 rounded-3xl bg-slate-900/95 border border-slate-800 shadow-2xl space-y-4 transition-all">
       
+      {/* Multi-Reference Topic Switcher Tabs */}
+      {references && (
+        <div className="space-y-2 pb-3 border-b border-slate-800/90">
+          <div className="flex items-center justify-between">
+            <span className="text-[11px] font-bold uppercase tracking-wider text-teal-400 flex items-center gap-1.5">
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>Lesson Topic References ({references.length})</span>
+            </span>
+            <span className="text-[11px] text-slate-400">Select topic to switch lecture</span>
+          </div>
+          <div className="flex items-center gap-2 overflow-x-auto pb-1 pt-0.5">
+            {references.map((ref, rIdx) => {
+              const isSelected = rIdx === selectedRefIndex;
+              return (
+                <button
+                  key={ref.id || rIdx}
+                  data-ref-tab={ref.id || rIdx}
+                  onClick={() => {
+                    setSelectedRefIndex(rIdx);
+                    setRetryKey(0);
+                  }}
+                  className={`px-3 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 ${
+                    isSelected
+                      ? 'bg-teal-500/25 text-teal-300 border border-teal-500/50 shadow-sm'
+                      : 'bg-slate-800/80 text-slate-400 hover:text-slate-200 border border-slate-700/60'
+                  }`}
+                >
+                  <span>{ref.tabLabel || ref.title}</span>
+                  {isSelected && <span className="w-1.5 h-1.5 rounded-full bg-teal-400" />}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       {/* Header with Badges, Title, Channel, Duration & Controls */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-slate-800/90">
         <div className="space-y-1.5">
@@ -126,28 +178,35 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
             {/* Free Educational Resource Badge */}
             <span className="inline-flex items-center gap-1.5 text-emerald-400 font-bold text-xs uppercase tracking-wider bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 rounded-full">
               <ShieldCheck className="w-3.5 h-3.5" />
-              <span>{videoLesson.badge || 'Free Video Lesson'}</span>
+              <span>{activeVideo.badge || 'Verified Reference Video'}</span>
             </span>
 
             {/* Video Duration */}
-            {videoLesson.duration && (
+            {activeVideo.duration && (
               <span className="text-[11px] text-slate-300 font-mono bg-slate-800/80 px-2 py-0.5 rounded-md border border-slate-700/60">
-                ⏱ {videoLesson.duration}
+                ⏱ {activeVideo.duration}
               </span>
             )}
 
             {/* Verified Channel / Provider */}
-            {videoLesson.channel && (
+            {activeVideo.channel && (
               <span className="text-[11px] text-teal-300 font-medium bg-teal-500/10 border border-teal-500/20 px-2.5 py-0.5 rounded-md flex items-center gap-1">
                 <Globe2 className="w-3 h-3 text-teal-400" />
-                <span>{videoLesson.channel}</span>
+                <span>{activeVideo.channel}</span>
               </span>
             )}
           </div>
 
           <h4 className="text-sm sm:text-base font-bold text-white pt-0.5">
-            {videoLesson.title || 'Lesson Video Lecture'}
+            {activeVideo.title || 'Lesson Video Lecture'}
           </h4>
+
+          {activeVideo.topic && (
+            <p className="text-xs text-teal-300/90 font-medium">
+              <span className="text-slate-400 font-normal">Topic Covered: </span>
+              {activeVideo.topic}
+            </p>
+          )}
         </div>
 
         {/* Action Buttons: Watch on YouTube, Transcript & Controls */}
@@ -161,7 +220,7 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
             <RefreshCw className="w-4 h-4 text-teal-400" />
           </button>
 
-          {videoLesson.transcript && (
+          {activeVideo.transcript && (
             <button
               onClick={() => setShowTranscript(!showTranscript)}
               className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-semibold transition-all cursor-pointer ${
@@ -208,7 +267,7 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
               <iframe
                 key={`${videoId}-${retryKey}`}
                 src={`${embedUrl}&vkey=${retryKey}`}
-                title={videoLesson.title || 'Lesson Video'}
+                title={activeVideo.title || videoLesson.title || 'Lesson Video'}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="w-full h-full border-0"
@@ -249,24 +308,39 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
             <div className="flex items-center gap-2">
               <Sparkles className="w-4 h-4 text-emerald-400 flex-shrink-0" />
               <span>
-                {videoLesson.note || "Video lessons are supplemental resources. The full lesson text, vocabulary bank, dialogues, and quizzes below are completely self-contained."}
+                {activeVideo.note || videoLesson.note || "Video lessons are supplemental resources. The full lesson text, vocabulary bank, dialogues, and quizzes below are completely self-contained."}
               </span>
             </div>
-            {videoLesson.alternativeSource && (
+            {activeVideo.sources && Array.isArray(activeVideo.sources) && activeVideo.sources.length > 0 ? (
+              <div className="flex flex-wrap items-center gap-2 flex-shrink-0">
+                {activeVideo.sources.map((s, sIdx) => (
+                  <a
+                    key={sIdx}
+                    href={s.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-teal-400 hover:text-teal-300 font-semibold underline underline-offset-2 flex items-center gap-1 text-xs"
+                  >
+                    <BookOpen className="w-3.5 h-3.5 text-teal-400" />
+                    <span>{s.name}</span>
+                  </a>
+                ))}
+              </div>
+            ) : (activeVideo.alternativeSource || videoLesson.alternativeSource) && (
               <a
-                href={videoLesson.alternativeSource}
+                href={activeVideo.alternativeSource || videoLesson.alternativeSource}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-teal-400 hover:text-teal-300 font-semibold underline underline-offset-2 flex items-center gap-1 flex-shrink-0"
               >
                 <BookOpen className="w-3.5 h-3.5 text-teal-400" />
-                <span>{videoLesson.sourceName || 'Verified Open Learning Portal'}</span>
+                <span>{activeVideo.sourceName || videoLesson.sourceName || 'Verified Open Learning Portal'}</span>
               </a>
             )}
           </div>
 
           {/* Collapsible Transcript Panel */}
-          {showTranscript && videoLesson.transcript && (
+          {showTranscript && (activeVideo.transcript || videoLesson.transcript) && (
             <div className="p-4 sm:p-5 rounded-2xl bg-slate-950 border border-teal-500/30 text-xs sm:text-sm text-slate-200 space-y-2 animate-in fade-in duration-150">
               <div className="flex items-center justify-between pb-2 border-b border-slate-800">
                 <span className="font-bold text-teal-300 flex items-center gap-1.5">
@@ -276,7 +350,7 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
                 <span className="text-[11px] text-slate-400">Read & Follow Along</span>
               </div>
               <p className="leading-relaxed whitespace-pre-line text-slate-300">
-                {videoLesson.transcript}
+                {activeVideo.transcript || videoLesson.transcript}
               </p>
             </div>
           )}

@@ -16,7 +16,11 @@ import {
   FileCode, 
   ArrowRight,
   Zap,
-  Play
+  Play,
+  Rocket,
+  Globe,
+  AlertCircle,
+  RefreshCw
 } from 'lucide-react';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
@@ -25,37 +29,65 @@ import Badge from '../components/common/Badge';
 
 export default function BookProductPage() {
   const { bookId } = useParams();
-  const targetId = bookId || 'html-from-zero';
+  const targetId = (bookId || 'html-from-zero').trim();
   const { user, isEnrolledIn, refreshEnrollments } = useAuth();
   const navigate = useNavigate();
-  const [course, setCourse] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState('curriculum'); // curriculum, outcomes, details
+
+  // Instant local resolution to prevent stuck spinners
+  const initialLocalCourse = CoursesDB.getCourseById(targetId) || null;
+  const [course, setCourse] = useState(initialLocalCourse);
+  const [loading, setLoading] = useState(!initialLocalCourse);
+  const [loadError, setLoadError] = useState(null);
+  const [retryCount, setRetryCount] = useState(0);
+  const [activeTab, setActiveTab] = useState('curriculum'); // curriculum, outcomes, details, projects
 
   const isComingSoon = course ? Boolean(course.isComingSoon || course.status === 'coming_soon' || course.price === null) : false;
   const isEnrolled = isEnrolledIn(targetId);
   const isFree = course ? (!isComingSoon && (course.price === 0 || !course.requiresPayment || course.isFree || course.category === 'Islamic Studies' || (course.category === 'International Languages' && course.price === 0))) : false;
 
   useEffect(() => {
+    let isMounted = true;
+
     async function loadCourse() {
-      try {
+      // 1. Resolve local canonical course first
+      const localCourse = CoursesDB.getCourseById(targetId);
+      if (localCourse && isMounted) {
+        setCourse(localCourse);
+        setLoading(false);
+      } else if (!localCourse && isMounted) {
         setLoading(true);
+      }
+      setLoadError(null);
+
+      // 2. Fetch fresh API data in background
+      try {
         const data = await api.books.getById(targetId);
-        if (data && (data.course || data.book)) {
-          setCourse(data.course || data.book);
-          return;
+        if (isMounted) {
+          const resolvedCourse = (data && (data.course || data.book)) || localCourse;
+          if (resolvedCourse) {
+            setCourse(resolvedCourse);
+          } else if (!localCourse) {
+            setLoadError('Course details could not be found.');
+          }
         }
       } catch (err) {
-        console.error('Failed to load course from API:', err);
+        console.warn('API fetch for course syllabus notice:', err.message);
+        if (isMounted && !localCourse) {
+          setLoadError(err.message || 'Failed to load course syllabus.');
+        }
+      } finally {
+        if (isMounted) {
+          setLoading(false);
+        }
       }
-      const localCourse = CoursesDB.getCourseById(targetId);
-      if (localCourse) {
-        setCourse(localCourse);
-      }
-      setLoading(false);
     }
+
     loadCourse();
-  }, [targetId]);
+
+    return () => {
+      isMounted = false;
+    };
+  }, [targetId, retryCount]);
 
   if (loading) {
     return (
@@ -92,11 +124,26 @@ export default function BookProductPage() {
     }
 
     return (
-      <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center text-white space-y-4">
-        <p className="text-lg">Course not found.</p>
-        <Link to="/courses" className="px-4 py-2 bg-emerald-500 text-slate-950 rounded-xl font-bold text-xs">
-          Browse Course Catalog
-        </Link>
+      <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center text-white space-y-4 px-4 text-center">
+        <div className="p-6 rounded-2xl bg-slate-900 border border-slate-800 max-w-md w-full space-y-3 shadow-2xl">
+          <AlertCircle className="w-10 h-10 text-amber-400 mx-auto" />
+          <h2 className="text-lg font-bold">Course Not Found</h2>
+          <p className="text-xs text-slate-400">
+            {loadError || `We couldn't locate a course matching "${targetId}". Please verify the link or browse our catalog.`}
+          </p>
+          <div className="flex items-center justify-center gap-3 pt-2">
+            <button
+              onClick={() => setRetryCount(k => k + 1)}
+              className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl font-bold text-xs border border-slate-700 flex items-center gap-1.5 transition-colors cursor-pointer"
+            >
+              <RefreshCw className="w-3.5 h-3.5" />
+              <span>Retry Loading</span>
+            </button>
+            <Link to="/courses" className="px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 rounded-xl font-bold text-xs shadow-glow transition-all">
+              Browse Course Catalog
+            </Link>
+          </div>
+        </div>
       </div>
     );
   }
@@ -216,6 +263,19 @@ export default function BookProductPage() {
               >
                 Prerequisites & Audience
               </button>
+              {(course.fullstackProjects || course.id === 'fullstack-developer-bundle') && (
+                <button
+                  onClick={() => setActiveTab('projects')}
+                  className={`pb-3 font-semibold transition-colors border-b-2 flex items-center gap-1.5 ${
+                    activeTab === 'projects'
+                      ? 'border-emerald-500 text-emerald-400'
+                      : 'border-transparent text-slate-400 hover:text-white'
+                  }`}
+                >
+                  <Rocket className="w-4 h-4 text-emerald-400" />
+                  <span>Full Stack Projects (6)</span>
+                </button>
+              )}
             </div>
 
             {/* Tab 1: Curriculum & Syllabus */}
@@ -226,45 +286,57 @@ export default function BookProductPage() {
                   <span className="text-emerald-400 font-semibold">Lesson 1 Free Preview</span>
                 </div>
 
-                <div className="space-y-3">
-                  {(course.lessons || []).map((lesson, idx) => (
-                    <div
-                      key={lesson.id}
-                      className="p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-slate-700 transition-colors flex items-center justify-between gap-4"
-                    >
-                      <div className="flex items-center gap-3.5">
-                        <div className="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center font-mono text-xs font-bold text-slate-300">
-                          {lesson.number || idx + 1}
+                {(course.lessons || []).length === 0 ? (
+                  <div className="p-8 rounded-2xl bg-slate-900/40 border border-slate-800 text-center space-y-3">
+                    <BookOpen className="w-8 h-8 text-slate-600 mx-auto" />
+                    <h4 className="text-sm font-bold text-white">Syllabus In Preparation</h4>
+                    <p className="text-xs text-slate-400 max-w-sm mx-auto">
+                      {isComingSoon 
+                        ? 'This course is currently in curriculum development. Check back soon for released modules.'
+                        : 'The structured lessons for this course are being finalized. Check back shortly.'}
+                    </p>
+                  </div>
+                ) : (
+                  <div className="space-y-3">
+                    {(course.lessons || []).map((lesson, idx) => (
+                      <div
+                        key={lesson.id}
+                        className="p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-slate-700 transition-colors flex items-center justify-between gap-4"
+                      >
+                        <div className="flex items-center gap-3.5">
+                          <div className="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center font-mono text-xs font-bold text-slate-300">
+                            {lesson.number || idx + 1}
+                          </div>
+                          <div>
+                            <h4 className="text-sm font-bold text-slate-100">
+                              {lesson.title}
+                            </h4>
+                            <p className="text-xs text-slate-400">
+                              {lesson.subtitle || lesson.summary}
+                            </p>
+                          </div>
                         </div>
-                        <div>
-                          <h4 className="text-sm font-bold text-slate-100">
-                            {lesson.title}
-                          </h4>
-                          <p className="text-xs text-slate-400">
-                            {lesson.subtitle || lesson.summary}
-                          </p>
-                        </div>
-                      </div>
 
-                      <div className="flex items-center gap-3 flex-shrink-0">
-                        <span className="text-xs text-slate-500 hidden sm:inline">{lesson.readingTime || '12 min'}</span>
-                        {lesson.number === 1 || isEnrolled ? (
-                          <Link
-                            to={`/reader/${course.id}/${lesson.id}`}
-                            className="px-3 py-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 hover:bg-emerald-500/20 text-xs font-bold border border-emerald-500/30 flex items-center gap-1"
-                          >
-                            <Play className="w-3 h-3" />
-                            <span>{lesson.number === 1 ? 'Preview' : 'Read'}</span>
-                          </Link>
-                        ) : (
-                          <span className="p-1.5 text-slate-600">
-                            <Lock className="w-4 h-4" />
-                          </span>
-                        )}
+                        <div className="flex items-center gap-3 flex-shrink-0">
+                          <span className="text-xs text-slate-500 hidden sm:inline">{lesson.readingTime || '12 min'}</span>
+                          {lesson.number === 1 || isEnrolled ? (
+                            <Link
+                              to={`/reader/${course.id}/${lesson.id}`}
+                              className="px-3 py-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 hover:bg-emerald-500/20 text-xs font-bold border border-emerald-500/30 flex items-center gap-1"
+                            >
+                              <Play className="w-3 h-3" />
+                              <span>{lesson.number === 1 ? 'Preview' : 'Read'}</span>
+                            </Link>
+                          ) : (
+                            <span className="p-1.5 text-slate-600">
+                              <Lock className="w-4 h-4" />
+                            </span>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  ))}
-                </div>
+                    ))}
+                  </div>
+                )}
               </div>
             )}
 
@@ -298,6 +370,68 @@ export default function BookProductPage() {
                 <div className="p-5 rounded-2xl bg-slate-900/40 border border-slate-800 space-y-2">
                   <h4 className="font-bold text-white text-sm">Prerequisites:</h4>
                   <p className="text-slate-400">{course.prerequisites || 'Zero prior background required.'}</p>
+                </div>
+              </div>
+            )}
+
+            {/* Tab 4: 6 Full Stack Projects */}
+            {activeTab === 'projects' && (
+              <div className="space-y-4 animate-in fade-in">
+                <div className="p-4 rounded-2xl bg-gradient-to-r from-emerald-950/40 via-slate-900 to-slate-950 border border-emerald-500/30 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                  <div className="space-y-1">
+                    <h3 className="text-sm font-bold text-white flex items-center gap-2">
+                      <Rocket className="w-4 h-4 text-emerald-400" />
+                      <span>6 Progressive Full Stack Projects with Live Deployment</span>
+                    </h3>
+                    <p className="text-xs text-slate-300">
+                      Build from semantic layouts to authenticated REST APIs, SQL databases, and cloud deployment.
+                    </p>
+                  </div>
+                  <Link
+                    to="/fullstack-projects"
+                    className="px-4 py-2 rounded-xl bg-emerald-500 text-slate-950 font-bold text-xs shadow-glow hover:bg-emerald-400 transition-all flex items-center gap-1.5 whitespace-nowrap"
+                  >
+                    <span>Open Projects Workspace</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  {(CoursesDB.getFullstackProjects() || []).map((p) => (
+                    <Link
+                      key={p.id}
+                      to={`/fullstack-projects/${p.id}`}
+                      className="p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-emerald-500/50 hover:bg-slate-900 transition-all flex flex-col justify-between space-y-2 group"
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="w-5 h-5 rounded bg-slate-800 text-[11px] font-mono font-bold text-slate-300 flex items-center justify-center">
+                          {p.projectNumber}
+                        </span>
+                        <span className={`text-[10px] font-bold px-2 py-0.5 rounded border uppercase ${
+                          p.level === 'Beginner' ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30' :
+                          p.level === 'Intermediate' ? 'bg-blue-500/20 text-blue-300 border-blue-500/30' :
+                          'bg-purple-500/20 text-purple-300 border-purple-500/30'
+                        }`}>
+                          {p.level}
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">
+                          {p.title}
+                        </h4>
+                        <p className="text-xs text-slate-400 line-clamp-2 mt-0.5">
+                          {p.shortDescription}
+                        </p>
+                      </div>
+                      <div className="pt-2 border-t border-slate-800/60 flex items-center justify-between text-[11px] text-slate-500">
+                        <span>{p.estimatedHours}</span>
+                        <span className="text-emerald-400 font-semibold flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+                          <span>Inspect Project</span>
+                          <ChevronRight className="w-3.5 h-3.5" />
+                        </span>
+                      </div>
+                    </Link>
+                  ))}
                 </div>
               </div>
             )}

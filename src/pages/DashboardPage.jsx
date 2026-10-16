@@ -24,7 +24,8 @@ import {
   Printer,
   ExternalLink,
   Download,
-  GraduationCap
+  GraduationCap,
+  Rocket
 } from 'lucide-react';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
@@ -478,6 +479,31 @@ export default function DashboardPage() {
               ))}
             </div>
           )}
+        </div>
+
+        {/* Full Stack Projects Capstone Banner */}
+        <div className="p-6 rounded-3xl bg-gradient-to-r from-indigo-950/60 via-slate-900 to-emerald-950/40 border border-indigo-500/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 shadow-xl">
+          <div className="space-y-2 max-w-xl">
+            <div className="flex items-center gap-2">
+              <span className="px-2.5 py-0.5 rounded-lg bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 font-bold text-[10px] uppercase tracking-wider">
+                Full Stack Capstone Track
+              </span>
+              <span className="text-xs text-emerald-400 font-bold flex items-center gap-1">
+                <Rocket className="w-3.5 h-3.5" /> 6 Progressive Projects
+              </span>
+            </div>
+            <h3 className="text-lg font-black text-white">Full Stack Development Projects & Live Deployment</h3>
+            <p className="text-xs text-slate-300 leading-relaxed">
+              Build and deploy 6 real-world applications from scratch: Portfolio, Task Manager API, Student Management System with JWT, Online Bookstore, LMS with crypto verification, and E-commerce Capstone. Mandatory live deployment probing.
+            </p>
+          </div>
+          <Link
+            to="/fullstack-projects"
+            className="px-5 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-xs shadow-glow transition-all flex items-center gap-2 flex-shrink-0"
+          >
+            <span>Launch Projects Workspace</span>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
 
         {/* Course Cards Library */}

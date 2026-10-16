@@ -28,7 +28,7 @@ export default function Footer() {
             </p>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
               <Sparkles className="w-3.5 h-3.5 flex-shrink-0" aria-hidden="true" />
-              <span>29 Interactive Courses &amp; Pathways Live</span>
+              <span>26 Interactive Courses &amp; Pathways Live</span>
             </div>
           </div>
 
@@ -39,23 +39,18 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-xs">
               <li>
-                <Link to="/courses/html-from-zero" className="text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-1.5 font-medium">
-                  <span>HTML From Zero</span>
+                <Link to="/courses/fullstack-developer-bundle" className="text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-1.5 font-medium">
+                  <span>Full-Stack Developer: Zero to Job-Ready</span>
                 </Link>
               </li>
               <li>
-                <Link to="/courses/css-from-zero" className="text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-1.5 font-medium">
-                  <span>CSS From Zero</span>
-                </Link>
-              </li>
-              <li>
-                <Link to="/courses/javascript-from-zero" className="text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-1.5 font-medium">
-                  <span>JavaScript From Zero</span>
-                </Link>
-              </li>
-              <li>
-                <Link to="/courses/frontend-developer" className="text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-1.5 font-medium">
+                <Link to="/courses/frontend-developer-zero-to-job-ready" className="text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-1.5 font-medium">
                   <span>Frontend Developer: Zero to Job-Ready</span>
+                </Link>
+              </li>
+              <li>
+                <Link to="/courses/backend-developer-zero-to-job-ready" className="text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-1.5 font-medium">
+                  <span>Backend Developer: Zero to Job-Ready</span>
                 </Link>
               </li>
               <li className="pt-1">
@@ -74,9 +69,21 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-xs text-slate-400">
               <li>
-                <Link to="/courses?category=Technology" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
-                  <span>Technology &amp; Engineering</span>
-                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">12 Courses</span>
+                <Link to="/courses?category=Professional%20Development%20Pathways" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
+                  <span>Professional Pathways</span>
+                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">3 Courses</span>
+                </Link>
+              </li>
+              <li>
+                <Link to="/courses?category=Cybersecurity" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
+                  <span>Cybersecurity</span>
+                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">1 Course</span>
+                </Link>
+              </li>
+              <li>
+                <Link to="/courses?category=Data%20%26%20Analytics" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
+                  <span>Data &amp; Analytics</span>
+                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">6 Courses</span>
                 </Link>
               </li>
               <li>
@@ -86,7 +93,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/courses?category=Business" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
+                <Link to="/courses?category=Business%20%26%20Entrepreneurship" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
                   <span>Business &amp; Entrepreneurship</span>
                   <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">3 Courses</span>
                 </Link>
@@ -100,7 +107,7 @@ export default function Footer() {
               <li>
                 <Link to="/courses?category=Career%20Skills" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
                   <span>Career Skills</span>
-                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">2 Courses</span>
+                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">1 Course</span>
                 </Link>
               </li>
               <li className="pt-2 border-t border-slate-900">

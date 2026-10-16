@@ -24,7 +24,8 @@ import {
   FolderGit2,
   Terminal,
   Search,
-  X
+  X,
+  Shield
 } from 'lucide-react';
 
 // Custom Crisp React Atom Icon
@@ -44,23 +45,30 @@ function ReactIcon({ className = "w-4 h-4" }) {
 // Category Configuration & Metadata
 const CATEGORIES = [
   { id: 'All', label: 'All Categories' },
-  { id: 'Technology', label: 'Technology' },
-  { id: 'Projects', label: 'Projects' },
+  { id: 'Professional Development Pathways', label: 'Professional Pathways' },
+  { id: 'Data & Analytics', label: 'Data & Analytics' },
+  { id: 'Cybersecurity', label: 'Cybersecurity' },
   { id: 'Islamic Studies', label: 'Islamic Studies' },
-  { id: 'Business', label: 'Business' },
   { id: 'International Languages', label: 'International Languages' },
-  { id: 'Career Skills', label: 'Career Skills' }
+  { id: 'Business & Entrepreneurship', label: 'Business & Entrepreneurship' },
+  { id: 'Career Skills', label: 'Career Skills' },
+  { id: 'Projects', label: 'Practice Arena' }
 ];
 
 // Category Icons Mapping
 function getCategoryIcon(catId) {
   switch (catId) {
-    case 'Technology': return Code2;
-    case 'Projects': return FolderGit2;
+    case 'Professional Development Pathways': return Layers;
+    case 'Web Development Foundations': return Layers;
+    case 'Data & Analytics': return TrendingUp;
+    case 'Cybersecurity': return Shield;
     case 'Islamic Studies': return BookMarked;
-    case 'Business': return Briefcase;
     case 'International Languages': return Globe;
-    case 'Career Skills': return TrendingUp;
+    case 'Business & Entrepreneurship': return Briefcase;
+    case 'Career Skills': return Sparkles;
+    case 'Projects': return FolderGit2;
+    case 'Technology': return Code2;
+    case 'Business': return Briefcase;
     default: return Layers;
   }
 }
@@ -145,8 +153,17 @@ export function normalizeCategory(param) {
   if (lower === 'all' || lower === '') {
     return 'All';
   }
-  if (lower.includes('project')) {
+  if (lower.includes('project') || lower.includes('arena') || lower.includes('practice')) {
     return 'Projects';
+  }
+  if (lower.includes('foundation') || lower.includes('html') || lower.includes('css') || lower.includes('javascript') || lower.includes('pathway') || lower.includes('fullstack') || lower.includes('frontend') || lower.includes('backend') || lower.includes('bundle') || lower.includes('web') || lower.includes('tech') || lower.includes('code')) {
+    return 'Professional Development Pathways';
+  }
+  if (lower.includes('data') || lower.includes('powerbi') || lower.includes('sql') || lower.includes('analytics') || lower.includes('bi')) {
+    return 'Data & Analytics';
+  }
+  if (lower.includes('cyber') || lower.includes('security')) {
+    return 'Cybersecurity';
   }
   if (lower.includes('international') || lower.includes('arabic') || lower.includes('language') || lower.includes('swahili') || lower.includes('french') || lower.includes('english') || lower.includes('japanese') || lower.includes('somali')) {
     return 'International Languages';
@@ -157,16 +174,13 @@ export function normalizeCategory(param) {
   if (lower.includes('islamic') || lower.includes('quran') || lower.includes('tajweed') || lower.includes('hadith') || lower.includes('tafsir') || lower.includes('salah') || lower.includes('aqeedah')) {
     return 'Islamic Studies';
   }
-  if (lower.includes('business') || lower.includes('entrepreneur')) {
-    return 'Business';
-  }
-  if (lower.includes('tech') || lower.includes('code') || lower.includes('html') || lower.includes('css') || lower.includes('js') || lower.includes('react') || lower.includes('front') || lower.includes('back') || lower.includes('data') || lower.includes('cyber') || lower.includes('security') || lower.includes('spread') || lower.includes('sql') || lower.includes('python') || lower.includes('powerbi')) {
-    return 'Technology';
+  if (lower.includes('business') || lower.includes('entrepreneur') || lower.includes('marketing') || lower.includes('freelanc')) {
+    return 'Business & Entrepreneurship';
   }
   return 'All';
 }
 
-// Strict Category Matcher — each category displays only its own courses
+// Strict Category Matcher — each category displays only its own courses with backwards compatibility
 function matchesCategory(course, selectedCategory) {
   if (!selectedCategory || selectedCategory === 'All') return true;
   if (selectedCategory === 'Projects') return false; // Handled in dedicated projects block
@@ -176,20 +190,37 @@ function matchesCategory(course, selectedCategory) {
 
   if (cat === sel) return true;
 
+  // Professional Development Pathways (Full-Stack, Frontend, Backend Flagship Pathways)
+  if (sel === 'professional development pathways' || sel === 'web development foundations') {
+    return ['fullstack-developer-bundle', 'frontend-developer-zero-to-job-ready', 'backend-developer-zero-to-job-ready'].includes(course.id);
+  }
+  // Data & Analytics
+  if (sel === 'data & analytics') {
+    return cat === 'data & analytics' || (cat === 'technology' && (course.id.includes('data') || course.id.includes('power-bi') || course.id.includes('sql') || course.id.includes('python')));
+  }
+  // Cybersecurity
+  if (sel === 'cybersecurity') {
+    return cat === 'cybersecurity' || (cat === 'technology' && course.id.includes('cyber'));
+  }
+  // Languages
   if (sel === 'international languages') {
     return cat === 'international languages' || cat === 'languages & arabic' || cat === 'languages';
   }
+  // Islamic Studies
   if (sel === 'islamic studies') {
     return cat === 'islamic studies';
   }
-  if (sel === 'technology') {
-    return cat === 'technology';
+  // Business & Entrepreneurship
+  if (sel === 'business & entrepreneurship' || sel === 'business') {
+    return cat === 'business & entrepreneurship' || cat === 'business';
   }
-  if (sel === 'business') {
-    return cat === 'business';
-  }
+  // Career Skills
   if (sel === 'career skills') {
     return cat === 'career skills';
+  }
+  // Legacy Technology selection
+  if (sel === 'technology') {
+    return cat === 'technology' || cat === 'professional development pathways' || cat === 'data & analytics' || cat === 'cybersecurity';
   }
 
   return false;
@@ -591,6 +622,7 @@ export default function BookCatalogPage() {
                     return (
                       <div
                         key={course.id}
+                        data-course-id={course.id}
                         className="flex flex-col bg-slate-900/70 border border-slate-800/90 rounded-2xl overflow-hidden hover:border-emerald-500/50 hover:shadow-2xl transition-all group min-w-0 w-full"
                       >
                         {/* Card Header with Category Gradient */}
@@ -634,8 +666,8 @@ export default function BookCatalogPage() {
                               <span className="truncate">{course.estimatedHours || '5 Hours'}</span>
                             </div>
                             <div className="flex items-center gap-1 sm:gap-1.5 truncate">
-                              <Star className="w-3.5 h-3.5 text-amber-400 fill-amber-400 flex-shrink-0" />
-                              <span className="truncate">{course.rating || '4.95'}</span>
+                              <Sparkles className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
+                              <span className="truncate">{course.level || 'All Levels'}</span>
                             </div>
                           </div>
 
@@ -777,151 +809,6 @@ export default function BookCatalogPage() {
               </div>
             )}
 
-            {/* 5. Live Tracks & Specializations Section (on All Categories view) */}
-            {selectedCategory === 'All' && filteredLiveTracks.length > 0 && (
-              <div className="space-y-5 pt-2">
-                <div className="border-t border-slate-800/80 pt-8 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <Compass className="w-5 h-5 text-teal-400" />
-                      <h2 className="text-lg sm:text-xl font-bold text-white">
-                        Specialized Multi-Course Learning Tracks
-                      </h2>
-                    </div>
-                    <p className="text-xs text-slate-400 mt-1">
-                      Explore comprehensive specialized tracks with multi-language pathways and applied curricula.
-                    </p>
-                  </div>
-                  <span className="text-xs text-emerald-400 font-semibold bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full w-fit">
-                    Active Pathways
-                  </span>
-                </div>
-
-                <div className="grid gap-6 grid-cols-1">
-                  {filteredLiveTracks.map((track) => {
-                    const isEnrolled = !!enrolledTracks[track.id];
-                    return (
-                      <div
-                        key={track.id}
-                        className={`bg-slate-900/80 border ${track.borderClass} rounded-2xl overflow-hidden shadow-2xl transition-all flex flex-col justify-between relative group`}
-                      >
-                        {/* Top Gradient Banner */}
-                        <Link 
-                          to={track.trackUrl || `/courses/${track.courseId || track.id}`}
-                          className={`p-5 sm:p-6 bg-gradient-to-br ${track.accentGradient} relative block group-hover:brightness-105 transition-all`}
-                        >
-                          <div className="flex items-start justify-between gap-3 mb-3">
-                            <div className="flex items-center gap-2.5">
-                              <div className={`w-10 h-10 rounded-xl ${track.iconBg} flex items-center justify-center flex-shrink-0 shadow-lg`}>
-                                {track.iconType === 'react' ? (
-                                  <ReactIcon className="w-6 h-6" />
-                                ) : track.iconType === 'languages' ? (
-                                  <Globe className="w-5 h-5" />
-                                ) : (
-                                  <Briefcase className="w-5 h-5" />
-                                )}
-                              </div>
-                              <div>
-                                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-950/70 text-emerald-300 border border-emerald-500/30">
-                                  {track.statusBadge}
-                                </span>
-                                <h3 className="text-xl sm:text-2xl font-black text-white mt-1 group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
-                                  <span>{track.fullTitle}</span>
-                                  <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-emerald-300" />
-                                </h3>
-                              </div>
-                            </div>
-                            <div className="text-right flex-shrink-0">
-                              <span className="text-[10px] font-bold px-2.5 py-1 rounded-full bg-slate-950/80 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
-                                <CheckCircle2 className="w-3 h-3 text-emerald-400" />
-                                <span>{track.plannedRelease}</span>
-                              </span>
-                            </div>
-                          </div>
-                          <p className="text-xs sm:text-sm text-slate-200 leading-relaxed opacity-95">
-                            {track.subtitle}
-                          </p>
-                        </Link>
-
-                        {/* Card Body */}
-                        <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between space-y-5">
-                          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                            {track.description}
-                          </p>
-
-                          {/* Track Information Note */}
-                          {track.infoMessage && (
-                            <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2.5">
-                              <Info className="w-4 h-4 text-teal-400 shrink-0 mt-0.5" />
-                              <span>{track.infoMessage}</span>
-                            </div>
-                          )}
-
-                          {/* Syllabus Highlights Preview */}
-                          <div className="space-y-2.5 bg-slate-950/60 p-4 rounded-xl border border-slate-800/80">
-                            <div className="flex items-center justify-between">
-                              <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
-                                <Layers className="w-3.5 h-3.5 text-emerald-400" />
-                                <span>Track Curriculum Modules (Click to Open)</span>
-                              </span>
-                              <span className="text-[10px] text-emerald-400 font-medium">{track.syllabus?.length || 6} Language Pathways</span>
-                            </div>
-                            <div className="space-y-1.5">
-                              {track.syllabus.map((item) => (
-                                <Link
-                                  key={item.number}
-                                  to={item.courseId ? `/courses/${item.courseId}` : (track.trackUrl || `/tracks/international-languages`)}
-                                  className="flex items-start gap-2.5 text-xs p-2 rounded-lg bg-slate-900/60 hover:bg-slate-800/80 border border-transparent hover:border-slate-700/80 transition-all group/item"
-                                >
-                                  <span className="text-[10px] font-mono font-bold text-emerald-400 bg-emerald-500/10 group-hover/item:bg-emerald-500/20 px-1.5 py-0.5 rounded border border-emerald-500/20 flex-shrink-0">
-                                    {item.number}
-                                  </span>
-                                  <div className="min-w-0 flex-1">
-                                    <span className="font-semibold text-white group-hover/item:text-emerald-300 transition-colors">{item.title}: </span>
-                                    <span className="text-slate-400">{item.desc}</span>
-                                  </div>
-                                  <ChevronRight className="w-3.5 h-3.5 text-slate-500 group-hover/item:text-emerald-400 group-hover/item:translate-x-0.5 transition-all shrink-0 mt-0.5" />
-                                </Link>
-                              ))}
-                            </div>
-                          </div>
-
-                          {/* Features Pills */}
-                          <div className="flex flex-wrap gap-1.5 sm:gap-2">
-                            {track.features.map((feat, idx) => (
-                              <span
-                                key={idx}
-                                className="text-[10px] sm:text-[11px] font-medium px-2.5 py-1 rounded-lg bg-slate-800/80 border border-slate-700/60 text-slate-300 flex items-center gap-1"
-                              >
-                                <CheckCircle2 className="w-3 h-3 text-emerald-400" />
-                                <span>{feat}</span>
-                              </span>
-                            ))}
-                          </div>
-
-                          {/* Action Footer */}
-                          <div className="pt-2 border-t border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                            <div className="text-xs text-slate-400 flex items-center gap-1.5">
-                              <Clock className="w-4 h-4 text-slate-500" />
-                              <span>Est. Duration: <strong className="text-slate-200">{track.estimatedHours}</strong></span>
-                            </div>
-
-                            <Link
-                              to={track.trackUrl || `/courses/${track.courseId || track.id}`}
-                              className="px-5 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 shadow-glow group/btn"
-                            >
-                              <Sparkles className="w-4 h-4" />
-                              <span>{track.actionLabel}</span>
-                              <ArrowRight className="w-3.5 h-3.5 group-hover/btn:translate-x-0.5 transition-transform" />
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
 
             {/* 4. Dedicated Practice Projects Section */}
             {shouldShowProjects && filteredProjects.length > 0 && (
