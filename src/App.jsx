@@ -167,6 +167,14 @@ export default function App() {
                     </AdminRoute>
                   }
                 />
+                <Route
+                  path="/admin/videos"
+                  element={
+                    <AdminRoute>
+                      <AdminPage defaultTab="videos" />
+                    </AdminRoute>
+                  }
+                />
 
                 {/* Multi-Course Reader */}
                 <Route path="/reader/:bookId?/:lessonId?" element={<ReaderPage />} />

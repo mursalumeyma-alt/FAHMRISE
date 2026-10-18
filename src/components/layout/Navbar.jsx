@@ -20,7 +20,8 @@ import {
   RefreshCw,
   Coins,
   GraduationCap,
-  Rocket
+  Rocket,
+  Video
 } from 'lucide-react';
 
 export default function Navbar() {
@@ -215,14 +216,24 @@ export default function Navbar() {
                     )}
 
                     {user?.role === 'admin' && (
-                      <Link
-                        to="/admin"
-                        className="flex items-center gap-2.5 px-4 py-2.5 text-sm font-semibold text-purple-300 bg-purple-950/40 hover:bg-purple-900/50 border-b border-purple-500/20"
-                      >
-                        <ShieldCheck className="w-4 h-4 text-purple-400" />
-                        <span>Admin Console</span>
-                        <span className="ml-auto text-[10px] uppercase font-bold px-1.5 py-0.5 rounded bg-purple-500/30 text-purple-200">Admin</span>
-                      </Link>
+                      <>
+                        <Link
+                          to="/admin"
+                          className="flex items-center gap-2.5 px-4 py-2 text-sm font-semibold text-purple-300 bg-purple-950/40 hover:bg-purple-900/50"
+                        >
+                          <ShieldCheck className="w-4 h-4 text-purple-400" />
+                          <span>Admin Console</span>
+                          <span className="ml-auto text-[10px] uppercase font-bold px-1.5 py-0.5 rounded bg-purple-500/30 text-purple-200">Admin</span>
+                        </Link>
+                        <Link
+                          to="/admin/videos"
+                          className="flex items-center gap-2.5 px-4 py-2 text-sm font-semibold text-rose-300 bg-rose-950/40 hover:bg-rose-900/50 border-b border-rose-500/20"
+                        >
+                          <Video className="w-4 h-4 text-rose-400" />
+                          <span>Video Manager</span>
+                          <span className="ml-auto text-[10px] uppercase font-bold px-1.5 py-0.5 rounded bg-rose-500/30 text-rose-200">YouTube</span>
+                        </Link>
+                      </>
                     )}
 
                     <div className="border-t border-slate-800 my-1"></div>
@@ -328,15 +339,26 @@ export default function Navbar() {
                   </Link>
                 )}
                 {user?.role === 'admin' && (
-                  <Link
-                    to="/admin"
-                    onClick={() => setMobileOpen(false)}
-                    className="flex items-center gap-3 px-4 py-3 rounded-xl bg-purple-950/60 border border-purple-500/30 text-purple-200 text-sm font-bold"
-                  >
-                    <ShieldCheck className="w-5 h-5 text-purple-400" />
-                    <span>Admin Console</span>
-                    <span className="ml-auto text-[10px] bg-purple-500/30 px-2 py-0.5 rounded">Admin</span>
-                  </Link>
+                  <>
+                    <Link
+                      to="/admin"
+                      onClick={() => setMobileOpen(false)}
+                      className="flex items-center gap-3 px-4 py-3 rounded-xl bg-purple-950/60 border border-purple-500/30 text-purple-200 text-sm font-bold"
+                    >
+                      <ShieldCheck className="w-5 h-5 text-purple-400" />
+                      <span>Admin Console</span>
+                      <span className="ml-auto text-[10px] bg-purple-500/30 px-2 py-0.5 rounded">Admin</span>
+                    </Link>
+                    <Link
+                      to="/admin/videos"
+                      onClick={() => setMobileOpen(false)}
+                      className="flex items-center gap-3 px-4 py-3 rounded-xl bg-rose-950/60 border border-rose-500/30 text-rose-200 text-sm font-bold"
+                    >
+                      <Video className="w-5 h-5 text-rose-400" />
+                      <span>YouTube Video Manager</span>
+                      <span className="ml-auto text-[10px] bg-rose-500/30 px-2 py-0.5 rounded">Videos</span>
+                    </Link>
+                  </>
                 )}
                 <Link
                   to="/profile"

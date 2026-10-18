@@ -644,6 +644,22 @@ export const api = {
         body: JSON.stringify({ published })
       });
       return handleResponse(res);
+    },
+
+    async getVideos() {
+      const res = await fetch(`${API_BASE}/admin/videos`, {
+        headers: getAuthHeaders()
+      });
+      return handleResponse(res);
+    },
+
+    async updateVideo(courseId, lessonId, data) {
+      const res = await fetch(`${API_BASE}/admin/videos/${encodeURIComponent(courseId)}/${encodeURIComponent(lessonId)}`, {
+        method: 'PUT',
+        headers: getAuthHeaders(),
+        body: JSON.stringify(data)
+      });
+      return handleResponse(res);
     }
   },
 

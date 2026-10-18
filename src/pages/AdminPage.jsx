@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { 
   ShieldCheck, 
   Users, 
@@ -32,15 +33,19 @@ import {
   Layers,
   Settings,
   HelpCircle,
-  Building
+  Building,
+  Video
 } from 'lucide-react';
 import { api } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import Badge from '../components/common/Badge';
+import AdminVideoManager from '../components/admin/AdminVideoManager';
 
-export default function AdminPage() {
+export default function AdminPage({ defaultTab }) {
   const { user } = useAuth();
-  const [activeTab, setActiveTab] = useState('overview'); // 'overview' | 'users' | 'certificates' | 'courses' | 'coaches' | 'audit'
+  const [searchParams] = useSearchParams();
+  const initialTab = defaultTab || searchParams.get('tab') || 'overview';
+  const [activeTab, setActiveTab] = useState(initialTab);
   
   // Data states
   const [stats, setStats] = useState(null);
@@ -571,6 +576,7 @@ export default function AdminPage() {
             { id: 'users', label: `Learners (${users.length})`, icon: Users },
             { id: 'certificates', label: `Certificates (${certificates.length})`, icon: Award },
             { id: 'courses', label: `Course Catalog (${courses.length})`, icon: BookOpen },
+            { id: 'videos', label: 'YouTube Video Manager', icon: Video },
             { id: 'coaches', label: `Coach Applications (${coachApplications.length})`, icon: GraduationCap },
             { id: 'audit', label: `Security Audits (${auditLogs.length})`, icon: Activity }
           ].map(tab => {
@@ -1804,6 +1810,11 @@ export default function AdminPage() {
               </div>
             </div>
           </div>
+        )}
+
+        {/* TAB 8: YOUTUBE VIDEO MANAGER */}
+        {activeTab === 'videos' && (
+          <AdminVideoManager />
         )}
 
         {/* Revocation Modal */}
