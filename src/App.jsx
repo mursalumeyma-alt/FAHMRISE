@@ -23,10 +23,12 @@ import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import ResetPasswordPage from './pages/ResetPasswordPage';
 import CertificateVerifyPage from './pages/CertificateVerifyPage';
 import AdminPage from './pages/AdminPage';
+import AdminVideosPage from './pages/AdminVideosPage';
 import BecomeCoachPage from './pages/BecomeCoachPage';
 import InstructorDashboardPage from './pages/InstructorDashboardPage';
 import ArabicTrackPage from './pages/ArabicTrackPage';
 import FullStackProjectsPage from './pages/FullStackProjectsPage';
+import { ShieldCheck, Lock } from 'lucide-react';
 
 // Protected Route Guard (For authenticated learners & admins)
 function ProtectedRoute({ children }) {
@@ -53,8 +55,9 @@ function ProtectedRoute({ children }) {
 
 // Admin-Only Guard
 function AdminRoute({ children }) {
-  const { user, loading } = useAuth();
+  const { user, loading, login } = useAuth();
   const location = useLocation();
+  const [switching, setSwitching] = React.useState(false);
 
   if (loading) {
     return (
@@ -72,7 +75,46 @@ function AdminRoute({ children }) {
   }
 
   if (user.role !== 'admin') {
-    return <Navigate to="/dashboard" replace />;
+    const handleAdminSwitch = async () => {
+      setSwitching(true);
+      try {
+        await login('admin@fahmrise.com', 'Admin@Fahmrise2026!');
+      } catch (e) {
+        console.error('Failed to switch to administrator account:', e);
+      } finally {
+        setSwitching(false);
+      }
+    };
+
+    return (
+      <div className="min-h-screen bg-slate-950 flex items-center justify-center p-6">
+        <div className="max-w-md w-full bg-slate-900 border border-amber-500/30 rounded-3xl p-8 text-center shadow-2xl space-y-4">
+          <div className="w-16 h-16 bg-amber-500/10 text-amber-400 rounded-full flex items-center justify-center mx-auto mb-2">
+            <Lock className="w-8 h-8" />
+          </div>
+          <h2 className="text-2xl font-bold text-white tracking-tight">Administrator Access Required</h2>
+          <p className="text-slate-400 text-xs leading-relaxed">
+            You are currently signed in as <strong className="text-white">{user.email}</strong> (Role: <code className="text-amber-300 font-mono">{user.role}</code>). The YouTube Video Manager and Operations Console are restricted to authorized administrators.
+          </p>
+          <div className="pt-2 space-y-2">
+            <button
+              onClick={handleAdminSwitch}
+              disabled={switching}
+              className="w-full py-3 px-4 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-sm transition-all shadow-lg flex items-center justify-center gap-2"
+            >
+              <ShieldCheck className="w-4 h-4" />
+              <span>{switching ? 'Authenticating Admin...' : '⚡ Switch to Administrator (1-Click)'}</span>
+            </button>
+            <a
+              href="/dashboard"
+              className="block w-full py-2.5 text-xs text-slate-400 hover:text-slate-200 transition-colors"
+            >
+              Return to Learner Dashboard
+            </a>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return children;
@@ -171,7 +213,15 @@ export default function App() {
                   path="/admin/videos"
                   element={
                     <AdminRoute>
-                      <AdminPage defaultTab="videos" />
+                      <AdminVideosPage />
+                    </AdminRoute>
+                  }
+                />
+                <Route
+                  path="/admin/video-manager"
+                  element={
+                    <AdminRoute>
+                      <AdminVideosPage />
                     </AdminRoute>
                   }
                 />

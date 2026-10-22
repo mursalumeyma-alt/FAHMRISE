@@ -1507,6 +1507,19 @@ export default function ReaderPage() {
                     />
                   )}
 
+                  {/* Interactive Challenge / Knowledge Checkpoint */}
+                  {currentLesson.challenge && (
+                    <LessonChallenge
+                      challenge={currentLesson.challenge}
+                      isCompleted={isChapterFullyDone}
+                      onComplete={() => {
+                        if (user) {
+                          markLessonComplete(currentLesson.id, targetBookId);
+                        }
+                      }}
+                    />
+                  )}
+
                   {/* Scholarly Sources & Classical Citations (if available) */}
                   {currentLesson.references && currentLesson.references.length > 0 && (
                     <div className="p-5 sm:p-6 rounded-3xl bg-slate-900/60 border border-slate-800 space-y-2.5">

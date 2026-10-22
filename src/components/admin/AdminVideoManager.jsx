@@ -23,6 +23,7 @@ import {
   ChevronRight
 } from 'lucide-react';
 import { api } from '../../services/api';
+import { CoursesDB } from '../../data/coursesData';
 
 // Helper to extract 11-char YouTube ID if user pastes full URL
 function extractYouTubeId(raw) {
@@ -38,6 +39,130 @@ function extractYouTubeId(raw) {
 function isValidYouTubeId(id) {
   if (!id) return false;
   return /^[\w-]{11}$/.test(String(id).trim());
+}
+
+function buildLocalVideoAnalysis(courses) {
+  const allVideos = [];
+  const idMap = new Map();
+
+  courses.forEach(course => {
+    const courseId = course.id;
+    const courseTitle = course.title || course.id;
+    const category = course.category || 'General';
+
+    (course.lessons || []).forEach(lesson => {
+      if (lesson.videoLesson) {
+        const v = lesson.videoLesson;
+        const vidId = (v.videoId || '').trim();
+
+        let moduleName = '';
+        if (course.modules && Array.isArray(course.modules)) {
+          const parentModule = course.modules.find(m => 
+            Array.isArray(m.lessons) && m.lessons.some(ml => ml.id === lesson.id)
+          );
+          if (parentModule) {
+            moduleName = parentModule.title || `Module ${parentModule.number}`;
+          }
+        }
+        if (!moduleName && lesson.title && lesson.title.toLowerCase().startsWith('module')) {
+          const parts = lesson.title.split(':');
+          moduleName = parts[0].trim();
+        }
+
+        const videoItem = {
+          courseId,
+          courseTitle,
+          courseCategory: category,
+          moduleName,
+          lessonId: lesson.id,
+          lessonNumber: lesson.number,
+          lessonTitle: lesson.title,
+          lessonSubtitle: lesson.subtitle || '',
+          videoId: vidId,
+          title: (v.title || '').trim(),
+          channel: (v.channel || '').trim(),
+          duration: (v.duration || '').trim(),
+          badge: v.badge || 'Needs Review',
+          watchUrl: vidId ? `https://www.youtube.com/watch?v=${vidId}` : '',
+          embedUrl: vidId ? `https://www.youtube-nocookie.com/embed/${vidId}` : '',
+          alternativeSource: v.alternativeSource || '',
+          sourceName: v.sourceName || ''
+        };
+
+        allVideos.push(videoItem);
+        if (vidId) {
+          if (!idMap.has(vidId)) idMap.set(vidId, []);
+          idMap.get(vidId).push(videoItem);
+        }
+      }
+    });
+  });
+
+  let verifiedCount = 0;
+  let needsReviewCount = 0;
+  let brokenIdCount = 0;
+  let missingMetadataCount = 0;
+  let affectedByRepeats = 0;
+
+  const analyzedVideos = allVideos.map(item => {
+    const vidId = item.videoId;
+    const occurrences = vidId ? (idMap.get(vidId) || []) : [];
+    const isRepeated = occurrences.length > 1;
+    if (isRepeated) affectedByRepeats++;
+
+    const repeatedIn = isRepeated
+      ? occurrences
+          .filter(o => !(o.courseId === item.courseId && o.lessonId === item.lessonId))
+          .map(o => ({
+            courseId: o.courseId,
+            courseTitle: o.courseTitle,
+            lessonId: o.lessonId,
+            lessonNumber: o.lessonNumber,
+            lessonTitle: o.lessonTitle
+          }))
+      : [];
+
+    const isBroken = !isValidYouTubeId(vidId);
+    if (isBroken) brokenIdCount++;
+
+    const missingFields = [];
+    if (!item.title) missingFields.push('title');
+    if (!item.channel) missingFields.push('channel');
+    if (!item.duration) missingFields.push('duration');
+    const isMissingMetadata = missingFields.length > 0;
+    if (isMissingMetadata) missingMetadataCount++;
+
+    const isVerified = item.badge === 'Verified Reference Video';
+    if (isVerified) verifiedCount++;
+    else needsReviewCount++;
+
+    return {
+      ...item,
+      isRepeated,
+      repeatedCount: occurrences.length,
+      repeatedIn,
+      isBroken,
+      isMissingMetadata,
+      missingFields,
+      status: isVerified ? 'Verified' : 'Needs Review'
+    };
+  });
+
+  const repeatedUniqueIds = Array.from(idMap.entries()).filter(([k, list]) => list.length > 1).length;
+
+  return {
+    videos: analyzedVideos,
+    stats: {
+      totalVideos: analyzedVideos.length,
+      verifiedCount,
+      needsReviewCount,
+      uniqueVideoIds: idMap.size,
+      repeatedIdCount: repeatedUniqueIds,
+      affectedByRepeats,
+      brokenIdCount,
+      missingMetadataCount
+    }
+  };
 }
 
 export default function AdminVideoManager() {
@@ -93,7 +218,19 @@ export default function AdminVideoManager() {
         throw new Error(res?.error || 'Failed to load video catalog.');
       }
     } catch (err) {
-      console.error('Failed to fetch videos:', err);
+      console.warn('Backend API getVideos error, falling back to local database:', err);
+      try {
+        const localCourses = CoursesDB.getAllCourses();
+        if (localCourses && localCourses.length > 0) {
+          const fallbackData = buildLocalVideoAnalysis(localCourses);
+          setVideos(fallbackData.videos);
+          setStats(fallbackData.stats);
+          setError(`Note: Live backend syncing unavailable (${err.message}). Showing catalog in offline fallback mode.`);
+          return;
+        }
+      } catch (localErr) {
+        console.error('Local fallback failed:', localErr);
+      }
       setError(err.message || 'Error connecting to video catalog API.');
     } finally {
       setLoading(false);

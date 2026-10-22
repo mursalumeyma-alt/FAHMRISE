@@ -10,7 +10,8 @@ import {
   FileText,
   RefreshCw,
   Globe2,
-  ShieldCheck
+  ShieldCheck,
+  AlertCircle
 } from 'lucide-react';
 
 /**
@@ -175,11 +176,24 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-slate-800/90">
         <div className="space-y-1.5">
           <div className="flex flex-wrap items-center gap-2">
-            {/* Free Educational Resource Badge */}
-            <span className="inline-flex items-center gap-1.5 text-emerald-400 font-bold text-xs uppercase tracking-wider bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 rounded-full">
-              <ShieldCheck className="w-3.5 h-3.5" />
-              <span>{activeVideo.badge || 'Verified Reference Video'}</span>
-            </span>
+            {/* Verification Status Badge */}
+            {(() => {
+              const isVerified = (activeVideo.badge === 'Verified Reference Video' || activeVideo.badge === 'Verified' || activeVideo.status === 'Verified') && activeVideo.badge !== 'Needs Review' && activeVideo.status !== 'Needs Review';
+              if (isVerified) {
+                return (
+                  <span className="inline-flex items-center gap-1.5 text-emerald-400 font-bold text-xs uppercase tracking-wider bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 rounded-full">
+                    <ShieldCheck className="w-3.5 h-3.5" />
+                    <span>Verified Reference Video</span>
+                  </span>
+                );
+              }
+              return (
+                <span className="inline-flex items-center gap-1.5 text-amber-400 font-bold text-xs uppercase tracking-wider bg-amber-500/10 border border-amber-500/20 px-2.5 py-0.5 rounded-full">
+                  <AlertCircle className="w-3.5 h-3.5" />
+                  <span>Needs Review</span>
+                </span>
+              );
+            })()}
 
             {/* Video Duration */}
             {activeVideo.duration && (

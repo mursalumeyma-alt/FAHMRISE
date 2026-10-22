@@ -47,6 +47,9 @@ export default function Navbar() {
     { name: 'Practice Arena', path: '/practice', icon: Code2, badge: '10 Projects' },
     { name: 'AI Tutor', path: '/ai-tutor', icon: Bot, badge: 'Voice' },
     { name: 'Become a Coach', path: '/become-a-coach', icon: Sparkles, badge: 'Apply' },
+    ...(user?.role === 'admin' ? [
+      { name: 'YouTube Video Manager', path: '/admin/videos', icon: Video, badge: 'Admin' }
+    ] : []),
     ...(user ? [{ name: 'My Learning', path: '/dashboard', icon: BookOpen }] : [])
   ];
 
@@ -114,11 +117,22 @@ export default function Navbar() {
           {/* User Auth Actions (Desktop) */}
           <div className="hidden lg:flex items-center gap-2 xl:gap-3 flex-shrink-0">
             {user ? (
-              <div className="relative">
-                <button
-                  onClick={() => setUserMenuOpen(!userMenuOpen)}
-                  className="flex items-center gap-2 p-1.5 pr-2.5 rounded-full bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all text-xs xl:text-sm"
-                >
+              <>
+                {user.role === 'admin' && (
+                  <Link
+                    to="/admin/videos"
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-rose-500/15 text-rose-300 hover:bg-rose-500/25 border border-rose-500/30 transition-all shadow-sm"
+                    title="YouTube Video Manager Console"
+                  >
+                    <Video className="w-3.5 h-3.5 text-rose-400" />
+                    <span>Video Manager</span>
+                  </Link>
+                )}
+                <div className="relative">
+                  <button
+                    onClick={() => setUserMenuOpen(!userMenuOpen)}
+                    className="flex items-center gap-2 p-1.5 pr-2.5 rounded-full bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all text-xs xl:text-sm"
+                  >
                   <img
                     src={user.avatar || 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100'}
                     alt={user.name}
@@ -248,8 +262,17 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
+            </>
             ) : (
               <div className="flex items-center gap-2">
+                <Link
+                  to="/admin/videos"
+                  className="px-2.5 xl:px-3 py-1.5 xl:py-2 rounded-xl text-xs xl:text-sm font-bold bg-rose-500/20 text-rose-300 hover:bg-rose-500/30 border border-rose-500/40 transition-all flex items-center gap-1.5 whitespace-nowrap shadow-sm"
+                  title="Administrator & YouTube Video Manager Access"
+                >
+                  <Video className="w-3.5 h-3.5 text-rose-400" />
+                  <span>Admin / Videos</span>
+                </Link>
                 <Link
                   to="/login"
                   className="px-2.5 xl:px-3 py-1.5 xl:py-2 rounded-xl text-xs xl:text-sm font-bold bg-indigo-500/20 text-indigo-300 hover:bg-indigo-500/30 border border-indigo-500/40 transition-all flex items-center gap-1.5 whitespace-nowrap shadow-sm"
@@ -381,6 +404,14 @@ export default function Navbar() {
               </div>
             ) : (
               <div className="space-y-2 pt-2">
+                <Link
+                  to="/admin/videos"
+                  onClick={() => setMobileOpen(false)}
+                  className="w-full text-center py-2.5 rounded-xl bg-rose-950/80 text-rose-300 border border-rose-500/40 text-sm font-bold flex items-center justify-center gap-2"
+                >
+                  <Video className="w-4 h-4 text-rose-400" />
+                  <span>Admin & Video Manager Access</span>
+                </Link>
                 <Link
                   to="/login"
                   onClick={() => setMobileOpen(false)}

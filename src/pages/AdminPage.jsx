@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, Link } from 'react-router-dom';
 import { 
   ShieldCheck, 
   Users, 
@@ -43,9 +43,22 @@ import AdminVideoManager from '../components/admin/AdminVideoManager';
 
 export default function AdminPage({ defaultTab }) {
   const { user } = useAuth();
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const initialTab = defaultTab || searchParams.get('tab') || 'overview';
   const [activeTab, setActiveTab] = useState(initialTab);
+
+  // Synchronize activeTab whenever defaultTab prop or ?tab= query parameter changes
+  useEffect(() => {
+    const targetTab = defaultTab || searchParams.get('tab') || 'overview';
+    if (targetTab !== activeTab) {
+      setActiveTab(targetTab);
+    }
+  }, [defaultTab, searchParams, activeTab]);
+
+  const handleTabSelect = (tabId) => {
+    setActiveTab(tabId);
+    setSearchParams(tabId === 'overview' ? {} : { tab: tabId });
+  };
   
   // Data states
   const [stats, setStats] = useState(null);
@@ -535,14 +548,22 @@ export default function AdminPage({ defaultTab }) {
             </div>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2.5 sm:gap-3">
+            <Link
+              to="/admin/videos"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-rose-600 to-rose-500 hover:from-rose-500 hover:to-rose-400 text-white rounded-xl text-sm font-bold transition-all shadow-md shadow-rose-950/60"
+              title="Open YouTube Video Manager"
+            >
+              <Video className="w-4 h-4 text-white" />
+              <span>YouTube Video Manager</span>
+            </Link>
             <button
               onClick={loadAllAdminData}
               disabled={loading}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-slate-900 border border-slate-700 hover:border-slate-600 text-slate-300 hover:text-white rounded-xl text-sm font-medium transition-colors"
+              className="inline-flex items-center gap-2 px-3.5 py-2 bg-slate-900 border border-slate-700 hover:border-slate-600 text-slate-300 hover:text-white rounded-xl text-sm font-medium transition-colors"
             >
               <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
-              <span>Refresh Data</span>
+              <span className="hidden sm:inline">Refresh Data</span>
             </button>
           </div>
         </div>
@@ -576,7 +597,7 @@ export default function AdminPage({ defaultTab }) {
             { id: 'users', label: `Learners (${users.length})`, icon: Users },
             { id: 'certificates', label: `Certificates (${certificates.length})`, icon: Award },
             { id: 'courses', label: `Course Catalog (${courses.length})`, icon: BookOpen },
-            { id: 'videos', label: 'YouTube Video Manager', icon: Video },
+            { id: 'videos', label: 'YouTube Video Manager', icon: Video, badge: 'Videos' },
             { id: 'coaches', label: `Coach Applications (${coachApplications.length})`, icon: GraduationCap },
             { id: 'audit', label: `Security Audits (${auditLogs.length})`, icon: Activity }
           ].map(tab => {
@@ -585,15 +606,28 @@ export default function AdminPage({ defaultTab }) {
             return (
               <button
                 key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
+                onClick={() => handleTabSelect(tab.id)}
                 className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium whitespace-nowrap transition-all ${
                   isActive
-                    ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 shadow-sm'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
+                    ? tab.id === 'videos'
+                      ? 'bg-rose-500/15 text-rose-300 border border-rose-500/40 shadow-sm shadow-rose-950/50 font-semibold'
+                      : 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 shadow-sm'
+                    : tab.id === 'videos'
+                      ? 'text-rose-400/90 hover:text-rose-300 hover:bg-rose-950/30 border border-rose-500/20'
+                      : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
                 }`}
               >
-                <Icon className="w-4 h-4" />
+                <Icon className={`w-4 h-4 ${tab.id === 'videos' && !isActive ? 'text-rose-400' : ''}`} />
                 <span>{tab.label}</span>
+                {tab.badge && (
+                  <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider ${
+                    tab.id === 'videos'
+                      ? 'bg-rose-500/30 text-rose-200 border border-rose-500/40'
+                      : 'bg-emerald-500/20 text-emerald-300'
+                  }`}>
+                    {tab.badge}
+                  </span>
+                )}
               </button>
             );
           })}
@@ -640,6 +674,42 @@ export default function AdminPage({ defaultTab }) {
               </div>
             </div>
 
+            {/* Quick Launch & Operations Spotlight */}
+            <div className="bg-gradient-to-r from-slate-900 via-rose-950/20 to-slate-900 border border-rose-500/30 rounded-2xl p-5 shadow-xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-2xl bg-rose-500/15 border border-rose-500/30 flex items-center justify-center text-rose-400 flex-shrink-0">
+                  <Video className="w-6 h-6" />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-base font-bold text-white">YouTube Video Manager</h3>
+                    <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/30 uppercase tracking-wider">
+                      Operations
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-400 mt-0.5">
+                    Search and edit YouTube video references, preview players, verify video metadata, and synchronize watch/embed URLs across all 26 courses.
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-2 flex-shrink-0">
+                <button
+                  onClick={() => handleTabSelect('videos')}
+                  className="inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-rose-600 hover:bg-rose-500 text-white rounded-xl text-sm font-semibold transition-all shadow-lg shadow-rose-950"
+                >
+                  <Video className="w-4 h-4" />
+                  <span>Open Video Manager</span>
+                </button>
+                <Link
+                  to="/admin/videos"
+                  className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 rounded-xl text-sm font-medium transition-all"
+                >
+                  <span>Direct View</span>
+                  <ArrowUpRight className="w-4 h-4 text-slate-400" />
+                </Link>
+              </div>
+            </div>
+
             {/* Recent Audit Actions Preview */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <div className="flex items-center justify-between mb-4">
@@ -648,7 +718,7 @@ export default function AdminPage({ defaultTab }) {
                   <span>Recent Administrative & Security Events</span>
                 </h3>
                 <button
-                  onClick={() => setActiveTab('audit')}
+                  onClick={() => handleTabSelect('audit')}
                   className="text-xs text-emerald-400 hover:text-emerald-300 font-medium flex items-center gap-1"
                 >
                   <span>View All Logs</span>

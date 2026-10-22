@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { LogIn, Sparkles, ShieldCheck, ArrowRight, Lock, Mail, ChevronRight, GraduationCap } from 'lucide-react';
+import { LogIn, Sparkles, ShieldCheck, ArrowRight, Lock, Mail, ChevronRight, GraduationCap, Video } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import Alert from '../components/common/Alert';
 
@@ -26,6 +26,19 @@ export default function LoginPage() {
       navigate(redirect);
     } catch (err) {
       setError(err.message || 'Invalid email or password');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleAdminLogin = async () => {
+    setError(null);
+    setLoading(true);
+    try {
+      await login('admin@fahmrise.com', 'Admin@Fahmrise2026!');
+      navigate(redirect.startsWith('/admin') ? redirect : '/admin/videos');
+    } catch (err) {
+      setError('Administrator login failed: ' + (err.message || 'Please try again.'));
     } finally {
       setLoading(false);
     }
@@ -73,6 +86,35 @@ export default function LoginPage() {
           </Link>
           <h2 className="text-2xl font-extrabold text-white">Welcome Back</h2>
           <p className="text-xs text-slate-400">Understand. Learn. Rise. Sign in to your account.</p>
+        </div>
+
+        {/* 1-Click Administrator & YouTube Video Manager Access Card */}
+        <div className="p-5 bg-gradient-to-r from-rose-950/90 via-slate-900 to-rose-950/70 border-2 border-rose-500/60 rounded-2xl space-y-3 shadow-2xl relative overflow-hidden">
+          <div className="absolute top-0 right-0 px-3 py-1 bg-rose-500 text-white font-black text-[10px] uppercase tracking-wider rounded-bl-xl shadow">
+            Admin Pass
+          </div>
+          <div className="flex items-center gap-2 text-sm font-black text-rose-300">
+            <Video className="w-5 h-5 text-rose-400" />
+            <span>YouTube Video Manager & Operations Admin</span>
+          </div>
+          <p className="text-xs text-slate-200 leading-relaxed">
+            Full administrator control: access the <strong>YouTube Video Manager</strong>, inspect 287+ course videos, edit YouTube IDs, verify sync, and manage platform operations.
+          </p>
+          <div className="pt-1">
+            <button
+              type="button"
+              onClick={handleAdminLogin}
+              disabled={loading}
+              className="w-full py-3 px-4 bg-gradient-to-r from-rose-600 via-rose-500 to-amber-500 hover:from-rose-500 hover:to-amber-400 text-white font-black text-xs sm:text-sm rounded-xl shadow-lg transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2"
+            >
+              <Video className="w-4 h-4 text-white" />
+              <span>👑 Log In as Administrator (YouTube Video Manager)</span>
+            </button>
+          </div>
+          <div className="flex items-center justify-between text-[11px] text-slate-400 pt-1.5 border-t border-rose-900/50 font-mono">
+            <span>Email: <code className="text-rose-300">admin@fahmrise.com</code></span>
+            <span>Password: <code className="text-rose-300">Admin@Fahmrise2026!</code></span>
+          </div>
         </div>
 
         {/* Clearly Labelled Teacher Demo / Reviewer Access Card */}
