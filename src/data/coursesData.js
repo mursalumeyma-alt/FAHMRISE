@@ -6046,19 +6046,133 @@ export const coursesData = [
         "subtitle": "PostgreSQL, SQLite, MySQL, DBeaver GUI, loading schemas, and database data types",
         "readingTime": "18 min",
         "videoLesson": {
-          "title": "Database Setup, Tables Creation & Sample Data Ingestion",
-          "channel": "Alex The Analyst",
-          "duration": "28:41:07",
-          "videoId": "cnjhHZNJEDk",
-          "watchUrl": "https://www.youtube.com/watch?v=cnjhHZNJEDk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
-          "url": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
+          "title": "DBeaver Tutorial - How to Use DBeaver (SQL Editor)",
+          "channel": "Database Star",
+          "duration": "15:50",
+          "videoId": "LEx96-CkB1Q",
+          "watchUrl": "https://www.youtube.com/watch?v=LEx96-CkB1Q",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/LEx96-CkB1Q",
+          "url": "https://www.youtube-nocookie.com/embed/LEx96-CkB1Q",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
           "alternativeSource": "https://www.postgresql.org/docs/current/ddl.html",
           "sourceName": "PostgreSQL Documentation — Data Definition (DDL)",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "PostgreSQL Documentation — Data Definition (DDL)",
+              "url": "https://www.postgresql.org/docs/current/ddl.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — Data Types",
+              "url": "https://www.postgresql.org/docs/current/datatype.html"
+            },
+            {
+              "name": "DBeaver Community — Universal Database Tool",
+              "url": "https://dbeaver.io/"
+            }
+          ],
+          "note": "Database Setup, Workstation GUI & Data Ingestion: Tab 1 by Database Star (15:50) demonstrates DBeaver universal database manager setup, multi-engine connections, query execution, and data import/export. Tab 2 by Database Star (17:13) covers PostgreSQL database connectivity, CREATE TABLE DDL, and column constraints. Tab 3 by CK Data Tech (15:43) guides through importing CSV datasets into database tables in DBeaver. Tab 4 by CK Data Tech (09:24) covers connecting DBeaver to a local PostgreSQL server.",
+          "references": [
+            {
+              "id": "ref-dbeaver-universal-gui",
+              "tabLabel": "1. DBeaver Universal GUI",
+              "topic": "Universal Database GUI: DBeaver Setup, Database Connections, Query Execution & Data Import",
+              "title": "DBeaver Tutorial - How to Use DBeaver (SQL Editor)",
+              "channel": "Database Star",
+              "duration": "15:50",
+              "videoId": "LEx96-CkB1Q",
+              "watchUrl": "https://www.youtube.com/watch?v=LEx96-CkB1Q",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/LEx96-CkB1Q",
+              "url": "https://www.youtube-nocookie.com/embed/LEx96-CkB1Q",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://dbeaver.io/",
+              "sourceName": "DBeaver Community Official Site",
+              "sources": [
+                {
+                  "name": "DBeaver Community",
+                  "url": "https://dbeaver.io/"
+                },
+                {
+                  "name": "PostgreSQL DDL Documentation",
+                  "url": "https://www.postgresql.org/docs/current/ddl.html"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Ben Brumm from Database Star demonstrates how to install and configure DBeaver Community, connect to PostgreSQL, MySQL, and SQLite databases, navigate schemas, execute SQL scripts, and import/export data."
+            },
+            {
+              "id": "ref-postgres-table-ddl",
+              "tabLabel": "2. PostgreSQL & Table DDL",
+              "topic": "PostgreSQL Database Connection, CREATE TABLE DDL & Schema Management",
+              "title": "Introduction to PostgreSQL Tutorial - Part 1",
+              "channel": "Database Star",
+              "duration": "17:13",
+              "videoId": "74IWNUja05w",
+              "watchUrl": "https://www.youtube.com/watch?v=74IWNUja05w",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/74IWNUja05w",
+              "url": "https://www.youtube-nocookie.com/embed/74IWNUja05w",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/ddl.html",
+              "sourceName": "PostgreSQL Documentation — Data Definition (DDL)",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Data Definition",
+                  "url": "https://www.postgresql.org/docs/current/ddl.html"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Learn how to connect to PostgreSQL, author CREATE TABLE statements with primary keys and data types, insert records, view table contents, and troubleshoot schema errors."
+            },
+            {
+              "id": "ref-dbeaver-csv-ingestion",
+              "tabLabel": "3. CSV Ingestion in DBeaver",
+              "topic": "Importing CSV Datasets into Database Tables with Column Mapping in DBeaver",
+              "title": "How to Import CSV File to a DATABASE in DBeaver | Step-by-Step Tutorial",
+              "channel": "CK Data Tech",
+              "duration": "15:43",
+              "videoId": "e_VIAwrL_bI",
+              "watchUrl": "https://www.youtube.com/watch?v=e_VIAwrL_bI",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/e_VIAwrL_bI",
+              "url": "https://www.youtube-nocookie.com/embed/e_VIAwrL_bI",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://dbeaver.io/",
+              "sourceName": "DBeaver Data Transfer & Import Guide",
+              "sources": [
+                {
+                  "name": "DBeaver Community",
+                  "url": "https://dbeaver.io/"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Step-by-step walkthrough demonstrating how to import raw CSV datasets into a relational database table using DBeaver’s data transfer wizard, map column headers to target data types, and verify row counts."
+            },
+            {
+              "id": "ref-connect-dbeaver-postgres",
+              "tabLabel": "4. DBeaver Client Setup",
+              "topic": "Connecting DBeaver Client to PostgreSQL Local Database Server",
+              "title": "CONNECT DBeaver to PostgreSQL & RUN Queries - EASY TUTORIAL!",
+              "channel": "CK Data Tech",
+              "duration": "09:24",
+              "videoId": "GgODmMBVUD4",
+              "watchUrl": "https://www.youtube.com/watch?v=GgODmMBVUD4",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/GgODmMBVUD4",
+              "url": "https://www.youtube-nocookie.com/embed/GgODmMBVUD4",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/tutorial-start.html",
+              "sourceName": "PostgreSQL Getting Started Guide",
+              "sources": [
+                {
+                  "name": "PostgreSQL Getting Started",
+                  "url": "https://www.postgresql.org/docs/current/tutorial-start.html"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Quick start tutorial showing how to install DBeaver and PostgreSQL, configure host connection settings, authenticate credentials, and run your first test query."
+            }
+          ]
         },
         "summary": "Set up a professional SQL analytics workstation. Install PostgreSQL/SQLite, connect via DBeaver universal database GUI, inspect schemas, and understand core SQL data types.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Choose and install a universal SQL client (**DBeaver Community** or **pgAdmin**).\n2. Create databases, schemas, and tables using standard DDL statements (`CREATE TABLE`, `DROP TABLE`).\n3. Differentiate between core SQL data types: **INTEGER**, **BIGINT**, **NUMERIC/DECIMAL**, **VARCHAR/TEXT**, **DATE**, **TIMESTAMP**, and **BOOLEAN**.\n4. Ingest raw CSV data into relational tables using SQL `\\copy` / `COPY` commands.\n5. Inspect database metadata using information schema queries.\n\n---\n\n### 1. SQL Dialects & Database Flavors\n\nWhile ANSI SQL is standard, major database engines have slight dialect nuances:\n- **PostgreSQL**: The world's most advanced open-source relational database. Highly standards-compliant, supports advanced JSONB, arrays, and window functions.\n- **MySQL / MariaDB**: Extremely popular in web application backends.\n- **SQLite**: Self-contained, serverless file-based database ideal for local analysis and embedded applications.\n- **Cloud Warehouses (Snowflake, BigQuery, Redshift)**: Columnar databases designed for petabyte-scale analytics using standard SQL.\n\n---\n\n### 2. Core SQL Data Types for Analytics\n\n```sql\nCREATE TABLE dim_products (\n    product_id          INT PRIMARY KEY,\n    sku                 VARCHAR(50) UNIQUE NOT NULL,\n    product_name        VARCHAR(255) NOT NULL,\n    category            VARCHAR(100) NOT NULL,\n    unit_cost_ksh       NUMERIC(12, 2) NOT NULL,\n    unit_price_ksh      NUMERIC(12, 2) NOT NULL,\n    is_active           BOOLEAN DEFAULT TRUE,\n    created_at          TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP\n);\n```\n\n#### Key Type Guidelines:\n- **NUMERIC(12, 2) / DECIMAL**: Always use for financial and currency values (e.g. Kenya Shillings). Never use `FLOAT` or `REAL` for currency because floating-point rounding errors will corrupt balance sheets!\n- **TIMESTAMP WITH TIME ZONE (TIMESTAMPTZ)**: Stores exact UTC moments in time, automatically converted to local Nairobi time (`EAT`).\n\n---\n\n### 3. Summary & Best Practices\n- Always use `DECIMAL/NUMERIC` for money and currency calculations.\n- Use universal GUI tools like DBeaver to connect seamlessly across Postgres, MySQL, and SQLite.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Choose, install, and configure a universal SQL client (**DBeaver Community** or **pgAdmin**).\n2. Create databases, schemas, and tables using standard DDL statements (`CREATE TABLE`, `DROP TABLE`).\n3. Differentiate between core SQL data types: **INTEGER**, **BIGINT**, **NUMERIC/DECIMAL**, **VARCHAR/TEXT**, **DATE**, **TIMESTAMP**, and **BOOLEAN**.\n4. Ingest raw CSV data into relational tables using PostgreSQL server-side `COPY`, client-side `\\copy` (psql), and DBeaver import tools.\n5. Inspect database metadata using `information_schema` queries.\n\n---\n\n### 1. SQL Dialects & Database Flavors\n\nWhile ANSI SQL defines the core standard, major database engines offer distinct architectures and capabilities:\n- **PostgreSQL**: The world's most advanced open-source object-relational database. Renowned for strict standards compliance, extensible types, JSONB document querying, and robust analytic window functions.\n- **MySQL / MariaDB**: Widely used in web applications, content management systems, and e-commerce platforms.\n- **SQLite**: A lightweight, self-contained, serverless file-based database engine ideal for local analytical sandboxes, mobile apps, and rapid prototyping.\n- **Cloud Data Warehouses (Snowflake, BigQuery, Redshift)**: Columnar distributed databases built for petabyte-scale analytical queries using standard SQL syntax.\n\n---\n\n### 2. Core SQL Data Types for Analytics\n\nWhen designing tables, choosing the correct data type guarantees data integrity, prevents rounding bugs, and optimizes disk storage:\n\n```sql\nCREATE TABLE dim_products (\n    product_id          INT PRIMARY KEY,\n    sku                 VARCHAR(50) UNIQUE NOT NULL,\n    product_name        VARCHAR(255) NOT NULL,\n    category            VARCHAR(100) NOT NULL,\n    unit_cost_ksh       NUMERIC(12, 2) NOT NULL,\n    unit_price_ksh      NUMERIC(12, 2) NOT NULL,\n    is_active           BOOLEAN DEFAULT TRUE,\n    created_at          TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP\n);\n```\n\n#### Critical Data Type Guidelines:\n- **NUMERIC(12, 2) / DECIMAL**: Always use exact fixed-point `NUMERIC` or `DECIMAL` for financial amounts and currency values (e.g. Kenya Shillings). **Never use `FLOAT` or `REAL` for currency!** Floating-point types use approximate binary representations that produce subtle rounding errors (e.g. `0.1 + 0.2 = 0.30000000000000004`), which will corrupt financial ledgers and balance sheets over repeated aggregations.\n- **TIMESTAMP WITH TIME ZONE (`TIMESTAMPTZ`)**: \n  > [!NOTE]\n  > **How PostgreSQL Handles Time Zones**: Despite its name, PostgreSQL does **not** store an explicit time-zone offset or geographical location label (such as `EAT` or `Africa/Nairobi`) alongside the data on disk. Instead, input timestamps with time-zone offsets are converted to and stored as an absolute point in time in UTC. When queried, PostgreSQL converts the stored UTC value and displays it in the time zone configured for the active client session. For example, a session set to `Africa/Nairobi` displays the timestamp at `UTC+3`, while a London session displays it at `UTC+0`, without altering the underlying timestamp data.\n- **VARCHAR(n) vs TEXT**: Use `VARCHAR(n)` when an explicit length constraint is required (e.g. `phone_number VARCHAR(15)` or `sku VARCHAR(50)`). In PostgreSQL, `TEXT` has no performance penalty compared to `VARCHAR` and is ideal for variable-length descriptions and notes.\n- **BOOLEAN**: Stores `TRUE`, `FALSE`, or `NULL` (unknown).\n\n---\n\n### 3. Ingesting Raw CSV Data into Relational Tables\n\nIn production analytics, analysts frequently receive transaction extracts in CSV format. SQL provides both command-line and graphical ingestion pipelines:\n\n#### A. PostgreSQL Server-Side `COPY` Command\nThe SQL `COPY` command is evaluated directly by the PostgreSQL database server process. The file path must reside on the database server filesystem, and the database user must possess server file-read privileges (`pg_read_server_files` or superuser):\n```sql\n-- Executed on PostgreSQL server\nCOPY dim_products (product_id, sku, product_name, category, unit_cost_ksh, unit_price_ksh, is_active, created_at)\nFROM '/var/lib/postgresql/data/products_kenya.csv'\nWITH (FORMAT csv, HEADER true, DELIMITER ',');\n```\n\n#### B. PostgreSQL `psql` Client-Side `\\copy` Command\n> [!IMPORTANT]\n> The backslash `\\copy` command is **specific to PostgreSQL's interactive terminal (`psql`)**. It is a client-side meta-command that reads the CSV file from your local workstation hard drive and streams the records across the network to the PostgreSQL server. It requires only standard table `INSERT` privileges:\n```sql\n-- Executed inside the psql client terminal\n\\copy dim_products FROM 'C:/Data/products_kenya.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',');\n```\n\n#### C. Universal Graphical Ingestion via DBeaver Community\nFor users connecting across different database engines (PostgreSQL, MySQL, SQLite) without command-line access:\n1. In DBeaver, expand your database schema in the Database Navigator tree.\n2. Right-click the target table (e.g. `dim_products`) and choose **Import Data**.\n3. Select **CSV**, browse to your local dataset file, and click **Next**.\n4. Review column mapping (ensuring CSV column headers match target database column names).\n5. Click **Proceed**. DBeaver handles batch inserts and reports completion status!\n\n---\n\n### 4. Inspecting Database Metadata with `information_schema`\n\nStandard SQL provides the `information_schema` view hierarchy, allowing you to inspect database objects, tables, and column configurations programmatically:\n\n```sql\n-- Inspect column names, data types, and nullability for a specific table\nSELECT \n    table_name,\n    column_name,\n    data_type,\n    character_maximum_length,\n    numeric_precision,\n    is_nullable,\n    column_default\nFROM information_schema.columns\nWHERE table_schema = 'public' \n  AND table_name = 'dim_products'\nORDER BY ordinal_position;\n```\n\n---\n\n### 5. Summary & Best Practices\n- Always use universal GUI tools like **DBeaver Community** to manage multiple database engines (PostgreSQL, MySQL, SQLite) through a single unified interface.\n- Standardize financial columns on `NUMERIC(12, 2)` to prevent decimal truncation and floating-point errors.\n- Use client-side `\\copy` in `psql` or DBeaver's Import Wizard when working with local files on your analyst workstation.",
         "challenge": {
           "type": "quiz",
           "title": "Module 2 Checkpoint: SQL Data Types",
@@ -6086,19 +6200,137 @@ export const coursesData = [
         "subtitle": "SELECT DISTINCT, comparison operators, AND/OR/NOT, IN, BETWEEN, LIKE, ILIKE, and NULL checks",
         "readingTime": "22 min",
         "videoLesson": {
-          "title": "Core Querying: SELECT, WHERE, Filtering, Sorting and Operators",
-          "channel": "Alex The Analyst",
-          "duration": "28:41:07",
-          "videoId": "cnjhHZNJEDk",
-          "watchUrl": "https://www.youtube.com/watch?v=cnjhHZNJEDk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
-          "url": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
+          "title": "SQL WHERE Conditions (Visually Explained) | AND, OR, NOT, LIKE, BETWEEN, IN | #SQL Course 7",
+          "channel": "Data with Baraa",
+          "duration": "40:37",
+          "videoId": "cMUJFau5Wvg",
+          "watchUrl": "https://www.youtube.com/watch?v=cMUJFau5Wvg",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/cMUJFau5Wvg",
+          "url": "https://www.youtube-nocookie.com/embed/cMUJFau5Wvg",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
           "alternativeSource": "https://www.postgresql.org/docs/current/queries-select-lists.html",
           "sourceName": "PostgreSQL Documentation — SELECT Lists",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "PostgreSQL Documentation — SELECT Lists",
+              "url": "https://www.postgresql.org/docs/current/queries-select-lists.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — Comparison Functions and Operators",
+              "url": "https://www.postgresql.org/docs/current/functions-comparison.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — Pattern Matching (LIKE & ILIKE)",
+              "url": "https://www.postgresql.org/docs/current/functions-matching.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — Sorting Rows (ORDER BY)",
+              "url": "https://www.postgresql.org/docs/current/queries-order.html"
+            }
+          ],
+          "note": "Core Querying, Filtering, Logical Operators & Sorting: Tab 1 by Data with Baraa (40:37) provides a visual breakdown of WHERE conditions, comparison operators, AND/OR/NOT, BETWEEN, IN, and LIKE pattern matching. Tab 2 by Alex The Analyst (06:13) covers SELECT statements, column aliasing with AS, and SELECT DISTINCT. Tab 3 by Alex The Analyst (07:57) covers hands-on WHERE filtering, inequality operators, and handling missing data with IS NULL. Tab 4 by Thapa Technical (19:35) covers PostgreSQL sorting with ORDER BY, multi-column sorting, and pagination with LIMIT and OFFSET.",
+          "references": [
+            {
+              "id": "ref-where-operators-baraa",
+              "tabLabel": "1. WHERE & Logical Operators",
+              "topic": "Visual Breakdown of SQL WHERE Conditions, Comparison Operators, AND/OR/NOT, BETWEEN, IN, and LIKE",
+              "title": "SQL WHERE Conditions (Visually Explained) | AND, OR, NOT, LIKE, BETWEEN, IN | #SQL Course 7",
+              "channel": "Data with Baraa",
+              "duration": "40:37",
+              "videoId": "cMUJFau5Wvg",
+              "watchUrl": "https://www.youtube.com/watch?v=cMUJFau5Wvg",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/cMUJFau5Wvg",
+              "url": "https://www.youtube-nocookie.com/embed/cMUJFau5Wvg",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-matching.html",
+              "sourceName": "PostgreSQL Documentation — Pattern Matching",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Pattern Matching",
+                  "url": "https://www.postgresql.org/docs/current/functions-matching.html"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Data with Baraa visually breaks down SQL operators: comparison (=, <>, >, <, >=, <=), compound logic with AND, OR, and NOT, range filtering with BETWEEN, list inclusion with IN / NOT IN, and wildcard pattern matching with LIKE."
+            },
+            {
+              "id": "ref-select-distinct-alex",
+              "tabLabel": "2. SELECT & DISTINCT",
+              "topic": "SELECT Column Projection, Aliasing (AS), Expressions & Deduplication with DISTINCT",
+              "title": "SQL Basics Tutorial For Beginners | Select + From Statements | 2/4",
+              "channel": "Alex The Analyst",
+              "duration": "06:13",
+              "videoId": "PyYgERKq25I",
+              "watchUrl": "https://www.youtube.com/watch?v=PyYgERKq25I",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/PyYgERKq25I",
+              "url": "https://www.youtube-nocookie.com/embed/PyYgERKq25I",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-select-lists.html",
+              "sourceName": "PostgreSQL Documentation — SELECT Lists",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — SELECT Lists",
+                  "url": "https://www.postgresql.org/docs/current/queries-select-lists.html"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Alex Freberg explains foundational query building: SELECT *, choosing specific columns, assigning meaningful column aliases with AS, computing mathematical expressions, and eliminating duplicate rows using SELECT DISTINCT."
+            },
+            {
+              "id": "ref-where-null-alex",
+              "tabLabel": "3. Filtering & IS NULL",
+              "topic": "Practical WHERE Clause Filtering, Inequality Checks & NULL Value Handling",
+              "title": "SQL Basics Tutorial For Beginners | Where Statement | 3/4",
+              "channel": "Alex The Analyst",
+              "duration": "07:57",
+              "videoId": "A9TOuDZTPDU",
+              "watchUrl": "https://www.youtube.com/watch?v=A9TOuDZTPDU",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/A9TOuDZTPDU",
+              "url": "https://www.youtube-nocookie.com/embed/A9TOuDZTPDU",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-comparison.html",
+              "sourceName": "PostgreSQL Documentation — Comparison Functions and Operators",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Comparison Functions",
+                  "url": "https://www.postgresql.org/docs/current/functions-comparison.html"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Hands-on practice filtering records in SQL: using =, <>, <, >, <=, >=, combining conditions with AND/OR, list filtering with IN, and correctly handling missing data using IS NULL and IS NOT NULL."
+            },
+            {
+              "id": "ref-sorting-order-by-thapa",
+              "tabLabel": "4. ORDER BY & LIMIT",
+              "topic": "PostgreSQL Result Sorting, Multi-Column ORDER BY & Row Limiting with LIMIT",
+              "title": "Learn PostgreSQL Sorting & Pagination in One Video | ORDER BY + LIMIT + OFFSET",
+              "channel": "Thapa Technical",
+              "duration": "19:35",
+              "videoId": "gVmuTTKURAc",
+              "watchUrl": "https://www.youtube.com/watch?v=gVmuTTKURAc",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/gVmuTTKURAc",
+              "url": "https://www.youtube-nocookie.com/embed/gVmuTTKURAc",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-order.html",
+              "sourceName": "PostgreSQL Documentation — Sorting Rows (ORDER BY)",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Sorting Rows",
+                  "url": "https://www.postgresql.org/docs/current/queries-order.html"
+                },
+                {
+                  "name": "PostgreSQL Documentation — LIMIT and OFFSET",
+                  "url": "https://www.postgresql.org/docs/current/queries-limit.html"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): In-depth walkthrough of sorting and pagination in PostgreSQL: sorting with ORDER BY in ASC and DESC order, handling multi-column sorting precedence, and restricting row counts using LIMIT and OFFSET."
+            }
+          ]
         },
         "summary": "Write clean, high-performance filtering queries. Master column projection, distinct value extraction, pattern matching with LIKE/ILIKE, range filtering with BETWEEN, list filtering with IN, and robust NULL handling with IS NULL.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Write structured `SELECT` statements with column aliasing (`AS`) and mathematical expressions.\n2. Deduplicate category and customer lists using `SELECT DISTINCT`.\n3. Filter rows with precision using comparison operators (`=`, `!=`, `<>`, `>`, `<`, `>=`, `<=`).\n4. Chain compound boolean conditions using `AND`, `OR`, and parentheses to control operator precedence.\n5. Search text patterns using `LIKE`, `ILIKE` (case-insensitive in PostgreSQL), and wildcards (`%`, `_`).\n6. Filter ranges and sets using `BETWEEN ... AND ...` and `IN (...)`.\n7. Handle missing values correctly using `IS NULL` and `IS NOT NULL` (avoiding `= NULL` bugs).\n\n---\n\n### 1. Basic Projection & Mathematical Computed Columns\n\n```sql\nSELECT \n    order_id,\n    customer_id,\n    quantity,\n    unit_price_ksh,\n    discount_ksh,\n    (quantity * unit_price_ksh) - discount_ksh AS line_net_total_ksh\nFROM sales_transactions\nORDER BY line_net_total_ksh DESC\nLIMIT 10;\n```\n\n---\n\n### 2. Precision Filtering with WHERE & Logical Operators\n\n#### A. Set Matching with IN and Range Matching with BETWEEN\n```sql\n-- Find all sales from major Kenyan logistics hubs in Q1 2026\nSELECT transaction_id, branch_name, total_ksh, transaction_date\nFROM branch_sales\nWHERE branch_name IN ('Nairobi HQ', 'Mombasa Port', 'Kisumu Hub')\n  AND transaction_date BETWEEN '2026-01-01' AND '2026-03-31';\n```\n\n#### B. Text Pattern Matching with Wildcards\n- `%` matches any sequence of zero or more characters.\n- `_` matches exactly one character.\n\n```sql\n-- Case-insensitive search for all customers with M-Pesa phone numbers\nSELECT customer_id, full_name, phone_number\nFROM customers\nWHERE phone_number LIKE '2547%' \n   OR phone_number LIKE '07%';\n```\n\n#### C. The Three-Valued Logic Bug: IS NULL vs = NULL\nIn SQL, `NULL` represents unknown/missing data. **Nothing equals NULL, not even NULL itself!**\n```sql\n-- WRONG (Always returns 0 rows!):\nSELECT * FROM orders WHERE payment_reference = NULL;\n\n-- CORRECT:\nSELECT * FROM orders WHERE payment_reference IS NULL;\n```\n\n---\n\n### 3. Summary & Best Practices\n- Always use parentheses when mixing `AND` and `OR` to prevent unintended logic evaluation.\n- Always check for missing data using `IS NULL` or `IS NOT NULL`.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Write structured `SELECT` statements with column aliasing (`AS`) and mathematical expressions.\n2. Deduplicate category and customer lists using `SELECT DISTINCT`.\n3. Filter rows with precision using comparison operators (`=`, `!=`, `<>`, `>`, `<`, `>=`, `<=`).\n4. Chain compound boolean conditions using `AND`, `OR`, and parentheses to control operator precedence.\n5. Search text patterns using `LIKE`, `ILIKE` (case-insensitive in PostgreSQL), and wildcards (`%`, `_`).\n6. Filter ranges and sets using `BETWEEN ... AND ...` and `IN (...)`.\n7. Handle missing values correctly using `IS NULL` and `IS NOT NULL` (avoiding `= NULL` bugs).\n8. Sort query results using `ORDER BY` (ASC/DESC) and constrain output volume using `LIMIT`.\n\n---\n\n### 1. Basic Projection, Mathematical Computed Columns & Deduplication\n\n```sql\n-- Project specific columns, calculate computed financial metrics, and assign clear aliases\nSELECT \n    order_id,\n    customer_id,\n    quantity,\n    unit_price_ksh,\n    discount_ksh,\n    (quantity * unit_price_ksh) - discount_ksh AS line_net_total_ksh\nFROM sales_transactions\nORDER BY line_net_total_ksh DESC\nLIMIT 10;\n\n-- Deduplicate lists: Extract unique customer regions and payment channels\nSELECT DISTINCT \n    delivery_county, \n    payment_method\nFROM sales_transactions;\n```\n\n---\n\n### 2. Precision Filtering with WHERE & Logical Operators\n\n#### A. Comparison Operators\nSQL provides standard comparison operators for numbers, strings, and dates:\n- `=` (Equal to)\n- `<>` or `!=` (Not equal to; `<>` is standard ISO SQL)\n- `>` (Greater than), `<` (Less than)\n- `>=` (Greater than or equal to), `<=` (Less than or equal to)\n\n#### B. Compound Boolean Conditions & Operator Precedence (AND / OR / NOT)\n> [!IMPORTANT]\n> **Operator Precedence**: In SQL, `AND` has higher precedence than `OR`! When mixing `AND` and `OR` in a single query, always use **parentheses `()`** to make the evaluation order explicit and prevent accidental logic bugs.\n\n```sql\n-- CORRECT: Parentheses ensure the regional filter applies to both Delivered and In Transit orders\nSELECT transaction_id, customer_name, status, delivery_region, total_ksh\nFROM customer_orders\nWHERE (status = 'Delivered' OR status = 'In Transit')\n  AND delivery_region = 'Nairobi County';\n\n-- WARNING: Without parentheses, AND binds tighter than OR:\n-- Evaluates as: status = 'Delivered' OR (status = 'In Transit' AND delivery_region = 'Nairobi County')\n-- Returns ALL 'Delivered' orders from anywhere in Kenya (Mombasa, Kisumu, Nakuru), corrupting your analysis!\n```\n\n#### C. Set Matching with IN and Range Matching with BETWEEN\n```sql\n-- Find all sales from major Kenyan logistics hubs in Q1 2026\nSELECT transaction_id, branch_name, total_ksh, transaction_date\nFROM branch_sales\nWHERE branch_name IN ('Nairobi HQ', 'Mombasa Port', 'Kisumu Hub')\n  AND transaction_date BETWEEN '2026-01-01' AND '2026-03-31';\n```\n\n#### D. Text Pattern Matching with Wildcards (LIKE & ILIKE)\nSQL provides flexible pattern matching using wildcard characters:\n- `%` matches **zero or more** characters.\n- `_` matches **exactly one** character.\n\n> [!NOTE]\n> **PostgreSQL-Specific `ILIKE`**: Standard SQL `LIKE` is strictly case-sensitive. PostgreSQL provides the powerful, native extension **`ILIKE`** for case-insensitive pattern matching. In other database dialects (such as MySQL or SQL Server), case-sensitivity is determined by collation or explicit functions like `LOWER(column) LIKE LOWER(pattern)`.\n\n```sql\n-- Standard SQL LIKE (Case-sensitive):\n-- Matches phone numbers starting with Kenyan country code 2547 or local 07\nSELECT customer_id, full_name, phone_number\nFROM customers\nWHERE phone_number LIKE '2547%' \n   OR phone_number LIKE '07%';\n\n-- PostgreSQL ILIKE (Case-insensitive):\n-- Matches 'safari', 'Safari', 'SAFARI' anywhere in product description\nSELECT product_id, product_name, category\nFROM dim_products\nWHERE product_name ILIKE '%safari%'\n  AND product_code LIKE 'KE_'; -- Matches 'KE' followed by exactly one character (e.g. KE1, KEA)\n```\n\n#### E. The Three-Valued Logic Bug: IS NULL vs = NULL\nIn SQL, `NULL` represents unknown or missing data. Under SQL's three-valued logic (`TRUE`, `FALSE`, `UNKNOWN`), **nothing equals NULL, not even NULL itself!** Comparing anything to `NULL` with `=` produces `UNKNOWN`, which evaluates to false in `WHERE` clauses.\n\n```sql\n-- WRONG (Always returns 0 rows!):\nSELECT * FROM orders WHERE payment_reference = NULL;\n\n-- CORRECT (Checks for missing values):\nSELECT * FROM orders WHERE payment_reference IS NULL;\n\n-- Find orders where payment is completed:\nSELECT * FROM orders WHERE payment_reference IS NOT NULL;\n```\n\n---\n\n### 3. Sorting and Restricting Results (ORDER BY & LIMIT)\n- **`ORDER BY`**: Sorts rows by one or more columns in ascending (`ASC`, default) or descending (`DESC`) order.\n- **`LIMIT`**: Constrains the maximum number of rows returned, preventing memory exhaustion when inspecting massive datasets.\n\n```sql\n-- Top 5 highest-value completed transactions sorted by amount descending, then by date ascending\nSELECT transaction_id, customer_name, total_ksh, transaction_date\nFROM customer_orders\nWHERE status = 'Completed'\nORDER BY total_ksh DESC, transaction_date ASC\nLIMIT 5;\n```\n\n---\n\n### 4. Summary & Best Practices\n- Explicitly select columns rather than relying on `SELECT *` in production queries.\n- Use `SELECT DISTINCT` to deduplicate categorical lookups.\n- Always wrap mixed `AND` / `OR` conditions in parentheses to enforce intended logic.\n- Use `IS NULL` and `IS NOT NULL` to test for missing values; never use `= NULL`.\n- In PostgreSQL, use `ILIKE` for case-insensitive text searches, and remember `%` (zero or more) vs `_` (exactly one character).\n- Use `ORDER BY` and `LIMIT` to sort and restrict your analytical extracts.",
         "challenge": {
           "type": "quiz",
           "title": "Module 3 Checkpoint: Filtering & Logical Operators",
@@ -6126,19 +6358,125 @@ export const coursesData = [
         "subtitle": "COUNT, SUM, AVG, MIN, MAX, multi-column GROUP BY, and WHERE vs HAVING filtering",
         "readingTime": "24 min",
         "videoLesson": {
-          "title": "Data Aggregations and Grouping: GROUP BY, HAVING & Summary Metrics",
-          "channel": "Alex The Analyst",
-          "duration": "28:41:07",
-          "videoId": "cnjhHZNJEDk",
-          "watchUrl": "https://www.youtube.com/watch?v=cnjhHZNJEDk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
-          "url": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
+          "title": "SQL GROUP BY Clause - SQL Tutorial #29",
+          "channel": "Data with Baraa",
+          "duration": "08:49",
+          "videoId": "Y4GH8oNPTjY",
+          "watchUrl": "https://www.youtube.com/watch?v=Y4GH8oNPTjY",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/Y4GH8oNPTjY",
+          "url": "https://www.youtube-nocookie.com/embed/Y4GH8oNPTjY",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
           "alternativeSource": "https://www.postgresql.org/docs/current/functions-aggregate.html",
           "sourceName": "PostgreSQL Documentation — Aggregate Functions",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "PostgreSQL Documentation — Aggregate Functions",
+              "url": "https://www.postgresql.org/docs/current/functions-aggregate.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — GROUP BY and HAVING Clauses",
+              "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUP"
+            }
+          ],
+          "note": "Data Aggregations, Grouping & HAVING: Tab 1 by Data with Baraa (08:49) demonstrates the fundamentals of the GROUP BY clause, how database engines process groups, and the non-aggregated column rule. Tab 2 by Data with Baraa (06:37) breaks down core aggregate functions (COUNT, SUM, AVG, MIN, MAX), distinct counts, and null value behavior. Tab 3 by Data with Baraa (06:08) clarifies the operational difference between WHERE (pre-group row filtering) and HAVING (post-group aggregate filtering). Tab 4 by Alex The Analyst (08:08) provides a hands-on database walkthrough grouping records across multiple dimensions and ordering summary metrics.",
+          "references": [
+            {
+              "id": "ref-groupby-foundations-baraa",
+              "tabLabel": "1. GROUP BY Foundations",
+              "topic": "SQL GROUP BY Foundations: Grouping Logic, Logical Execution Order & Non-Aggregated Columns Rule",
+              "title": "SQL GROUP BY Clause - SQL Tutorial #29",
+              "channel": "Data with Baraa",
+              "duration": "08:49",
+              "videoId": "Y4GH8oNPTjY",
+              "watchUrl": "https://www.youtube.com/watch?v=Y4GH8oNPTjY",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Y4GH8oNPTjY",
+              "url": "https://www.youtube-nocookie.com/embed/Y4GH8oNPTjY",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUP",
+              "sourceName": "PostgreSQL Documentation — GROUP BY Clause",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — GROUP BY and HAVING",
+                  "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUP"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Data with Baraa explains how the database executes GROUP BY queries, collapses multiple rows into single summary records per group, and enforces the rule that non-aggregated SELECT columns must appear in GROUP BY."
+            },
+            {
+              "id": "ref-aggregate-functions-baraa",
+              "tabLabel": "2. Aggregate Functions & NULLs",
+              "topic": "SQL Aggregate Functions: COUNT(*), COUNT(col), COUNT(DISTINCT), SUM, AVG, MIN, MAX & NULL Handling",
+              "title": "SQL Aggregate Functions | COUNT, SUM, AVG, MAX, MIN  | #SQL Course 21",
+              "channel": "Data with Baraa",
+              "duration": "06:37",
+              "videoId": "AsuPVZ_EjEw",
+              "watchUrl": "https://www.youtube.com/watch?v=AsuPVZ_EjEw",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/AsuPVZ_EjEw",
+              "url": "https://www.youtube-nocookie.com/embed/AsuPVZ_EjEw",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-aggregate.html",
+              "sourceName": "PostgreSQL Documentation — Aggregate Functions",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Aggregate Functions",
+                  "url": "https://www.postgresql.org/docs/current/functions-aggregate.html"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Visual breakdown of core SQL summary functions. Explains why COUNT(*) counts physical rows while COUNT(col) and AVG(col) omit NULL values, and demonstrates COUNT(DISTINCT col) for unique metric counting."
+            },
+            {
+              "id": "ref-having-vs-where-baraa",
+              "tabLabel": "3. HAVING vs WHERE",
+              "topic": "Filtering Aggregated Groups with HAVING vs Filtering Raw Rows with WHERE",
+              "title": "SQL HAVING Clause - SQL Tutorial #30",
+              "channel": "Data with Baraa",
+              "duration": "06:08",
+              "videoId": "O9hORRFxV-A",
+              "watchUrl": "https://www.youtube.com/watch?v=O9hORRFxV-A",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/O9hORRFxV-A",
+              "url": "https://www.youtube-nocookie.com/embed/O9hORRFxV-A",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUP",
+              "sourceName": "PostgreSQL Documentation — HAVING Clause",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — HAVING Clause",
+                  "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUP"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Clarifies why WHERE cannot filter aggregate functions and why HAVING evaluates strictly after GROUP BY has synthesized group summaries, using real-world step-by-step query pipelines."
+            },
+            {
+              "id": "ref-groupby-orderby-alex",
+              "tabLabel": "4. Practical Grouping & Sorting",
+              "topic": "Hands-On Grouping Walkthrough: Multi-Column Grouping, Summary Metrics & Result Sorting",
+              "title": "SQL Basics Tutorial For Beginners | Group By + Order By Statements | 4/4",
+              "channel": "Alex The Analyst",
+              "duration": "08:08",
+              "videoId": "LXwfzIRD-Ds",
+              "watchUrl": "https://www.youtube.com/watch?v=LXwfzIRD-Ds",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/LXwfzIRD-Ds",
+              "url": "https://www.youtube-nocookie.com/embed/LXwfzIRD-Ds",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-order.html",
+              "sourceName": "PostgreSQL Documentation — Sorting Rows",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Sorting Rows",
+                  "url": "https://www.postgresql.org/docs/current/queries-order.html"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Alex Freberg demonstrates practical execution in SQL: slicing employee tables across multiple dimensions (gender, age), computing AVG, MIN, and MAX, and sorting the aggregated output using ORDER BY."
+            }
+          ]
         },
         "summary": "Transform millions of row-level transactions into actionable executive summary metrics. Master aggregate functions, multi-column GROUP BY grouping, and the vital operational difference between WHERE and HAVING.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Compute core summary statistics using **`COUNT(*)`**, **`COUNT(column)`**, **`COUNT(DISTINCT column)`**, **`SUM`**, **`AVG`**, **`MIN`**, and **`MAX`**.\n2. Group records across single and multi-column dimensions with **`GROUP BY`**.\n3. Understand the strict SQL rule: *Every non-aggregated column in the SELECT list must appear in the GROUP BY clause*.\n4. Articulate the difference between **`WHERE`** (pre-aggregation row filtering) and **`HAVING`** (post-aggregation group filtering).\n5. Handle NULLs properly in aggregate functions (e.g. `AVG` ignores NULL rows).\n\n---\n\n### 1. The 5 Core Aggregate Functions\n\n```sql\nSELECT \n    COUNT(*) AS total_transactions_count,\n    COUNT(DISTINCT customer_id) AS unique_purchasing_customers,\n    SUM(total_amount_ksh) AS gross_revenue_ksh,\n    AVG(total_amount_ksh) AS average_basket_size_ksh,\n    MIN(total_amount_ksh) AS smallest_order_ksh,\n    MAX(total_amount_ksh) AS largest_order_ksh\nFROM sales_transactions;\n```\n\n> **Important Difference**: `COUNT(*)` counts all physical rows (including rows with nulls), whereas `COUNT(column_name)` only counts rows where `column_name` is not null!\n\n---\n\n### 2. Multi-Dimensional GROUP BY\n\nAnalyze sales performance sliced simultaneously by Region and Payment Method:\n\n```sql\nSELECT \n    region,\n    payment_method,\n    COUNT(*) AS total_orders,\n    SUM(amount_ksh) AS total_revenue_ksh,\n    ROUND(AVG(amount_ksh), 2) AS avg_order_value_ksh\nFROM commercial_orders\nGROUP BY region, payment_method\nORDER BY region ASC, total_revenue_ksh DESC;\n```\n\n---\n\n### 3. WHERE vs HAVING: The Critical Distinction\n\n```\n+-------------------------------------------------------------------------------+\n|                       WHERE vs HAVING IN SQL EXECUTION                        |\n+-------------------------------------------------------------------------------+\n| WHERE Filter (Evaluates FIRST)                                                |\n| - Filters individual raw rows BEFORE aggregation happens                      |\n| - Cannot contain aggregate functions (e.g., cannot do WHERE SUM(x) > 100)     |\n|                                                                               |\n| GROUP BY (Aggregates surviving rows into buckets)                             |\n|                                                                               |\n| HAVING Filter (Evaluates AFTER GROUP BY)                                      |\n| - Filters summary group buckets based on aggregate results                    |\n| - Can contain aggregate conditions (e.g. HAVING SUM(amount) > 1,000,000)      |\n+-------------------------------------------------------------------------------+\n```\n\n**Real-World Example**: Find high-value branches in Nairobi that generated over KSh 5,000,000 in completed sales:\n\n```sql\nSELECT \n    branch_name,\n    COUNT(*) AS completed_sales_count,\n    SUM(amount_ksh) AS total_branch_revenue_ksh\nFROM store_transactions\nWHERE status = 'Completed' AND county = 'Nairobi'   -- Filters raw rows FIRST\nGROUP BY branch_name\nHAVING SUM(amount_ksh) >= 5000000                   -- Filters aggregated groups AFTER\nORDER BY total_branch_revenue_ksh DESC;\n```\n\n---\n\n### 4. Summary & Best Practices\n- Filter as early as possible using `WHERE` to minimize memory usage before `GROUP BY` executes.\n- Use `HAVING` exclusively when filtering by an aggregate threshold (`COUNT`, `SUM`, `AVG`).",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Compute core summary statistics using **`COUNT(*)`**, **`COUNT(column)`**, **`COUNT(DISTINCT column)`**, **`SUM`**, **`AVG`**, **`MIN`**, and **`MAX`**.\n2. Group records across single and multi-column dimensions with **`GROUP BY`**.\n3. Understand the strict SQL rule: *Every non-aggregated column in the SELECT list must appear in the GROUP BY clause*, including database-specific functional dependency exceptions.\n4. Articulate the difference between **`WHERE`** (pre-aggregation row filtering) and **`HAVING`** (post-aggregation group filtering).\n5. Handle NULLs properly in aggregate functions (e.g. `COUNT(column)` and `AVG(column)` ignore NULLs, whereas `COUNT(*)` counts all rows).\n\n---\n\n### 1. The Core Aggregate Functions & NULL Value Handling\n\nSQL aggregate functions process multiple input values and summarize them into a single metric. Crucially, each function follows specific rules regarding missing values (`NULL`):\n\n```sql\nSELECT \n    COUNT(*) AS total_physical_rows,\n    COUNT(payment_reference) AS completed_payments_count,\n    COUNT(DISTINCT customer_id) AS unique_purchasing_customers,\n    SUM(total_amount_ksh) AS gross_revenue_ksh,\n    AVG(total_amount_ksh) AS average_basket_size_ksh,\n    MIN(total_amount_ksh) AS smallest_order_ksh,\n    MAX(total_amount_ksh) AS largest_order_ksh\nFROM sales_transactions;\n```\n\n#### Critical NULL Value Handling Rules:\n- **`COUNT(*)`**: Counts all physical rows that satisfy the query conditions, regardless of whether any or all columns contain `NULL`.\n- **`COUNT(column)`**: Counts only rows where the specified column is **NOT NULL**. If an order has a `NULL` in `payment_reference`, `COUNT(payment_reference)` excludes that row from the count.\n- **`COUNT(DISTINCT column)`**: Counts the number of unique, non-NULL values. If a column contains `['M-Pesa', 'M-Pesa', NULL, 'Card']`, `COUNT(DISTINCT payment_method)` returns `2`.\n- **`SUM(column)`**: Adds all non-NULL numerical values. If all rows in a group contain `NULL`, `SUM` evaluates to `NULL` (not `0`).\n- **`AVG(column)`**: Computes `SUM(column) / COUNT(column)`. **It strictly ignores NULL values.** It does *not* divide by `COUNT(*)`.\n  > [!NOTE]\n  > **Analyst Caution on `AVG`**: Because `AVG` ignores `NULL` values instead of treating them as zero, an employee bonus column with values `[10000, NULL, NULL, 20000]` has an `AVG` of `15,000` (calculated as `30,000 / 2`), NOT `7,500`! If you need unawarded bonuses to count as zero in the average, you must write `AVG(COALESCE(bonus_ksh, 0))`.\n- **`MIN(column)` / `MAX(column)`**: Evaluate the lowest and highest non-NULL values in the group.\n\n---\n\n### 2. Multi-Dimensional GROUP BY & The Non-Aggregated Columns Rule\n\nWhen summarizing data across categories, the `GROUP BY` clause partitions table rows into separate buckets before applying aggregate functions.\n\n#### The Golden Rule of GROUP BY:\n> [!IMPORTANT]\n> **Every non-aggregated column in the `SELECT` list MUST appear in the `GROUP BY` clause!**  \n> If you write `SELECT region, branch_name, SUM(amount) FROM sales GROUP BY region;`, standard SQL engines throw an error. Why? Because a single region contains multiple branches; without grouping by `branch_name` or applying an aggregate (such as `STRING_AGG`), the database cannot decide which branch name to display for the summary row.\n\n*Functional Dependency Exception*: Modern PostgreSQL (version 9.1+) and SQL standard ISO/IEC 9075 allow omitting columns from `GROUP BY` *if* the query groups by the table's primary key (e.g. grouping by `customer_id` guarantees that `customer_name` and `email` are functionally dependent and unambiguous). However, including all non-aggregated columns remains the universal best practice for cross-database portability.\n\n#### Multi-Column Grouping Example:\nAnalyze retail sales sliced simultaneously by Region and Payment Method across Kenyan commerce hubs:\n\n```sql\nSELECT \n    region,\n    payment_method,\n    COUNT(*) AS total_orders,\n    COUNT(DISTINCT customer_id) AS unique_shoppers,\n    SUM(amount_ksh) AS total_revenue_ksh,\n    ROUND(AVG(amount_ksh), 2) AS avg_order_value_ksh\nFROM commercial_orders\nGROUP BY region, payment_method\nORDER BY region ASC, total_revenue_ksh DESC;\n```\n\n---\n\n### 3. WHERE vs HAVING: The Critical Distinction\n\nUnderstanding the operational boundary between `WHERE` and `HAVING` is essential for query accuracy and database query optimizer performance:\n\n```\n+-------------------------------------------------------------------------------+\n|                       WHERE vs HAVING IN SQL EXECUTION                        |\n+-------------------------------------------------------------------------------+\n| 1. WHERE Filter (Evaluates FIRST, before grouping)                            |\n| - Filters individual raw rows directly from source tables                     |\n| - Cannot contain aggregate functions (e.g., WHERE SUM(amount) > 100 fails!)   |\n| - Dramatically optimizes query performance by reducing rows prior to grouping |\n|                                                                               |\n| 2. GROUP BY (Partitions surviving rows into dimension buckets)                |\n| - Computes aggregate metrics (COUNT, SUM, AVG, MIN, MAX) for each bucket      |\n|                                                                               |\n| 3. HAVING Filter (Evaluates AFTER GROUP BY)                                   |\n| - Filters summary group buckets based on aggregated calculation results       |\n| - Can contain aggregate conditions (e.g. HAVING SUM(amount) > 5,000,000)      |\n+-------------------------------------------------------------------------------+\n```\n\n#### Real-World Example:\nFind high-performing branches in Nairobi County that generated at least KSh 5,000,000 in completed sales:\n\n```sql\nSELECT \n    branch_name,\n    COUNT(*) AS completed_sales_count,\n    SUM(amount_ksh) AS total_branch_revenue_ksh,\n    ROUND(AVG(amount_ksh), 2) AS average_ticket_size_ksh\nFROM store_transactions\nWHERE status = 'Completed' \n  AND county = 'Nairobi'                            -- Step 1: Filters raw rows FIRST\nGROUP BY branch_name                                -- Step 2: Groups surviving rows\nHAVING SUM(amount_ksh) >= 5000000                   -- Step 3: Filters aggregated groups AFTER\nORDER BY total_branch_revenue_ksh DESC;             -- Step 4: Sorts final results\n```\n\n---\n\n### 4. Summary & Best Practices\n- Use `COUNT(*)` to count total rows and `COUNT(column)` when you need to exclude missing records.\n- Remember that `AVG` omits `NULL` rows; use `COALESCE(col, 0)` if missing values should count as zeros.\n- Ensure every non-aggregated column in your `SELECT` projection is explicitly declared in `GROUP BY`.\n- Filter as early as possible using `WHERE` to minimize memory usage before `GROUP BY` executes; reserve `HAVING` strictly for aggregate threshold filtering.",
         "challenge": {
           "type": "quiz",
           "title": "Module 4 Checkpoint: GROUP BY & HAVING",
@@ -6206,19 +6544,129 @@ export const coursesData = [
         "subtitle": "CASE WHEN conditionals, pivoting with conditional sums, COALESCE fallback handling, and type casting",
         "readingTime": "22 min",
         "videoLesson": {
-          "title": "Intermediate SQL: Updating/Deleting Data, CASE WHEN & Casting",
-          "channel": "Alex The Analyst",
-          "duration": "04:37",
-          "videoId": "bhnrIforc7s",
-          "watchUrl": "https://www.youtube.com/watch?v=bhnrIforc7s",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/bhnrIforc7s",
-          "url": "https://www.youtube-nocookie.com/embed/bhnrIforc7s",
+          "title": "SQL CASE WHEN Statement (Visually Explained) | #SQL Course 20",
+          "channel": "Data with Baraa",
+          "duration": "36:18",
+          "videoId": "GHPHZ8XJxeg",
+          "watchUrl": "https://www.youtube.com/watch?v=GHPHZ8XJxeg",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/GHPHZ8XJxeg",
+          "url": "https://www.youtube-nocookie.com/embed/GHPHZ8XJxeg",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
           "alternativeSource": "https://www.postgresql.org/docs/current/functions-conditional.html",
           "sourceName": "PostgreSQL Documentation — Conditional Expressions (CASE)",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "PostgreSQL Documentation — Conditional Expressions (CASE)",
+              "url": "https://www.postgresql.org/docs/current/functions-conditional.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — COALESCE and NULLIF",
+              "url": "https://www.postgresql.org/docs/current/functions-conditional.html#FUNCTIONS-COALESCE-NVL-IFNULL"
+            },
+            {
+              "name": "PostgreSQL Documentation — Type Casts",
+              "url": "https://www.postgresql.org/docs/current/sql-expressions.html#SQL-SYNTAX-TYPE-CASTS"
+            }
+          ],
+          "note": "Conditional Logic, Data Transformation & Fallbacks: Tab 1 by Data with Baraa (36:18) demonstrates CASE WHEN conditional branching, Searched vs Simple syntax, custom categorization, and conditional aggregation pivoting. Tab 2 by Alex The Analyst (07:25) walks through practical database implementation of CASE statements and conditional calculations. Tab 3 by Data with Baraa (52:59) covers NULL handling with COALESCE and preventing division-by-zero crashes with NULLIF. Tab 4 by TSInfo Technologies (03:42) demonstrates PostgreSQL data type conversion using CAST and the :: type casting shorthand.",
+          "references": [
+            {
+              "id": "ref-case-when-baraa",
+              "tabLabel": "1. CASE WHEN & Pivoting",
+              "topic": "SQL CASE WHEN Conditionals, Categorization, Simple vs Searched Syntax & Conditional Aggregation",
+              "title": "SQL CASE WHEN Statement (Visually Explained) | #SQL Course 20",
+              "channel": "Data with Baraa",
+              "duration": "36:18",
+              "videoId": "GHPHZ8XJxeg",
+              "watchUrl": "https://www.youtube.com/watch?v=GHPHZ8XJxeg",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/GHPHZ8XJxeg",
+              "url": "https://www.youtube-nocookie.com/embed/GHPHZ8XJxeg",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-conditional.html",
+              "sourceName": "PostgreSQL Documentation — Conditional Expressions (CASE)",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Conditional Expressions (CASE)",
+                  "url": "https://www.postgresql.org/docs/current/functions-conditional.html"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Data with Baraa visually explains how CASE WHEN statements evaluate conditional logic, authoring Searched CASE expressions for numeric tiering, Simple CASE for value mapping, and conditional aggregation pivoting."
+            },
+            {
+              "id": "ref-case-alex",
+              "tabLabel": "2. Practical Case Statements",
+              "topic": "Hands-On CASE Statements: Categorization, Tiering & Conditional Calculations",
+              "title": "Intermediate SQL Tutorial | Case Statement | Use Cases",
+              "channel": "Alex The Analyst",
+              "duration": "07:25",
+              "videoId": "Twusw__OzA8",
+              "watchUrl": "https://www.youtube.com/watch?v=Twusw__OzA8",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Twusw__OzA8",
+              "url": "https://www.youtube-nocookie.com/embed/Twusw__OzA8",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-conditional.html",
+              "sourceName": "PostgreSQL Documentation — Conditional Expressions",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Conditional Expressions",
+                  "url": "https://www.postgresql.org/docs/current/functions-conditional.html"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Alex Freberg demonstrates practical execution in SQL: using CASE statements to categorize employee records into age and salary tiers, calculate conditional bonuses, and format output columns."
+            },
+            {
+              "id": "ref-coalesce-nullif-baraa",
+              "tabLabel": "3. COALESCE & NULLIF",
+              "topic": "Handling Missing Values with COALESCE & Preventing Division by Zero with NULLIF",
+              "title": "SQL NULL Functions | COALESCE, ISNULL, NULLIF, IS (NOT) NULL | #SQL Course 18",
+              "channel": "Data with Baraa",
+              "duration": "52:59",
+              "videoId": "X_cPXHV2NQ4",
+              "watchUrl": "https://www.youtube.com/watch?v=X_cPXHV2NQ4",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/X_cPXHV2NQ4",
+              "url": "https://www.youtube-nocookie.com/embed/X_cPXHV2NQ4",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-conditional.html#FUNCTIONS-COALESCE-NVL-IFNULL",
+              "sourceName": "PostgreSQL Documentation — COALESCE",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — COALESCE and NULLIF",
+                  "url": "https://www.postgresql.org/docs/current/functions-conditional.html#FUNCTIONS-COALESCE-NVL-IFNULL"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): In-depth visual guide on handling missing data with COALESCE, comparing COALESCE against ISNULL, and leveraging NULLIF to safely prevent division-by-zero crashes in financial queries."
+            },
+            {
+              "id": "ref-cast-postgres-tsinfo",
+              "tabLabel": "4. Type Casting (CAST & ::)",
+              "topic": "Data Type Conversions in PostgreSQL: CAST(expression AS type) and :: Type Shorthand",
+              "title": "How to use cast() function in Postgresql | PostgreSQL Cast",
+              "channel": "TSInfo Technologies",
+              "duration": "03:42",
+              "videoId": "h7r6-B9z44k",
+              "watchUrl": "https://www.youtube.com/watch?v=h7r6-B9z44k",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/h7r6-B9z44k",
+              "url": "https://www.youtube-nocookie.com/embed/h7r6-B9z44k",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/sql-expressions.html#SQL-SYNTAX-TYPE-CASTS",
+              "sourceName": "PostgreSQL Documentation — Type Casts",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Type Casts",
+                  "url": "https://www.postgresql.org/docs/current/sql-expressions.html#SQL-SYNTAX-TYPE-CASTS"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Practical walkthrough demonstrating data type conversion in PostgreSQL using both ANSI CAST(column AS type) and the native double-colon (::type) shorthand notation."
+            }
+          ]
         },
         "summary": "Implement robust business logic directly inside SQL queries. Master CASE WHEN branching, multi-level customer tiering, conditional aggregation pivoting, COALESCE default fallbacks, and explicit type conversion with CAST.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Author **`CASE WHEN ... THEN ... ELSE ... END`** expressions for custom categorization and tiering.\n2. Perform **Conditional Aggregation** (pivoting rows to columns using `SUM(CASE WHEN ...)`).\n3. Replace NULL values with sensible defaults using **`COALESCE(val1, val2, default)`**.\n4. Convert data types safely using **`CAST(column AS type)`** or PostgreSQL shorthand (`::type`).\n5. Prevent division-by-zero database errors using **`NULLIF(divisor, 0)`**.\n\n---\n\n### 1. Categorization with CASE WHEN\n\n```sql\nSELECT \n    customer_id,\n    full_name,\n    lifetime_spend_ksh,\n    CASE \n        WHEN lifetime_spend_ksh >= 500000 THEN 'Tier 1: VIP Platinum'\n        WHEN lifetime_spend_ksh >= 150000 THEN 'Tier 2: Gold'\n        WHEN lifetime_spend_ksh >= 30000  THEN 'Tier 3: Silver'\n        ELSE 'Tier 4: Standard Retail'\n    END AS customer_loyalty_segment\nFROM customers;\n```\n\n---\n\n### 2. Power Technique: Conditional Aggregation (Pivoting in SQL)\n\nTransform transactional payment channel rows into clean horizontal summary columns:\n\n```sql\nSELECT \n    DATE_TRUNC('month', transaction_date)::DATE AS sales_month,\n    COUNT(*) AS total_transactions,\n    -- Conditional Sums\n    SUM(CASE WHEN payment_channel = 'M-Pesa' THEN amount_ksh ELSE 0 END) AS mpesa_revenue_ksh,\n    SUM(CASE WHEN payment_channel = 'Card'   THEN amount_ksh ELSE 0 END) AS card_revenue_ksh,\n    SUM(CASE WHEN payment_channel = 'EFT'    THEN amount_ksh ELSE 0 END) AS eft_revenue_ksh,\n    SUM(amount_ksh) AS total_gross_revenue_ksh\nFROM sales_ledger\nGROUP BY DATE_TRUNC('month', transaction_date)\nORDER BY sales_month ASC;\n```\n\n---\n\n### 3. COALESCE & NULLIF\n\n#### A. COALESCE (First Non-Null Fallback)\n```sql\n-- Display customer business name if available, otherwise personal name, otherwise 'Anonymous'\nSELECT \n    COALESCE(company_name, full_name, 'Anonymous Customer') AS display_name,\n    COALESCE(alternative_phone, primary_phone, 'No Phone') AS contact_phone\nFROM client_accounts;\n```\n\n#### B. Preventing Divide-by-Zero with NULLIF\n```sql\n-- NULLIF(x, 0) returns NULL if x is 0, which makes the whole division evaluate to NULL instead of crashing!\nSELECT \n    branch_name,\n    total_revenue_ksh,\n    total_orders,\n    ROUND(total_revenue_ksh / NULLIF(total_orders, 0), 2) AS avg_order_value_ksh\nFROM branch_quarterly_summary;\n```\n\n---\n\n### 4. Summary & Best Practices\n- Always terminate every `CASE` statement with an explicit `END`.\n- Wrap financial denominators in `NULLIF(denominator, 0)` to prevent query aborts.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Author **`CASE WHEN ... THEN ... ELSE ... END`** expressions for custom categorization and tiering.\n2. Perform **Conditional Aggregation** (pivoting rows to columns using `SUM(CASE WHEN ...)` and `COUNT(CASE WHEN ...)`).\n3. Replace NULL values with sensible defaults using **`COALESCE(val1, val2, default)`**.\n4. Convert data types safely using **`CAST(column AS type)`** or PostgreSQL shorthand (`::type`).\n5. Prevent division-by-zero database errors using **`NULLIF(divisor, 0)`**.\n\n---\n\n### 1. Categorization with CASE WHEN\n\nSQL's `CASE` statement provides powerful conditional branching directly within query projections. It exists in two primary forms:\n\n#### A. Searched CASE (Most Flexible)\nEvaluates a sequence of boolean conditions from top to bottom. It returns the result of the **first condition that evaluates to TRUE**:\n\n```sql\nSELECT \n    customer_id,\n    full_name,\n    lifetime_spend_ksh,\n    CASE \n        WHEN lifetime_spend_ksh >= 500000 THEN 'Tier 1: VIP Platinum'\n        WHEN lifetime_spend_ksh >= 150000 THEN 'Tier 2: Gold'\n        WHEN lifetime_spend_ksh >= 30000  THEN 'Tier 3: Silver'\n        ELSE 'Tier 4: Standard Retail'\n    END AS customer_loyalty_segment\nFROM customers;\n```\n\n> [!IMPORTANT]\n> **Order of Evaluation Matters**: Because `CASE` stops evaluating as soon as it encounters the first TRUE condition, always order conditions from **most restrictive to least restrictive**. If you put `lifetime_spend_ksh >= 30000` first, all platinum customers would erroneously be categorized as Silver!\n> \n> **Omitting the ELSE Clause**: If no `WHEN` condition evaluates to TRUE and no `ELSE` clause is provided, SQL returns **`NULL`**.\n\n#### B. Simple CASE (Value Matching)\nCompares a single expression against literal values:\n```sql\nSELECT \n    order_id,\n    payment_status,\n    CASE payment_status\n        WHEN 'P' THEN 'Paid'\n        WHEN 'F' THEN 'Failed'\n        WHEN 'R' THEN 'Refunded'\n        ELSE 'Pending'\n    END AS readable_status\nFROM online_orders;\n```\n\n---\n\n### 2. Power Technique: Conditional Aggregation (Pivoting in SQL)\n\nConditional aggregation combines aggregate functions (`SUM`, `COUNT`, `AVG`) with `CASE WHEN` expressions. It allows data analysts to pivot vertical transactional row data into clean, horizontal analytical matrix columns:\n\n```sql\nSELECT \n    DATE_TRUNC('month', transaction_date)::DATE AS sales_month,\n    COUNT(*) AS total_transactions,\n    -- Conditional Sums (Pivoting Payment Channels)\n    SUM(CASE WHEN payment_channel = 'M-Pesa' THEN amount_ksh ELSE 0 END) AS mpesa_revenue_ksh,\n    SUM(CASE WHEN payment_channel = 'Card'   THEN amount_ksh ELSE 0 END) AS card_revenue_ksh,\n    SUM(CASE WHEN payment_channel = 'EFT'    THEN amount_ksh ELSE 0 END) AS eft_revenue_ksh,\n    SUM(amount_ksh) AS total_gross_revenue_ksh\nFROM sales_ledger\nGROUP BY DATE_TRUNC('month', transaction_date)\nORDER BY sales_month ASC;\n```\n\n> [!TIP]\n> **Conditional Counts**: To count matching occurrences conditionally, use `COUNT(CASE WHEN condition THEN 1 END)`. Because `COUNT` ignores NULL values, omitting the `ELSE` clause naturally leaves non-matching rows as NULL, ensuring only matching records are tallied!\n\n---\n\n### 3. COALESCE & NULLIF\n\n#### A. COALESCE (First Non-Null Fallback)\n`COALESCE(val1, val2, ..., default)` evaluates arguments from left to right and returns the first non-NULL value:\n\n```sql\n-- Display customer company name if present, otherwise personal full name, otherwise 'Anonymous Customer'\nSELECT \n    COALESCE(company_name, full_name, 'Anonymous Customer') AS display_name,\n    COALESCE(alternative_phone, primary_phone, 'No Contact Phone') AS contact_phone\nFROM client_accounts;\n```\n\n#### B. Preventing Divide-by-Zero with NULLIF\n`NULLIF(expression1, expression2)` returns `NULL` if both expressions are equal; otherwise, it returns `expression1`.\n\nIn SQL, dividing by zero throws a fatal runtime exception that halts your entire batch script. Wrapping your denominator in `NULLIF(denominator, 0)` returns `NULL` instead of crashing:\n\n```sql\n-- Safely calculate Average Order Value without crashing on zero-order branches\nSELECT \n    branch_name,\n    total_revenue_ksh,\n    total_orders,\n    ROUND(total_revenue_ksh / NULLIF(total_orders, 0), 2) AS avg_order_value_ksh\nFROM branch_quarterly_summary;\n```\n\n---\n\n### 4. Explicit Data Type Conversion: CAST & :: Shorthand\n\nWhen combining data or computing mathematical fractions, converting columns to explicit data types guarantees precision and prevents integer division truncation:\n\n```sql\n-- Standard ANSI SQL CAST\nSELECT \n    order_id,\n    CAST(transaction_date AS DATE) AS order_date,\n    CAST(raw_cost_string AS NUMERIC(12, 2)) AS unit_cost_ksh,\n    -- Prevent integer division: 5 / 2 = 2 in integer math, but 2.5 when cast to numeric!\n    CAST(completed_tasks AS NUMERIC) / NULLIF(total_tasks, 0) AS completion_rate\nFROM order_processing;\n\n-- PostgreSQL Native Shorthand (::)\nSELECT \n    transaction_date::DATE AS order_date,\n    raw_cost_string::NUMERIC(12, 2) AS unit_cost_ksh,\n    completed_tasks::NUMERIC / NULLIF(total_tasks, 0) AS completion_rate\nFROM order_processing;\n```\n\n---\n\n### 5. Summary & Best Practices\n- Always terminate every `CASE` statement with an explicit `END`.\n- Order `WHEN` conditions from most restrictive to least restrictive.\n- Use conditional aggregation (`SUM(CASE WHEN ...)`) to pivot rows into columns without database-specific pivot extensions.\n- Use `COALESCE` to provide reliable fallbacks for optional text or contact fields.\n- Wrap all financial denominators in `NULLIF(col, 0)` to prevent divide-by-zero crashes.\n- Use explicit type casting (`CAST` or `::`) when converting strings to numbers or preventing integer division rounding.",
         "challenge": {
           "type": "quiz",
           "title": "Module 6 Checkpoint: CASE WHEN & COALESCE",
@@ -6246,31 +6694,137 @@ export const coursesData = [
         "subtitle": "Scalar, column, and table subqueries vs CTEs, modular query design, and correlated subqueries",
         "readingTime": "24 min",
         "videoLesson": {
-          "title": "Subqueries and Common Table Expressions (CTEs / WITH Clauses)",
-          "channel": "Alex The Analyst",
-          "duration": "28:41:07",
-          "videoId": "cnjhHZNJEDk",
-          "watchUrl": "https://www.youtube.com/watch?v=cnjhHZNJEDk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
-          "url": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
+          "title": "SQL CTE (Common Table Expression) Visually Explained | Full Guide WITH Clause | #SQL Course 28",
+          "channel": "Data with Baraa",
+          "duration": "77:42",
+          "videoId": "5x1uodxEIaM",
+          "watchUrl": "https://www.youtube.com/watch?v=5x1uodxEIaM",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/5x1uodxEIaM",
+          "url": "https://www.youtube-nocookie.com/embed/5x1uodxEIaM",
           "alternativeSource": "https://www.postgresql.org/docs/current/queries-with.html",
           "sourceName": "PostgreSQL Documentation — WITH Queries (Common Table Expressions)",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "sources": [
+            {
+              "name": "PostgreSQL Documentation — WITH Queries (Common Table Expressions)",
+              "url": "https://www.postgresql.org/docs/current/queries-with.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — Subqueries in SELECT",
+              "url": "https://www.postgresql.org/docs/current/sql-select.html"
+            }
+          ],
+          "note": "Subqueries & Common Table Expressions (CTEs): Tab 1 by Data with Baraa (77:42) provides an end-to-end visual masterclass on Common Table Expressions, WITH syntax, multiple sequential CTEs, and structuring modular SQL pipelines. Tab 2 by Data with Baraa (81:28) visually explains scalar, column, and table subqueries alongside correlated subqueries. Tab 3 by Alex The Analyst (03:43) is a concise walkthrough on writing CTEs to simplify complex aggregations. Tab 4 by Alex The Analyst (08:37) demonstrates hands-on subqueries in SELECT, FROM, and WHERE clauses.",
+          "references": [
+            {
+              "id": "ref-cte-baraa",
+              "tabLabel": "1. CTEs & WITH Clause",
+              "topic": "SQL CTE (Common Table Expression) Visually Explained: WITH Clause & Modular Pipelines",
+              "title": "SQL CTE (Common Table Expression) Visually Explained | Full Guide WITH Clause | #SQL Course 28",
+              "channel": "Data with Baraa",
+              "duration": "77:42",
+              "videoId": "5x1uodxEIaM",
+              "watchUrl": "https://www.youtube.com/watch?v=5x1uodxEIaM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/5x1uodxEIaM",
+              "url": "https://www.youtube-nocookie.com/embed/5x1uodxEIaM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-with.html",
+              "sourceName": "PostgreSQL Documentation — WITH Queries (Common Table Expressions)",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — WITH Queries (Common Table Expressions)",
+                  "url": "https://www.postgresql.org/docs/current/queries-with.html"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Data with Baraa visually explains how Common Table Expressions (CTEs) work using the WITH clause to break down complex queries, structure sequential pipeline stages, and dramatically improve query readability."
+            },
+            {
+              "id": "ref-subqueries-baraa",
+              "tabLabel": "2. Subqueries & Correlated",
+              "topic": "SQL Subqueries: Scalar Subqueries, Multi-Row/Column Subqueries & Correlated Subqueries",
+              "title": "SQL Subquery (Visually Explained) | Complete Guide with Correlated Subquery | #SQL Course 27",
+              "channel": "Data with Baraa",
+              "duration": "81:28",
+              "videoId": "tvBp81WVrCA",
+              "watchUrl": "https://www.youtube.com/watch?v=tvBp81WVrCA",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/tvBp81WVrCA",
+              "url": "https://www.youtube-nocookie.com/embed/tvBp81WVrCA",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/sql-select.html",
+              "sourceName": "PostgreSQL Documentation — Subqueries in SELECT",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Subqueries in SELECT",
+                  "url": "https://www.postgresql.org/docs/current/sql-select.html"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Comprehensive visual masterclass detailing scalar subqueries (single value), column subqueries (IN / NOT IN), table subqueries (derived tables), and correlated subqueries with row-by-row outer query references."
+            },
+            {
+              "id": "ref-cte-alex",
+              "tabLabel": "3. Practical CTEs (Alex)",
+              "topic": "Hands-On Common Table Expressions: WITH Clause & Query Simplification",
+              "title": "Advanced SQL Tutorial | CTE (Common Table Expression)",
+              "channel": "Alex The Analyst",
+              "duration": "03:43",
+              "videoId": "K1WeoKxLZ5o",
+              "watchUrl": "https://www.youtube.com/watch?v=K1WeoKxLZ5o",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/K1WeoKxLZ5o",
+              "url": "https://www.youtube-nocookie.com/embed/K1WeoKxLZ5o",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-with.html",
+              "sourceName": "PostgreSQL Documentation — Common Table Expressions",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Common Table Expressions",
+                  "url": "https://www.postgresql.org/docs/current/queries-with.html"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Alex Freberg walks through practical implementation of Common Table Expressions (CTEs), contrasting CTE temporary result sets with subqueries and temp tables."
+            },
+            {
+              "id": "ref-subqueries-alex",
+              "tabLabel": "4. Subqueries in Action (Alex)",
+              "topic": "Practical Subqueries: SELECT Clause, Derived Tables in FROM, and WHERE Filtering",
+              "title": "Advanced SQL Tutorial | Subqueries",
+              "channel": "Alex The Analyst",
+              "duration": "08:37",
+              "videoId": "m1KcNV-Zhmc",
+              "watchUrl": "https://www.youtube.com/watch?v=m1KcNV-Zhmc",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/m1KcNV-Zhmc",
+              "url": "https://www.youtube-nocookie.com/embed/m1KcNV-Zhmc",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-with.html",
+              "sourceName": "PostgreSQL Documentation — Subqueries",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Subqueries",
+                  "url": "https://www.postgresql.org/docs/current/queries-with.html"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Alex Freberg demonstrates practical execution of subqueries across SELECT, FROM, and WHERE clauses, comparing subqueries to window functions and joins."
+            }
+          ]
         },
-        "summary": "Write clean, modular, and maintainable analytical SQL pipelines. Compare nested subqueries against Common Table Expressions (WITH clauses), author multi-stage CTE transformations, and understand query execution plans.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Differentiate between **Scalar Subqueries** (returns 1 value), **Column Subqueries** (returns 1 list), and **Table Subqueries** (returns a virtual table).\n2. Refactor complex, hard-to-read nested subqueries into clean, readable **Common Table Expressions (CTEs)** using the **`WITH`** keyword.\n3. Chain multiple CTEs sequentially to build multi-stage ETL analytics pipelines.\n4. Use CTEs to calculate summary benchmarks and compare individual branch performance against company averages.\n5. Identify when a subquery is correlated vs independent.\n\n---\n\n### 1. What is a Common Table Expression (CTE)?\n\nA Common Table Expression (CTE) is a temporary named result set defined at the top of an analytical query using the `WITH` clause.\n\n```sql\n+-------------------------------------------------------------------------------+\n|                       MODULAR CTE PIPELINE ARCHITECTURE                       |\n+-------------------------------------------------------------------------------+\n|  WITH stage_1_clean_data AS (                                                 |\n|      SELECT ... FROM raw_data WHERE ...                                       |\n|  ),                                                                           |\n|  stage_2_aggregated_metrics AS (                                              |\n|      SELECT customer_id, SUM(amount) AS total FROM stage_1_clean_data ...     |\n|  )                                                                            |\n|  SELECT * FROM stage_2_aggregated_metrics WHERE total > 50000;                |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Practical Multi-Stage CTE: Customer RFM Scoring\n\n```sql\nWITH customer_orders_summary AS (\n    -- Stage 1: Calculate aggregate order metrics per customer\n    SELECT \n        customer_id,\n        COUNT(order_id) AS lifetime_orders_count,\n        SUM(total_ksh) AS lifetime_spend_ksh,\n        MAX(order_date) AS last_order_date\n    FROM orders\n    WHERE status = 'Completed'\n    GROUP BY customer_id\n),\ncustomer_recency_calc AS (\n    -- Stage 2: Calculate days since last purchase\n    SELECT \n        customer_id,\n        lifetime_orders_count,\n        lifetime_spend_ksh,\n        last_order_date,\n        ('2026-03-31'::DATE - last_order_date::DATE) AS days_since_last_order\n    FROM customer_orders_summary\n)\n-- Final Output: Tag customers at risk of churning\nSELECT \n    c.customer_id,\n    c.full_name,\n    c.phone_number,\n    r.lifetime_orders_count,\n    r.lifetime_spend_ksh,\n    r.days_since_last_order,\n    CASE \n        WHEN r.days_since_last_order <= 30 THEN 'Active & Loyal'\n        WHEN r.days_since_last_order <= 90 THEN 'Warm'\n        ELSE 'Churn Risk (90+ Days Inactive)'\n    END AS churn_risk_status\nFROM customer_recency_calc AS r\nINNER JOIN customers AS c ON r.customer_id = c.customer_id\nORDER BY r.lifetime_spend_ksh DESC;\n```\n\n---\n\n### 3. Summary & Best Practices\n- Prefer CTEs over nested inline subqueries for any query requiring more than one transformation step.\n- Name your CTEs with clear, descriptive semantic verbs (`filtered_sales`, `monthly_aggregates`).",
+        "summary": "Write clean, modular, and maintainable analytical SQL pipelines. Master scalar, column, and table subqueries, correlated subquery mechanics, multi-stage Common Table Expressions (WITH clauses), enterprise benchmark calculations, and PostgreSQL 12+ CTE inlining performance.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Differentiate between **Scalar Subqueries** (returns 1 value), **Column Subqueries** (returns 1 list), and **Table / Derived Subqueries** (returns a virtual table in FROM).\n2. Distinguish **Independent Subqueries** (evaluated once) from **Correlated Subqueries** (evaluated row-by-row using outer query references).\n3. Refactor nested \"Pyramids of Doom\" into clean, readable **Common Table Expressions (CTEs)** using the **`WITH`** keyword.\n4. Chain multiple sequential CTEs to build multi-stage enterprise analytics pipelines (e.g., benchmark comparisons and Customer RFM segmentation).\n5. Understand modern database execution mechanics: explain why CTEs are not always faster, how PostgreSQL 12+ inlines CTEs, and when to use **`MATERIALIZED`**.\n\n---\n\n### 1. Anatomy of Subqueries: Scalar, Column, and Table (Derived) Subqueries\n\nA subquery is a SQL query nested inside another query (the outer query). Depending on where it is placed and what it returns, a subquery serves three distinct analytical purposes:\n\n```sql\n+-----------------------------------------------------------------------------------------+\n|                                SUBQUERY TAXONOMY IN SQL                                 |\n+-------------------+---------------------------------------+-----------------------------+\n| Type              | Return Shape                          | Common SQL Clause           |\n+-------------------+---------------------------------------+-----------------------------+\n| 1. Scalar         | Exactly 1 row, 1 column (single value)| SELECT, WHERE, HAVING       |\n| 2. Column / List  | 1 column, multiple rows (value list)  | WHERE col IN (subquery)     |\n| 3. Table / Derived| Multiple rows and multiple columns    | FROM (subquery) AS alias    |\n+-------------------+---------------------------------------+-----------------------------+\n```\n\n#### A. Scalar Subqueries in SELECT and WHERE\nA **scalar subquery** returns exactly one atomic value (a single cell). If it returns multiple rows or columns, the database will raise a runtime execution error (`ERROR: more than one row returned by a subquery used as an expression`).\n\n```sql\n-- 1. Scalar Subquery in SELECT: Compare each transaction directly against the overall average\nSELECT \n    order_id,\n    customer_id,\n    total_ksh,\n    (SELECT ROUND(AVG(total_ksh), 2) FROM orders WHERE status = 'Completed') AS company_avg_order_ksh,\n    ROUND(total_ksh - (SELECT AVG(total_ksh) FROM orders WHERE status = 'Completed'), 2) AS variance_from_avg_ksh\nFROM orders\nWHERE status = 'Completed'\nORDER BY total_ksh DESC\nLIMIT 5;\n\n-- 2. Scalar Subquery in WHERE: Filter for transactions strictly exceeding the enterprise average\nSELECT \n    order_id,\n    customer_id,\n    total_ksh,\n    order_date\nFROM orders\nWHERE status = 'Completed'\n  AND total_ksh > (SELECT AVG(total_ksh) FROM orders WHERE status = 'Completed');\n```\n\n#### B. Column Subqueries with IN and NOT IN\nA **column subquery** returns a single column containing multiple rows. It is commonly used with set membership operators (`IN`, `NOT IN`, `ANY`, `ALL`):\n\n```sql\n-- Find all customers who have placed orders via M-Pesa in the last 30 days\nSELECT \n    customer_id,\n    full_name,\n    phone_number,\n    city\nFROM customers\nWHERE customer_id IN (\n    SELECT DISTINCT customer_id\n    FROM orders\n    WHERE payment_method = 'M-Pesa'\n      AND order_date >= '2026-03-01'\n);\n```\n\n> [!CAUTION]\n> **The `NOT IN` NULL Trap**: If the subquery in a `NOT IN (SELECT ...)` returns even a single `NULL` value, the entire `NOT IN` expression evaluates to `UNKNOWN` (effectively `FALSE`), returning zero rows! Always filter out `NULL` values with `WHERE col IS NOT NULL` inside the subquery, or use `NOT EXISTS`.\n\n#### C. Table Subqueries (Derived Tables in the FROM Clause)\nWhen a subquery returns multiple rows and columns, it acts as a virtual table in the `FROM` clause. In ANSI SQL and PostgreSQL, **every derived table MUST have an explicit table alias**:\n\n```sql\nSELECT \n    branch_tier,\n    COUNT(*) AS branch_count,\n    ROUND(AVG(branch_monthly_rev_ksh), 2) AS avg_branch_rev_ksh\nFROM (\n    -- Derived table: aggregated revenue per branch\n    SELECT \n        b.branch_name,\n        SUM(o.total_ksh) AS branch_monthly_rev_ksh,\n        CASE \n            WHEN SUM(o.total_ksh) >= 5000000 THEN 'Tier 1: Flagship'\n            WHEN SUM(o.total_ksh) >= 2000000 THEN 'Tier 2: Growth'\n            ELSE 'Tier 3: Emerging'\n        END AS branch_tier\n    FROM branches AS b\n    INNER JOIN orders AS o ON b.branch_id = o.branch_id\n    WHERE o.status = 'Completed'\n    GROUP BY b.branch_name\n) AS branch_summary -- MANDATORY ALIAS!\nGROUP BY branch_tier\nORDER BY avg_branch_rev_ksh DESC;\n```\n\n---\n\n### 2. Correlated vs. Independent Subqueries\n\nUnderstanding whether a subquery is independent or correlated is crucial for understanding SQL query performance:\n\n```sql\n+-----------------------------------------------------------------------------------------+\n|                  INDEPENDENT SUBQUERY vs. CORRELATED SUBQUERY                           |\n+-------------------------+---------------------------------------------------------------+\n| Independent Subquery    | Executes ONCE. Evaluates standalone and returns a static      |\n|                         | value or set that the outer query reuses. Execution: O(1).    |\n+-------------------------+---------------------------------------------------------------+\n| Correlated Subquery     | References a column from the OUTER query (e.g. o.branch_id).  |\n|                         | Logically re-evaluates ONCE PER ROW of the outer query.       |\n|                         | Execution can degrade to O(N * M) unless rewritten by engine. |\n+-------------------------+---------------------------------------------------------------+\n```\n\n#### Independent Subquery Example\nThe inner query does not rely on any column from the outer table:\n```sql\n-- Evaluates the subquery ONCE: finds the single highest order amount in Kenya\nSELECT order_id, customer_id, total_ksh\nFROM orders\nWHERE total_ksh = (SELECT MAX(total_ksh) FROM orders WHERE status = 'Completed');\n```\n\n#### Correlated Subquery Example\nNotice that the subquery references `outer_orders.branch_id`. To determine if an order is above average, the database must evaluate the average **specifically for that order's branch**:\n\n```sql\nSELECT \n    outer_orders.order_id,\n    outer_orders.branch_id,\n    outer_orders.total_ksh,\n    outer_orders.order_date\nFROM orders AS outer_orders\nWHERE outer_orders.status = 'Completed'\n  AND outer_orders.total_ksh > (\n      -- Correlated: depends on outer_orders.branch_id!\n      SELECT AVG(inner_orders.total_ksh)\n      FROM orders AS inner_orders\n      WHERE inner_orders.branch_id = outer_orders.branch_id\n        AND inner_orders.status = 'Completed'\n  );\n```\n\n---\n\n### 3. The \"Pyramid of Doom\" vs. Common Table Expressions (CTEs)\n\nWhile subqueries are versatile, nesting multiple subqueries creates unreadable code—often called the **Pyramid of Doom**. Because nested subqueries must be read from the inside out and from bottom to top, debugging and maintaining them becomes painful.\n\nA **Common Table Expression (CTE)** defines a temporary named result set at the top of your query using the **`WITH`** keyword:\n\n```sql\n+-------------------------------------------------------------------------------+\n|                     MODULAR CTE ARCHITECTURE (WITH CLAUSE)                    |\n+-------------------------------------------------------------------------------+\n|  WITH step_1_clean AS (                                                       |\n|      SELECT ... FROM raw_data WHERE is_valid = TRUE                            |\n|  ),                                                                           |\n|  step_2_aggregate AS (                                                        |\n|      SELECT customer_id, SUM(amount) AS total FROM step_1_clean GROUP BY ...   |\n|  ),                                                                           |\n|  step_3_ranked AS (                                                           |\n|      SELECT *, DENSE_RANK() OVER (ORDER BY total DESC) FROM step_2_aggregate  |\n|  )                                                                            |\n|  SELECT * FROM step_3_ranked WHERE rank <= 10;                                |\n+-------------------------------------------------------------------------------+\n```\n\n#### Syntactic Rules for CTEs:\n1. **Single `WITH` Keyword**: Use `WITH` only once at the beginning of the statement.\n2. **Comma Separator**: Subsequent CTEs are separated by commas (do not repeat `WITH`).\n3. **Parentheses**: Each CTE block must be enclosed in parentheses `cte_name AS (...)`.\n4. **Immediate Consumption**: The final `SELECT`, `INSERT`, `UPDATE`, or `DELETE` immediately follows the last CTE.\n\n---\n\n### 4. Enterprise Benchmark Comparison: Branch vs. Company Average\n\nIn enterprise reporting across Kenyan retail branches (Nairobi CBD, Westlands, Mombasa, Kisumu, Nakuru, Eldoret), executives frequently ask: *\"Which branches are beating the national average, and by what percentage?\"*\n\nHere is how to solve this using a multi-stage CTE:\n\n```sql\nWITH branch_totals AS (\n    -- Step 1: Calculate total completed revenue per branch\n    SELECT \n        b.branch_id,\n        b.branch_name,\n        b.county,\n        SUM(o.total_ksh) AS branch_revenue_ksh,\n        COUNT(o.order_id) AS completed_orders_count\n    FROM branches AS b\n    INNER JOIN orders AS o ON b.branch_id = o.branch_id\n    WHERE o.status = 'Completed'\n    GROUP BY b.branch_id, b.branch_name, b.county\n),\ncompany_benchmark AS (\n    -- Step 2: Compute national average benchmark across all active branches\n    SELECT \n        ROUND(AVG(branch_revenue_ksh), 2) AS national_avg_branch_rev_ksh\n    FROM branch_totals\n)\n-- Step 3: Compare each branch against national benchmark\nSELECT \n    bt.branch_name,\n    bt.county,\n    bt.branch_revenue_ksh,\n    cb.national_avg_branch_rev_ksh,\n    ROUND(bt.branch_revenue_ksh - cb.national_avg_branch_rev_ksh, 2) AS variance_ksh,\n    ROUND(\n        ((bt.branch_revenue_ksh - cb.national_avg_branch_rev_ksh) / cb.national_avg_branch_rev_ksh) * 100,\n        2\n    ) AS variance_pct,\n    CASE \n        WHEN bt.branch_revenue_ksh >= cb.national_avg_branch_rev_ksh * 1.20 THEN 'High Outperformer (+20%)'\n        WHEN bt.branch_revenue_ksh >= cb.national_avg_branch_rev_ksh THEN 'Above Benchmark'\n        WHEN bt.branch_revenue_ksh >= cb.national_avg_branch_rev_ksh * 0.80 THEN 'Near Benchmark'\n        ELSE 'Underperforming (Action Required)'\n    END AS performance_status\nFROM branch_totals AS bt\nCROSS JOIN company_benchmark AS cb\nORDER BY bt.branch_revenue_ksh DESC;\n```\n\n---\n\n### 5. Production Multi-Stage Pipeline: Enterprise Customer RFM Analytics\n\nIn data analytics, **RFM (Recency, Frequency, Monetary)** segmentation divides customers into actionable cohorts. In production databases, analysts must be careful:\n1. Use **`LEFT JOIN`** on orders so registered customers with zero orders are not silently erased.\n2. Use **`COALESCE(SUM(total_ksh), 0)`** so customers with zero spend return `0` instead of `NULL`.\n3. Handle recency date arithmetic safely.\n\n```sql\nWITH customer_orders_summary AS (\n    -- Stage 1: Aggregate order metrics per customer, preserving inactive users\n    SELECT \n        c.customer_id,\n        c.full_name,\n        c.phone_number,\n        c.registration_date,\n        COUNT(o.order_id) AS lifetime_orders_count,\n        COALESCE(SUM(o.total_ksh), 0) AS lifetime_spend_ksh,\n        MAX(o.order_date) AS last_order_date\n    FROM customers AS c\n    LEFT JOIN orders AS o \n        ON c.customer_id = o.customer_id \n       AND o.status = 'Completed'\n    GROUP BY c.customer_id, c.full_name, c.phone_number, c.registration_date\n),\ncustomer_recency_calc AS (\n    -- Stage 2: Calculate days elapsed since last purchase or since registration\n    SELECT \n        customer_id,\n        full_name,\n        phone_number,\n        lifetime_orders_count,\n        lifetime_spend_ksh,\n        last_order_date,\n        CASE \n            WHEN last_order_date IS NOT NULL \n                THEN ('2026-03-31'::DATE - last_order_date::DATE)\n            ELSE ('2026-03-31'::DATE - registration_date::DATE)\n        END AS days_since_last_activity,\n        CASE WHEN last_order_date IS NULL THEN TRUE ELSE FALSE END AS is_never_purchased\n    FROM customer_orders_summary\n)\n-- Stage 3: Final Output: Actionable Business Segmentation\nSELECT \n    customer_id,\n    full_name,\n    phone_number,\n    lifetime_orders_count,\n    lifetime_spend_ksh,\n    days_since_last_activity,\n    CASE \n        WHEN is_never_purchased = TRUE THEN 'Registered - Never Ordered'\n        WHEN lifetime_spend_ksh >= 250000 AND days_since_last_activity <= 30 THEN 'VIP Platinum (Active)'\n        WHEN days_since_last_activity <= 30 THEN 'Active Regular'\n        WHEN days_since_last_activity <= 90 THEN 'Warm (Re-engagement Target)'\n        ELSE 'Churn Risk (90+ Days Inactive)'\n    END AS customer_rfm_segment\nFROM customer_recency_calc\nORDER BY lifetime_spend_ksh DESC;\n```\n\n---\n\n### 6. Accurate CTE Performance Nuances (PostgreSQL 12+ Optimization Inlining)\n\nThere is a widespread misconception among junior data analysts: *\"CTEs always run faster than subqueries.\"* **This is false.**\n\n#### A. Legacy PostgreSQL (< 12): Optimization Fence\nIn PostgreSQL versions prior to 12, a CTE was an absolute **optimization fence**. The PostgreSQL engine materialized the CTE into a temporary memory/disk buffer first, preventing the optimizer from pushing outer `WHERE` predicates down into the CTE. As a result, subqueries were often significantly faster than CTEs in older PostgreSQL engines!\n\n#### B. Modern PostgreSQL (12+): Automatic Inlining\nStarting in **PostgreSQL 12**, the planner treats CTEs as **inlined expressions** by default if they satisfy all of the following conditions:\n1. The CTE does not contain side-effects (`INSERT`, `UPDATE`, `DELETE`).\n2. The CTE is **not recursive** (`WITH RECURSIVE`).\n3. The CTE is referenced **only once** in the outer query.\n\nInlined CTEs have the exact same execution plan and speed as equivalent subqueries.\n\n#### C. Controlling Materialization Explicitly\nIf your CTE contains a computationally expensive calculation and is referenced **multiple times** in the outer query, or if inlining causes an inefficient plan, you can explicitly control materialization:\n\n```sql\n-- Force materialization: Engine computes it once and caches the result\nWITH heavy_calculation AS MATERIALIZED (\n    SELECT branch_id, complex_statistical_calc(data) AS score\n    FROM raw_telemetry\n    GROUP BY branch_id\n)\nSELECT * FROM heavy_calculation WHERE score > 90\nUNION ALL\nSELECT * FROM heavy_calculation WHERE score < 10;\n\n-- Prevent materialization: Force inlining and predicate pushdown\nWITH fast_filtered_view AS NOT MATERIALIZED (\n    SELECT customer_id, county, total_spend_ksh\n    FROM large_lakehouse_table\n)\nSELECT * FROM fast_filtered_view WHERE customer_id = 40592;\n```\n\n---\n\n### 7. Enterprise Dialogue: Nairobi Data Team Architecture Review\n\n**Setting:** *Safaricom & Kilima Logistics Shared Tech Hub, Nairobi.*  \n**Characters:**  \n- **Wanjiku Mwangi**: Lead Analytics Architect.  \n- **Kevin Kiprop**: Junior BI Analyst.  \n\n**Kevin:** *\"Wanjiku, my quarterly revenue query runs, but it's 85 lines long with four levels of nested `SELECT ... FROM (SELECT ... FROM (SELECT ...))`. When our product manager asked to add M-Pesa merchant fees, I couldn't figure out which closing parenthesis belonged to which subquery.\"*\n\n**Wanjiku:** *(Laughs)* *\"You've hit the classic SQL 'Pyramid of Doom.' Nested subqueries force you to think from the inside out. Let's rewrite this into a Common Table Expression with three clear sequential blocks: `filtered_orders`, `merchant_fee_adjustments`, and `branch_rollups`.\"*\n\n**Kevin:** *\"Will using a CTE slow down the database compared to my nested subqueries?\"*\n\n**Wanjiku:** *\"Not in modern PostgreSQL! Since version 12, PostgreSQL inlines CTEs by default when they're referenced once, so the query planner optimizes them identically to subqueries. But CTEs give us readability, easy unit testing of each block, and maintainable enterprise code.\"*\n\n**Kevin:** *\"And what about the `LEFT JOIN` on our customer table? My original query missed customers who had never placed an order.\"*\n\n**Wanjiku:** *\"Exactly. An `INNER JOIN` silently erases zero-order customers. By using `LEFT JOIN` combined with `COALESCE(SUM(total_ksh), 0)`, our churn model correctly classifies them as 'Registered - Never Ordered' rather than dropping them from the board report.\"*\n\n---\n\n### 8. Professional Vocabulary Bank\n\n| Term | Technical Definition | Enterprise Context |\n| :--- | :--- | :--- |\n| **Common Table Expression (CTE)** | A temporary, named result set defined before the main query using the `WITH` clause. | The gold standard for modular, readable multi-stage SQL pipelines in production data teams. |\n| **Scalar Subquery** | A subquery that returns exactly one row and one column (a single atomic value). | Used in `SELECT` and `WHERE` to compare individual records against aggregate benchmarks. |\n| **Correlated Subquery** | A subquery whose inner logic references columns from the outer query table. | Evaluated once per candidate outer row; useful for localized comparisons but requires caution with large datasets. |\n| **Derived Table** | A subquery placed in the `FROM` clause that behaves as a temporary virtual table. | Must always have an explicit alias (e.g. `FROM (...) AS subq`) in ANSI SQL and PostgreSQL. |\n| **Optimization Fence** | A database optimizer boundary where the engine cannot push predicates across query blocks. | In legacy PostgreSQL (<12), CTEs acted as optimization fences; now inlined unless declared `MATERIALIZED`. |\n| **MATERIALIZED** | A PostgreSQL keyword forcing the engine to physically cache a CTE's output in memory. | Ideal when a heavy CTE is referenced multiple times, preventing redundant calculation. |\n| **RFM Analysis** | Analytical modeling of Recency (last active), Frequency (order count), and Monetary (spend). | Foundational eCommerce and retail cohort segmentation for retention and churn prevention. |\n\n---\n\n### 9. Summary & Best Practices Checklist\n- [x] **Prefer CTEs for Readability**: Refactor any query with more than one level of nesting into clean, named CTEs.\n- [x] **Order CTEs Sequentially**: Place raw extraction first, followed by transformations, aggregations, and final reporting.\n- [x] **Always Alias Derived Tables**: In the `FROM` clause, remember that omitting an alias causes a syntax error.\n- [x] **Avoid the NOT IN NULL Trap**: Always ensure subqueries used with `NOT IN` filter out `NULL` values or use `NOT EXISTS`.\n- [x] **Preserve Inactive Entities**: Use `LEFT JOIN` and `COALESCE(..., 0)` in customer and branch aggregations to avoid silent data loss.\n- [x] **Understand Performance**: Remember that in modern PostgreSQL (12+), CTEs are inlined by default; use `MATERIALIZED` only when beneficial.",
         "challenge": {
           "type": "quiz",
           "title": "Module 7 Checkpoint: CTEs & Subqueries",
-          "question": "Why do enterprise data analysts prefer Common Table Expressions (WITH clauses) over deeply nested subqueries?",
+          "question": "How does modern PostgreSQL (version 12+) treat Common Table Expressions (WITH clauses) compared to nested subqueries?",
           "options": [
-            "CTEs make queries run 1,000 times faster in every scenario.",
-            "CTEs structure queries sequentially from top to bottom like readable code, simplify debugging, and allow the temporary result set to be referenced multiple times within the query.",
-            "Nested subqueries were deprecated in SQL:2023.",
-            "CTEs do not require a database connection."
+            "PostgreSQL 12+ completely banned CTEs in favor of temporary tables.",
+            "PostgreSQL 12+ inlines non-recursive, side-effect-free CTEs referenced only once by default, giving them the same execution plan and performance as subqueries while preserving superior modular readability.",
+            "CTEs always run 100 times slower than subqueries because they are always written to physical disk.",
+            "CTEs can only be used with MySQL and cannot be executed on PostgreSQL."
           ],
           "correctAnswer": 1,
-          "explanation": "CTEs make complex analytical logic modular and human-readable by breaking down multi-stage calculations into clear sequential steps, avoiding the 'pyramid of doom' associated with deeply nested subqueries."
+          "explanation": "Since PostgreSQL 12, the query optimizer automatically inlines CTEs that are referenced once and contain no side effects, eliminating the legacy 'optimization fence' penalty and providing the performance of subqueries with the clean readability of CTEs."
         }
       },
       {
@@ -6286,31 +6840,137 @@ export const coursesData = [
         "subtitle": "DATE_TRUNC, EXTRACT, INTERVAL, CONCAT, TRIM, regex matching, and date arithmetic",
         "readingTime": "22 min",
         "videoLesson": {
-          "title": "Date, Time, Text Manipulation & NULL Handling (COALESCE)",
+          "title": "String and Date Functions in PostgreSQL",
           "channel": "Alex The Analyst",
-          "duration": "28:41:07",
-          "videoId": "cnjhHZNJEDk",
-          "watchUrl": "https://www.youtube.com/watch?v=cnjhHZNJEDk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
-          "url": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
+          "duration": "15:42",
+          "videoId": "9Po7KLZB2TE",
+          "watchUrl": "https://www.youtube.com/watch?v=9Po7KLZB2TE",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/9Po7KLZB2TE",
+          "url": "https://www.youtube-nocookie.com/embed/9Po7KLZB2TE",
           "alternativeSource": "https://www.postgresql.org/docs/current/functions-datetime.html",
           "sourceName": "PostgreSQL Documentation — Date/Time Functions and Operators",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "sources": [
+            {
+              "name": "PostgreSQL Documentation — Date/Time Functions and Operators",
+              "url": "https://www.postgresql.org/docs/current/functions-datetime.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — String Functions and Operators",
+              "url": "https://www.postgresql.org/docs/current/functions-string.html"
+            }
+          ],
+          "note": "Date, Time, Text Manipulation & NULL Handling: Tab 1 by Alex The Analyst (15:42) demonstrates PostgreSQL string and date functions hands-on. Tab 2 by assemia (03:58) covers PostgreSQL DATE_TRUNC, EXTRACT, and INTERVAL timestamp arithmetic for time-series analytics. Tab 3 by Data with Baraa (43:27) provides an in-depth visual masterclass on date parts, date truncation, and temporal grouping. Tab 4 by Data with Baraa (26:27) breaks down string cleansing functions: TRIM, UPPER/LOWER, REPLACE, CONCAT, and SUBSTRING.",
+          "references": [
+            {
+              "id": "ref-date-string-alex",
+              "tabLabel": "1. PostgreSQL Date & Text (Alex)",
+              "topic": "PostgreSQL Date & String Functions Hands-On Walkthrough",
+              "title": "String and Date Functions in PostgreSQL",
+              "channel": "Alex The Analyst",
+              "duration": "15:42",
+              "videoId": "9Po7KLZB2TE",
+              "watchUrl": "https://www.youtube.com/watch?v=9Po7KLZB2TE",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/9Po7KLZB2TE",
+              "url": "https://www.youtube-nocookie.com/embed/9Po7KLZB2TE",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-datetime.html",
+              "sourceName": "PostgreSQL Documentation — Date/Time Functions and Operators",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Date/Time Functions and Operators",
+                  "url": "https://www.postgresql.org/docs/current/functions-datetime.html"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Alex Freberg walks through hands-on queries in PostgreSQL demonstrating text functions (CONCAT, TRIM, SUBSTRING) alongside core date manipulation and timestamp extraction."
+            },
+            {
+              "id": "ref-date-trunc-extract-assemia",
+              "tabLabel": "2. DATE_TRUNC & INTERVAL (assemia)",
+              "topic": "PostgreSQL Temporal Analysis: DATE_TRUNC, EXTRACT, and INTERVAL Arithmetic",
+              "title": "SQL Date & Time Functions | EXTRACT, DATE_TRUNC & INTERVAL",
+              "channel": "assemia",
+              "duration": "03:58",
+              "videoId": "r0vXlrzJs4I",
+              "watchUrl": "https://www.youtube.com/watch?v=r0vXlrzJs4I",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/r0vXlrzJs4I",
+              "url": "https://www.youtube-nocookie.com/embed/r0vXlrzJs4I",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-datetime.html",
+              "sourceName": "PostgreSQL Documentation — Date/Time Functions",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Date/Time Functions",
+                  "url": "https://www.postgresql.org/docs/current/functions-datetime.html"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Practical analytics guide comparing EXTRACT() and DATE_TRUNC() on PostgreSQL timestamps, explaining INTERVAL arithmetic and multi-year time-series grouping."
+            },
+            {
+              "id": "ref-date-time-baraa",
+              "tabLabel": "3. Date & Time Masterclass (Baraa)",
+              "topic": "SQL Date & Time Functions: DATEPART, DATENAME, DATETRUNC & Temporal Math",
+              "title": "SQL Date & Time Functions | DATEPART, DATENAME, DATETRUNC, EOMONTH | #SQL Course 15",
+              "channel": "Data with Baraa",
+              "duration": "43:27",
+              "videoId": "7RCxH9x5StM",
+              "watchUrl": "https://www.youtube.com/watch?v=7RCxH9x5StM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/7RCxH9x5StM",
+              "url": "https://www.youtube-nocookie.com/embed/7RCxH9x5StM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-datetime.html",
+              "sourceName": "PostgreSQL Documentation — Date/Time Functions",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Date/Time Functions",
+                  "url": "https://www.postgresql.org/docs/current/functions-datetime.html"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Visual deep dive into dates, times, and timestamps in relational databases. Explains date parts, date truncation, date filtering, and time-series aggregation."
+            },
+            {
+              "id": "ref-string-functions-baraa",
+              "tabLabel": "4. Text Cleansing & Formatting (Baraa)",
+              "topic": "SQL String Functions: TRIM, UPPER/LOWER, REPLACE, CONCAT & Cleansing Messy Data",
+              "title": "SQL String Functions (Visually Explained) | A Detailed Guide | #SQL Course 13",
+              "channel": "Data with Baraa",
+              "duration": "26:27",
+              "videoId": "NOTWx5s-s1o",
+              "watchUrl": "https://www.youtube.com/watch?v=NOTWx5s-s1o",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/NOTWx5s-s1o",
+              "url": "https://www.youtube-nocookie.com/embed/NOTWx5s-s1o",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-string.html",
+              "sourceName": "PostgreSQL Documentation — String Functions and Operators",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — String Functions and Operators",
+                  "url": "https://www.postgresql.org/docs/current/functions-string.html"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Visual guide to string functions in SQL. Teaches TRIM for cleaning whitespace, UPPER and LOWER for standardizing casing, REPLACE, CONCAT, and SUBSTRING for parsing strings."
+            }
+          ]
         },
-        "summary": "Master temporal and string transformations in SQL. Group time-series data with DATE_TRUNC, extract date parts with EXTRACT, perform timestamp math with INTERVALs, and cleanse messy strings with TRIM, UPPER, and CONCAT.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Truncate timestamps to standard analytical intervals (Day, Week, Month, Quarter, Year) using **`DATE_TRUNC()`**.\n2. Extract specific temporal components (Year, Month, Day of week, Hour) using **`EXTRACT()`** or **`DATE_PART()`**.\n3. Perform accurate timestamp arithmetic using **`INTERVAL`** additions and subtractions.\n4. Cleanse and standardize string columns with **`TRIM`**, **`UPPER`**, **`LOWER`**, **`INITCAP`**, and **`REPLACE`**.\n5. Concatenate and format text attributes cleanly with **`CONCAT()`** and the **`||`** operator.\n\n---\n\n### 1. Temporal Analysis with DATE_TRUNC & EXTRACT\n\n#### A. Grouping Time Series with DATE_TRUNC\n```sql\n-- Monthly Cohort Aggregation\nSELECT \n    DATE_TRUNC('month', transaction_date)::DATE AS sales_month,\n    COUNT(transaction_id) AS total_orders,\n    SUM(amount_ksh) AS gross_revenue_ksh\nFROM transactions\nGROUP BY DATE_TRUNC('month', transaction_date)\nORDER BY sales_month ASC;\n```\n\n#### B. Peak Hour Analysis with EXTRACT\nAt what hours of the day do Kenyan customers transact most frequently on M-Pesa?\n\n```sql\nSELECT \n    EXTRACT(HOUR FROM transaction_timestamp) AS hour_of_day,\n    COUNT(*) AS total_transactions,\n    SUM(amount_ksh) AS total_volume_ksh\nFROM mpesa_till_logs\nGROUP BY EXTRACT(HOUR FROM transaction_timestamp)\nORDER BY hour_of_day ASC;\n```\n\n---\n\n### 2. Timestamp Arithmetic with INTERVALs\n\n```sql\n-- Find all transactions that occurred within the last 30 days relative to NOW\nSELECT transaction_id, customer_id, amount_ksh, transaction_date\nFROM orders\nWHERE transaction_date >= CURRENT_DATE - INTERVAL '30 days';\n```\n\n---\n\n### 3. String Sanitization & Formatting\n\n```sql\nSELECT \n    customer_id,\n    -- Standardize casing and strip surrounding whitespaces\n    INITCAP(TRIM(full_name)) AS clean_customer_name,\n    -- Format Kenyan phone numbers to international E.164 (+254...)\n    CASE \n        WHEN primary_phone LIKE '07%' THEN '+254' || SUBSTRING(primary_phone FROM 2)\n        WHEN primary_phone LIKE '254%' THEN '+' || primary_phone\n        ELSE primary_phone\n    END AS standardized_phone_number\nFROM raw_customer_leads;\n```\n\n---\n\n### 4. Summary & Best Practices\n- Always truncate time-series aggregations with `DATE_TRUNC` to preserve chronological timeline ordering.\n- Standardize customer phone numbers and casing before joining across dirty staging tables.",
+        "summary": "Master temporal and string transformations in SQL. Group time-series data with DATE_TRUNC, extract date parts with EXTRACT, perform timestamp math with INTERVALs, cleanse messy strings with TRIM, UPPER, and CONCAT, match regular expressions, and master NULL vs. empty string handling.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Truncate timestamps to standard analytical intervals (Day, Week, Month, Quarter, Year) using **`DATE_TRUNC()`** for accurate multi-year time-series grouping.\n2. Extract specific numeric components (Year, Month, Day of week, Hour) using **`EXTRACT()`** or **`DATE_PART()`**, understanding PostgreSQL's numeric return types and day-of-week numbering conventions.\n3. Perform accurate temporal arithmetic using **`INTERVAL`** additions and subtractions across time zones.\n4. Cleanse, sanitize, and normalize messy string attributes with **`TRIM`**, **`UPPER`**, **`LOWER`**, **`INITCAP`**, and **`REPLACE`**.\n5. Concatenate and format text attributes safely with **`CONCAT()`**, **`CONCAT_WS()`**, and the PostgreSQL **`||`** operator, accounting for NULL propagation.\n6. Validate and match complex text patterns using PostgreSQL POSIX regular expressions (**`~`**, **`~*`**, **`!~`**, **`REGEXP_REPLACE`**).\n7. Handle missing values rigorously by distinguishing true database **`NULL`** values from empty strings (**`''`**), and combining **`COALESCE()`** with **`NULLIF()`**.\n\n---\n\n### 1. Temporal Analysis with DATE_TRUNC vs. EXTRACT\n\nUnderstanding when to use `DATE_TRUNC()` versus `EXTRACT()` is a fundamental milestone for data analysts working with temporal event streams:\n\n```sql\n+-----------------------------------------------------------------------------------------+\n|                       DATE_TRUNC vs. EXTRACT / DATE_PART IN POSTGRESQL                  |\n+-------------------+---------------------------------------+-----------------------------+\n| Function          | Return Type & Value                   | Primary Analytical Purpose  |\n+-------------------+---------------------------------------+-----------------------------+\n| DATE_TRUNC(unit)  | TIMESTAMP (resets lower fields to 0)  | Multi-year time series      |\n|                   | e.g. '2026-03-24' -> '2026-03-01'     | chronological grouping      |\n+-------------------+---------------------------------------+-----------------------------+\n| EXTRACT(field)    | DOUBLE PRECISION (numeric number)     | Cyclical patterns, seasonality|\n|                   | e.g. EXTRACT(MONTH ...) -> 3          | peak hours, day-of-week     |\n+-------------------+---------------------------------------+-----------------------------+\n```\n\n#### A. Grouping Multi-Year Time Series with DATE_TRUNC\n`DATE_TRUNC('month', timestamp)` truncates a timestamp so that day, hour, minute, and second are reset to the start of that month. Because it returns a true `TIMESTAMP`, grouping by `DATE_TRUNC('month', order_date)` keeps March 2025 separate from March 2026:\n\n```sql\n-- Multi-year monthly revenue trend across Kenyan operations\nSELECT \n    DATE_TRUNC('month', transaction_date)::DATE AS sales_month,\n    COUNT(order_id) AS total_orders,\n    SUM(total_ksh) AS gross_revenue_ksh,\n    ROUND(AVG(total_ksh), 2) AS avg_order_value_ksh\nFROM orders\nWHERE status = 'Completed'\nGROUP BY DATE_TRUNC('month', transaction_date)\nORDER BY sales_month ASC;\n```\n\n> [!IMPORTANT]\n> **Grouping Consistency Rule**: When grouping by a truncated date expression, the `GROUP BY` clause must match the `SELECT` expression: `GROUP BY DATE_TRUNC('month', transaction_date)`.\n\n#### B. Extracting Temporal Components with EXTRACT and DATE_PART\n`EXTRACT(field FROM timestamp)` extracts an isolated date/time subfield as a **numeric value (`DOUBLE PRECISION`)**. In PostgreSQL, `DATE_PART('field', timestamp)` is an equivalent traditional alternative:\n\n```sql\nSELECT \n    order_id,\n    order_date,\n    EXTRACT(YEAR FROM order_date) AS order_year,\n    EXTRACT(MONTH FROM order_date) AS order_month_num,\n    EXTRACT(DAY FROM order_date) AS day_of_month,\n    EXTRACT(DOW FROM order_date) AS day_of_week_num,\n    DATE_PART('hour', order_date) AS hour_of_day\nFROM orders\nLIMIT 5;\n```\n\n#### Day-of-Week Indexing in PostgreSQL\nPostgreSQL supports two distinct day-of-week extract options:\n- **`DOW` (Day of Week)**: Returns **`0` (Sunday) through `6` (Saturday)**.\n- **`ISODOW` (ISO 8601 Day of Week)**: Returns **`1` (Monday) through `7` (Sunday)**.\n\n```sql\n-- Analyze peak transaction volume by day of week\nSELECT \n    CASE EXTRACT(DOW FROM transaction_timestamp)\n        WHEN 0 THEN 'Sunday'\n        WHEN 1 THEN 'Monday'\n        WHEN 2 THEN 'Tuesday'\n        WHEN 3 THEN 'Wednesday'\n        WHEN 4 THEN 'Thursday'\n        WHEN 5 THEN 'Friday'\n        WHEN 6 THEN 'Saturday'\n    END AS day_name,\n    COUNT(*) AS total_transactions,\n    ROUND(SUM(amount_ksh), 2) AS total_volume_ksh\nFROM mpesa_till_logs\nGROUP BY EXTRACT(DOW FROM transaction_timestamp)\nORDER BY EXTRACT(DOW FROM transaction_timestamp);\n```\n\n---\n\n### 2. Timestamp Arithmetic with INTERVALs & Time Zone Handling\n\nSQL allows intuitive temporal arithmetic using the **`INTERVAL`** data type:\n\n```sql\n-- Adding and subtracting intervals\nSELECT \n    NOW() AS current_system_timestamp,\n    CURRENT_DATE AS today,\n    CURRENT_DATE - INTERVAL '30 days' AS thirty_days_ago,\n    CURRENT_DATE + INTERVAL '3 months' AS three_months_future,\n    NOW() + INTERVAL '2 hours 30 minutes' AS dispatched_expected_arrival;\n\n-- Difference between dates vs timestamps:\n-- 1. Date - Date returns INTEGER (number of days)\nSELECT '2026-03-31'::DATE - '2026-03-01'::DATE AS days_elapsed; -- 30 (integer)\n\n-- 2. Timestamp - Timestamp returns an INTERVAL (days, hours, minutes, seconds)\nSELECT '2026-03-31 18:30:00'::TIMESTAMP - '2026-03-01 09:00:00'::TIMESTAMP AS delivery_duration;\n```\n\n#### Managing Time Zones (UTC vs. East Africa Time)\nEnterprise databases typically record transactional timestamps in **UTC** (`TIMESTAMP WITH TIME ZONE` or `TIMESTAMPTZ`). When reporting to local business leaders in Kenya, convert UTC to **East Africa Time (EAT / UTC+3)**:\n\n```sql\nSELECT \n    order_id,\n    created_at_utc,\n    -- Convert UTC timestamp to Nairobi local time\n    created_at_utc AT TIME ZONE 'Africa/Nairobi' AS order_time_eat,\n    EXTRACT(HOUR FROM created_at_utc AT TIME ZONE 'Africa/Nairobi') AS order_hour_eat\nFROM ecommerce_orders\nWHERE created_at_utc >= NOW() - INTERVAL '7 days';\n```\n\n---\n\n### 3. String Sanitization, Normalization & Formatting\n\nMessy raw inputs (inconsistent whitespace, mixed casing, misspelled names) must be normalized before analytical joining or presentation:\n\n```sql\n+-------------------+---------------------------------------+-----------------------------+\n| Function          | Example Usage                         | Result                      |\n+-------------------+---------------------------------------+-----------------------------+\n| TRIM(str)         | TRIM('  Nairobi  ')                  | 'Nairobi'                   |\n| UPPER(str)        | UPPER('m-pesa')                       | 'M-PESA'                    |\n| LOWER(str)        | LOWER('KILIMA.KE')                    | 'kilima.ke'                 |\n| INITCAP(str)      | INITCAP('john kamau otieno')          | 'John Kamau Otieno'         |\n| REPLACE(str, f, t)| REPLACE('0712-345-678', '-', '')      | '0712345678'                |\n| SUBSTRING(str,s,l)| SUBSTRING('MPESA2026', 1, 5)          | 'MPESA'                     |\n+-------------------+---------------------------------------+-----------------------------+\n```\n\n#### String Concatenation: CONCAT vs. || Operator\nThere is a vital distinction between the ANSI SQL `CONCAT()` function and the PostgreSQL pipe concatenation operator (`||`):\n- **`CONCAT(a, b, c)`**: Automatically converts non-string inputs and **ignores `NULL` values** (treats `NULL` like an empty string).\n- **`a || b || c`**: Standard operator, but if **any** operand is `NULL`, the entire result becomes **`NULL`**!\n- **`CONCAT_WS(separator, a, b, c)`**: Concatenate With Separator; ideal for addresses and formatted lists.\n\n```sql\nSELECT \n    customer_id,\n    -- CONCAT ignores NULLs safely:\n    CONCAT(first_name, ' ', last_name) AS full_name_safe,\n    \n    -- || operator requires COALESCE if fields are nullable:\n    COALESCE(first_name, '') || ' ' || COALESCE(last_name, '') AS full_name_piped,\n    \n    -- CONCAT_WS cleanly joins non-null address elements with commas:\n    CONCAT_WS(', ', building_name, street_name, city, county) AS formatted_shipping_address\nFROM customer_profiles;\n```\n\n---\n\n### 4. Advanced Pattern Matching: PostgreSQL POSIX Regular Expressions\n\nWhile SQL `LIKE` and `ILIKE` handle simple wildcard searches (`%` and `_`), PostgreSQL provides powerful POSIX regular expression operators:\n\n```sql\n+-------------------+---------------------------------------------------------------------+\n| Operator          | Description                                                         |\n+-------------------+---------------------------------------------------------------------+\n| ~                 | Case-sensitive regular expression match                             |\n| ~*                | Case-insensitive regular expression match                           |\n| !~                | Does not match regular expression (case-sensitive)                  |\n| !~*               | Does not match regular expression (case-insensitive)                |\n+-------------------+---------------------------------------------------------------------+\n```\n\n#### A. Validating Kenyan Phone Numbers with Regex\nKenyan mobile phone numbers must start with `+254`, `254`, `07`, or `01` followed by 8 digits:\n\n```sql\nSELECT \n    lead_id,\n    raw_phone_number,\n    -- Validate Kenyan mobile pattern: starts with +254 or 0, followed by 7 or 1, then 8 digits\n    CASE \n        WHEN raw_phone_number ~ '^(\\+254|0)(7|1)[0-9]{8}$' THEN 'Valid Kenya Mobile'\n        ELSE 'Invalid / Foreign Number'\n    END AS phone_validation_status\nFROM raw_customer_leads;\n```\n\n#### B. Validating M-Pesa Transaction Codes and Masking\nM-Pesa receipt codes consist of exactly 10 uppercase alphanumeric characters (e.g., `QK74XP982Z`):\n\n```sql\nSELECT \n    receipt_id,\n    mpesa_code,\n    -- Mask middle 6 characters for customer privacy: QK******2Z\n    REGEXP_REPLACE(mpesa_code, '([A-Z0-9]{2})[A-Z0-9]{6}([A-Z0-9]{2})', '\\\\1******\\\\2') AS masked_receipt_code\nFROM mpesa_payment_ledger\nWHERE mpesa_code ~ '^[A-Z0-9]{10}$';\n```\n\n---\n\n### 5. NULL Handling vs. Empty Strings ('')\n\nOne of the most frequent sources of data corruption in SQL reporting is confusing a **`NULL`** value with an **empty string (`''`)**:\n\n```sql\n+-----------------------------------------------------------------------------------------+\n|                                NULL vs. EMPTY STRING ('')                               |\n+-------------------------+---------------------------------------------------------------+\n| NULL                    | Unknown, absent, or missing value. Represents the absence of  |\n|                         | data. Cannot be compared with =. (col IS NULL).               |\n+-------------------------+---------------------------------------------------------------+\n| Empty String ('')       | A known, valid string with length zero.                       |\n|                         | (LENGTH('') = 0). Evaluates FALSE to col IS NULL!            |\n+-------------------------+---------------------------------------------------------------+\n```\n\n> [!CAUTION]\n> **The Empty String Blind Spot**: If a form submits an empty string `''`, `WHERE phone_number IS NULL` will **NOT** match it!\n\n#### The Enterprise Pattern: Combining NULLIF and COALESCE\nTo reliably replace both true `NULL`s and blank strings with a safe default, use **`NULLIF(TRIM(column), '')`** inside **`COALESCE()`**:\n\n```sql\nSELECT \n    customer_id,\n    full_name,\n    -- 1. TRIM strips any trailing spaces ('   ' -> '')\n    -- 2. NULLIF converts '' into true SQL NULL\n    -- 3. COALESCE replaces the NULL with our fallback string\n    COALESCE(NULLIF(TRIM(contact_email), ''), 'no-email-provided@fahmrise.ke') AS verified_contact_email,\n    COALESCE(NULLIF(TRIM(alternate_phone), ''), 'N/A') AS fallback_phone\nFROM customer_contacts;\n```\n\n---\n\n### 6. Enterprise Dialogue: Nairobi Logistics Data Staging Cleanup\n\n**Setting:** *Kilima Logistics Dispatch Center, Mombasa Road, Nairobi.*  \n**Characters:**  \n- **Wanjiku Mwangi**: Lead Analytics Architect.  \n- **Kevin Kiprop**: Junior BI Analyst.  \n\n**Kevin:** *\"Wanjiku, our weekly dispatch report shows 1,200 orders without customer phone numbers. But when I queried `WHERE phone_number IS NULL`, SQL only returned 40 rows. What happened to the other 1,160?\"*\n\n**Wanjiku:** *\"Classic data quality trap! The logistics mobile app was sending empty strings (`''`) or spaces instead of database `NULL`s. An empty string has a length of zero, but to SQL it's not NULL.\"*\n\n**Kevin:** *\"How do we fix that across all our automated dashboards?\"*\n\n**Wanjiku:** *\"We wrap the column in `NULLIF(TRIM(phone_number), '')`. That converts blank and whitespace-only strings into true NULLs. Then `COALESCE()` can reliably substitute `'+254700000000'` or flag them for our dispatch team.\"*\n\n**Kevin:** *\"And for our monthly revenue chart, should I group by `EXTRACT(MONTH FROM order_date)`?\"*\n\n**Wanjiku:** *\"Careful! If you group by `EXTRACT(MONTH FROM order_date)`, the engine merges March 2025 and March 2026 into a single 'Month 3' row! Always use `DATE_TRUNC('month', order_date)` for time series so each year and month retains its distinct chronological timestamp.\"*\n\n---\n\n### 7. Professional Vocabulary Bank\n\n| Term | Technical Definition | Enterprise Context |\n| :--- | :--- | :--- |\n| **DATE_TRUNC** | Function that truncates a timestamp to a specified unit (e.g. 'month'), resetting smaller fields to 0. | Standard function for multi-year time-series trend analysis and cohort reporting. |\n| **EXTRACT / DATE_PART** | Function that extracts an isolated numeric date/time subfield (as `DOUBLE PRECISION`). | Used for cyclical seasonality, day-of-week volume modeling, and peak-hour analysis. |\n| **INTERVAL** | SQL data type representing an elapsed duration of time (e.g. `INTERVAL '30 days'`). | Essential for rolling time windows, SLA compliance tracking, and dynamic expiration filtering. |\n| **INITCAP** | Function converting the first character of each word to uppercase and the rest to lowercase. | Vital for cleaning customer names and street addresses entered in all-caps or all-lowercase. |\n| **CONCAT_WS** | Concatenate With Separator function that automatically joins text strings with a delimiter. | The cleanest way to construct readable addresses, full names, and formatted CSV exports. |\n| **POSIX Regex (~*)** | PostgreSQL operator for case-insensitive regular expression pattern matching. | Industrial-grade validation for M-Pesa transaction codes, postal codes, and email formats. |\n| **NULLIF** | Function returning NULL if two arguments are equal; otherwise returns the first argument. | Paired with `TRIM` and `COALESCE` to eliminate empty string anomalies from data pipelines. |\n| **TIMESTAMPTZ** | PostgreSQL data type: Timestamp With Time Zone (stored in UTC, displayed in session zone). | Standard enterprise timestamp representation preventing daylight savings and regional time discrepancies. |\n\n---\n\n### 8. Summary & Best Practices Checklist\n- [x] **Use DATE_TRUNC for Multi-Year Trends**: Avoid grouping by `EXTRACT(MONTH ...)` alone when data spans multiple calendar years.\n- [x] **Know DOW vs ISODOW**: In PostgreSQL, `EXTRACT(DOW ...)` returns 0 (Sunday) to 6 (Saturday); `ISODOW` returns 1 (Monday) to 7 (Sunday).\n- [x] **Account for NULLs in Concatenation**: Prefer `CONCAT()` or `CONCAT_WS()` over `||` when joining columns that might contain `NULL` values.\n- [x] **Normalize Text Before Joining**: Always apply `TRIM()` and `LOWER()`/`UPPER()` when joining strings from different legacy databases.\n- [x] **Convert Empty Strings to NULL**: Use `NULLIF(TRIM(col), '')` before applying `COALESCE()` to avoid empty string silent failures.\n- [x] **Store in UTC, Report in Local Time**: Use `AT TIME ZONE 'Africa/Nairobi'` for Kenyan executive dashboards.",
         "challenge": {
           "type": "quiz",
           "title": "Module 8 Checkpoint: Date & Text Manipulation",
-          "question": "What does the query 'DATE_TRUNC('month', '2026-03-24 16:45:00'::TIMESTAMP)' return in PostgreSQL?",
+          "question": "Why do enterprise SQL analysts prefer DATE_TRUNC('month', order_date) over EXTRACT(MONTH FROM order_date) for multi-year financial trend charts?",
           "options": [
-            "2026-03-31 23:59:59",
-            "2026-03-01 00:00:00",
-            "March",
-            "3"
+            "EXTRACT was deprecated in PostgreSQL 14.",
+            "DATE_TRUNC returns a true timestamp that preserves the year and month together (e.g. 2025-03-01 and 2026-03-01 remain separate chronological data points), whereas EXTRACT(MONTH ...) returns a raw number (3) that erroneously aggregates March 2025 and March 2026 into a single row.",
+            "DATE_TRUNC runs 500 times faster because it deletes the timestamp index.",
+            "EXTRACT cannot be used in a GROUP BY clause in SQL."
           ],
           "correctAnswer": 1,
-          "explanation": "DATE_TRUNC('month', timestamp) resets all date components smaller than month to their beginning values, producing '2026-03-01 00:00:00'."
+          "explanation": "DATE_TRUNC('month', order_date) preserves the chronological timeline by keeping each year's month distinct (e.g., 2025-03-01 vs 2026-03-01), whereas EXTRACT(MONTH ...) returns only the integer month (1 to 12), collapsing different calendar years into the same month bucket."
         }
       },
       {
@@ -6366,31 +7026,137 @@ export const coursesData = [
         "subtitle": "Multi-branch retail & banking dataset: RFM segmentation, cohort retention, and executive metrics reporting",
         "readingTime": "30 min",
         "videoLesson": {
-          "title": "Practical SQL Capstone: Building an End-to-End Analytics Engine",
+          "title": "Data Analyst Portfolio Project | SQL Data Exploration | Project 1/4",
           "channel": "Alex The Analyst",
-          "duration": "28:41:07",
-          "videoId": "cnjhHZNJEDk",
-          "watchUrl": "https://www.youtube.com/watch?v=cnjhHZNJEDk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
-          "url": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
+          "duration": "77:09",
+          "videoId": "qfyynHBFOsM",
+          "watchUrl": "https://www.youtube.com/watch?v=qfyynHBFOsM",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/qfyynHBFOsM",
+          "url": "https://www.youtube-nocookie.com/embed/qfyynHBFOsM",
           "alternativeSource": "https://github.com/AlexTheAnalyst/PortfolioProjects",
           "sourceName": "GitHub — Real-World SQL Portfolio Project Datasets",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "sources": [
+            {
+              "name": "GitHub — Real-World SQL Portfolio Project Datasets",
+              "url": "https://github.com/AlexTheAnalyst/PortfolioProjects"
+            },
+            {
+              "name": "PostgreSQL Documentation — Window Functions",
+              "url": "https://www.postgresql.org/docs/current/tutorial-window.html"
+            }
+          ],
+          "note": "Practical SQL Capstone Project: Tab 1 by Alex The Analyst (77:09) walks through an end-to-end commercial SQL data exploration portfolio project using multi-table joins, CTEs, window functions, and executive aggregations. Tab 2 by Data with Baraa (83:36) demonstrates building an end-to-end SQL analytics engine following real-world industry project standards. Tab 3 by Alex The Analyst (54:44) covers essential commercial data cleaning and normalization. Tab 4 by Data with Baraa (51:14) focuses on exploratory data analysis, KPI generation, and cohort reporting.",
+          "references": [
+            {
+              "id": "ref-capstone-alex-exploration",
+              "tabLabel": "1. Capstone Exploration (Alex)",
+              "topic": "End-to-End SQL Portfolio Project: Commercial Data Exploration, Joins & CTEs",
+              "title": "Data Analyst Portfolio Project | SQL Data Exploration | Project 1/4",
+              "channel": "Alex The Analyst",
+              "duration": "77:09",
+              "videoId": "qfyynHBFOsM",
+              "watchUrl": "https://www.youtube.com/watch?v=qfyynHBFOsM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/qfyynHBFOsM",
+              "url": "https://www.youtube-nocookie.com/embed/qfyynHBFOsM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/AlexTheAnalyst/PortfolioProjects",
+              "sourceName": "GitHub — Real-World SQL Portfolio Project Datasets",
+              "sources": [
+                {
+                  "name": "GitHub — Real-World SQL Portfolio Project Datasets",
+                  "url": "https://github.com/AlexTheAnalyst/PortfolioProjects"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Comprehensive 77-minute end-to-end SQL portfolio project by Alex Freberg. Ingests raw relational tables, writes multi-table joins, authoring CTEs, temp tables, window calculations, and creates reporting-ready analytical views."
+            },
+            {
+              "id": "ref-capstone-baraa-industry",
+              "tabLabel": "2. Real Industry Project (Baraa)",
+              "topic": "End-to-End SQL Analytics Engine: Industry Data Pipelines & Business Logic",
+              "title": "SQL Data Analyst Portfolio Project | Like I Do in My Real Projects",
+              "channel": "Data with Baraa",
+              "duration": "83:36",
+              "videoId": "2jGhQpbzHes",
+              "watchUrl": "https://www.youtube.com/watch?v=2jGhQpbzHes",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/2jGhQpbzHes",
+              "url": "https://www.youtube-nocookie.com/embed/2jGhQpbzHes",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/AlexTheAnalyst/PortfolioProjects",
+              "sourceName": "GitHub — Real-World SQL Portfolio Project Datasets",
+              "sources": [
+                {
+                  "name": "GitHub — Real-World SQL Portfolio Project Datasets",
+                  "url": "https://github.com/AlexTheAnalyst/PortfolioProjects"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Complete 83-minute industry-standard walkthrough demonstrating how professional senior analysts design, structure, and query an enterprise relational analytics engine."
+            },
+            {
+              "id": "ref-capstone-alex-cleaning",
+              "tabLabel": "3. SQL Data Cleaning (Alex)",
+              "topic": "Commercial Data Cleaning: Deduplication with CTEs, Type Formatting & Standardizing",
+              "title": "Data Analyst Portfolio Project | Data Cleaning in SQL | Project 3/4",
+              "channel": "Alex The Analyst",
+              "duration": "54:44",
+              "videoId": "8rO7ztF4NtU",
+              "watchUrl": "https://www.youtube.com/watch?v=8rO7ztF4NtU",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/8rO7ztF4NtU",
+              "url": "https://www.youtube-nocookie.com/embed/8rO7ztF4NtU",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/AlexTheAnalyst/PortfolioProjects",
+              "sourceName": "GitHub — Real-World SQL Portfolio Project Datasets",
+              "sources": [
+                {
+                  "name": "GitHub — Real-World SQL Portfolio Project Datasets",
+                  "url": "https://github.com/AlexTheAnalyst/PortfolioProjects"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Hands-on data cleaning masterclass. Teaches date standardization, separating delimited string fields, handling NULLs vs blank strings, and removing duplicate records with CTEs and ROW_NUMBER()."
+            },
+            {
+              "id": "ref-capstone-baraa-eda",
+              "tabLabel": "4. Exploratory Analysis & KPIs (Baraa)",
+              "topic": "Exploratory Data Analysis (EDA) in SQL: Metric Aggregations & Customer Cohorts",
+              "title": "SQL Exploratory Data Analysis (EDA) Project | Full Hands-On Portfolio Project",
+              "channel": "Data with Baraa",
+              "duration": "51:14",
+              "videoId": "6cJ5Ji8zSDg",
+              "watchUrl": "https://www.youtube.com/watch?v=6cJ5Ji8zSDg",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/6cJ5Ji8zSDg",
+              "url": "https://www.youtube-nocookie.com/embed/6cJ5Ji8zSDg",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/AlexTheAnalyst/PortfolioProjects",
+              "sourceName": "GitHub — Real-World SQL Portfolio Project Datasets",
+              "sources": [
+                {
+                  "name": "GitHub — Real-World SQL Portfolio Project Datasets",
+                  "url": "https://github.com/AlexTheAnalyst/PortfolioProjects"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Comprehensive 51-minute guide to SQL exploratory analysis. Covers gross margin calculations, sales velocity, customer cohort performance, and executive scorecard generation."
+            }
+          ]
         },
-        "summary": "Apply all SQL querying, aggregation, JOIN, CTE, date, and windowing skills into an enterprise-grade Capstone Project. Ingest raw banking & commerce records, calculate customer lifetime value, and generate executive KPI reports.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Execute an end-to-end commercial SQL project against a realistic multi-table relational schema.\n2. Author clean, modular multi-stage CTE queries answering strategic business questions.\n3. Compute customer cohort retention rates and month-over-month sales velocity.\n4. Build a customer RFM (Recency, Frequency, Monetary) segmentation matrix.\n5. Export clean, formatted executive summary datasets ready for board reporting.\n\n---\n\n### 1. Capstone Scenario: \"Savannah Commercial Bank & Retail Kenya\"\n\n**Savannah Enterprises** operates commercial retail hubs and digital merchant payment settlement gateways across Kenya.\n\n#### Schema Architecture:\n- **`customers`**: `customer_id`, `full_name`, `phone`, `signup_date`, `region`, `segment`.\n- **`products`**: `product_id`, `product_name`, `category`, `unit_cost_ksh`, `unit_price_ksh`.\n- **`branches`**: `branch_id`, `branch_name`, `county`, `branch_tier`.\n- **`transactions`**: `transaction_id`, `customer_id`, `product_id`, `branch_id`, `transaction_date`, `quantity`, `payment_channel`, `status`.\n\n---\n\n### 2. Comprehensive Capstone Analytical Script\n\n```sql\n-- =============================================================================\n-- CAPSTONE QUERY 1: EXECUTIVE MONTHLY REVENUE, PROFIT & M-PESA PENETRATION\n-- =============================================================================\nWITH monthly_financials AS (\n    SELECT \n        DATE_TRUNC('month', t.transaction_date)::DATE AS sales_month,\n        COUNT(DISTINCT t.transaction_id) AS total_orders,\n        COUNT(DISTINCT t.customer_id) AS active_customers,\n        SUM(t.quantity * p.unit_price_ksh) AS gross_revenue_ksh,\n        SUM(t.quantity * p.unit_cost_ksh) AS total_cogs_ksh,\n        SUM(CASE WHEN t.payment_channel = 'M-Pesa' THEN (t.quantity * p.unit_price_ksh) ELSE 0 END) AS mpesa_revenue_ksh\n    FROM transactions AS t\n    INNER JOIN products AS p ON t.product_id = p.product_id\n    WHERE t.status = 'Completed'\n    GROUP BY DATE_TRUNC('month', t.transaction_date)\n)\nSELECT \n    sales_month,\n    total_orders,\n    active_customers,\n    gross_revenue_ksh,\n    (gross_revenue_ksh - total_cogs_ksh) AS gross_profit_ksh,\n    ROUND(((gross_revenue_ksh - total_cogs_ksh) / NULLIF(gross_revenue_ksh, 0)) * 100, 2) AS gross_margin_pct,\n    ROUND((mpesa_revenue_ksh / NULLIF(gross_revenue_ksh, 0)) * 100, 2) AS mpesa_penetration_pct,\n    LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC) AS prior_month_revenue_ksh,\n    ROUND(\n        ((gross_revenue_ksh - LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC)) \n        / NULLIF(LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC), 0)) * 100, \n        2\n    ) AS mom_growth_pct\nFROM monthly_financials\nORDER BY sales_month ASC;\n\n-- =============================================================================\n-- CAPSTONE QUERY 2: CUSTOMER RFM LOYALTY & CHURN SEGMENTATION\n-- =============================================================================\nWITH customer_rfm_raw AS (\n    SELECT \n        c.customer_id,\n        c.full_name,\n        c.region,\n        COUNT(t.transaction_id) AS frequency_orders,\n        SUM(t.quantity * p.unit_price_ksh) AS monetary_spend_ksh,\n        ('2026-03-31'::DATE - MAX(t.transaction_date)::DATE) AS recency_days\n    FROM customers AS c\n    INNER JOIN transactions AS t ON c.customer_id = t.customer_id\n    INNER JOIN products AS p ON t.product_id = p.product_id\n    WHERE t.status = 'Completed'\n    GROUP BY c.customer_id, c.full_name, c.region\n),\ncustomer_scores AS (\n    SELECT \n        customer_id,\n        full_name,\n        region,\n        recency_days,\n        frequency_orders,\n        monetary_spend_ksh,\n        NTILE(4) OVER (ORDER BY recency_days ASC) AS recency_score,       -- 4 = Most recent\n        NTILE(4) OVER (ORDER BY frequency_orders ASC) AS frequency_score, -- 4 = Most frequent\n        NTILE(4) OVER (ORDER BY monetary_spend_ksh ASC) AS monetary_score -- 4 = Highest spend\n    FROM customer_rfm_raw\n)\nSELECT \n    customer_id,\n    full_name,\n    region,\n    recency_days,\n    frequency_orders,\n    monetary_spend_ksh,\n    (recency_score + frequency_score + monetary_score) AS composite_rfm_score,\n    CASE \n        WHEN (recency_score + frequency_score + monetary_score) >= 10 THEN 'VIP Champion'\n        WHEN recency_score >= 3 AND frequency_score >= 2 THEN 'Loyal Customer'\n        WHEN recency_score = 1 AND monetary_score >= 3 THEN 'High-Value Churn Risk'\n        ELSE 'Standard Retail'\n    END AS strategic_customer_segment\nFROM customer_scores\nORDER BY monetary_spend_ksh DESC;\n```\n\n---\n\n### 3. Final Capstone Submission & Certificate Eligibility\n\nCongratulations on completing the **SQL for Data Analysis** curriculum!\n- You have mastered relational database theory, core querying, multi-table JOINs, conditional aggregations, modular CTEs, string & temporal manipulation, and advanced analytical window functions.\n- Mark this final capstone lesson complete in your dashboard to unlock your official **Verified FAHMRISE Certificate of Completion in SQL for Data Analysis**.",
+        "summary": "Apply all SQL querying, aggregation, JOIN, CTE, date, and windowing skills into an enterprise-grade Capstone Project. Ingest raw banking & commerce records, calculate customer lifetime value, cohort retention, and generate executive KPI reports.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Execute an end-to-end commercial SQL project against a realistic multi-table relational schema.\n2. Author clean, modular multi-stage CTE queries calculating executive financial KPIs (Gross Revenue, COGS, Gross Profit, Gross Margin %, M-Pesa Penetration, and MoM Growth).\n3. Build a customer RFM (Recency, Frequency, Monetary) segmentation matrix using `NTILE(4)`, properly handling inactive customers and quartile scoring directions.\n4. Model customer cohort retention rates month-over-month to measure long-term customer lifetime loyalty.\n5. Rank regional branches and product categories by revenue and gross margin contribution using window ranking functions.\n6. Export clean, formatted executive summary datasets ready for C-suite and board presentations.\n\n---\n\n### 1. Capstone Scenario: \"Savannah Commercial Bank & Retail Kenya\"\n\n**Savannah Enterprises** operates commercial retail hubs, wholesale supply chains, and digital merchant payment settlement gateways across Kenya (Nairobi CBD, Westlands, Mombasa, Kisumu, Nakuru, and Eldoret).\n\n#### Schema Architecture:\n```sql\n+---------------------------------------------------------------------------------------------------+\n|                        SAVANNAH ENTERPRISES RELATIONAL DATA MODEL                                 |\n+---------------------------------------------------------------------------------------------------+\n|  CUSTOMERS                     TRANSACTIONS                     PRODUCTS                          |\n|  * customer_id (PK)            * transaction_id (PK)            * product_id (PK)                 |\n|    full_name                     customer_id (FK)                 product_name                    |\n|    phone                         product_id (FK)                  category                        |\n|    signup_date                   branch_id (FK)                   unit_cost_ksh (NUMERIC)         |\n|    region                        transaction_date (TIMESTAMP)     unit_price_ksh (NUMERIC)        |\n|    segment                       quantity (INTEGER)                                               |\n|                                  payment_channel (VARCHAR)      BRANCHES                          |\n|                                  status (Completed/Cancelled)   * branch_id (PK)                  |\n|                                                                   branch_name                     |\n|                                                                   county                          |\n|                                                                   branch_tier                     |\n+---------------------------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Comprehensive Capstone Analytical Script\n\nThe analytical script consists of four modular production queries answering the core executive requirements:\n\n#### Query 1: Executive Monthly Financials, Profitability & M-Pesa Penetration\nThis query computes core financial performance: Gross Revenue, Total Cost of Goods Sold (COGS), Gross Profit, Gross Margin Percentage, M-Pesa Payment Penetration, and Month-over-Month (MoM) Revenue Growth with zero-division error handling:\n\n```sql\n-- =============================================================================\n-- CAPSTONE QUERY 1: EXECUTIVE MONTHLY FINANCIALS & M-PESA PENETRATION\n-- =============================================================================\nWITH monthly_financials AS (\n    SELECT \n        DATE_TRUNC('month', t.transaction_date)::DATE AS sales_month,\n        COUNT(DISTINCT t.transaction_id) AS total_orders,\n        COUNT(DISTINCT t.customer_id) AS active_transacting_customers,\n        -- Gross Revenue & Cost of Goods Sold (cast to NUMERIC to guarantee precision)\n        SUM(t.quantity * p.unit_price_ksh::NUMERIC) AS gross_revenue_ksh,\n        SUM(t.quantity * p.unit_cost_ksh::NUMERIC) AS total_cogs_ksh,\n        -- M-Pesa channel revenue\n        SUM(CASE WHEN t.payment_channel = 'M-Pesa' THEN (t.quantity * p.unit_price_ksh::NUMERIC) ELSE 0 END) AS mpesa_revenue_ksh\n    FROM transactions AS t\n    INNER JOIN products AS p ON t.product_id = p.product_id\n    WHERE t.status = 'Completed'\n    GROUP BY DATE_TRUNC('month', t.transaction_date)\n)\nSELECT \n    sales_month,\n    total_orders,\n    active_transacting_customers,\n    gross_revenue_ksh,\n    total_cogs_ksh,\n    -- Gross Profit = Gross Revenue - Total COGS\n    (gross_revenue_ksh - total_cogs_ksh) AS gross_profit_ksh,\n    -- Gross Margin % = (Gross Profit / Gross Revenue) * 100\n    ROUND(((gross_revenue_ksh - total_cogs_ksh) / NULLIF(gross_revenue_ksh, 0)) * 100, 2) AS gross_margin_pct,\n    -- M-Pesa Penetration % = (M-Pesa Revenue / Gross Revenue) * 100\n    ROUND((mpesa_revenue_ksh / NULLIF(gross_revenue_ksh, 0)) * 100, 2) AS mpesa_penetration_pct,\n    -- Month-over-Month Revenue Velocity via LAG()\n    LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC) AS prior_month_revenue_ksh,\n    (gross_revenue_ksh - LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC)) AS mom_growth_ksh,\n    ROUND(\n        ((gross_revenue_ksh - LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC)) \n        / NULLIF(LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC), 0)) * 100, \n        2\n    ) AS mom_growth_pct\nFROM monthly_financials\nORDER BY sales_month ASC;\n```\n\n---\n\n#### Query 2: Enterprise Customer RFM Segmentation & Quartile Scoring\nRFM (Recency, Frequency, Monetary) segmentation groups customers based on transaction history. In production databases, analysts must preserve registered customers with zero orders:\n1. Use **`LEFT JOIN`** so inactive registered users are not dropped.\n2. Use **`COALESCE(SUM(...), 0)`** so zero-spend customers return `0` instead of `NULL`.\n3. Set analysis benchmark date to **`'2026-03-31'::DATE`**.\n4. **NTILE Recency Ordering**: In RFM scoring, **Tile 4 must represent the most desirable state**. Because fewer days elapsed indicates higher recency, sorting `ORDER BY recency_days DESC` assigns Tile 1 to the most dormant customers and **Tile 4 to the most recent customers**:\n\n```sql\n-- =============================================================================\n-- CAPSTONE QUERY 2: CUSTOMER RFM LOYALTY & CHURN SEGMENTATION\n-- =============================================================================\nWITH customer_rfm_raw AS (\n    SELECT \n        c.customer_id,\n        c.full_name,\n        c.region,\n        c.signup_date,\n        COUNT(t.transaction_id) AS frequency_orders,\n        COALESCE(SUM(t.quantity * p.unit_price_ksh::NUMERIC), 0) AS monetary_spend_ksh,\n        -- Calculate days elapsed since last purchase; if no purchase, measure from signup\n        CASE \n            WHEN MAX(t.transaction_date) IS NOT NULL \n                THEN ('2026-03-31'::DATE - MAX(t.transaction_date)::DATE)\n            ELSE ('2026-03-31'::DATE - c.signup_date::DATE)\n        END AS recency_days,\n        CASE WHEN MAX(t.transaction_date) IS NULL THEN TRUE ELSE FALSE END AS has_never_purchased\n    FROM customers AS c\n    LEFT JOIN transactions AS t \n        ON c.customer_id = t.customer_id \n       AND t.status = 'Completed'\n    LEFT JOIN products AS p \n        ON t.product_id = p.product_id\n    GROUP BY c.customer_id, c.full_name, c.region, c.signup_date\n),\ncustomer_quartiles AS (\n    SELECT \n        customer_id,\n        full_name,\n        region,\n        recency_days,\n        frequency_orders,\n        monetary_spend_ksh,\n        has_never_purchased,\n        -- Recency: ORDER BY recency_days DESC so smallest days (most recent) receive Tile 4!\n        NTILE(4) OVER (ORDER BY recency_days DESC) AS recency_score,\n        -- Frequency: 4 = Most frequent orders\n        NTILE(4) OVER (ORDER BY frequency_orders ASC) AS frequency_score,\n        -- Monetary: 4 = Highest lifetime spend\n        NTILE(4) OVER (ORDER BY monetary_spend_ksh ASC) AS monetary_score\n    FROM customer_rfm_raw\n)\nSELECT \n    customer_id,\n    full_name,\n    region,\n    recency_days,\n    frequency_orders,\n    monetary_spend_ksh,\n    recency_score,\n    frequency_score,\n    monetary_score,\n    (recency_score + frequency_score + monetary_score) AS composite_rfm_score,\n    CASE \n        WHEN has_never_purchased = TRUE THEN 'Registered - Never Transacted'\n        WHEN (recency_score + frequency_score + monetary_score) >= 10 THEN 'VIP Champion'\n        WHEN recency_score >= 3 AND frequency_score >= 2 THEN 'Loyal Core Customer'\n        WHEN recency_score = 1 AND monetary_score >= 3 THEN 'High-Value Churn Risk'\n        WHEN recency_score = 1 THEN 'Dormant Inactive'\n        ELSE 'Standard Retail'\n    END AS strategic_customer_segment\nFROM customer_quartiles\nORDER BY monetary_spend_ksh DESC;\n```\n\n---\n\n#### Query 3: Monthly Customer Cohort Retention Analysis\nMeasures long-term customer stickiness. Assigns customers to cohorts based on their initial signup month, then tracks the percentage of customers who continue placing completed transactions in subsequent months:\n\n```sql\n-- =============================================================================\n-- CAPSTONE QUERY 3: MONTHLY CUSTOMER COHORT RETENTION ENGINE\n-- =============================================================================\nWITH customer_cohort_assignment AS (\n    -- Stage 1: Identify each customer's inception signup cohort\n    SELECT \n        customer_id,\n        DATE_TRUNC('month', signup_date)::DATE AS cohort_month\n    FROM customers\n),\ncohort_sizes AS (\n    -- Stage 2: Calculate the baseline denominator (cohort size)\n    SELECT \n        cohort_month,\n        COUNT(DISTINCT customer_id) AS total_cohort_size\n    FROM customer_cohort_assignment\n    GROUP BY cohort_month\n),\ncustomer_monthly_activity AS (\n    -- Stage 3: Map completed purchase activity months\n    SELECT \n        cca.cohort_month,\n        DATE_TRUNC('month', t.transaction_date)::DATE AS activity_month,\n        COUNT(DISTINCT t.customer_id) AS active_retained_customers\n    FROM customer_cohort_assignment AS cca\n    INNER JOIN transactions AS t ON cca.customer_id = t.customer_id\n    WHERE t.status = 'Completed'\n    GROUP BY cca.cohort_month, DATE_TRUNC('month', t.transaction_date)::DATE\n)\n-- Stage 4: Calculate retention rate and month index offset\nSELECT \n    cma.cohort_month,\n    cs.total_cohort_size,\n    cma.activity_month,\n    -- Compute calendar month offset (Month 0, Month 1, Month 2...)\n    (\n        (EXTRACT(YEAR FROM cma.activity_month) - EXTRACT(YEAR FROM cma.cohort_month)) * 12 +\n        (EXTRACT(MONTH FROM cma.activity_month) - EXTRACT(MONTH FROM cma.cohort_month))\n    )::INTEGER AS month_offset,\n    cma.active_retained_customers,\n    -- Retention Rate % = (Active Retained / Total Cohort Size) * 100\n    ROUND((cma.active_retained_customers::NUMERIC / cs.total_cohort_size::NUMERIC) * 100, 2) AS retention_rate_pct\nFROM customer_monthly_activity AS cma\nINNER JOIN cohort_sizes AS cs ON cma.cohort_month = cs.cohort_month\nORDER BY cma.cohort_month ASC, month_offset ASC;\n```\n\n---\n\n#### Query 4: Regional Branch Efficiency & Product Velocity\nAssesses regional performance across Kenya and identifies top-ranking product categories in each branch:\n\n```sql\n-- =============================================================================\n-- CAPSTONE QUERY 4: REGIONAL BRANCH EFFICIENCY & CATEGORY RANKINGS\n-- =============================================================================\nWITH branch_category_summary AS (\n    SELECT \n        b.branch_name,\n        b.county,\n        b.branch_tier,\n        p.category,\n        COUNT(t.transaction_id) AS total_sales_volume,\n        SUM(t.quantity * p.unit_price_ksh::NUMERIC) AS category_revenue_ksh,\n        SUM(t.quantity * (p.unit_price_ksh - p.unit_cost_ksh)::NUMERIC) AS category_gross_profit_ksh\n    FROM branches AS b\n    INNER JOIN transactions AS t ON b.branch_id = t.branch_id\n    INNER JOIN products AS p ON t.product_id = p.product_id\n    WHERE t.status = 'Completed'\n    GROUP BY b.branch_name, b.county, b.branch_tier, p.category\n)\nSELECT \n    branch_name,\n    county,\n    branch_tier,\n    category,\n    total_sales_volume,\n    category_revenue_ksh,\n    category_gross_profit_ksh,\n    ROUND((category_gross_profit_ksh / NULLIF(category_revenue_ksh, 0)) * 100, 2) AS category_margin_pct,\n    -- Rank product categories within each branch by revenue\n    DENSE_RANK() OVER (\n        PARTITION BY branch_name \n        ORDER BY category_revenue_ksh DESC\n    ) AS category_rank_in_branch\nFROM branch_category_summary\nORDER BY branch_name ASC, category_rank_in_branch ASC;\n```\n\n---\n\n### 3. Enterprise Dialogue: Savannah Boardroom Analytics Presentation\n\n**Setting:** *Savannah Commercial Bank & Retail Kenya Boardroom, Westlands, Nairobi.*  \n**Characters:**  \n- **Wanjiku Mwangi**: Lead Analytics Architect.  \n- **Kevin Kiprop**: Junior BI Analyst.  \n- **Eng. Sarah Kamau**: Chief Operating Officer.  \n\n**Sarah:** *\"Kevin and Wanjiku, this board report looks phenomenal. But I want to examine our customer retention numbers. In Query 2, how did you ensure our RFM churn model didn't overlook customers who signed up but haven't placed an order yet?\"*\n\n**Kevin:** *\"In our initial draft, we used an `INNER JOIN` between customers and transactions, which accidentally dropped everyone who had never transacted! Wanjiku guided me to refactor this into a `LEFT JOIN` with `COALESCE(SUM(...), 0)`. That isolated our 'Registered - Never Transacted' users, allowing our sales team to target them with personalized first-order M-Pesa discounts.\"*\n\n**Sarah:** *\"Brilliant. And what about the MoM growth in Query 1?\"*\n\n**Kevin:** *\"We used the `LAG()` window function to compare each month's revenue against the immediately preceding month. To prevent runtime division-by-zero crashes when launching in a new branch where prior revenue is zero, we wrapped the denominator in `NULLIF(prior_month, 0)`.\"*\n\n**Wanjiku:** *\"Furthermore, in Query 3, our cohort retention model measures loyalty by tracking Month 0 through Month 5 retention rates per signup cohort. The board can clearly see that M-Pesa integration in Q1 increased 90-day customer retention by 14.8%.\"*\n\n---\n\n### 4. Professional Vocabulary Bank\n\n| Term | Technical Definition | Enterprise Context |\n| :--- | :--- | :--- |\n| **Commercial Analytics Engine** | A complete SQL data pipeline transforming raw operational records into strategic executive reporting metrics. | The foundation of enterprise business intelligence, replacing manual spreadsheets with automated database scripts. |\n| **COGS (Cost of Goods Sold)** | Direct material and acquisition costs incurred to produce or purchase sold merchandise. | Subtracted from gross revenue to determine gross profit and profitability margins. |\n| **Gross Margin %** | The percentage of revenue retained as profit after deducting direct production/acquisition costs. | Calculated as `((Gross Revenue - COGS) / Gross Revenue) * 100`. |\n| **RFM Segmentation** | Analytical scoring of customers based on Recency (last active), Frequency (order count), and Monetary (spend). | Divides customers into actionable loyalty tiers (Champions, Loyal, Churn Risk) using statistical quartiles. |\n| **NTILE(n)** | Window function that divides an ordered partition into `n` approximately equal buckets. | Used to compute standardized percentile scores (1 to 4) across recency, frequency, and monetary metrics. |\n| **Cohort Retention** | Tracking a specific group of users who signed up in the same period over subsequent calendar months. | Measures long-term customer stickiness, product-market fit, and customer lifetime value (LTV). |\n| **Month Offset** | The integer number of calendar months elapsed between a customer's inception cohort and their activity month. | Normalizes customer lifecycles so different cohorts can be compared side-by-side in retention matrices. |\n| **M-Pesa Penetration %** | Proportion of total business revenue settled through digital mobile money (M-Pesa). | Core KPI in East African commerce measuring digital adoption and settlement efficiency. |\n\n---\n\n### 5. Summary & Capstone Deliverables Checklist\n- [x] **Multi-Table Enterprise Joins**: Transactions joined with Customers, Products, and Branches without duplicating rows.\n- [x] **Safe Financial Math**: All currency fields cast to `NUMERIC` and wrapped with `NULLIF(denominator, 0)` to prevent integer truncation and divide-by-zero crashes.\n- [x] **Complete Customer Preservation**: Used `LEFT JOIN` and `COALESCE` in RFM queries so non-purchasing users are classified rather than silently dropped.\n- [x] **Correct NTILE Recency Direction**: Ordered by `recency_days DESC` so that the most recent customers receive the highest quartile score (Tile 4).\n- [x] **Cohort Retention Matrix**: Analyzes customer retention month-over-month normalized by signup cohort month.\n- [x] **Executive-Ready Exports**: Clean column naming conventions, rounded currency values, and formatted percentages ready for reporting.\n\n---\n\n### 6. Final Capstone Submission & Certificate Eligibility\n\nCongratulations on completing the **SQL for Data Analysis** curriculum!\n- You have mastered relational database theory, core querying, multi-table JOINs, conditional aggregations, modular CTEs, string & temporal manipulation, window functions, and enterprise capstone architecture.\n- Mark this final capstone lesson complete in your dashboard to unlock your official **Verified FAHMRISE Certificate of Completion in SQL for Data Analysis**.",
         "challenge": {
           "type": "quiz",
           "title": "Module 10 Checkpoint: SQL Capstone Mastery",
-          "question": "In the Capstone RFM analysis query, what does 'NTILE(4) OVER (ORDER BY monetary_spend_ksh ASC)' accomplish?",
+          "question": "In the Capstone Customer RFM query, why must the recency score use 'NTILE(4) OVER (ORDER BY recency_days DESC)' to assign Tile 4 to the most recent customers?",
           "options": [
-            "It rounds all monetary amounts to 4 decimal places.",
-            "It divides the ordered customer base into 4 equal quartiles based on their total spending, assigning a rank score from 1 (lowest 25%) to 4 (top 25%).",
-            "It deletes the lowest 4 spenders from the database.",
-            "It limits the query to only 4 rows."
+            "PostgreSQL requires all window functions to sort in descending order.",
+            "Because fewer days elapsed represents higher recency; sorting by recency_days in descending order places the largest day counts into Tile 1 and the smallest day counts (most recent customers) into Tile 4.",
+            "DESC forces PostgreSQL to delete inactive accounts.",
+            "It converts recency days into Kenyan Shillings."
           ],
           "correctAnswer": 1,
-          "explanation": "NTILE(4) divides an ordered partition into four equal quartiles, assigning integer bucket scores (1 to 4) which form the foundation of statistical customer RFM segmentation."
+          "explanation": "In RFM modeling, Tile 4 represents the best score. Because a customer who purchased 2 days ago is much more recent than one who purchased 300 days ago, ordering by recency_days DESC ensures the lowest day counts receive the highest quartile rank (Tile 4)."
         }
       },
       {
@@ -9698,19 +10464,133 @@ export const coursesData = [
         "subtitle": "PostgreSQL, SQLite, MySQL, DBeaver GUI, loading schemas, and database data types",
         "readingTime": "18 min",
         "videoLesson": {
-          "title": "Database Setup, Tables Creation & Sample Data Ingestion",
-          "channel": "Alex The Analyst",
-          "duration": "28:41:07",
-          "videoId": "cnjhHZNJEDk",
-          "watchUrl": "https://www.youtube.com/watch?v=cnjhHZNJEDk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
-          "url": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
+          "title": "DBeaver Tutorial - How to Use DBeaver (SQL Editor)",
+          "channel": "Database Star",
+          "duration": "15:50",
+          "videoId": "LEx96-CkB1Q",
+          "watchUrl": "https://www.youtube.com/watch?v=LEx96-CkB1Q",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/LEx96-CkB1Q",
+          "url": "https://www.youtube-nocookie.com/embed/LEx96-CkB1Q",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
           "alternativeSource": "https://www.postgresql.org/docs/current/ddl.html",
           "sourceName": "PostgreSQL Documentation — Data Definition (DDL)",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "PostgreSQL Documentation — Data Definition (DDL)",
+              "url": "https://www.postgresql.org/docs/current/ddl.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — Data Types",
+              "url": "https://www.postgresql.org/docs/current/datatype.html"
+            },
+            {
+              "name": "DBeaver Community — Universal Database Tool",
+              "url": "https://dbeaver.io/"
+            }
+          ],
+          "note": "Database Setup, Workstation GUI & Data Ingestion: Tab 1 by Database Star (15:50) demonstrates DBeaver universal database manager setup, multi-engine connections, query execution, and data import/export. Tab 2 by Database Star (17:13) covers PostgreSQL database connectivity, CREATE TABLE DDL, and column constraints. Tab 3 by CK Data Tech (15:43) guides through importing CSV datasets into database tables in DBeaver. Tab 4 by CK Data Tech (09:24) covers connecting DBeaver to a local PostgreSQL server.",
+          "references": [
+            {
+              "id": "ref-dbeaver-universal-gui",
+              "tabLabel": "1. DBeaver Universal GUI",
+              "topic": "Universal Database GUI: DBeaver Setup, Database Connections, Query Execution & Data Import",
+              "title": "DBeaver Tutorial - How to Use DBeaver (SQL Editor)",
+              "channel": "Database Star",
+              "duration": "15:50",
+              "videoId": "LEx96-CkB1Q",
+              "watchUrl": "https://www.youtube.com/watch?v=LEx96-CkB1Q",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/LEx96-CkB1Q",
+              "url": "https://www.youtube-nocookie.com/embed/LEx96-CkB1Q",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://dbeaver.io/",
+              "sourceName": "DBeaver Community Official Site",
+              "sources": [
+                {
+                  "name": "DBeaver Community",
+                  "url": "https://dbeaver.io/"
+                },
+                {
+                  "name": "PostgreSQL DDL Documentation",
+                  "url": "https://www.postgresql.org/docs/current/ddl.html"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Ben Brumm from Database Star demonstrates how to install and configure DBeaver Community, connect to PostgreSQL, MySQL, and SQLite databases, navigate schemas, execute SQL scripts, and import/export data."
+            },
+            {
+              "id": "ref-postgres-table-ddl",
+              "tabLabel": "2. PostgreSQL & Table DDL",
+              "topic": "PostgreSQL Database Connection, CREATE TABLE DDL & Schema Management",
+              "title": "Introduction to PostgreSQL Tutorial - Part 1",
+              "channel": "Database Star",
+              "duration": "17:13",
+              "videoId": "74IWNUja05w",
+              "watchUrl": "https://www.youtube.com/watch?v=74IWNUja05w",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/74IWNUja05w",
+              "url": "https://www.youtube-nocookie.com/embed/74IWNUja05w",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/ddl.html",
+              "sourceName": "PostgreSQL Documentation — Data Definition (DDL)",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Data Definition",
+                  "url": "https://www.postgresql.org/docs/current/ddl.html"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Learn how to connect to PostgreSQL, author CREATE TABLE statements with primary keys and data types, insert records, view table contents, and troubleshoot schema errors."
+            },
+            {
+              "id": "ref-dbeaver-csv-ingestion",
+              "tabLabel": "3. CSV Ingestion in DBeaver",
+              "topic": "Importing CSV Datasets into Database Tables with Column Mapping in DBeaver",
+              "title": "How to Import CSV File to a DATABASE in DBeaver | Step-by-Step Tutorial",
+              "channel": "CK Data Tech",
+              "duration": "15:43",
+              "videoId": "e_VIAwrL_bI",
+              "watchUrl": "https://www.youtube.com/watch?v=e_VIAwrL_bI",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/e_VIAwrL_bI",
+              "url": "https://www.youtube-nocookie.com/embed/e_VIAwrL_bI",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://dbeaver.io/",
+              "sourceName": "DBeaver Data Transfer & Import Guide",
+              "sources": [
+                {
+                  "name": "DBeaver Community",
+                  "url": "https://dbeaver.io/"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Step-by-step walkthrough demonstrating how to import raw CSV datasets into a relational database table using DBeaver’s data transfer wizard, map column headers to target data types, and verify row counts."
+            },
+            {
+              "id": "ref-connect-dbeaver-postgres",
+              "tabLabel": "4. DBeaver Client Setup",
+              "topic": "Connecting DBeaver Client to PostgreSQL Local Database Server",
+              "title": "CONNECT DBeaver to PostgreSQL & RUN Queries - EASY TUTORIAL!",
+              "channel": "CK Data Tech",
+              "duration": "09:24",
+              "videoId": "GgODmMBVUD4",
+              "watchUrl": "https://www.youtube.com/watch?v=GgODmMBVUD4",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/GgODmMBVUD4",
+              "url": "https://www.youtube-nocookie.com/embed/GgODmMBVUD4",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/tutorial-start.html",
+              "sourceName": "PostgreSQL Getting Started Guide",
+              "sources": [
+                {
+                  "name": "PostgreSQL Getting Started",
+                  "url": "https://www.postgresql.org/docs/current/tutorial-start.html"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Quick start tutorial showing how to install DBeaver and PostgreSQL, configure host connection settings, authenticate credentials, and run your first test query."
+            }
+          ]
         },
         "summary": "Set up a professional SQL analytics workstation. Install PostgreSQL/SQLite, connect via DBeaver universal database GUI, inspect schemas, and understand core SQL data types.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Choose and install a universal SQL client (**DBeaver Community** or **pgAdmin**).\n2. Create databases, schemas, and tables using standard DDL statements (`CREATE TABLE`, `DROP TABLE`).\n3. Differentiate between core SQL data types: **INTEGER**, **BIGINT**, **NUMERIC/DECIMAL**, **VARCHAR/TEXT**, **DATE**, **TIMESTAMP**, and **BOOLEAN**.\n4. Ingest raw CSV data into relational tables using SQL `\\copy` / `COPY` commands.\n5. Inspect database metadata using information schema queries.\n\n---\n\n### 1. SQL Dialects & Database Flavors\n\nWhile ANSI SQL is standard, major database engines have slight dialect nuances:\n- **PostgreSQL**: The world's most advanced open-source relational database. Highly standards-compliant, supports advanced JSONB, arrays, and window functions.\n- **MySQL / MariaDB**: Extremely popular in web application backends.\n- **SQLite**: Self-contained, serverless file-based database ideal for local analysis and embedded applications.\n- **Cloud Warehouses (Snowflake, BigQuery, Redshift)**: Columnar databases designed for petabyte-scale analytics using standard SQL.\n\n---\n\n### 2. Core SQL Data Types for Analytics\n\n```sql\nCREATE TABLE dim_products (\n    product_id          INT PRIMARY KEY,\n    sku                 VARCHAR(50) UNIQUE NOT NULL,\n    product_name        VARCHAR(255) NOT NULL,\n    category            VARCHAR(100) NOT NULL,\n    unit_cost_ksh       NUMERIC(12, 2) NOT NULL,\n    unit_price_ksh      NUMERIC(12, 2) NOT NULL,\n    is_active           BOOLEAN DEFAULT TRUE,\n    created_at          TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP\n);\n```\n\n#### Key Type Guidelines:\n- **NUMERIC(12, 2) / DECIMAL**: Always use for financial and currency values (e.g. Kenya Shillings). Never use `FLOAT` or `REAL` for currency because floating-point rounding errors will corrupt balance sheets!\n- **TIMESTAMP WITH TIME ZONE (TIMESTAMPTZ)**: Stores exact UTC moments in time, automatically converted to local Nairobi time (`EAT`).\n\n---\n\n### 3. Summary & Best Practices\n- Always use `DECIMAL/NUMERIC` for money and currency calculations.\n- Use universal GUI tools like DBeaver to connect seamlessly across Postgres, MySQL, and SQLite.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Choose, install, and configure a universal SQL client (**DBeaver Community** or **pgAdmin**).\n2. Create databases, schemas, and tables using standard DDL statements (`CREATE TABLE`, `DROP TABLE`).\n3. Differentiate between core SQL data types: **INTEGER**, **BIGINT**, **NUMERIC/DECIMAL**, **VARCHAR/TEXT**, **DATE**, **TIMESTAMP**, and **BOOLEAN**.\n4. Ingest raw CSV data into relational tables using PostgreSQL server-side `COPY`, client-side `\\copy` (psql), and DBeaver import tools.\n5. Inspect database metadata using `information_schema` queries.\n\n---\n\n### 1. SQL Dialects & Database Flavors\n\nWhile ANSI SQL defines the core standard, major database engines offer distinct architectures and capabilities:\n- **PostgreSQL**: The world's most advanced open-source object-relational database. Renowned for strict standards compliance, extensible types, JSONB document querying, and robust analytic window functions.\n- **MySQL / MariaDB**: Widely used in web applications, content management systems, and e-commerce platforms.\n- **SQLite**: A lightweight, self-contained, serverless file-based database engine ideal for local analytical sandboxes, mobile apps, and rapid prototyping.\n- **Cloud Data Warehouses (Snowflake, BigQuery, Redshift)**: Columnar distributed databases built for petabyte-scale analytical queries using standard SQL syntax.\n\n---\n\n### 2. Core SQL Data Types for Analytics\n\nWhen designing tables, choosing the correct data type guarantees data integrity, prevents rounding bugs, and optimizes disk storage:\n\n```sql\nCREATE TABLE dim_products (\n    product_id          INT PRIMARY KEY,\n    sku                 VARCHAR(50) UNIQUE NOT NULL,\n    product_name        VARCHAR(255) NOT NULL,\n    category            VARCHAR(100) NOT NULL,\n    unit_cost_ksh       NUMERIC(12, 2) NOT NULL,\n    unit_price_ksh      NUMERIC(12, 2) NOT NULL,\n    is_active           BOOLEAN DEFAULT TRUE,\n    created_at          TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP\n);\n```\n\n#### Critical Data Type Guidelines:\n- **NUMERIC(12, 2) / DECIMAL**: Always use exact fixed-point `NUMERIC` or `DECIMAL` for financial amounts and currency values (e.g. Kenya Shillings). **Never use `FLOAT` or `REAL` for currency!** Floating-point types use approximate binary representations that produce subtle rounding errors (e.g. `0.1 + 0.2 = 0.30000000000000004`), which will corrupt financial ledgers and balance sheets over repeated aggregations.\n- **TIMESTAMP WITH TIME ZONE (`TIMESTAMPTZ`)**: \n  > [!NOTE]\n  > **How PostgreSQL Handles Time Zones**: Despite its name, PostgreSQL does **not** store an explicit time-zone offset or geographical location label (such as `EAT` or `Africa/Nairobi`) alongside the data on disk. Instead, input timestamps with time-zone offsets are converted to and stored as an absolute point in time in UTC. When queried, PostgreSQL converts the stored UTC value and displays it in the time zone configured for the active client session. For example, a session set to `Africa/Nairobi` displays the timestamp at `UTC+3`, while a London session displays it at `UTC+0`, without altering the underlying timestamp data.\n- **VARCHAR(n) vs TEXT**: Use `VARCHAR(n)` when an explicit length constraint is required (e.g. `phone_number VARCHAR(15)` or `sku VARCHAR(50)`). In PostgreSQL, `TEXT` has no performance penalty compared to `VARCHAR` and is ideal for variable-length descriptions and notes.\n- **BOOLEAN**: Stores `TRUE`, `FALSE`, or `NULL` (unknown).\n\n---\n\n### 3. Ingesting Raw CSV Data into Relational Tables\n\nIn production analytics, analysts frequently receive transaction extracts in CSV format. SQL provides both command-line and graphical ingestion pipelines:\n\n#### A. PostgreSQL Server-Side `COPY` Command\nThe SQL `COPY` command is evaluated directly by the PostgreSQL database server process. The file path must reside on the database server filesystem, and the database user must possess server file-read privileges (`pg_read_server_files` or superuser):\n```sql\n-- Executed on PostgreSQL server\nCOPY dim_products (product_id, sku, product_name, category, unit_cost_ksh, unit_price_ksh, is_active, created_at)\nFROM '/var/lib/postgresql/data/products_kenya.csv'\nWITH (FORMAT csv, HEADER true, DELIMITER ',');\n```\n\n#### B. PostgreSQL `psql` Client-Side `\\copy` Command\n> [!IMPORTANT]\n> The backslash `\\copy` command is **specific to PostgreSQL's interactive terminal (`psql`)**. It is a client-side meta-command that reads the CSV file from your local workstation hard drive and streams the records across the network to the PostgreSQL server. It requires only standard table `INSERT` privileges:\n```sql\n-- Executed inside the psql client terminal\n\\copy dim_products FROM 'C:/Data/products_kenya.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',');\n```\n\n#### C. Universal Graphical Ingestion via DBeaver Community\nFor users connecting across different database engines (PostgreSQL, MySQL, SQLite) without command-line access:\n1. In DBeaver, expand your database schema in the Database Navigator tree.\n2. Right-click the target table (e.g. `dim_products`) and choose **Import Data**.\n3. Select **CSV**, browse to your local dataset file, and click **Next**.\n4. Review column mapping (ensuring CSV column headers match target database column names).\n5. Click **Proceed**. DBeaver handles batch inserts and reports completion status!\n\n---\n\n### 4. Inspecting Database Metadata with `information_schema`\n\nStandard SQL provides the `information_schema` view hierarchy, allowing you to inspect database objects, tables, and column configurations programmatically:\n\n```sql\n-- Inspect column names, data types, and nullability for a specific table\nSELECT \n    table_name,\n    column_name,\n    data_type,\n    character_maximum_length,\n    numeric_precision,\n    is_nullable,\n    column_default\nFROM information_schema.columns\nWHERE table_schema = 'public' \n  AND table_name = 'dim_products'\nORDER BY ordinal_position;\n```\n\n---\n\n### 5. Summary & Best Practices\n- Always use universal GUI tools like **DBeaver Community** to manage multiple database engines (PostgreSQL, MySQL, SQLite) through a single unified interface.\n- Standardize financial columns on `NUMERIC(12, 2)` to prevent decimal truncation and floating-point errors.\n- Use client-side `\\copy` in `psql` or DBeaver's Import Wizard when working with local files on your analyst workstation.",
         "challenge": {
           "type": "quiz",
           "title": "Module 2 Checkpoint: SQL Data Types",
@@ -9738,19 +10618,137 @@ export const coursesData = [
         "subtitle": "SELECT DISTINCT, comparison operators, AND/OR/NOT, IN, BETWEEN, LIKE, ILIKE, and NULL checks",
         "readingTime": "22 min",
         "videoLesson": {
-          "title": "Core Querying: SELECT, WHERE, Filtering, Sorting and Operators",
-          "channel": "Alex The Analyst",
-          "duration": "28:41:07",
-          "videoId": "cnjhHZNJEDk",
-          "watchUrl": "https://www.youtube.com/watch?v=cnjhHZNJEDk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
-          "url": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
+          "title": "SQL WHERE Conditions (Visually Explained) | AND, OR, NOT, LIKE, BETWEEN, IN | #SQL Course 7",
+          "channel": "Data with Baraa",
+          "duration": "40:37",
+          "videoId": "cMUJFau5Wvg",
+          "watchUrl": "https://www.youtube.com/watch?v=cMUJFau5Wvg",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/cMUJFau5Wvg",
+          "url": "https://www.youtube-nocookie.com/embed/cMUJFau5Wvg",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
           "alternativeSource": "https://www.postgresql.org/docs/current/queries-select-lists.html",
           "sourceName": "PostgreSQL Documentation — SELECT Lists",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "PostgreSQL Documentation — SELECT Lists",
+              "url": "https://www.postgresql.org/docs/current/queries-select-lists.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — Comparison Functions and Operators",
+              "url": "https://www.postgresql.org/docs/current/functions-comparison.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — Pattern Matching (LIKE & ILIKE)",
+              "url": "https://www.postgresql.org/docs/current/functions-matching.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — Sorting Rows (ORDER BY)",
+              "url": "https://www.postgresql.org/docs/current/queries-order.html"
+            }
+          ],
+          "note": "Core Querying, Filtering, Logical Operators & Sorting: Tab 1 by Data with Baraa (40:37) provides a visual breakdown of WHERE conditions, comparison operators, AND/OR/NOT, BETWEEN, IN, and LIKE pattern matching. Tab 2 by Alex The Analyst (06:13) covers SELECT statements, column aliasing with AS, and SELECT DISTINCT. Tab 3 by Alex The Analyst (07:57) covers hands-on WHERE filtering, inequality operators, and handling missing data with IS NULL. Tab 4 by Thapa Technical (19:35) covers PostgreSQL sorting with ORDER BY, multi-column sorting, and pagination with LIMIT and OFFSET.",
+          "references": [
+            {
+              "id": "ref-where-operators-baraa",
+              "tabLabel": "1. WHERE & Logical Operators",
+              "topic": "Visual Breakdown of SQL WHERE Conditions, Comparison Operators, AND/OR/NOT, BETWEEN, IN, and LIKE",
+              "title": "SQL WHERE Conditions (Visually Explained) | AND, OR, NOT, LIKE, BETWEEN, IN | #SQL Course 7",
+              "channel": "Data with Baraa",
+              "duration": "40:37",
+              "videoId": "cMUJFau5Wvg",
+              "watchUrl": "https://www.youtube.com/watch?v=cMUJFau5Wvg",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/cMUJFau5Wvg",
+              "url": "https://www.youtube-nocookie.com/embed/cMUJFau5Wvg",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-matching.html",
+              "sourceName": "PostgreSQL Documentation — Pattern Matching",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Pattern Matching",
+                  "url": "https://www.postgresql.org/docs/current/functions-matching.html"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Data with Baraa visually breaks down SQL operators: comparison (=, <>, >, <, >=, <=), compound logic with AND, OR, and NOT, range filtering with BETWEEN, list inclusion with IN / NOT IN, and wildcard pattern matching with LIKE."
+            },
+            {
+              "id": "ref-select-distinct-alex",
+              "tabLabel": "2. SELECT & DISTINCT",
+              "topic": "SELECT Column Projection, Aliasing (AS), Expressions & Deduplication with DISTINCT",
+              "title": "SQL Basics Tutorial For Beginners | Select + From Statements | 2/4",
+              "channel": "Alex The Analyst",
+              "duration": "06:13",
+              "videoId": "PyYgERKq25I",
+              "watchUrl": "https://www.youtube.com/watch?v=PyYgERKq25I",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/PyYgERKq25I",
+              "url": "https://www.youtube-nocookie.com/embed/PyYgERKq25I",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-select-lists.html",
+              "sourceName": "PostgreSQL Documentation — SELECT Lists",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — SELECT Lists",
+                  "url": "https://www.postgresql.org/docs/current/queries-select-lists.html"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Alex Freberg explains foundational query building: SELECT *, choosing specific columns, assigning meaningful column aliases with AS, computing mathematical expressions, and eliminating duplicate rows using SELECT DISTINCT."
+            },
+            {
+              "id": "ref-where-null-alex",
+              "tabLabel": "3. Filtering & IS NULL",
+              "topic": "Practical WHERE Clause Filtering, Inequality Checks & NULL Value Handling",
+              "title": "SQL Basics Tutorial For Beginners | Where Statement | 3/4",
+              "channel": "Alex The Analyst",
+              "duration": "07:57",
+              "videoId": "A9TOuDZTPDU",
+              "watchUrl": "https://www.youtube.com/watch?v=A9TOuDZTPDU",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/A9TOuDZTPDU",
+              "url": "https://www.youtube-nocookie.com/embed/A9TOuDZTPDU",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-comparison.html",
+              "sourceName": "PostgreSQL Documentation — Comparison Functions and Operators",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Comparison Functions",
+                  "url": "https://www.postgresql.org/docs/current/functions-comparison.html"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Hands-on practice filtering records in SQL: using =, <>, <, >, <=, >=, combining conditions with AND/OR, list filtering with IN, and correctly handling missing data using IS NULL and IS NOT NULL."
+            },
+            {
+              "id": "ref-sorting-order-by-thapa",
+              "tabLabel": "4. ORDER BY & LIMIT",
+              "topic": "PostgreSQL Result Sorting, Multi-Column ORDER BY & Row Limiting with LIMIT",
+              "title": "Learn PostgreSQL Sorting & Pagination in One Video | ORDER BY + LIMIT + OFFSET",
+              "channel": "Thapa Technical",
+              "duration": "19:35",
+              "videoId": "gVmuTTKURAc",
+              "watchUrl": "https://www.youtube.com/watch?v=gVmuTTKURAc",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/gVmuTTKURAc",
+              "url": "https://www.youtube-nocookie.com/embed/gVmuTTKURAc",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-order.html",
+              "sourceName": "PostgreSQL Documentation — Sorting Rows (ORDER BY)",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Sorting Rows",
+                  "url": "https://www.postgresql.org/docs/current/queries-order.html"
+                },
+                {
+                  "name": "PostgreSQL Documentation — LIMIT and OFFSET",
+                  "url": "https://www.postgresql.org/docs/current/queries-limit.html"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): In-depth walkthrough of sorting and pagination in PostgreSQL: sorting with ORDER BY in ASC and DESC order, handling multi-column sorting precedence, and restricting row counts using LIMIT and OFFSET."
+            }
+          ]
         },
         "summary": "Write clean, high-performance filtering queries. Master column projection, distinct value extraction, pattern matching with LIKE/ILIKE, range filtering with BETWEEN, list filtering with IN, and robust NULL handling with IS NULL.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Write structured `SELECT` statements with column aliasing (`AS`) and mathematical expressions.\n2. Deduplicate category and customer lists using `SELECT DISTINCT`.\n3. Filter rows with precision using comparison operators (`=`, `!=`, `<>`, `>`, `<`, `>=`, `<=`).\n4. Chain compound boolean conditions using `AND`, `OR`, and parentheses to control operator precedence.\n5. Search text patterns using `LIKE`, `ILIKE` (case-insensitive in PostgreSQL), and wildcards (`%`, `_`).\n6. Filter ranges and sets using `BETWEEN ... AND ...` and `IN (...)`.\n7. Handle missing values correctly using `IS NULL` and `IS NOT NULL` (avoiding `= NULL` bugs).\n\n---\n\n### 1. Basic Projection & Mathematical Computed Columns\n\n```sql\nSELECT \n    order_id,\n    customer_id,\n    quantity,\n    unit_price_ksh,\n    discount_ksh,\n    (quantity * unit_price_ksh) - discount_ksh AS line_net_total_ksh\nFROM sales_transactions\nORDER BY line_net_total_ksh DESC\nLIMIT 10;\n```\n\n---\n\n### 2. Precision Filtering with WHERE & Logical Operators\n\n#### A. Set Matching with IN and Range Matching with BETWEEN\n```sql\n-- Find all sales from major Kenyan logistics hubs in Q1 2026\nSELECT transaction_id, branch_name, total_ksh, transaction_date\nFROM branch_sales\nWHERE branch_name IN ('Nairobi HQ', 'Mombasa Port', 'Kisumu Hub')\n  AND transaction_date BETWEEN '2026-01-01' AND '2026-03-31';\n```\n\n#### B. Text Pattern Matching with Wildcards\n- `%` matches any sequence of zero or more characters.\n- `_` matches exactly one character.\n\n```sql\n-- Case-insensitive search for all customers with M-Pesa phone numbers\nSELECT customer_id, full_name, phone_number\nFROM customers\nWHERE phone_number LIKE '2547%' \n   OR phone_number LIKE '07%';\n```\n\n#### C. The Three-Valued Logic Bug: IS NULL vs = NULL\nIn SQL, `NULL` represents unknown/missing data. **Nothing equals NULL, not even NULL itself!**\n```sql\n-- WRONG (Always returns 0 rows!):\nSELECT * FROM orders WHERE payment_reference = NULL;\n\n-- CORRECT:\nSELECT * FROM orders WHERE payment_reference IS NULL;\n```\n\n---\n\n### 3. Summary & Best Practices\n- Always use parentheses when mixing `AND` and `OR` to prevent unintended logic evaluation.\n- Always check for missing data using `IS NULL` or `IS NOT NULL`.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Write structured `SELECT` statements with column aliasing (`AS`) and mathematical expressions.\n2. Deduplicate category and customer lists using `SELECT DISTINCT`.\n3. Filter rows with precision using comparison operators (`=`, `!=`, `<>`, `>`, `<`, `>=`, `<=`).\n4. Chain compound boolean conditions using `AND`, `OR`, and parentheses to control operator precedence.\n5. Search text patterns using `LIKE`, `ILIKE` (case-insensitive in PostgreSQL), and wildcards (`%`, `_`).\n6. Filter ranges and sets using `BETWEEN ... AND ...` and `IN (...)`.\n7. Handle missing values correctly using `IS NULL` and `IS NOT NULL` (avoiding `= NULL` bugs).\n8. Sort query results using `ORDER BY` (ASC/DESC) and constrain output volume using `LIMIT`.\n\n---\n\n### 1. Basic Projection, Mathematical Computed Columns & Deduplication\n\n```sql\n-- Project specific columns, calculate computed financial metrics, and assign clear aliases\nSELECT \n    order_id,\n    customer_id,\n    quantity,\n    unit_price_ksh,\n    discount_ksh,\n    (quantity * unit_price_ksh) - discount_ksh AS line_net_total_ksh\nFROM sales_transactions\nORDER BY line_net_total_ksh DESC\nLIMIT 10;\n\n-- Deduplicate lists: Extract unique customer regions and payment channels\nSELECT DISTINCT \n    delivery_county, \n    payment_method\nFROM sales_transactions;\n```\n\n---\n\n### 2. Precision Filtering with WHERE & Logical Operators\n\n#### A. Comparison Operators\nSQL provides standard comparison operators for numbers, strings, and dates:\n- `=` (Equal to)\n- `<>` or `!=` (Not equal to; `<>` is standard ISO SQL)\n- `>` (Greater than), `<` (Less than)\n- `>=` (Greater than or equal to), `<=` (Less than or equal to)\n\n#### B. Compound Boolean Conditions & Operator Precedence (AND / OR / NOT)\n> [!IMPORTANT]\n> **Operator Precedence**: In SQL, `AND` has higher precedence than `OR`! When mixing `AND` and `OR` in a single query, always use **parentheses `()`** to make the evaluation order explicit and prevent accidental logic bugs.\n\n```sql\n-- CORRECT: Parentheses ensure the regional filter applies to both Delivered and In Transit orders\nSELECT transaction_id, customer_name, status, delivery_region, total_ksh\nFROM customer_orders\nWHERE (status = 'Delivered' OR status = 'In Transit')\n  AND delivery_region = 'Nairobi County';\n\n-- WARNING: Without parentheses, AND binds tighter than OR:\n-- Evaluates as: status = 'Delivered' OR (status = 'In Transit' AND delivery_region = 'Nairobi County')\n-- Returns ALL 'Delivered' orders from anywhere in Kenya (Mombasa, Kisumu, Nakuru), corrupting your analysis!\n```\n\n#### C. Set Matching with IN and Range Matching with BETWEEN\n```sql\n-- Find all sales from major Kenyan logistics hubs in Q1 2026\nSELECT transaction_id, branch_name, total_ksh, transaction_date\nFROM branch_sales\nWHERE branch_name IN ('Nairobi HQ', 'Mombasa Port', 'Kisumu Hub')\n  AND transaction_date BETWEEN '2026-01-01' AND '2026-03-31';\n```\n\n#### D. Text Pattern Matching with Wildcards (LIKE & ILIKE)\nSQL provides flexible pattern matching using wildcard characters:\n- `%` matches **zero or more** characters.\n- `_` matches **exactly one** character.\n\n> [!NOTE]\n> **PostgreSQL-Specific `ILIKE`**: Standard SQL `LIKE` is strictly case-sensitive. PostgreSQL provides the powerful, native extension **`ILIKE`** for case-insensitive pattern matching. In other database dialects (such as MySQL or SQL Server), case-sensitivity is determined by collation or explicit functions like `LOWER(column) LIKE LOWER(pattern)`.\n\n```sql\n-- Standard SQL LIKE (Case-sensitive):\n-- Matches phone numbers starting with Kenyan country code 2547 or local 07\nSELECT customer_id, full_name, phone_number\nFROM customers\nWHERE phone_number LIKE '2547%' \n   OR phone_number LIKE '07%';\n\n-- PostgreSQL ILIKE (Case-insensitive):\n-- Matches 'safari', 'Safari', 'SAFARI' anywhere in product description\nSELECT product_id, product_name, category\nFROM dim_products\nWHERE product_name ILIKE '%safari%'\n  AND product_code LIKE 'KE_'; -- Matches 'KE' followed by exactly one character (e.g. KE1, KEA)\n```\n\n#### E. The Three-Valued Logic Bug: IS NULL vs = NULL\nIn SQL, `NULL` represents unknown or missing data. Under SQL's three-valued logic (`TRUE`, `FALSE`, `UNKNOWN`), **nothing equals NULL, not even NULL itself!** Comparing anything to `NULL` with `=` produces `UNKNOWN`, which evaluates to false in `WHERE` clauses.\n\n```sql\n-- WRONG (Always returns 0 rows!):\nSELECT * FROM orders WHERE payment_reference = NULL;\n\n-- CORRECT (Checks for missing values):\nSELECT * FROM orders WHERE payment_reference IS NULL;\n\n-- Find orders where payment is completed:\nSELECT * FROM orders WHERE payment_reference IS NOT NULL;\n```\n\n---\n\n### 3. Sorting and Restricting Results (ORDER BY & LIMIT)\n- **`ORDER BY`**: Sorts rows by one or more columns in ascending (`ASC`, default) or descending (`DESC`) order.\n- **`LIMIT`**: Constrains the maximum number of rows returned, preventing memory exhaustion when inspecting massive datasets.\n\n```sql\n-- Top 5 highest-value completed transactions sorted by amount descending, then by date ascending\nSELECT transaction_id, customer_name, total_ksh, transaction_date\nFROM customer_orders\nWHERE status = 'Completed'\nORDER BY total_ksh DESC, transaction_date ASC\nLIMIT 5;\n```\n\n---\n\n### 4. Summary & Best Practices\n- Explicitly select columns rather than relying on `SELECT *` in production queries.\n- Use `SELECT DISTINCT` to deduplicate categorical lookups.\n- Always wrap mixed `AND` / `OR` conditions in parentheses to enforce intended logic.\n- Use `IS NULL` and `IS NOT NULL` to test for missing values; never use `= NULL`.\n- In PostgreSQL, use `ILIKE` for case-insensitive text searches, and remember `%` (zero or more) vs `_` (exactly one character).\n- Use `ORDER BY` and `LIMIT` to sort and restrict your analytical extracts.",
         "challenge": {
           "type": "quiz",
           "title": "Module 3 Checkpoint: Filtering & Logical Operators",
@@ -9778,19 +10776,125 @@ export const coursesData = [
         "subtitle": "COUNT, SUM, AVG, MIN, MAX, multi-column GROUP BY, and WHERE vs HAVING filtering",
         "readingTime": "24 min",
         "videoLesson": {
-          "title": "Data Aggregations and Grouping: GROUP BY, HAVING & Summary Metrics",
-          "channel": "Alex The Analyst",
-          "duration": "28:41:07",
-          "videoId": "cnjhHZNJEDk",
-          "watchUrl": "https://www.youtube.com/watch?v=cnjhHZNJEDk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
-          "url": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
+          "title": "SQL GROUP BY Clause - SQL Tutorial #29",
+          "channel": "Data with Baraa",
+          "duration": "08:49",
+          "videoId": "Y4GH8oNPTjY",
+          "watchUrl": "https://www.youtube.com/watch?v=Y4GH8oNPTjY",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/Y4GH8oNPTjY",
+          "url": "https://www.youtube-nocookie.com/embed/Y4GH8oNPTjY",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
           "alternativeSource": "https://www.postgresql.org/docs/current/functions-aggregate.html",
           "sourceName": "PostgreSQL Documentation — Aggregate Functions",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "PostgreSQL Documentation — Aggregate Functions",
+              "url": "https://www.postgresql.org/docs/current/functions-aggregate.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — GROUP BY and HAVING Clauses",
+              "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUP"
+            }
+          ],
+          "note": "Data Aggregations, Grouping & HAVING: Tab 1 by Data with Baraa (08:49) demonstrates the fundamentals of the GROUP BY clause, how database engines process groups, and the non-aggregated column rule. Tab 2 by Data with Baraa (06:37) breaks down core aggregate functions (COUNT, SUM, AVG, MIN, MAX), distinct counts, and null value behavior. Tab 3 by Data with Baraa (06:08) clarifies the operational difference between WHERE (pre-group row filtering) and HAVING (post-group aggregate filtering). Tab 4 by Alex The Analyst (08:08) provides a hands-on database walkthrough grouping records across multiple dimensions and ordering summary metrics.",
+          "references": [
+            {
+              "id": "ref-groupby-foundations-baraa",
+              "tabLabel": "1. GROUP BY Foundations",
+              "topic": "SQL GROUP BY Foundations: Grouping Logic, Logical Execution Order & Non-Aggregated Columns Rule",
+              "title": "SQL GROUP BY Clause - SQL Tutorial #29",
+              "channel": "Data with Baraa",
+              "duration": "08:49",
+              "videoId": "Y4GH8oNPTjY",
+              "watchUrl": "https://www.youtube.com/watch?v=Y4GH8oNPTjY",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Y4GH8oNPTjY",
+              "url": "https://www.youtube-nocookie.com/embed/Y4GH8oNPTjY",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUP",
+              "sourceName": "PostgreSQL Documentation — GROUP BY Clause",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — GROUP BY and HAVING",
+                  "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUP"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Data with Baraa explains how the database executes GROUP BY queries, collapses multiple rows into single summary records per group, and enforces the rule that non-aggregated SELECT columns must appear in GROUP BY."
+            },
+            {
+              "id": "ref-aggregate-functions-baraa",
+              "tabLabel": "2. Aggregate Functions & NULLs",
+              "topic": "SQL Aggregate Functions: COUNT(*), COUNT(col), COUNT(DISTINCT), SUM, AVG, MIN, MAX & NULL Handling",
+              "title": "SQL Aggregate Functions | COUNT, SUM, AVG, MAX, MIN  | #SQL Course 21",
+              "channel": "Data with Baraa",
+              "duration": "06:37",
+              "videoId": "AsuPVZ_EjEw",
+              "watchUrl": "https://www.youtube.com/watch?v=AsuPVZ_EjEw",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/AsuPVZ_EjEw",
+              "url": "https://www.youtube-nocookie.com/embed/AsuPVZ_EjEw",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-aggregate.html",
+              "sourceName": "PostgreSQL Documentation — Aggregate Functions",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Aggregate Functions",
+                  "url": "https://www.postgresql.org/docs/current/functions-aggregate.html"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Visual breakdown of core SQL summary functions. Explains why COUNT(*) counts physical rows while COUNT(col) and AVG(col) omit NULL values, and demonstrates COUNT(DISTINCT col) for unique metric counting."
+            },
+            {
+              "id": "ref-having-vs-where-baraa",
+              "tabLabel": "3. HAVING vs WHERE",
+              "topic": "Filtering Aggregated Groups with HAVING vs Filtering Raw Rows with WHERE",
+              "title": "SQL HAVING Clause - SQL Tutorial #30",
+              "channel": "Data with Baraa",
+              "duration": "06:08",
+              "videoId": "O9hORRFxV-A",
+              "watchUrl": "https://www.youtube.com/watch?v=O9hORRFxV-A",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/O9hORRFxV-A",
+              "url": "https://www.youtube-nocookie.com/embed/O9hORRFxV-A",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUP",
+              "sourceName": "PostgreSQL Documentation — HAVING Clause",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — HAVING Clause",
+                  "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUP"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Clarifies why WHERE cannot filter aggregate functions and why HAVING evaluates strictly after GROUP BY has synthesized group summaries, using real-world step-by-step query pipelines."
+            },
+            {
+              "id": "ref-groupby-orderby-alex",
+              "tabLabel": "4. Practical Grouping & Sorting",
+              "topic": "Hands-On Grouping Walkthrough: Multi-Column Grouping, Summary Metrics & Result Sorting",
+              "title": "SQL Basics Tutorial For Beginners | Group By + Order By Statements | 4/4",
+              "channel": "Alex The Analyst",
+              "duration": "08:08",
+              "videoId": "LXwfzIRD-Ds",
+              "watchUrl": "https://www.youtube.com/watch?v=LXwfzIRD-Ds",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/LXwfzIRD-Ds",
+              "url": "https://www.youtube-nocookie.com/embed/LXwfzIRD-Ds",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-order.html",
+              "sourceName": "PostgreSQL Documentation — Sorting Rows",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Sorting Rows",
+                  "url": "https://www.postgresql.org/docs/current/queries-order.html"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Alex Freberg demonstrates practical execution in SQL: slicing employee tables across multiple dimensions (gender, age), computing AVG, MIN, and MAX, and sorting the aggregated output using ORDER BY."
+            }
+          ]
         },
         "summary": "Transform millions of row-level transactions into actionable executive summary metrics. Master aggregate functions, multi-column GROUP BY grouping, and the vital operational difference between WHERE and HAVING.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Compute core summary statistics using **`COUNT(*)`**, **`COUNT(column)`**, **`COUNT(DISTINCT column)`**, **`SUM`**, **`AVG`**, **`MIN`**, and **`MAX`**.\n2. Group records across single and multi-column dimensions with **`GROUP BY`**.\n3. Understand the strict SQL rule: *Every non-aggregated column in the SELECT list must appear in the GROUP BY clause*.\n4. Articulate the difference between **`WHERE`** (pre-aggregation row filtering) and **`HAVING`** (post-aggregation group filtering).\n5. Handle NULLs properly in aggregate functions (e.g. `AVG` ignores NULL rows).\n\n---\n\n### 1. The 5 Core Aggregate Functions\n\n```sql\nSELECT \n    COUNT(*) AS total_transactions_count,\n    COUNT(DISTINCT customer_id) AS unique_purchasing_customers,\n    SUM(total_amount_ksh) AS gross_revenue_ksh,\n    AVG(total_amount_ksh) AS average_basket_size_ksh,\n    MIN(total_amount_ksh) AS smallest_order_ksh,\n    MAX(total_amount_ksh) AS largest_order_ksh\nFROM sales_transactions;\n```\n\n> **Important Difference**: `COUNT(*)` counts all physical rows (including rows with nulls), whereas `COUNT(column_name)` only counts rows where `column_name` is not null!\n\n---\n\n### 2. Multi-Dimensional GROUP BY\n\nAnalyze sales performance sliced simultaneously by Region and Payment Method:\n\n```sql\nSELECT \n    region,\n    payment_method,\n    COUNT(*) AS total_orders,\n    SUM(amount_ksh) AS total_revenue_ksh,\n    ROUND(AVG(amount_ksh), 2) AS avg_order_value_ksh\nFROM commercial_orders\nGROUP BY region, payment_method\nORDER BY region ASC, total_revenue_ksh DESC;\n```\n\n---\n\n### 3. WHERE vs HAVING: The Critical Distinction\n\n```\n+-------------------------------------------------------------------------------+\n|                       WHERE vs HAVING IN SQL EXECUTION                        |\n+-------------------------------------------------------------------------------+\n| WHERE Filter (Evaluates FIRST)                                                |\n| - Filters individual raw rows BEFORE aggregation happens                      |\n| - Cannot contain aggregate functions (e.g., cannot do WHERE SUM(x) > 100)     |\n|                                                                               |\n| GROUP BY (Aggregates surviving rows into buckets)                             |\n|                                                                               |\n| HAVING Filter (Evaluates AFTER GROUP BY)                                      |\n| - Filters summary group buckets based on aggregate results                    |\n| - Can contain aggregate conditions (e.g. HAVING SUM(amount) > 1,000,000)      |\n+-------------------------------------------------------------------------------+\n```\n\n**Real-World Example**: Find high-value branches in Nairobi that generated over KSh 5,000,000 in completed sales:\n\n```sql\nSELECT \n    branch_name,\n    COUNT(*) AS completed_sales_count,\n    SUM(amount_ksh) AS total_branch_revenue_ksh\nFROM store_transactions\nWHERE status = 'Completed' AND county = 'Nairobi'   -- Filters raw rows FIRST\nGROUP BY branch_name\nHAVING SUM(amount_ksh) >= 5000000                   -- Filters aggregated groups AFTER\nORDER BY total_branch_revenue_ksh DESC;\n```\n\n---\n\n### 4. Summary & Best Practices\n- Filter as early as possible using `WHERE` to minimize memory usage before `GROUP BY` executes.\n- Use `HAVING` exclusively when filtering by an aggregate threshold (`COUNT`, `SUM`, `AVG`).",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Compute core summary statistics using **`COUNT(*)`**, **`COUNT(column)`**, **`COUNT(DISTINCT column)`**, **`SUM`**, **`AVG`**, **`MIN`**, and **`MAX`**.\n2. Group records across single and multi-column dimensions with **`GROUP BY`**.\n3. Understand the strict SQL rule: *Every non-aggregated column in the SELECT list must appear in the GROUP BY clause*, including database-specific functional dependency exceptions.\n4. Articulate the difference between **`WHERE`** (pre-aggregation row filtering) and **`HAVING`** (post-aggregation group filtering).\n5. Handle NULLs properly in aggregate functions (e.g. `COUNT(column)` and `AVG(column)` ignore NULLs, whereas `COUNT(*)` counts all rows).\n\n---\n\n### 1. The Core Aggregate Functions & NULL Value Handling\n\nSQL aggregate functions process multiple input values and summarize them into a single metric. Crucially, each function follows specific rules regarding missing values (`NULL`):\n\n```sql\nSELECT \n    COUNT(*) AS total_physical_rows,\n    COUNT(payment_reference) AS completed_payments_count,\n    COUNT(DISTINCT customer_id) AS unique_purchasing_customers,\n    SUM(total_amount_ksh) AS gross_revenue_ksh,\n    AVG(total_amount_ksh) AS average_basket_size_ksh,\n    MIN(total_amount_ksh) AS smallest_order_ksh,\n    MAX(total_amount_ksh) AS largest_order_ksh\nFROM sales_transactions;\n```\n\n#### Critical NULL Value Handling Rules:\n- **`COUNT(*)`**: Counts all physical rows that satisfy the query conditions, regardless of whether any or all columns contain `NULL`.\n- **`COUNT(column)`**: Counts only rows where the specified column is **NOT NULL**. If an order has a `NULL` in `payment_reference`, `COUNT(payment_reference)` excludes that row from the count.\n- **`COUNT(DISTINCT column)`**: Counts the number of unique, non-NULL values. If a column contains `['M-Pesa', 'M-Pesa', NULL, 'Card']`, `COUNT(DISTINCT payment_method)` returns `2`.\n- **`SUM(column)`**: Adds all non-NULL numerical values. If all rows in a group contain `NULL`, `SUM` evaluates to `NULL` (not `0`).\n- **`AVG(column)`**: Computes `SUM(column) / COUNT(column)`. **It strictly ignores NULL values.** It does *not* divide by `COUNT(*)`.\n  > [!NOTE]\n  > **Analyst Caution on `AVG`**: Because `AVG` ignores `NULL` values instead of treating them as zero, an employee bonus column with values `[10000, NULL, NULL, 20000]` has an `AVG` of `15,000` (calculated as `30,000 / 2`), NOT `7,500`! If you need unawarded bonuses to count as zero in the average, you must write `AVG(COALESCE(bonus_ksh, 0))`.\n- **`MIN(column)` / `MAX(column)`**: Evaluate the lowest and highest non-NULL values in the group.\n\n---\n\n### 2. Multi-Dimensional GROUP BY & The Non-Aggregated Columns Rule\n\nWhen summarizing data across categories, the `GROUP BY` clause partitions table rows into separate buckets before applying aggregate functions.\n\n#### The Golden Rule of GROUP BY:\n> [!IMPORTANT]\n> **Every non-aggregated column in the `SELECT` list MUST appear in the `GROUP BY` clause!**  \n> If you write `SELECT region, branch_name, SUM(amount) FROM sales GROUP BY region;`, standard SQL engines throw an error. Why? Because a single region contains multiple branches; without grouping by `branch_name` or applying an aggregate (such as `STRING_AGG`), the database cannot decide which branch name to display for the summary row.\n\n*Functional Dependency Exception*: Modern PostgreSQL (version 9.1+) and SQL standard ISO/IEC 9075 allow omitting columns from `GROUP BY` *if* the query groups by the table's primary key (e.g. grouping by `customer_id` guarantees that `customer_name` and `email` are functionally dependent and unambiguous). However, including all non-aggregated columns remains the universal best practice for cross-database portability.\n\n#### Multi-Column Grouping Example:\nAnalyze retail sales sliced simultaneously by Region and Payment Method across Kenyan commerce hubs:\n\n```sql\nSELECT \n    region,\n    payment_method,\n    COUNT(*) AS total_orders,\n    COUNT(DISTINCT customer_id) AS unique_shoppers,\n    SUM(amount_ksh) AS total_revenue_ksh,\n    ROUND(AVG(amount_ksh), 2) AS avg_order_value_ksh\nFROM commercial_orders\nGROUP BY region, payment_method\nORDER BY region ASC, total_revenue_ksh DESC;\n```\n\n---\n\n### 3. WHERE vs HAVING: The Critical Distinction\n\nUnderstanding the operational boundary between `WHERE` and `HAVING` is essential for query accuracy and database query optimizer performance:\n\n```\n+-------------------------------------------------------------------------------+\n|                       WHERE vs HAVING IN SQL EXECUTION                        |\n+-------------------------------------------------------------------------------+\n| 1. WHERE Filter (Evaluates FIRST, before grouping)                            |\n| - Filters individual raw rows directly from source tables                     |\n| - Cannot contain aggregate functions (e.g., WHERE SUM(amount) > 100 fails!)   |\n| - Dramatically optimizes query performance by reducing rows prior to grouping |\n|                                                                               |\n| 2. GROUP BY (Partitions surviving rows into dimension buckets)                |\n| - Computes aggregate metrics (COUNT, SUM, AVG, MIN, MAX) for each bucket      |\n|                                                                               |\n| 3. HAVING Filter (Evaluates AFTER GROUP BY)                                   |\n| - Filters summary group buckets based on aggregated calculation results       |\n| - Can contain aggregate conditions (e.g. HAVING SUM(amount) > 5,000,000)      |\n+-------------------------------------------------------------------------------+\n```\n\n#### Real-World Example:\nFind high-performing branches in Nairobi County that generated at least KSh 5,000,000 in completed sales:\n\n```sql\nSELECT \n    branch_name,\n    COUNT(*) AS completed_sales_count,\n    SUM(amount_ksh) AS total_branch_revenue_ksh,\n    ROUND(AVG(amount_ksh), 2) AS average_ticket_size_ksh\nFROM store_transactions\nWHERE status = 'Completed' \n  AND county = 'Nairobi'                            -- Step 1: Filters raw rows FIRST\nGROUP BY branch_name                                -- Step 2: Groups surviving rows\nHAVING SUM(amount_ksh) >= 5000000                   -- Step 3: Filters aggregated groups AFTER\nORDER BY total_branch_revenue_ksh DESC;             -- Step 4: Sorts final results\n```\n\n---\n\n### 4. Summary & Best Practices\n- Use `COUNT(*)` to count total rows and `COUNT(column)` when you need to exclude missing records.\n- Remember that `AVG` omits `NULL` rows; use `COALESCE(col, 0)` if missing values should count as zeros.\n- Ensure every non-aggregated column in your `SELECT` projection is explicitly declared in `GROUP BY`.\n- Filter as early as possible using `WHERE` to minimize memory usage before `GROUP BY` executes; reserve `HAVING` strictly for aggregate threshold filtering.",
         "challenge": {
           "type": "quiz",
           "title": "Module 4 Checkpoint: GROUP BY & HAVING",
@@ -9858,19 +10962,129 @@ export const coursesData = [
         "subtitle": "CASE WHEN conditionals, pivoting with conditional sums, COALESCE fallback handling, and type casting",
         "readingTime": "22 min",
         "videoLesson": {
-          "title": "Intermediate SQL: Updating/Deleting Data, CASE WHEN & Casting",
-          "channel": "Alex The Analyst",
-          "duration": "04:37",
-          "videoId": "bhnrIforc7s",
-          "watchUrl": "https://www.youtube.com/watch?v=bhnrIforc7s",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/bhnrIforc7s",
-          "url": "https://www.youtube-nocookie.com/embed/bhnrIforc7s",
+          "title": "SQL CASE WHEN Statement (Visually Explained) | #SQL Course 20",
+          "channel": "Data with Baraa",
+          "duration": "36:18",
+          "videoId": "GHPHZ8XJxeg",
+          "watchUrl": "https://www.youtube.com/watch?v=GHPHZ8XJxeg",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/GHPHZ8XJxeg",
+          "url": "https://www.youtube-nocookie.com/embed/GHPHZ8XJxeg",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
           "alternativeSource": "https://www.postgresql.org/docs/current/functions-conditional.html",
           "sourceName": "PostgreSQL Documentation — Conditional Expressions (CASE)",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "PostgreSQL Documentation — Conditional Expressions (CASE)",
+              "url": "https://www.postgresql.org/docs/current/functions-conditional.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — COALESCE and NULLIF",
+              "url": "https://www.postgresql.org/docs/current/functions-conditional.html#FUNCTIONS-COALESCE-NVL-IFNULL"
+            },
+            {
+              "name": "PostgreSQL Documentation — Type Casts",
+              "url": "https://www.postgresql.org/docs/current/sql-expressions.html#SQL-SYNTAX-TYPE-CASTS"
+            }
+          ],
+          "note": "Conditional Logic, Data Transformation & Fallbacks: Tab 1 by Data with Baraa (36:18) demonstrates CASE WHEN conditional branching, Searched vs Simple syntax, custom categorization, and conditional aggregation pivoting. Tab 2 by Alex The Analyst (07:25) walks through practical database implementation of CASE statements and conditional calculations. Tab 3 by Data with Baraa (52:59) covers NULL handling with COALESCE and preventing division-by-zero crashes with NULLIF. Tab 4 by TSInfo Technologies (03:42) demonstrates PostgreSQL data type conversion using CAST and the :: type casting shorthand.",
+          "references": [
+            {
+              "id": "ref-case-when-baraa",
+              "tabLabel": "1. CASE WHEN & Pivoting",
+              "topic": "SQL CASE WHEN Conditionals, Categorization, Simple vs Searched Syntax & Conditional Aggregation",
+              "title": "SQL CASE WHEN Statement (Visually Explained) | #SQL Course 20",
+              "channel": "Data with Baraa",
+              "duration": "36:18",
+              "videoId": "GHPHZ8XJxeg",
+              "watchUrl": "https://www.youtube.com/watch?v=GHPHZ8XJxeg",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/GHPHZ8XJxeg",
+              "url": "https://www.youtube-nocookie.com/embed/GHPHZ8XJxeg",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-conditional.html",
+              "sourceName": "PostgreSQL Documentation — Conditional Expressions (CASE)",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Conditional Expressions (CASE)",
+                  "url": "https://www.postgresql.org/docs/current/functions-conditional.html"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Data with Baraa visually explains how CASE WHEN statements evaluate conditional logic, authoring Searched CASE expressions for numeric tiering, Simple CASE for value mapping, and conditional aggregation pivoting."
+            },
+            {
+              "id": "ref-case-alex",
+              "tabLabel": "2. Practical Case Statements",
+              "topic": "Hands-On CASE Statements: Categorization, Tiering & Conditional Calculations",
+              "title": "Intermediate SQL Tutorial | Case Statement | Use Cases",
+              "channel": "Alex The Analyst",
+              "duration": "07:25",
+              "videoId": "Twusw__OzA8",
+              "watchUrl": "https://www.youtube.com/watch?v=Twusw__OzA8",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Twusw__OzA8",
+              "url": "https://www.youtube-nocookie.com/embed/Twusw__OzA8",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-conditional.html",
+              "sourceName": "PostgreSQL Documentation — Conditional Expressions",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Conditional Expressions",
+                  "url": "https://www.postgresql.org/docs/current/functions-conditional.html"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Alex Freberg demonstrates practical execution in SQL: using CASE statements to categorize employee records into age and salary tiers, calculate conditional bonuses, and format output columns."
+            },
+            {
+              "id": "ref-coalesce-nullif-baraa",
+              "tabLabel": "3. COALESCE & NULLIF",
+              "topic": "Handling Missing Values with COALESCE & Preventing Division by Zero with NULLIF",
+              "title": "SQL NULL Functions | COALESCE, ISNULL, NULLIF, IS (NOT) NULL | #SQL Course 18",
+              "channel": "Data with Baraa",
+              "duration": "52:59",
+              "videoId": "X_cPXHV2NQ4",
+              "watchUrl": "https://www.youtube.com/watch?v=X_cPXHV2NQ4",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/X_cPXHV2NQ4",
+              "url": "https://www.youtube-nocookie.com/embed/X_cPXHV2NQ4",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-conditional.html#FUNCTIONS-COALESCE-NVL-IFNULL",
+              "sourceName": "PostgreSQL Documentation — COALESCE",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — COALESCE and NULLIF",
+                  "url": "https://www.postgresql.org/docs/current/functions-conditional.html#FUNCTIONS-COALESCE-NVL-IFNULL"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): In-depth visual guide on handling missing data with COALESCE, comparing COALESCE against ISNULL, and leveraging NULLIF to safely prevent division-by-zero crashes in financial queries."
+            },
+            {
+              "id": "ref-cast-postgres-tsinfo",
+              "tabLabel": "4. Type Casting (CAST & ::)",
+              "topic": "Data Type Conversions in PostgreSQL: CAST(expression AS type) and :: Type Shorthand",
+              "title": "How to use cast() function in Postgresql | PostgreSQL Cast",
+              "channel": "TSInfo Technologies",
+              "duration": "03:42",
+              "videoId": "h7r6-B9z44k",
+              "watchUrl": "https://www.youtube.com/watch?v=h7r6-B9z44k",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/h7r6-B9z44k",
+              "url": "https://www.youtube-nocookie.com/embed/h7r6-B9z44k",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/sql-expressions.html#SQL-SYNTAX-TYPE-CASTS",
+              "sourceName": "PostgreSQL Documentation — Type Casts",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Type Casts",
+                  "url": "https://www.postgresql.org/docs/current/sql-expressions.html#SQL-SYNTAX-TYPE-CASTS"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Practical walkthrough demonstrating data type conversion in PostgreSQL using both ANSI CAST(column AS type) and the native double-colon (::type) shorthand notation."
+            }
+          ]
         },
         "summary": "Implement robust business logic directly inside SQL queries. Master CASE WHEN branching, multi-level customer tiering, conditional aggregation pivoting, COALESCE default fallbacks, and explicit type conversion with CAST.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Author **`CASE WHEN ... THEN ... ELSE ... END`** expressions for custom categorization and tiering.\n2. Perform **Conditional Aggregation** (pivoting rows to columns using `SUM(CASE WHEN ...)`).\n3. Replace NULL values with sensible defaults using **`COALESCE(val1, val2, default)`**.\n4. Convert data types safely using **`CAST(column AS type)`** or PostgreSQL shorthand (`::type`).\n5. Prevent division-by-zero database errors using **`NULLIF(divisor, 0)`**.\n\n---\n\n### 1. Categorization with CASE WHEN\n\n```sql\nSELECT \n    customer_id,\n    full_name,\n    lifetime_spend_ksh,\n    CASE \n        WHEN lifetime_spend_ksh >= 500000 THEN 'Tier 1: VIP Platinum'\n        WHEN lifetime_spend_ksh >= 150000 THEN 'Tier 2: Gold'\n        WHEN lifetime_spend_ksh >= 30000  THEN 'Tier 3: Silver'\n        ELSE 'Tier 4: Standard Retail'\n    END AS customer_loyalty_segment\nFROM customers;\n```\n\n---\n\n### 2. Power Technique: Conditional Aggregation (Pivoting in SQL)\n\nTransform transactional payment channel rows into clean horizontal summary columns:\n\n```sql\nSELECT \n    DATE_TRUNC('month', transaction_date)::DATE AS sales_month,\n    COUNT(*) AS total_transactions,\n    -- Conditional Sums\n    SUM(CASE WHEN payment_channel = 'M-Pesa' THEN amount_ksh ELSE 0 END) AS mpesa_revenue_ksh,\n    SUM(CASE WHEN payment_channel = 'Card'   THEN amount_ksh ELSE 0 END) AS card_revenue_ksh,\n    SUM(CASE WHEN payment_channel = 'EFT'    THEN amount_ksh ELSE 0 END) AS eft_revenue_ksh,\n    SUM(amount_ksh) AS total_gross_revenue_ksh\nFROM sales_ledger\nGROUP BY DATE_TRUNC('month', transaction_date)\nORDER BY sales_month ASC;\n```\n\n---\n\n### 3. COALESCE & NULLIF\n\n#### A. COALESCE (First Non-Null Fallback)\n```sql\n-- Display customer business name if available, otherwise personal name, otherwise 'Anonymous'\nSELECT \n    COALESCE(company_name, full_name, 'Anonymous Customer') AS display_name,\n    COALESCE(alternative_phone, primary_phone, 'No Phone') AS contact_phone\nFROM client_accounts;\n```\n\n#### B. Preventing Divide-by-Zero with NULLIF\n```sql\n-- NULLIF(x, 0) returns NULL if x is 0, which makes the whole division evaluate to NULL instead of crashing!\nSELECT \n    branch_name,\n    total_revenue_ksh,\n    total_orders,\n    ROUND(total_revenue_ksh / NULLIF(total_orders, 0), 2) AS avg_order_value_ksh\nFROM branch_quarterly_summary;\n```\n\n---\n\n### 4. Summary & Best Practices\n- Always terminate every `CASE` statement with an explicit `END`.\n- Wrap financial denominators in `NULLIF(denominator, 0)` to prevent query aborts.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Author **`CASE WHEN ... THEN ... ELSE ... END`** expressions for custom categorization and tiering.\n2. Perform **Conditional Aggregation** (pivoting rows to columns using `SUM(CASE WHEN ...)` and `COUNT(CASE WHEN ...)`).\n3. Replace NULL values with sensible defaults using **`COALESCE(val1, val2, default)`**.\n4. Convert data types safely using **`CAST(column AS type)`** or PostgreSQL shorthand (`::type`).\n5. Prevent division-by-zero database errors using **`NULLIF(divisor, 0)`**.\n\n---\n\n### 1. Categorization with CASE WHEN\n\nSQL's `CASE` statement provides powerful conditional branching directly within query projections. It exists in two primary forms:\n\n#### A. Searched CASE (Most Flexible)\nEvaluates a sequence of boolean conditions from top to bottom. It returns the result of the **first condition that evaluates to TRUE**:\n\n```sql\nSELECT \n    customer_id,\n    full_name,\n    lifetime_spend_ksh,\n    CASE \n        WHEN lifetime_spend_ksh >= 500000 THEN 'Tier 1: VIP Platinum'\n        WHEN lifetime_spend_ksh >= 150000 THEN 'Tier 2: Gold'\n        WHEN lifetime_spend_ksh >= 30000  THEN 'Tier 3: Silver'\n        ELSE 'Tier 4: Standard Retail'\n    END AS customer_loyalty_segment\nFROM customers;\n```\n\n> [!IMPORTANT]\n> **Order of Evaluation Matters**: Because `CASE` stops evaluating as soon as it encounters the first TRUE condition, always order conditions from **most restrictive to least restrictive**. If you put `lifetime_spend_ksh >= 30000` first, all platinum customers would erroneously be categorized as Silver!\n> \n> **Omitting the ELSE Clause**: If no `WHEN` condition evaluates to TRUE and no `ELSE` clause is provided, SQL returns **`NULL`**.\n\n#### B. Simple CASE (Value Matching)\nCompares a single expression against literal values:\n```sql\nSELECT \n    order_id,\n    payment_status,\n    CASE payment_status\n        WHEN 'P' THEN 'Paid'\n        WHEN 'F' THEN 'Failed'\n        WHEN 'R' THEN 'Refunded'\n        ELSE 'Pending'\n    END AS readable_status\nFROM online_orders;\n```\n\n---\n\n### 2. Power Technique: Conditional Aggregation (Pivoting in SQL)\n\nConditional aggregation combines aggregate functions (`SUM`, `COUNT`, `AVG`) with `CASE WHEN` expressions. It allows data analysts to pivot vertical transactional row data into clean, horizontal analytical matrix columns:\n\n```sql\nSELECT \n    DATE_TRUNC('month', transaction_date)::DATE AS sales_month,\n    COUNT(*) AS total_transactions,\n    -- Conditional Sums (Pivoting Payment Channels)\n    SUM(CASE WHEN payment_channel = 'M-Pesa' THEN amount_ksh ELSE 0 END) AS mpesa_revenue_ksh,\n    SUM(CASE WHEN payment_channel = 'Card'   THEN amount_ksh ELSE 0 END) AS card_revenue_ksh,\n    SUM(CASE WHEN payment_channel = 'EFT'    THEN amount_ksh ELSE 0 END) AS eft_revenue_ksh,\n    SUM(amount_ksh) AS total_gross_revenue_ksh\nFROM sales_ledger\nGROUP BY DATE_TRUNC('month', transaction_date)\nORDER BY sales_month ASC;\n```\n\n> [!TIP]\n> **Conditional Counts**: To count matching occurrences conditionally, use `COUNT(CASE WHEN condition THEN 1 END)`. Because `COUNT` ignores NULL values, omitting the `ELSE` clause naturally leaves non-matching rows as NULL, ensuring only matching records are tallied!\n\n---\n\n### 3. COALESCE & NULLIF\n\n#### A. COALESCE (First Non-Null Fallback)\n`COALESCE(val1, val2, ..., default)` evaluates arguments from left to right and returns the first non-NULL value:\n\n```sql\n-- Display customer company name if present, otherwise personal full name, otherwise 'Anonymous Customer'\nSELECT \n    COALESCE(company_name, full_name, 'Anonymous Customer') AS display_name,\n    COALESCE(alternative_phone, primary_phone, 'No Contact Phone') AS contact_phone\nFROM client_accounts;\n```\n\n#### B. Preventing Divide-by-Zero with NULLIF\n`NULLIF(expression1, expression2)` returns `NULL` if both expressions are equal; otherwise, it returns `expression1`.\n\nIn SQL, dividing by zero throws a fatal runtime exception that halts your entire batch script. Wrapping your denominator in `NULLIF(denominator, 0)` returns `NULL` instead of crashing:\n\n```sql\n-- Safely calculate Average Order Value without crashing on zero-order branches\nSELECT \n    branch_name,\n    total_revenue_ksh,\n    total_orders,\n    ROUND(total_revenue_ksh / NULLIF(total_orders, 0), 2) AS avg_order_value_ksh\nFROM branch_quarterly_summary;\n```\n\n---\n\n### 4. Explicit Data Type Conversion: CAST & :: Shorthand\n\nWhen combining data or computing mathematical fractions, converting columns to explicit data types guarantees precision and prevents integer division truncation:\n\n```sql\n-- Standard ANSI SQL CAST\nSELECT \n    order_id,\n    CAST(transaction_date AS DATE) AS order_date,\n    CAST(raw_cost_string AS NUMERIC(12, 2)) AS unit_cost_ksh,\n    -- Prevent integer division: 5 / 2 = 2 in integer math, but 2.5 when cast to numeric!\n    CAST(completed_tasks AS NUMERIC) / NULLIF(total_tasks, 0) AS completion_rate\nFROM order_processing;\n\n-- PostgreSQL Native Shorthand (::)\nSELECT \n    transaction_date::DATE AS order_date,\n    raw_cost_string::NUMERIC(12, 2) AS unit_cost_ksh,\n    completed_tasks::NUMERIC / NULLIF(total_tasks, 0) AS completion_rate\nFROM order_processing;\n```\n\n---\n\n### 5. Summary & Best Practices\n- Always terminate every `CASE` statement with an explicit `END`.\n- Order `WHEN` conditions from most restrictive to least restrictive.\n- Use conditional aggregation (`SUM(CASE WHEN ...)`) to pivot rows into columns without database-specific pivot extensions.\n- Use `COALESCE` to provide reliable fallbacks for optional text or contact fields.\n- Wrap all financial denominators in `NULLIF(col, 0)` to prevent divide-by-zero crashes.\n- Use explicit type casting (`CAST` or `::`) when converting strings to numbers or preventing integer division rounding.",
         "challenge": {
           "type": "quiz",
           "title": "Module 6 Checkpoint: CASE WHEN & COALESCE",
@@ -9898,31 +11112,137 @@ export const coursesData = [
         "subtitle": "Scalar, column, and table subqueries vs CTEs, modular query design, and correlated subqueries",
         "readingTime": "24 min",
         "videoLesson": {
-          "title": "Subqueries and Common Table Expressions (CTEs / WITH Clauses)",
-          "channel": "Alex The Analyst",
-          "duration": "28:41:07",
-          "videoId": "cnjhHZNJEDk",
-          "watchUrl": "https://www.youtube.com/watch?v=cnjhHZNJEDk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
-          "url": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
+          "title": "SQL CTE (Common Table Expression) Visually Explained | Full Guide WITH Clause | #SQL Course 28",
+          "channel": "Data with Baraa",
+          "duration": "77:42",
+          "videoId": "5x1uodxEIaM",
+          "watchUrl": "https://www.youtube.com/watch?v=5x1uodxEIaM",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/5x1uodxEIaM",
+          "url": "https://www.youtube-nocookie.com/embed/5x1uodxEIaM",
           "alternativeSource": "https://www.postgresql.org/docs/current/queries-with.html",
           "sourceName": "PostgreSQL Documentation — WITH Queries (Common Table Expressions)",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "sources": [
+            {
+              "name": "PostgreSQL Documentation — WITH Queries (Common Table Expressions)",
+              "url": "https://www.postgresql.org/docs/current/queries-with.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — Subqueries in SELECT",
+              "url": "https://www.postgresql.org/docs/current/sql-select.html"
+            }
+          ],
+          "note": "Subqueries & Common Table Expressions (CTEs): Tab 1 by Data with Baraa (77:42) provides an end-to-end visual masterclass on Common Table Expressions, WITH syntax, multiple sequential CTEs, and structuring modular SQL pipelines. Tab 2 by Data with Baraa (81:28) visually explains scalar, column, and table subqueries alongside correlated subqueries. Tab 3 by Alex The Analyst (03:43) is a concise walkthrough on writing CTEs to simplify complex aggregations. Tab 4 by Alex The Analyst (08:37) demonstrates hands-on subqueries in SELECT, FROM, and WHERE clauses.",
+          "references": [
+            {
+              "id": "ref-cte-baraa",
+              "tabLabel": "1. CTEs & WITH Clause",
+              "topic": "SQL CTE (Common Table Expression) Visually Explained: WITH Clause & Modular Pipelines",
+              "title": "SQL CTE (Common Table Expression) Visually Explained | Full Guide WITH Clause | #SQL Course 28",
+              "channel": "Data with Baraa",
+              "duration": "77:42",
+              "videoId": "5x1uodxEIaM",
+              "watchUrl": "https://www.youtube.com/watch?v=5x1uodxEIaM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/5x1uodxEIaM",
+              "url": "https://www.youtube-nocookie.com/embed/5x1uodxEIaM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-with.html",
+              "sourceName": "PostgreSQL Documentation — WITH Queries (Common Table Expressions)",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — WITH Queries (Common Table Expressions)",
+                  "url": "https://www.postgresql.org/docs/current/queries-with.html"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Data with Baraa visually explains how Common Table Expressions (CTEs) work using the WITH clause to break down complex queries, structure sequential pipeline stages, and dramatically improve query readability."
+            },
+            {
+              "id": "ref-subqueries-baraa",
+              "tabLabel": "2. Subqueries & Correlated",
+              "topic": "SQL Subqueries: Scalar Subqueries, Multi-Row/Column Subqueries & Correlated Subqueries",
+              "title": "SQL Subquery (Visually Explained) | Complete Guide with Correlated Subquery | #SQL Course 27",
+              "channel": "Data with Baraa",
+              "duration": "81:28",
+              "videoId": "tvBp81WVrCA",
+              "watchUrl": "https://www.youtube.com/watch?v=tvBp81WVrCA",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/tvBp81WVrCA",
+              "url": "https://www.youtube-nocookie.com/embed/tvBp81WVrCA",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/sql-select.html",
+              "sourceName": "PostgreSQL Documentation — Subqueries in SELECT",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Subqueries in SELECT",
+                  "url": "https://www.postgresql.org/docs/current/sql-select.html"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Comprehensive visual masterclass detailing scalar subqueries (single value), column subqueries (IN / NOT IN), table subqueries (derived tables), and correlated subqueries with row-by-row outer query references."
+            },
+            {
+              "id": "ref-cte-alex",
+              "tabLabel": "3. Practical CTEs (Alex)",
+              "topic": "Hands-On Common Table Expressions: WITH Clause & Query Simplification",
+              "title": "Advanced SQL Tutorial | CTE (Common Table Expression)",
+              "channel": "Alex The Analyst",
+              "duration": "03:43",
+              "videoId": "K1WeoKxLZ5o",
+              "watchUrl": "https://www.youtube.com/watch?v=K1WeoKxLZ5o",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/K1WeoKxLZ5o",
+              "url": "https://www.youtube-nocookie.com/embed/K1WeoKxLZ5o",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-with.html",
+              "sourceName": "PostgreSQL Documentation — Common Table Expressions",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Common Table Expressions",
+                  "url": "https://www.postgresql.org/docs/current/queries-with.html"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Alex Freberg walks through practical implementation of Common Table Expressions (CTEs), contrasting CTE temporary result sets with subqueries and temp tables."
+            },
+            {
+              "id": "ref-subqueries-alex",
+              "tabLabel": "4. Subqueries in Action (Alex)",
+              "topic": "Practical Subqueries: SELECT Clause, Derived Tables in FROM, and WHERE Filtering",
+              "title": "Advanced SQL Tutorial | Subqueries",
+              "channel": "Alex The Analyst",
+              "duration": "08:37",
+              "videoId": "m1KcNV-Zhmc",
+              "watchUrl": "https://www.youtube.com/watch?v=m1KcNV-Zhmc",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/m1KcNV-Zhmc",
+              "url": "https://www.youtube-nocookie.com/embed/m1KcNV-Zhmc",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/queries-with.html",
+              "sourceName": "PostgreSQL Documentation — Subqueries",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Subqueries",
+                  "url": "https://www.postgresql.org/docs/current/queries-with.html"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Alex Freberg demonstrates practical execution of subqueries across SELECT, FROM, and WHERE clauses, comparing subqueries to window functions and joins."
+            }
+          ]
         },
-        "summary": "Write clean, modular, and maintainable analytical SQL pipelines. Compare nested subqueries against Common Table Expressions (WITH clauses), author multi-stage CTE transformations, and understand query execution plans.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Differentiate between **Scalar Subqueries** (returns 1 value), **Column Subqueries** (returns 1 list), and **Table Subqueries** (returns a virtual table).\n2. Refactor complex, hard-to-read nested subqueries into clean, readable **Common Table Expressions (CTEs)** using the **`WITH`** keyword.\n3. Chain multiple CTEs sequentially to build multi-stage ETL analytics pipelines.\n4. Use CTEs to calculate summary benchmarks and compare individual branch performance against company averages.\n5. Identify when a subquery is correlated vs independent.\n\n---\n\n### 1. What is a Common Table Expression (CTE)?\n\nA Common Table Expression (CTE) is a temporary named result set defined at the top of an analytical query using the `WITH` clause.\n\n```sql\n+-------------------------------------------------------------------------------+\n|                       MODULAR CTE PIPELINE ARCHITECTURE                       |\n+-------------------------------------------------------------------------------+\n|  WITH stage_1_clean_data AS (                                                 |\n|      SELECT ... FROM raw_data WHERE ...                                       |\n|  ),                                                                           |\n|  stage_2_aggregated_metrics AS (                                              |\n|      SELECT customer_id, SUM(amount) AS total FROM stage_1_clean_data ...     |\n|  )                                                                            |\n|  SELECT * FROM stage_2_aggregated_metrics WHERE total > 50000;                |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Practical Multi-Stage CTE: Customer RFM Scoring\n\n```sql\nWITH customer_orders_summary AS (\n    -- Stage 1: Calculate aggregate order metrics per customer\n    SELECT \n        customer_id,\n        COUNT(order_id) AS lifetime_orders_count,\n        SUM(total_ksh) AS lifetime_spend_ksh,\n        MAX(order_date) AS last_order_date\n    FROM orders\n    WHERE status = 'Completed'\n    GROUP BY customer_id\n),\ncustomer_recency_calc AS (\n    -- Stage 2: Calculate days since last purchase\n    SELECT \n        customer_id,\n        lifetime_orders_count,\n        lifetime_spend_ksh,\n        last_order_date,\n        ('2026-03-31'::DATE - last_order_date::DATE) AS days_since_last_order\n    FROM customer_orders_summary\n)\n-- Final Output: Tag customers at risk of churning\nSELECT \n    c.customer_id,\n    c.full_name,\n    c.phone_number,\n    r.lifetime_orders_count,\n    r.lifetime_spend_ksh,\n    r.days_since_last_order,\n    CASE \n        WHEN r.days_since_last_order <= 30 THEN 'Active & Loyal'\n        WHEN r.days_since_last_order <= 90 THEN 'Warm'\n        ELSE 'Churn Risk (90+ Days Inactive)'\n    END AS churn_risk_status\nFROM customer_recency_calc AS r\nINNER JOIN customers AS c ON r.customer_id = c.customer_id\nORDER BY r.lifetime_spend_ksh DESC;\n```\n\n---\n\n### 3. Summary & Best Practices\n- Prefer CTEs over nested inline subqueries for any query requiring more than one transformation step.\n- Name your CTEs with clear, descriptive semantic verbs (`filtered_sales`, `monthly_aggregates`).",
+        "summary": "Write clean, modular, and maintainable analytical SQL pipelines. Master scalar, column, and table subqueries, correlated subquery mechanics, multi-stage Common Table Expressions (WITH clauses), enterprise benchmark calculations, and PostgreSQL 12+ CTE inlining performance.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Differentiate between **Scalar Subqueries** (returns 1 value), **Column Subqueries** (returns 1 list), and **Table / Derived Subqueries** (returns a virtual table in FROM).\n2. Distinguish **Independent Subqueries** (evaluated once) from **Correlated Subqueries** (evaluated row-by-row using outer query references).\n3. Refactor nested \"Pyramids of Doom\" into clean, readable **Common Table Expressions (CTEs)** using the **`WITH`** keyword.\n4. Chain multiple sequential CTEs to build multi-stage enterprise analytics pipelines (e.g., benchmark comparisons and Customer RFM segmentation).\n5. Understand modern database execution mechanics: explain why CTEs are not always faster, how PostgreSQL 12+ inlines CTEs, and when to use **`MATERIALIZED`**.\n\n---\n\n### 1. Anatomy of Subqueries: Scalar, Column, and Table (Derived) Subqueries\n\nA subquery is a SQL query nested inside another query (the outer query). Depending on where it is placed and what it returns, a subquery serves three distinct analytical purposes:\n\n```sql\n+-----------------------------------------------------------------------------------------+\n|                                SUBQUERY TAXONOMY IN SQL                                 |\n+-------------------+---------------------------------------+-----------------------------+\n| Type              | Return Shape                          | Common SQL Clause           |\n+-------------------+---------------------------------------+-----------------------------+\n| 1. Scalar         | Exactly 1 row, 1 column (single value)| SELECT, WHERE, HAVING       |\n| 2. Column / List  | 1 column, multiple rows (value list)  | WHERE col IN (subquery)     |\n| 3. Table / Derived| Multiple rows and multiple columns    | FROM (subquery) AS alias    |\n+-------------------+---------------------------------------+-----------------------------+\n```\n\n#### A. Scalar Subqueries in SELECT and WHERE\nA **scalar subquery** returns exactly one atomic value (a single cell). If it returns multiple rows or columns, the database will raise a runtime execution error (`ERROR: more than one row returned by a subquery used as an expression`).\n\n```sql\n-- 1. Scalar Subquery in SELECT: Compare each transaction directly against the overall average\nSELECT \n    order_id,\n    customer_id,\n    total_ksh,\n    (SELECT ROUND(AVG(total_ksh), 2) FROM orders WHERE status = 'Completed') AS company_avg_order_ksh,\n    ROUND(total_ksh - (SELECT AVG(total_ksh) FROM orders WHERE status = 'Completed'), 2) AS variance_from_avg_ksh\nFROM orders\nWHERE status = 'Completed'\nORDER BY total_ksh DESC\nLIMIT 5;\n\n-- 2. Scalar Subquery in WHERE: Filter for transactions strictly exceeding the enterprise average\nSELECT \n    order_id,\n    customer_id,\n    total_ksh,\n    order_date\nFROM orders\nWHERE status = 'Completed'\n  AND total_ksh > (SELECT AVG(total_ksh) FROM orders WHERE status = 'Completed');\n```\n\n#### B. Column Subqueries with IN and NOT IN\nA **column subquery** returns a single column containing multiple rows. It is commonly used with set membership operators (`IN`, `NOT IN`, `ANY`, `ALL`):\n\n```sql\n-- Find all customers who have placed orders via M-Pesa in the last 30 days\nSELECT \n    customer_id,\n    full_name,\n    phone_number,\n    city\nFROM customers\nWHERE customer_id IN (\n    SELECT DISTINCT customer_id\n    FROM orders\n    WHERE payment_method = 'M-Pesa'\n      AND order_date >= '2026-03-01'\n);\n```\n\n> [!CAUTION]\n> **The `NOT IN` NULL Trap**: If the subquery in a `NOT IN (SELECT ...)` returns even a single `NULL` value, the entire `NOT IN` expression evaluates to `UNKNOWN` (effectively `FALSE`), returning zero rows! Always filter out `NULL` values with `WHERE col IS NOT NULL` inside the subquery, or use `NOT EXISTS`.\n\n#### C. Table Subqueries (Derived Tables in the FROM Clause)\nWhen a subquery returns multiple rows and columns, it acts as a virtual table in the `FROM` clause. In ANSI SQL and PostgreSQL, **every derived table MUST have an explicit table alias**:\n\n```sql\nSELECT \n    branch_tier,\n    COUNT(*) AS branch_count,\n    ROUND(AVG(branch_monthly_rev_ksh), 2) AS avg_branch_rev_ksh\nFROM (\n    -- Derived table: aggregated revenue per branch\n    SELECT \n        b.branch_name,\n        SUM(o.total_ksh) AS branch_monthly_rev_ksh,\n        CASE \n            WHEN SUM(o.total_ksh) >= 5000000 THEN 'Tier 1: Flagship'\n            WHEN SUM(o.total_ksh) >= 2000000 THEN 'Tier 2: Growth'\n            ELSE 'Tier 3: Emerging'\n        END AS branch_tier\n    FROM branches AS b\n    INNER JOIN orders AS o ON b.branch_id = o.branch_id\n    WHERE o.status = 'Completed'\n    GROUP BY b.branch_name\n) AS branch_summary -- MANDATORY ALIAS!\nGROUP BY branch_tier\nORDER BY avg_branch_rev_ksh DESC;\n```\n\n---\n\n### 2. Correlated vs. Independent Subqueries\n\nUnderstanding whether a subquery is independent or correlated is crucial for understanding SQL query performance:\n\n```sql\n+-----------------------------------------------------------------------------------------+\n|                  INDEPENDENT SUBQUERY vs. CORRELATED SUBQUERY                           |\n+-------------------------+---------------------------------------------------------------+\n| Independent Subquery    | Executes ONCE. Evaluates standalone and returns a static      |\n|                         | value or set that the outer query reuses. Execution: O(1).    |\n+-------------------------+---------------------------------------------------------------+\n| Correlated Subquery     | References a column from the OUTER query (e.g. o.branch_id).  |\n|                         | Logically re-evaluates ONCE PER ROW of the outer query.       |\n|                         | Execution can degrade to O(N * M) unless rewritten by engine. |\n+-------------------------+---------------------------------------------------------------+\n```\n\n#### Independent Subquery Example\nThe inner query does not rely on any column from the outer table:\n```sql\n-- Evaluates the subquery ONCE: finds the single highest order amount in Kenya\nSELECT order_id, customer_id, total_ksh\nFROM orders\nWHERE total_ksh = (SELECT MAX(total_ksh) FROM orders WHERE status = 'Completed');\n```\n\n#### Correlated Subquery Example\nNotice that the subquery references `outer_orders.branch_id`. To determine if an order is above average, the database must evaluate the average **specifically for that order's branch**:\n\n```sql\nSELECT \n    outer_orders.order_id,\n    outer_orders.branch_id,\n    outer_orders.total_ksh,\n    outer_orders.order_date\nFROM orders AS outer_orders\nWHERE outer_orders.status = 'Completed'\n  AND outer_orders.total_ksh > (\n      -- Correlated: depends on outer_orders.branch_id!\n      SELECT AVG(inner_orders.total_ksh)\n      FROM orders AS inner_orders\n      WHERE inner_orders.branch_id = outer_orders.branch_id\n        AND inner_orders.status = 'Completed'\n  );\n```\n\n---\n\n### 3. The \"Pyramid of Doom\" vs. Common Table Expressions (CTEs)\n\nWhile subqueries are versatile, nesting multiple subqueries creates unreadable code—often called the **Pyramid of Doom**. Because nested subqueries must be read from the inside out and from bottom to top, debugging and maintaining them becomes painful.\n\nA **Common Table Expression (CTE)** defines a temporary named result set at the top of your query using the **`WITH`** keyword:\n\n```sql\n+-------------------------------------------------------------------------------+\n|                     MODULAR CTE ARCHITECTURE (WITH CLAUSE)                    |\n+-------------------------------------------------------------------------------+\n|  WITH step_1_clean AS (                                                       |\n|      SELECT ... FROM raw_data WHERE is_valid = TRUE                            |\n|  ),                                                                           |\n|  step_2_aggregate AS (                                                        |\n|      SELECT customer_id, SUM(amount) AS total FROM step_1_clean GROUP BY ...   |\n|  ),                                                                           |\n|  step_3_ranked AS (                                                           |\n|      SELECT *, DENSE_RANK() OVER (ORDER BY total DESC) FROM step_2_aggregate  |\n|  )                                                                            |\n|  SELECT * FROM step_3_ranked WHERE rank <= 10;                                |\n+-------------------------------------------------------------------------------+\n```\n\n#### Syntactic Rules for CTEs:\n1. **Single `WITH` Keyword**: Use `WITH` only once at the beginning of the statement.\n2. **Comma Separator**: Subsequent CTEs are separated by commas (do not repeat `WITH`).\n3. **Parentheses**: Each CTE block must be enclosed in parentheses `cte_name AS (...)`.\n4. **Immediate Consumption**: The final `SELECT`, `INSERT`, `UPDATE`, or `DELETE` immediately follows the last CTE.\n\n---\n\n### 4. Enterprise Benchmark Comparison: Branch vs. Company Average\n\nIn enterprise reporting across Kenyan retail branches (Nairobi CBD, Westlands, Mombasa, Kisumu, Nakuru, Eldoret), executives frequently ask: *\"Which branches are beating the national average, and by what percentage?\"*\n\nHere is how to solve this using a multi-stage CTE:\n\n```sql\nWITH branch_totals AS (\n    -- Step 1: Calculate total completed revenue per branch\n    SELECT \n        b.branch_id,\n        b.branch_name,\n        b.county,\n        SUM(o.total_ksh) AS branch_revenue_ksh,\n        COUNT(o.order_id) AS completed_orders_count\n    FROM branches AS b\n    INNER JOIN orders AS o ON b.branch_id = o.branch_id\n    WHERE o.status = 'Completed'\n    GROUP BY b.branch_id, b.branch_name, b.county\n),\ncompany_benchmark AS (\n    -- Step 2: Compute national average benchmark across all active branches\n    SELECT \n        ROUND(AVG(branch_revenue_ksh), 2) AS national_avg_branch_rev_ksh\n    FROM branch_totals\n)\n-- Step 3: Compare each branch against national benchmark\nSELECT \n    bt.branch_name,\n    bt.county,\n    bt.branch_revenue_ksh,\n    cb.national_avg_branch_rev_ksh,\n    ROUND(bt.branch_revenue_ksh - cb.national_avg_branch_rev_ksh, 2) AS variance_ksh,\n    ROUND(\n        ((bt.branch_revenue_ksh - cb.national_avg_branch_rev_ksh) / cb.national_avg_branch_rev_ksh) * 100,\n        2\n    ) AS variance_pct,\n    CASE \n        WHEN bt.branch_revenue_ksh >= cb.national_avg_branch_rev_ksh * 1.20 THEN 'High Outperformer (+20%)'\n        WHEN bt.branch_revenue_ksh >= cb.national_avg_branch_rev_ksh THEN 'Above Benchmark'\n        WHEN bt.branch_revenue_ksh >= cb.national_avg_branch_rev_ksh * 0.80 THEN 'Near Benchmark'\n        ELSE 'Underperforming (Action Required)'\n    END AS performance_status\nFROM branch_totals AS bt\nCROSS JOIN company_benchmark AS cb\nORDER BY bt.branch_revenue_ksh DESC;\n```\n\n---\n\n### 5. Production Multi-Stage Pipeline: Enterprise Customer RFM Analytics\n\nIn data analytics, **RFM (Recency, Frequency, Monetary)** segmentation divides customers into actionable cohorts. In production databases, analysts must be careful:\n1. Use **`LEFT JOIN`** on orders so registered customers with zero orders are not silently erased.\n2. Use **`COALESCE(SUM(total_ksh), 0)`** so customers with zero spend return `0` instead of `NULL`.\n3. Handle recency date arithmetic safely.\n\n```sql\nWITH customer_orders_summary AS (\n    -- Stage 1: Aggregate order metrics per customer, preserving inactive users\n    SELECT \n        c.customer_id,\n        c.full_name,\n        c.phone_number,\n        c.registration_date,\n        COUNT(o.order_id) AS lifetime_orders_count,\n        COALESCE(SUM(o.total_ksh), 0) AS lifetime_spend_ksh,\n        MAX(o.order_date) AS last_order_date\n    FROM customers AS c\n    LEFT JOIN orders AS o \n        ON c.customer_id = o.customer_id \n       AND o.status = 'Completed'\n    GROUP BY c.customer_id, c.full_name, c.phone_number, c.registration_date\n),\ncustomer_recency_calc AS (\n    -- Stage 2: Calculate days elapsed since last purchase or since registration\n    SELECT \n        customer_id,\n        full_name,\n        phone_number,\n        lifetime_orders_count,\n        lifetime_spend_ksh,\n        last_order_date,\n        CASE \n            WHEN last_order_date IS NOT NULL \n                THEN ('2026-03-31'::DATE - last_order_date::DATE)\n            ELSE ('2026-03-31'::DATE - registration_date::DATE)\n        END AS days_since_last_activity,\n        CASE WHEN last_order_date IS NULL THEN TRUE ELSE FALSE END AS is_never_purchased\n    FROM customer_orders_summary\n)\n-- Stage 3: Final Output: Actionable Business Segmentation\nSELECT \n    customer_id,\n    full_name,\n    phone_number,\n    lifetime_orders_count,\n    lifetime_spend_ksh,\n    days_since_last_activity,\n    CASE \n        WHEN is_never_purchased = TRUE THEN 'Registered - Never Ordered'\n        WHEN lifetime_spend_ksh >= 250000 AND days_since_last_activity <= 30 THEN 'VIP Platinum (Active)'\n        WHEN days_since_last_activity <= 30 THEN 'Active Regular'\n        WHEN days_since_last_activity <= 90 THEN 'Warm (Re-engagement Target)'\n        ELSE 'Churn Risk (90+ Days Inactive)'\n    END AS customer_rfm_segment\nFROM customer_recency_calc\nORDER BY lifetime_spend_ksh DESC;\n```\n\n---\n\n### 6. Accurate CTE Performance Nuances (PostgreSQL 12+ Optimization Inlining)\n\nThere is a widespread misconception among junior data analysts: *\"CTEs always run faster than subqueries.\"* **This is false.**\n\n#### A. Legacy PostgreSQL (< 12): Optimization Fence\nIn PostgreSQL versions prior to 12, a CTE was an absolute **optimization fence**. The PostgreSQL engine materialized the CTE into a temporary memory/disk buffer first, preventing the optimizer from pushing outer `WHERE` predicates down into the CTE. As a result, subqueries were often significantly faster than CTEs in older PostgreSQL engines!\n\n#### B. Modern PostgreSQL (12+): Automatic Inlining\nStarting in **PostgreSQL 12**, the planner treats CTEs as **inlined expressions** by default if they satisfy all of the following conditions:\n1. The CTE does not contain side-effects (`INSERT`, `UPDATE`, `DELETE`).\n2. The CTE is **not recursive** (`WITH RECURSIVE`).\n3. The CTE is referenced **only once** in the outer query.\n\nInlined CTEs have the exact same execution plan and speed as equivalent subqueries.\n\n#### C. Controlling Materialization Explicitly\nIf your CTE contains a computationally expensive calculation and is referenced **multiple times** in the outer query, or if inlining causes an inefficient plan, you can explicitly control materialization:\n\n```sql\n-- Force materialization: Engine computes it once and caches the result\nWITH heavy_calculation AS MATERIALIZED (\n    SELECT branch_id, complex_statistical_calc(data) AS score\n    FROM raw_telemetry\n    GROUP BY branch_id\n)\nSELECT * FROM heavy_calculation WHERE score > 90\nUNION ALL\nSELECT * FROM heavy_calculation WHERE score < 10;\n\n-- Prevent materialization: Force inlining and predicate pushdown\nWITH fast_filtered_view AS NOT MATERIALIZED (\n    SELECT customer_id, county, total_spend_ksh\n    FROM large_lakehouse_table\n)\nSELECT * FROM fast_filtered_view WHERE customer_id = 40592;\n```\n\n---\n\n### 7. Enterprise Dialogue: Nairobi Data Team Architecture Review\n\n**Setting:** *Safaricom & Kilima Logistics Shared Tech Hub, Nairobi.*  \n**Characters:**  \n- **Wanjiku Mwangi**: Lead Analytics Architect.  \n- **Kevin Kiprop**: Junior BI Analyst.  \n\n**Kevin:** *\"Wanjiku, my quarterly revenue query runs, but it's 85 lines long with four levels of nested `SELECT ... FROM (SELECT ... FROM (SELECT ...))`. When our product manager asked to add M-Pesa merchant fees, I couldn't figure out which closing parenthesis belonged to which subquery.\"*\n\n**Wanjiku:** *(Laughs)* *\"You've hit the classic SQL 'Pyramid of Doom.' Nested subqueries force you to think from the inside out. Let's rewrite this into a Common Table Expression with three clear sequential blocks: `filtered_orders`, `merchant_fee_adjustments`, and `branch_rollups`.\"*\n\n**Kevin:** *\"Will using a CTE slow down the database compared to my nested subqueries?\"*\n\n**Wanjiku:** *\"Not in modern PostgreSQL! Since version 12, PostgreSQL inlines CTEs by default when they're referenced once, so the query planner optimizes them identically to subqueries. But CTEs give us readability, easy unit testing of each block, and maintainable enterprise code.\"*\n\n**Kevin:** *\"And what about the `LEFT JOIN` on our customer table? My original query missed customers who had never placed an order.\"*\n\n**Wanjiku:** *\"Exactly. An `INNER JOIN` silently erases zero-order customers. By using `LEFT JOIN` combined with `COALESCE(SUM(total_ksh), 0)`, our churn model correctly classifies them as 'Registered - Never Ordered' rather than dropping them from the board report.\"*\n\n---\n\n### 8. Professional Vocabulary Bank\n\n| Term | Technical Definition | Enterprise Context |\n| :--- | :--- | :--- |\n| **Common Table Expression (CTE)** | A temporary, named result set defined before the main query using the `WITH` clause. | The gold standard for modular, readable multi-stage SQL pipelines in production data teams. |\n| **Scalar Subquery** | A subquery that returns exactly one row and one column (a single atomic value). | Used in `SELECT` and `WHERE` to compare individual records against aggregate benchmarks. |\n| **Correlated Subquery** | A subquery whose inner logic references columns from the outer query table. | Evaluated once per candidate outer row; useful for localized comparisons but requires caution with large datasets. |\n| **Derived Table** | A subquery placed in the `FROM` clause that behaves as a temporary virtual table. | Must always have an explicit alias (e.g. `FROM (...) AS subq`) in ANSI SQL and PostgreSQL. |\n| **Optimization Fence** | A database optimizer boundary where the engine cannot push predicates across query blocks. | In legacy PostgreSQL (<12), CTEs acted as optimization fences; now inlined unless declared `MATERIALIZED`. |\n| **MATERIALIZED** | A PostgreSQL keyword forcing the engine to physically cache a CTE's output in memory. | Ideal when a heavy CTE is referenced multiple times, preventing redundant calculation. |\n| **RFM Analysis** | Analytical modeling of Recency (last active), Frequency (order count), and Monetary (spend). | Foundational eCommerce and retail cohort segmentation for retention and churn prevention. |\n\n---\n\n### 9. Summary & Best Practices Checklist\n- [x] **Prefer CTEs for Readability**: Refactor any query with more than one level of nesting into clean, named CTEs.\n- [x] **Order CTEs Sequentially**: Place raw extraction first, followed by transformations, aggregations, and final reporting.\n- [x] **Always Alias Derived Tables**: In the `FROM` clause, remember that omitting an alias causes a syntax error.\n- [x] **Avoid the NOT IN NULL Trap**: Always ensure subqueries used with `NOT IN` filter out `NULL` values or use `NOT EXISTS`.\n- [x] **Preserve Inactive Entities**: Use `LEFT JOIN` and `COALESCE(..., 0)` in customer and branch aggregations to avoid silent data loss.\n- [x] **Understand Performance**: Remember that in modern PostgreSQL (12+), CTEs are inlined by default; use `MATERIALIZED` only when beneficial.",
         "challenge": {
           "type": "quiz",
           "title": "Module 7 Checkpoint: CTEs & Subqueries",
-          "question": "Why do enterprise data analysts prefer Common Table Expressions (WITH clauses) over deeply nested subqueries?",
+          "question": "How does modern PostgreSQL (version 12+) treat Common Table Expressions (WITH clauses) compared to nested subqueries?",
           "options": [
-            "CTEs make queries run 1,000 times faster in every scenario.",
-            "CTEs structure queries sequentially from top to bottom like readable code, simplify debugging, and allow the temporary result set to be referenced multiple times within the query.",
-            "Nested subqueries were deprecated in SQL:2023.",
-            "CTEs do not require a database connection."
+            "PostgreSQL 12+ completely banned CTEs in favor of temporary tables.",
+            "PostgreSQL 12+ inlines non-recursive, side-effect-free CTEs referenced only once by default, giving them the same execution plan and performance as subqueries while preserving superior modular readability.",
+            "CTEs always run 100 times slower than subqueries because they are always written to physical disk.",
+            "CTEs can only be used with MySQL and cannot be executed on PostgreSQL."
           ],
           "correctAnswer": 1,
-          "explanation": "CTEs make complex analytical logic modular and human-readable by breaking down multi-stage calculations into clear sequential steps, avoiding the 'pyramid of doom' associated with deeply nested subqueries."
+          "explanation": "Since PostgreSQL 12, the query optimizer automatically inlines CTEs that are referenced once and contain no side effects, eliminating the legacy 'optimization fence' penalty and providing the performance of subqueries with the clean readability of CTEs."
         }
       },
       {
@@ -9938,31 +11258,137 @@ export const coursesData = [
         "subtitle": "DATE_TRUNC, EXTRACT, INTERVAL, CONCAT, TRIM, regex matching, and date arithmetic",
         "readingTime": "22 min",
         "videoLesson": {
-          "title": "Date, Time, Text Manipulation & NULL Handling (COALESCE)",
+          "title": "String and Date Functions in PostgreSQL",
           "channel": "Alex The Analyst",
-          "duration": "28:41:07",
-          "videoId": "cnjhHZNJEDk",
-          "watchUrl": "https://www.youtube.com/watch?v=cnjhHZNJEDk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
-          "url": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
+          "duration": "15:42",
+          "videoId": "9Po7KLZB2TE",
+          "watchUrl": "https://www.youtube.com/watch?v=9Po7KLZB2TE",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/9Po7KLZB2TE",
+          "url": "https://www.youtube-nocookie.com/embed/9Po7KLZB2TE",
           "alternativeSource": "https://www.postgresql.org/docs/current/functions-datetime.html",
           "sourceName": "PostgreSQL Documentation — Date/Time Functions and Operators",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "sources": [
+            {
+              "name": "PostgreSQL Documentation — Date/Time Functions and Operators",
+              "url": "https://www.postgresql.org/docs/current/functions-datetime.html"
+            },
+            {
+              "name": "PostgreSQL Documentation — String Functions and Operators",
+              "url": "https://www.postgresql.org/docs/current/functions-string.html"
+            }
+          ],
+          "note": "Date, Time, Text Manipulation & NULL Handling: Tab 1 by Alex The Analyst (15:42) demonstrates PostgreSQL string and date functions hands-on. Tab 2 by assemia (03:58) covers PostgreSQL DATE_TRUNC, EXTRACT, and INTERVAL timestamp arithmetic for time-series analytics. Tab 3 by Data with Baraa (43:27) provides an in-depth visual masterclass on date parts, date truncation, and temporal grouping. Tab 4 by Data with Baraa (26:27) breaks down string cleansing functions: TRIM, UPPER/LOWER, REPLACE, CONCAT, and SUBSTRING.",
+          "references": [
+            {
+              "id": "ref-date-string-alex",
+              "tabLabel": "1. PostgreSQL Date & Text (Alex)",
+              "topic": "PostgreSQL Date & String Functions Hands-On Walkthrough",
+              "title": "String and Date Functions in PostgreSQL",
+              "channel": "Alex The Analyst",
+              "duration": "15:42",
+              "videoId": "9Po7KLZB2TE",
+              "watchUrl": "https://www.youtube.com/watch?v=9Po7KLZB2TE",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/9Po7KLZB2TE",
+              "url": "https://www.youtube-nocookie.com/embed/9Po7KLZB2TE",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-datetime.html",
+              "sourceName": "PostgreSQL Documentation — Date/Time Functions and Operators",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Date/Time Functions and Operators",
+                  "url": "https://www.postgresql.org/docs/current/functions-datetime.html"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Alex Freberg walks through hands-on queries in PostgreSQL demonstrating text functions (CONCAT, TRIM, SUBSTRING) alongside core date manipulation and timestamp extraction."
+            },
+            {
+              "id": "ref-date-trunc-extract-assemia",
+              "tabLabel": "2. DATE_TRUNC & INTERVAL (assemia)",
+              "topic": "PostgreSQL Temporal Analysis: DATE_TRUNC, EXTRACT, and INTERVAL Arithmetic",
+              "title": "SQL Date & Time Functions | EXTRACT, DATE_TRUNC & INTERVAL",
+              "channel": "assemia",
+              "duration": "03:58",
+              "videoId": "r0vXlrzJs4I",
+              "watchUrl": "https://www.youtube.com/watch?v=r0vXlrzJs4I",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/r0vXlrzJs4I",
+              "url": "https://www.youtube-nocookie.com/embed/r0vXlrzJs4I",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-datetime.html",
+              "sourceName": "PostgreSQL Documentation — Date/Time Functions",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Date/Time Functions",
+                  "url": "https://www.postgresql.org/docs/current/functions-datetime.html"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Practical analytics guide comparing EXTRACT() and DATE_TRUNC() on PostgreSQL timestamps, explaining INTERVAL arithmetic and multi-year time-series grouping."
+            },
+            {
+              "id": "ref-date-time-baraa",
+              "tabLabel": "3. Date & Time Masterclass (Baraa)",
+              "topic": "SQL Date & Time Functions: DATEPART, DATENAME, DATETRUNC & Temporal Math",
+              "title": "SQL Date & Time Functions | DATEPART, DATENAME, DATETRUNC, EOMONTH | #SQL Course 15",
+              "channel": "Data with Baraa",
+              "duration": "43:27",
+              "videoId": "7RCxH9x5StM",
+              "watchUrl": "https://www.youtube.com/watch?v=7RCxH9x5StM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/7RCxH9x5StM",
+              "url": "https://www.youtube-nocookie.com/embed/7RCxH9x5StM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-datetime.html",
+              "sourceName": "PostgreSQL Documentation — Date/Time Functions",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — Date/Time Functions",
+                  "url": "https://www.postgresql.org/docs/current/functions-datetime.html"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Visual deep dive into dates, times, and timestamps in relational databases. Explains date parts, date truncation, date filtering, and time-series aggregation."
+            },
+            {
+              "id": "ref-string-functions-baraa",
+              "tabLabel": "4. Text Cleansing & Formatting (Baraa)",
+              "topic": "SQL String Functions: TRIM, UPPER/LOWER, REPLACE, CONCAT & Cleansing Messy Data",
+              "title": "SQL String Functions (Visually Explained) | A Detailed Guide | #SQL Course 13",
+              "channel": "Data with Baraa",
+              "duration": "26:27",
+              "videoId": "NOTWx5s-s1o",
+              "watchUrl": "https://www.youtube.com/watch?v=NOTWx5s-s1o",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/NOTWx5s-s1o",
+              "url": "https://www.youtube-nocookie.com/embed/NOTWx5s-s1o",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://www.postgresql.org/docs/current/functions-string.html",
+              "sourceName": "PostgreSQL Documentation — String Functions and Operators",
+              "sources": [
+                {
+                  "name": "PostgreSQL Documentation — String Functions and Operators",
+                  "url": "https://www.postgresql.org/docs/current/functions-string.html"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Visual guide to string functions in SQL. Teaches TRIM for cleaning whitespace, UPPER and LOWER for standardizing casing, REPLACE, CONCAT, and SUBSTRING for parsing strings."
+            }
+          ]
         },
-        "summary": "Master temporal and string transformations in SQL. Group time-series data with DATE_TRUNC, extract date parts with EXTRACT, perform timestamp math with INTERVALs, and cleanse messy strings with TRIM, UPPER, and CONCAT.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Truncate timestamps to standard analytical intervals (Day, Week, Month, Quarter, Year) using **`DATE_TRUNC()`**.\n2. Extract specific temporal components (Year, Month, Day of week, Hour) using **`EXTRACT()`** or **`DATE_PART()`**.\n3. Perform accurate timestamp arithmetic using **`INTERVAL`** additions and subtractions.\n4. Cleanse and standardize string columns with **`TRIM`**, **`UPPER`**, **`LOWER`**, **`INITCAP`**, and **`REPLACE`**.\n5. Concatenate and format text attributes cleanly with **`CONCAT()`** and the **`||`** operator.\n\n---\n\n### 1. Temporal Analysis with DATE_TRUNC & EXTRACT\n\n#### A. Grouping Time Series with DATE_TRUNC\n```sql\n-- Monthly Cohort Aggregation\nSELECT \n    DATE_TRUNC('month', transaction_date)::DATE AS sales_month,\n    COUNT(transaction_id) AS total_orders,\n    SUM(amount_ksh) AS gross_revenue_ksh\nFROM transactions\nGROUP BY DATE_TRUNC('month', transaction_date)\nORDER BY sales_month ASC;\n```\n\n#### B. Peak Hour Analysis with EXTRACT\nAt what hours of the day do Kenyan customers transact most frequently on M-Pesa?\n\n```sql\nSELECT \n    EXTRACT(HOUR FROM transaction_timestamp) AS hour_of_day,\n    COUNT(*) AS total_transactions,\n    SUM(amount_ksh) AS total_volume_ksh\nFROM mpesa_till_logs\nGROUP BY EXTRACT(HOUR FROM transaction_timestamp)\nORDER BY hour_of_day ASC;\n```\n\n---\n\n### 2. Timestamp Arithmetic with INTERVALs\n\n```sql\n-- Find all transactions that occurred within the last 30 days relative to NOW\nSELECT transaction_id, customer_id, amount_ksh, transaction_date\nFROM orders\nWHERE transaction_date >= CURRENT_DATE - INTERVAL '30 days';\n```\n\n---\n\n### 3. String Sanitization & Formatting\n\n```sql\nSELECT \n    customer_id,\n    -- Standardize casing and strip surrounding whitespaces\n    INITCAP(TRIM(full_name)) AS clean_customer_name,\n    -- Format Kenyan phone numbers to international E.164 (+254...)\n    CASE \n        WHEN primary_phone LIKE '07%' THEN '+254' || SUBSTRING(primary_phone FROM 2)\n        WHEN primary_phone LIKE '254%' THEN '+' || primary_phone\n        ELSE primary_phone\n    END AS standardized_phone_number\nFROM raw_customer_leads;\n```\n\n---\n\n### 4. Summary & Best Practices\n- Always truncate time-series aggregations with `DATE_TRUNC` to preserve chronological timeline ordering.\n- Standardize customer phone numbers and casing before joining across dirty staging tables.",
+        "summary": "Master temporal and string transformations in SQL. Group time-series data with DATE_TRUNC, extract date parts with EXTRACT, perform timestamp math with INTERVALs, cleanse messy strings with TRIM, UPPER, and CONCAT, match regular expressions, and master NULL vs. empty string handling.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Truncate timestamps to standard analytical intervals (Day, Week, Month, Quarter, Year) using **`DATE_TRUNC()`** for accurate multi-year time-series grouping.\n2. Extract specific numeric components (Year, Month, Day of week, Hour) using **`EXTRACT()`** or **`DATE_PART()`**, understanding PostgreSQL's numeric return types and day-of-week numbering conventions.\n3. Perform accurate temporal arithmetic using **`INTERVAL`** additions and subtractions across time zones.\n4. Cleanse, sanitize, and normalize messy string attributes with **`TRIM`**, **`UPPER`**, **`LOWER`**, **`INITCAP`**, and **`REPLACE`**.\n5. Concatenate and format text attributes safely with **`CONCAT()`**, **`CONCAT_WS()`**, and the PostgreSQL **`||`** operator, accounting for NULL propagation.\n6. Validate and match complex text patterns using PostgreSQL POSIX regular expressions (**`~`**, **`~*`**, **`!~`**, **`REGEXP_REPLACE`**).\n7. Handle missing values rigorously by distinguishing true database **`NULL`** values from empty strings (**`''`**), and combining **`COALESCE()`** with **`NULLIF()`**.\n\n---\n\n### 1. Temporal Analysis with DATE_TRUNC vs. EXTRACT\n\nUnderstanding when to use `DATE_TRUNC()` versus `EXTRACT()` is a fundamental milestone for data analysts working with temporal event streams:\n\n```sql\n+-----------------------------------------------------------------------------------------+\n|                       DATE_TRUNC vs. EXTRACT / DATE_PART IN POSTGRESQL                  |\n+-------------------+---------------------------------------+-----------------------------+\n| Function          | Return Type & Value                   | Primary Analytical Purpose  |\n+-------------------+---------------------------------------+-----------------------------+\n| DATE_TRUNC(unit)  | TIMESTAMP (resets lower fields to 0)  | Multi-year time series      |\n|                   | e.g. '2026-03-24' -> '2026-03-01'     | chronological grouping      |\n+-------------------+---------------------------------------+-----------------------------+\n| EXTRACT(field)    | DOUBLE PRECISION (numeric number)     | Cyclical patterns, seasonality|\n|                   | e.g. EXTRACT(MONTH ...) -> 3          | peak hours, day-of-week     |\n+-------------------+---------------------------------------+-----------------------------+\n```\n\n#### A. Grouping Multi-Year Time Series with DATE_TRUNC\n`DATE_TRUNC('month', timestamp)` truncates a timestamp so that day, hour, minute, and second are reset to the start of that month. Because it returns a true `TIMESTAMP`, grouping by `DATE_TRUNC('month', order_date)` keeps March 2025 separate from March 2026:\n\n```sql\n-- Multi-year monthly revenue trend across Kenyan operations\nSELECT \n    DATE_TRUNC('month', transaction_date)::DATE AS sales_month,\n    COUNT(order_id) AS total_orders,\n    SUM(total_ksh) AS gross_revenue_ksh,\n    ROUND(AVG(total_ksh), 2) AS avg_order_value_ksh\nFROM orders\nWHERE status = 'Completed'\nGROUP BY DATE_TRUNC('month', transaction_date)\nORDER BY sales_month ASC;\n```\n\n> [!IMPORTANT]\n> **Grouping Consistency Rule**: When grouping by a truncated date expression, the `GROUP BY` clause must match the `SELECT` expression: `GROUP BY DATE_TRUNC('month', transaction_date)`.\n\n#### B. Extracting Temporal Components with EXTRACT and DATE_PART\n`EXTRACT(field FROM timestamp)` extracts an isolated date/time subfield as a **numeric value (`DOUBLE PRECISION`)**. In PostgreSQL, `DATE_PART('field', timestamp)` is an equivalent traditional alternative:\n\n```sql\nSELECT \n    order_id,\n    order_date,\n    EXTRACT(YEAR FROM order_date) AS order_year,\n    EXTRACT(MONTH FROM order_date) AS order_month_num,\n    EXTRACT(DAY FROM order_date) AS day_of_month,\n    EXTRACT(DOW FROM order_date) AS day_of_week_num,\n    DATE_PART('hour', order_date) AS hour_of_day\nFROM orders\nLIMIT 5;\n```\n\n#### Day-of-Week Indexing in PostgreSQL\nPostgreSQL supports two distinct day-of-week extract options:\n- **`DOW` (Day of Week)**: Returns **`0` (Sunday) through `6` (Saturday)**.\n- **`ISODOW` (ISO 8601 Day of Week)**: Returns **`1` (Monday) through `7` (Sunday)**.\n\n```sql\n-- Analyze peak transaction volume by day of week\nSELECT \n    CASE EXTRACT(DOW FROM transaction_timestamp)\n        WHEN 0 THEN 'Sunday'\n        WHEN 1 THEN 'Monday'\n        WHEN 2 THEN 'Tuesday'\n        WHEN 3 THEN 'Wednesday'\n        WHEN 4 THEN 'Thursday'\n        WHEN 5 THEN 'Friday'\n        WHEN 6 THEN 'Saturday'\n    END AS day_name,\n    COUNT(*) AS total_transactions,\n    ROUND(SUM(amount_ksh), 2) AS total_volume_ksh\nFROM mpesa_till_logs\nGROUP BY EXTRACT(DOW FROM transaction_timestamp)\nORDER BY EXTRACT(DOW FROM transaction_timestamp);\n```\n\n---\n\n### 2. Timestamp Arithmetic with INTERVALs & Time Zone Handling\n\nSQL allows intuitive temporal arithmetic using the **`INTERVAL`** data type:\n\n```sql\n-- Adding and subtracting intervals\nSELECT \n    NOW() AS current_system_timestamp,\n    CURRENT_DATE AS today,\n    CURRENT_DATE - INTERVAL '30 days' AS thirty_days_ago,\n    CURRENT_DATE + INTERVAL '3 months' AS three_months_future,\n    NOW() + INTERVAL '2 hours 30 minutes' AS dispatched_expected_arrival;\n\n-- Difference between dates vs timestamps:\n-- 1. Date - Date returns INTEGER (number of days)\nSELECT '2026-03-31'::DATE - '2026-03-01'::DATE AS days_elapsed; -- 30 (integer)\n\n-- 2. Timestamp - Timestamp returns an INTERVAL (days, hours, minutes, seconds)\nSELECT '2026-03-31 18:30:00'::TIMESTAMP - '2026-03-01 09:00:00'::TIMESTAMP AS delivery_duration;\n```\n\n#### Managing Time Zones (UTC vs. East Africa Time)\nEnterprise databases typically record transactional timestamps in **UTC** (`TIMESTAMP WITH TIME ZONE` or `TIMESTAMPTZ`). When reporting to local business leaders in Kenya, convert UTC to **East Africa Time (EAT / UTC+3)**:\n\n```sql\nSELECT \n    order_id,\n    created_at_utc,\n    -- Convert UTC timestamp to Nairobi local time\n    created_at_utc AT TIME ZONE 'Africa/Nairobi' AS order_time_eat,\n    EXTRACT(HOUR FROM created_at_utc AT TIME ZONE 'Africa/Nairobi') AS order_hour_eat\nFROM ecommerce_orders\nWHERE created_at_utc >= NOW() - INTERVAL '7 days';\n```\n\n---\n\n### 3. String Sanitization, Normalization & Formatting\n\nMessy raw inputs (inconsistent whitespace, mixed casing, misspelled names) must be normalized before analytical joining or presentation:\n\n```sql\n+-------------------+---------------------------------------+-----------------------------+\n| Function          | Example Usage                         | Result                      |\n+-------------------+---------------------------------------+-----------------------------+\n| TRIM(str)         | TRIM('  Nairobi  ')                  | 'Nairobi'                   |\n| UPPER(str)        | UPPER('m-pesa')                       | 'M-PESA'                    |\n| LOWER(str)        | LOWER('KILIMA.KE')                    | 'kilima.ke'                 |\n| INITCAP(str)      | INITCAP('john kamau otieno')          | 'John Kamau Otieno'         |\n| REPLACE(str, f, t)| REPLACE('0712-345-678', '-', '')      | '0712345678'                |\n| SUBSTRING(str,s,l)| SUBSTRING('MPESA2026', 1, 5)          | 'MPESA'                     |\n+-------------------+---------------------------------------+-----------------------------+\n```\n\n#### String Concatenation: CONCAT vs. || Operator\nThere is a vital distinction between the ANSI SQL `CONCAT()` function and the PostgreSQL pipe concatenation operator (`||`):\n- **`CONCAT(a, b, c)`**: Automatically converts non-string inputs and **ignores `NULL` values** (treats `NULL` like an empty string).\n- **`a || b || c`**: Standard operator, but if **any** operand is `NULL`, the entire result becomes **`NULL`**!\n- **`CONCAT_WS(separator, a, b, c)`**: Concatenate With Separator; ideal for addresses and formatted lists.\n\n```sql\nSELECT \n    customer_id,\n    -- CONCAT ignores NULLs safely:\n    CONCAT(first_name, ' ', last_name) AS full_name_safe,\n    \n    -- || operator requires COALESCE if fields are nullable:\n    COALESCE(first_name, '') || ' ' || COALESCE(last_name, '') AS full_name_piped,\n    \n    -- CONCAT_WS cleanly joins non-null address elements with commas:\n    CONCAT_WS(', ', building_name, street_name, city, county) AS formatted_shipping_address\nFROM customer_profiles;\n```\n\n---\n\n### 4. Advanced Pattern Matching: PostgreSQL POSIX Regular Expressions\n\nWhile SQL `LIKE` and `ILIKE` handle simple wildcard searches (`%` and `_`), PostgreSQL provides powerful POSIX regular expression operators:\n\n```sql\n+-------------------+---------------------------------------------------------------------+\n| Operator          | Description                                                         |\n+-------------------+---------------------------------------------------------------------+\n| ~                 | Case-sensitive regular expression match                             |\n| ~*                | Case-insensitive regular expression match                           |\n| !~                | Does not match regular expression (case-sensitive)                  |\n| !~*               | Does not match regular expression (case-insensitive)                |\n+-------------------+---------------------------------------------------------------------+\n```\n\n#### A. Validating Kenyan Phone Numbers with Regex\nKenyan mobile phone numbers must start with `+254`, `254`, `07`, or `01` followed by 8 digits:\n\n```sql\nSELECT \n    lead_id,\n    raw_phone_number,\n    -- Validate Kenyan mobile pattern: starts with +254 or 0, followed by 7 or 1, then 8 digits\n    CASE \n        WHEN raw_phone_number ~ '^(\\+254|0)(7|1)[0-9]{8}$' THEN 'Valid Kenya Mobile'\n        ELSE 'Invalid / Foreign Number'\n    END AS phone_validation_status\nFROM raw_customer_leads;\n```\n\n#### B. Validating M-Pesa Transaction Codes and Masking\nM-Pesa receipt codes consist of exactly 10 uppercase alphanumeric characters (e.g., `QK74XP982Z`):\n\n```sql\nSELECT \n    receipt_id,\n    mpesa_code,\n    -- Mask middle 6 characters for customer privacy: QK******2Z\n    REGEXP_REPLACE(mpesa_code, '([A-Z0-9]{2})[A-Z0-9]{6}([A-Z0-9]{2})', '\\\\1******\\\\2') AS masked_receipt_code\nFROM mpesa_payment_ledger\nWHERE mpesa_code ~ '^[A-Z0-9]{10}$';\n```\n\n---\n\n### 5. NULL Handling vs. Empty Strings ('')\n\nOne of the most frequent sources of data corruption in SQL reporting is confusing a **`NULL`** value with an **empty string (`''`)**:\n\n```sql\n+-----------------------------------------------------------------------------------------+\n|                                NULL vs. EMPTY STRING ('')                               |\n+-------------------------+---------------------------------------------------------------+\n| NULL                    | Unknown, absent, or missing value. Represents the absence of  |\n|                         | data. Cannot be compared with =. (col IS NULL).               |\n+-------------------------+---------------------------------------------------------------+\n| Empty String ('')       | A known, valid string with length zero.                       |\n|                         | (LENGTH('') = 0). Evaluates FALSE to col IS NULL!            |\n+-------------------------+---------------------------------------------------------------+\n```\n\n> [!CAUTION]\n> **The Empty String Blind Spot**: If a form submits an empty string `''`, `WHERE phone_number IS NULL` will **NOT** match it!\n\n#### The Enterprise Pattern: Combining NULLIF and COALESCE\nTo reliably replace both true `NULL`s and blank strings with a safe default, use **`NULLIF(TRIM(column), '')`** inside **`COALESCE()`**:\n\n```sql\nSELECT \n    customer_id,\n    full_name,\n    -- 1. TRIM strips any trailing spaces ('   ' -> '')\n    -- 2. NULLIF converts '' into true SQL NULL\n    -- 3. COALESCE replaces the NULL with our fallback string\n    COALESCE(NULLIF(TRIM(contact_email), ''), 'no-email-provided@fahmrise.ke') AS verified_contact_email,\n    COALESCE(NULLIF(TRIM(alternate_phone), ''), 'N/A') AS fallback_phone\nFROM customer_contacts;\n```\n\n---\n\n### 6. Enterprise Dialogue: Nairobi Logistics Data Staging Cleanup\n\n**Setting:** *Kilima Logistics Dispatch Center, Mombasa Road, Nairobi.*  \n**Characters:**  \n- **Wanjiku Mwangi**: Lead Analytics Architect.  \n- **Kevin Kiprop**: Junior BI Analyst.  \n\n**Kevin:** *\"Wanjiku, our weekly dispatch report shows 1,200 orders without customer phone numbers. But when I queried `WHERE phone_number IS NULL`, SQL only returned 40 rows. What happened to the other 1,160?\"*\n\n**Wanjiku:** *\"Classic data quality trap! The logistics mobile app was sending empty strings (`''`) or spaces instead of database `NULL`s. An empty string has a length of zero, but to SQL it's not NULL.\"*\n\n**Kevin:** *\"How do we fix that across all our automated dashboards?\"*\n\n**Wanjiku:** *\"We wrap the column in `NULLIF(TRIM(phone_number), '')`. That converts blank and whitespace-only strings into true NULLs. Then `COALESCE()` can reliably substitute `'+254700000000'` or flag them for our dispatch team.\"*\n\n**Kevin:** *\"And for our monthly revenue chart, should I group by `EXTRACT(MONTH FROM order_date)`?\"*\n\n**Wanjiku:** *\"Careful! If you group by `EXTRACT(MONTH FROM order_date)`, the engine merges March 2025 and March 2026 into a single 'Month 3' row! Always use `DATE_TRUNC('month', order_date)` for time series so each year and month retains its distinct chronological timestamp.\"*\n\n---\n\n### 7. Professional Vocabulary Bank\n\n| Term | Technical Definition | Enterprise Context |\n| :--- | :--- | :--- |\n| **DATE_TRUNC** | Function that truncates a timestamp to a specified unit (e.g. 'month'), resetting smaller fields to 0. | Standard function for multi-year time-series trend analysis and cohort reporting. |\n| **EXTRACT / DATE_PART** | Function that extracts an isolated numeric date/time subfield (as `DOUBLE PRECISION`). | Used for cyclical seasonality, day-of-week volume modeling, and peak-hour analysis. |\n| **INTERVAL** | SQL data type representing an elapsed duration of time (e.g. `INTERVAL '30 days'`). | Essential for rolling time windows, SLA compliance tracking, and dynamic expiration filtering. |\n| **INITCAP** | Function converting the first character of each word to uppercase and the rest to lowercase. | Vital for cleaning customer names and street addresses entered in all-caps or all-lowercase. |\n| **CONCAT_WS** | Concatenate With Separator function that automatically joins text strings with a delimiter. | The cleanest way to construct readable addresses, full names, and formatted CSV exports. |\n| **POSIX Regex (~*)** | PostgreSQL operator for case-insensitive regular expression pattern matching. | Industrial-grade validation for M-Pesa transaction codes, postal codes, and email formats. |\n| **NULLIF** | Function returning NULL if two arguments are equal; otherwise returns the first argument. | Paired with `TRIM` and `COALESCE` to eliminate empty string anomalies from data pipelines. |\n| **TIMESTAMPTZ** | PostgreSQL data type: Timestamp With Time Zone (stored in UTC, displayed in session zone). | Standard enterprise timestamp representation preventing daylight savings and regional time discrepancies. |\n\n---\n\n### 8. Summary & Best Practices Checklist\n- [x] **Use DATE_TRUNC for Multi-Year Trends**: Avoid grouping by `EXTRACT(MONTH ...)` alone when data spans multiple calendar years.\n- [x] **Know DOW vs ISODOW**: In PostgreSQL, `EXTRACT(DOW ...)` returns 0 (Sunday) to 6 (Saturday); `ISODOW` returns 1 (Monday) to 7 (Sunday).\n- [x] **Account for NULLs in Concatenation**: Prefer `CONCAT()` or `CONCAT_WS()` over `||` when joining columns that might contain `NULL` values.\n- [x] **Normalize Text Before Joining**: Always apply `TRIM()` and `LOWER()`/`UPPER()` when joining strings from different legacy databases.\n- [x] **Convert Empty Strings to NULL**: Use `NULLIF(TRIM(col), '')` before applying `COALESCE()` to avoid empty string silent failures.\n- [x] **Store in UTC, Report in Local Time**: Use `AT TIME ZONE 'Africa/Nairobi'` for Kenyan executive dashboards.",
         "challenge": {
           "type": "quiz",
           "title": "Module 8 Checkpoint: Date & Text Manipulation",
-          "question": "What does the query 'DATE_TRUNC('month', '2026-03-24 16:45:00'::TIMESTAMP)' return in PostgreSQL?",
+          "question": "Why do enterprise SQL analysts prefer DATE_TRUNC('month', order_date) over EXTRACT(MONTH FROM order_date) for multi-year financial trend charts?",
           "options": [
-            "2026-03-31 23:59:59",
-            "2026-03-01 00:00:00",
-            "March",
-            "3"
+            "EXTRACT was deprecated in PostgreSQL 14.",
+            "DATE_TRUNC returns a true timestamp that preserves the year and month together (e.g. 2025-03-01 and 2026-03-01 remain separate chronological data points), whereas EXTRACT(MONTH ...) returns a raw number (3) that erroneously aggregates March 2025 and March 2026 into a single row.",
+            "DATE_TRUNC runs 500 times faster because it deletes the timestamp index.",
+            "EXTRACT cannot be used in a GROUP BY clause in SQL."
           ],
           "correctAnswer": 1,
-          "explanation": "DATE_TRUNC('month', timestamp) resets all date components smaller than month to their beginning values, producing '2026-03-01 00:00:00'."
+          "explanation": "DATE_TRUNC('month', order_date) preserves the chronological timeline by keeping each year's month distinct (e.g., 2025-03-01 vs 2026-03-01), whereas EXTRACT(MONTH ...) returns only the integer month (1 to 12), collapsing different calendar years into the same month bucket."
         }
       },
       {
@@ -10018,31 +11444,137 @@ export const coursesData = [
         "subtitle": "Multi-branch retail & banking dataset: RFM segmentation, cohort retention, and executive metrics reporting",
         "readingTime": "30 min",
         "videoLesson": {
-          "title": "Practical SQL Capstone: Building an End-to-End Analytics Engine",
+          "title": "Data Analyst Portfolio Project | SQL Data Exploration | Project 1/4",
           "channel": "Alex The Analyst",
-          "duration": "28:41:07",
-          "videoId": "cnjhHZNJEDk",
-          "watchUrl": "https://www.youtube.com/watch?v=cnjhHZNJEDk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
-          "url": "https://www.youtube-nocookie.com/embed/cnjhHZNJEDk",
+          "duration": "77:09",
+          "videoId": "qfyynHBFOsM",
+          "watchUrl": "https://www.youtube.com/watch?v=qfyynHBFOsM",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/qfyynHBFOsM",
+          "url": "https://www.youtube-nocookie.com/embed/qfyynHBFOsM",
           "alternativeSource": "https://github.com/AlexTheAnalyst/PortfolioProjects",
           "sourceName": "GitHub — Real-World SQL Portfolio Project Datasets",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "sources": [
+            {
+              "name": "GitHub — Real-World SQL Portfolio Project Datasets",
+              "url": "https://github.com/AlexTheAnalyst/PortfolioProjects"
+            },
+            {
+              "name": "PostgreSQL Documentation — Window Functions",
+              "url": "https://www.postgresql.org/docs/current/tutorial-window.html"
+            }
+          ],
+          "note": "Practical SQL Capstone Project: Tab 1 by Alex The Analyst (77:09) walks through an end-to-end commercial SQL data exploration portfolio project using multi-table joins, CTEs, window functions, and executive aggregations. Tab 2 by Data with Baraa (83:36) demonstrates building an end-to-end SQL analytics engine following real-world industry project standards. Tab 3 by Alex The Analyst (54:44) covers essential commercial data cleaning and normalization. Tab 4 by Data with Baraa (51:14) focuses on exploratory data analysis, KPI generation, and cohort reporting.",
+          "references": [
+            {
+              "id": "ref-capstone-alex-exploration",
+              "tabLabel": "1. Capstone Exploration (Alex)",
+              "topic": "End-to-End SQL Portfolio Project: Commercial Data Exploration, Joins & CTEs",
+              "title": "Data Analyst Portfolio Project | SQL Data Exploration | Project 1/4",
+              "channel": "Alex The Analyst",
+              "duration": "77:09",
+              "videoId": "qfyynHBFOsM",
+              "watchUrl": "https://www.youtube.com/watch?v=qfyynHBFOsM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/qfyynHBFOsM",
+              "url": "https://www.youtube-nocookie.com/embed/qfyynHBFOsM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/AlexTheAnalyst/PortfolioProjects",
+              "sourceName": "GitHub — Real-World SQL Portfolio Project Datasets",
+              "sources": [
+                {
+                  "name": "GitHub — Real-World SQL Portfolio Project Datasets",
+                  "url": "https://github.com/AlexTheAnalyst/PortfolioProjects"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Comprehensive 77-minute end-to-end SQL portfolio project by Alex Freberg. Ingests raw relational tables, writes multi-table joins, authoring CTEs, temp tables, window calculations, and creates reporting-ready analytical views."
+            },
+            {
+              "id": "ref-capstone-baraa-industry",
+              "tabLabel": "2. Real Industry Project (Baraa)",
+              "topic": "End-to-End SQL Analytics Engine: Industry Data Pipelines & Business Logic",
+              "title": "SQL Data Analyst Portfolio Project | Like I Do in My Real Projects",
+              "channel": "Data with Baraa",
+              "duration": "83:36",
+              "videoId": "2jGhQpbzHes",
+              "watchUrl": "https://www.youtube.com/watch?v=2jGhQpbzHes",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/2jGhQpbzHes",
+              "url": "https://www.youtube-nocookie.com/embed/2jGhQpbzHes",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/AlexTheAnalyst/PortfolioProjects",
+              "sourceName": "GitHub — Real-World SQL Portfolio Project Datasets",
+              "sources": [
+                {
+                  "name": "GitHub — Real-World SQL Portfolio Project Datasets",
+                  "url": "https://github.com/AlexTheAnalyst/PortfolioProjects"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Complete 83-minute industry-standard walkthrough demonstrating how professional senior analysts design, structure, and query an enterprise relational analytics engine."
+            },
+            {
+              "id": "ref-capstone-alex-cleaning",
+              "tabLabel": "3. SQL Data Cleaning (Alex)",
+              "topic": "Commercial Data Cleaning: Deduplication with CTEs, Type Formatting & Standardizing",
+              "title": "Data Analyst Portfolio Project | Data Cleaning in SQL | Project 3/4",
+              "channel": "Alex The Analyst",
+              "duration": "54:44",
+              "videoId": "8rO7ztF4NtU",
+              "watchUrl": "https://www.youtube.com/watch?v=8rO7ztF4NtU",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/8rO7ztF4NtU",
+              "url": "https://www.youtube-nocookie.com/embed/8rO7ztF4NtU",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/AlexTheAnalyst/PortfolioProjects",
+              "sourceName": "GitHub — Real-World SQL Portfolio Project Datasets",
+              "sources": [
+                {
+                  "name": "GitHub — Real-World SQL Portfolio Project Datasets",
+                  "url": "https://github.com/AlexTheAnalyst/PortfolioProjects"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Hands-on data cleaning masterclass. Teaches date standardization, separating delimited string fields, handling NULLs vs blank strings, and removing duplicate records with CTEs and ROW_NUMBER()."
+            },
+            {
+              "id": "ref-capstone-baraa-eda",
+              "tabLabel": "4. Exploratory Analysis & KPIs (Baraa)",
+              "topic": "Exploratory Data Analysis (EDA) in SQL: Metric Aggregations & Customer Cohorts",
+              "title": "SQL Exploratory Data Analysis (EDA) Project | Full Hands-On Portfolio Project",
+              "channel": "Data with Baraa",
+              "duration": "51:14",
+              "videoId": "6cJ5Ji8zSDg",
+              "watchUrl": "https://www.youtube.com/watch?v=6cJ5Ji8zSDg",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/6cJ5Ji8zSDg",
+              "url": "https://www.youtube-nocookie.com/embed/6cJ5Ji8zSDg",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/AlexTheAnalyst/PortfolioProjects",
+              "sourceName": "GitHub — Real-World SQL Portfolio Project Datasets",
+              "sources": [
+                {
+                  "name": "GitHub — Real-World SQL Portfolio Project Datasets",
+                  "url": "https://github.com/AlexTheAnalyst/PortfolioProjects"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Comprehensive 51-minute guide to SQL exploratory analysis. Covers gross margin calculations, sales velocity, customer cohort performance, and executive scorecard generation."
+            }
+          ]
         },
-        "summary": "Apply all SQL querying, aggregation, JOIN, CTE, date, and windowing skills into an enterprise-grade Capstone Project. Ingest raw banking & commerce records, calculate customer lifetime value, and generate executive KPI reports.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Execute an end-to-end commercial SQL project against a realistic multi-table relational schema.\n2. Author clean, modular multi-stage CTE queries answering strategic business questions.\n3. Compute customer cohort retention rates and month-over-month sales velocity.\n4. Build a customer RFM (Recency, Frequency, Monetary) segmentation matrix.\n5. Export clean, formatted executive summary datasets ready for board reporting.\n\n---\n\n### 1. Capstone Scenario: \"Savannah Commercial Bank & Retail Kenya\"\n\n**Savannah Enterprises** operates commercial retail hubs and digital merchant payment settlement gateways across Kenya.\n\n#### Schema Architecture:\n- **`customers`**: `customer_id`, `full_name`, `phone`, `signup_date`, `region`, `segment`.\n- **`products`**: `product_id`, `product_name`, `category`, `unit_cost_ksh`, `unit_price_ksh`.\n- **`branches`**: `branch_id`, `branch_name`, `county`, `branch_tier`.\n- **`transactions`**: `transaction_id`, `customer_id`, `product_id`, `branch_id`, `transaction_date`, `quantity`, `payment_channel`, `status`.\n\n---\n\n### 2. Comprehensive Capstone Analytical Script\n\n```sql\n-- =============================================================================\n-- CAPSTONE QUERY 1: EXECUTIVE MONTHLY REVENUE, PROFIT & M-PESA PENETRATION\n-- =============================================================================\nWITH monthly_financials AS (\n    SELECT \n        DATE_TRUNC('month', t.transaction_date)::DATE AS sales_month,\n        COUNT(DISTINCT t.transaction_id) AS total_orders,\n        COUNT(DISTINCT t.customer_id) AS active_customers,\n        SUM(t.quantity * p.unit_price_ksh) AS gross_revenue_ksh,\n        SUM(t.quantity * p.unit_cost_ksh) AS total_cogs_ksh,\n        SUM(CASE WHEN t.payment_channel = 'M-Pesa' THEN (t.quantity * p.unit_price_ksh) ELSE 0 END) AS mpesa_revenue_ksh\n    FROM transactions AS t\n    INNER JOIN products AS p ON t.product_id = p.product_id\n    WHERE t.status = 'Completed'\n    GROUP BY DATE_TRUNC('month', t.transaction_date)\n)\nSELECT \n    sales_month,\n    total_orders,\n    active_customers,\n    gross_revenue_ksh,\n    (gross_revenue_ksh - total_cogs_ksh) AS gross_profit_ksh,\n    ROUND(((gross_revenue_ksh - total_cogs_ksh) / NULLIF(gross_revenue_ksh, 0)) * 100, 2) AS gross_margin_pct,\n    ROUND((mpesa_revenue_ksh / NULLIF(gross_revenue_ksh, 0)) * 100, 2) AS mpesa_penetration_pct,\n    LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC) AS prior_month_revenue_ksh,\n    ROUND(\n        ((gross_revenue_ksh - LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC)) \n        / NULLIF(LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC), 0)) * 100, \n        2\n    ) AS mom_growth_pct\nFROM monthly_financials\nORDER BY sales_month ASC;\n\n-- =============================================================================\n-- CAPSTONE QUERY 2: CUSTOMER RFM LOYALTY & CHURN SEGMENTATION\n-- =============================================================================\nWITH customer_rfm_raw AS (\n    SELECT \n        c.customer_id,\n        c.full_name,\n        c.region,\n        COUNT(t.transaction_id) AS frequency_orders,\n        SUM(t.quantity * p.unit_price_ksh) AS monetary_spend_ksh,\n        ('2026-03-31'::DATE - MAX(t.transaction_date)::DATE) AS recency_days\n    FROM customers AS c\n    INNER JOIN transactions AS t ON c.customer_id = t.customer_id\n    INNER JOIN products AS p ON t.product_id = p.product_id\n    WHERE t.status = 'Completed'\n    GROUP BY c.customer_id, c.full_name, c.region\n),\ncustomer_scores AS (\n    SELECT \n        customer_id,\n        full_name,\n        region,\n        recency_days,\n        frequency_orders,\n        monetary_spend_ksh,\n        NTILE(4) OVER (ORDER BY recency_days ASC) AS recency_score,       -- 4 = Most recent\n        NTILE(4) OVER (ORDER BY frequency_orders ASC) AS frequency_score, -- 4 = Most frequent\n        NTILE(4) OVER (ORDER BY monetary_spend_ksh ASC) AS monetary_score -- 4 = Highest spend\n    FROM customer_rfm_raw\n)\nSELECT \n    customer_id,\n    full_name,\n    region,\n    recency_days,\n    frequency_orders,\n    monetary_spend_ksh,\n    (recency_score + frequency_score + monetary_score) AS composite_rfm_score,\n    CASE \n        WHEN (recency_score + frequency_score + monetary_score) >= 10 THEN 'VIP Champion'\n        WHEN recency_score >= 3 AND frequency_score >= 2 THEN 'Loyal Customer'\n        WHEN recency_score = 1 AND monetary_score >= 3 THEN 'High-Value Churn Risk'\n        ELSE 'Standard Retail'\n    END AS strategic_customer_segment\nFROM customer_scores\nORDER BY monetary_spend_ksh DESC;\n```\n\n---\n\n### 3. Final Capstone Submission & Certificate Eligibility\n\nCongratulations on completing the **SQL for Data Analysis** curriculum!\n- You have mastered relational database theory, core querying, multi-table JOINs, conditional aggregations, modular CTEs, string & temporal manipulation, and advanced analytical window functions.\n- Mark this final capstone lesson complete in your dashboard to unlock your official **Verified FAHMRISE Certificate of Completion in SQL for Data Analysis**.",
+        "summary": "Apply all SQL querying, aggregation, JOIN, CTE, date, and windowing skills into an enterprise-grade Capstone Project. Ingest raw banking & commerce records, calculate customer lifetime value, cohort retention, and generate executive KPI reports.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Execute an end-to-end commercial SQL project against a realistic multi-table relational schema.\n2. Author clean, modular multi-stage CTE queries calculating executive financial KPIs (Gross Revenue, COGS, Gross Profit, Gross Margin %, M-Pesa Penetration, and MoM Growth).\n3. Build a customer RFM (Recency, Frequency, Monetary) segmentation matrix using `NTILE(4)`, properly handling inactive customers and quartile scoring directions.\n4. Model customer cohort retention rates month-over-month to measure long-term customer lifetime loyalty.\n5. Rank regional branches and product categories by revenue and gross margin contribution using window ranking functions.\n6. Export clean, formatted executive summary datasets ready for C-suite and board presentations.\n\n---\n\n### 1. Capstone Scenario: \"Savannah Commercial Bank & Retail Kenya\"\n\n**Savannah Enterprises** operates commercial retail hubs, wholesale supply chains, and digital merchant payment settlement gateways across Kenya (Nairobi CBD, Westlands, Mombasa, Kisumu, Nakuru, and Eldoret).\n\n#### Schema Architecture:\n```sql\n+---------------------------------------------------------------------------------------------------+\n|                        SAVANNAH ENTERPRISES RELATIONAL DATA MODEL                                 |\n+---------------------------------------------------------------------------------------------------+\n|  CUSTOMERS                     TRANSACTIONS                     PRODUCTS                          |\n|  * customer_id (PK)            * transaction_id (PK)            * product_id (PK)                 |\n|    full_name                     customer_id (FK)                 product_name                    |\n|    phone                         product_id (FK)                  category                        |\n|    signup_date                   branch_id (FK)                   unit_cost_ksh (NUMERIC)         |\n|    region                        transaction_date (TIMESTAMP)     unit_price_ksh (NUMERIC)        |\n|    segment                       quantity (INTEGER)                                               |\n|                                  payment_channel (VARCHAR)      BRANCHES                          |\n|                                  status (Completed/Cancelled)   * branch_id (PK)                  |\n|                                                                   branch_name                     |\n|                                                                   county                          |\n|                                                                   branch_tier                     |\n+---------------------------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Comprehensive Capstone Analytical Script\n\nThe analytical script consists of four modular production queries answering the core executive requirements:\n\n#### Query 1: Executive Monthly Financials, Profitability & M-Pesa Penetration\nThis query computes core financial performance: Gross Revenue, Total Cost of Goods Sold (COGS), Gross Profit, Gross Margin Percentage, M-Pesa Payment Penetration, and Month-over-Month (MoM) Revenue Growth with zero-division error handling:\n\n```sql\n-- =============================================================================\n-- CAPSTONE QUERY 1: EXECUTIVE MONTHLY FINANCIALS & M-PESA PENETRATION\n-- =============================================================================\nWITH monthly_financials AS (\n    SELECT \n        DATE_TRUNC('month', t.transaction_date)::DATE AS sales_month,\n        COUNT(DISTINCT t.transaction_id) AS total_orders,\n        COUNT(DISTINCT t.customer_id) AS active_transacting_customers,\n        -- Gross Revenue & Cost of Goods Sold (cast to NUMERIC to guarantee precision)\n        SUM(t.quantity * p.unit_price_ksh::NUMERIC) AS gross_revenue_ksh,\n        SUM(t.quantity * p.unit_cost_ksh::NUMERIC) AS total_cogs_ksh,\n        -- M-Pesa channel revenue\n        SUM(CASE WHEN t.payment_channel = 'M-Pesa' THEN (t.quantity * p.unit_price_ksh::NUMERIC) ELSE 0 END) AS mpesa_revenue_ksh\n    FROM transactions AS t\n    INNER JOIN products AS p ON t.product_id = p.product_id\n    WHERE t.status = 'Completed'\n    GROUP BY DATE_TRUNC('month', t.transaction_date)\n)\nSELECT \n    sales_month,\n    total_orders,\n    active_transacting_customers,\n    gross_revenue_ksh,\n    total_cogs_ksh,\n    -- Gross Profit = Gross Revenue - Total COGS\n    (gross_revenue_ksh - total_cogs_ksh) AS gross_profit_ksh,\n    -- Gross Margin % = (Gross Profit / Gross Revenue) * 100\n    ROUND(((gross_revenue_ksh - total_cogs_ksh) / NULLIF(gross_revenue_ksh, 0)) * 100, 2) AS gross_margin_pct,\n    -- M-Pesa Penetration % = (M-Pesa Revenue / Gross Revenue) * 100\n    ROUND((mpesa_revenue_ksh / NULLIF(gross_revenue_ksh, 0)) * 100, 2) AS mpesa_penetration_pct,\n    -- Month-over-Month Revenue Velocity via LAG()\n    LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC) AS prior_month_revenue_ksh,\n    (gross_revenue_ksh - LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC)) AS mom_growth_ksh,\n    ROUND(\n        ((gross_revenue_ksh - LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC)) \n        / NULLIF(LAG(gross_revenue_ksh, 1) OVER (ORDER BY sales_month ASC), 0)) * 100, \n        2\n    ) AS mom_growth_pct\nFROM monthly_financials\nORDER BY sales_month ASC;\n```\n\n---\n\n#### Query 2: Enterprise Customer RFM Segmentation & Quartile Scoring\nRFM (Recency, Frequency, Monetary) segmentation groups customers based on transaction history. In production databases, analysts must preserve registered customers with zero orders:\n1. Use **`LEFT JOIN`** so inactive registered users are not dropped.\n2. Use **`COALESCE(SUM(...), 0)`** so zero-spend customers return `0` instead of `NULL`.\n3. Set analysis benchmark date to **`'2026-03-31'::DATE`**.\n4. **NTILE Recency Ordering**: In RFM scoring, **Tile 4 must represent the most desirable state**. Because fewer days elapsed indicates higher recency, sorting `ORDER BY recency_days DESC` assigns Tile 1 to the most dormant customers and **Tile 4 to the most recent customers**:\n\n```sql\n-- =============================================================================\n-- CAPSTONE QUERY 2: CUSTOMER RFM LOYALTY & CHURN SEGMENTATION\n-- =============================================================================\nWITH customer_rfm_raw AS (\n    SELECT \n        c.customer_id,\n        c.full_name,\n        c.region,\n        c.signup_date,\n        COUNT(t.transaction_id) AS frequency_orders,\n        COALESCE(SUM(t.quantity * p.unit_price_ksh::NUMERIC), 0) AS monetary_spend_ksh,\n        -- Calculate days elapsed since last purchase; if no purchase, measure from signup\n        CASE \n            WHEN MAX(t.transaction_date) IS NOT NULL \n                THEN ('2026-03-31'::DATE - MAX(t.transaction_date)::DATE)\n            ELSE ('2026-03-31'::DATE - c.signup_date::DATE)\n        END AS recency_days,\n        CASE WHEN MAX(t.transaction_date) IS NULL THEN TRUE ELSE FALSE END AS has_never_purchased\n    FROM customers AS c\n    LEFT JOIN transactions AS t \n        ON c.customer_id = t.customer_id \n       AND t.status = 'Completed'\n    LEFT JOIN products AS p \n        ON t.product_id = p.product_id\n    GROUP BY c.customer_id, c.full_name, c.region, c.signup_date\n),\ncustomer_quartiles AS (\n    SELECT \n        customer_id,\n        full_name,\n        region,\n        recency_days,\n        frequency_orders,\n        monetary_spend_ksh,\n        has_never_purchased,\n        -- Recency: ORDER BY recency_days DESC so smallest days (most recent) receive Tile 4!\n        NTILE(4) OVER (ORDER BY recency_days DESC) AS recency_score,\n        -- Frequency: 4 = Most frequent orders\n        NTILE(4) OVER (ORDER BY frequency_orders ASC) AS frequency_score,\n        -- Monetary: 4 = Highest lifetime spend\n        NTILE(4) OVER (ORDER BY monetary_spend_ksh ASC) AS monetary_score\n    FROM customer_rfm_raw\n)\nSELECT \n    customer_id,\n    full_name,\n    region,\n    recency_days,\n    frequency_orders,\n    monetary_spend_ksh,\n    recency_score,\n    frequency_score,\n    monetary_score,\n    (recency_score + frequency_score + monetary_score) AS composite_rfm_score,\n    CASE \n        WHEN has_never_purchased = TRUE THEN 'Registered - Never Transacted'\n        WHEN (recency_score + frequency_score + monetary_score) >= 10 THEN 'VIP Champion'\n        WHEN recency_score >= 3 AND frequency_score >= 2 THEN 'Loyal Core Customer'\n        WHEN recency_score = 1 AND monetary_score >= 3 THEN 'High-Value Churn Risk'\n        WHEN recency_score = 1 THEN 'Dormant Inactive'\n        ELSE 'Standard Retail'\n    END AS strategic_customer_segment\nFROM customer_quartiles\nORDER BY monetary_spend_ksh DESC;\n```\n\n---\n\n#### Query 3: Monthly Customer Cohort Retention Analysis\nMeasures long-term customer stickiness. Assigns customers to cohorts based on their initial signup month, then tracks the percentage of customers who continue placing completed transactions in subsequent months:\n\n```sql\n-- =============================================================================\n-- CAPSTONE QUERY 3: MONTHLY CUSTOMER COHORT RETENTION ENGINE\n-- =============================================================================\nWITH customer_cohort_assignment AS (\n    -- Stage 1: Identify each customer's inception signup cohort\n    SELECT \n        customer_id,\n        DATE_TRUNC('month', signup_date)::DATE AS cohort_month\n    FROM customers\n),\ncohort_sizes AS (\n    -- Stage 2: Calculate the baseline denominator (cohort size)\n    SELECT \n        cohort_month,\n        COUNT(DISTINCT customer_id) AS total_cohort_size\n    FROM customer_cohort_assignment\n    GROUP BY cohort_month\n),\ncustomer_monthly_activity AS (\n    -- Stage 3: Map completed purchase activity months\n    SELECT \n        cca.cohort_month,\n        DATE_TRUNC('month', t.transaction_date)::DATE AS activity_month,\n        COUNT(DISTINCT t.customer_id) AS active_retained_customers\n    FROM customer_cohort_assignment AS cca\n    INNER JOIN transactions AS t ON cca.customer_id = t.customer_id\n    WHERE t.status = 'Completed'\n    GROUP BY cca.cohort_month, DATE_TRUNC('month', t.transaction_date)::DATE\n)\n-- Stage 4: Calculate retention rate and month index offset\nSELECT \n    cma.cohort_month,\n    cs.total_cohort_size,\n    cma.activity_month,\n    -- Compute calendar month offset (Month 0, Month 1, Month 2...)\n    (\n        (EXTRACT(YEAR FROM cma.activity_month) - EXTRACT(YEAR FROM cma.cohort_month)) * 12 +\n        (EXTRACT(MONTH FROM cma.activity_month) - EXTRACT(MONTH FROM cma.cohort_month))\n    )::INTEGER AS month_offset,\n    cma.active_retained_customers,\n    -- Retention Rate % = (Active Retained / Total Cohort Size) * 100\n    ROUND((cma.active_retained_customers::NUMERIC / cs.total_cohort_size::NUMERIC) * 100, 2) AS retention_rate_pct\nFROM customer_monthly_activity AS cma\nINNER JOIN cohort_sizes AS cs ON cma.cohort_month = cs.cohort_month\nORDER BY cma.cohort_month ASC, month_offset ASC;\n```\n\n---\n\n#### Query 4: Regional Branch Efficiency & Product Velocity\nAssesses regional performance across Kenya and identifies top-ranking product categories in each branch:\n\n```sql\n-- =============================================================================\n-- CAPSTONE QUERY 4: REGIONAL BRANCH EFFICIENCY & CATEGORY RANKINGS\n-- =============================================================================\nWITH branch_category_summary AS (\n    SELECT \n        b.branch_name,\n        b.county,\n        b.branch_tier,\n        p.category,\n        COUNT(t.transaction_id) AS total_sales_volume,\n        SUM(t.quantity * p.unit_price_ksh::NUMERIC) AS category_revenue_ksh,\n        SUM(t.quantity * (p.unit_price_ksh - p.unit_cost_ksh)::NUMERIC) AS category_gross_profit_ksh\n    FROM branches AS b\n    INNER JOIN transactions AS t ON b.branch_id = t.branch_id\n    INNER JOIN products AS p ON t.product_id = p.product_id\n    WHERE t.status = 'Completed'\n    GROUP BY b.branch_name, b.county, b.branch_tier, p.category\n)\nSELECT \n    branch_name,\n    county,\n    branch_tier,\n    category,\n    total_sales_volume,\n    category_revenue_ksh,\n    category_gross_profit_ksh,\n    ROUND((category_gross_profit_ksh / NULLIF(category_revenue_ksh, 0)) * 100, 2) AS category_margin_pct,\n    -- Rank product categories within each branch by revenue\n    DENSE_RANK() OVER (\n        PARTITION BY branch_name \n        ORDER BY category_revenue_ksh DESC\n    ) AS category_rank_in_branch\nFROM branch_category_summary\nORDER BY branch_name ASC, category_rank_in_branch ASC;\n```\n\n---\n\n### 3. Enterprise Dialogue: Savannah Boardroom Analytics Presentation\n\n**Setting:** *Savannah Commercial Bank & Retail Kenya Boardroom, Westlands, Nairobi.*  \n**Characters:**  \n- **Wanjiku Mwangi**: Lead Analytics Architect.  \n- **Kevin Kiprop**: Junior BI Analyst.  \n- **Eng. Sarah Kamau**: Chief Operating Officer.  \n\n**Sarah:** *\"Kevin and Wanjiku, this board report looks phenomenal. But I want to examine our customer retention numbers. In Query 2, how did you ensure our RFM churn model didn't overlook customers who signed up but haven't placed an order yet?\"*\n\n**Kevin:** *\"In our initial draft, we used an `INNER JOIN` between customers and transactions, which accidentally dropped everyone who had never transacted! Wanjiku guided me to refactor this into a `LEFT JOIN` with `COALESCE(SUM(...), 0)`. That isolated our 'Registered - Never Transacted' users, allowing our sales team to target them with personalized first-order M-Pesa discounts.\"*\n\n**Sarah:** *\"Brilliant. And what about the MoM growth in Query 1?\"*\n\n**Kevin:** *\"We used the `LAG()` window function to compare each month's revenue against the immediately preceding month. To prevent runtime division-by-zero crashes when launching in a new branch where prior revenue is zero, we wrapped the denominator in `NULLIF(prior_month, 0)`.\"*\n\n**Wanjiku:** *\"Furthermore, in Query 3, our cohort retention model measures loyalty by tracking Month 0 through Month 5 retention rates per signup cohort. The board can clearly see that M-Pesa integration in Q1 increased 90-day customer retention by 14.8%.\"*\n\n---\n\n### 4. Professional Vocabulary Bank\n\n| Term | Technical Definition | Enterprise Context |\n| :--- | :--- | :--- |\n| **Commercial Analytics Engine** | A complete SQL data pipeline transforming raw operational records into strategic executive reporting metrics. | The foundation of enterprise business intelligence, replacing manual spreadsheets with automated database scripts. |\n| **COGS (Cost of Goods Sold)** | Direct material and acquisition costs incurred to produce or purchase sold merchandise. | Subtracted from gross revenue to determine gross profit and profitability margins. |\n| **Gross Margin %** | The percentage of revenue retained as profit after deducting direct production/acquisition costs. | Calculated as `((Gross Revenue - COGS) / Gross Revenue) * 100`. |\n| **RFM Segmentation** | Analytical scoring of customers based on Recency (last active), Frequency (order count), and Monetary (spend). | Divides customers into actionable loyalty tiers (Champions, Loyal, Churn Risk) using statistical quartiles. |\n| **NTILE(n)** | Window function that divides an ordered partition into `n` approximately equal buckets. | Used to compute standardized percentile scores (1 to 4) across recency, frequency, and monetary metrics. |\n| **Cohort Retention** | Tracking a specific group of users who signed up in the same period over subsequent calendar months. | Measures long-term customer stickiness, product-market fit, and customer lifetime value (LTV). |\n| **Month Offset** | The integer number of calendar months elapsed between a customer's inception cohort and their activity month. | Normalizes customer lifecycles so different cohorts can be compared side-by-side in retention matrices. |\n| **M-Pesa Penetration %** | Proportion of total business revenue settled through digital mobile money (M-Pesa). | Core KPI in East African commerce measuring digital adoption and settlement efficiency. |\n\n---\n\n### 5. Summary & Capstone Deliverables Checklist\n- [x] **Multi-Table Enterprise Joins**: Transactions joined with Customers, Products, and Branches without duplicating rows.\n- [x] **Safe Financial Math**: All currency fields cast to `NUMERIC` and wrapped with `NULLIF(denominator, 0)` to prevent integer truncation and divide-by-zero crashes.\n- [x] **Complete Customer Preservation**: Used `LEFT JOIN` and `COALESCE` in RFM queries so non-purchasing users are classified rather than silently dropped.\n- [x] **Correct NTILE Recency Direction**: Ordered by `recency_days DESC` so that the most recent customers receive the highest quartile score (Tile 4).\n- [x] **Cohort Retention Matrix**: Analyzes customer retention month-over-month normalized by signup cohort month.\n- [x] **Executive-Ready Exports**: Clean column naming conventions, rounded currency values, and formatted percentages ready for reporting.\n\n---\n\n### 6. Final Capstone Submission & Certificate Eligibility\n\nCongratulations on completing the **SQL for Data Analysis** curriculum!\n- You have mastered relational database theory, core querying, multi-table JOINs, conditional aggregations, modular CTEs, string & temporal manipulation, window functions, and enterprise capstone architecture.\n- Mark this final capstone lesson complete in your dashboard to unlock your official **Verified FAHMRISE Certificate of Completion in SQL for Data Analysis**.",
         "challenge": {
           "type": "quiz",
           "title": "Module 10 Checkpoint: SQL Capstone Mastery",
-          "question": "In the Capstone RFM analysis query, what does 'NTILE(4) OVER (ORDER BY monetary_spend_ksh ASC)' accomplish?",
+          "question": "In the Capstone Customer RFM query, why must the recency score use 'NTILE(4) OVER (ORDER BY recency_days DESC)' to assign Tile 4 to the most recent customers?",
           "options": [
-            "It rounds all monetary amounts to 4 decimal places.",
-            "It divides the ordered customer base into 4 equal quartiles based on their total spending, assigning a rank score from 1 (lowest 25%) to 4 (top 25%).",
-            "It deletes the lowest 4 spenders from the database.",
-            "It limits the query to only 4 rows."
+            "PostgreSQL requires all window functions to sort in descending order.",
+            "Because fewer days elapsed represents higher recency; sorting by recency_days in descending order places the largest day counts into Tile 1 and the smallest day counts (most recent customers) into Tile 4.",
+            "DESC forces PostgreSQL to delete inactive accounts.",
+            "It converts recency days into Kenyan Shillings."
           ],
           "correctAnswer": 1,
-          "explanation": "NTILE(4) divides an ordered partition into four equal quartiles, assigning integer bucket scores (1 to 4) which form the foundation of statistical customer RFM segmentation."
+          "explanation": "In RFM modeling, Tile 4 represents the best score. Because a customer who purchased 2 days ago is much more recent than one who purchased 300 days ago, ordering by recency_days DESC ensures the lowest day counts receive the highest quartile rank (Tile 4)."
         }
       }
     ]
