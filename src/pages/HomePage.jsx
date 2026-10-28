@@ -95,18 +95,6 @@ export default function HomePage() {
       category: "Technology"
     },
     {
-      id: "data-analysis-spreadsheets",
-      title: "Data Analysis & Spreadsheet Mastery",
-      subtitle: "Organise, analyse, and present data using spreadsheets, Pivot Tables & executive reporting.",
-      badge: "Core Track • 10 Modules",
-      price: 8000,
-      paymentType: "one_time",
-      color: "from-teal-600 to-emerald-900",
-      lessons: 10,
-      hours: "20-30 Hours",
-      category: "Technology"
-    },
-    {
       id: "power-bi-business-intelligence",
       title: "Power BI & Business Intelligence",
       subtitle: "Connect data, build Star Schemas, write DAX formulas & create executive dashboards.",

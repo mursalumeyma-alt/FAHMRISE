@@ -187,7 +187,9 @@ export const api = {
       }
 
       // Resilient local fallback from canonical coursesData
-      const catalog = coursesData.map(course => {
+      const catalog = coursesData
+        .filter(course => !course.hideFromCatalog && course.id !== 'data-analysis-spreadsheets')
+        .map(course => {
         const { lessons, ...summary } = course;
         return {
           ...summary,

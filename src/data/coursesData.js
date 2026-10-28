@@ -4723,16 +4723,54 @@ export const coursesData = [
         "subtitle": "The 3 core components of Power BI, report vs dashboard architecture, and modern data-driven decision making",
         "readingTime": "18 min",
         "videoLesson": {
-          "title": "How to Install Power BI & Building Your First Visualization",
-          "channel": "Alex The Analyst",
-          "duration": "12:50",
-          "videoId": "g0m5sEHPU-s",
-          "watchUrl": "https://www.youtube.com/watch?v=g0m5sEHPU-s",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/g0m5sEHPU-s",
-          "url": "https://www.youtube-nocookie.com/embed/g0m5sEHPU-s",
+          "title": "How to use Microsoft Power BI - Tutorial for Beginners",
+          "channel": "Kevin Stratvert",
+          "duration": "27:52",
+          "videoId": "TmhQCQr_DCA",
+          "watchUrl": "https://www.youtube.com/watch?v=TmhQCQr_DCA",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/TmhQCQr_DCA",
+          "url": "https://www.youtube-nocookie.com/embed/TmhQCQr_DCA",
           "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-getting-started",
           "sourceName": "Microsoft Learn — Getting Started with Power BI Desktop",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "note": "Power BI Ecosystem & Workflow Masterclass: Kevin Stratvert demonstrates the complete end-to-end Power BI workflow (27:52) from installation and desktop interface navigation, data ingestion (Excel & Web), Power Query ETL transformations, and data model relationship building, to interactive chart authoring, slicers, and cloud report publishing to Power BI Service. Topic Tab 2 features RADACAD's Reza Rad (24:45) explaining the essential architectural distinctions between Power BI Reports and Power BI Dashboards.",
+          "references": [
+            {
+              "id": "ref-pbi-fundamentals",
+              "tabLabel": "1. Power BI Ecosystem & Workflow",
+              "topic": "Power BI Desktop, Power Query, Modeling, Visuals & Cloud Publishing",
+              "title": "How to use Microsoft Power BI - Tutorial for Beginners",
+              "channel": "Kevin Stratvert",
+              "duration": "27:52",
+              "videoId": "TmhQCQr_DCA",
+              "watchUrl": "https://www.youtube.com/watch?v=TmhQCQr_DCA",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/TmhQCQr_DCA",
+              "url": "https://www.youtube-nocookie.com/embed/TmhQCQr_DCA",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-getting-started",
+              "sourceName": "Microsoft Learn — Getting Started with Power BI Desktop",
+              "note": "Topic 1 Tutorial (Primary): Comprehensive 28-minute masterclass covering BI fundamentals, Power BI Desktop canvas layout, multi-source ingestion (Excel & Web), Power Query cleansing, data modeling relationships, card and chart visuals, slicers, and publishing to Power BI Service for stakeholder collaboration."
+            },
+            {
+              "id": "ref-reports-vs-dashboards",
+              "tabLabel": "2. Reports vs Dashboards Architecture",
+              "topic": "Power BI Desktop Reports vs Power BI Service Single-Page Dashboards",
+              "title": "Power BI Dashboard VS Report Differences and Scenarios",
+              "channel": "RADACAD",
+              "duration": "24:45",
+              "videoId": "GDzzh4T_IaM",
+              "watchUrl": "https://www.youtube.com/watch?v=GDzzh4T_IaM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/GDzzh4T_IaM",
+              "url": "https://www.youtube-nocookie.com/embed/GDzzh4T_IaM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/fundamentals/service-basic-concepts",
+              "sourceName": "Microsoft Learn — Basic Concepts for Power BI Service",
+              "note": "Topic 2 Tutorial (Supplemental): Microsoft MVP Reza Rad breaks down the critical architecture differences: multi-page exploratory Power BI Reports (built in Desktop, tied to a single semantic model) vs single-page executive Dashboards (built exclusively in Power BI Service by pinning tiles across multiple reports for high-level KPI monitoring)."
+            }
+          ]
         },
         "summary": "Explore the end-to-end architecture of Microsoft Power BI, understand the roles of Power BI Desktop, Power BI Service, and Mobile, and establish the 4-phase BI workflow from data extraction to executive consumption.",
         "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Explain the fundamental purpose of Business Intelligence (BI) and how it differs from traditional static spreadsheet reporting.\n2. Identify and distinguish between the three primary components of the Microsoft Power BI ecosystem: **Power BI Desktop**, **Power BI Service (Cloud)**, and **Power BI Mobile**.\n3. Understand the four distinct phases of the Power BI workflow: **Extract/Transform (Power Query)** -> **Model & Calculate (DAX)** -> **Visualize (Report Canvas)** -> **Publish & Share (Power BI Service)**.\n4. Differentiate between a **Power BI Report** (multi-page, interactive analytical artifact) and a **Power BI Dashboard** (single-page executive monitoring pin-board).\n5. Understand the performance advantages of the **VertiPaq In-Memory Columnar Database Engine** over traditional row-based storage.\n\n---\n\n### 1. What is Business Intelligence (BI)?\n\nIn modern commerce—whether managing retail distribution across Kenya, monitoring telecom subscriber traffic, or tracking logistics freight from Mombasa port—organizations generate massive volumes of transactional data daily. \n\nTraditional spreadsheet workflows suffer from critical bottlenecks:\n- **File Fragmentation**: Multiple versions of `Sales_Report_Final_v2_updated.xlsx` emailed across teams.\n- **Row Limits & Slow Performance**: Excel degrades rapidly beyond a few hundred thousand rows.\n- **Manual Repetition**: Analysts spend 80% of their time copying, pasting, and repairing VLOOKUPs instead of generating insights.\n- **Security Risks**: Unrestricted file sharing with hardcoded sensitive financial data.\n\n**Business Intelligence (BI)** solves these challenges by creating automated, centralized, and governed analytical systems that convert raw operational data into actionable strategic insights.\n\n```\n+-------------------------------------------------------------------------------+\n|                      THE 4-PHASE POWER BI ANALYTICAL PIPELINE                 |\n+-------------------------------------------------------------------------------+\n|                                                                               |\n|  [ Phase 1: Ingest & Clean ]      [ Phase 2: Model & Calculate ]              |\n|  Power Query (M Engine)           Tabular Data Model & DAX                    |\n|  - Connect to DBs, CSVs, APIs     - Build Relationships (1:* Star Schema)     |\n|  - Cleanse, Pivot, Filter rows    - Write Explicit Business Measures          |\n|                 |                                    |                        |\n|                 v                                    v                        |\n|  [ Phase 3: Visual Canvas ]       [ Phase 4: Cloud Collaboration ]            |\n|  Power BI Desktop Canvas          Power BI Service & Mobile                   |\n|  - Interactive Charts & Cards     - Automated Scheduled Refresh               |\n|  - Drill-throughs & Slicers       - Row-Level Security (RLS) & Workspaces     |\n|                                                                               |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. The 3 Primary Components of the Power BI Ecosystem\n\n1. **Power BI Desktop (Authoring Tool)**:\n   - Free Windows desktop application used by data analysts to connect to data sources, author transformation pipelines, build data models, write DAX measures, and design visual report canvases.\n   - Saves files as `.pbix` (Power BI Report file).\n\n2. **Power BI Service (SaaS Cloud Platform)**:\n   - Hosted cloud environment (`app.powerbi.com`) where reports are published, shared, scheduled for automatic background data refresh, and secured with enterprise Row-Level Security (RLS).\n   - Allows stakeholders to view, filter, and interact with reports through any modern web browser without needing Power BI Desktop installed.\n\n3. **Power BI Mobile**:\n   - Native iOS and Android applications providing executive scorecards, KPI alerts, and touch-optimized dashboard views on smartphones and tablets.\n\n---\n\n### 3. Power BI Report vs Power BI Dashboard\n\nA critical distinction in Power BI terminology:\n\n| Feature | Power BI Report | Power BI Dashboard |\n| :--- | :--- | :--- |\n| **Creation Environment** | Authored in Power BI Desktop & Service | Created exclusively in Power BI Service |\n| **Page Count** | Multi-page analytical documents (e.g. Sales, Inventory, Customers) | Single-page high-level monitoring display |\n| **Data Sources** | Built against a single semantic data model | Can pin tiles from multiple different reports and datasets |\n| **Interactivity** | Full slicing, dicing, cross-filtering, and drill-through | Clicking a tile navigates directly to the underlying source report |\n| **Primary Audience** | Operational analysts, department leads, deep-dive investigators | C-Suite executives, board members requiring real-time pulse monitoring |\n\n---\n\n### 4. The Power Behind Power BI: The VertiPaq Engine\n\nWhen data is loaded into Power BI in **Import Mode**, Power BI utilizes the **VertiPaq in-memory columnar database engine**. \n- Unlike standard relational databases that store data row-by-row, VertiPaq compresses and indexes data **column-by-column**.\n- Columns with low cardinality (few unique values, such as `Region` or `Payment_Method`) achieve compression ratios of **10x to 20x**.\n- Queries evaluate billions of rows in milliseconds because the CPU scans only the specific columns referenced in your calculation.\n\n---\n\n### 5. Summary & Key Takeaways\n- Power BI is a full-stack business intelligence platform consisting of Power Query (ETL), Tabular Modeling (Relationships), DAX (Calculations), and Power BI Service (Cloud Governance).\n- Always build data models in Power BI Desktop and publish to Power BI Service for automated stakeholder consumption.",
@@ -4763,19 +4801,84 @@ export const coursesData = [
         "subtitle": "Excel, CSV, PostgreSQL, SQL Server, Web APIs, Folder batch ingestion, and DirectQuery vs Import mode",
         "readingTime": "20 min",
         "videoLesson": {
-          "title": "Connecting to Diverse Data Sources & Ingestion Strategies",
-          "channel": "Alex The Analyst",
-          "duration": "12:50",
-          "videoId": "g0m5sEHPU-s",
-          "watchUrl": "https://www.youtube.com/watch?v=g0m5sEHPU-s",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/g0m5sEHPU-s",
-          "url": "https://www.youtube-nocookie.com/embed/g0m5sEHPU-s",
+          "title": "Power BI: conectar carpeta y combinar archivos automáticamente",
+          "channel": "datdata",
+          "duration": "17:48",
+          "videoId": "xaJbdNMMysw",
+          "watchUrl": "https://www.youtube.com/watch?v=xaJbdNMMysw",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/xaJbdNMMysw",
+          "url": "https://www.youtube-nocookie.com/embed/xaJbdNMMysw",
           "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources",
           "sourceName": "Microsoft Learn — Data Sources in Power BI Desktop",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "note": "Data Ingestion & Multi-Source Strategies: Topic 1 by datdata (17:48) teaches the Folder Connector to automatically combine multiple recurring Excel/CSV files. Topic 2 by Guy in a Cube (08:30) delivers an architectural breakdown of VertiPaq Import Mode vs live DirectQuery vs Composite Dual storage modes. Topic 3 by Guy in a Cube (03:28) details how to parameterize data connections to seamlessly toggle between Dev, Test, and Production environments without hardcoding credentials.",
+          "references": [
+            {
+              "id": "ref-csv-folder-ingestion",
+              "tabLabel": "1. CSV & Folder Batch Ingestion",
+              "topic": "Get Data, Delimiters & Automated Multi-File Folder Consolidation",
+              "title": "Power BI: conectar carpeta y combinar archivos automáticamente",
+              "channel": "datdata",
+              "duration": "17:48",
+              "videoId": "xaJbdNMMysw",
+              "watchUrl": "https://www.youtube.com/watch?v=xaJbdNMMysw",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/xaJbdNMMysw",
+              "url": "https://www.youtube-nocookie.com/embed/xaJbdNMMysw",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources",
+              "sourceName": "Microsoft Learn — Data Sources in Power BI Desktop",
+              "note": "Topic 1 Tutorial (Primary): datdata demonstrates connecting Power BI to a folder containing multiple Excel and CSV files, leveraging the Folder Connector and Power Query to automatically combine, clean, and consolidate recurring batch data without manual intervention."
+            },
+            {
+              "id": "ref-storage-modes",
+              "tabLabel": "2. Import vs DirectQuery vs Composite",
+              "topic": "VertiPaq In-Memory Cache vs Live Database Querying & Composite Models",
+              "title": "Power BI Get Data: Choosing Import, DirectQuery, or Live Connections Explained",
+              "channel": "Guy in a Cube",
+              "duration": "08:30",
+              "videoId": "-ip7mKUdwRg",
+              "watchUrl": "https://www.youtube.com/watch?v=-ip7mKUdwRg",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/-ip7mKUdwRg",
+              "url": "https://www.youtube-nocookie.com/embed/-ip7mKUdwRg",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-composite-models",
+              "sourceName": "Microsoft Learn — Use Composite Models in Power BI Desktop",
+              "note": "Topic 2 Tutorial (Supplemental): Guy in a Cube (Adam Saxton) explores the architectural trade-offs between Import mode (VertiPaq compressed memory cache, full DAX support), DirectQuery (live database translation for massive enterprise SQL databases), and Composite / Dual hybrid modes with aggregated caching."
+            },
+            {
+              "id": "ref-datasource-parameters",
+              "tabLabel": "3. Connection Parameters & Environments",
+              "topic": "Dynamic M Parameters for Dev, Test & Production Switching",
+              "title": "Switch Environments Fast with Power BI Data Source Parameters",
+              "channel": "Guy in a Cube",
+              "duration": "03:28",
+              "videoId": "OnaDJkGOmIE",
+              "watchUrl": "https://www.youtube.com/watch?v=OnaDJkGOmIE",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/OnaDJkGOmIE",
+              "url": "https://www.youtube-nocookie.com/embed/OnaDJkGOmIE",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-query/power-query-query-parameters",
+              "sourceName": "Microsoft Learn — Power Query Query Parameters",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Power Query Query Parameters",
+                  "url": "https://learn.microsoft.com/en-us/power-query/power-query-query-parameters"
+                },
+                {
+                  "name": "Microsoft Support — Manage Data Source Settings & Permissions",
+                  "url": "https://support.microsoft.com/en-us/excel/manage-data-source-settings-and-permissions-power-query"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Guy in a Cube (Patrick LeBlanc) demonstrates best practices for parameterizing SQL Server and database connections using Power Query Parameters, enabling seamless toggling between Dev, Test, and Production environments without hardcoding credentials."
+            }
+          ]
         },
         "summary": "Master data ingestion in Power BI Desktop across relational databases, flat files, multi-file folders, and REST APIs. Evaluate Import Mode vs DirectQuery vs Dual Mode for optimal performance.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Connect Power BI Desktop to flat files (CSV, Excel), relational databases (PostgreSQL, SQL Server, MySQL), and Web data.\n2. Utilize the **Folder Ingestion Connector** to automatically combine hundreds of recurring monthly batch files into a single unified table.\n3. Compare the three primary Power BI Data Connectivity modes: **Import Mode**, **DirectQuery Mode**, and **Dual (Composite) Mode**.\n4. Parameterize data source connections to switch effortlessly between development, testing, and production environments.\n5. Avoid common ingestion pitfalls, such as file-path lockouts, credential expiration, and excessive column selection.\n\n---\n\n### 1. The Get Data Architecture in Power BI\n\nPower BI provides over 150 native connectors. Clicking **Get Data** opens the connection dialog, allowing you to ingest data from:\n- **File Connectors**: Excel Workbook, CSV/Text, JSON, XML, Folder, SharePoint Folder.\n- **Database Connectors**: SQL Server, PostgreSQL, MySQL, Oracle, Google BigQuery, Snowflake, Azure SQL.\n- **Online Services & APIs**: Salesforce, Google Analytics, Power Platform Dataverse, OData Feed, Web URL.\n\n```\n+-------------------------------------------------------------------------------+\n|                       DATA INGESTION MODES COMPARISON                         |\n+-------------------------------------------------------------------------------+\n| Mode            | Data Location           | Max Performance | Real-Time?      |\n+-----------------+-------------------------+-----------------+-----------------+\n| Import Mode     | In-Memory (VertiPaq)    | Ultra Fast (⚡) | No (Scheduled)  |\n| DirectQuery     | Source DB at Query Time | Depends on DB   | Yes (Live DB)   |\n| Dual / Composite| Hybrid (Cached + Live)  | Optimized       | Selective       |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Deep Dive: Ingestion Modes\n\n#### A. Import Mode (Default & Recommended)\n- **Mechanism**: Extracts a snapshot of source data, compresses it, and loads it entirely into local RAM inside the VertiPaq engine.\n- **Pros**: Fastest DAX calculation speed, full access to all DAX functions, supports multi-source blending in Power Query.\n- **Cons**: Dataset size limits (1GB per model in Power BI Pro), requires scheduled refresh to reflect database updates.\n\n#### B. DirectQuery Mode\n- **Mechanism**: Power BI does not store data locally. When a user clicks a visual, Power BI translates the DAX calculation into native SQL (e.g. `SELECT SUM(amount) FROM sales`) and sends it directly to the source database.\n- **When to use**: Massive datasets (tens of millions of rows exceeding RAM limits) or when strict real-time data freshness is mandatory.\n- **Cons**: Slower visual rendering, DAX limitations (some time-intelligence functions are restricted), heavy CPU load on source database.\n\n---\n\n### 3. Real-World Commercial Pattern: Combining Multi-Branch Monthly Files with Folder Connector\n\nIn Kenyan commercial enterprises, branches (e.g., Nairobi, Mombasa, Kisumu, Eldoret) frequently submit monthly sales CSVs into a shared folder:\n```\n/sales_archive/\n   ├── Sales_Nairobi_2026_01.csv\n   ├── Sales_Mombasa_2026_01.csv\n   ├── Sales_Kisumu_2026_01.csv\n   └── Sales_Nairobi_2026_02.csv\n```\n\n**Step-by-Step Folder Ingestion Workflow**:\n1. Click **Get Data -> Folder** -> specify path `C:\\Data\\Sales_Archive`.\n2. Power BI scans the directory and displays file metadata (`Name`, `Extension`, `Date Modified`, `Content`).\n3. Click **Combine -> Combine & Transform Data**.\n4. Power Query creates a parameterized helper function that extracts and unions every file in the folder into one consolidated table.\n5. **Automation Benefit**: Next month, when the finance team drops `Sales_Eldoret_2026_03.csv` into the folder, clicking **Refresh** automatically appends the new records without modifying queries!\n\n---\n\n### 4. Summary & Best Practices\n- Default to **Import Mode** unless dataset size or real-time compliance dictates DirectQuery.\n- Remove unnecessary columns at the data source level to minimize memory consumption and optimize VertiPaq compression.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Connect Power BI Desktop to flat files (CSV, Excel), relational databases (PostgreSQL, SQL Server, MySQL), and Web data.\n2. Utilize the **Folder Ingestion Connector** to automatically combine hundreds of recurring monthly batch files into a single unified table.\n3. Compare the three primary Power BI Data Connectivity modes: **Import Mode**, **DirectQuery Mode**, and **Dual (Composite) Mode**.\n4. Parameterize data source connections to switch effortlessly between development, testing, and production environments.\n5. Avoid common ingestion pitfalls, such as file-path lockouts, credential expiration, and excessive column selection.\n\n---\n\n### 1. The Get Data Architecture in Power BI\n\nPower BI provides over 150 native connectors. Clicking **Get Data** opens the connection dialog, allowing you to ingest data from:\n- **File Connectors**: Excel Workbook, CSV/Text, JSON, XML, Folder, SharePoint Folder.\n- **Database Connectors**: SQL Server, PostgreSQL, MySQL, Oracle, Google BigQuery, Snowflake, Azure SQL.\n- **Online Services & APIs**: Salesforce, Google Analytics, Power Platform Dataverse, OData Feed, Web URL.\n\n```\n+-------------------------------------------------------------------------------+\n|                       DATA INGESTION MODES COMPARISON                         |\n+-------------------------------------------------------------------------------+\n| Mode            | Data Location           | Max Performance | Real-Time?      |\n+-----------------+-------------------------+-----------------+-----------------+\n| Import Mode     | In-Memory (VertiPaq)    | Ultra Fast (⚡) | No (Scheduled)  |\n| DirectQuery     | Source DB at Query Time | Depends on DB   | Yes (Live DB)   |\n| Dual / Composite| Hybrid (Cached + Live)  | Optimized       | Selective       |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Deep Dive: Ingestion Modes\n\n#### A. Import Mode (Default & Recommended)\n- **Mechanism**: Extracts a snapshot of source data, compresses it, and loads it entirely into local RAM inside the VertiPaq engine.\n- **Pros**: Fastest DAX calculation speed, full access to all DAX functions, supports multi-source blending in Power Query.\n- **Cons**: Dataset size limits (1GB per model in Power BI Pro), requires scheduled refresh to reflect database updates.\n\n#### B. DirectQuery Mode\n- **Mechanism**: Power BI does not store data locally. When a user clicks a visual, Power BI translates the DAX calculation into native SQL (e.g. `SELECT SUM(amount) FROM sales`) and sends it directly to the source database.\n- **When to use**: Massive datasets (tens of millions of rows exceeding RAM limits) or when strict real-time data freshness is mandatory.\n- **Cons**: Slower visual rendering, DAX limitations (some time-intelligence functions are restricted), heavy CPU load on source database.\n\n#### C. Composite & Dual Storage Mode\n- **Mechanism**: Blends Import mode for aggregated fact summary tables with DirectQuery for granular row-level data.\n- **Supporting Documentation**: [Microsoft Learn — Use composite models in Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-composite-models).\n\n---\n\n### 3. Real-World Commercial Pattern: Combining Multi-Branch Monthly Files with Folder Connector\n\nIn Kenyan commercial enterprises, branches (e.g., Nairobi, Mombasa, Kisumu, Eldoret) frequently submit monthly sales CSVs into a shared folder:\n```\n/sales_archive/\n   ├── Sales_Nairobi_2026_01.csv\n   ├── Sales_Mombasa_2026_01.csv\n   ├── Sales_Kisumu_2026_01.csv\n   └── Sales_Nairobi_2026_02.csv\n```\n\n**Step-by-Step Folder Ingestion Workflow**:\n1. Click **Get Data -> Folder** -> specify path `C:\\Data\\Sales_Archive`.\n2. Power BI scans the directory and displays file metadata (`Name`, `Extension`, `Date Modified`, `Content`).\n3. Click **Combine -> Combine & Transform Data**.\n4. Power Query creates a parameterized helper function that extracts and unions every file in the folder into one consolidated table.\n5. **Automation Benefit**: Next month, when the finance team drops `Sales_Eldoret_2026_03.csv` into the folder, clicking **Refresh** automatically appends the new records without modifying queries!\n\n---\n\n### 4. Dynamic Connection Parameters & Environment Management\n\nIn enterprise deployments, never hardcode database server addresses, catalog names, or local file paths directly inside Power Query steps. Parameters enable your datasets to seamlessly migrate between **Development**, **Staging/UAT**, and **Production** environments without breaking queries.\n\n#### A. Creating Connection Parameters in Power Query\n1. In Power Query Editor, navigate to **Home -> Manage Parameters -> New Parameter**.\n2. Configure environment variables:\n   - **`ServerName`** (Type: Text) -> Current value: `dev-db.zawadiretail.co.ke`\n   - **`DatabaseName`** (Type: Text) -> Current value: `zawadi_sales_dev`\n   - **`BatchFolderPath`** (Type: Text) -> Current value: `C:\\ZawadiData\\DevArchive`\n3. Reference parameters directly in connection formulas: `Sql.Database(#\"ServerName\", #\"DatabaseName\")`.\n4. When deploying to production, modify the parameter values once, automatically redirecting all dependent tables without manual code rewrites.\n- Reference: [Microsoft Learn — Power Query Query Parameters](https://learn.microsoft.com/en-us/power-query/power-query-query-parameters)\n\n#### B. Safe Credential & Permission Management\n- Access **File -> Options and Settings -> Data Source Settings** to manage credentials.\n- Distinguish between **Global Permissions** (reused across all local files) and **Data Sources in Current File** (scoped strictly to this PBIX).\n- Never hardcode passwords, API tokens, or secrets in M code. Leverage Power BI's encrypted credential manager, Windows Authentication, or Microsoft Entra ID OAuth.\n- Reference: [Microsoft Support — Manage Data Source Settings & Permissions](https://support.microsoft.com/en-us/excel/manage-data-source-settings-and-permissions-power-query)\n\n---\n\n### 5. Summary & Best Practices\n- Default to **Import Mode** unless dataset volume or real-time compliance dictates DirectQuery or Composite models.\n- Leverage the **Folder Connector** with `Combine & Transform Data` for recurring multi-branch or monthly file consolidation.\n- Parameterize external endpoints to switch friction-free between Dev, Staging, and Production.\n- Secure connection credentials in **Data Source Settings** without embedding secrets in queries.",
         "challenge": {
           "type": "quiz",
           "title": "Module 2 Checkpoint: Ingestion Modes",
@@ -4803,19 +4906,125 @@ export const coursesData = [
         "subtitle": "The M language, Applied Steps, Unpivoting, Merging vs Appending, Conditional Columns, and Query Folding",
         "readingTime": "22 min",
         "videoLesson": {
-          "title": "Data Transformation and Cleansing with Power Query (M Engine)",
+          "title": "How to use Power Query in Power BI | Microsoft Power BI for Beginners",
           "channel": "Alex The Analyst",
-          "duration": "12:50",
-          "videoId": "g0m5sEHPU-s",
-          "watchUrl": "https://www.youtube.com/watch?v=g0m5sEHPU-s",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/g0m5sEHPU-s",
-          "url": "https://www.youtube-nocookie.com/embed/g0m5sEHPU-s",
+          "duration": "13:07",
+          "videoId": "gP-AxNi6uxo",
+          "watchUrl": "https://www.youtube.com/watch?v=gP-AxNi6uxo",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/gP-AxNi6uxo",
+          "url": "https://www.youtube-nocookie.com/embed/gP-AxNi6uxo",
           "alternativeSource": "https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query",
-          "sourceName": "Microsoft Learn — Power Query Documentation",
-          "badge": "Verified Reference Video"
+          "sourceName": "Microsoft Learn — What is Power Query?",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "note": "Power Query Transformations & ETL: Topic 1 by Alex The Analyst (13:07) covers foundational Power Query cleansing, Applied Steps, and Unpivoting. Topic 2 by RADACAD (19:40) explores Query Folding mechanics, source database pushdown, and engine performance optimization. Topic 3 by Excel Bonanza (49:18) masters Merge Queries vs Append Queries with all join kinds and anti-joins. Topic 4 by BCTI (15:33) breaks down Query Folding levels (Full, Partial, Absent), broken folding chains, and query plan diagnosis.",
+          "references": [
+            {
+              "id": "ref-powerquery-fundamentals",
+              "tabLabel": "1. Power Query Fundamentals & Unpivot",
+              "topic": "Applied Steps, Data Cleansing, Header Promotion & Unpivoting",
+              "title": "How to use Power Query in Power BI | Microsoft Power BI for Beginners",
+              "channel": "Alex The Analyst",
+              "duration": "13:07",
+              "videoId": "gP-AxNi6uxo",
+              "watchUrl": "https://www.youtube.com/watch?v=gP-AxNi6uxo",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/gP-AxNi6uxo",
+              "url": "https://www.youtube-nocookie.com/embed/gP-AxNi6uxo",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query",
+              "sourceName": "Microsoft Learn — What is Power Query?",
+              "note": "Topic 1 Tutorial (Primary): Alex The Analyst walks through the Power Query Editor UI, Applied Steps sequencing, data type coercion, column trimming, header promotion, and unpivoting cross-tabulated data. (Focused on foundational cleansing and unpivoting; advanced M programming is taught in subsequent sections and official documentation)."
+            },
+            {
+              "id": "ref-powerquery-radacad-folding",
+              "tabLabel": "2. 2026 Power Query & Query Folding",
+              "topic": "Query Folding Mechanics, Native SQL Pushdown & Engine Evaluation",
+              "title": "Power BI Performance Tip   Query Folding in Power Query",
+              "channel": "RADACAD",
+              "duration": "19:40",
+              "videoId": "OAoWet1NmeM",
+              "watchUrl": "https://www.youtube.com/watch?v=OAoWet1NmeM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/OAoWet1NmeM",
+              "url": "https://www.youtube-nocookie.com/embed/OAoWet1NmeM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-query/power-query-folding",
+              "sourceName": "Microsoft Learn — Power Query Folding",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Power Query Folding",
+                  "url": "https://learn.microsoft.com/en-us/power-query/power-query-folding"
+                },
+                {
+                  "name": "Microsoft Learn — Add a Conditional Column",
+                  "url": "https://learn.microsoft.com/en-us/power-query/add-conditional-column"
+                },
+                {
+                  "name": "Microsoft Learn — Power Query M Formula Language Reference",
+                  "url": "https://learn.microsoft.com/en-us/powerquery-m/"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): RADACAD (Reza Rad) demonstrates how Power Query translates transformations into source database SQL, how to verify query folding with 'View Native Query', and why avoiding client-side engine evaluation dramatically accelerates refresh performance. Custom/conditional columns and M syntax are detailed in the accompanying lesson text and Microsoft Learn references."
+            },
+            {
+              "id": "ref-merge-vs-append",
+              "tabLabel": "3. Merge vs Append Queries",
+              "topic": "Horizontal Relational JOINs (Left, Right, Inner, Anti) vs Vertical UNIONs",
+              "title": "Merge vs Append in Power Query & Power BI (Most People Get This Wrong)",
+              "channel": "Excel Bonanza",
+              "duration": "49:18",
+              "videoId": "-xFFA8Lnm2E",
+              "watchUrl": "https://www.youtube.com/watch?v=-xFFA8Lnm2E",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/-xFFA8Lnm2E",
+              "url": "https://www.youtube-nocookie.com/embed/-xFFA8Lnm2E",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-query/merge-queries-overview",
+              "sourceName": "Microsoft Learn — Merge Queries Overview",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Merge Queries Overview",
+                  "url": "https://learn.microsoft.com/en-us/power-query/merge-queries-overview"
+                },
+                {
+                  "name": "Microsoft Learn — Append Queries Overview",
+                  "url": "https://learn.microsoft.com/en-us/power-query/append-queries"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Excel Bonanza delivers an in-depth visual masterclass comparing Merge Queries (SQL-style horizontal JOINs with matching key columns, all join kinds, and anti-joins for finding missing matches) versus Append Queries (SQL UNION ALL vertical stacking of rows, handling mismatched columns, and preventing duplicate records)."
+            },
+            {
+              "id": "ref-query-folding-performance",
+              "tabLabel": "4. Query Folding & Engine Performance",
+              "topic": "Folding Levels (Full, Partial, Absent), Broken Folds & Query Plans",
+              "title": "Power Query - Query Folding (The key to faster query execution)",
+              "channel": "BCTI",
+              "duration": "15:33",
+              "videoId": "cdgO7tErqTI",
+              "watchUrl": "https://www.youtube.com/watch?v=cdgO7tErqTI",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/cdgO7tErqTI",
+              "url": "https://www.youtube-nocookie.com/embed/cdgO7tErqTI",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-query/query-folding-examples",
+              "sourceName": "Microsoft Learn — Query Folding Examples",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Query Folding Examples",
+                  "url": "https://learn.microsoft.com/en-us/power-query/query-folding-examples"
+                },
+                {
+                  "name": "Microsoft Learn — Step Folding Indicators in Power Query",
+                  "url": "https://learn.microsoft.com/en-us/power-query/step-folding-indicators"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): BCTI breaks down query folding levels (Full, Partial, and Absent), explains why pushing transformations to the source database is the key to fast refresh execution, explores what breaks the folding chain, and demonstrates how to repair broken steps using folding indicators."
+            }
+          ]
         },
         "summary": "Transform messy, unformatted raw data into clean, structured tables using Power Query. Master unpivoting cross-tabulated reports, merging relational tables, appending queries, and optimizing Query Folding.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Navigate the Power Query Editor and understand the deterministic sequence of **Applied Steps**.\n2. Convert human-formatted cross-tabulated reports into machine-readable tabular records using **Unpivot Columns**.\n3. Distinguish between **Merge Queries** (relational SQL-style JOINs) and **Append Queries** (vertical SQL-style UNIONs).\n4. Create reusable transformation logic with **Custom Columns**, **Conditional Columns**, and basic **M code** (`Table.TransformColumnTypes`, `Text.Proper`).\n5. Understand and preserve **Query Folding** to push computational workloads back to source database servers.\n\n---\n\n### 1. Power Query & The M Formula Language\n\nPower Query is the data preparation and transformation engine of Power BI. Every click, column split, and filter in the Power Query graphical interface generates an underlying declarative expression in the **M formula language**.\n\nKey concepts:\n- **Applied Steps List**: Located on the right sidebar. Transformations execute sequentially from top to bottom.\n- **Immutability**: Power Query never alters your raw source file. It builds a repeatable recipe of steps executed each time data refreshes.\n- **Formula Bar**: Displays the exact M function (e.g., `= Table.SelectRows(Source, each [Amount] > 1000)`).\n\n```\n+-------------------------------------------------------------------------------+\n|                       APPLIED STEPS PIPELINE IN POWER QUERY                   |\n+-------------------------------------------------------------------------------+\n|  1. Source                  -> Connects to raw database or CSV               |\n|  2. Promoted Headers        -> Converts Row 1 into Column Headers            |\n|  3. Changed Type            -> Coerces text, dates, numbers, currencies      |\n|  4. Filtered Rows           -> Removes nulls, invalid test records           |\n|  5. Replaced Value          -> Standardizes casing and typo codes            |\n|  6. Unpivoted Other Columns -> Converts wide summary table into tall dataset  |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Unpivoting: Fixing the \"Wide Spreadsheet\" Problem\n\nOne of the most frequent challenges in business analytics is handling spreadsheets formatted for human reading rather than computational modeling.\n\n**Problematic \"Wide\" Format**:\n```\nProduct       | Jan 2026 | Feb 2026 | Mar 2026\n--------------+----------+----------+----------\nSolar Battery | 450,000  | 520,000  | 610,000\nInverter 1kVA | 280,000  | 310,000  | 340,000\n```\n*Why this fails in Power BI*: You cannot write a single dynamic DAX measure or time-intelligence calculation because dates are spread across multiple column headers!\n\n**The Solution: Unpivot Columns**:\n1. Select the **Product** column.\n2. Right-click -> **Unpivot Other Columns**.\n3. Rename the resulting columns to `Month_Year` and `Revenue_KSh`.\n\n**Resulting \"Tall\" Normalized Data**:\n```\nProduct       | Month_Year | Revenue_KSh\n--------------+------------+-------------\nSolar Battery | Jan 2026   | 450,000\nSolar Battery | Feb 2026   | 520,000\nSolar Battery | Mar 2026   | 610,000\nInverter 1kVA | Jan 2026   | 280,000\n...\n```\n\n---\n\n### 3. Merge Queries vs Append Queries\n\n#### A. Merge Queries (Horizontal Lookup / JOIN)\n- Joins two tables side-by-side based on a shared matching key (e.g., matching `CustomerID` in `FactSales` with `CustomerID` in `DimCustomers`).\n- Supports Join Kinds: **Left Outer** (all rows from Table 1), **Inner** (only matching rows), **Full Outer** (all rows from both).\n\n#### B. Append Queries (Vertical Stacking / UNION)\n- Stacks two or more tables with identical or similar column structures on top of each other (e.g. `Sales_2025` + `Sales_2026`).\n\n---\n\n### 4. Query Folding: The Secret to High-Performance ETL\n\n**Query Folding** occurs when Power Query converts your graphical transformation steps (filters, joins, column selections) directly into a single optimized SQL statement executed on the source database server.\n- **Why it matters**: If you filter 50 million rows down to 100,000 rows in Power Query, Query Folding sends `WHERE country = 'Kenya'` to the database. The network only downloads 100,000 rows!\n- **How to check**: In the Applied Steps pane, right-click any step -> if **View Native Query** is clickable, Query Folding is active!\n\n---\n\n### 5. Summary & Best Practices\n- Always normalize wide data into tall, narrow tables using **Unpivot**.\n- Perform heavy data type conversions, text stripping, and null replacements inside Power Query before data loads into the DAX model.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Navigate the Power Query Editor and understand the deterministic sequence of **Applied Steps**.\n2. Convert human-formatted cross-tabulated reports into machine-readable tabular records using **Unpivot Columns**.\n3. Distinguish between **Merge Queries** (relational SQL-style JOINs) and **Append Queries** (vertical SQL-style UNIONs).\n4. Create reusable transformation logic with **Custom Columns**, **Conditional Columns**, and declarative **M expressions** (`Table.TransformColumnTypes`, `Text.Proper`).\n5. Understand and preserve **Query Folding** across Full, Partial, and Absent levels to push computational workloads back to source database servers.\n\n---\n\n### 1. Power Query & The M Formula Language\n\nPower Query is the data preparation and transformation engine of Power BI. Every click, column split, filter, and type conversion in the graphical user interface generates an underlying declarative expression in the **M formula language**.\n\nKey concepts:\n- **Applied Steps List**: Located on the right sidebar. Transformations execute sequentially from top to bottom.\n- **Immutability**: Power Query never alters your raw source file. It builds a repeatable recipe of steps executed each time data refreshes.\n- **Formula Bar**: Displays the exact M function (e.g., `= Table.SelectRows(Source, each [Amount] > 1000)`).\n- **Script View / Advanced Editor**: Allows developers to view and edit the entire M query script directly.\n\n```\n+-------------------------------------------------------------------------------+\n|                       APPLIED STEPS PIPELINE IN POWER QUERY                   |\n+-------------------------------------------------------------------------------+\n|  1. Source                  -> Connects to raw database or CSV               |\n|  2. Promoted Headers        -> Converts Row 1 into Column Headers            |\n|  3. Changed Type            -> Coerces text, dates, numbers, currencies      |\n|  4. Filtered Rows           -> Removes nulls, invalid test records           |\n|  5. Replaced Value          -> Standardizes casing and typo codes            |\n|  6. Unpivoted Other Columns -> Converts wide summary table into tall dataset  |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Unpivoting: Fixing the \"Wide Spreadsheet\" Problem\n\nOne of the most frequent challenges in business analytics is handling spreadsheets formatted for human reading rather than computational modeling.\n\n**Problematic \"Wide\" Format**:\n```\nProduct       | Jan 2026 | Feb 2026 | Mar 2026\n--------------+----------+----------+----------\nSolar Battery | 450,000  | 520,000  | 610,000\nInverter 1kVA | 280,000  | 310,000  | 340,000\n```\n*Why this fails in Power BI*: You cannot write a single dynamic DAX measure or time-intelligence calculation because dates are spread across multiple column headers!\n\n**The Solution: Unpivot Columns**:\n1. Select the **Product** column.\n2. Right-click -> **Unpivot Other Columns**.\n3. Rename the resulting columns to `Month_Year` and `Revenue_KSh`.\n\n**Resulting \"Tall\" Normalized Data**:\n```\nProduct       | Month_Year | Revenue_KSh\n--------------+------------+-------------\nSolar Battery | Jan 2026   | 450,000\nSolar Battery | Feb 2026   | 520,000\nSolar Battery | Mar 2026   | 610,000\nInverter 1kVA | Jan 2026   | 280,000\n...\n```\n\n---\n\n### 3. Merge Queries vs Append Queries\n\n#### A. Merge Queries (Horizontal Lookup / Relational JOIN)\n- **Concept**: Combines columns from two tables horizontally based on matching key columns (e.g., linking `CustomerID` in `FactSales` with `CustomerID` in `DimCustomers`).\n- **Join Kinds Supported**:\n  - **Left Outer**: Preserves all rows from the primary table and matching rows from the lookup table.\n  - **Inner**: Keeps only rows where the key exists in both tables.\n  - **Full Outer**: Retains all rows from both tables, filling mismatches with nulls.\n  - **Left Anti / Right Anti**: Isolates non-matching rows (critical for data audits, such as finding sales transactions with missing customer records).\n- **Handling Missing & Duplicate Keys**: When merging on non-unique keys, Power Query expands rows, potentially multiplying facts. Always ensure dimension keys are deduplicated before merging!\n- Reference: [Microsoft Learn — Merge Queries Overview](https://learn.microsoft.com/en-us/power-query/merge-queries-overview)\n\n#### B. Append Queries (Vertical Stacking / UNION ALL)\n- **Concept**: Stacks two or more tables with identical or similar structures on top of each other (e.g. stacking `Sales_2025` and `Sales_2026`).\n- **Handling Schema Variations**: Columns with identical names are unioned into the same column. If Table A has `Branch_Code` and Table B has `BranchCode`, Power Query creates two separate columns with nulls in alternating rows. Always align column headers before appending!\n- Reference: [Microsoft Learn — Append Queries Overview](https://learn.microsoft.com/en-us/power-query/append-queries)\n\n---\n\n### 4. Custom Columns & Conditional Columns\n\n- **Conditional Columns**: Created via **Add Column -> Conditional Column** without writing code. Enables `if...then...else` logic (e.g., classifying `SalesAmount > 500,000` as \"High Priority\", otherwise \"Standard\").\n  - Reference: [Microsoft Learn — Add a Conditional Column](https://learn.microsoft.com/en-us/power-query/add-conditional-column)\n- **Custom Columns with M**: Created via **Add Column -> Custom Column**. Allows calling native M library functions such as `Text.Upper([Region])`, `Date.Year([TransactionDate])`, or arithmetic calculations.\n  - Reference: [Microsoft Learn — Power Query M Formula Language](https://learn.microsoft.com/en-us/powerquery-m/)\n\n---\n\n### 5. Query Folding: Engine Performance & Folding Levels\n\n**Query Folding** is the ability of Power Query to convert graphical transformation steps directly into a single native query (such as SQL) executed on the source database server.\n\n#### A. The Three Query Folding Levels\n1. **Full Query Folding**: All transformation steps are pushed down to the source database. The Power BI engine downloads only the final, filtered, aggregated result set. This yields the fastest refresh speeds and lowest memory footprint.\n2. **Partial Query Folding**: Initial steps fold back to the database. However, once a non-foldable transformation step is introduced (e.g., calling an unsupported M function or inserting an Index Column), the folding chain breaks. All subsequent steps must be processed locally inside Power Query's mashup engine.\n3. **Absent (No Folding)**: None of the transformations can fold (common with flat CSV/Excel files, local text documents, or unstructured web feeds). The entire dataset is pulled into local memory for evaluation.\n\n#### B. Diagnosing & Preserving Query Folding\n- **Check Native Query**: In the Applied Steps list, right-click any step. If **View Native Query** is enabled (clickable), query folding is active up to that step.\n- **Step Folding Indicators**: Modern Power BI displays folding icons next to Applied Steps (*Folding*, *Not Folding*, *Opaque*).\n- **Rule of Performance**: Always arrange foldable operations (**Filter Rows**, **Select/Remove Columns**, **Group By**, and **Inner Joins**) at the beginning of your Applied Steps before non-foldable steps.\n- Reference: [Microsoft Learn — Power Query Folding](https://learn.microsoft.com/en-us/power-query/power-query-folding)\n- Reference: [Microsoft Learn — Query Folding Examples](https://learn.microsoft.com/en-us/power-query/query-folding-examples)\n\n---\n\n### 6. Summary & Best Practices\n- Normalize wide cross-tabulated reports into tall tabular schemas using **Unpivot Other Columns**.\n- Choose **Merge** for horizontal dimensional enrichment and **Append** for vertical time-series or multi-region consolidation.\n- Guard the folding chain: check **View Native Query** and position high-selectivity row filters at the top of Applied Steps.",
         "challenge": {
           "type": "quiz",
           "title": "Module 3 Checkpoint: Power Query Transformations",
@@ -4843,16 +5052,54 @@ export const coursesData = [
         "subtitle": "Fact vs Dimension tables, 1-to-Many relationships, Primary & Foreign keys, and avoiding bidirectional filters",
         "readingTime": "24 min",
         "videoLesson": {
-          "title": "Data Modeling, Relationships and Star Schema Architecture",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
+          "title": "Power BI Data Modeling & Star Schema: Why Top 10% Professionals Consider It a Critical Priority!",
+          "channel": "Pradeep CDI",
+          "duration": "17:45",
+          "videoId": "uEd_BXgDwTg",
+          "watchUrl": "https://www.youtube.com/watch?v=uEd_BXgDwTg",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/uEd_BXgDwTg",
+          "url": "https://www.youtube-nocookie.com/embed/uEd_BXgDwTg",
           "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
           "sourceName": "Microsoft Learn — Understand Star Schema in Power BI",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "note": "Data Modeling & Star Schema Masterclass: Topic 1 by Pradeep CDI (17:45) covers the foundational Kimball dimensional modeling workflow: fact vs dimension tables, granularity, primary and foreign keys, 1-to-many cardinality, filter propagation, and star schema architecture. Topic 2 by RADACAD (07:52) details relationship filter directions, the severe performance and ambiguity risks of bidirectional cross-filtering, and best practices for preserving single-directional models.",
+          "references": [
+            {
+              "id": "ref-star-schema-fundamentals",
+              "tabLabel": "1. Star Schema & Data Modeling",
+              "topic": "Fact vs Dimension Tables, Primary/Foreign Keys, 1:Many Cardinality & Filter Flow",
+              "title": "Power BI Data Modeling & Star Schema: Why Top 10% Professionals Consider It a Critical Priority!",
+              "channel": "Pradeep CDI",
+              "duration": "17:45",
+              "videoId": "uEd_BXgDwTg",
+              "watchUrl": "https://www.youtube.com/watch?v=uEd_BXgDwTg",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/uEd_BXgDwTg",
+              "url": "https://www.youtube-nocookie.com/embed/uEd_BXgDwTg",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+              "sourceName": "Microsoft Learn — Understand Star Schema and the Importance for Power BI",
+              "note": "Topic 1 Tutorial (Primary): Pradeep CDI delivers a comprehensive foundation in Power BI dimensional modeling (17:45): fact vs dimension tables, business event measurement vs descriptive context, granularity and uniqueness, primary and foreign key mapping, one-to-many relationship cardinality, dimension-to-fact filter propagation, and star schema architecture."
+            },
+            {
+              "id": "ref-filter-direction-bidirectional",
+              "tabLabel": "2. Filter Direction & Bidirectional Risks",
+              "topic": "Relationship Direction, Ambiguity, Circular Chains & Avoiding Bidirectional Filters",
+              "title": "Power BI One Slicer to filter other slicers based on Items that has value only without BI Direction",
+              "channel": "RADACAD",
+              "duration": "07:52",
+              "videoId": "cyOquvfhzNM",
+              "watchUrl": "https://www.youtube.com/watch?v=cyOquvfhzNM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/cyOquvfhzNM",
+              "url": "https://www.youtube-nocookie.com/embed/cyOquvfhzNM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering",
+              "sourceName": "Microsoft Learn — Bi-directional Relationship Guidance",
+              "note": "Topic 2 Tutorial (Supplemental): Microsoft MVP Reza Rad (07:52) explains the critical architectural dangers of bidirectional cross-filtering (performance degradation, circular relationship ambiguity) and demonstrates how to preserve clean single-directional star schemas using visual-level measure filtering."
+            }
+          ]
         },
         "summary": "Design clean, high-performance dimensional data models in Power BI. Master Kimball Star Schema principles, primary/foreign key relationships, single-direction filter propagation, and bridge table alternatives.",
         "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Explain the difference between **Fact Tables** (metrics, transactions, events) and **Dimension Tables** (context, filters, attributes).\n2. Architect a gold-standard **Star Schema** dimensional model in Power BI Desktop Model View.\n3. Establish robust **One-to-Many (`1:*`) single-direction relationships** using Primary Keys and Foreign Keys.\n4. Understand how filter context naturally flows from Dimensions down into Fact tables.\n5. Identify and avoid performance-degrading anti-patterns: **Many-to-Many (`*:*`) relationships**, **Bidirectional cross-filtering**, and massive un-normalized single flat tables.\n\n---\n\n### 1. Why Data Modeling is the Foundation of Power BI\n\nIn Power BI, 80% of complex or buggy DAX calculations are caused by **poor data modeling**. If your data model is structured correctly as a Star Schema, your DAX formulas will be simple, elegant, and lightning-fast.\n\n```\n+-------------------------------------------------------------------------------+\n|                       KIMBALL STAR SCHEMA ARCHITECTURE                        |\n+-------------------------------------------------------------------------------+\n|                                                                               |\n|   [ DimDate ]                      [ DimCustomers ]                           |\n|   - DateKey (PK)                   - CustomerID (PK)                          |\n|   - Year, Month, Quarter           - CustomerName, County, Tier               |\n|            \\                             /                                    |\n|             \\  (1)                 (1)  /                                     |\n|              \\                         /                                      |\n|               \\  (*)              (*) /                                       |\n|                v                     v                                        |\n|              +-------------------------+                                      |\n|              |     FactSales (Orders)  |                                      |\n|              |-------------------------|                                      |\n|              | - OrderID               |                                      |\n|              | - DateKey (FK)          |                                      |\n|              | - CustomerID (FK)       |                                      |\n|              | - ProductID (FK)        |                                      |\n|              | - StoreID (FK)          |                                      |\n|              | - Quantity              |                                      |\n|              | - TotalAmount (KSh)     |                                      |\n|              +-------------------------+                                      |\n|                ^                     ^                                        |\n|               /  (*)              (*) \\                                       |\n|              /                         \\                                      |\n|             /  (1)                 (1)  \\                                     |\n|            /                             \\                                    |\n|   [ DimProducts ]                  [ DimStores / Branches ]                   |\n|   - ProductID (PK)                 - StoreID (PK)                             |\n|   - ProductName, Category, SKU     - StoreName, City, Manager                 |\n|                                                                               |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Facts vs Dimensions: The Golden Rule\n\n#### Fact Tables (The \"What happened?\")\n- **Characteristics**: Contains numerical quantitative measurements, transactions, timestamps, and foreign keys.\n- **Row Count**: High volume (hundreds of thousands or millions of rows).\n- **Examples**: `FactSales`, `FactInventoryTransactions`, `FactMpesaPayments`, `FactFreightDeliveries`.\n\n#### Dimension Tables (The \"Who, What, Where, When, Why?\")\n- **Characteristics**: Contains descriptive attributes used for slicing, grouping, filtering, and labeling.\n- **Row Count**: Low to moderate volume (unique rows with a Primary Key).\n- **Examples**: `DimCustomers`, `DimProducts`, `DimBranches`, `DimDate`.\n\n---\n\n### 3. Filter Direction & The Flow of Context\n\nIn a healthy Star Schema:\n- The relationship is **One-to-Many (`1:*`)** from the Dimension (the \"1\" side) to the Fact table (the \"*\" side).\n- The **Cross-filter direction** is set to **Single**.\n- **Filter Rule**: Filters applied to `DimCustomers[County]` automatically filter down into `FactSales`. However, filtering `FactSales` does *not* filter back up to `DimCustomers`.\n\n---\n\n### 4. The Dangers of Bidirectional Cross-Filtering & Many-to-Many\n\n- **Bidirectional Filtering (`Both`)**: Forces filters on a Fact table to flow backward across relationships. In complex models, this introduces **circular ambiguity**, unexpected calculation results, and severe CPU slowdowns.\n- **Many-to-Many Relationships (`*:*`)**: Occur when neither table has unique primary keys. Always resolve many-to-many relationships by inserting a dedicated intermediary Bridge Dimension table with distinct keys.\n\n---\n\n### 5. Summary & Best Practices\n- Organize your Model View canvas with Dimensions along the top and Fact tables in the center/bottom.\n- Hide Foreign Keys in Fact tables from the Report View so report authors only filter via Dimension tables.",
@@ -4883,19 +5130,84 @@ export const coursesData = [
         "subtitle": "Calculated Columns vs Explicit Measures, SUM, COUNTROWS, DIVIDE, and DAX syntax standards",
         "readingTime": "22 min",
         "videoLesson": {
-          "title": "DAX Fundamentals: Calculated Columns, Measures & Aggregations",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
+          "title": "How to use Power BI DAX - Tutorial",
+          "channel": "Kevin Stratvert",
+          "duration": "37:28",
+          "videoId": "waG_JhBgUpM",
+          "watchUrl": "https://www.youtube.com/watch?v=waG_JhBgUpM",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/waG_JhBgUpM",
+          "url": "https://www.youtube-nocookie.com/embed/waG_JhBgUpM",
           "alternativeSource": "https://learn.microsoft.com/en-us/dax/dax-overview",
           "sourceName": "Microsoft Learn — Data Analysis Expressions (DAX) Overview",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "note": "DAX Fundamentals & Aggregations: Topic 1 by Kevin Stratvert (37:28) walks through foundational DAX syntax, writing explicit measures with SUM, COUNT, and DISTINCT, and contrasting measures with calculated columns. Topic 2 by SQLBI (05:59) delivers the definitive architectural breakdown of model storage during data refresh vs. dynamic filter context query evaluation. Topic 3 by Data with Baraa (46:17) visually diagrams where calculations live and best practices for measure organization.",
+          "references": [
+            {
+              "id": "ref-dax-fundamentals",
+              "tabLabel": "1. DAX Fundamentals & Syntax",
+              "topic": "DAX Formula Syntax, Base Aggregations (SUM, COUNT) & Explicit Measures",
+              "title": "How to use Power BI DAX - Tutorial",
+              "channel": "Kevin Stratvert",
+              "duration": "37:28",
+              "videoId": "waG_JhBgUpM",
+              "watchUrl": "https://www.youtube.com/watch?v=waG_JhBgUpM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/waG_JhBgUpM",
+              "url": "https://www.youtube-nocookie.com/embed/waG_JhBgUpM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/dax/dax-overview",
+              "sourceName": "Microsoft Learn — Data Analysis Expressions (DAX) Overview",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — DAX Overview",
+                  "url": "https://learn.microsoft.com/en-us/dax/dax-overview"
+                },
+                {
+                  "name": "Microsoft Learn — DIVIDE Function (DAX)",
+                  "url": "https://learn.microsoft.com/en-us/dax/divide-function-dax"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Former Microsoft program manager Kevin Stratvert demonstrates DAX syntax, authoring explicit measures with SUM, COUNT, and DISTINCT, using operators, creating calculated columns, and measure branching."
+            },
+            {
+              "id": "ref-calculated-columns-vs-measures",
+              "tabLabel": "2. Calculated Columns vs. Measures",
+              "topic": "Model Storage During Refresh vs. Dynamic Filter Context Evaluation",
+              "title": "Measures vs. calculated columns in DAX and Power BI",
+              "channel": "SQLBI",
+              "duration": "05:59",
+              "videoId": "ePPi1LLX0sA",
+              "watchUrl": "https://www.youtube.com/watch?v=ePPi1LLX0sA",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/ePPi1LLX0sA",
+              "url": "https://www.youtube-nocookie.com/embed/ePPi1LLX0sA",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-tutorial-create-calculated-columns",
+              "sourceName": "Microsoft Learn — Calculated Columns in Power BI Desktop",
+              "note": "Topic 2 Tutorial (Supplemental): Marco Russo from SQLBI explains the architectural differences between calculated columns (computed during refresh and stored in RAM inside the tabular model) and measures (evaluated dynamically in filter context upon query execution)."
+            },
+            {
+              "id": "ref-visual-dax-architecture",
+              "tabLabel": "3. Visual DAX & Best Practices",
+              "topic": "Where Calculations Live, The Golden Rules & Reusable Metrics",
+              "title": "Introduction to DAX: Visually Explained | Power BI Course 27",
+              "channel": "Data with Baraa",
+              "duration": "46:17",
+              "videoId": "iFEabYvCCLc",
+              "watchUrl": "https://www.youtube.com/watch?v=iFEabYvCCLc",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/iFEabYvCCLc",
+              "url": "https://www.youtube-nocookie.com/embed/iFEabYvCCLc",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-measures",
+              "sourceName": "Microsoft Learn — Create Measures for Data Analysis",
+              "note": "Topic 3 Tutorial (Supplemental): Data with Baraa visually breaks down where calculations belong in Power BI, the golden rules of measure placement, and setting up clean dedicated measures tables."
+            }
+          ]
         },
         "summary": "Understand the core philosophy of Data Analysis Expressions (DAX). Master the vital distinction between Calculated Columns and Explicit Measures, author robust mathematical aggregations, and optimize performance.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Understand the purpose of **DAX (Data Analysis Expressions)** as a formula language for tabular data models.\n2. Articulate the precise technical and performance differences between **Calculated Columns** and **Measures**.\n3. Author robust explicit base measures using standard aggregation functions (`SUM`, `AVERAGE`, `COUNTROWS`, `DISTINCTCOUNT`).\n4. Prevent divide-by-zero application crashes using the safe `DIVIDE()` function.\n5. Create a dedicated **_Measures Table** to organize enterprise business metrics cleanly.\n\n---\n\n### 1. What is DAX?\n\nDAX (Data Analysis Expressions) is the native formula and query language of Power BI, Azure Analysis Services, and Microsoft Excel Power Pivot. \n\nDAX is **not** Excel formula syntax:\n- Excel formulas reference physical grid cell addresses (e.g., `=A2*B2`).\n- DAX formulas reference structured tables and columns (e.g., `FactSales[UnitPrice] * FactSales[Quantity]`).\n\n---\n\n### 2. Calculated Columns vs Explicit Measures\n\nUnderstanding this distinction is the single most important milestone in learning Power BI:\n\n| Property | Calculated Column | Explicit Measure |\n| :--- | :--- | :--- |\n| **Computation Time** | Evaluated once during data refresh / ingestion | Evaluated on-the-fly dynamically when a visual renders |\n| **Storage Location** | Stored in RAM and persisted in the `.pbix` file | Consumes zero persistent storage (calculated in CPU memory) |\n| **Evaluation Context** | **Row Context** (evaluates row-by-row across the table) | **Filter Context** (aggregates based on active visual filters) |\n| **When to Use** | When the result is needed as a slicer, category, or row header | For all aggregations, percentages, ratios, and business KPIs |\n\n```dax\n-- CALCULATED COLUMN (Evaluated for every single row in FactSales)\nFactSales[LineTotal] = FactSales[Quantity] * FactSales[UnitPrice]\n\n-- EXPLICIT MEASURE (Evaluated dynamically based on user selections)\nTotal Revenue KSh = SUM(FactSales[LineTotal])\n```\n\n---\n\n### 3. Essential Base DAX Aggregations\n\n#### A. Total Revenue & Total Cost\n```dax\nTotal Revenue KSh = \nSUM(FactSales[LineTotal])\n\nTotal Cost KSh = \nSUM(FactSales[TotalCost])\n```\n\n#### B. Total Gross Profit & Gross Margin %\n```dax\nGross Profit KSh = \n[Total Revenue KSh] - [Total Cost KSh]\n\n-- Always use DIVIDE instead of '/' to handle division by zero safely\nGross Margin % = \nDIVIDE([Gross Profit KSh], [Total Revenue KSh], 0)\n```\n\n#### C. Volume & Transaction Counting\n```dax\n-- COUNTROWS counts every row in the table (fastest performance)\nTotal Transactions = \nCOUNTROWS(FactSales)\n\n-- DISTINCTCOUNT counts unique active customers\nActive Customers Count = \nDISTINCTCOUNT(FactSales[CustomerID])\n\n-- Average Order Value (AOV)\nAverage Order Value KSh = \nDIVIDE([Total Revenue KSh], [Total Transactions], 0)\n```\n\n---\n\n### 4. Best Practice: Dedicated Measures Table\n\nNever scatter measures randomly across different data tables. \n1. Go to **Home -> Enter Data**.\n2. Name the table `_Measures`.\n3. Create your DAX measures inside `_Measures`.\n4. Delete the default blank column. Power BI will promote `_Measures` to the top of the field list with a special calculator icon!\n\n---\n\n### 5. Summary & Best Practices\n- Never use implicit measures (dragging raw numeric columns directly into cards). Always write explicit DAX measures.\n- Use `DIVIDE(Numerator, Denominator, AlternateResult)` for all ratio computations.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Understand the purpose of **DAX (Data Analysis Expressions)** as a formula language for tabular data models.\n2. Articulate the precise technical and performance differences between **Calculated Columns** and **Measures**.\n3. Author robust explicit base measures using standard aggregation functions (`SUM`, `AVERAGE`, `COUNTROWS`, `DISTINCTCOUNT`).\n4. Prevent divide-by-zero application crashes using the safe `DIVIDE()` function.\n5. Create a dedicated **_Measures Table** to organize enterprise business metrics cleanly.\n\n---\n\n### 1. What is DAX?\n\nDAX (Data Analysis Expressions) is the native formula and query language of Power BI, Azure Analysis Services, and Microsoft Excel Power Pivot. \n\nDAX is **not** Excel formula syntax:\n- Excel formulas reference physical grid cell addresses (e.g., `=A2*B2`).\n- DAX formulas reference structured tables and columns (e.g., `FactSales[UnitPrice] * FactSales[Quantity]`).\n\n---\n\n### 2. Calculated Columns vs Explicit Measures\n\nUnderstanding this distinction is the single most important architectural milestone in mastering Power BI:\n\n| Property | Calculated Column | Explicit Measure |\n| :--- | :--- | :--- |\n| **Evaluation Time** | Generally evaluated during data refresh (or when schema/formula changes) | Evaluated on-the-fly dynamically when a visual or query requests the value |\n| **Storage in Model** | Computed values are stored directly in the tabular data model (occupying RAM & file space) | Does not store values per row in the model; evaluated dynamically at query time |\n| **Resource Consumption** | Increases dataset size in memory (VertiPaq cache) and storage on disk | Requires CPU and transient memory resources during query execution and visual rendering |\n| **Evaluation Context** | **Row Context** (evaluates row-by-row across the table during data load) | **Filter Context** (dynamically aggregates rows based on active visual filters, slicers, and relationships) |\n| **Primary Use Cases** | Row-level attributes, categories, slicers, or row headers in visuals | Numerical aggregations, KPIs, percentages, weighted ratios, and dynamic totals |\n\n```dax\n-- CALCULATED COLUMN (Evaluated during data refresh and stored in the model)\nFactSales[LineTotal] = FactSales[Quantity] * FactSales[UnitPrice]\n\n-- EXPLICIT MEASURE (Evaluated dynamically in filter context when queried)\nTotal Revenue KSh = SUM(FactSales[LineTotal])\n```\n\n> [!NOTE]\n> While measures do not consume persistent column storage for each individual row in your model, they are evaluated at query time. Complex measures over millions of rows still consume CPU and transient memory resources during report rendering. Always write clean, efficient measure logic!\n\n---\n\n### 3. Essential Base DAX Aggregations\n\n#### A. Total Revenue & Total Cost\n```dax\nTotal Revenue KSh = \nSUM(FactSales[LineTotal])\n\nTotal Cost KSh = \nSUM(FactSales[TotalCost])\n```\n\n#### B. Total Gross Profit & Gross Margin % (Safe Division)\n```dax\n-- Measure Branching: Reusing existing measures inside new measures\nGross Profit KSh = \n[Total Revenue KSh] - [Total Cost KSh]\n\n-- Always use DIVIDE instead of '/' to handle division-by-zero safely without throwing runtime errors\nGross Margin % = \nDIVIDE([Gross Profit KSh], [Total Revenue KSh], 0)\n```\n\n#### C. Volume & Transaction Counting\nAggregation functions should always be chosen according to your intended business calculation and data model structure, rather than assuming one function is universally faster than another:\n\n- **`COUNTROWS(Table)`**: Counts the number of rows in the specified table within the current filter context. It is designed specifically for counting table rows directly without scanning individual column values, making it ideal for transaction, order, or event counts.\n- **`COUNT(Table[Column])`**: Counts only the rows where the specified column contains a non-blank value. Useful when null/empty values should be excluded from the count.\n- **`DISTINCTCOUNT(Table[Column])`**: Evaluates and returns the number of distinct (unique) values in a column (e.g., counting unique customers who transacted).\n\n```dax\n-- Counting table rows for transaction volume\nTotal Transactions = \nCOUNTROWS(FactSales)\n\n-- DISTINCTCOUNT counts unique active customer accounts\nActive Customers Count = \nDISTINCTCOUNT(FactSales[CustomerID])\n\n-- Average Order Value (AOV) using safe division\nAverage Order Value KSh = \nDIVIDE([Total Revenue KSh], [Total Transactions], 0)\n```\n\n---\n\n### 4. Best Practice: Dedicated Measures Table\n\nNever scatter measures randomly across different data tables. \n1. Go to **Home -> Enter Data**.\n2. Name the table `_Measures`.\n3. Create your DAX measures inside `_Measures`.\n4. Delete the default blank column. Power BI will promote `_Measures` to the top of the field list with a special calculator icon!\n\n---\n\n### 5. Summary & Best Practices\n- Never use implicit measures (dragging raw numeric columns directly into cards). Always write explicit DAX measures.\n- Use `DIVIDE(Numerator, Denominator, AlternateResult)` for all ratio computations.\n- Choose aggregation functions (`COUNTROWS`, `COUNT`, `DISTINCTCOUNT`) based on model semantics rather than assuming one is always fastest.",
         "challenge": {
           "type": "quiz",
           "title": "Module 5 Checkpoint: DAX Fundamentals",
@@ -4920,22 +5232,129 @@ export const coursesData = [
         ],
         "number": 6,
         "title": "Advanced DAX: Evaluation Context, CALCULATE, and Time Intelligence",
-        "subtitle": "Filter Context vs Row Context, CALCULATE modifiers (FILTER, ALL), and Time Intelligence (YTD, Prior Year)",
+        "subtitle": "Filter Context vs Row Context, CALCULATE modifiers (FILTER, ALL, REMOVEFILTERS), and Time Intelligence (YTD, Prior Year)",
         "readingTime": "26 min",
         "videoLesson": {
-          "title": "Advanced DAX: Evaluation Context, CALCULATE & Time Intelligence",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
+          "title": "Power BI DAX Context: Filter, Row & Context Transition | Power BI Course 28",
+          "channel": "Data with Baraa",
+          "duration": "32:24",
+          "videoId": "NnSyWXLBW2U",
+          "watchUrl": "https://www.youtube.com/watch?v=NnSyWXLBW2U",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/NnSyWXLBW2U",
+          "url": "https://www.youtube-nocookie.com/embed/NnSyWXLBW2U",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
           "alternativeSource": "https://learn.microsoft.com/en-us/dax/calculate-function-dax",
           "sourceName": "Microsoft Learn — CALCULATE Function Reference",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "Microsoft Learn — CALCULATE Function",
+              "url": "https://learn.microsoft.com/en-us/dax/calculate-function-dax"
+            },
+            {
+              "name": "Microsoft Learn — TOTALYTD Function",
+              "url": "https://learn.microsoft.com/en-us/dax/totalytd-function-dax"
+            },
+            {
+              "name": "Microsoft Learn — SAMEPERIODLASTYEAR Function",
+              "url": "https://learn.microsoft.com/en-us/dax/sameperiodlastyear-function-dax"
+            }
+          ],
+          "note": "Advanced DAX, Context & Time Intelligence: Topic 1 by Data with Baraa (32:24) thoroughly teaches filter context vs. row context, context transition, and CALCULATE. Topic 2 by SQLBI (18:45) provides the authoritative comparison of ALL, ALLSELECTED, ALLEXCEPT, and REMOVEFILTERS. Topic 3 by Rahim Zulfiqar Ali (20:23) covers date tables, TOTALYTD, SAMEPERIODLASTYEAR, and YoY growth metrics.",
+          "references": [
+            {
+              "id": "ref-dax-context-calculate",
+              "tabLabel": "1. Evaluation Context & CALCULATE",
+              "topic": "Filter Context vs. Row Context, CALCULATE & Context Transition",
+              "title": "Power BI DAX Context: Filter, Row & Context Transition | Power BI Course 28",
+              "channel": "Data with Baraa",
+              "duration": "32:24",
+              "videoId": "NnSyWXLBW2U",
+              "watchUrl": "https://www.youtube.com/watch?v=NnSyWXLBW2U",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/NnSyWXLBW2U",
+              "url": "https://www.youtube-nocookie.com/embed/NnSyWXLBW2U",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/dax/calculate-function-dax",
+              "sourceName": "Microsoft Learn — CALCULATE Function Reference",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — CALCULATE Function",
+                  "url": "https://learn.microsoft.com/en-us/dax/calculate-function-dax"
+                },
+                {
+                  "name": "Microsoft Learn — Filter Context",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/guidance/dax-evaluation-context"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Data with Baraa explains the fundamental mechanics of DAX evaluation context, contrasting filter context against row context, explaining context transition, and demonstrating how CALCULATE alters active filter context."
+            },
+            {
+              "id": "ref-filter-modifiers-all-removefilters",
+              "tabLabel": "2. ALL, ALLEXCEPT & REMOVEFILTERS",
+              "topic": "Clearing & Preserving Filters for Share of Total (% Share)",
+              "title": "ALL vs ALLSELECTED vs ALLEXCEPT vs REMOVEFILTERS",
+              "channel": "SQLBI",
+              "duration": "18:45",
+              "videoId": "N5P6ac1VhSo",
+              "watchUrl": "https://www.youtube.com/watch?v=N5P6ac1VhSo",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/N5P6ac1VhSo",
+              "url": "https://www.youtube-nocookie.com/embed/N5P6ac1VhSo",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/dax/removefilters-function-dax",
+              "sourceName": "Microsoft Learn — REMOVEFILTERS Function (DAX)",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — REMOVEFILTERS Function",
+                  "url": "https://learn.microsoft.com/en-us/dax/removefilters-function-dax"
+                },
+                {
+                  "name": "Microsoft Learn — ALL Function",
+                  "url": "https://learn.microsoft.com/en-us/dax/all-function-dax"
+                },
+                {
+                  "name": "Microsoft Learn — ALLEXCEPT Function",
+                  "url": "https://learn.microsoft.com/en-us/dax/allexcept-function-dax"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Alberto Ferrari from SQLBI breaks down the precise differences between ALL, ALLSELECTED, ALLEXCEPT, and REMOVEFILTERS when modifying filter context to compute percentages of total and grand totals."
+            },
+            {
+              "id": "ref-time-intelligence-ytd-sply",
+              "tabLabel": "3. Time Intelligence (YTD & SPLY)",
+              "topic": "Date Tables, TOTALYTD, SAMEPERIODLASTYEAR & YoY Growth Metrics",
+              "title": "Time Intelligence DAX | Current, Previous & SamePeriodLastYear | MTD QTD YTD | MoM QoQ YoY POWER BI",
+              "channel": "Rahim Zulfiqar Ali",
+              "duration": "20:23",
+              "videoId": "WsWDjH-CgHg",
+              "watchUrl": "https://www.youtube.com/watch?v=WsWDjH-CgHg",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/WsWDjH-CgHg",
+              "url": "https://www.youtube-nocookie.com/embed/WsWDjH-CgHg",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/dax/totalytd-function-dax",
+              "sourceName": "Microsoft Learn — TOTALYTD Function Reference",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — TOTALYTD Function",
+                  "url": "https://learn.microsoft.com/en-us/dax/totalytd-function-dax"
+                },
+                {
+                  "name": "Microsoft Learn — SAMEPERIODLASTYEAR Function",
+                  "url": "https://learn.microsoft.com/en-us/dax/sameperiodlastyear-function-dax"
+                },
+                {
+                  "name": "Microsoft Learn — Time Intelligence Functions (DAX)",
+                  "url": "https://learn.microsoft.com/en-us/dax/time-intelligence-functions-dax"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Rahim Zulfiqar Ali demonstrates how to configure continuous date tables and write production time intelligence DAX calculations: MTD, QTD, TOTALYTD, SAMEPERIODLASTYEAR (SPLY), and YoY growth %."
+            }
+          ]
         },
         "summary": "Master the most powerful function in Power BI: CALCULATE. Understand context transition, filter manipulation with ALL and ALLEXCEPT, and build enterprise Time Intelligence calculations (YTD, MTD, YoY growth).",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Explain the deep mechanics of **Filter Context**, **Row Context**, and **Context Transition**.\n2. Master **`CALCULATE()`**: the only DAX function capable of modifying and overriding active filter context.\n3. Remove and preserve selective filters using **`ALL()`**, **`ALLEXCEPT()`**, and **`REMOVEFILTERS()`** to calculate % Share of Total.\n4. Construct a standard DAX **Date Table (Calendar Table)** marked as official date table.\n5. Author essential Time Intelligence measures: **`TOTALYTD`**, **`SAMEPERIODLASTYEAR`**, and **YoY Growth %**.\n\n---\n\n### 1. The Superpower of DAX: CALCULATE()\n\n`CALCULATE()` evaluates a DAX expression in a **modified filter context**. It is the engine of all advanced analytics in Power BI.\n\n**Syntax**:\n```dax\nCALCULATE(<Expression>, <Filter1>, <Filter2>, ...)\n```\n\n**Example: Nairobi Region Sales Only**:\n```dax\nNairobi Revenue KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    DimStores[Region] = \"Nairobi Urban\"\n)\n```\n*How it works*: Even if the user selects \"Mombasa\" on a slicer, this specific visual card will override the slicer and compute revenue strictly for \"Nairobi Urban\".\n\n---\n\n### 2. Calculating % Share of Total with ALL()\n\nTo calculate what percentage of overall company revenue a single branch or category contributes, you must divide the filtered branch revenue by the grand total revenue across all branches.\n\n```dax\n-- Grand Total Revenue across all products (ignores Product slicers)\nTotal Company Revenue KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    ALL(DimProducts)\n)\n\n-- Product Category Contribution %\nCategory Revenue Share % = \nDIVIDE(\n    [Total Revenue KSh],\n    [Total Company Revenue KSh],\n    0\n)\n```\n\n---\n\n### 3. The Prerequisite for Time Intelligence: A Dedicated Date Table\n\nTime Intelligence functions fail if your date column has gaps, duplicate timestamps, or missing days. You must generate a continuous Date Table:\n\n```dax\nDimDate = \nADDCOLUMNS(\n    CALENDAR(DATE(2024, 1, 1), DATE(2027, 12, 31)),\n    \"Year\", YEAR([Date]),\n    \"Quarter\", \"Q\" & FORMAT([Date], \"Q\"),\n    \"MonthName\", FORMAT([Date], \"MMMM\"),\n    \"MonthNumber\", MONTH([Date]),\n    \"YearMonth\", FORMAT([Date], \"YYYY-MM\"),\n    \"DayOfWeek\", FORMAT([Date], \"dddd\")\n)\n```\n*Action*: Right-click `DimDate` in Model View -> **Mark as Date Table** -> select `[Date]`.\n\n---\n\n### 4. Enterprise Time Intelligence Formulas\n\n#### A. Year-To-Date (YTD) Revenue\n```dax\nRevenue YTD KSh = \nTOTALYTD([Total Revenue KSh], DimDate[Date])\n```\n\n#### B. Same Period Last Year (Prior Year Comparison)\n```dax\nRevenue Prior Year KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    SAMEPERIODLASTYEAR(DimDate[Date])\n)\n```\n\n#### C. Year-over-Year (YoY) Growth Amount & %\n```dax\nRevenue YoY Growth KSh = \n[Total Revenue KSh] - [Revenue Prior Year KSh]\n\nRevenue YoY Growth % = \nDIVIDE(\n    [Revenue YoY Growth KSh],\n    [Revenue Prior Year KSh],\n    0\n)\n```\n\n---\n\n### 5. Summary & Best Practices\n- Always create a dedicated, contiguous Date Table before authoring time intelligence measures.\n- Use `CALCULATE` to modify filter context and `ALL` to clear dimension filters for share-of-total calculations.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Explain the deep mechanics of **Filter Context**, **Row Context**, and **Context Transition**.\n2. Master **`CALCULATE()`**: the only DAX function capable of modifying and overriding active filter context.\n3. Remove and preserve selective filters using **`ALL()`**, **`ALLEXCEPT()`**, and **`REMOVEFILTERS()`** to calculate % Share of Total.\n4. Construct a standard DAX **Date Table (Calendar Table)** marked as official date table.\n5. Author essential Time Intelligence measures: **`TOTALYTD`**, **`SAMEPERIODLASTYEAR`**, and **YoY Growth %**.\n\n---\n\n### 1. The Superpower of DAX: CALCULATE()\n\n`CALCULATE()` evaluates a DAX expression in a **modified filter context**. It is the engine of all advanced analytics in Power BI.\n\n**Syntax**:\n```dax\nCALCULATE(<Expression>, <Filter1>, <Filter2>, ...)\n```\n\n**Example: Nairobi Region Sales Only**:\n```dax\nNairobi Revenue KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    DimStores[Region] = \"Nairobi Urban\"\n)\n```\n*How it works*: Even if the user selects \"Mombasa\" on a slicer, this specific visual card will override the slicer and compute revenue strictly for \"Nairobi Urban\".\n\n---\n\n### 2. Calculating % Share of Total with ALL(), ALLEXCEPT(), and REMOVEFILTERS()\n\nTo calculate what percentage of overall company revenue a single branch or category contributes, you must divide the filtered branch revenue by the grand total revenue across all branches.\n\nDAX provides dedicated filter removal functions:\n- **`ALL(Table | Column)`**: Clears filters and can also return distinct table values for iterations.\n- **`REMOVEFILTERS(Table | Column)`**: Modern DAX best practice intended specifically as a `CALCULATE` filter modifier to clear filters from tables or columns.\n- **`ALLEXCEPT(Table, Column1, ...)`**: Clears all context filters on a table *except* the columns explicitly specified.\n\n```dax\n-- Grand Total Revenue across all products (clears Product slicers with REMOVEFILTERS or ALL)\nTotal Company Revenue KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    REMOVEFILTERS(DimProducts)\n)\n\n-- Category-level Subtotal using ALLEXCEPT\nCategory Subtotal Revenue KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    ALLEXCEPT(DimProducts, DimProducts[CategoryName])\n)\n\n-- Product Category Contribution %\nCategory Revenue Share % = \nDIVIDE(\n    [Total Revenue KSh],\n    [Total Company Revenue KSh],\n    0\n)\n```\n\n---\n\n### 3. The Prerequisite for Time Intelligence: A Dedicated Date Table\n\nTime Intelligence functions fail if your date column has gaps, duplicate timestamps, or missing days. You must generate a continuous Date Table:\n\n```dax\nDimDate = \nADDCOLUMNS(\n    CALENDAR(DATE(2024, 1, 1), DATE(2027, 12, 31)),\n    \"Year\", YEAR([Date]),\n    \"Quarter\", \"Q\" & FORMAT([Date], \"Q\"),\n    \"MonthName\", FORMAT([Date], \"MMMM\"),\n    \"MonthNumber\", MONTH([Date]),\n    \"YearMonth\", FORMAT([Date], \"YYYY-MM\"),\n    \"DayOfWeek\", FORMAT([Date], \"dddd\")\n)\n```\n*Action*: Right-click `DimDate` in Model View -> **Mark as Date Table** -> select `[Date]`.\n\n---\n\n### 4. Enterprise Time Intelligence Formulas\n\n#### A. Year-To-Date (YTD) Revenue\n```dax\nRevenue YTD KSh = \nTOTALYTD([Total Revenue KSh], DimDate[Date])\n```\n\n#### B. Same Period Last Year (Prior Year Comparison)\n```dax\nRevenue Prior Year KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    SAMEPERIODLASTYEAR(DimDate[Date])\n)\n```\n\n#### C. Year-over-Year (YoY) Growth Amount & %\n```dax\nRevenue YoY Growth KSh = \n[Total Revenue KSh] - [Revenue Prior Year KSh]\n\nRevenue YoY Growth % = \nDIVIDE(\n    [Revenue YoY Growth KSh],\n    [Revenue Prior Year KSh],\n    0\n)\n```\n\n---\n\n### 5. Summary & Best Practices\n- Always create a dedicated, contiguous Date Table before authoring time intelligence measures.\n- Use `CALCULATE` to modify filter context and `ALL` to clear dimension filters for share-of-total calculations.",
         "challenge": {
           "type": "quiz",
           "title": "Module 6 Checkpoint: CALCULATE & Time Intelligence",
@@ -4963,16 +5382,138 @@ export const coursesData = [
         "subtitle": "KPI cards, Matrix tables, Charts, Slicers, Drill-through pages, Bookmarks, and Tooltip pages",
         "readingTime": "24 min",
         "videoLesson": {
-          "title": "Building Interactive Reports, Tooltips, Drill-Throughs & Cards",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-report-visualizations",
+          "title": "Power BI Visuals Masterclass – Make Charts That Actually Tell a Story",
+          "channel": "Chandoo",
+          "duration": "25:56",
+          "videoId": "r7CARn1BL-A",
+          "watchUrl": "https://www.youtube.com/watch?v=r7CARn1BL-A",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/r7CARn1BL-A",
+          "url": "https://www.youtube-nocookie.com/embed/r7CARn1BL-A",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a",
           "sourceName": "Microsoft Learn — Power BI Visualizations Reference",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "Microsoft Learn — Power BI Visualization Types",
+              "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a"
+            },
+            {
+              "name": "Microsoft Learn — Edit Visual Interactions",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-reports-visual-interactions"
+            },
+            {
+              "name": "Microsoft Learn — Set Up Drillthrough",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-drillthrough"
+            },
+            {
+              "name": "Microsoft Learn — Custom Report-Page Tooltips",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-tooltips"
+            },
+            {
+              "name": "Microsoft Learn — Bookmarks in Power BI",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-bookmarks"
+            }
+          ],
+          "note": "Interactive Visualizations & Dashboard UX: Topic 1 by Chandoo (25:56) teaches the core visual gallery (KPI cards, Matrix, column/line charts, small multiples). Topic 2 by Pragmatic Works (06:50) demonstrates how to configure Edit Interactions (filter, highlight, none). Topic 3 by Leila Gharani (10:19) covers drill-through pages and custom tooltips with back buttons. Topic 4 by How to Power BI (09:53) shows how to build dynamic bookmark-driven layouts with the Selection pane.",
+          "references": [
+            {
+              "id": "ref-visual-gallery-cards-matrix",
+              "tabLabel": "1. Core Visuals & KPI Cards",
+              "topic": "KPI Cards, Matrix Tables, Column & Line Charts, Small Multiples",
+              "title": "Power BI Visuals Masterclass – Make Charts That Actually Tell a Story",
+              "channel": "Chandoo",
+              "duration": "25:56",
+              "videoId": "r7CARn1BL-A",
+              "watchUrl": "https://www.youtube.com/watch?v=r7CARn1BL-A",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/r7CARn1BL-A",
+              "url": "https://www.youtube-nocookie.com/embed/r7CARn1BL-A",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a",
+              "sourceName": "Microsoft Learn — Power BI Visualizations Reference",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Power BI Visualization Types",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Chandoo guides you through selecting and styling essential Power BI visuals: Column charts, Line charts, Donut charts, KPI Cards (New Card), Small Multiples, and Matrix tables."
+            },
+            {
+              "id": "ref-edit-interactions-cross-filtering",
+              "tabLabel": "2. Edit Interactions & Slicers",
+              "topic": "Cross-Filtering, Cross-Highlighting & Edit Interactions (Filter, Highlight, None)",
+              "title": "Your Power BI Visuals Are Wrong… Fix Interactions & Filters NOW! 😳",
+              "channel": "Pragmatic Works",
+              "duration": "06:50",
+              "videoId": "5MteQv_h6ck",
+              "watchUrl": "https://www.youtube.com/watch?v=5MteQv_h6ck",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/5MteQv_h6ck",
+              "url": "https://www.youtube-nocookie.com/embed/5MteQv_h6ck",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-reports-visual-interactions",
+              "sourceName": "Microsoft Learn — Change Visual Interactions",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Visual Interactions",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-reports-visual-interactions"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Allison from Pragmatic Works demonstrates how to control visual interactions across charts and slicers using Edit Interactions (Filter vs. Highlight vs. None)."
+            },
+            {
+              "id": "ref-drillthrough-tooltips",
+              "tabLabel": "3. Drill-Through Pages & Tooltips",
+              "topic": "Dedicated Drill-Through Destination Pages, Parameters, Buttons & Tooltip Pages",
+              "title": "How to use Drill Through in Power BI. 👆 ONE click from chart to details",
+              "channel": "Leila Gharani",
+              "duration": "10:19",
+              "videoId": "BbplhqDCWOM",
+              "watchUrl": "https://www.youtube.com/watch?v=BbplhqDCWOM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/BbplhqDCWOM",
+              "url": "https://www.youtube-nocookie.com/embed/BbplhqDCWOM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-drillthrough",
+              "sourceName": "Microsoft Learn — Set Up Drillthrough",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Set Up Drillthrough",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-drillthrough"
+                },
+                {
+                  "name": "Microsoft Learn — Customize Tooltips",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-tooltips"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Leila Gharani demonstrates creating dedicated drill-through pages, passing filter context automatically, adding multi-row card summaries, and setting up interactive drill-through and back buttons."
+            },
+            {
+              "id": "ref-bookmarks-selection-pane",
+              "tabLabel": "4. Bookmarks & Selection Pane",
+              "topic": "Layer Visibility, Chart vs. Table Toggle & Dynamic Dashboard Storytelling",
+              "title": "5 WAYS to use BOOKMARKS in Power BI",
+              "channel": "How to Power BI",
+              "duration": "09:53",
+              "videoId": "_HTF7Ph7Eqc",
+              "watchUrl": "https://www.youtube.com/watch?v=_HTF7Ph7Eqc",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/_HTF7Ph7Eqc",
+              "url": "https://www.youtube-nocookie.com/embed/_HTF7Ph7Eqc",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-bookmarks",
+              "sourceName": "Microsoft Learn — Bookmarks in Power BI",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Desktop Bookmarks",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-bookmarks"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Bas Dohmen from How to Power BI reveals 5 practical techniques for utilizing Bookmarks and the Selection pane to toggle between charts and tables, clear slicer filters, and build app-like navigation."
+            }
+          ]
         },
         "summary": "Construct immersive, high-impact analytical visualizations in Power BI. Master visual cross-filtering, multi-select slicers, custom tooltips, drill-through navigation, and bookmark-driven storytelling.",
         "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Select and configure standard Power BI visual types: **Cards**, **KPI Visuals**, **Matrix**, **Clustered Column**, and **Line Charts**.\n2. Control visual interactions using **Edit Interactions** (Filter, Highlight, None).\n3. Build dedicated **Drill-Through Pages** allowing users to right-click a branch or customer and inspect granular transaction history.\n4. Architect rich **Report-Page Tooltips** that display micro-charts when hovering over data points.\n5. Implement interactive **Bookmarks** and **Selection Panes** for toggling chart views, slide-out filter drawers, and reset buttons.\n\n---\n\n### 1. Power BI Core Visual Palette\n\n```\n+-------------------------------------------------------------------------------+\n|                       POWER BI CORE VISUALIZATION TYPES                       |\n+-------------------------------------------------------------------------------+\n| Visual Type          | Best Analytical Use Case                               |\n+----------------------+--------------------------------------------------------+\n| New Card (Multi-Row) | Top-line KPI summary numbers with variance callouts    |\n| Matrix Table         | Multi-level hierarchical drill-down (Year > Quarter)   |\n| Clustered Bar/Column | Comparing discrete categories (Branches, Product SKUs) |\n| Line Chart           | Continuous time-series trend analysis (Daily, Monthly) |\n| Ribbon Chart         | Tracking category rank shifts over consecutive periods |\n| Waterfall Chart      | Visualizing profit bridge and cost variance drivers    |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Controlling Visual Interactions (Cross-Filtering vs Highlighting)\n\nBy default, clicking an element in one chart cross-highlights or filters all other charts on the canvas.\n- **To Customize**: Select a visual -> click **Format tab -> Edit Interactions**.\n- Choose between:\n  - **Filter Icon**: Filters other charts to show only matching data.\n  - **Highlight Icon**: Dims non-matching portions while retaining total bars.\n  - **None Icon (Circle with Slash)**: Prevents the selected chart from modifying target visuals (e.g. keeping company-wide KPI scorecards constant).\n\n---\n\n### 3. Drill-Through Pages: Deep Dive on Demand\n\nDrill-through allows business users to start at a high-level summary (e.g. Nairobi Branch Total Sales) and right-click to jump to a dedicated detailed breakdown page.\n\n**Implementation Steps**:\n1. Create a new page named `Branch Deep Dive`.\n2. In the **Visualizations pane -> Drill-through filters**, drag `DimStores[BranchName]`.\n3. Add detailed charts (Customer list, product mix, returns) to the `Branch Deep Dive` page.\n4. Power BI automatically adds a **Back Button (←)** to the top-left corner.\n5. On the main overview page, users right-click \"Nairobi Hub\" -> **Drill-through -> Branch Deep Dive**!\n\n---\n\n### 4. Bookmarks and Selection Pane for Dynamic UX\n\nBookmarks capture the exact state of a report page (filters, visual visibility, spotlight).\n- **Toggle View Example**: Place a Sales Bar Chart and a Sales Data Table in the exact same coordinates.\n- Use the **Selection Pane** to show/hide layers.\n- Create Bookmark 1: `Chart View` (Bar chart visible, table hidden).\n- Create Bookmark 2: `Table View` (Table visible, bar chart hidden).\n- Assign bookmarks to modern clickable buttons!\n\n---\n\n### 5. Summary & Best Practices\n- Avoid visual clutter; limit canvas pages to 4–6 core visuals.\n- Utilize Drill-through and Tooltips for granular details rather than overcrowding main dashboards.",
@@ -5003,19 +5544,129 @@ export const coursesData = [
         "subtitle": "Z-pattern layout, color theory, accessible contrast, typography, and mobile layout optimization",
         "readingTime": "20 min",
         "videoLesson": {
-          "title": "Dashboard Design UX, Color Palettes and Executive Layouts",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
+          "title": "Power BI Report Design Masterclass 📊 Build Stunning Reports That Users Love!",
+          "channel": "Pragmatic Works",
+          "duration": "06:40",
+          "videoId": "Dk9xg27Nuyw",
+          "watchUrl": "https://www.youtube.com/watch?v=Dk9xg27Nuyw",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/Dk9xg27Nuyw",
+          "url": "https://www.youtube-nocookie.com/embed/Dk9xg27Nuyw",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
           "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips",
           "sourceName": "Microsoft Learn — Tips for Designing Great Power BI Dashboards",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "Microsoft Learn — Dashboard Design Tips",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips"
+            },
+            {
+              "name": "Microsoft Learn — Creating Accessible Reports",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-accessibility-creating-reports"
+            },
+            {
+              "name": "Microsoft Learn — Mobile-Optimized Reports",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-create-mobile-optimized-report-about"
+            }
+          ],
+          "note": "Dashboard Design & Executive Aesthetics: Topic 1 by Pragmatic Works (06:40) covers visual layout, hierarchy, and design theory. Topic 2 by How to Power BI (20:21) demonstrates spacing, white space, rounded containers, and clutter reduction. Topic 3 by Parker Stevens (07:36) focuses on accessibility and contrast. Topic 4 by Pragmatic Works (08:00) teaches mobile layout optimization for phone-ready reporting.",
+          "references": [
+            {
+              "id": "ref-executive-layout-hierarchy",
+              "tabLabel": "1. Executive Layout & Hierarchy",
+              "topic": "Layout Blueprints, Visual Hierarchy & Report Structure",
+              "title": "Power BI Report Design Masterclass 📊 Build Stunning Reports That Users Love!",
+              "channel": "Pragmatic Works",
+              "duration": "06:40",
+              "videoId": "Dk9xg27Nuyw",
+              "watchUrl": "https://www.youtube.com/watch?v=Dk9xg27Nuyw",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Dk9xg27Nuyw",
+              "url": "https://www.youtube-nocookie.com/embed/Dk9xg27Nuyw",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips",
+              "sourceName": "Microsoft Learn — Tips for Designing Great Power BI Dashboards",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Dashboard Design Tips",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Allison Gonzalez from Pragmatic Works explains report structure, visual hierarchy, placement principles, and storytelling techniques to ensure dashboards communicate insights rapidly to executives."
+            },
+            {
+              "id": "ref-containers-white-space",
+              "tabLabel": "2. Spacing & Clutter Reduction",
+              "topic": "White Space, Card Containers, Alignment & Formatting Numbers",
+              "title": "5 DESIGN TRICKS that Make EVERY Power BI Report Look GREAT!",
+              "channel": "How to Power BI",
+              "duration": "20:21",
+              "videoId": "v6fP8gyCLLc",
+              "watchUrl": "https://www.youtube.com/watch?v=v6fP8gyCLLc",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/v6fP8gyCLLc",
+              "url": "https://www.youtube-nocookie.com/embed/v6fP8gyCLLc",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips",
+              "sourceName": "Microsoft Learn — Dashboard Layout Best Practices",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Dashboard Design Tips",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Bas Dohmen from How to Power BI reveals 5 core design tricks: visual dimensions, white space padding, rounded containers, and color theme integration to eliminate visual clutter."
+            },
+            {
+              "id": "ref-accessible-contrast",
+              "tabLabel": "3. Accessible Contrast & Colors",
+              "topic": "Semantic Color Rules, Contrast Standards (WCAG) & Colorblind-Friendly Themes",
+              "title": "Power BI Report Design for Maximum Accessibility",
+              "channel": "Parker Stevens - BI Elite",
+              "duration": "07:36",
+              "videoId": "gNCTjoCu6k4",
+              "watchUrl": "https://www.youtube.com/watch?v=gNCTjoCu6k4",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/gNCTjoCu6k4",
+              "url": "https://www.youtube-nocookie.com/embed/gNCTjoCu6k4",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-accessibility-creating-reports",
+              "sourceName": "Microsoft Learn — Creating Accessible Reports in Power BI",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Creating Accessible Reports",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-accessibility-creating-reports"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Parker Stevens from BI Elite walks through building inclusive, accessible Power BI reports using high-contrast themes, alt text, tab order, and colorblind-safe palettes."
+            },
+            {
+              "id": "ref-mobile-layout-optimization",
+              "tabLabel": "4. Mobile Layout Optimization",
+              "topic": "Mobile Layout View, Touch-Friendly Viewports & Phone-Ready Reports",
+              "title": "Mobile Layout Basics for Power BI Reports",
+              "channel": "Pragmatic Works",
+              "duration": "08:00",
+              "videoId": "X5r69XJCpCk",
+              "watchUrl": "https://www.youtube.com/watch?v=X5r69XJCpCk",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/X5r69XJCpCk",
+              "url": "https://www.youtube-nocookie.com/embed/X5r69XJCpCk",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-create-mobile-optimized-report-about",
+              "sourceName": "Microsoft Learn — Create Mobile-Optimized Reports",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Mobile-Optimized Reports",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-create-mobile-optimized-report-about"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Allison Gonzalez demonstrates how to configure dedicated Power BI mobile layouts in Power BI Desktop and Service, adapting key scorecards and visuals for smartphone consumption."
+            }
+          ]
         },
         "summary": "Apply professional UI/UX design and cognitive psychology to Power BI dashboards. Master visual hierarchy, executive scorecard layouts, accessible color palettes, and responsive mobile-optimized views.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Apply the **Z-Pattern Layout** to guide executive eyes from high-level KPIs to root-cause breakdowns.\n2. Implement corporate theme palettes with accessible color contrast and semantic color rules (Green = Good, Red = Warning, Slate/Blue = Neutral).\n3. Organize dashboard layout using visual containers, cards, and structured white space.\n4. Optimize typography, eliminate chart junk, and format numbers appropriately (e.g. `KSh 14.2M` vs `14238910.42`).\n5. Design dedicated **Mobile Layouts** for C-suite smartphone consumption using Power BI Mobile View.\n\n---\n\n### 1. The Executive Eye: The Z-Pattern Visual Hierarchy\n\nExecutives make decisions in seconds. A cluttered report guarantees confusion. Structure your canvas following the **Z-Pattern scanning model**:\n\n```\n+-------------------------------------------------------------------------------+\n|                       EXECUTIVE Z-PATTERN CANVAS BLUEPRINT                    |\n+-------------------------------------------------------------------------------+\n|  [ TOP ROW: High-Level KPI Scorecard Cards ]                                  |\n|  +------------------+ +------------------+ +------------------+ +-----------+ |\n|  | Total Revenue    | | Gross Margin %   | | Active Outlets   | | YoY Growth| |\n|  | KSh 48.5M        | | 32.4%            | | 148 Stores       | | +18.2% 🚀 | |\n|  +------------------+ +------------------+ +------------------+ +-----------+ |\n|                                                                               |\n|  [ MIDDLE ROW: Trend & Comparative Analysis ]                                 |\n|  +---------------------------------------+ +--------------------------------+ |\n|  | Monthly Revenue & Profit Trend        | | Regional Performance Breakdown | |\n|  | (Line Chart with Prior Year Benchmark)| | (Horizontal Clustered Bar)     | |\n|  +---------------------------------------+ +--------------------------------+ |\n|                                                                               |\n|  [ BOTTOM ROW: Granular Driver Matrix / Root Cause Breakdown ]                |\n|  +--------------------------------------------------------------------------+ |\n|  | Product SKU & Channel Contribution Matrix (Top 10 Performers vs Laggards)| |\n|  +--------------------------------------------------------------------------+ |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Semantic Color Rules & Eliminating \"Rainbow Dashboards\"\n\nA common beginner mistake is using 10 different bright colors for different categories.\n- **Rule of Neutrality**: Use calm background slates/navies (`#0f172a`, `#1e293b`) and neutral data bars (`#38bdf8`, `#64748b`).\n- **Semantic Colors (Reserve for Meaning)**:\n  - **Emerald / Green (`#10b981`)**: Positive target exceeded, profit growth.\n  - **Rose / Red (`#f43f5e`)**: Target missed, customer churn, operational risk.\n  - **Amber / Yellow (`#f59e0b`)**: Approaching threshold, inventory low.\n\n---\n\n### 3. Power BI Mobile Layout Optimization\n\nOver 60% of executive report views happen on smartphones during travel or executive meetings.\n1. In Power BI Desktop, navigate to **View tab -> Mobile Layout**.\n2. A vertical smartphone viewport appears beside your desktop canvas.\n3. Drag only top-line KPI cards, critical trend lines, and branch rank bars into the phone canvas.\n4. When published, mobile users automatically receive the vertical touch-friendly layout!\n\n---\n\n### 4. Summary & Best Practices\n- Always format large numbers concisely (`12.4M` or `850K`) to enhance readability.\n- Build mobile layouts for every published executive dashboard.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Apply visual hierarchy principles and layout techniques (such as the **Z-Pattern Layout**) to guide executive eyes from high-level KPIs to root-cause breakdowns.\n2. Implement corporate theme palettes with accessible color contrast and semantic color rules (Green = Good, Red = Warning, Slate/Blue = Neutral).\n3. Organize dashboard layout using visual containers, cards, and structured white space.\n4. Optimize typography, eliminate chart junk, and format numbers appropriately (e.g. `KSh 14.2M` vs `14238910.42`).\n5. Design dedicated **Mobile Layouts** for C-suite smartphone consumption using Power BI Mobile View.\n\n---\n\n### 1. The Executive Eye: Visual Hierarchy and Layout Patterns\n\nExecutives make decisions in seconds, and an unorganized report guarantees confusion. Structure your canvas using established visual hierarchy models. One effective technique for summary dashboards is the **Z-Pattern scanning model**, which reflects how users commonly scan visual summaries from top-left to bottom-right:\n\n```\n+-------------------------------------------------------------------------------+\n|                       EXECUTIVE Z-PATTERN CANVAS BLUEPRINT                    |\n+-------------------------------------------------------------------------------+\n|  [ TOP ROW: High-Level KPI Scorecard Cards ]                                  |\n|  +------------------+ +------------------+ +------------------+ +-----------+ |\n|  | Total Revenue    | | Gross Margin %   | | Active Outlets   | | YoY Growth| |\n|  | KSh 48.5M        | | 32.4%            | | 148 Stores       | | +18.2% 🚀 | |\n|  +------------------+ +------------------+ +------------------+ +-----------+ |\n|                                                                               |\n|  [ MIDDLE ROW: Trend & Comparative Analysis ]                                 |\n|  +---------------------------------------+ +--------------------------------+ |\n|  | Monthly Revenue & Profit Trend        | | Regional Performance Breakdown | |\n|  | (Line Chart with Prior Year Benchmark)| | (Horizontal Clustered Bar)     | |\n|  +---------------------------------------+ +--------------------------------+ |\n|                                                                               |\n|  [ BOTTOM ROW: Granular Driver Matrix / Root Cause Breakdown ]                |\n|  +--------------------------------------------------------------------------+ |\n|  | Product SKU & Channel Contribution Matrix (Top 10 Performers vs Laggards)| |\n|  +--------------------------------------------------------------------------+ |\n+-------------------------------------------------------------------------------+\n```\n\n*(Note: While the Z-Pattern is ideal for high-level analytical overviews, dense tabular reports often benefit from an **F-Pattern** or a clean modular card grid layout).*\n\n---\n\n### 2. Semantic Color Rules & Accessible Contrast\n\nA common beginner mistake is using 10 different bright colors for different categories.\n- **Rule of Neutrality**: Use calm background slates/navies (`#0f172a`, `#1e293b`) and neutral data bars (`#38bdf8`, `#64748b`).\n- **Semantic Colors (Reserve for Meaning)**:\n  - **Emerald / Green (`#10b981`)**: Positive target exceeded, profit growth.\n  - **Rose / Red (`#f43f5e`)**: Target missed, customer churn, operational risk.\n  - **Amber / Yellow (`#f59e0b`)**: Approaching threshold, inventory low.\n- **Accessible Contrast Standards**: Ensure text, data values, and background containers satisfy WCAG minimum contrast standards (at least 4.5:1 contrast ratio). Never rely on color alone to convey status; accompany colors with indicators (e.g. ▲, ▼) or explicit descriptive labels for colorblind accessibility.\n\n---\n\n### 3. Power BI Mobile Layout Optimization\n\nIn modern enterprise environments, executives and field managers frequently access reports on smartphones and tablets during transit, off-site visits, and executive meetings. Rather than forcing users to pinch and scroll horizontally across a desktop canvas, Power BI allows authors to design dedicated smartphone layouts:\n1. In Power BI Desktop, navigate to **View tab -> Mobile Layout**.\n2. A vertical smartphone viewport appears beside your desktop canvas.\n3. Drag only top-line KPI cards, critical trend lines, and branch rank bars into the phone canvas.\n4. When published, mobile users automatically receive the vertical touch-friendly layout!\n\n---\n\n### 4. Summary & Best Practices\n- Always format large numbers concisely (`12.4M` or `850K`) to enhance readability.\n- Build mobile layouts for every published executive dashboard.",
         "challenge": {
           "type": "quiz",
           "title": "Module 8 Checkpoint: Dashboard UX & Aesthetics",
@@ -5043,31 +5694,149 @@ export const coursesData = [
         "subtitle": "App Workspaces, On-Premises Data Gateways, Row-Level Security (RLS) with DAX, and automated distribution",
         "readingTime": "24 min",
         "videoLesson": {
-          "title": "Power BI Service: Cloud Workspaces, Row-Level Security & Refresh",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/enterprise/service-admin-rls",
-          "sourceName": "Microsoft Learn — Row-Level Security (RLS) with Power BI",
-          "badge": "Verified Reference Video"
+          "title": "Power BI Service FULL Tutorial - Gateway, Refresh, RLS, Apps & Sharing | Part 1",
+          "channel": "The BI Man",
+          "duration": "27:21",
+          "videoId": "hY_OcPRrDoI",
+          "watchUrl": "https://www.youtube.com/watch?v=hY_OcPRrDoI",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/hY_OcPRrDoI",
+          "url": "https://www.youtube-nocookie.com/embed/hY_OcPRrDoI",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces",
+          "sourceName": "Microsoft Learn — Power BI Workspaces & Collaboration",
+          "sources": [
+            {
+              "name": "Microsoft Learn — Power BI Workspaces",
+              "url": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces"
+            },
+            {
+              "name": "Microsoft Learn — Row-Level Security (RLS)",
+              "url": "https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security"
+            },
+            {
+              "name": "Microsoft Learn — On-premises Data Gateway",
+              "url": "https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem"
+            }
+          ],
+          "note": "Power BI Service Deployment, Governance & Security: Topic 1 by The BI Man (27:21) covers full end-to-end publishing, gateways, refresh, RLS, and Apps. Topic 2 by Pragmatic Works (18:34) breaks down App Workspaces and role permissions (Admin, Member, Contributor, Viewer). Topic 3 by Pragmatic Works (08:01) demonstrates dynamic RLS with USERPRINCIPALNAME(), security tables, and role testing. Topic 4 by Guy in a Cube (13:18) guides through On-Premises Data Gateway installation and automated scheduled refresh.",
+          "references": [
+            {
+              "id": "ref-pbi-service-end-to-end",
+              "tabLabel": "1. Service & Deployment",
+              "topic": "End-to-End Service Deployment: Publishing, Gateways, RLS & Power BI Apps",
+              "title": "Power BI Service FULL Tutorial - Gateway, Refresh, RLS, Apps & Sharing | Part 1",
+              "channel": "The BI Man",
+              "duration": "27:21",
+              "videoId": "hY_OcPRrDoI",
+              "watchUrl": "https://www.youtube.com/watch?v=hY_OcPRrDoI",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/hY_OcPRrDoI",
+              "url": "https://www.youtube-nocookie.com/embed/hY_OcPRrDoI",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces",
+              "sourceName": "Microsoft Learn — Power BI Workspaces & Collaboration",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Power BI Workspaces",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces"
+                },
+                {
+                  "name": "Microsoft Learn — Row-Level Security (RLS)",
+                  "url": "https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security"
+                },
+                {
+                  "name": "Microsoft Learn — On-premises Data Gateway",
+                  "url": "https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Comprehensive end-to-end walkthrough demonstrating publishing from Power BI Desktop to the Service, semantic models vs reports, gateway connectivity, automated scheduled refresh, RLS configuration, and organizational App distribution."
+            },
+            {
+              "id": "ref-workspace-roles-governance",
+              "tabLabel": "2. Workspaces & Roles",
+              "topic": "Workspace Governance, Collaboration & Role Permissions (Admin, Member, Contributor, Viewer)",
+              "title": "Power BI Workspaces and Security Roles",
+              "channel": "Pragmatic Works",
+              "duration": "18:34",
+              "videoId": "-3rKgB2G4Lk",
+              "watchUrl": "https://www.youtube.com/watch?v=-3rKgB2G4Lk",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/-3rKgB2G4Lk",
+              "url": "https://www.youtube-nocookie.com/embed/-3rKgB2G4Lk",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces",
+              "sourceName": "Microsoft Learn — Roles in Workspaces in Power BI",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Workspace Roles",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Manuel Quintana from Pragmatic Works explains App Workspaces, collaboration governance, inviting enterprise users, and assigning granular workspace roles (Admin, Member, Contributor, and Viewer)."
+            },
+            {
+              "id": "ref-dynamic-rls-userprincipalname",
+              "tabLabel": "3. Dynamic RLS",
+              "topic": "Dynamic Row-Level Security (RLS) with USERPRINCIPALNAME(), Security Tables & Role Testing",
+              "title": "Power BI USERPRINCIPALNAME() Tutorial | Dynamic Security That Actually Works! ⚡GAME CHANGER!",
+              "channel": "Pragmatic Works",
+              "duration": "08:01",
+              "videoId": "IMjPOo9KE_s",
+              "watchUrl": "https://www.youtube.com/watch?v=IMjPOo9KE_s",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/IMjPOo9KE_s",
+              "url": "https://www.youtube-nocookie.com/embed/IMjPOo9KE_s",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security",
+              "sourceName": "Microsoft Learn — Row-Level Security (RLS) with Power BI",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Row-Level Security (RLS)",
+                  "url": "https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Angelica from Pragmatic Works demonstrates configuring dynamic Row-Level Security using DAX and USERPRINCIPALNAME(), setting up user security mapping tables and relationships, and validating permissions with 'View as'."
+            },
+            {
+              "id": "ref-gateway-scheduled-refresh",
+              "tabLabel": "4. Data Gateways & Refresh",
+              "topic": "On-Premises Data Gateway Architecture, Cluster Setup & Scheduled Refresh",
+              "title": "Get started with the Power BI Gateway",
+              "channel": "Guy in a Cube",
+              "duration": "13:18",
+              "videoId": "Vlv1tbuZNcM",
+              "watchUrl": "https://www.youtube.com/watch?v=Vlv1tbuZNcM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Vlv1tbuZNcM",
+              "url": "https://www.youtube-nocookie.com/embed/Vlv1tbuZNcM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem",
+              "sourceName": "Microsoft Learn — On-Premises Data Gateway Overview",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — On-premises Data Gateway",
+                  "url": "https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Adam Saxton from Guy in a Cube explains how the On-Premises Data Gateway bridges local data sources to Power BI Service securely, configuring credentials, cluster nodes, and automated scheduled refresh."
+            }
+          ]
         },
         "summary": "Deploy enterprise reports to Power BI Service cloud. Configure automated scheduled refreshes with On-Premises Gateways, publish App Workspaces, and enforce strict Row-Level Security (RLS) based on user credentials.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Publish reports from Power BI Desktop to dedicated **Power BI Service App Workspaces**.\n2. Understand workspace role permissions: **Admin**, **Member**, **Contributor**, and **Viewer**.\n3. Configure the **On-Premises Data Gateway** for automated scheduled data refreshes against local databases and network shares.\n4. Implement dynamic **Row-Level Security (RLS)** using DAX filters and the `USERPRINCIPALNAME()` function.\n5. Package and distribute corporate reports via **Power BI Apps**.\n\n---\n\n### 1. Deploying to Power BI Service Workspaces\n\nNever share individual `.pbix` files via email. Instead:\n1. Create a dedicated Workspace in Power BI Service (e.g. `Kenya Commercial Operations`).\n2. In Power BI Desktop, click **Home -> Publish** -> select the target workspace.\n3. Power BI splits your file into two distinct cloud artifacts:\n   - **Semantic Model (Dataset)**: Holds connections, data model, and DAX measures.\n   - **Report**: Holds visual pages and layout canvases.\n\n```\n+-------------------------------------------------------------------------------+\n|                       WORKSPACE COLLABORATION & GOVERNANCE                    |\n+-------------------------------------------------------------------------------+\n| Role         | Permissions                                                    |\n+--------------+----------------------------------------------------------------+\n| Admin        | Full control: delete workspace, assign user roles, update apps |\n| Member       | Edit reports, publish apps, add contributors and viewers       |\n| Contributor  | Build, edit, and publish reports inside the workspace          |\n| Viewer       | Read-only access: view visuals, interact with slicers, view RLS|\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Automated Scheduled Refresh & Data Gateways\n\nTo keep cloud reports synchronized with on-premises databases (e.g., PostgreSQL server in Nairobi HQ):\n- **On-Premises Data Gateway**: A secure Windows background service installed in your corporate network that bridges the local database with Microsoft Azure cloud without opening inbound firewall ports.\n- In Power BI Service dataset settings, configure **Scheduled Refresh** (e.g., daily at 6:00 AM EAT before business operations begin).\n\n---\n\n### 3. Enforcing Row-Level Security (RLS) with DAX\n\nRow-Level Security guarantees that regional managers only see data for their assigned branch.\n\n#### A. Static RLS (Role per Region)\n1. In Power BI Desktop, click **Modeling tab -> Manage Roles**.\n2. Create Role: `Mombasa Branch Manager`.\n3. Table Filter DAX: `DimStores[City] = \"Mombasa\"`.\n\n#### B. Dynamic RLS with `USERPRINCIPALNAME()`\nIn large enterprises, creating 100 individual static roles is unsustainable. Use dynamic security:\n1. Maintain a security table: `UserSecurity[UserEmail], UserSecurity[BranchID]`.\n2. Connect `UserSecurity` to `DimStores`.\n3. Role DAX Filter:\n```dax\n[UserEmail] = USERPRINCIPALNAME()\n```\n*Result*: When `james.otieno@company.co.ke` logs into Power BI Service, Power BI filters the entire report to only show data for the branches assigned to James in the database!\n\n---\n\n### 4. Summary & Best Practices\n- Always test RLS in Desktop using **View as Roles** before deploying.\n- Distribute final reports to end-users via curated **Power BI Apps** rather than granting direct workspace access.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Publish reports and data models from Power BI Desktop to dedicated **Power BI Service Workspaces**.\n2. Master workspace collaboration governance and role permissions: **Admin**, **Member**, **Contributor**, and **Viewer** (including App publishing capabilities).\n3. Differentiate between **Semantic Models** (datasets) and **Reports**, understanding shared models and downstream report authoring.\n4. Architect and install the **On-Premises Data Gateway** (Standard vs Personal mode), configuring encrypted credentials and automated scheduled refresh within license limits.\n5. Implement robust **Row-Level Security (RLS)** using DAX filters, user mapping tables, single-direction relationships, and the `USERPRINCIPALNAME()` function.\n6. Rigorously validate security rules in **Power BI Desktop (\"View as\")** and **Power BI Service (\"Test as role\")**, assigning security groups in cloud settings.\n7. Package and distribute enterprise reporting suites securely to broad business consumers via curated **Power BI Apps**.\n\n---\n\n### 1. Deploying to Power BI Service Workspaces & Architecture\n\nNever share individual `.pbix` files via email attachments or unmanaged network shares. In enterprise workflows, reports are published to centralized workspaces in the Power BI Service cloud:\n\n1. Create a dedicated Workspace in Power BI Service (e.g. `Commercial Operations — Kenya`).\n2. In Power BI Desktop, navigate to **Home -> Publish** and select the destination workspace.\n3. Power BI splits your `.pbix` file into two distinct cloud artifacts:\n   - **Semantic Model (formerly Dataset)**: Houses data source connection strings, Power Query transformation logic, table relationships, DAX measures, and RLS security roles. It serves as the single source of truth for your business logic. Multiple downstream reports can connect live to a single semantic model (shared dataset architecture).\n   - **Report**: Houses interactive visual canvases, KPI cards, charts, slicers, bookmarks, report tooltips, and mobile layouts.\n\n```\n+---------------------------------------------------------------------------------------------------------+\n|                                  POWER BI SERVICE WORKSPACE ROLES & PERMISSIONS                         |\n+---------------------------------------------------------------------------------------------------------+\n| Role         | Permissions & Capabilities                                                               |\n+--------------+------------------------------------------------------------------------------------------+\n| Admin        | Full control: delete workspace, update settings, add/remove all users (including admins),|\n|              | configure gateway connections, and publish/unpublish/update Power BI Apps.               |\n| Member       | Collaborate: add Members, Contributors, or Viewers; publish and update Power BI Apps;    |\n|              | edit, create, and share workspace items; allow others to reshare items.                  |\n| Contributor  | Build & Edit: create, edit, copy, and delete reports and semantic models inside the     |\n|              | workspace. Cannot add users or publish/update Apps by default (unless explicitly        |\n|              | granted App edit permissions by an Admin or Member in workspace settings).              |\n| Viewer       | Read-only: view visuals, interact with slicers/filters, export summary data. Cannot     |\n|              | modify content or access dataset settings. Row-Level Security (RLS) is strictly enforced|\n|              | for Viewers (Admins, Members, and Contributors automatically bypass RLS on datasets).    |\n+---------------------------------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Automated Scheduled Refresh & On-Premises Data Gateways\n\nCloud-based Power BI Service cannot directly query on-premises data sources (such as an on-premises Microsoft SQL Server, PostgreSQL cluster in Nairobi HQ, or corporate network file shares) behind corporate firewalls without an intermediary bridge.\n\n#### A. Gateway Architecture & Modes\n- **Standard Mode (Enterprise Gateway)**: Recommended for enterprise production. Installed on an always-on physical server or virtual machine within the corporate intranet. Supports multiple users, multiple concurrent queries, Scheduled Refresh, DirectQuery, and Live Connection. Centralized administrative management via Microsoft Entra ID.\n- **Personal Mode**: Runs under a single individual's Windows login account on their local workstation. Can only be used by one user, supports only scheduled data import (no DirectQuery), and fails whenever the workstation is turned off or logged out.\n\n#### B. Security & Firewall Architecture\nThe Gateway communicates securely with the Power BI cloud using **outbound connections** over standard HTTPS (TCP port 443) to Azure Service Bus. You do not need to open any inbound firewall ports or configure DMZs, preserving corporate perimeter security.\n\n#### C. Configuration & Refresh Prerequisites\n1. **Gateway Installation**: Download and install the Standard Gateway on an always-on network server. Sign in with organizational administrator credentials and configure the cluster name and recovery key.\n2. **Data Source Credentials**: In Power BI Service, open **Settings -> Manage connections and gateways**. Register the on-premises database or folder path and provide encrypted authentication credentials (e.g. Windows Authentication, Database Service Account, or OAuth2).\n3. **Semantic Model Mapping**: In the semantic model settings, navigate to **Gateway and cloud connections**, bind the dataset connection to the active gateway cluster, and verify the connection status displays green (\"Online\").\n4. **Scheduled Refresh Frequencies & Licensing Limits**:\n   - **Power BI Pro**: Maximum of **8 scheduled refreshes per day** per semantic model.\n   - **Power BI Premium / Fabric Capacity**: Up to **48 scheduled refreshes per day** (every 30 minutes), with support for incremental refresh policies.\n\n---\n\n### 3. Enforcing Row-Level Security (RLS) with DAX\n\nRow-Level Security restricts data row access for specific users based on their identity or role membership.\n\n#### A. Static RLS (Fixed Roles)\nFor small organizations with fixed responsibilities:\n1. In Power BI Desktop, open **Modeling tab -> Manage Roles**.\n2. Create Role: `Coast_Region_Manager`.\n3. Select table `DimStores` and enter the DAX filter expression:\n   ```dax\n   [Region] = \"Coast\"\n   ```\n*(Limitation: Static RLS requires manually authoring and maintaining separate roles for every single region or department).*\n\n#### B. Dynamic RLS: The 4 Required Architectural Components\nIn large enterprise environments, managing 100+ static roles is unsustainable. Dynamic RLS scales across thousands of employees using a single security role.\n\n> [!IMPORTANT]\n> **Technical Reality Check**: Calling `USERPRINCIPALNAME()` alone does **NOT** secure your data! An effective dynamic RLS implementation strictly requires all four components:\n\n1. **Security Mapping Table (`UserSecurity`)**:\n   A dedicated data table linking user identities (corporate email / UPN) to authorized data keys:\n   ```\n   +-----------------------------+-----------+\n   | UserEmail                   | BranchID  |\n   +-----------------------------+-----------+\n   | james.otieno@company.co.ke  | 101       |\n   | james.otieno@company.co.ke  | 102       |\n   | sarah.mutua@company.co.ke   | 201       |\n   +-----------------------------+-----------+\n   ```\n2. **Model Relationship & Filter Propagation**:\n   Create an active relationship between `UserSecurity[BranchID]` and `DimStores[BranchID]`. Ensure filter propagation direction is configured so filtering `UserSecurity` automatically filters `DimStores`, which in turn filters downstream fact tables (e.g. `FactSales`).\n3. **DAX Filter Rule Definition (in Desktop)**:\n   In **Modeling -> Manage Roles**, create one role named `DynamicBranchSecurity`. On table `UserSecurity`, define the DAX filter expression:\n   ```dax\n   LOWER([UserEmail]) = LOWER(USERPRINCIPALNAME())\n   ```\n   *(Note: In Power BI Desktop, `USERPRINCIPALNAME()` returns your local machine domain username. In Power BI Service, it returns the user's Microsoft 365 Azure AD / Entra ID corporate email).*\n4. **Security Role Assignment in Power BI Service**:\n   After publishing the semantic model:\n   - Navigate to **Semantic Model Settings -> Security**.\n   - Select the `DynamicBranchSecurity` role.\n   - Assign corporate Entra ID Security Groups (e.g. `SG_BranchManagers`) or user email addresses to the role and click **Save**.\n   - *Governance Rule*: RLS is only enforced for consumers with **Viewer** permissions or **App** consumers. Users with Admin, Member, or Contributor permissions to the workspace have full edit access and will bypass RLS!\n\n---\n\n### 4. Rigorous Security Validation: Desktop vs Service\n\nNever distribute secure financial reports without testing both validation environments:\n\n1. **Power BI Desktop (\"View as\")**:\n   - Navigate to **Modeling tab -> View as**.\n   - Check `DynamicBranchSecurity`, select **Other user**, and type a test email (e.g. `james.otieno@company.co.ke`).\n   - Validate that canvas KPI scorecards, charts, and table rows update to reflect only Branch 101 and 102 data.\n2. **Power BI Service (\"Test as role\")**:\n   - In Power BI Service, open **Semantic Model Settings -> Security**.\n   - Click the ellipsis (`...`) next to `DynamicBranchSecurity` and select **Test as role**.\n   - An evaluation banner displays at the top of the browser canvas. Enter the target corporate email to verify that cloud-level Azure AD identity resolution, group memberships, and relationship filters evaluate accurately.\n\n---\n\n### 5. Curated Power BI Apps for Enterprise Distribution\n\nRather than granting business stakeholders direct workspace access, distribute production analytics through **Power BI Apps**:\n- **Why Apps over Workspaces**: Direct workspace access allows users to see work-in-progress drafts and datasets. Apps provide a packaged, branded, read-only experience.\n- **Multiple Audiences**: A single Power BI App can have distinct audience tabs (e.g. an \"Executive Summary\" tab visible only to C-Suite leaders, and an \"Operations Drilldown\" tab visible to store managers).\n- **Security & Integrity**: App consumers are automatically assigned Viewer privileges, guaranteeing that Row-Level Security rules are strictly enforced and underlying report designs cannot be accidentally modified.",
         "challenge": {
           "type": "quiz",
-          "title": "Module 9 Checkpoint: Power BI Service & RLS",
-          "question": "How does Dynamic Row-Level Security (RLS) with USERPRINCIPALNAME() protect sensitive financial data in Power BI Service?",
+          "title": "Module 9 Checkpoint: Power BI Service & Dynamic RLS",
+          "question": "In Power BI enterprise architecture, what is required to successfully implement and enforce Dynamic Row-Level Security (RLS) for cloud report consumers?",
           "options": [
-            "It password-protects the PDF export.",
-            "It captures the logged-in user's corporate email address and automatically filters data model rows in real-time according to their security permissions.",
-            "It prevents users from taking screenshots of the screen.",
-            "It disables the internet connection if an unauthorized user logs in."
+            "Only authoring a DAX calculated column with the password 'admin123' in the sales table.",
+            "An integrated four-part setup: a security mapping table, relationship filter propagation to dimension tables, a DAX filter rule using USERPRINCIPALNAME(), and assigning users/security groups to the role in Power BI Service.",
+            "Exporting the report to an encrypted PDF and emailing it with a zip password.",
+            "Granting all end-users Admin workspace roles so they can bypass firewall restrictions."
           ],
           "correctAnswer": 1,
-          "explanation": "Dynamic RLS captures the authenticated user's email via USERPRINCIPALNAME() and evaluates DAX filter rules on the fly, guaranteeing that users can only view rows they are explicitly authorized to access."
+          "explanation": "Dynamic RLS is not achieved by USERPRINCIPALNAME() alone. It requires an integrated chain: a security mapping table connecting user emails to permission keys, relationship filter propagation across the data model, a DAX filter rule evaluating USERPRINCIPALNAME(), and assigning users or Entra ID security groups to the role in Power BI Service where they consume the report with Viewer permissions."
         }
       },
       {
@@ -5083,19 +5852,133 @@ export const coursesData = [
         "subtitle": "End-to-End Enterprise BI Dashboard: 'Kilima Retail & Logistics Kenya' Multi-Branch Analytics",
         "readingTime": "30 min",
         "videoLesson": {
-          "title": "Full Power BI Guided Project | Microsoft Power BI for Beginners",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "alternativeSource": "https://github.com/AlexTheAnalyst/Power-BI",
-          "sourceName": "GitHub — Alex The Analyst Power BI Capstone Assets",
-          "badge": "Verified Reference Video"
+          "title": "FREE Adv. Masterclass on Power BI - Create a Sales Analytics Dashboard (with files 📁)",
+          "channel": "Chandoo",
+          "duration": "01:54:47",
+          "videoId": "ooJO7NW4uJU",
+          "watchUrl": "https://www.youtube.com/watch?v=ooJO7NW4uJU",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/ooJO7NW4uJU",
+          "url": "https://www.youtube-nocookie.com/embed/ooJO7NW4uJU",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "alternativeSource": "https://github.com/chandoo-org/Power-BI",
+          "sourceName": "GitHub — Chandoo Power BI Sales Analytics Repository",
+          "sources": [
+            {
+              "name": "GitHub — Chandoo Power BI Repository",
+              "url": "https://github.com/chandoo-org/Power-BI"
+            },
+            {
+              "name": "Microsoft Learn — Star Schema Guidance",
+              "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema"
+            },
+            {
+              "name": "GitHub — Alex The Analyst Power BI Assets",
+              "url": "https://github.com/AlexTheAnalyst/Power-BI"
+            }
+          ],
+          "note": "Capstone Project Masterclass & Guided Walkthroughs: Tab 1 by Chandoo (01:54:47) provides a complete sales analytics masterclass covering Star Schema modeling, sales DAX measures, time intelligence, KPI cards, bookmarks, and portfolio deployment. Tab 2 by Alex The Analyst (42:37) provides a guided practical walkthrough of data cleansing and visual canvas building. Tab 3 by Chandoo (21:54) focuses on Star Schema dimensional modeling and relationship validation. Tab 4 by Chandoo (01:51:40) covers multi-page dashboard UX, scatter plot profitability, and drilldowns.",
+          "references": [
+            {
+              "id": "ref-capstone-sales-masterclass",
+              "tabLabel": "1. Full Sales BI Masterclass",
+              "topic": "End-to-End Enterprise BI Dashboard: Star Schema, Sales DAX, KPIs & Portfolio",
+              "title": "FREE Adv. Masterclass on Power BI - Create a Sales Analytics Dashboard (with files 📁)",
+              "channel": "Chandoo",
+              "duration": "01:54:47",
+              "videoId": "ooJO7NW4uJU",
+              "watchUrl": "https://www.youtube.com/watch?v=ooJO7NW4uJU",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/ooJO7NW4uJU",
+              "url": "https://www.youtube-nocookie.com/embed/ooJO7NW4uJU",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/chandoo-org/Power-BI",
+              "sourceName": "GitHub — Chandoo Power BI Sales Analytics Repository",
+              "sources": [
+                {
+                  "name": "GitHub — Chandoo Power BI Repository",
+                  "url": "https://github.com/chandoo-org/Power-BI"
+                },
+                {
+                  "name": "Microsoft Learn — Star Schema Guidance",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Comprehensive end-to-end masterclass creating an enterprise commercial sales dashboard from scratch. Covers multi-table Star Schema creation, dedicated measure tables, sales and margin DAX, time intelligence, interactive KPI cards, bookmark toggles, and GitHub portfolio publishing."
+            },
+            {
+              "id": "ref-capstone-guided-project",
+              "tabLabel": "2. Guided Project Walkthrough",
+              "topic": "Guided Project Walkthrough: Survey Data Cleansing & Canvas Design",
+              "title": "Full Power BI Guided Project | Microsoft Power BI for Beginners",
+              "channel": "Alex The Analyst",
+              "duration": "42:37",
+              "videoId": "pixlHHe_lNQ",
+              "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
+              "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/AlexTheAnalyst/Power-BI",
+              "sourceName": "GitHub — Alex The Analyst Power BI Capstone Assets",
+              "sources": [
+                {
+                  "name": "GitHub — Alex The Analyst Power BI",
+                  "url": "https://github.com/AlexTheAnalyst/Power-BI"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Alex The Analyst demonstrates an end-to-end guided dashboard build using survey data. Note: Covers single-table Power Query data cleaning and report page visual formatting; does not cover multi-table Star Schema modeling or DAX time intelligence."
+            },
+            {
+              "id": "ref-capstone-star-schema",
+              "tabLabel": "3. Star Schema Modeling",
+              "topic": "Star Schema Architecture, Fact vs Dimension Tables & Relationship Validation",
+              "title": "Learn Data Modelling & Star Schema for Power BI in 20 minutes",
+              "channel": "Chandoo",
+              "duration": "21:54",
+              "videoId": "4ePNrdxWtY0",
+              "watchUrl": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/4ePNrdxWtY0",
+              "url": "https://www.youtube-nocookie.com/embed/4ePNrdxWtY0",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+              "sourceName": "Microsoft Learn — Understand Star Schema and the Importance for Power BI",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Star Schema Guidance",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Chandoo teaches how to architect a clean dimensional model, creating Fact and Dimension tables from raw sources, establishing one-to-many relationships, and understanding filter propagation."
+            },
+            {
+              "id": "ref-capstone-dashboard-ux",
+              "tabLabel": "4. Dashboard UX & Analytics",
+              "topic": "Multi-Page Dashboard UX, Scatter Plot Profitability & Drill-Through Matrices",
+              "title": "Make an AMAZING Dashboard with Power BI - End to End Tutorial +Files",
+              "channel": "Chandoo",
+              "duration": "01:51:40",
+              "videoId": "TazNFzgWtgA",
+              "watchUrl": "https://www.youtube.com/watch?v=TazNFzgWtgA",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/TazNFzgWtgA",
+              "url": "https://www.youtube-nocookie.com/embed/TazNFzgWtgA",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/chandoo-org/Power-BI",
+              "sourceName": "GitHub — Chandoo Power BI Dashboard Template Files",
+              "sources": [
+                {
+                  "name": "GitHub — Chandoo Power BI",
+                  "url": "https://github.com/chandoo-org/Power-BI"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Chandoo demonstrates advanced executive report design: scatter plots with symmetry shading for volume vs margin analysis, interactive matrix breakdowns with conditional formatting, and custom tooltip pages."
+            }
+          ]
         },
         "summary": "Integrate all Power BI skills into an enterprise-grade Capstone Project. Ingest multi-source sales, freight, and M-Pesa data, construct a robust Star Schema, author advanced DAX measures, design executive scorecards, and implement RLS.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Complete a full-lifecycle enterprise Business Intelligence project from raw unstructured data ingestion to cloud deployment.\n2. Build an automated Power Query pipeline cleansing multi-branch transaction files and M-Pesa till logs.\n3. Architect an enterprise Star Schema linking 1 Fact Table and 4 Dimension Tables with single-direction relationships.\n4. Author 15+ production DAX measures including Base Aggregations, Ratios, YoY Variances, and YTD Time Intelligence.\n5. Deliver a 3-page interactive Power BI dashboard featuring Executive Summary, Regional Operations, and Product Margin Analytics.\n\n---\n\n### 1. Capstone Scenario: \"Kilima Retail & Logistics Kenya\"\n\n**Kilima Enterprises** is a fast-growing commercial distributor headquartered in Nairobi with regional fulfillment hubs in Mombasa, Kisumu, Nakuru, and Eldoret.\n\n#### The Problem Statement:\nThe executive board currently relies on manual spreadsheets compiled weekly. The CEO cannot view consolidated company sales in real-time, the CFO struggles to identify low-margin product lines, and branch managers have no visibility into delivery turnaround times.\n\n---\n\n### 2. Phase 1: Data Architecture & Star Schema Design\n\nYou will ingest 4 distinct source tables into Power BI Desktop:\n\n1. **`FactSalesTransactions`**: `TransactionID`, `DateKey`, `CustomerID`, `ProductID`, `BranchID`, `PaymentChannel` (M-Pesa, Card, EFT), `Quantity`, `UnitPriceKSh`, `UnitCostKSh`, `DiscountKSh`.\n2. **`DimBranches`**: `BranchID`, `BranchName`, `County`, `RegionalManager`, `SquareFootage`.\n3. **`DimProducts`**: `ProductID`, `SKU`, `Category` (Electronics, Solar, Agribusiness, Fast-Moving Consumer Goods), `Brand`.\n4. **`DimCustomers`**: `CustomerID`, `CustomerName`, `CustomerSegment` (Wholesale, Retail, Corporate B2B).\n5. **`DimDate`**: Contiguous calendar table generated via DAX with `Date`, `Year`, `Quarter`, `MonthName`, `MonthNumber`.\n\n---\n\n### 3. Phase 2: Core DAX Formula Engine Implementation\n\nAuthor the following explicit measures in the dedicated `_Measures` table:\n\n```dax\n-- 1. Base Revenue & Cost\nTotal Revenue KSh = \nSUMX(FactSalesTransactions, (FactSalesTransactions[Quantity] * FactSalesTransactions[UnitPriceKSh]) - FactSalesTransactions[DiscountKSh])\n\nTotal Cost KSh = \nSUMX(FactSalesTransactions, FactSalesTransactions[Quantity] * FactSalesTransactions[UnitCostKSh])\n\n-- 2. Profitability\nGross Profit KSh = \n[Total Revenue KSh] - [Total Cost KSh]\n\nGross Margin % = \nDIVIDE([Gross Profit KSh], [Total Revenue KSh], 0)\n\n-- 3. Volume & Transactions\nTotal Orders = \nDISTINCTCOUNT(FactSalesTransactions[TransactionID])\n\nAverage Basket Value KSh = \nDIVIDE([Total Revenue KSh], [Total Orders], 0)\n\n-- 4. Time Intelligence & Growth\nRevenue Prior Year KSh = \nCALCULATE([Total Revenue KSh], SAMEPERIODLASTYEAR(DimDate[Date]))\n\nRevenue YoY Growth % = \nDIVIDE([Total Revenue KSh] - [Revenue Prior Year KSh], [Revenue Prior Year KSh], 0)\n\nRevenue YTD KSh = \nTOTALYTD([Total Revenue KSh], DimDate[Date])\n\n-- 5. M-Pesa Digital Penetration %\nMpesa Revenue KSh = \nCALCULATE([Total Revenue KSh], FactSalesTransactions[PaymentChannel] = \"M-Pesa\")\n\nMpesa Volume Share % = \nDIVIDE([Mpesa Revenue KSh], [Total Revenue KSh], 0)\n```\n\n---\n\n### 4. Phase 3: Dashboard Page Architecture\n\n#### Page 1: Executive C-Suite Scorecard\n- **Top Row KPI Cards**: Total Revenue (`KSh 128.4M`), Gross Margin (`28.6%`), YoY Revenue Growth (`+14.2%`), M-Pesa Channel Share (`64.8%`).\n- **Center Left**: Monthly Revenue & Gross Margin % Dual-Axis Trend Line.\n- **Center Right**: Regional Contribution Donut Chart with synchronized Slicer for Year and Quarter.\n\n#### Page 2: Regional Operations & Branch Drill-Down\n- **Branch Performance Bar Chart**: Revenue by Branch ranked descending with target variance benchmark.\n- **Interactive Matrix**: Branch -> Category -> SKU breakdown with conditional formatting heatmaps.\n- **Drill-Through Link**: Right-click any branch to inspect single-day transaction logs.\n\n#### Page 3: Product Profitability & Category Matrix\n- **Scatter Plot**: Quantity Sold (X-axis) vs Gross Margin % (Y-axis) with bubble size = Total Revenue. Quickly identifies high-volume/low-margin vs high-margin/low-volume products.\n\n---\n\n### 5. Final Capstone Submission & Certificate Eligibility\n\nCongratulations on completing the **Power BI & Business Intelligence** curriculum!\n- You have mastered data ingestion, Power Query ETL, Star Schema architecture, explicit DAX measures, Time Intelligence, interactive visualization UX, Row-Level Security, and cloud publishing.\n- Mark this capstone lesson complete in your dashboard to unlock your official **Verified FAHMRISE Certificate of Completion in Power BI & Business Intelligence**.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Complete a full-lifecycle enterprise Business Intelligence project from raw unstructured data ingestion to cloud deployment.\n2. Build an automated Power Query pipeline cleansing multi-branch transaction files and M-Pesa till logs.\n3. Architect an enterprise Star Schema linking 1 Fact Table and 4 Dimension Tables with single-direction 1-to-many relationships.\n4. Author 15+ production DAX measures including Base Aggregations, Volume Metrics, Profitability Ratios, YoY Variances, and YTD Time Intelligence.\n5. Deliver a 3-page interactive Power BI dashboard featuring Executive Summary, Regional Operations, and Product Margin Analytics.\n\n---\n\n### 1. Capstone Scenario: \"Kilima Retail & Logistics Kenya\"\n\n**Kilima Enterprises** is a fast-growing commercial distributor headquartered in Nairobi with regional fulfillment hubs in Mombasa, Kisumu, Nakuru, and Eldoret.\n\n#### The Problem Statement:\nThe executive board currently relies on manual spreadsheets compiled weekly. The CEO cannot view consolidated company sales in real-time, the CFO struggles to identify low-margin product lines, and branch managers have no visibility into delivery turnaround times.\n\n> [!IMPORTANT]\n> **Data Privacy & Synthetic Data Notice**:\n> All customer names, contact phone numbers, and M-Pesa transaction IDs in this capstone scenario are synthetically generated sample data for educational practice only. When developing production dashboards in enterprise environments, never use real customer PII (Personally Identifiable Information) or unmasked payment tokens in sample or development files. In production, ensure compliance with the Kenya Data Protection Act (KDPA) 2019 by masking phone numbers (e.g. `2547****1234`) and hashing payment identifiers before ingesting data into cloud semantic models.\n\n---\n\n### 2. Phase 1: Data Architecture & Star Schema Design\n\nYou will ingest 4 operational source tables into Power BI Desktop and generate a 5th continuous calendar table (`DimDate`) using DAX, creating a 5-table dimensional Star Schema:\n\n```\n+-------------------------------------------------------------------------------------------------+\n|                         KILIMA ENTERPRISES — STAR SCHEMA ARCHITECTURE                           |\n+-------------------------------------------------------------------------------------------------+\n|                                                                                                 |\n|   +-----------------------+                         +-----------------------+                   |\n|   |      DimBranches      |                         |      DimProducts      |                   |\n|   +-----------------------+                         +-----------------------+                   |\n|   | BranchID (PK)         |                         | ProductID (PK)        |                   |\n|   | BranchName            |                         | SKU                   |                   |\n|   | County                |                         | Category              |                   |\n|   | RegionalManager       |                         | Brand                 |                   |\n|   | SquareFootage         |                         +-----------------------+                   |\n|   +-----------+-----------+                                     +                               |\n|               | (1)                                             | (1)                           |\n|               |                                                 |                               |\n|               |                 +-----------------------+       |                               |\n|               +-------------->  | FactSalesTransactions | <-----+                               |\n|                                 +-----------------------+                                       |\n|                                 | TransactionID (PK)    |                                       |\n|               +-------------->  | DateKey (FK)          | <-----+                               |\n|               |                 | CustomerID (FK)       |       |                               |\n|               | (1)             | ProductID (FK)        |       | (1)                           |\n|   +-----------+-----------+     | BranchID (FK)         |   +---+-------------------+           |\n|   |     DimCustomers      |     | PaymentChannel        |   |        DimDate        |           |\n|   +-----------------------+     | Quantity              |   +-----------------------+           |\n|   | CustomerID (PK)       |     | UnitPriceKSh          |   | Date (PK)             |           |\n|   | CustomerName          |     | UnitCostKSh           |   | Year, Quarter         |           |\n|   | CustomerSegment       |     | DiscountKSh           |   | MonthName, MonthNumber|           |\n|   | RegistrationDate      |     +-----------------------+   | FiscalPeriod          |           |\n|   +-----------------------+                                 +-----------------------+           |\n+-------------------------------------------------------------------------------------------------+\n```\n\n#### The 4 Model Relationships:\n1. `DimBranches[BranchID]` **(1) ───< (Many)** `FactSalesTransactions[BranchID]` *(Single direction: Dim -> Fact)*\n2. `DimProducts[ProductID]` **(1) ───< (Many)** `FactSalesTransactions[ProductID]` *(Single direction: Dim -> Fact)*\n3. `DimCustomers[CustomerID]` **(1) ───< (Many)** `FactSalesTransactions[CustomerID]` *(Single direction: Dim -> Fact)*\n4. `DimDate[Date]` **(1) ───< (Many)** `FactSalesTransactions[DateKey]` *(Single direction: Dim -> Fact)*\n\n---\n\n### 3. Phase 2: Core DAX Formula Engine Implementation\n\nCreate a dedicated blank table named `_Measures` and author the following 15+ production DAX measures:\n\n```dax\n-- =========================================================================\n-- 1. BASE REVENUE, COST & VOLUME\n-- =========================================================================\nTotal Revenue KSh = \nSUMX(\n    FactSalesTransactions, \n    (FactSalesTransactions[Quantity] * FactSalesTransactions[UnitPriceKSh]) - FactSalesTransactions[DiscountKSh]\n)\n\nTotal Cost KSh = \nSUMX(\n    FactSalesTransactions, \n    FactSalesTransactions[Quantity] * FactSalesTransactions[UnitCostKSh]\n)\n\nTotal Orders = \nDISTINCTCOUNT(FactSalesTransactions[TransactionID])\n\nTotal Quantity Sold = \nSUM(FactSalesTransactions[Quantity])\n\n-- =========================================================================\n-- 2. PROFITABILITY & BASKET METRICS\n-- =========================================================================\nGross Profit KSh = \n[Total Revenue KSh] - [Total Cost KSh]\n\nGross Margin % = \nDIVIDE([Gross Profit KSh], [Total Revenue KSh], 0)\n\nAverage Basket Value KSh = \nDIVIDE([Total Revenue KSh], [Total Orders], 0)\n\nAverage Units Per Order = \nDIVIDE([Total Quantity Sold], [Total Orders], 0)\n\n-- =========================================================================\n-- 3. TIME INTELLIGENCE & YOY GROWTH\n-- =========================================================================\nRevenue Prior Year KSh = \nCALCULATE([Total Revenue KSh], SAMEPERIODLASTYEAR(DimDate[Date]))\n\nRevenue YoY Growth % = \nDIVIDE([Total Revenue KSh] - [Revenue Prior Year KSh], [Revenue Prior Year KSh], 0)\n\nRevenue YTD KSh = \nTOTALYTD([Total Revenue KSh], DimDate[Date])\n\nGross Profit Prior Year KSh = \nCALCULATE([Gross Profit KSh], SAMEPERIODLASTYEAR(DimDate[Date]))\n\nGross Profit YoY Growth % = \nDIVIDE([Gross Profit KSh] - [Gross Profit Prior Year KSh], [Gross Profit Prior Year KSh], 0)\n\n-- =========================================================================\n-- 4. PAYMENT CHANNEL ANALYTICS (M-Pesa, Card, EFT)\n-- =========================================================================\nMpesa Revenue KSh = \nCALCULATE([Total Revenue KSh], FactSalesTransactions[PaymentChannel] = \"M-Pesa\")\n\nMpesa Revenue Share % = \nDIVIDE([Mpesa Revenue KSh], [Total Revenue KSh], 0)\n\nMpesa Orders = \nCALCULATE([Total Orders], FactSalesTransactions[PaymentChannel] = \"M-Pesa\")\n\nCard Revenue KSh = \nCALCULATE([Total Revenue KSh], FactSalesTransactions[PaymentChannel] = \"Card\")\n\nEFT Revenue KSh = \nCALCULATE([Total Revenue KSh], FactSalesTransactions[PaymentChannel] = \"EFT\")\n```\n\n---\n\n### 4. Phase 3: 3-Page Dashboard Page Architecture\n\n#### Page 1: Executive C-Suite Scorecard\n- **Top Row KPI Cards**: Total Revenue (`KSh 128.4M`), Gross Margin (`28.6%`), YoY Revenue Growth (`+14.2%`), M-Pesa Revenue Share (`64.8%`).\n- **Center Left**: Monthly Revenue & Gross Margin % Dual-Axis Trend Line (comparing current fiscal year vs prior year).\n- **Center Right**: Regional Contribution Donut Chart with synchronized Slicers for Year, Quarter, and Payment Channel.\n\n#### Page 2: Regional Operations & Branch Drill-Down\n- **Branch Performance Bar Chart**: Revenue by Branch (Nairobi HQ, Mombasa, Kisumu, Nakuru, Eldoret) ranked descending with benchmark variance targets.\n- **Interactive Matrix**: Branch -> Category -> SKU breakdown with conditional formatting background heatmaps.\n- **Drill-Through Link**: Right-click any branch bar or matrix row to navigate directly to single-day transaction logs.\n\n#### Page 3: Product Profitability & Category Matrix\n- **Scatter Plot**: Quantity Sold (X-axis) vs Gross Margin % (Y-axis) with bubble size = Total Revenue. Quickly identifies high-volume/low-margin drivers vs high-margin/low-volume specialty items.\n- **Dynamic Bookmarks**: Toggle button switching between \"Product Category Breakdown\" and \"Customer Segment Contribution\" without navigating away from the page.\n\n---\n\n### 5. Final Capstone Submission & Certificate Eligibility\n\nCongratulations on completing the **Power BI & Business Intelligence** curriculum!\n- You have mastered data ingestion, Power Query ETL, Star Schema architecture, explicit DAX measures, Time Intelligence, interactive visualization UX, Row-Level Security, and cloud publishing.\n- Mark this capstone lesson complete in your dashboard to unlock your official **Verified FAHMRISE Certificate of Completion in Power BI & Business Intelligence**.",
         "challenge": {
           "type": "quiz",
           "title": "Module 10 Checkpoint: Business Intelligence Capstone",
@@ -6273,6 +7156,9 @@ export const coursesData = [
     "totalQuizzes": 10,
     "published": true,
     "requiresPayment": true,
+    "hideFromCatalog": true,
+    "isSubsumedInMasterTrack": true,
+    "masterTrackId": "data-analytics-professional-programme",
     "keywords": [
       "Data Analysis",
       "Spreadsheets",
@@ -7384,16 +8270,54 @@ export const coursesData = [
         "subtitle": "The 3 core components of Power BI, report vs dashboard architecture, and modern data-driven decision making",
         "readingTime": "18 min",
         "videoLesson": {
-          "title": "How to Install Power BI & Building Your First Visualization",
-          "channel": "Alex The Analyst",
-          "duration": "12:50",
-          "videoId": "g0m5sEHPU-s",
-          "watchUrl": "https://www.youtube.com/watch?v=g0m5sEHPU-s",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/g0m5sEHPU-s",
-          "url": "https://www.youtube-nocookie.com/embed/g0m5sEHPU-s",
+          "title": "How to use Microsoft Power BI - Tutorial for Beginners",
+          "channel": "Kevin Stratvert",
+          "duration": "27:52",
+          "videoId": "TmhQCQr_DCA",
+          "watchUrl": "https://www.youtube.com/watch?v=TmhQCQr_DCA",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/TmhQCQr_DCA",
+          "url": "https://www.youtube-nocookie.com/embed/TmhQCQr_DCA",
           "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-getting-started",
           "sourceName": "Microsoft Learn — Getting Started with Power BI Desktop",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "note": "Power BI Ecosystem & Workflow Masterclass: Kevin Stratvert demonstrates the complete end-to-end Power BI workflow (27:52) from installation and desktop interface navigation, data ingestion (Excel & Web), Power Query ETL transformations, and data model relationship building, to interactive chart authoring, slicers, and cloud report publishing to Power BI Service. Topic Tab 2 features RADACAD's Reza Rad (24:45) explaining the essential architectural distinctions between Power BI Reports and Power BI Dashboards.",
+          "references": [
+            {
+              "id": "ref-pbi-fundamentals",
+              "tabLabel": "1. Power BI Ecosystem & Workflow",
+              "topic": "Power BI Desktop, Power Query, Modeling, Visuals & Cloud Publishing",
+              "title": "How to use Microsoft Power BI - Tutorial for Beginners",
+              "channel": "Kevin Stratvert",
+              "duration": "27:52",
+              "videoId": "TmhQCQr_DCA",
+              "watchUrl": "https://www.youtube.com/watch?v=TmhQCQr_DCA",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/TmhQCQr_DCA",
+              "url": "https://www.youtube-nocookie.com/embed/TmhQCQr_DCA",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-getting-started",
+              "sourceName": "Microsoft Learn — Getting Started with Power BI Desktop",
+              "note": "Topic 1 Tutorial (Primary): Comprehensive 28-minute masterclass covering BI fundamentals, Power BI Desktop canvas layout, multi-source ingestion (Excel & Web), Power Query cleansing, data modeling relationships, card and chart visuals, slicers, and publishing to Power BI Service for stakeholder collaboration."
+            },
+            {
+              "id": "ref-reports-vs-dashboards",
+              "tabLabel": "2. Reports vs Dashboards Architecture",
+              "topic": "Power BI Desktop Reports vs Power BI Service Single-Page Dashboards",
+              "title": "Power BI Dashboard VS Report Differences and Scenarios",
+              "channel": "RADACAD",
+              "duration": "24:45",
+              "videoId": "GDzzh4T_IaM",
+              "watchUrl": "https://www.youtube.com/watch?v=GDzzh4T_IaM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/GDzzh4T_IaM",
+              "url": "https://www.youtube-nocookie.com/embed/GDzzh4T_IaM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/fundamentals/service-basic-concepts",
+              "sourceName": "Microsoft Learn — Basic Concepts for Power BI Service",
+              "note": "Topic 2 Tutorial (Supplemental): Microsoft MVP Reza Rad breaks down the critical architecture differences: multi-page exploratory Power BI Reports (built in Desktop, tied to a single semantic model) vs single-page executive Dashboards (built exclusively in Power BI Service by pinning tiles across multiple reports for high-level KPI monitoring)."
+            }
+          ]
         },
         "summary": "Explore the end-to-end architecture of Microsoft Power BI, understand the roles of Power BI Desktop, Power BI Service, and Mobile, and establish the 4-phase BI workflow from data extraction to executive consumption.",
         "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Explain the fundamental purpose of Business Intelligence (BI) and how it differs from traditional static spreadsheet reporting.\n2. Identify and distinguish between the three primary components of the Microsoft Power BI ecosystem: **Power BI Desktop**, **Power BI Service (Cloud)**, and **Power BI Mobile**.\n3. Understand the four distinct phases of the Power BI workflow: **Extract/Transform (Power Query)** -> **Model & Calculate (DAX)** -> **Visualize (Report Canvas)** -> **Publish & Share (Power BI Service)**.\n4. Differentiate between a **Power BI Report** (multi-page, interactive analytical artifact) and a **Power BI Dashboard** (single-page executive monitoring pin-board).\n5. Understand the performance advantages of the **VertiPaq In-Memory Columnar Database Engine** over traditional row-based storage.\n\n---\n\n### 1. What is Business Intelligence (BI)?\n\nIn modern commerce—whether managing retail distribution across Kenya, monitoring telecom subscriber traffic, or tracking logistics freight from Mombasa port—organizations generate massive volumes of transactional data daily. \n\nTraditional spreadsheet workflows suffer from critical bottlenecks:\n- **File Fragmentation**: Multiple versions of `Sales_Report_Final_v2_updated.xlsx` emailed across teams.\n- **Row Limits & Slow Performance**: Excel degrades rapidly beyond a few hundred thousand rows.\n- **Manual Repetition**: Analysts spend 80% of their time copying, pasting, and repairing VLOOKUPs instead of generating insights.\n- **Security Risks**: Unrestricted file sharing with hardcoded sensitive financial data.\n\n**Business Intelligence (BI)** solves these challenges by creating automated, centralized, and governed analytical systems that convert raw operational data into actionable strategic insights.\n\n```\n+-------------------------------------------------------------------------------+\n|                      THE 4-PHASE POWER BI ANALYTICAL PIPELINE                 |\n+-------------------------------------------------------------------------------+\n|                                                                               |\n|  [ Phase 1: Ingest & Clean ]      [ Phase 2: Model & Calculate ]              |\n|  Power Query (M Engine)           Tabular Data Model & DAX                    |\n|  - Connect to DBs, CSVs, APIs     - Build Relationships (1:* Star Schema)     |\n|  - Cleanse, Pivot, Filter rows    - Write Explicit Business Measures          |\n|                 |                                    |                        |\n|                 v                                    v                        |\n|  [ Phase 3: Visual Canvas ]       [ Phase 4: Cloud Collaboration ]            |\n|  Power BI Desktop Canvas          Power BI Service & Mobile                   |\n|  - Interactive Charts & Cards     - Automated Scheduled Refresh               |\n|  - Drill-throughs & Slicers       - Row-Level Security (RLS) & Workspaces     |\n|                                                                               |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. The 3 Primary Components of the Power BI Ecosystem\n\n1. **Power BI Desktop (Authoring Tool)**:\n   - Free Windows desktop application used by data analysts to connect to data sources, author transformation pipelines, build data models, write DAX measures, and design visual report canvases.\n   - Saves files as `.pbix` (Power BI Report file).\n\n2. **Power BI Service (SaaS Cloud Platform)**:\n   - Hosted cloud environment (`app.powerbi.com`) where reports are published, shared, scheduled for automatic background data refresh, and secured with enterprise Row-Level Security (RLS).\n   - Allows stakeholders to view, filter, and interact with reports through any modern web browser without needing Power BI Desktop installed.\n\n3. **Power BI Mobile**:\n   - Native iOS and Android applications providing executive scorecards, KPI alerts, and touch-optimized dashboard views on smartphones and tablets.\n\n---\n\n### 3. Power BI Report vs Power BI Dashboard\n\nA critical distinction in Power BI terminology:\n\n| Feature | Power BI Report | Power BI Dashboard |\n| :--- | :--- | :--- |\n| **Creation Environment** | Authored in Power BI Desktop & Service | Created exclusively in Power BI Service |\n| **Page Count** | Multi-page analytical documents (e.g. Sales, Inventory, Customers) | Single-page high-level monitoring display |\n| **Data Sources** | Built against a single semantic data model | Can pin tiles from multiple different reports and datasets |\n| **Interactivity** | Full slicing, dicing, cross-filtering, and drill-through | Clicking a tile navigates directly to the underlying source report |\n| **Primary Audience** | Operational analysts, department leads, deep-dive investigators | C-Suite executives, board members requiring real-time pulse monitoring |\n\n---\n\n### 4. The Power Behind Power BI: The VertiPaq Engine\n\nWhen data is loaded into Power BI in **Import Mode**, Power BI utilizes the **VertiPaq in-memory columnar database engine**. \n- Unlike standard relational databases that store data row-by-row, VertiPaq compresses and indexes data **column-by-column**.\n- Columns with low cardinality (few unique values, such as `Region` or `Payment_Method`) achieve compression ratios of **10x to 20x**.\n- Queries evaluate billions of rows in milliseconds because the CPU scans only the specific columns referenced in your calculation.\n\n---\n\n### 5. Summary & Key Takeaways\n- Power BI is a full-stack business intelligence platform consisting of Power Query (ETL), Tabular Modeling (Relationships), DAX (Calculations), and Power BI Service (Cloud Governance).\n- Always build data models in Power BI Desktop and publish to Power BI Service for automated stakeholder consumption.",
@@ -7424,19 +8348,84 @@ export const coursesData = [
         "subtitle": "Excel, CSV, PostgreSQL, SQL Server, Web APIs, Folder batch ingestion, and DirectQuery vs Import mode",
         "readingTime": "20 min",
         "videoLesson": {
-          "title": "Connecting to Diverse Data Sources & Ingestion Strategies",
-          "channel": "Alex The Analyst",
-          "duration": "12:50",
-          "videoId": "g0m5sEHPU-s",
-          "watchUrl": "https://www.youtube.com/watch?v=g0m5sEHPU-s",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/g0m5sEHPU-s",
-          "url": "https://www.youtube-nocookie.com/embed/g0m5sEHPU-s",
+          "title": "Power BI: conectar carpeta y combinar archivos automáticamente",
+          "channel": "datdata",
+          "duration": "17:48",
+          "videoId": "xaJbdNMMysw",
+          "watchUrl": "https://www.youtube.com/watch?v=xaJbdNMMysw",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/xaJbdNMMysw",
+          "url": "https://www.youtube-nocookie.com/embed/xaJbdNMMysw",
           "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources",
           "sourceName": "Microsoft Learn — Data Sources in Power BI Desktop",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "note": "Data Ingestion & Multi-Source Strategies: Topic 1 by datdata (17:48) teaches the Folder Connector to automatically combine multiple recurring Excel/CSV files. Topic 2 by Guy in a Cube (08:30) delivers an architectural breakdown of VertiPaq Import Mode vs live DirectQuery vs Composite Dual storage modes. Topic 3 by Guy in a Cube (03:28) details how to parameterize data connections to seamlessly toggle between Dev, Test, and Production environments without hardcoding credentials.",
+          "references": [
+            {
+              "id": "ref-csv-folder-ingestion",
+              "tabLabel": "1. CSV & Folder Batch Ingestion",
+              "topic": "Get Data, Delimiters & Automated Multi-File Folder Consolidation",
+              "title": "Power BI: conectar carpeta y combinar archivos automáticamente",
+              "channel": "datdata",
+              "duration": "17:48",
+              "videoId": "xaJbdNMMysw",
+              "watchUrl": "https://www.youtube.com/watch?v=xaJbdNMMysw",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/xaJbdNMMysw",
+              "url": "https://www.youtube-nocookie.com/embed/xaJbdNMMysw",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources",
+              "sourceName": "Microsoft Learn — Data Sources in Power BI Desktop",
+              "note": "Topic 1 Tutorial (Primary): datdata demonstrates connecting Power BI to a folder containing multiple Excel and CSV files, leveraging the Folder Connector and Power Query to automatically combine, clean, and consolidate recurring batch data without manual intervention."
+            },
+            {
+              "id": "ref-storage-modes",
+              "tabLabel": "2. Import vs DirectQuery vs Composite",
+              "topic": "VertiPaq In-Memory Cache vs Live Database Querying & Composite Models",
+              "title": "Power BI Get Data: Choosing Import, DirectQuery, or Live Connections Explained",
+              "channel": "Guy in a Cube",
+              "duration": "08:30",
+              "videoId": "-ip7mKUdwRg",
+              "watchUrl": "https://www.youtube.com/watch?v=-ip7mKUdwRg",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/-ip7mKUdwRg",
+              "url": "https://www.youtube-nocookie.com/embed/-ip7mKUdwRg",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-composite-models",
+              "sourceName": "Microsoft Learn — Use Composite Models in Power BI Desktop",
+              "note": "Topic 2 Tutorial (Supplemental): Guy in a Cube (Adam Saxton) explores the architectural trade-offs between Import mode (VertiPaq compressed memory cache, full DAX support), DirectQuery (live database translation for massive enterprise SQL databases), and Composite / Dual hybrid modes with aggregated caching."
+            },
+            {
+              "id": "ref-datasource-parameters",
+              "tabLabel": "3. Connection Parameters & Environments",
+              "topic": "Dynamic M Parameters for Dev, Test & Production Switching",
+              "title": "Switch Environments Fast with Power BI Data Source Parameters",
+              "channel": "Guy in a Cube",
+              "duration": "03:28",
+              "videoId": "OnaDJkGOmIE",
+              "watchUrl": "https://www.youtube.com/watch?v=OnaDJkGOmIE",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/OnaDJkGOmIE",
+              "url": "https://www.youtube-nocookie.com/embed/OnaDJkGOmIE",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-query/power-query-query-parameters",
+              "sourceName": "Microsoft Learn — Power Query Query Parameters",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Power Query Query Parameters",
+                  "url": "https://learn.microsoft.com/en-us/power-query/power-query-query-parameters"
+                },
+                {
+                  "name": "Microsoft Support — Manage Data Source Settings & Permissions",
+                  "url": "https://support.microsoft.com/en-us/excel/manage-data-source-settings-and-permissions-power-query"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Guy in a Cube (Patrick LeBlanc) demonstrates best practices for parameterizing SQL Server and database connections using Power Query Parameters, enabling seamless toggling between Dev, Test, and Production environments without hardcoding credentials."
+            }
+          ]
         },
         "summary": "Master data ingestion in Power BI Desktop across relational databases, flat files, multi-file folders, and REST APIs. Evaluate Import Mode vs DirectQuery vs Dual Mode for optimal performance.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Connect Power BI Desktop to flat files (CSV, Excel), relational databases (PostgreSQL, SQL Server, MySQL), and Web data.\n2. Utilize the **Folder Ingestion Connector** to automatically combine hundreds of recurring monthly batch files into a single unified table.\n3. Compare the three primary Power BI Data Connectivity modes: **Import Mode**, **DirectQuery Mode**, and **Dual (Composite) Mode**.\n4. Parameterize data source connections to switch effortlessly between development, testing, and production environments.\n5. Avoid common ingestion pitfalls, such as file-path lockouts, credential expiration, and excessive column selection.\n\n---\n\n### 1. The Get Data Architecture in Power BI\n\nPower BI provides over 150 native connectors. Clicking **Get Data** opens the connection dialog, allowing you to ingest data from:\n- **File Connectors**: Excel Workbook, CSV/Text, JSON, XML, Folder, SharePoint Folder.\n- **Database Connectors**: SQL Server, PostgreSQL, MySQL, Oracle, Google BigQuery, Snowflake, Azure SQL.\n- **Online Services & APIs**: Salesforce, Google Analytics, Power Platform Dataverse, OData Feed, Web URL.\n\n```\n+-------------------------------------------------------------------------------+\n|                       DATA INGESTION MODES COMPARISON                         |\n+-------------------------------------------------------------------------------+\n| Mode            | Data Location           | Max Performance | Real-Time?      |\n+-----------------+-------------------------+-----------------+-----------------+\n| Import Mode     | In-Memory (VertiPaq)    | Ultra Fast (⚡) | No (Scheduled)  |\n| DirectQuery     | Source DB at Query Time | Depends on DB   | Yes (Live DB)   |\n| Dual / Composite| Hybrid (Cached + Live)  | Optimized       | Selective       |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Deep Dive: Ingestion Modes\n\n#### A. Import Mode (Default & Recommended)\n- **Mechanism**: Extracts a snapshot of source data, compresses it, and loads it entirely into local RAM inside the VertiPaq engine.\n- **Pros**: Fastest DAX calculation speed, full access to all DAX functions, supports multi-source blending in Power Query.\n- **Cons**: Dataset size limits (1GB per model in Power BI Pro), requires scheduled refresh to reflect database updates.\n\n#### B. DirectQuery Mode\n- **Mechanism**: Power BI does not store data locally. When a user clicks a visual, Power BI translates the DAX calculation into native SQL (e.g. `SELECT SUM(amount) FROM sales`) and sends it directly to the source database.\n- **When to use**: Massive datasets (tens of millions of rows exceeding RAM limits) or when strict real-time data freshness is mandatory.\n- **Cons**: Slower visual rendering, DAX limitations (some time-intelligence functions are restricted), heavy CPU load on source database.\n\n---\n\n### 3. Real-World Commercial Pattern: Combining Multi-Branch Monthly Files with Folder Connector\n\nIn Kenyan commercial enterprises, branches (e.g., Nairobi, Mombasa, Kisumu, Eldoret) frequently submit monthly sales CSVs into a shared folder:\n```\n/sales_archive/\n   ├── Sales_Nairobi_2026_01.csv\n   ├── Sales_Mombasa_2026_01.csv\n   ├── Sales_Kisumu_2026_01.csv\n   └── Sales_Nairobi_2026_02.csv\n```\n\n**Step-by-Step Folder Ingestion Workflow**:\n1. Click **Get Data -> Folder** -> specify path `C:\\Data\\Sales_Archive`.\n2. Power BI scans the directory and displays file metadata (`Name`, `Extension`, `Date Modified`, `Content`).\n3. Click **Combine -> Combine & Transform Data**.\n4. Power Query creates a parameterized helper function that extracts and unions every file in the folder into one consolidated table.\n5. **Automation Benefit**: Next month, when the finance team drops `Sales_Eldoret_2026_03.csv` into the folder, clicking **Refresh** automatically appends the new records without modifying queries!\n\n---\n\n### 4. Summary & Best Practices\n- Default to **Import Mode** unless dataset size or real-time compliance dictates DirectQuery.\n- Remove unnecessary columns at the data source level to minimize memory consumption and optimize VertiPaq compression.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Connect Power BI Desktop to flat files (CSV, Excel), relational databases (PostgreSQL, SQL Server, MySQL), and Web data.\n2. Utilize the **Folder Ingestion Connector** to automatically combine hundreds of recurring monthly batch files into a single unified table.\n3. Compare the three primary Power BI Data Connectivity modes: **Import Mode**, **DirectQuery Mode**, and **Dual (Composite) Mode**.\n4. Parameterize data source connections to switch effortlessly between development, testing, and production environments.\n5. Avoid common ingestion pitfalls, such as file-path lockouts, credential expiration, and excessive column selection.\n\n---\n\n### 1. The Get Data Architecture in Power BI\n\nPower BI provides over 150 native connectors. Clicking **Get Data** opens the connection dialog, allowing you to ingest data from:\n- **File Connectors**: Excel Workbook, CSV/Text, JSON, XML, Folder, SharePoint Folder.\n- **Database Connectors**: SQL Server, PostgreSQL, MySQL, Oracle, Google BigQuery, Snowflake, Azure SQL.\n- **Online Services & APIs**: Salesforce, Google Analytics, Power Platform Dataverse, OData Feed, Web URL.\n\n```\n+-------------------------------------------------------------------------------+\n|                       DATA INGESTION MODES COMPARISON                         |\n+-------------------------------------------------------------------------------+\n| Mode            | Data Location           | Max Performance | Real-Time?      |\n+-----------------+-------------------------+-----------------+-----------------+\n| Import Mode     | In-Memory (VertiPaq)    | Ultra Fast (⚡) | No (Scheduled)  |\n| DirectQuery     | Source DB at Query Time | Depends on DB   | Yes (Live DB)   |\n| Dual / Composite| Hybrid (Cached + Live)  | Optimized       | Selective       |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Deep Dive: Ingestion Modes\n\n#### A. Import Mode (Default & Recommended)\n- **Mechanism**: Extracts a snapshot of source data, compresses it, and loads it entirely into local RAM inside the VertiPaq engine.\n- **Pros**: Fastest DAX calculation speed, full access to all DAX functions, supports multi-source blending in Power Query.\n- **Cons**: Dataset size limits (1GB per model in Power BI Pro), requires scheduled refresh to reflect database updates.\n\n#### B. DirectQuery Mode\n- **Mechanism**: Power BI does not store data locally. When a user clicks a visual, Power BI translates the DAX calculation into native SQL (e.g. `SELECT SUM(amount) FROM sales`) and sends it directly to the source database.\n- **When to use**: Massive datasets (tens of millions of rows exceeding RAM limits) or when strict real-time data freshness is mandatory.\n- **Cons**: Slower visual rendering, DAX limitations (some time-intelligence functions are restricted), heavy CPU load on source database.\n\n#### C. Composite & Dual Storage Mode\n- **Mechanism**: Blends Import mode for aggregated fact summary tables with DirectQuery for granular row-level data.\n- **Supporting Documentation**: [Microsoft Learn — Use composite models in Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-composite-models).\n\n---\n\n### 3. Real-World Commercial Pattern: Combining Multi-Branch Monthly Files with Folder Connector\n\nIn Kenyan commercial enterprises, branches (e.g., Nairobi, Mombasa, Kisumu, Eldoret) frequently submit monthly sales CSVs into a shared folder:\n```\n/sales_archive/\n   ├── Sales_Nairobi_2026_01.csv\n   ├── Sales_Mombasa_2026_01.csv\n   ├── Sales_Kisumu_2026_01.csv\n   └── Sales_Nairobi_2026_02.csv\n```\n\n**Step-by-Step Folder Ingestion Workflow**:\n1. Click **Get Data -> Folder** -> specify path `C:\\Data\\Sales_Archive`.\n2. Power BI scans the directory and displays file metadata (`Name`, `Extension`, `Date Modified`, `Content`).\n3. Click **Combine -> Combine & Transform Data**.\n4. Power Query creates a parameterized helper function that extracts and unions every file in the folder into one consolidated table.\n5. **Automation Benefit**: Next month, when the finance team drops `Sales_Eldoret_2026_03.csv` into the folder, clicking **Refresh** automatically appends the new records without modifying queries!\n\n---\n\n### 4. Dynamic Connection Parameters & Environment Management\n\nIn enterprise deployments, never hardcode database server addresses, catalog names, or local file paths directly inside Power Query steps. Parameters enable your datasets to seamlessly migrate between **Development**, **Staging/UAT**, and **Production** environments without breaking queries.\n\n#### A. Creating Connection Parameters in Power Query\n1. In Power Query Editor, navigate to **Home -> Manage Parameters -> New Parameter**.\n2. Configure environment variables:\n   - **`ServerName`** (Type: Text) -> Current value: `dev-db.zawadiretail.co.ke`\n   - **`DatabaseName`** (Type: Text) -> Current value: `zawadi_sales_dev`\n   - **`BatchFolderPath`** (Type: Text) -> Current value: `C:\\ZawadiData\\DevArchive`\n3. Reference parameters directly in connection formulas: `Sql.Database(#\"ServerName\", #\"DatabaseName\")`.\n4. When deploying to production, modify the parameter values once, automatically redirecting all dependent tables without manual code rewrites.\n- Reference: [Microsoft Learn — Power Query Query Parameters](https://learn.microsoft.com/en-us/power-query/power-query-query-parameters)\n\n#### B. Safe Credential & Permission Management\n- Access **File -> Options and Settings -> Data Source Settings** to manage credentials.\n- Distinguish between **Global Permissions** (reused across all local files) and **Data Sources in Current File** (scoped strictly to this PBIX).\n- Never hardcode passwords, API tokens, or secrets in M code. Leverage Power BI's encrypted credential manager, Windows Authentication, or Microsoft Entra ID OAuth.\n- Reference: [Microsoft Support — Manage Data Source Settings & Permissions](https://support.microsoft.com/en-us/excel/manage-data-source-settings-and-permissions-power-query)\n\n---\n\n### 5. Summary & Best Practices\n- Default to **Import Mode** unless dataset volume or real-time compliance dictates DirectQuery or Composite models.\n- Leverage the **Folder Connector** with `Combine & Transform Data` for recurring multi-branch or monthly file consolidation.\n- Parameterize external endpoints to switch friction-free between Dev, Staging, and Production.\n- Secure connection credentials in **Data Source Settings** without embedding secrets in queries.",
         "challenge": {
           "type": "quiz",
           "title": "Module 2 Checkpoint: Ingestion Modes",
@@ -7464,19 +8453,125 @@ export const coursesData = [
         "subtitle": "The M language, Applied Steps, Unpivoting, Merging vs Appending, Conditional Columns, and Query Folding",
         "readingTime": "22 min",
         "videoLesson": {
-          "title": "Data Transformation and Cleansing with Power Query (M Engine)",
+          "title": "How to use Power Query in Power BI | Microsoft Power BI for Beginners",
           "channel": "Alex The Analyst",
-          "duration": "12:50",
-          "videoId": "g0m5sEHPU-s",
-          "watchUrl": "https://www.youtube.com/watch?v=g0m5sEHPU-s",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/g0m5sEHPU-s",
-          "url": "https://www.youtube-nocookie.com/embed/g0m5sEHPU-s",
+          "duration": "13:07",
+          "videoId": "gP-AxNi6uxo",
+          "watchUrl": "https://www.youtube.com/watch?v=gP-AxNi6uxo",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/gP-AxNi6uxo",
+          "url": "https://www.youtube-nocookie.com/embed/gP-AxNi6uxo",
           "alternativeSource": "https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query",
-          "sourceName": "Microsoft Learn — Power Query Documentation",
-          "badge": "Verified Reference Video"
+          "sourceName": "Microsoft Learn — What is Power Query?",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "note": "Power Query Transformations & ETL: Topic 1 by Alex The Analyst (13:07) covers foundational Power Query cleansing, Applied Steps, and Unpivoting. Topic 2 by RADACAD (19:40) explores Query Folding mechanics, source database pushdown, and engine performance optimization. Topic 3 by Excel Bonanza (49:18) masters Merge Queries vs Append Queries with all join kinds and anti-joins. Topic 4 by BCTI (15:33) breaks down Query Folding levels (Full, Partial, Absent), broken folding chains, and query plan diagnosis.",
+          "references": [
+            {
+              "id": "ref-powerquery-fundamentals",
+              "tabLabel": "1. Power Query Fundamentals & Unpivot",
+              "topic": "Applied Steps, Data Cleansing, Header Promotion & Unpivoting",
+              "title": "How to use Power Query in Power BI | Microsoft Power BI for Beginners",
+              "channel": "Alex The Analyst",
+              "duration": "13:07",
+              "videoId": "gP-AxNi6uxo",
+              "watchUrl": "https://www.youtube.com/watch?v=gP-AxNi6uxo",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/gP-AxNi6uxo",
+              "url": "https://www.youtube-nocookie.com/embed/gP-AxNi6uxo",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query",
+              "sourceName": "Microsoft Learn — What is Power Query?",
+              "note": "Topic 1 Tutorial (Primary): Alex The Analyst walks through the Power Query Editor UI, Applied Steps sequencing, data type coercion, column trimming, header promotion, and unpivoting cross-tabulated data. (Focused on foundational cleansing and unpivoting; advanced M programming is taught in subsequent sections and official documentation)."
+            },
+            {
+              "id": "ref-powerquery-radacad-folding",
+              "tabLabel": "2. 2026 Power Query & Query Folding",
+              "topic": "Query Folding Mechanics, Native SQL Pushdown & Engine Evaluation",
+              "title": "Power BI Performance Tip   Query Folding in Power Query",
+              "channel": "RADACAD",
+              "duration": "19:40",
+              "videoId": "OAoWet1NmeM",
+              "watchUrl": "https://www.youtube.com/watch?v=OAoWet1NmeM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/OAoWet1NmeM",
+              "url": "https://www.youtube-nocookie.com/embed/OAoWet1NmeM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-query/power-query-folding",
+              "sourceName": "Microsoft Learn — Power Query Folding",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Power Query Folding",
+                  "url": "https://learn.microsoft.com/en-us/power-query/power-query-folding"
+                },
+                {
+                  "name": "Microsoft Learn — Add a Conditional Column",
+                  "url": "https://learn.microsoft.com/en-us/power-query/add-conditional-column"
+                },
+                {
+                  "name": "Microsoft Learn — Power Query M Formula Language Reference",
+                  "url": "https://learn.microsoft.com/en-us/powerquery-m/"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): RADACAD (Reza Rad) demonstrates how Power Query translates transformations into source database SQL, how to verify query folding with 'View Native Query', and why avoiding client-side engine evaluation dramatically accelerates refresh performance. Custom/conditional columns and M syntax are detailed in the accompanying lesson text and Microsoft Learn references."
+            },
+            {
+              "id": "ref-merge-vs-append",
+              "tabLabel": "3. Merge vs Append Queries",
+              "topic": "Horizontal Relational JOINs (Left, Right, Inner, Anti) vs Vertical UNIONs",
+              "title": "Merge vs Append in Power Query & Power BI (Most People Get This Wrong)",
+              "channel": "Excel Bonanza",
+              "duration": "49:18",
+              "videoId": "-xFFA8Lnm2E",
+              "watchUrl": "https://www.youtube.com/watch?v=-xFFA8Lnm2E",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/-xFFA8Lnm2E",
+              "url": "https://www.youtube-nocookie.com/embed/-xFFA8Lnm2E",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-query/merge-queries-overview",
+              "sourceName": "Microsoft Learn — Merge Queries Overview",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Merge Queries Overview",
+                  "url": "https://learn.microsoft.com/en-us/power-query/merge-queries-overview"
+                },
+                {
+                  "name": "Microsoft Learn — Append Queries Overview",
+                  "url": "https://learn.microsoft.com/en-us/power-query/append-queries"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Excel Bonanza delivers an in-depth visual masterclass comparing Merge Queries (SQL-style horizontal JOINs with matching key columns, all join kinds, and anti-joins for finding missing matches) versus Append Queries (SQL UNION ALL vertical stacking of rows, handling mismatched columns, and preventing duplicate records)."
+            },
+            {
+              "id": "ref-query-folding-performance",
+              "tabLabel": "4. Query Folding & Engine Performance",
+              "topic": "Folding Levels (Full, Partial, Absent), Broken Folds & Query Plans",
+              "title": "Power Query - Query Folding (The key to faster query execution)",
+              "channel": "BCTI",
+              "duration": "15:33",
+              "videoId": "cdgO7tErqTI",
+              "watchUrl": "https://www.youtube.com/watch?v=cdgO7tErqTI",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/cdgO7tErqTI",
+              "url": "https://www.youtube-nocookie.com/embed/cdgO7tErqTI",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-query/query-folding-examples",
+              "sourceName": "Microsoft Learn — Query Folding Examples",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Query Folding Examples",
+                  "url": "https://learn.microsoft.com/en-us/power-query/query-folding-examples"
+                },
+                {
+                  "name": "Microsoft Learn — Step Folding Indicators in Power Query",
+                  "url": "https://learn.microsoft.com/en-us/power-query/step-folding-indicators"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): BCTI breaks down query folding levels (Full, Partial, and Absent), explains why pushing transformations to the source database is the key to fast refresh execution, explores what breaks the folding chain, and demonstrates how to repair broken steps using folding indicators."
+            }
+          ]
         },
         "summary": "Transform messy, unformatted raw data into clean, structured tables using Power Query. Master unpivoting cross-tabulated reports, merging relational tables, appending queries, and optimizing Query Folding.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Navigate the Power Query Editor and understand the deterministic sequence of **Applied Steps**.\n2. Convert human-formatted cross-tabulated reports into machine-readable tabular records using **Unpivot Columns**.\n3. Distinguish between **Merge Queries** (relational SQL-style JOINs) and **Append Queries** (vertical SQL-style UNIONs).\n4. Create reusable transformation logic with **Custom Columns**, **Conditional Columns**, and basic **M code** (`Table.TransformColumnTypes`, `Text.Proper`).\n5. Understand and preserve **Query Folding** to push computational workloads back to source database servers.\n\n---\n\n### 1. Power Query & The M Formula Language\n\nPower Query is the data preparation and transformation engine of Power BI. Every click, column split, and filter in the Power Query graphical interface generates an underlying declarative expression in the **M formula language**.\n\nKey concepts:\n- **Applied Steps List**: Located on the right sidebar. Transformations execute sequentially from top to bottom.\n- **Immutability**: Power Query never alters your raw source file. It builds a repeatable recipe of steps executed each time data refreshes.\n- **Formula Bar**: Displays the exact M function (e.g., `= Table.SelectRows(Source, each [Amount] > 1000)`).\n\n```\n+-------------------------------------------------------------------------------+\n|                       APPLIED STEPS PIPELINE IN POWER QUERY                   |\n+-------------------------------------------------------------------------------+\n|  1. Source                  -> Connects to raw database or CSV               |\n|  2. Promoted Headers        -> Converts Row 1 into Column Headers            |\n|  3. Changed Type            -> Coerces text, dates, numbers, currencies      |\n|  4. Filtered Rows           -> Removes nulls, invalid test records           |\n|  5. Replaced Value          -> Standardizes casing and typo codes            |\n|  6. Unpivoted Other Columns -> Converts wide summary table into tall dataset  |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Unpivoting: Fixing the \"Wide Spreadsheet\" Problem\n\nOne of the most frequent challenges in business analytics is handling spreadsheets formatted for human reading rather than computational modeling.\n\n**Problematic \"Wide\" Format**:\n```\nProduct       | Jan 2026 | Feb 2026 | Mar 2026\n--------------+----------+----------+----------\nSolar Battery | 450,000  | 520,000  | 610,000\nInverter 1kVA | 280,000  | 310,000  | 340,000\n```\n*Why this fails in Power BI*: You cannot write a single dynamic DAX measure or time-intelligence calculation because dates are spread across multiple column headers!\n\n**The Solution: Unpivot Columns**:\n1. Select the **Product** column.\n2. Right-click -> **Unpivot Other Columns**.\n3. Rename the resulting columns to `Month_Year` and `Revenue_KSh`.\n\n**Resulting \"Tall\" Normalized Data**:\n```\nProduct       | Month_Year | Revenue_KSh\n--------------+------------+-------------\nSolar Battery | Jan 2026   | 450,000\nSolar Battery | Feb 2026   | 520,000\nSolar Battery | Mar 2026   | 610,000\nInverter 1kVA | Jan 2026   | 280,000\n...\n```\n\n---\n\n### 3. Merge Queries vs Append Queries\n\n#### A. Merge Queries (Horizontal Lookup / JOIN)\n- Joins two tables side-by-side based on a shared matching key (e.g., matching `CustomerID` in `FactSales` with `CustomerID` in `DimCustomers`).\n- Supports Join Kinds: **Left Outer** (all rows from Table 1), **Inner** (only matching rows), **Full Outer** (all rows from both).\n\n#### B. Append Queries (Vertical Stacking / UNION)\n- Stacks two or more tables with identical or similar column structures on top of each other (e.g. `Sales_2025` + `Sales_2026`).\n\n---\n\n### 4. Query Folding: The Secret to High-Performance ETL\n\n**Query Folding** occurs when Power Query converts your graphical transformation steps (filters, joins, column selections) directly into a single optimized SQL statement executed on the source database server.\n- **Why it matters**: If you filter 50 million rows down to 100,000 rows in Power Query, Query Folding sends `WHERE country = 'Kenya'` to the database. The network only downloads 100,000 rows!\n- **How to check**: In the Applied Steps pane, right-click any step -> if **View Native Query** is clickable, Query Folding is active!\n\n---\n\n### 5. Summary & Best Practices\n- Always normalize wide data into tall, narrow tables using **Unpivot**.\n- Perform heavy data type conversions, text stripping, and null replacements inside Power Query before data loads into the DAX model.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Navigate the Power Query Editor and understand the deterministic sequence of **Applied Steps**.\n2. Convert human-formatted cross-tabulated reports into machine-readable tabular records using **Unpivot Columns**.\n3. Distinguish between **Merge Queries** (relational SQL-style JOINs) and **Append Queries** (vertical SQL-style UNIONs).\n4. Create reusable transformation logic with **Custom Columns**, **Conditional Columns**, and declarative **M expressions** (`Table.TransformColumnTypes`, `Text.Proper`).\n5. Understand and preserve **Query Folding** across Full, Partial, and Absent levels to push computational workloads back to source database servers.\n\n---\n\n### 1. Power Query & The M Formula Language\n\nPower Query is the data preparation and transformation engine of Power BI. Every click, column split, filter, and type conversion in the graphical user interface generates an underlying declarative expression in the **M formula language**.\n\nKey concepts:\n- **Applied Steps List**: Located on the right sidebar. Transformations execute sequentially from top to bottom.\n- **Immutability**: Power Query never alters your raw source file. It builds a repeatable recipe of steps executed each time data refreshes.\n- **Formula Bar**: Displays the exact M function (e.g., `= Table.SelectRows(Source, each [Amount] > 1000)`).\n- **Script View / Advanced Editor**: Allows developers to view and edit the entire M query script directly.\n\n```\n+-------------------------------------------------------------------------------+\n|                       APPLIED STEPS PIPELINE IN POWER QUERY                   |\n+-------------------------------------------------------------------------------+\n|  1. Source                  -> Connects to raw database or CSV               |\n|  2. Promoted Headers        -> Converts Row 1 into Column Headers            |\n|  3. Changed Type            -> Coerces text, dates, numbers, currencies      |\n|  4. Filtered Rows           -> Removes nulls, invalid test records           |\n|  5. Replaced Value          -> Standardizes casing and typo codes            |\n|  6. Unpivoted Other Columns -> Converts wide summary table into tall dataset  |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Unpivoting: Fixing the \"Wide Spreadsheet\" Problem\n\nOne of the most frequent challenges in business analytics is handling spreadsheets formatted for human reading rather than computational modeling.\n\n**Problematic \"Wide\" Format**:\n```\nProduct       | Jan 2026 | Feb 2026 | Mar 2026\n--------------+----------+----------+----------\nSolar Battery | 450,000  | 520,000  | 610,000\nInverter 1kVA | 280,000  | 310,000  | 340,000\n```\n*Why this fails in Power BI*: You cannot write a single dynamic DAX measure or time-intelligence calculation because dates are spread across multiple column headers!\n\n**The Solution: Unpivot Columns**:\n1. Select the **Product** column.\n2. Right-click -> **Unpivot Other Columns**.\n3. Rename the resulting columns to `Month_Year` and `Revenue_KSh`.\n\n**Resulting \"Tall\" Normalized Data**:\n```\nProduct       | Month_Year | Revenue_KSh\n--------------+------------+-------------\nSolar Battery | Jan 2026   | 450,000\nSolar Battery | Feb 2026   | 520,000\nSolar Battery | Mar 2026   | 610,000\nInverter 1kVA | Jan 2026   | 280,000\n...\n```\n\n---\n\n### 3. Merge Queries vs Append Queries\n\n#### A. Merge Queries (Horizontal Lookup / Relational JOIN)\n- **Concept**: Combines columns from two tables horizontally based on matching key columns (e.g., linking `CustomerID` in `FactSales` with `CustomerID` in `DimCustomers`).\n- **Join Kinds Supported**:\n  - **Left Outer**: Preserves all rows from the primary table and matching rows from the lookup table.\n  - **Inner**: Keeps only rows where the key exists in both tables.\n  - **Full Outer**: Retains all rows from both tables, filling mismatches with nulls.\n  - **Left Anti / Right Anti**: Isolates non-matching rows (critical for data audits, such as finding sales transactions with missing customer records).\n- **Handling Missing & Duplicate Keys**: When merging on non-unique keys, Power Query expands rows, potentially multiplying facts. Always ensure dimension keys are deduplicated before merging!\n- Reference: [Microsoft Learn — Merge Queries Overview](https://learn.microsoft.com/en-us/power-query/merge-queries-overview)\n\n#### B. Append Queries (Vertical Stacking / UNION ALL)\n- **Concept**: Stacks two or more tables with identical or similar structures on top of each other (e.g. stacking `Sales_2025` and `Sales_2026`).\n- **Handling Schema Variations**: Columns with identical names are unioned into the same column. If Table A has `Branch_Code` and Table B has `BranchCode`, Power Query creates two separate columns with nulls in alternating rows. Always align column headers before appending!\n- Reference: [Microsoft Learn — Append Queries Overview](https://learn.microsoft.com/en-us/power-query/append-queries)\n\n---\n\n### 4. Custom Columns & Conditional Columns\n\n- **Conditional Columns**: Created via **Add Column -> Conditional Column** without writing code. Enables `if...then...else` logic (e.g., classifying `SalesAmount > 500,000` as \"High Priority\", otherwise \"Standard\").\n  - Reference: [Microsoft Learn — Add a Conditional Column](https://learn.microsoft.com/en-us/power-query/add-conditional-column)\n- **Custom Columns with M**: Created via **Add Column -> Custom Column**. Allows calling native M library functions such as `Text.Upper([Region])`, `Date.Year([TransactionDate])`, or arithmetic calculations.\n  - Reference: [Microsoft Learn — Power Query M Formula Language](https://learn.microsoft.com/en-us/powerquery-m/)\n\n---\n\n### 5. Query Folding: Engine Performance & Folding Levels\n\n**Query Folding** is the ability of Power Query to convert graphical transformation steps directly into a single native query (such as SQL) executed on the source database server.\n\n#### A. The Three Query Folding Levels\n1. **Full Query Folding**: All transformation steps are pushed down to the source database. The Power BI engine downloads only the final, filtered, aggregated result set. This yields the fastest refresh speeds and lowest memory footprint.\n2. **Partial Query Folding**: Initial steps fold back to the database. However, once a non-foldable transformation step is introduced (e.g., calling an unsupported M function or inserting an Index Column), the folding chain breaks. All subsequent steps must be processed locally inside Power Query's mashup engine.\n3. **Absent (No Folding)**: None of the transformations can fold (common with flat CSV/Excel files, local text documents, or unstructured web feeds). The entire dataset is pulled into local memory for evaluation.\n\n#### B. Diagnosing & Preserving Query Folding\n- **Check Native Query**: In the Applied Steps list, right-click any step. If **View Native Query** is enabled (clickable), query folding is active up to that step.\n- **Step Folding Indicators**: Modern Power BI displays folding icons next to Applied Steps (*Folding*, *Not Folding*, *Opaque*).\n- **Rule of Performance**: Always arrange foldable operations (**Filter Rows**, **Select/Remove Columns**, **Group By**, and **Inner Joins**) at the beginning of your Applied Steps before non-foldable steps.\n- Reference: [Microsoft Learn — Power Query Folding](https://learn.microsoft.com/en-us/power-query/power-query-folding)\n- Reference: [Microsoft Learn — Query Folding Examples](https://learn.microsoft.com/en-us/power-query/query-folding-examples)\n\n---\n\n### 6. Summary & Best Practices\n- Normalize wide cross-tabulated reports into tall tabular schemas using **Unpivot Other Columns**.\n- Choose **Merge** for horizontal dimensional enrichment and **Append** for vertical time-series or multi-region consolidation.\n- Guard the folding chain: check **View Native Query** and position high-selectivity row filters at the top of Applied Steps.",
         "challenge": {
           "type": "quiz",
           "title": "Module 3 Checkpoint: Power Query Transformations",
@@ -7504,16 +8599,54 @@ export const coursesData = [
         "subtitle": "Fact vs Dimension tables, 1-to-Many relationships, Primary & Foreign keys, and avoiding bidirectional filters",
         "readingTime": "24 min",
         "videoLesson": {
-          "title": "Data Modeling, Relationships and Star Schema Architecture",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
+          "title": "Power BI Data Modeling & Star Schema: Why Top 10% Professionals Consider It a Critical Priority!",
+          "channel": "Pradeep CDI",
+          "duration": "17:45",
+          "videoId": "uEd_BXgDwTg",
+          "watchUrl": "https://www.youtube.com/watch?v=uEd_BXgDwTg",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/uEd_BXgDwTg",
+          "url": "https://www.youtube-nocookie.com/embed/uEd_BXgDwTg",
           "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
           "sourceName": "Microsoft Learn — Understand Star Schema in Power BI",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "note": "Data Modeling & Star Schema Masterclass: Topic 1 by Pradeep CDI (17:45) covers the foundational Kimball dimensional modeling workflow: fact vs dimension tables, granularity, primary and foreign keys, 1-to-many cardinality, filter propagation, and star schema architecture. Topic 2 by RADACAD (07:52) details relationship filter directions, the severe performance and ambiguity risks of bidirectional cross-filtering, and best practices for preserving single-directional models.",
+          "references": [
+            {
+              "id": "ref-star-schema-fundamentals",
+              "tabLabel": "1. Star Schema & Data Modeling",
+              "topic": "Fact vs Dimension Tables, Primary/Foreign Keys, 1:Many Cardinality & Filter Flow",
+              "title": "Power BI Data Modeling & Star Schema: Why Top 10% Professionals Consider It a Critical Priority!",
+              "channel": "Pradeep CDI",
+              "duration": "17:45",
+              "videoId": "uEd_BXgDwTg",
+              "watchUrl": "https://www.youtube.com/watch?v=uEd_BXgDwTg",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/uEd_BXgDwTg",
+              "url": "https://www.youtube-nocookie.com/embed/uEd_BXgDwTg",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+              "sourceName": "Microsoft Learn — Understand Star Schema and the Importance for Power BI",
+              "note": "Topic 1 Tutorial (Primary): Pradeep CDI delivers a comprehensive foundation in Power BI dimensional modeling (17:45): fact vs dimension tables, business event measurement vs descriptive context, granularity and uniqueness, primary and foreign key mapping, one-to-many relationship cardinality, dimension-to-fact filter propagation, and star schema architecture."
+            },
+            {
+              "id": "ref-filter-direction-bidirectional",
+              "tabLabel": "2. Filter Direction & Bidirectional Risks",
+              "topic": "Relationship Direction, Ambiguity, Circular Chains & Avoiding Bidirectional Filters",
+              "title": "Power BI One Slicer to filter other slicers based on Items that has value only without BI Direction",
+              "channel": "RADACAD",
+              "duration": "07:52",
+              "videoId": "cyOquvfhzNM",
+              "watchUrl": "https://www.youtube.com/watch?v=cyOquvfhzNM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/cyOquvfhzNM",
+              "url": "https://www.youtube-nocookie.com/embed/cyOquvfhzNM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering",
+              "sourceName": "Microsoft Learn — Bi-directional Relationship Guidance",
+              "note": "Topic 2 Tutorial (Supplemental): Microsoft MVP Reza Rad (07:52) explains the critical architectural dangers of bidirectional cross-filtering (performance degradation, circular relationship ambiguity) and demonstrates how to preserve clean single-directional star schemas using visual-level measure filtering."
+            }
+          ]
         },
         "summary": "Design clean, high-performance dimensional data models in Power BI. Master Kimball Star Schema principles, primary/foreign key relationships, single-direction filter propagation, and bridge table alternatives.",
         "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Explain the difference between **Fact Tables** (metrics, transactions, events) and **Dimension Tables** (context, filters, attributes).\n2. Architect a gold-standard **Star Schema** dimensional model in Power BI Desktop Model View.\n3. Establish robust **One-to-Many (`1:*`) single-direction relationships** using Primary Keys and Foreign Keys.\n4. Understand how filter context naturally flows from Dimensions down into Fact tables.\n5. Identify and avoid performance-degrading anti-patterns: **Many-to-Many (`*:*`) relationships**, **Bidirectional cross-filtering**, and massive un-normalized single flat tables.\n\n---\n\n### 1. Why Data Modeling is the Foundation of Power BI\n\nIn Power BI, 80% of complex or buggy DAX calculations are caused by **poor data modeling**. If your data model is structured correctly as a Star Schema, your DAX formulas will be simple, elegant, and lightning-fast.\n\n```\n+-------------------------------------------------------------------------------+\n|                       KIMBALL STAR SCHEMA ARCHITECTURE                        |\n+-------------------------------------------------------------------------------+\n|                                                                               |\n|   [ DimDate ]                      [ DimCustomers ]                           |\n|   - DateKey (PK)                   - CustomerID (PK)                          |\n|   - Year, Month, Quarter           - CustomerName, County, Tier               |\n|            \\                             /                                    |\n|             \\  (1)                 (1)  /                                     |\n|              \\                         /                                      |\n|               \\  (*)              (*) /                                       |\n|                v                     v                                        |\n|              +-------------------------+                                      |\n|              |     FactSales (Orders)  |                                      |\n|              |-------------------------|                                      |\n|              | - OrderID               |                                      |\n|              | - DateKey (FK)          |                                      |\n|              | - CustomerID (FK)       |                                      |\n|              | - ProductID (FK)        |                                      |\n|              | - StoreID (FK)          |                                      |\n|              | - Quantity              |                                      |\n|              | - TotalAmount (KSh)     |                                      |\n|              +-------------------------+                                      |\n|                ^                     ^                                        |\n|               /  (*)              (*) \\                                       |\n|              /                         \\                                      |\n|             /  (1)                 (1)  \\                                     |\n|            /                             \\                                    |\n|   [ DimProducts ]                  [ DimStores / Branches ]                   |\n|   - ProductID (PK)                 - StoreID (PK)                             |\n|   - ProductName, Category, SKU     - StoreName, City, Manager                 |\n|                                                                               |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Facts vs Dimensions: The Golden Rule\n\n#### Fact Tables (The \"What happened?\")\n- **Characteristics**: Contains numerical quantitative measurements, transactions, timestamps, and foreign keys.\n- **Row Count**: High volume (hundreds of thousands or millions of rows).\n- **Examples**: `FactSales`, `FactInventoryTransactions`, `FactMpesaPayments`, `FactFreightDeliveries`.\n\n#### Dimension Tables (The \"Who, What, Where, When, Why?\")\n- **Characteristics**: Contains descriptive attributes used for slicing, grouping, filtering, and labeling.\n- **Row Count**: Low to moderate volume (unique rows with a Primary Key).\n- **Examples**: `DimCustomers`, `DimProducts`, `DimBranches`, `DimDate`.\n\n---\n\n### 3. Filter Direction & The Flow of Context\n\nIn a healthy Star Schema:\n- The relationship is **One-to-Many (`1:*`)** from the Dimension (the \"1\" side) to the Fact table (the \"*\" side).\n- The **Cross-filter direction** is set to **Single**.\n- **Filter Rule**: Filters applied to `DimCustomers[County]` automatically filter down into `FactSales`. However, filtering `FactSales` does *not* filter back up to `DimCustomers`.\n\n---\n\n### 4. The Dangers of Bidirectional Cross-Filtering & Many-to-Many\n\n- **Bidirectional Filtering (`Both`)**: Forces filters on a Fact table to flow backward across relationships. In complex models, this introduces **circular ambiguity**, unexpected calculation results, and severe CPU slowdowns.\n- **Many-to-Many Relationships (`*:*`)**: Occur when neither table has unique primary keys. Always resolve many-to-many relationships by inserting a dedicated intermediary Bridge Dimension table with distinct keys.\n\n---\n\n### 5. Summary & Best Practices\n- Organize your Model View canvas with Dimensions along the top and Fact tables in the center/bottom.\n- Hide Foreign Keys in Fact tables from the Report View so report authors only filter via Dimension tables.",
@@ -7544,19 +8677,84 @@ export const coursesData = [
         "subtitle": "Calculated Columns vs Explicit Measures, SUM, COUNTROWS, DIVIDE, and DAX syntax standards",
         "readingTime": "22 min",
         "videoLesson": {
-          "title": "DAX Fundamentals: Calculated Columns, Measures & Aggregations",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
+          "title": "How to use Power BI DAX - Tutorial",
+          "channel": "Kevin Stratvert",
+          "duration": "37:28",
+          "videoId": "waG_JhBgUpM",
+          "watchUrl": "https://www.youtube.com/watch?v=waG_JhBgUpM",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/waG_JhBgUpM",
+          "url": "https://www.youtube-nocookie.com/embed/waG_JhBgUpM",
           "alternativeSource": "https://learn.microsoft.com/en-us/dax/dax-overview",
           "sourceName": "Microsoft Learn — Data Analysis Expressions (DAX) Overview",
-          "badge": "Verified Reference Video"
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "note": "DAX Fundamentals & Aggregations: Topic 1 by Kevin Stratvert (37:28) walks through foundational DAX syntax, writing explicit measures with SUM, COUNT, and DISTINCT, and contrasting measures with calculated columns. Topic 2 by SQLBI (05:59) delivers the definitive architectural breakdown of model storage during data refresh vs. dynamic filter context query evaluation. Topic 3 by Data with Baraa (46:17) visually diagrams where calculations live and best practices for measure organization.",
+          "references": [
+            {
+              "id": "ref-dax-fundamentals",
+              "tabLabel": "1. DAX Fundamentals & Syntax",
+              "topic": "DAX Formula Syntax, Base Aggregations (SUM, COUNT) & Explicit Measures",
+              "title": "How to use Power BI DAX - Tutorial",
+              "channel": "Kevin Stratvert",
+              "duration": "37:28",
+              "videoId": "waG_JhBgUpM",
+              "watchUrl": "https://www.youtube.com/watch?v=waG_JhBgUpM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/waG_JhBgUpM",
+              "url": "https://www.youtube-nocookie.com/embed/waG_JhBgUpM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/dax/dax-overview",
+              "sourceName": "Microsoft Learn — Data Analysis Expressions (DAX) Overview",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — DAX Overview",
+                  "url": "https://learn.microsoft.com/en-us/dax/dax-overview"
+                },
+                {
+                  "name": "Microsoft Learn — DIVIDE Function (DAX)",
+                  "url": "https://learn.microsoft.com/en-us/dax/divide-function-dax"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Former Microsoft program manager Kevin Stratvert demonstrates DAX syntax, authoring explicit measures with SUM, COUNT, and DISTINCT, using operators, creating calculated columns, and measure branching."
+            },
+            {
+              "id": "ref-calculated-columns-vs-measures",
+              "tabLabel": "2. Calculated Columns vs. Measures",
+              "topic": "Model Storage During Refresh vs. Dynamic Filter Context Evaluation",
+              "title": "Measures vs. calculated columns in DAX and Power BI",
+              "channel": "SQLBI",
+              "duration": "05:59",
+              "videoId": "ePPi1LLX0sA",
+              "watchUrl": "https://www.youtube.com/watch?v=ePPi1LLX0sA",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/ePPi1LLX0sA",
+              "url": "https://www.youtube-nocookie.com/embed/ePPi1LLX0sA",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-tutorial-create-calculated-columns",
+              "sourceName": "Microsoft Learn — Calculated Columns in Power BI Desktop",
+              "note": "Topic 2 Tutorial (Supplemental): Marco Russo from SQLBI explains the architectural differences between calculated columns (computed during refresh and stored in RAM inside the tabular model) and measures (evaluated dynamically in filter context upon query execution)."
+            },
+            {
+              "id": "ref-visual-dax-architecture",
+              "tabLabel": "3. Visual DAX & Best Practices",
+              "topic": "Where Calculations Live, The Golden Rules & Reusable Metrics",
+              "title": "Introduction to DAX: Visually Explained | Power BI Course 27",
+              "channel": "Data with Baraa",
+              "duration": "46:17",
+              "videoId": "iFEabYvCCLc",
+              "watchUrl": "https://www.youtube.com/watch?v=iFEabYvCCLc",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/iFEabYvCCLc",
+              "url": "https://www.youtube-nocookie.com/embed/iFEabYvCCLc",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-measures",
+              "sourceName": "Microsoft Learn — Create Measures for Data Analysis",
+              "note": "Topic 3 Tutorial (Supplemental): Data with Baraa visually breaks down where calculations belong in Power BI, the golden rules of measure placement, and setting up clean dedicated measures tables."
+            }
+          ]
         },
         "summary": "Understand the core philosophy of Data Analysis Expressions (DAX). Master the vital distinction between Calculated Columns and Explicit Measures, author robust mathematical aggregations, and optimize performance.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Understand the purpose of **DAX (Data Analysis Expressions)** as a formula language for tabular data models.\n2. Articulate the precise technical and performance differences between **Calculated Columns** and **Measures**.\n3. Author robust explicit base measures using standard aggregation functions (`SUM`, `AVERAGE`, `COUNTROWS`, `DISTINCTCOUNT`).\n4. Prevent divide-by-zero application crashes using the safe `DIVIDE()` function.\n5. Create a dedicated **_Measures Table** to organize enterprise business metrics cleanly.\n\n---\n\n### 1. What is DAX?\n\nDAX (Data Analysis Expressions) is the native formula and query language of Power BI, Azure Analysis Services, and Microsoft Excel Power Pivot. \n\nDAX is **not** Excel formula syntax:\n- Excel formulas reference physical grid cell addresses (e.g., `=A2*B2`).\n- DAX formulas reference structured tables and columns (e.g., `FactSales[UnitPrice] * FactSales[Quantity]`).\n\n---\n\n### 2. Calculated Columns vs Explicit Measures\n\nUnderstanding this distinction is the single most important milestone in learning Power BI:\n\n| Property | Calculated Column | Explicit Measure |\n| :--- | :--- | :--- |\n| **Computation Time** | Evaluated once during data refresh / ingestion | Evaluated on-the-fly dynamically when a visual renders |\n| **Storage Location** | Stored in RAM and persisted in the `.pbix` file | Consumes zero persistent storage (calculated in CPU memory) |\n| **Evaluation Context** | **Row Context** (evaluates row-by-row across the table) | **Filter Context** (aggregates based on active visual filters) |\n| **When to Use** | When the result is needed as a slicer, category, or row header | For all aggregations, percentages, ratios, and business KPIs |\n\n```dax\n-- CALCULATED COLUMN (Evaluated for every single row in FactSales)\nFactSales[LineTotal] = FactSales[Quantity] * FactSales[UnitPrice]\n\n-- EXPLICIT MEASURE (Evaluated dynamically based on user selections)\nTotal Revenue KSh = SUM(FactSales[LineTotal])\n```\n\n---\n\n### 3. Essential Base DAX Aggregations\n\n#### A. Total Revenue & Total Cost\n```dax\nTotal Revenue KSh = \nSUM(FactSales[LineTotal])\n\nTotal Cost KSh = \nSUM(FactSales[TotalCost])\n```\n\n#### B. Total Gross Profit & Gross Margin %\n```dax\nGross Profit KSh = \n[Total Revenue KSh] - [Total Cost KSh]\n\n-- Always use DIVIDE instead of '/' to handle division by zero safely\nGross Margin % = \nDIVIDE([Gross Profit KSh], [Total Revenue KSh], 0)\n```\n\n#### C. Volume & Transaction Counting\n```dax\n-- COUNTROWS counts every row in the table (fastest performance)\nTotal Transactions = \nCOUNTROWS(FactSales)\n\n-- DISTINCTCOUNT counts unique active customers\nActive Customers Count = \nDISTINCTCOUNT(FactSales[CustomerID])\n\n-- Average Order Value (AOV)\nAverage Order Value KSh = \nDIVIDE([Total Revenue KSh], [Total Transactions], 0)\n```\n\n---\n\n### 4. Best Practice: Dedicated Measures Table\n\nNever scatter measures randomly across different data tables. \n1. Go to **Home -> Enter Data**.\n2. Name the table `_Measures`.\n3. Create your DAX measures inside `_Measures`.\n4. Delete the default blank column. Power BI will promote `_Measures` to the top of the field list with a special calculator icon!\n\n---\n\n### 5. Summary & Best Practices\n- Never use implicit measures (dragging raw numeric columns directly into cards). Always write explicit DAX measures.\n- Use `DIVIDE(Numerator, Denominator, AlternateResult)` for all ratio computations.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Understand the purpose of **DAX (Data Analysis Expressions)** as a formula language for tabular data models.\n2. Articulate the precise technical and performance differences between **Calculated Columns** and **Measures**.\n3. Author robust explicit base measures using standard aggregation functions (`SUM`, `AVERAGE`, `COUNTROWS`, `DISTINCTCOUNT`).\n4. Prevent divide-by-zero application crashes using the safe `DIVIDE()` function.\n5. Create a dedicated **_Measures Table** to organize enterprise business metrics cleanly.\n\n---\n\n### 1. What is DAX?\n\nDAX (Data Analysis Expressions) is the native formula and query language of Power BI, Azure Analysis Services, and Microsoft Excel Power Pivot. \n\nDAX is **not** Excel formula syntax:\n- Excel formulas reference physical grid cell addresses (e.g., `=A2*B2`).\n- DAX formulas reference structured tables and columns (e.g., `FactSales[UnitPrice] * FactSales[Quantity]`).\n\n---\n\n### 2. Calculated Columns vs Explicit Measures\n\nUnderstanding this distinction is the single most important architectural milestone in mastering Power BI:\n\n| Property | Calculated Column | Explicit Measure |\n| :--- | :--- | :--- |\n| **Evaluation Time** | Generally evaluated during data refresh (or when schema/formula changes) | Evaluated on-the-fly dynamically when a visual or query requests the value |\n| **Storage in Model** | Computed values are stored directly in the tabular data model (occupying RAM & file space) | Does not store values per row in the model; evaluated dynamically at query time |\n| **Resource Consumption** | Increases dataset size in memory (VertiPaq cache) and storage on disk | Requires CPU and transient memory resources during query execution and visual rendering |\n| **Evaluation Context** | **Row Context** (evaluates row-by-row across the table during data load) | **Filter Context** (dynamically aggregates rows based on active visual filters, slicers, and relationships) |\n| **Primary Use Cases** | Row-level attributes, categories, slicers, or row headers in visuals | Numerical aggregations, KPIs, percentages, weighted ratios, and dynamic totals |\n\n```dax\n-- CALCULATED COLUMN (Evaluated during data refresh and stored in the model)\nFactSales[LineTotal] = FactSales[Quantity] * FactSales[UnitPrice]\n\n-- EXPLICIT MEASURE (Evaluated dynamically in filter context when queried)\nTotal Revenue KSh = SUM(FactSales[LineTotal])\n```\n\n> [!NOTE]\n> While measures do not consume persistent column storage for each individual row in your model, they are evaluated at query time. Complex measures over millions of rows still consume CPU and transient memory resources during report rendering. Always write clean, efficient measure logic!\n\n---\n\n### 3. Essential Base DAX Aggregations\n\n#### A. Total Revenue & Total Cost\n```dax\nTotal Revenue KSh = \nSUM(FactSales[LineTotal])\n\nTotal Cost KSh = \nSUM(FactSales[TotalCost])\n```\n\n#### B. Total Gross Profit & Gross Margin % (Safe Division)\n```dax\n-- Measure Branching: Reusing existing measures inside new measures\nGross Profit KSh = \n[Total Revenue KSh] - [Total Cost KSh]\n\n-- Always use DIVIDE instead of '/' to handle division-by-zero safely without throwing runtime errors\nGross Margin % = \nDIVIDE([Gross Profit KSh], [Total Revenue KSh], 0)\n```\n\n#### C. Volume & Transaction Counting\nAggregation functions should always be chosen according to your intended business calculation and data model structure, rather than assuming one function is universally faster than another:\n\n- **`COUNTROWS(Table)`**: Counts the number of rows in the specified table within the current filter context. It is designed specifically for counting table rows directly without scanning individual column values, making it ideal for transaction, order, or event counts.\n- **`COUNT(Table[Column])`**: Counts only the rows where the specified column contains a non-blank value. Useful when null/empty values should be excluded from the count.\n- **`DISTINCTCOUNT(Table[Column])`**: Evaluates and returns the number of distinct (unique) values in a column (e.g., counting unique customers who transacted).\n\n```dax\n-- Counting table rows for transaction volume\nTotal Transactions = \nCOUNTROWS(FactSales)\n\n-- DISTINCTCOUNT counts unique active customer accounts\nActive Customers Count = \nDISTINCTCOUNT(FactSales[CustomerID])\n\n-- Average Order Value (AOV) using safe division\nAverage Order Value KSh = \nDIVIDE([Total Revenue KSh], [Total Transactions], 0)\n```\n\n---\n\n### 4. Best Practice: Dedicated Measures Table\n\nNever scatter measures randomly across different data tables. \n1. Go to **Home -> Enter Data**.\n2. Name the table `_Measures`.\n3. Create your DAX measures inside `_Measures`.\n4. Delete the default blank column. Power BI will promote `_Measures` to the top of the field list with a special calculator icon!\n\n---\n\n### 5. Summary & Best Practices\n- Never use implicit measures (dragging raw numeric columns directly into cards). Always write explicit DAX measures.\n- Use `DIVIDE(Numerator, Denominator, AlternateResult)` for all ratio computations.\n- Choose aggregation functions (`COUNTROWS`, `COUNT`, `DISTINCTCOUNT`) based on model semantics rather than assuming one is always fastest.",
         "challenge": {
           "type": "quiz",
           "title": "Module 5 Checkpoint: DAX Fundamentals",
@@ -7581,22 +8779,129 @@ export const coursesData = [
         ],
         "number": 6,
         "title": "Advanced DAX: Evaluation Context, CALCULATE, and Time Intelligence",
-        "subtitle": "Filter Context vs Row Context, CALCULATE modifiers (FILTER, ALL), and Time Intelligence (YTD, Prior Year)",
+        "subtitle": "Filter Context vs Row Context, CALCULATE modifiers (FILTER, ALL, REMOVEFILTERS), and Time Intelligence (YTD, Prior Year)",
         "readingTime": "26 min",
         "videoLesson": {
-          "title": "Advanced DAX: Evaluation Context, CALCULATE & Time Intelligence",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
+          "title": "Power BI DAX Context: Filter, Row & Context Transition | Power BI Course 28",
+          "channel": "Data with Baraa",
+          "duration": "32:24",
+          "videoId": "NnSyWXLBW2U",
+          "watchUrl": "https://www.youtube.com/watch?v=NnSyWXLBW2U",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/NnSyWXLBW2U",
+          "url": "https://www.youtube-nocookie.com/embed/NnSyWXLBW2U",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
           "alternativeSource": "https://learn.microsoft.com/en-us/dax/calculate-function-dax",
           "sourceName": "Microsoft Learn — CALCULATE Function Reference",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "Microsoft Learn — CALCULATE Function",
+              "url": "https://learn.microsoft.com/en-us/dax/calculate-function-dax"
+            },
+            {
+              "name": "Microsoft Learn — TOTALYTD Function",
+              "url": "https://learn.microsoft.com/en-us/dax/totalytd-function-dax"
+            },
+            {
+              "name": "Microsoft Learn — SAMEPERIODLASTYEAR Function",
+              "url": "https://learn.microsoft.com/en-us/dax/sameperiodlastyear-function-dax"
+            }
+          ],
+          "note": "Advanced DAX, Context & Time Intelligence: Topic 1 by Data with Baraa (32:24) thoroughly teaches filter context vs. row context, context transition, and CALCULATE. Topic 2 by SQLBI (18:45) provides the authoritative comparison of ALL, ALLSELECTED, ALLEXCEPT, and REMOVEFILTERS. Topic 3 by Rahim Zulfiqar Ali (20:23) covers date tables, TOTALYTD, SAMEPERIODLASTYEAR, and YoY growth metrics.",
+          "references": [
+            {
+              "id": "ref-dax-context-calculate",
+              "tabLabel": "1. Evaluation Context & CALCULATE",
+              "topic": "Filter Context vs. Row Context, CALCULATE & Context Transition",
+              "title": "Power BI DAX Context: Filter, Row & Context Transition | Power BI Course 28",
+              "channel": "Data with Baraa",
+              "duration": "32:24",
+              "videoId": "NnSyWXLBW2U",
+              "watchUrl": "https://www.youtube.com/watch?v=NnSyWXLBW2U",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/NnSyWXLBW2U",
+              "url": "https://www.youtube-nocookie.com/embed/NnSyWXLBW2U",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/dax/calculate-function-dax",
+              "sourceName": "Microsoft Learn — CALCULATE Function Reference",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — CALCULATE Function",
+                  "url": "https://learn.microsoft.com/en-us/dax/calculate-function-dax"
+                },
+                {
+                  "name": "Microsoft Learn — Filter Context",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/guidance/dax-evaluation-context"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Data with Baraa explains the fundamental mechanics of DAX evaluation context, contrasting filter context against row context, explaining context transition, and demonstrating how CALCULATE alters active filter context."
+            },
+            {
+              "id": "ref-filter-modifiers-all-removefilters",
+              "tabLabel": "2. ALL, ALLEXCEPT & REMOVEFILTERS",
+              "topic": "Clearing & Preserving Filters for Share of Total (% Share)",
+              "title": "ALL vs ALLSELECTED vs ALLEXCEPT vs REMOVEFILTERS",
+              "channel": "SQLBI",
+              "duration": "18:45",
+              "videoId": "N5P6ac1VhSo",
+              "watchUrl": "https://www.youtube.com/watch?v=N5P6ac1VhSo",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/N5P6ac1VhSo",
+              "url": "https://www.youtube-nocookie.com/embed/N5P6ac1VhSo",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/dax/removefilters-function-dax",
+              "sourceName": "Microsoft Learn — REMOVEFILTERS Function (DAX)",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — REMOVEFILTERS Function",
+                  "url": "https://learn.microsoft.com/en-us/dax/removefilters-function-dax"
+                },
+                {
+                  "name": "Microsoft Learn — ALL Function",
+                  "url": "https://learn.microsoft.com/en-us/dax/all-function-dax"
+                },
+                {
+                  "name": "Microsoft Learn — ALLEXCEPT Function",
+                  "url": "https://learn.microsoft.com/en-us/dax/allexcept-function-dax"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Alberto Ferrari from SQLBI breaks down the precise differences between ALL, ALLSELECTED, ALLEXCEPT, and REMOVEFILTERS when modifying filter context to compute percentages of total and grand totals."
+            },
+            {
+              "id": "ref-time-intelligence-ytd-sply",
+              "tabLabel": "3. Time Intelligence (YTD & SPLY)",
+              "topic": "Date Tables, TOTALYTD, SAMEPERIODLASTYEAR & YoY Growth Metrics",
+              "title": "Time Intelligence DAX | Current, Previous & SamePeriodLastYear | MTD QTD YTD | MoM QoQ YoY POWER BI",
+              "channel": "Rahim Zulfiqar Ali",
+              "duration": "20:23",
+              "videoId": "WsWDjH-CgHg",
+              "watchUrl": "https://www.youtube.com/watch?v=WsWDjH-CgHg",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/WsWDjH-CgHg",
+              "url": "https://www.youtube-nocookie.com/embed/WsWDjH-CgHg",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/dax/totalytd-function-dax",
+              "sourceName": "Microsoft Learn — TOTALYTD Function Reference",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — TOTALYTD Function",
+                  "url": "https://learn.microsoft.com/en-us/dax/totalytd-function-dax"
+                },
+                {
+                  "name": "Microsoft Learn — SAMEPERIODLASTYEAR Function",
+                  "url": "https://learn.microsoft.com/en-us/dax/sameperiodlastyear-function-dax"
+                },
+                {
+                  "name": "Microsoft Learn — Time Intelligence Functions (DAX)",
+                  "url": "https://learn.microsoft.com/en-us/dax/time-intelligence-functions-dax"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Rahim Zulfiqar Ali demonstrates how to configure continuous date tables and write production time intelligence DAX calculations: MTD, QTD, TOTALYTD, SAMEPERIODLASTYEAR (SPLY), and YoY growth %."
+            }
+          ]
         },
         "summary": "Master the most powerful function in Power BI: CALCULATE. Understand context transition, filter manipulation with ALL and ALLEXCEPT, and build enterprise Time Intelligence calculations (YTD, MTD, YoY growth).",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Explain the deep mechanics of **Filter Context**, **Row Context**, and **Context Transition**.\n2. Master **`CALCULATE()`**: the only DAX function capable of modifying and overriding active filter context.\n3. Remove and preserve selective filters using **`ALL()`**, **`ALLEXCEPT()`**, and **`REMOVEFILTERS()`** to calculate % Share of Total.\n4. Construct a standard DAX **Date Table (Calendar Table)** marked as official date table.\n5. Author essential Time Intelligence measures: **`TOTALYTD`**, **`SAMEPERIODLASTYEAR`**, and **YoY Growth %**.\n\n---\n\n### 1. The Superpower of DAX: CALCULATE()\n\n`CALCULATE()` evaluates a DAX expression in a **modified filter context**. It is the engine of all advanced analytics in Power BI.\n\n**Syntax**:\n```dax\nCALCULATE(<Expression>, <Filter1>, <Filter2>, ...)\n```\n\n**Example: Nairobi Region Sales Only**:\n```dax\nNairobi Revenue KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    DimStores[Region] = \"Nairobi Urban\"\n)\n```\n*How it works*: Even if the user selects \"Mombasa\" on a slicer, this specific visual card will override the slicer and compute revenue strictly for \"Nairobi Urban\".\n\n---\n\n### 2. Calculating % Share of Total with ALL()\n\nTo calculate what percentage of overall company revenue a single branch or category contributes, you must divide the filtered branch revenue by the grand total revenue across all branches.\n\n```dax\n-- Grand Total Revenue across all products (ignores Product slicers)\nTotal Company Revenue KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    ALL(DimProducts)\n)\n\n-- Product Category Contribution %\nCategory Revenue Share % = \nDIVIDE(\n    [Total Revenue KSh],\n    [Total Company Revenue KSh],\n    0\n)\n```\n\n---\n\n### 3. The Prerequisite for Time Intelligence: A Dedicated Date Table\n\nTime Intelligence functions fail if your date column has gaps, duplicate timestamps, or missing days. You must generate a continuous Date Table:\n\n```dax\nDimDate = \nADDCOLUMNS(\n    CALENDAR(DATE(2024, 1, 1), DATE(2027, 12, 31)),\n    \"Year\", YEAR([Date]),\n    \"Quarter\", \"Q\" & FORMAT([Date], \"Q\"),\n    \"MonthName\", FORMAT([Date], \"MMMM\"),\n    \"MonthNumber\", MONTH([Date]),\n    \"YearMonth\", FORMAT([Date], \"YYYY-MM\"),\n    \"DayOfWeek\", FORMAT([Date], \"dddd\")\n)\n```\n*Action*: Right-click `DimDate` in Model View -> **Mark as Date Table** -> select `[Date]`.\n\n---\n\n### 4. Enterprise Time Intelligence Formulas\n\n#### A. Year-To-Date (YTD) Revenue\n```dax\nRevenue YTD KSh = \nTOTALYTD([Total Revenue KSh], DimDate[Date])\n```\n\n#### B. Same Period Last Year (Prior Year Comparison)\n```dax\nRevenue Prior Year KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    SAMEPERIODLASTYEAR(DimDate[Date])\n)\n```\n\n#### C. Year-over-Year (YoY) Growth Amount & %\n```dax\nRevenue YoY Growth KSh = \n[Total Revenue KSh] - [Revenue Prior Year KSh]\n\nRevenue YoY Growth % = \nDIVIDE(\n    [Revenue YoY Growth KSh],\n    [Revenue Prior Year KSh],\n    0\n)\n```\n\n---\n\n### 5. Summary & Best Practices\n- Always create a dedicated, contiguous Date Table before authoring time intelligence measures.\n- Use `CALCULATE` to modify filter context and `ALL` to clear dimension filters for share-of-total calculations.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Explain the deep mechanics of **Filter Context**, **Row Context**, and **Context Transition**.\n2. Master **`CALCULATE()`**: the only DAX function capable of modifying and overriding active filter context.\n3. Remove and preserve selective filters using **`ALL()`**, **`ALLEXCEPT()`**, and **`REMOVEFILTERS()`** to calculate % Share of Total.\n4. Construct a standard DAX **Date Table (Calendar Table)** marked as official date table.\n5. Author essential Time Intelligence measures: **`TOTALYTD`**, **`SAMEPERIODLASTYEAR`**, and **YoY Growth %**.\n\n---\n\n### 1. The Superpower of DAX: CALCULATE()\n\n`CALCULATE()` evaluates a DAX expression in a **modified filter context**. It is the engine of all advanced analytics in Power BI.\n\n**Syntax**:\n```dax\nCALCULATE(<Expression>, <Filter1>, <Filter2>, ...)\n```\n\n**Example: Nairobi Region Sales Only**:\n```dax\nNairobi Revenue KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    DimStores[Region] = \"Nairobi Urban\"\n)\n```\n*How it works*: Even if the user selects \"Mombasa\" on a slicer, this specific visual card will override the slicer and compute revenue strictly for \"Nairobi Urban\".\n\n---\n\n### 2. Calculating % Share of Total with ALL(), ALLEXCEPT(), and REMOVEFILTERS()\n\nTo calculate what percentage of overall company revenue a single branch or category contributes, you must divide the filtered branch revenue by the grand total revenue across all branches.\n\nDAX provides dedicated filter removal functions:\n- **`ALL(Table | Column)`**: Clears filters and can also return distinct table values for iterations.\n- **`REMOVEFILTERS(Table | Column)`**: Modern DAX best practice intended specifically as a `CALCULATE` filter modifier to clear filters from tables or columns.\n- **`ALLEXCEPT(Table, Column1, ...)`**: Clears all context filters on a table *except* the columns explicitly specified.\n\n```dax\n-- Grand Total Revenue across all products (clears Product slicers with REMOVEFILTERS or ALL)\nTotal Company Revenue KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    REMOVEFILTERS(DimProducts)\n)\n\n-- Category-level Subtotal using ALLEXCEPT\nCategory Subtotal Revenue KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    ALLEXCEPT(DimProducts, DimProducts[CategoryName])\n)\n\n-- Product Category Contribution %\nCategory Revenue Share % = \nDIVIDE(\n    [Total Revenue KSh],\n    [Total Company Revenue KSh],\n    0\n)\n```\n\n---\n\n### 3. The Prerequisite for Time Intelligence: A Dedicated Date Table\n\nTime Intelligence functions fail if your date column has gaps, duplicate timestamps, or missing days. You must generate a continuous Date Table:\n\n```dax\nDimDate = \nADDCOLUMNS(\n    CALENDAR(DATE(2024, 1, 1), DATE(2027, 12, 31)),\n    \"Year\", YEAR([Date]),\n    \"Quarter\", \"Q\" & FORMAT([Date], \"Q\"),\n    \"MonthName\", FORMAT([Date], \"MMMM\"),\n    \"MonthNumber\", MONTH([Date]),\n    \"YearMonth\", FORMAT([Date], \"YYYY-MM\"),\n    \"DayOfWeek\", FORMAT([Date], \"dddd\")\n)\n```\n*Action*: Right-click `DimDate` in Model View -> **Mark as Date Table** -> select `[Date]`.\n\n---\n\n### 4. Enterprise Time Intelligence Formulas\n\n#### A. Year-To-Date (YTD) Revenue\n```dax\nRevenue YTD KSh = \nTOTALYTD([Total Revenue KSh], DimDate[Date])\n```\n\n#### B. Same Period Last Year (Prior Year Comparison)\n```dax\nRevenue Prior Year KSh = \nCALCULATE(\n    [Total Revenue KSh],\n    SAMEPERIODLASTYEAR(DimDate[Date])\n)\n```\n\n#### C. Year-over-Year (YoY) Growth Amount & %\n```dax\nRevenue YoY Growth KSh = \n[Total Revenue KSh] - [Revenue Prior Year KSh]\n\nRevenue YoY Growth % = \nDIVIDE(\n    [Revenue YoY Growth KSh],\n    [Revenue Prior Year KSh],\n    0\n)\n```\n\n---\n\n### 5. Summary & Best Practices\n- Always create a dedicated, contiguous Date Table before authoring time intelligence measures.\n- Use `CALCULATE` to modify filter context and `ALL` to clear dimension filters for share-of-total calculations.",
         "challenge": {
           "type": "quiz",
           "title": "Module 6 Checkpoint: CALCULATE & Time Intelligence",
@@ -7624,16 +8929,138 @@ export const coursesData = [
         "subtitle": "KPI cards, Matrix tables, Charts, Slicers, Drill-through pages, Bookmarks, and Tooltip pages",
         "readingTime": "24 min",
         "videoLesson": {
-          "title": "Building Interactive Reports, Tooltips, Drill-Throughs & Cards",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-report-visualizations",
+          "title": "Power BI Visuals Masterclass – Make Charts That Actually Tell a Story",
+          "channel": "Chandoo",
+          "duration": "25:56",
+          "videoId": "r7CARn1BL-A",
+          "watchUrl": "https://www.youtube.com/watch?v=r7CARn1BL-A",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/r7CARn1BL-A",
+          "url": "https://www.youtube-nocookie.com/embed/r7CARn1BL-A",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a",
           "sourceName": "Microsoft Learn — Power BI Visualizations Reference",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "Microsoft Learn — Power BI Visualization Types",
+              "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a"
+            },
+            {
+              "name": "Microsoft Learn — Edit Visual Interactions",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-reports-visual-interactions"
+            },
+            {
+              "name": "Microsoft Learn — Set Up Drillthrough",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-drillthrough"
+            },
+            {
+              "name": "Microsoft Learn — Custom Report-Page Tooltips",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-tooltips"
+            },
+            {
+              "name": "Microsoft Learn — Bookmarks in Power BI",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-bookmarks"
+            }
+          ],
+          "note": "Interactive Visualizations & Dashboard UX: Topic 1 by Chandoo (25:56) teaches the core visual gallery (KPI cards, Matrix, column/line charts, small multiples). Topic 2 by Pragmatic Works (06:50) demonstrates how to configure Edit Interactions (filter, highlight, none). Topic 3 by Leila Gharani (10:19) covers drill-through pages and custom tooltips with back buttons. Topic 4 by How to Power BI (09:53) shows how to build dynamic bookmark-driven layouts with the Selection pane.",
+          "references": [
+            {
+              "id": "ref-visual-gallery-cards-matrix",
+              "tabLabel": "1. Core Visuals & KPI Cards",
+              "topic": "KPI Cards, Matrix Tables, Column & Line Charts, Small Multiples",
+              "title": "Power BI Visuals Masterclass – Make Charts That Actually Tell a Story",
+              "channel": "Chandoo",
+              "duration": "25:56",
+              "videoId": "r7CARn1BL-A",
+              "watchUrl": "https://www.youtube.com/watch?v=r7CARn1BL-A",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/r7CARn1BL-A",
+              "url": "https://www.youtube-nocookie.com/embed/r7CARn1BL-A",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a",
+              "sourceName": "Microsoft Learn — Power BI Visualizations Reference",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Power BI Visualization Types",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Chandoo guides you through selecting and styling essential Power BI visuals: Column charts, Line charts, Donut charts, KPI Cards (New Card), Small Multiples, and Matrix tables."
+            },
+            {
+              "id": "ref-edit-interactions-cross-filtering",
+              "tabLabel": "2. Edit Interactions & Slicers",
+              "topic": "Cross-Filtering, Cross-Highlighting & Edit Interactions (Filter, Highlight, None)",
+              "title": "Your Power BI Visuals Are Wrong… Fix Interactions & Filters NOW! 😳",
+              "channel": "Pragmatic Works",
+              "duration": "06:50",
+              "videoId": "5MteQv_h6ck",
+              "watchUrl": "https://www.youtube.com/watch?v=5MteQv_h6ck",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/5MteQv_h6ck",
+              "url": "https://www.youtube-nocookie.com/embed/5MteQv_h6ck",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-reports-visual-interactions",
+              "sourceName": "Microsoft Learn — Change Visual Interactions",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Visual Interactions",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-reports-visual-interactions"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Allison from Pragmatic Works demonstrates how to control visual interactions across charts and slicers using Edit Interactions (Filter vs. Highlight vs. None)."
+            },
+            {
+              "id": "ref-drillthrough-tooltips",
+              "tabLabel": "3. Drill-Through Pages & Tooltips",
+              "topic": "Dedicated Drill-Through Destination Pages, Parameters, Buttons & Tooltip Pages",
+              "title": "How to use Drill Through in Power BI. 👆 ONE click from chart to details",
+              "channel": "Leila Gharani",
+              "duration": "10:19",
+              "videoId": "BbplhqDCWOM",
+              "watchUrl": "https://www.youtube.com/watch?v=BbplhqDCWOM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/BbplhqDCWOM",
+              "url": "https://www.youtube-nocookie.com/embed/BbplhqDCWOM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-drillthrough",
+              "sourceName": "Microsoft Learn — Set Up Drillthrough",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Set Up Drillthrough",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-drillthrough"
+                },
+                {
+                  "name": "Microsoft Learn — Customize Tooltips",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-tooltips"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Leila Gharani demonstrates creating dedicated drill-through pages, passing filter context automatically, adding multi-row card summaries, and setting up interactive drill-through and back buttons."
+            },
+            {
+              "id": "ref-bookmarks-selection-pane",
+              "tabLabel": "4. Bookmarks & Selection Pane",
+              "topic": "Layer Visibility, Chart vs. Table Toggle & Dynamic Dashboard Storytelling",
+              "title": "5 WAYS to use BOOKMARKS in Power BI",
+              "channel": "How to Power BI",
+              "duration": "09:53",
+              "videoId": "_HTF7Ph7Eqc",
+              "watchUrl": "https://www.youtube.com/watch?v=_HTF7Ph7Eqc",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/_HTF7Ph7Eqc",
+              "url": "https://www.youtube-nocookie.com/embed/_HTF7Ph7Eqc",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-bookmarks",
+              "sourceName": "Microsoft Learn — Bookmarks in Power BI",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Desktop Bookmarks",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-bookmarks"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Bas Dohmen from How to Power BI reveals 5 practical techniques for utilizing Bookmarks and the Selection pane to toggle between charts and tables, clear slicer filters, and build app-like navigation."
+            }
+          ]
         },
         "summary": "Construct immersive, high-impact analytical visualizations in Power BI. Master visual cross-filtering, multi-select slicers, custom tooltips, drill-through navigation, and bookmark-driven storytelling.",
         "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Select and configure standard Power BI visual types: **Cards**, **KPI Visuals**, **Matrix**, **Clustered Column**, and **Line Charts**.\n2. Control visual interactions using **Edit Interactions** (Filter, Highlight, None).\n3. Build dedicated **Drill-Through Pages** allowing users to right-click a branch or customer and inspect granular transaction history.\n4. Architect rich **Report-Page Tooltips** that display micro-charts when hovering over data points.\n5. Implement interactive **Bookmarks** and **Selection Panes** for toggling chart views, slide-out filter drawers, and reset buttons.\n\n---\n\n### 1. Power BI Core Visual Palette\n\n```\n+-------------------------------------------------------------------------------+\n|                       POWER BI CORE VISUALIZATION TYPES                       |\n+-------------------------------------------------------------------------------+\n| Visual Type          | Best Analytical Use Case                               |\n+----------------------+--------------------------------------------------------+\n| New Card (Multi-Row) | Top-line KPI summary numbers with variance callouts    |\n| Matrix Table         | Multi-level hierarchical drill-down (Year > Quarter)   |\n| Clustered Bar/Column | Comparing discrete categories (Branches, Product SKUs) |\n| Line Chart           | Continuous time-series trend analysis (Daily, Monthly) |\n| Ribbon Chart         | Tracking category rank shifts over consecutive periods |\n| Waterfall Chart      | Visualizing profit bridge and cost variance drivers    |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Controlling Visual Interactions (Cross-Filtering vs Highlighting)\n\nBy default, clicking an element in one chart cross-highlights or filters all other charts on the canvas.\n- **To Customize**: Select a visual -> click **Format tab -> Edit Interactions**.\n- Choose between:\n  - **Filter Icon**: Filters other charts to show only matching data.\n  - **Highlight Icon**: Dims non-matching portions while retaining total bars.\n  - **None Icon (Circle with Slash)**: Prevents the selected chart from modifying target visuals (e.g. keeping company-wide KPI scorecards constant).\n\n---\n\n### 3. Drill-Through Pages: Deep Dive on Demand\n\nDrill-through allows business users to start at a high-level summary (e.g. Nairobi Branch Total Sales) and right-click to jump to a dedicated detailed breakdown page.\n\n**Implementation Steps**:\n1. Create a new page named `Branch Deep Dive`.\n2. In the **Visualizations pane -> Drill-through filters**, drag `DimStores[BranchName]`.\n3. Add detailed charts (Customer list, product mix, returns) to the `Branch Deep Dive` page.\n4. Power BI automatically adds a **Back Button (←)** to the top-left corner.\n5. On the main overview page, users right-click \"Nairobi Hub\" -> **Drill-through -> Branch Deep Dive**!\n\n---\n\n### 4. Bookmarks and Selection Pane for Dynamic UX\n\nBookmarks capture the exact state of a report page (filters, visual visibility, spotlight).\n- **Toggle View Example**: Place a Sales Bar Chart and a Sales Data Table in the exact same coordinates.\n- Use the **Selection Pane** to show/hide layers.\n- Create Bookmark 1: `Chart View` (Bar chart visible, table hidden).\n- Create Bookmark 2: `Table View` (Table visible, bar chart hidden).\n- Assign bookmarks to modern clickable buttons!\n\n---\n\n### 5. Summary & Best Practices\n- Avoid visual clutter; limit canvas pages to 4–6 core visuals.\n- Utilize Drill-through and Tooltips for granular details rather than overcrowding main dashboards.",
@@ -7664,19 +9091,129 @@ export const coursesData = [
         "subtitle": "Z-pattern layout, color theory, accessible contrast, typography, and mobile layout optimization",
         "readingTime": "20 min",
         "videoLesson": {
-          "title": "Dashboard Design UX, Color Palettes and Executive Layouts",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
+          "title": "Power BI Report Design Masterclass 📊 Build Stunning Reports That Users Love!",
+          "channel": "Pragmatic Works",
+          "duration": "06:40",
+          "videoId": "Dk9xg27Nuyw",
+          "watchUrl": "https://www.youtube.com/watch?v=Dk9xg27Nuyw",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/Dk9xg27Nuyw",
+          "url": "https://www.youtube-nocookie.com/embed/Dk9xg27Nuyw",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
           "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips",
           "sourceName": "Microsoft Learn — Tips for Designing Great Power BI Dashboards",
-          "badge": "Verified Reference Video"
+          "sources": [
+            {
+              "name": "Microsoft Learn — Dashboard Design Tips",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips"
+            },
+            {
+              "name": "Microsoft Learn — Creating Accessible Reports",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-accessibility-creating-reports"
+            },
+            {
+              "name": "Microsoft Learn — Mobile-Optimized Reports",
+              "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-create-mobile-optimized-report-about"
+            }
+          ],
+          "note": "Dashboard Design & Executive Aesthetics: Topic 1 by Pragmatic Works (06:40) covers visual layout, hierarchy, and design theory. Topic 2 by How to Power BI (20:21) demonstrates spacing, white space, rounded containers, and clutter reduction. Topic 3 by Parker Stevens (07:36) focuses on accessibility and contrast. Topic 4 by Pragmatic Works (08:00) teaches mobile layout optimization for phone-ready reporting.",
+          "references": [
+            {
+              "id": "ref-executive-layout-hierarchy",
+              "tabLabel": "1. Executive Layout & Hierarchy",
+              "topic": "Layout Blueprints, Visual Hierarchy & Report Structure",
+              "title": "Power BI Report Design Masterclass 📊 Build Stunning Reports That Users Love!",
+              "channel": "Pragmatic Works",
+              "duration": "06:40",
+              "videoId": "Dk9xg27Nuyw",
+              "watchUrl": "https://www.youtube.com/watch?v=Dk9xg27Nuyw",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Dk9xg27Nuyw",
+              "url": "https://www.youtube-nocookie.com/embed/Dk9xg27Nuyw",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips",
+              "sourceName": "Microsoft Learn — Tips for Designing Great Power BI Dashboards",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Dashboard Design Tips",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Allison Gonzalez from Pragmatic Works explains report structure, visual hierarchy, placement principles, and storytelling techniques to ensure dashboards communicate insights rapidly to executives."
+            },
+            {
+              "id": "ref-containers-white-space",
+              "tabLabel": "2. Spacing & Clutter Reduction",
+              "topic": "White Space, Card Containers, Alignment & Formatting Numbers",
+              "title": "5 DESIGN TRICKS that Make EVERY Power BI Report Look GREAT!",
+              "channel": "How to Power BI",
+              "duration": "20:21",
+              "videoId": "v6fP8gyCLLc",
+              "watchUrl": "https://www.youtube.com/watch?v=v6fP8gyCLLc",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/v6fP8gyCLLc",
+              "url": "https://www.youtube-nocookie.com/embed/v6fP8gyCLLc",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips",
+              "sourceName": "Microsoft Learn — Dashboard Layout Best Practices",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Dashboard Design Tips",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Bas Dohmen from How to Power BI reveals 5 core design tricks: visual dimensions, white space padding, rounded containers, and color theme integration to eliminate visual clutter."
+            },
+            {
+              "id": "ref-accessible-contrast",
+              "tabLabel": "3. Accessible Contrast & Colors",
+              "topic": "Semantic Color Rules, Contrast Standards (WCAG) & Colorblind-Friendly Themes",
+              "title": "Power BI Report Design for Maximum Accessibility",
+              "channel": "Parker Stevens - BI Elite",
+              "duration": "07:36",
+              "videoId": "gNCTjoCu6k4",
+              "watchUrl": "https://www.youtube.com/watch?v=gNCTjoCu6k4",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/gNCTjoCu6k4",
+              "url": "https://www.youtube-nocookie.com/embed/gNCTjoCu6k4",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-accessibility-creating-reports",
+              "sourceName": "Microsoft Learn — Creating Accessible Reports in Power BI",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Creating Accessible Reports",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-accessibility-creating-reports"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Parker Stevens from BI Elite walks through building inclusive, accessible Power BI reports using high-contrast themes, alt text, tab order, and colorblind-safe palettes."
+            },
+            {
+              "id": "ref-mobile-layout-optimization",
+              "tabLabel": "4. Mobile Layout Optimization",
+              "topic": "Mobile Layout View, Touch-Friendly Viewports & Phone-Ready Reports",
+              "title": "Mobile Layout Basics for Power BI Reports",
+              "channel": "Pragmatic Works",
+              "duration": "08:00",
+              "videoId": "X5r69XJCpCk",
+              "watchUrl": "https://www.youtube.com/watch?v=X5r69XJCpCk",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/X5r69XJCpCk",
+              "url": "https://www.youtube-nocookie.com/embed/X5r69XJCpCk",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-create-mobile-optimized-report-about",
+              "sourceName": "Microsoft Learn — Create Mobile-Optimized Reports",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Mobile-Optimized Reports",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-create-mobile-optimized-report-about"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Allison Gonzalez demonstrates how to configure dedicated Power BI mobile layouts in Power BI Desktop and Service, adapting key scorecards and visuals for smartphone consumption."
+            }
+          ]
         },
         "summary": "Apply professional UI/UX design and cognitive psychology to Power BI dashboards. Master visual hierarchy, executive scorecard layouts, accessible color palettes, and responsive mobile-optimized views.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Apply the **Z-Pattern Layout** to guide executive eyes from high-level KPIs to root-cause breakdowns.\n2. Implement corporate theme palettes with accessible color contrast and semantic color rules (Green = Good, Red = Warning, Slate/Blue = Neutral).\n3. Organize dashboard layout using visual containers, cards, and structured white space.\n4. Optimize typography, eliminate chart junk, and format numbers appropriately (e.g. `KSh 14.2M` vs `14238910.42`).\n5. Design dedicated **Mobile Layouts** for C-suite smartphone consumption using Power BI Mobile View.\n\n---\n\n### 1. The Executive Eye: The Z-Pattern Visual Hierarchy\n\nExecutives make decisions in seconds. A cluttered report guarantees confusion. Structure your canvas following the **Z-Pattern scanning model**:\n\n```\n+-------------------------------------------------------------------------------+\n|                       EXECUTIVE Z-PATTERN CANVAS BLUEPRINT                    |\n+-------------------------------------------------------------------------------+\n|  [ TOP ROW: High-Level KPI Scorecard Cards ]                                  |\n|  +------------------+ +------------------+ +------------------+ +-----------+ |\n|  | Total Revenue    | | Gross Margin %   | | Active Outlets   | | YoY Growth| |\n|  | KSh 48.5M        | | 32.4%            | | 148 Stores       | | +18.2% 🚀 | |\n|  +------------------+ +------------------+ +------------------+ +-----------+ |\n|                                                                               |\n|  [ MIDDLE ROW: Trend & Comparative Analysis ]                                 |\n|  +---------------------------------------+ +--------------------------------+ |\n|  | Monthly Revenue & Profit Trend        | | Regional Performance Breakdown | |\n|  | (Line Chart with Prior Year Benchmark)| | (Horizontal Clustered Bar)     | |\n|  +---------------------------------------+ +--------------------------------+ |\n|                                                                               |\n|  [ BOTTOM ROW: Granular Driver Matrix / Root Cause Breakdown ]                |\n|  +--------------------------------------------------------------------------+ |\n|  | Product SKU & Channel Contribution Matrix (Top 10 Performers vs Laggards)| |\n|  +--------------------------------------------------------------------------+ |\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Semantic Color Rules & Eliminating \"Rainbow Dashboards\"\n\nA common beginner mistake is using 10 different bright colors for different categories.\n- **Rule of Neutrality**: Use calm background slates/navies (`#0f172a`, `#1e293b`) and neutral data bars (`#38bdf8`, `#64748b`).\n- **Semantic Colors (Reserve for Meaning)**:\n  - **Emerald / Green (`#10b981`)**: Positive target exceeded, profit growth.\n  - **Rose / Red (`#f43f5e`)**: Target missed, customer churn, operational risk.\n  - **Amber / Yellow (`#f59e0b`)**: Approaching threshold, inventory low.\n\n---\n\n### 3. Power BI Mobile Layout Optimization\n\nOver 60% of executive report views happen on smartphones during travel or executive meetings.\n1. In Power BI Desktop, navigate to **View tab -> Mobile Layout**.\n2. A vertical smartphone viewport appears beside your desktop canvas.\n3. Drag only top-line KPI cards, critical trend lines, and branch rank bars into the phone canvas.\n4. When published, mobile users automatically receive the vertical touch-friendly layout!\n\n---\n\n### 4. Summary & Best Practices\n- Always format large numbers concisely (`12.4M` or `850K`) to enhance readability.\n- Build mobile layouts for every published executive dashboard.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Apply visual hierarchy principles and layout techniques (such as the **Z-Pattern Layout**) to guide executive eyes from high-level KPIs to root-cause breakdowns.\n2. Implement corporate theme palettes with accessible color contrast and semantic color rules (Green = Good, Red = Warning, Slate/Blue = Neutral).\n3. Organize dashboard layout using visual containers, cards, and structured white space.\n4. Optimize typography, eliminate chart junk, and format numbers appropriately (e.g. `KSh 14.2M` vs `14238910.42`).\n5. Design dedicated **Mobile Layouts** for C-suite smartphone consumption using Power BI Mobile View.\n\n---\n\n### 1. The Executive Eye: Visual Hierarchy and Layout Patterns\n\nExecutives make decisions in seconds, and an unorganized report guarantees confusion. Structure your canvas using established visual hierarchy models. One effective technique for summary dashboards is the **Z-Pattern scanning model**, which reflects how users commonly scan visual summaries from top-left to bottom-right:\n\n```\n+-------------------------------------------------------------------------------+\n|                       EXECUTIVE Z-PATTERN CANVAS BLUEPRINT                    |\n+-------------------------------------------------------------------------------+\n|  [ TOP ROW: High-Level KPI Scorecard Cards ]                                  |\n|  +------------------+ +------------------+ +------------------+ +-----------+ |\n|  | Total Revenue    | | Gross Margin %   | | Active Outlets   | | YoY Growth| |\n|  | KSh 48.5M        | | 32.4%            | | 148 Stores       | | +18.2% 🚀 | |\n|  +------------------+ +------------------+ +------------------+ +-----------+ |\n|                                                                               |\n|  [ MIDDLE ROW: Trend & Comparative Analysis ]                                 |\n|  +---------------------------------------+ +--------------------------------+ |\n|  | Monthly Revenue & Profit Trend        | | Regional Performance Breakdown | |\n|  | (Line Chart with Prior Year Benchmark)| | (Horizontal Clustered Bar)     | |\n|  +---------------------------------------+ +--------------------------------+ |\n|                                                                               |\n|  [ BOTTOM ROW: Granular Driver Matrix / Root Cause Breakdown ]                |\n|  +--------------------------------------------------------------------------+ |\n|  | Product SKU & Channel Contribution Matrix (Top 10 Performers vs Laggards)| |\n|  +--------------------------------------------------------------------------+ |\n+-------------------------------------------------------------------------------+\n```\n\n*(Note: While the Z-Pattern is ideal for high-level analytical overviews, dense tabular reports often benefit from an **F-Pattern** or a clean modular card grid layout).*\n\n---\n\n### 2. Semantic Color Rules & Accessible Contrast\n\nA common beginner mistake is using 10 different bright colors for different categories.\n- **Rule of Neutrality**: Use calm background slates/navies (`#0f172a`, `#1e293b`) and neutral data bars (`#38bdf8`, `#64748b`).\n- **Semantic Colors (Reserve for Meaning)**:\n  - **Emerald / Green (`#10b981`)**: Positive target exceeded, profit growth.\n  - **Rose / Red (`#f43f5e`)**: Target missed, customer churn, operational risk.\n  - **Amber / Yellow (`#f59e0b`)**: Approaching threshold, inventory low.\n- **Accessible Contrast Standards**: Ensure text, data values, and background containers satisfy WCAG minimum contrast standards (at least 4.5:1 contrast ratio). Never rely on color alone to convey status; accompany colors with indicators (e.g. ▲, ▼) or explicit descriptive labels for colorblind accessibility.\n\n---\n\n### 3. Power BI Mobile Layout Optimization\n\nIn modern enterprise environments, executives and field managers frequently access reports on smartphones and tablets during transit, off-site visits, and executive meetings. Rather than forcing users to pinch and scroll horizontally across a desktop canvas, Power BI allows authors to design dedicated smartphone layouts:\n1. In Power BI Desktop, navigate to **View tab -> Mobile Layout**.\n2. A vertical smartphone viewport appears beside your desktop canvas.\n3. Drag only top-line KPI cards, critical trend lines, and branch rank bars into the phone canvas.\n4. When published, mobile users automatically receive the vertical touch-friendly layout!\n\n---\n\n### 4. Summary & Best Practices\n- Always format large numbers concisely (`12.4M` or `850K`) to enhance readability.\n- Build mobile layouts for every published executive dashboard.",
         "challenge": {
           "type": "quiz",
           "title": "Module 8 Checkpoint: Dashboard UX & Aesthetics",
@@ -7704,31 +9241,149 @@ export const coursesData = [
         "subtitle": "App Workspaces, On-Premises Data Gateways, Row-Level Security (RLS) with DAX, and automated distribution",
         "readingTime": "24 min",
         "videoLesson": {
-          "title": "Power BI Service: Cloud Workspaces, Row-Level Security & Refresh",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/enterprise/service-admin-rls",
-          "sourceName": "Microsoft Learn — Row-Level Security (RLS) with Power BI",
-          "badge": "Verified Reference Video"
+          "title": "Power BI Service FULL Tutorial - Gateway, Refresh, RLS, Apps & Sharing | Part 1",
+          "channel": "The BI Man",
+          "duration": "27:21",
+          "videoId": "hY_OcPRrDoI",
+          "watchUrl": "https://www.youtube.com/watch?v=hY_OcPRrDoI",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/hY_OcPRrDoI",
+          "url": "https://www.youtube-nocookie.com/embed/hY_OcPRrDoI",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces",
+          "sourceName": "Microsoft Learn — Power BI Workspaces & Collaboration",
+          "sources": [
+            {
+              "name": "Microsoft Learn — Power BI Workspaces",
+              "url": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces"
+            },
+            {
+              "name": "Microsoft Learn — Row-Level Security (RLS)",
+              "url": "https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security"
+            },
+            {
+              "name": "Microsoft Learn — On-premises Data Gateway",
+              "url": "https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem"
+            }
+          ],
+          "note": "Power BI Service Deployment, Governance & Security: Topic 1 by The BI Man (27:21) covers full end-to-end publishing, gateways, refresh, RLS, and Apps. Topic 2 by Pragmatic Works (18:34) breaks down App Workspaces and role permissions (Admin, Member, Contributor, Viewer). Topic 3 by Pragmatic Works (08:01) demonstrates dynamic RLS with USERPRINCIPALNAME(), security tables, and role testing. Topic 4 by Guy in a Cube (13:18) guides through On-Premises Data Gateway installation and automated scheduled refresh.",
+          "references": [
+            {
+              "id": "ref-pbi-service-end-to-end",
+              "tabLabel": "1. Service & Deployment",
+              "topic": "End-to-End Service Deployment: Publishing, Gateways, RLS & Power BI Apps",
+              "title": "Power BI Service FULL Tutorial - Gateway, Refresh, RLS, Apps & Sharing | Part 1",
+              "channel": "The BI Man",
+              "duration": "27:21",
+              "videoId": "hY_OcPRrDoI",
+              "watchUrl": "https://www.youtube.com/watch?v=hY_OcPRrDoI",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/hY_OcPRrDoI",
+              "url": "https://www.youtube-nocookie.com/embed/hY_OcPRrDoI",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces",
+              "sourceName": "Microsoft Learn — Power BI Workspaces & Collaboration",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Power BI Workspaces",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces"
+                },
+                {
+                  "name": "Microsoft Learn — Row-Level Security (RLS)",
+                  "url": "https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security"
+                },
+                {
+                  "name": "Microsoft Learn — On-premises Data Gateway",
+                  "url": "https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Comprehensive end-to-end walkthrough demonstrating publishing from Power BI Desktop to the Service, semantic models vs reports, gateway connectivity, automated scheduled refresh, RLS configuration, and organizational App distribution."
+            },
+            {
+              "id": "ref-workspace-roles-governance",
+              "tabLabel": "2. Workspaces & Roles",
+              "topic": "Workspace Governance, Collaboration & Role Permissions (Admin, Member, Contributor, Viewer)",
+              "title": "Power BI Workspaces and Security Roles",
+              "channel": "Pragmatic Works",
+              "duration": "18:34",
+              "videoId": "-3rKgB2G4Lk",
+              "watchUrl": "https://www.youtube.com/watch?v=-3rKgB2G4Lk",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/-3rKgB2G4Lk",
+              "url": "https://www.youtube-nocookie.com/embed/-3rKgB2G4Lk",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces",
+              "sourceName": "Microsoft Learn — Roles in Workspaces in Power BI",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Workspace Roles",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Manuel Quintana from Pragmatic Works explains App Workspaces, collaboration governance, inviting enterprise users, and assigning granular workspace roles (Admin, Member, Contributor, and Viewer)."
+            },
+            {
+              "id": "ref-dynamic-rls-userprincipalname",
+              "tabLabel": "3. Dynamic RLS",
+              "topic": "Dynamic Row-Level Security (RLS) with USERPRINCIPALNAME(), Security Tables & Role Testing",
+              "title": "Power BI USERPRINCIPALNAME() Tutorial | Dynamic Security That Actually Works! ⚡GAME CHANGER!",
+              "channel": "Pragmatic Works",
+              "duration": "08:01",
+              "videoId": "IMjPOo9KE_s",
+              "watchUrl": "https://www.youtube.com/watch?v=IMjPOo9KE_s",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/IMjPOo9KE_s",
+              "url": "https://www.youtube-nocookie.com/embed/IMjPOo9KE_s",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security",
+              "sourceName": "Microsoft Learn — Row-Level Security (RLS) with Power BI",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Row-Level Security (RLS)",
+                  "url": "https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Angelica from Pragmatic Works demonstrates configuring dynamic Row-Level Security using DAX and USERPRINCIPALNAME(), setting up user security mapping tables and relationships, and validating permissions with 'View as'."
+            },
+            {
+              "id": "ref-gateway-scheduled-refresh",
+              "tabLabel": "4. Data Gateways & Refresh",
+              "topic": "On-Premises Data Gateway Architecture, Cluster Setup & Scheduled Refresh",
+              "title": "Get started with the Power BI Gateway",
+              "channel": "Guy in a Cube",
+              "duration": "13:18",
+              "videoId": "Vlv1tbuZNcM",
+              "watchUrl": "https://www.youtube.com/watch?v=Vlv1tbuZNcM",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/Vlv1tbuZNcM",
+              "url": "https://www.youtube-nocookie.com/embed/Vlv1tbuZNcM",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem",
+              "sourceName": "Microsoft Learn — On-Premises Data Gateway Overview",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — On-premises Data Gateway",
+                  "url": "https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Adam Saxton from Guy in a Cube explains how the On-Premises Data Gateway bridges local data sources to Power BI Service securely, configuring credentials, cluster nodes, and automated scheduled refresh."
+            }
+          ]
         },
         "summary": "Deploy enterprise reports to Power BI Service cloud. Configure automated scheduled refreshes with On-Premises Gateways, publish App Workspaces, and enforce strict Row-Level Security (RLS) based on user credentials.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Publish reports from Power BI Desktop to dedicated **Power BI Service App Workspaces**.\n2. Understand workspace role permissions: **Admin**, **Member**, **Contributor**, and **Viewer**.\n3. Configure the **On-Premises Data Gateway** for automated scheduled data refreshes against local databases and network shares.\n4. Implement dynamic **Row-Level Security (RLS)** using DAX filters and the `USERPRINCIPALNAME()` function.\n5. Package and distribute corporate reports via **Power BI Apps**.\n\n---\n\n### 1. Deploying to Power BI Service Workspaces\n\nNever share individual `.pbix` files via email. Instead:\n1. Create a dedicated Workspace in Power BI Service (e.g. `Kenya Commercial Operations`).\n2. In Power BI Desktop, click **Home -> Publish** -> select the target workspace.\n3. Power BI splits your file into two distinct cloud artifacts:\n   - **Semantic Model (Dataset)**: Holds connections, data model, and DAX measures.\n   - **Report**: Holds visual pages and layout canvases.\n\n```\n+-------------------------------------------------------------------------------+\n|                       WORKSPACE COLLABORATION & GOVERNANCE                    |\n+-------------------------------------------------------------------------------+\n| Role         | Permissions                                                    |\n+--------------+----------------------------------------------------------------+\n| Admin        | Full control: delete workspace, assign user roles, update apps |\n| Member       | Edit reports, publish apps, add contributors and viewers       |\n| Contributor  | Build, edit, and publish reports inside the workspace          |\n| Viewer       | Read-only access: view visuals, interact with slicers, view RLS|\n+-------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Automated Scheduled Refresh & Data Gateways\n\nTo keep cloud reports synchronized with on-premises databases (e.g., PostgreSQL server in Nairobi HQ):\n- **On-Premises Data Gateway**: A secure Windows background service installed in your corporate network that bridges the local database with Microsoft Azure cloud without opening inbound firewall ports.\n- In Power BI Service dataset settings, configure **Scheduled Refresh** (e.g., daily at 6:00 AM EAT before business operations begin).\n\n---\n\n### 3. Enforcing Row-Level Security (RLS) with DAX\n\nRow-Level Security guarantees that regional managers only see data for their assigned branch.\n\n#### A. Static RLS (Role per Region)\n1. In Power BI Desktop, click **Modeling tab -> Manage Roles**.\n2. Create Role: `Mombasa Branch Manager`.\n3. Table Filter DAX: `DimStores[City] = \"Mombasa\"`.\n\n#### B. Dynamic RLS with `USERPRINCIPALNAME()`\nIn large enterprises, creating 100 individual static roles is unsustainable. Use dynamic security:\n1. Maintain a security table: `UserSecurity[UserEmail], UserSecurity[BranchID]`.\n2. Connect `UserSecurity` to `DimStores`.\n3. Role DAX Filter:\n```dax\n[UserEmail] = USERPRINCIPALNAME()\n```\n*Result*: When `james.otieno@company.co.ke` logs into Power BI Service, Power BI filters the entire report to only show data for the branches assigned to James in the database!\n\n---\n\n### 4. Summary & Best Practices\n- Always test RLS in Desktop using **View as Roles** before deploying.\n- Distribute final reports to end-users via curated **Power BI Apps** rather than granting direct workspace access.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Publish reports and data models from Power BI Desktop to dedicated **Power BI Service Workspaces**.\n2. Master workspace collaboration governance and role permissions: **Admin**, **Member**, **Contributor**, and **Viewer** (including App publishing capabilities).\n3. Differentiate between **Semantic Models** (datasets) and **Reports**, understanding shared models and downstream report authoring.\n4. Architect and install the **On-Premises Data Gateway** (Standard vs Personal mode), configuring encrypted credentials and automated scheduled refresh within license limits.\n5. Implement robust **Row-Level Security (RLS)** using DAX filters, user mapping tables, single-direction relationships, and the `USERPRINCIPALNAME()` function.\n6. Rigorously validate security rules in **Power BI Desktop (\"View as\")** and **Power BI Service (\"Test as role\")**, assigning security groups in cloud settings.\n7. Package and distribute enterprise reporting suites securely to broad business consumers via curated **Power BI Apps**.\n\n---\n\n### 1. Deploying to Power BI Service Workspaces & Architecture\n\nNever share individual `.pbix` files via email attachments or unmanaged network shares. In enterprise workflows, reports are published to centralized workspaces in the Power BI Service cloud:\n\n1. Create a dedicated Workspace in Power BI Service (e.g. `Commercial Operations — Kenya`).\n2. In Power BI Desktop, navigate to **Home -> Publish** and select the destination workspace.\n3. Power BI splits your `.pbix` file into two distinct cloud artifacts:\n   - **Semantic Model (formerly Dataset)**: Houses data source connection strings, Power Query transformation logic, table relationships, DAX measures, and RLS security roles. It serves as the single source of truth for your business logic. Multiple downstream reports can connect live to a single semantic model (shared dataset architecture).\n   - **Report**: Houses interactive visual canvases, KPI cards, charts, slicers, bookmarks, report tooltips, and mobile layouts.\n\n```\n+---------------------------------------------------------------------------------------------------------+\n|                                  POWER BI SERVICE WORKSPACE ROLES & PERMISSIONS                         |\n+---------------------------------------------------------------------------------------------------------+\n| Role         | Permissions & Capabilities                                                               |\n+--------------+------------------------------------------------------------------------------------------+\n| Admin        | Full control: delete workspace, update settings, add/remove all users (including admins),|\n|              | configure gateway connections, and publish/unpublish/update Power BI Apps.               |\n| Member       | Collaborate: add Members, Contributors, or Viewers; publish and update Power BI Apps;    |\n|              | edit, create, and share workspace items; allow others to reshare items.                  |\n| Contributor  | Build & Edit: create, edit, copy, and delete reports and semantic models inside the     |\n|              | workspace. Cannot add users or publish/update Apps by default (unless explicitly        |\n|              | granted App edit permissions by an Admin or Member in workspace settings).              |\n| Viewer       | Read-only: view visuals, interact with slicers/filters, export summary data. Cannot     |\n|              | modify content or access dataset settings. Row-Level Security (RLS) is strictly enforced|\n|              | for Viewers (Admins, Members, and Contributors automatically bypass RLS on datasets).    |\n+---------------------------------------------------------------------------------------------------------+\n```\n\n---\n\n### 2. Automated Scheduled Refresh & On-Premises Data Gateways\n\nCloud-based Power BI Service cannot directly query on-premises data sources (such as an on-premises Microsoft SQL Server, PostgreSQL cluster in Nairobi HQ, or corporate network file shares) behind corporate firewalls without an intermediary bridge.\n\n#### A. Gateway Architecture & Modes\n- **Standard Mode (Enterprise Gateway)**: Recommended for enterprise production. Installed on an always-on physical server or virtual machine within the corporate intranet. Supports multiple users, multiple concurrent queries, Scheduled Refresh, DirectQuery, and Live Connection. Centralized administrative management via Microsoft Entra ID.\n- **Personal Mode**: Runs under a single individual's Windows login account on their local workstation. Can only be used by one user, supports only scheduled data import (no DirectQuery), and fails whenever the workstation is turned off or logged out.\n\n#### B. Security & Firewall Architecture\nThe Gateway communicates securely with the Power BI cloud using **outbound connections** over standard HTTPS (TCP port 443) to Azure Service Bus. You do not need to open any inbound firewall ports or configure DMZs, preserving corporate perimeter security.\n\n#### C. Configuration & Refresh Prerequisites\n1. **Gateway Installation**: Download and install the Standard Gateway on an always-on network server. Sign in with organizational administrator credentials and configure the cluster name and recovery key.\n2. **Data Source Credentials**: In Power BI Service, open **Settings -> Manage connections and gateways**. Register the on-premises database or folder path and provide encrypted authentication credentials (e.g. Windows Authentication, Database Service Account, or OAuth2).\n3. **Semantic Model Mapping**: In the semantic model settings, navigate to **Gateway and cloud connections**, bind the dataset connection to the active gateway cluster, and verify the connection status displays green (\"Online\").\n4. **Scheduled Refresh Frequencies & Licensing Limits**:\n   - **Power BI Pro**: Maximum of **8 scheduled refreshes per day** per semantic model.\n   - **Power BI Premium / Fabric Capacity**: Up to **48 scheduled refreshes per day** (every 30 minutes), with support for incremental refresh policies.\n\n---\n\n### 3. Enforcing Row-Level Security (RLS) with DAX\n\nRow-Level Security restricts data row access for specific users based on their identity or role membership.\n\n#### A. Static RLS (Fixed Roles)\nFor small organizations with fixed responsibilities:\n1. In Power BI Desktop, open **Modeling tab -> Manage Roles**.\n2. Create Role: `Coast_Region_Manager`.\n3. Select table `DimStores` and enter the DAX filter expression:\n   ```dax\n   [Region] = \"Coast\"\n   ```\n*(Limitation: Static RLS requires manually authoring and maintaining separate roles for every single region or department).*\n\n#### B. Dynamic RLS: The 4 Required Architectural Components\nIn large enterprise environments, managing 100+ static roles is unsustainable. Dynamic RLS scales across thousands of employees using a single security role.\n\n> [!IMPORTANT]\n> **Technical Reality Check**: Calling `USERPRINCIPALNAME()` alone does **NOT** secure your data! An effective dynamic RLS implementation strictly requires all four components:\n\n1. **Security Mapping Table (`UserSecurity`)**:\n   A dedicated data table linking user identities (corporate email / UPN) to authorized data keys:\n   ```\n   +-----------------------------+-----------+\n   | UserEmail                   | BranchID  |\n   +-----------------------------+-----------+\n   | james.otieno@company.co.ke  | 101       |\n   | james.otieno@company.co.ke  | 102       |\n   | sarah.mutua@company.co.ke   | 201       |\n   +-----------------------------+-----------+\n   ```\n2. **Model Relationship & Filter Propagation**:\n   Create an active relationship between `UserSecurity[BranchID]` and `DimStores[BranchID]`. Ensure filter propagation direction is configured so filtering `UserSecurity` automatically filters `DimStores`, which in turn filters downstream fact tables (e.g. `FactSales`).\n3. **DAX Filter Rule Definition (in Desktop)**:\n   In **Modeling -> Manage Roles**, create one role named `DynamicBranchSecurity`. On table `UserSecurity`, define the DAX filter expression:\n   ```dax\n   LOWER([UserEmail]) = LOWER(USERPRINCIPALNAME())\n   ```\n   *(Note: In Power BI Desktop, `USERPRINCIPALNAME()` returns your local machine domain username. In Power BI Service, it returns the user's Microsoft 365 Azure AD / Entra ID corporate email).*\n4. **Security Role Assignment in Power BI Service**:\n   After publishing the semantic model:\n   - Navigate to **Semantic Model Settings -> Security**.\n   - Select the `DynamicBranchSecurity` role.\n   - Assign corporate Entra ID Security Groups (e.g. `SG_BranchManagers`) or user email addresses to the role and click **Save**.\n   - *Governance Rule*: RLS is only enforced for consumers with **Viewer** permissions or **App** consumers. Users with Admin, Member, or Contributor permissions to the workspace have full edit access and will bypass RLS!\n\n---\n\n### 4. Rigorous Security Validation: Desktop vs Service\n\nNever distribute secure financial reports without testing both validation environments:\n\n1. **Power BI Desktop (\"View as\")**:\n   - Navigate to **Modeling tab -> View as**.\n   - Check `DynamicBranchSecurity`, select **Other user**, and type a test email (e.g. `james.otieno@company.co.ke`).\n   - Validate that canvas KPI scorecards, charts, and table rows update to reflect only Branch 101 and 102 data.\n2. **Power BI Service (\"Test as role\")**:\n   - In Power BI Service, open **Semantic Model Settings -> Security**.\n   - Click the ellipsis (`...`) next to `DynamicBranchSecurity` and select **Test as role**.\n   - An evaluation banner displays at the top of the browser canvas. Enter the target corporate email to verify that cloud-level Azure AD identity resolution, group memberships, and relationship filters evaluate accurately.\n\n---\n\n### 5. Curated Power BI Apps for Enterprise Distribution\n\nRather than granting business stakeholders direct workspace access, distribute production analytics through **Power BI Apps**:\n- **Why Apps over Workspaces**: Direct workspace access allows users to see work-in-progress drafts and datasets. Apps provide a packaged, branded, read-only experience.\n- **Multiple Audiences**: A single Power BI App can have distinct audience tabs (e.g. an \"Executive Summary\" tab visible only to C-Suite leaders, and an \"Operations Drilldown\" tab visible to store managers).\n- **Security & Integrity**: App consumers are automatically assigned Viewer privileges, guaranteeing that Row-Level Security rules are strictly enforced and underlying report designs cannot be accidentally modified.",
         "challenge": {
           "type": "quiz",
-          "title": "Module 9 Checkpoint: Power BI Service & RLS",
-          "question": "How does Dynamic Row-Level Security (RLS) with USERPRINCIPALNAME() protect sensitive financial data in Power BI Service?",
+          "title": "Module 9 Checkpoint: Power BI Service & Dynamic RLS",
+          "question": "In Power BI enterprise architecture, what is required to successfully implement and enforce Dynamic Row-Level Security (RLS) for cloud report consumers?",
           "options": [
-            "It password-protects the PDF export.",
-            "It captures the logged-in user's corporate email address and automatically filters data model rows in real-time according to their security permissions.",
-            "It prevents users from taking screenshots of the screen.",
-            "It disables the internet connection if an unauthorized user logs in."
+            "Only authoring a DAX calculated column with the password 'admin123' in the sales table.",
+            "An integrated four-part setup: a security mapping table, relationship filter propagation to dimension tables, a DAX filter rule using USERPRINCIPALNAME(), and assigning users/security groups to the role in Power BI Service.",
+            "Exporting the report to an encrypted PDF and emailing it with a zip password.",
+            "Granting all end-users Admin workspace roles so they can bypass firewall restrictions."
           ],
           "correctAnswer": 1,
-          "explanation": "Dynamic RLS captures the authenticated user's email via USERPRINCIPALNAME() and evaluates DAX filter rules on the fly, guaranteeing that users can only view rows they are explicitly authorized to access."
+          "explanation": "Dynamic RLS is not achieved by USERPRINCIPALNAME() alone. It requires an integrated chain: a security mapping table connecting user emails to permission keys, relationship filter propagation across the data model, a DAX filter rule evaluating USERPRINCIPALNAME(), and assigning users or Entra ID security groups to the role in Power BI Service where they consume the report with Viewer permissions."
         }
       },
       {
@@ -7744,19 +9399,133 @@ export const coursesData = [
         "subtitle": "End-to-End Enterprise BI Dashboard: 'Kilima Retail & Logistics Kenya' Multi-Branch Analytics",
         "readingTime": "30 min",
         "videoLesson": {
-          "title": "Full Power BI Guided Project | Microsoft Power BI for Beginners",
-          "channel": "Alex The Analyst",
-          "duration": "42:37",
-          "videoId": "pixlHHe_lNQ",
-          "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
-          "alternativeSource": "https://github.com/AlexTheAnalyst/Power-BI",
-          "sourceName": "GitHub — Alex The Analyst Power BI Capstone Assets",
-          "badge": "Verified Reference Video"
+          "title": "FREE Adv. Masterclass on Power BI - Create a Sales Analytics Dashboard (with files 📁)",
+          "channel": "Chandoo",
+          "duration": "01:54:47",
+          "videoId": "ooJO7NW4uJU",
+          "watchUrl": "https://www.youtube.com/watch?v=ooJO7NW4uJU",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/ooJO7NW4uJU",
+          "url": "https://www.youtube-nocookie.com/embed/ooJO7NW4uJU",
+          "badge": "Verified Reference Video",
+          "status": "Verified",
+          "alternativeSource": "https://github.com/chandoo-org/Power-BI",
+          "sourceName": "GitHub — Chandoo Power BI Sales Analytics Repository",
+          "sources": [
+            {
+              "name": "GitHub — Chandoo Power BI Repository",
+              "url": "https://github.com/chandoo-org/Power-BI"
+            },
+            {
+              "name": "Microsoft Learn — Star Schema Guidance",
+              "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema"
+            },
+            {
+              "name": "GitHub — Alex The Analyst Power BI Assets",
+              "url": "https://github.com/AlexTheAnalyst/Power-BI"
+            }
+          ],
+          "note": "Capstone Project Masterclass & Guided Walkthroughs: Tab 1 by Chandoo (01:54:47) provides a complete sales analytics masterclass covering Star Schema modeling, sales DAX measures, time intelligence, KPI cards, bookmarks, and portfolio deployment. Tab 2 by Alex The Analyst (42:37) provides a guided practical walkthrough of data cleansing and visual canvas building. Tab 3 by Chandoo (21:54) focuses on Star Schema dimensional modeling and relationship validation. Tab 4 by Chandoo (01:51:40) covers multi-page dashboard UX, scatter plot profitability, and drilldowns.",
+          "references": [
+            {
+              "id": "ref-capstone-sales-masterclass",
+              "tabLabel": "1. Full Sales BI Masterclass",
+              "topic": "End-to-End Enterprise BI Dashboard: Star Schema, Sales DAX, KPIs & Portfolio",
+              "title": "FREE Adv. Masterclass on Power BI - Create a Sales Analytics Dashboard (with files 📁)",
+              "channel": "Chandoo",
+              "duration": "01:54:47",
+              "videoId": "ooJO7NW4uJU",
+              "watchUrl": "https://www.youtube.com/watch?v=ooJO7NW4uJU",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/ooJO7NW4uJU",
+              "url": "https://www.youtube-nocookie.com/embed/ooJO7NW4uJU",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/chandoo-org/Power-BI",
+              "sourceName": "GitHub — Chandoo Power BI Sales Analytics Repository",
+              "sources": [
+                {
+                  "name": "GitHub — Chandoo Power BI Repository",
+                  "url": "https://github.com/chandoo-org/Power-BI"
+                },
+                {
+                  "name": "Microsoft Learn — Star Schema Guidance",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema"
+                }
+              ],
+              "note": "Topic 1 Tutorial (Primary): Comprehensive end-to-end masterclass creating an enterprise commercial sales dashboard from scratch. Covers multi-table Star Schema creation, dedicated measure tables, sales and margin DAX, time intelligence, interactive KPI cards, bookmark toggles, and GitHub portfolio publishing."
+            },
+            {
+              "id": "ref-capstone-guided-project",
+              "tabLabel": "2. Guided Project Walkthrough",
+              "topic": "Guided Project Walkthrough: Survey Data Cleansing & Canvas Design",
+              "title": "Full Power BI Guided Project | Microsoft Power BI for Beginners",
+              "channel": "Alex The Analyst",
+              "duration": "42:37",
+              "videoId": "pixlHHe_lNQ",
+              "watchUrl": "https://www.youtube.com/watch?v=pixlHHe_lNQ",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
+              "url": "https://www.youtube-nocookie.com/embed/pixlHHe_lNQ",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/AlexTheAnalyst/Power-BI",
+              "sourceName": "GitHub — Alex The Analyst Power BI Capstone Assets",
+              "sources": [
+                {
+                  "name": "GitHub — Alex The Analyst Power BI",
+                  "url": "https://github.com/AlexTheAnalyst/Power-BI"
+                }
+              ],
+              "note": "Topic 2 Tutorial (Supplemental): Alex The Analyst demonstrates an end-to-end guided dashboard build using survey data. Note: Covers single-table Power Query data cleaning and report page visual formatting; does not cover multi-table Star Schema modeling or DAX time intelligence."
+            },
+            {
+              "id": "ref-capstone-star-schema",
+              "tabLabel": "3. Star Schema Modeling",
+              "topic": "Star Schema Architecture, Fact vs Dimension Tables & Relationship Validation",
+              "title": "Learn Data Modelling & Star Schema for Power BI in 20 minutes",
+              "channel": "Chandoo",
+              "duration": "21:54",
+              "videoId": "4ePNrdxWtY0",
+              "watchUrl": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/4ePNrdxWtY0",
+              "url": "https://www.youtube-nocookie.com/embed/4ePNrdxWtY0",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+              "sourceName": "Microsoft Learn — Understand Star Schema and the Importance for Power BI",
+              "sources": [
+                {
+                  "name": "Microsoft Learn — Star Schema Guidance",
+                  "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema"
+                }
+              ],
+              "note": "Topic 3 Tutorial (Supplemental): Chandoo teaches how to architect a clean dimensional model, creating Fact and Dimension tables from raw sources, establishing one-to-many relationships, and understanding filter propagation."
+            },
+            {
+              "id": "ref-capstone-dashboard-ux",
+              "tabLabel": "4. Dashboard UX & Analytics",
+              "topic": "Multi-Page Dashboard UX, Scatter Plot Profitability & Drill-Through Matrices",
+              "title": "Make an AMAZING Dashboard with Power BI - End to End Tutorial +Files",
+              "channel": "Chandoo",
+              "duration": "01:51:40",
+              "videoId": "TazNFzgWtgA",
+              "watchUrl": "https://www.youtube.com/watch?v=TazNFzgWtgA",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/TazNFzgWtgA",
+              "url": "https://www.youtube-nocookie.com/embed/TazNFzgWtgA",
+              "badge": "Verified Reference Video",
+              "status": "Verified",
+              "alternativeSource": "https://github.com/chandoo-org/Power-BI",
+              "sourceName": "GitHub — Chandoo Power BI Dashboard Template Files",
+              "sources": [
+                {
+                  "name": "GitHub — Chandoo Power BI",
+                  "url": "https://github.com/chandoo-org/Power-BI"
+                }
+              ],
+              "note": "Topic 4 Tutorial (Supplemental): Chandoo demonstrates advanced executive report design: scatter plots with symmetry shading for volume vs margin analysis, interactive matrix breakdowns with conditional formatting, and custom tooltip pages."
+            }
+          ]
         },
         "summary": "Integrate all Power BI skills into an enterprise-grade Capstone Project. Ingest multi-source sales, freight, and M-Pesa data, construct a robust Star Schema, author advanced DAX measures, design executive scorecards, and implement RLS.",
-        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Complete a full-lifecycle enterprise Business Intelligence project from raw unstructured data ingestion to cloud deployment.\n2. Build an automated Power Query pipeline cleansing multi-branch transaction files and M-Pesa till logs.\n3. Architect an enterprise Star Schema linking 1 Fact Table and 4 Dimension Tables with single-direction relationships.\n4. Author 15+ production DAX measures including Base Aggregations, Ratios, YoY Variances, and YTD Time Intelligence.\n5. Deliver a 3-page interactive Power BI dashboard featuring Executive Summary, Regional Operations, and Product Margin Analytics.\n\n---\n\n### 1. Capstone Scenario: \"Kilima Retail & Logistics Kenya\"\n\n**Kilima Enterprises** is a fast-growing commercial distributor headquartered in Nairobi with regional fulfillment hubs in Mombasa, Kisumu, Nakuru, and Eldoret.\n\n#### The Problem Statement:\nThe executive board currently relies on manual spreadsheets compiled weekly. The CEO cannot view consolidated company sales in real-time, the CFO struggles to identify low-margin product lines, and branch managers have no visibility into delivery turnaround times.\n\n---\n\n### 2. Phase 1: Data Architecture & Star Schema Design\n\nYou will ingest 4 distinct source tables into Power BI Desktop:\n\n1. **`FactSalesTransactions`**: `TransactionID`, `DateKey`, `CustomerID`, `ProductID`, `BranchID`, `PaymentChannel` (M-Pesa, Card, EFT), `Quantity`, `UnitPriceKSh`, `UnitCostKSh`, `DiscountKSh`.\n2. **`DimBranches`**: `BranchID`, `BranchName`, `County`, `RegionalManager`, `SquareFootage`.\n3. **`DimProducts`**: `ProductID`, `SKU`, `Category` (Electronics, Solar, Agribusiness, Fast-Moving Consumer Goods), `Brand`.\n4. **`DimCustomers`**: `CustomerID`, `CustomerName`, `CustomerSegment` (Wholesale, Retail, Corporate B2B).\n5. **`DimDate`**: Contiguous calendar table generated via DAX with `Date`, `Year`, `Quarter`, `MonthName`, `MonthNumber`.\n\n---\n\n### 3. Phase 2: Core DAX Formula Engine Implementation\n\nAuthor the following explicit measures in the dedicated `_Measures` table:\n\n```dax\n-- 1. Base Revenue & Cost\nTotal Revenue KSh = \nSUMX(FactSalesTransactions, (FactSalesTransactions[Quantity] * FactSalesTransactions[UnitPriceKSh]) - FactSalesTransactions[DiscountKSh])\n\nTotal Cost KSh = \nSUMX(FactSalesTransactions, FactSalesTransactions[Quantity] * FactSalesTransactions[UnitCostKSh])\n\n-- 2. Profitability\nGross Profit KSh = \n[Total Revenue KSh] - [Total Cost KSh]\n\nGross Margin % = \nDIVIDE([Gross Profit KSh], [Total Revenue KSh], 0)\n\n-- 3. Volume & Transactions\nTotal Orders = \nDISTINCTCOUNT(FactSalesTransactions[TransactionID])\n\nAverage Basket Value KSh = \nDIVIDE([Total Revenue KSh], [Total Orders], 0)\n\n-- 4. Time Intelligence & Growth\nRevenue Prior Year KSh = \nCALCULATE([Total Revenue KSh], SAMEPERIODLASTYEAR(DimDate[Date]))\n\nRevenue YoY Growth % = \nDIVIDE([Total Revenue KSh] - [Revenue Prior Year KSh], [Revenue Prior Year KSh], 0)\n\nRevenue YTD KSh = \nTOTALYTD([Total Revenue KSh], DimDate[Date])\n\n-- 5. M-Pesa Digital Penetration %\nMpesa Revenue KSh = \nCALCULATE([Total Revenue KSh], FactSalesTransactions[PaymentChannel] = \"M-Pesa\")\n\nMpesa Volume Share % = \nDIVIDE([Mpesa Revenue KSh], [Total Revenue KSh], 0)\n```\n\n---\n\n### 4. Phase 3: Dashboard Page Architecture\n\n#### Page 1: Executive C-Suite Scorecard\n- **Top Row KPI Cards**: Total Revenue (`KSh 128.4M`), Gross Margin (`28.6%`), YoY Revenue Growth (`+14.2%`), M-Pesa Channel Share (`64.8%`).\n- **Center Left**: Monthly Revenue & Gross Margin % Dual-Axis Trend Line.\n- **Center Right**: Regional Contribution Donut Chart with synchronized Slicer for Year and Quarter.\n\n#### Page 2: Regional Operations & Branch Drill-Down\n- **Branch Performance Bar Chart**: Revenue by Branch ranked descending with target variance benchmark.\n- **Interactive Matrix**: Branch -> Category -> SKU breakdown with conditional formatting heatmaps.\n- **Drill-Through Link**: Right-click any branch to inspect single-day transaction logs.\n\n#### Page 3: Product Profitability & Category Matrix\n- **Scatter Plot**: Quantity Sold (X-axis) vs Gross Margin % (Y-axis) with bubble size = Total Revenue. Quickly identifies high-volume/low-margin vs high-margin/low-volume products.\n\n---\n\n### 5. Final Capstone Submission & Certificate Eligibility\n\nCongratulations on completing the **Power BI & Business Intelligence** curriculum!\n- You have mastered data ingestion, Power Query ETL, Star Schema architecture, explicit DAX measures, Time Intelligence, interactive visualization UX, Row-Level Security, and cloud publishing.\n- Mark this capstone lesson complete in your dashboard to unlock your official **Verified FAHMRISE Certificate of Completion in Power BI & Business Intelligence**.",
+        "content": "### Learning Objectives\nBy the end of this module, you will be able to:\n1. Complete a full-lifecycle enterprise Business Intelligence project from raw unstructured data ingestion to cloud deployment.\n2. Build an automated Power Query pipeline cleansing multi-branch transaction files and M-Pesa till logs.\n3. Architect an enterprise Star Schema linking 1 Fact Table and 4 Dimension Tables with single-direction 1-to-many relationships.\n4. Author 15+ production DAX measures including Base Aggregations, Volume Metrics, Profitability Ratios, YoY Variances, and YTD Time Intelligence.\n5. Deliver a 3-page interactive Power BI dashboard featuring Executive Summary, Regional Operations, and Product Margin Analytics.\n\n---\n\n### 1. Capstone Scenario: \"Kilima Retail & Logistics Kenya\"\n\n**Kilima Enterprises** is a fast-growing commercial distributor headquartered in Nairobi with regional fulfillment hubs in Mombasa, Kisumu, Nakuru, and Eldoret.\n\n#### The Problem Statement:\nThe executive board currently relies on manual spreadsheets compiled weekly. The CEO cannot view consolidated company sales in real-time, the CFO struggles to identify low-margin product lines, and branch managers have no visibility into delivery turnaround times.\n\n> [!IMPORTANT]\n> **Data Privacy & Synthetic Data Notice**:\n> All customer names, contact phone numbers, and M-Pesa transaction IDs in this capstone scenario are synthetically generated sample data for educational practice only. When developing production dashboards in enterprise environments, never use real customer PII (Personally Identifiable Information) or unmasked payment tokens in sample or development files. In production, ensure compliance with the Kenya Data Protection Act (KDPA) 2019 by masking phone numbers (e.g. `2547****1234`) and hashing payment identifiers before ingesting data into cloud semantic models.\n\n---\n\n### 2. Phase 1: Data Architecture & Star Schema Design\n\nYou will ingest 4 operational source tables into Power BI Desktop and generate a 5th continuous calendar table (`DimDate`) using DAX, creating a 5-table dimensional Star Schema:\n\n```\n+-------------------------------------------------------------------------------------------------+\n|                         KILIMA ENTERPRISES — STAR SCHEMA ARCHITECTURE                           |\n+-------------------------------------------------------------------------------------------------+\n|                                                                                                 |\n|   +-----------------------+                         +-----------------------+                   |\n|   |      DimBranches      |                         |      DimProducts      |                   |\n|   +-----------------------+                         +-----------------------+                   |\n|   | BranchID (PK)         |                         | ProductID (PK)        |                   |\n|   | BranchName            |                         | SKU                   |                   |\n|   | County                |                         | Category              |                   |\n|   | RegionalManager       |                         | Brand                 |                   |\n|   | SquareFootage         |                         +-----------------------+                   |\n|   +-----------+-----------+                                     +                               |\n|               | (1)                                             | (1)                           |\n|               |                                                 |                               |\n|               |                 +-----------------------+       |                               |\n|               +-------------->  | FactSalesTransactions | <-----+                               |\n|                                 +-----------------------+                                       |\n|                                 | TransactionID (PK)    |                                       |\n|               +-------------->  | DateKey (FK)          | <-----+                               |\n|               |                 | CustomerID (FK)       |       |                               |\n|               | (1)             | ProductID (FK)        |       | (1)                           |\n|   +-----------+-----------+     | BranchID (FK)         |   +---+-------------------+           |\n|   |     DimCustomers      |     | PaymentChannel        |   |        DimDate        |           |\n|   +-----------------------+     | Quantity              |   +-----------------------+           |\n|   | CustomerID (PK)       |     | UnitPriceKSh          |   | Date (PK)             |           |\n|   | CustomerName          |     | UnitCostKSh           |   | Year, Quarter         |           |\n|   | CustomerSegment       |     | DiscountKSh           |   | MonthName, MonthNumber|           |\n|   | RegistrationDate      |     +-----------------------+   | FiscalPeriod          |           |\n|   +-----------------------+                                 +-----------------------+           |\n+-------------------------------------------------------------------------------------------------+\n```\n\n#### The 4 Model Relationships:\n1. `DimBranches[BranchID]` **(1) ───< (Many)** `FactSalesTransactions[BranchID]` *(Single direction: Dim -> Fact)*\n2. `DimProducts[ProductID]` **(1) ───< (Many)** `FactSalesTransactions[ProductID]` *(Single direction: Dim -> Fact)*\n3. `DimCustomers[CustomerID]` **(1) ───< (Many)** `FactSalesTransactions[CustomerID]` *(Single direction: Dim -> Fact)*\n4. `DimDate[Date]` **(1) ───< (Many)** `FactSalesTransactions[DateKey]` *(Single direction: Dim -> Fact)*\n\n---\n\n### 3. Phase 2: Core DAX Formula Engine Implementation\n\nCreate a dedicated blank table named `_Measures` and author the following 15+ production DAX measures:\n\n```dax\n-- =========================================================================\n-- 1. BASE REVENUE, COST & VOLUME\n-- =========================================================================\nTotal Revenue KSh = \nSUMX(\n    FactSalesTransactions, \n    (FactSalesTransactions[Quantity] * FactSalesTransactions[UnitPriceKSh]) - FactSalesTransactions[DiscountKSh]\n)\n\nTotal Cost KSh = \nSUMX(\n    FactSalesTransactions, \n    FactSalesTransactions[Quantity] * FactSalesTransactions[UnitCostKSh]\n)\n\nTotal Orders = \nDISTINCTCOUNT(FactSalesTransactions[TransactionID])\n\nTotal Quantity Sold = \nSUM(FactSalesTransactions[Quantity])\n\n-- =========================================================================\n-- 2. PROFITABILITY & BASKET METRICS\n-- =========================================================================\nGross Profit KSh = \n[Total Revenue KSh] - [Total Cost KSh]\n\nGross Margin % = \nDIVIDE([Gross Profit KSh], [Total Revenue KSh], 0)\n\nAverage Basket Value KSh = \nDIVIDE([Total Revenue KSh], [Total Orders], 0)\n\nAverage Units Per Order = \nDIVIDE([Total Quantity Sold], [Total Orders], 0)\n\n-- =========================================================================\n-- 3. TIME INTELLIGENCE & YOY GROWTH\n-- =========================================================================\nRevenue Prior Year KSh = \nCALCULATE([Total Revenue KSh], SAMEPERIODLASTYEAR(DimDate[Date]))\n\nRevenue YoY Growth % = \nDIVIDE([Total Revenue KSh] - [Revenue Prior Year KSh], [Revenue Prior Year KSh], 0)\n\nRevenue YTD KSh = \nTOTALYTD([Total Revenue KSh], DimDate[Date])\n\nGross Profit Prior Year KSh = \nCALCULATE([Gross Profit KSh], SAMEPERIODLASTYEAR(DimDate[Date]))\n\nGross Profit YoY Growth % = \nDIVIDE([Gross Profit KSh] - [Gross Profit Prior Year KSh], [Gross Profit Prior Year KSh], 0)\n\n-- =========================================================================\n-- 4. PAYMENT CHANNEL ANALYTICS (M-Pesa, Card, EFT)\n-- =========================================================================\nMpesa Revenue KSh = \nCALCULATE([Total Revenue KSh], FactSalesTransactions[PaymentChannel] = \"M-Pesa\")\n\nMpesa Revenue Share % = \nDIVIDE([Mpesa Revenue KSh], [Total Revenue KSh], 0)\n\nMpesa Orders = \nCALCULATE([Total Orders], FactSalesTransactions[PaymentChannel] = \"M-Pesa\")\n\nCard Revenue KSh = \nCALCULATE([Total Revenue KSh], FactSalesTransactions[PaymentChannel] = \"Card\")\n\nEFT Revenue KSh = \nCALCULATE([Total Revenue KSh], FactSalesTransactions[PaymentChannel] = \"EFT\")\n```\n\n---\n\n### 4. Phase 3: 3-Page Dashboard Page Architecture\n\n#### Page 1: Executive C-Suite Scorecard\n- **Top Row KPI Cards**: Total Revenue (`KSh 128.4M`), Gross Margin (`28.6%`), YoY Revenue Growth (`+14.2%`), M-Pesa Revenue Share (`64.8%`).\n- **Center Left**: Monthly Revenue & Gross Margin % Dual-Axis Trend Line (comparing current fiscal year vs prior year).\n- **Center Right**: Regional Contribution Donut Chart with synchronized Slicers for Year, Quarter, and Payment Channel.\n\n#### Page 2: Regional Operations & Branch Drill-Down\n- **Branch Performance Bar Chart**: Revenue by Branch (Nairobi HQ, Mombasa, Kisumu, Nakuru, Eldoret) ranked descending with benchmark variance targets.\n- **Interactive Matrix**: Branch -> Category -> SKU breakdown with conditional formatting background heatmaps.\n- **Drill-Through Link**: Right-click any branch bar or matrix row to navigate directly to single-day transaction logs.\n\n#### Page 3: Product Profitability & Category Matrix\n- **Scatter Plot**: Quantity Sold (X-axis) vs Gross Margin % (Y-axis) with bubble size = Total Revenue. Quickly identifies high-volume/low-margin drivers vs high-margin/low-volume specialty items.\n- **Dynamic Bookmarks**: Toggle button switching between \"Product Category Breakdown\" and \"Customer Segment Contribution\" without navigating away from the page.\n\n---\n\n### 5. Final Capstone Submission & Certificate Eligibility\n\nCongratulations on completing the **Power BI & Business Intelligence** curriculum!\n- You have mastered data ingestion, Power Query ETL, Star Schema architecture, explicit DAX measures, Time Intelligence, interactive visualization UX, Row-Level Security, and cloud publishing.\n- Mark this capstone lesson complete in your dashboard to unlock your official **Verified FAHMRISE Certificate of Completion in Power BI & Business Intelligence**.",
         "challenge": {
           "type": "quiz",
           "title": "Module 10 Checkpoint: Business Intelligence Capstone",

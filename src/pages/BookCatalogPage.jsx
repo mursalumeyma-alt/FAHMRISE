@@ -381,6 +381,7 @@ export default function BookCatalogPage() {
   // 1. Filter Courses by Category and Search Query (guaranteed unique by ID)
   const filteredCourses = React.useMemo(() => {
     const matched = courses.filter((course) => {
+      if (course.hideFromCatalog || course.id === 'data-analysis-spreadsheets') return false;
       return matchesCategory(course, selectedCategory) &&
              matchesSearch(course, searchQuery);
     });
@@ -417,9 +418,10 @@ export default function BookCatalogPage() {
 
   // Category counts calculation (guaranteed unique course counts)
   const getCategoryCount = (catId) => {
-    if (catId === 'All') return new Set(courses.map(c => c.id)).size + (projects ? projects.length : 0);
+    const visibleCourses = courses.filter(c => !c.hideFromCatalog && c.id !== 'data-analysis-spreadsheets');
+    if (catId === 'All') return new Set(visibleCourses.map(c => c.id)).size + (projects ? projects.length : 0);
     if (catId === 'Projects') return projects ? projects.length : 0;
-    const matchingCourses = courses.filter(c => matchesCategory(c, catId));
+    const matchingCourses = visibleCourses.filter(c => matchesCategory(c, catId));
     return new Set(matchingCourses.map(c => c.id)).size;
   };
 

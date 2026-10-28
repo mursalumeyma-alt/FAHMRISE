@@ -1521,7 +1521,7 @@ export default function ReaderPage() {
                   )}
 
                   {/* Scholarly Sources & Classical Citations (if available) */}
-                  {currentLesson.references && currentLesson.references.length > 0 && (
+                  {currentLesson.references && currentLesson.references.length > 0 && typeof currentLesson.references[0] === 'string' && (
                     <div className="p-5 sm:p-6 rounded-3xl bg-slate-900/60 border border-slate-800 space-y-2.5">
                       <div className="flex items-center gap-2 text-slate-400 font-bold text-xs uppercase tracking-wider">
                         <BookMarked className="w-4 h-4 text-emerald-400" />
@@ -1531,7 +1531,7 @@ export default function ReaderPage() {
                         {currentLesson.references.map((ref, rIdx) => (
                           <li key={rIdx} className="flex items-start gap-2">
                             <span className="text-emerald-400 font-bold">•</span>
-                            <span className="leading-relaxed">{ref}</span>
+                            <span className="leading-relaxed">{typeof ref === 'string' ? ref : (ref?.title || ref?.name || '')}</span>
                           </li>
                         ))}
                       </ul>
