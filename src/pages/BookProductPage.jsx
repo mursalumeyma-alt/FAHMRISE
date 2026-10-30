@@ -45,6 +45,11 @@ export default function BookProductPage() {
   const isEnrolled = isEnrolledIn(targetId);
   const isFree = course ? (!isComingSoon && (course.price === 0 || !course.requiresPayment || course.isFree || course.category === 'Islamic Studies' || (course.category === 'International Languages' && course.price === 0))) : false;
 
+  // Always reset scroll to the top of the course product page on mount or ID change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [targetId]);
+
   useEffect(() => {
     let isMounted = true;
 

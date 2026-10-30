@@ -1,164 +1,188 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Sparkles, Globe, Code2 } from 'lucide-react';
+import { Mail, ShieldCheck, Sparkles, Globe, ArrowRight } from 'lucide-react';
 import Modal from '../common/Modal';
+import WhatsAppIcon from '../common/WhatsAppIcon';
+import { getWhatsAppChatUrl } from '../../config/contactConfig';
 
 export default function Footer() {
   const [privacyOpen, setPrivacyOpen] = useState(false);
   const [termsOpen, setTermsOpen] = useState(false);
 
   return (
-    <footer className="bg-slate-950 border-t border-slate-900 text-slate-400 text-sm">
-      {/* Upper Footer: Mission & Disciplines */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
+    <footer className="bg-[#0B2F2D] text-slate-300 text-sm border-t border-[#072120]">
+      {/* Main Footer Container */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           
-          {/* Brand Column */}
+          {/* 1. FAHMRISE Brand Column */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-emerald-500 to-teal-700 flex items-center justify-center p-0.5 shadow-sm">
-                <div className="w-full h-full bg-slate-950 rounded-[6px] flex items-center justify-center font-black text-emerald-400 text-sm">
-                  F
-                </div>
+            <Link to="/" className="flex items-center gap-3 group">
+              <img
+                src="/fahmrise-gold-emblem.png"
+                alt="FAHMRISE Gold Emblem"
+                className="w-10 h-10 object-contain drop-shadow"
+              />
+              <div>
+                <span className="text-2xl font-serif font-bold text-[#E5B869] tracking-tight leading-none block">
+                  FAHMRISE
+                </span>
+                <span className="text-[10px] font-bold text-[#E5B869] uppercase tracking-[0.2em] leading-none mt-1 block">
+                  LEARNING WITHOUT LIMITS
+                </span>
               </div>
-              <span className="text-xl font-black text-white tracking-tight">FAHMRISE</span>
-            </div>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              Understand. Learn. Rise. Empowering global and African learners with high-impact digital skills, Islamic studies, business, and career mastery.
+            </Link>
+
+            <p className="text-xs sm:text-sm text-[#C4D9D7] leading-relaxed">
+              Empowering learners worldwide with quality education, practical skills and endless opportunities.
             </p>
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold">
-              <Sparkles className="w-3.5 h-3.5 flex-shrink-0" aria-hidden="true" />
-              <span>26 Interactive Courses &amp; Pathways Live</span>
+
+            <div className="pt-2 flex flex-col gap-2">
+              <a 
+                href="mailto:fahmrise.contact@gmail.com" 
+                className="inline-flex items-center gap-2 text-xs font-semibold text-[#E5B869] hover:text-[#f3cca0] transition-colors"
+              >
+                <Mail className="w-4 h-4 flex-shrink-0" />
+                <span>fahmrise.contact@gmail.com</span>
+              </a>
+              <a 
+                href={getWhatsAppChatUrl()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-xs font-semibold text-[#25D366] hover:text-[#20ba5a] transition-colors"
+              >
+                <WhatsAppIcon className="w-4 h-4 flex-shrink-0" />
+                <span>Chat on WhatsApp</span>
+              </a>
             </div>
           </div>
 
-          {/* Technology Courses */}
+          {/* 2. Quick Links */}
           <div>
-            <h4 className="font-bold text-white mb-4 text-xs uppercase tracking-wider text-emerald-400">
-              Technology &amp; Coding
+            <h4 className="font-bold text-white mb-4 text-sm uppercase tracking-wider">
+              Quick Links
             </h4>
-            <ul className="space-y-2.5 text-xs">
+            <ul className="space-y-2.5 text-xs sm:text-sm">
               <li>
-                <Link to="/courses/fullstack-developer-bundle" className="text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-1.5 font-medium">
-                  <span>Full-Stack Developer: Zero to Job-Ready</span>
+                <Link to="/" className="text-[#C4D9D7] hover:text-white transition-colors">
+                  Home
                 </Link>
               </li>
               <li>
-                <Link to="/courses/frontend-developer-zero-to-job-ready" className="text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-1.5 font-medium">
-                  <span>Frontend Developer: Zero to Job-Ready</span>
+                <Link to="/courses" className="text-[#C4D9D7] hover:text-white transition-colors">
+                  Courses
                 </Link>
               </li>
               <li>
-                <Link to="/courses/backend-developer-zero-to-job-ready" className="text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-1.5 font-medium">
-                  <span>Backend Developer: Zero to Job-Ready</span>
+                <Link to="/practice" className="text-[#C4D9D7] hover:text-white transition-colors">
+                  Practice
                 </Link>
               </li>
-              <li className="pt-1">
-                <Link to="/practice" className="text-slate-300 hover:text-emerald-400 transition-colors flex items-center gap-1.5">
-                  <Code2 className="w-3.5 h-3.5 text-emerald-400 opacity-80 flex-shrink-0" aria-hidden="true" />
-                  <span>Practice Arena (10 Projects)</span>
+              <li>
+                <Link to="/blog" className="text-[#C4D9D7] hover:text-white transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <a href="/#about" className="text-[#C4D9D7] hover:text-white transition-colors">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <Link to="/contact" className="text-[#C4D9D7] hover:text-white transition-colors">
+                  Contact
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Multidisciplinary Tracks */}
+          {/* 3. Categories */}
           <div>
-            <h4 className="font-bold text-white mb-4 text-xs uppercase tracking-wider text-teal-300">
-              Learning Disciplines
+            <h4 className="font-bold text-white mb-4 text-sm uppercase tracking-wider">
+              Categories
             </h4>
-            <ul className="space-y-2 text-xs text-slate-400">
+            <ul className="space-y-2.5 text-xs sm:text-sm">
               <li>
-                <Link to="/courses?category=Professional%20Development%20Pathways" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
-                  <span>Professional Pathways</span>
-                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">3 Courses</span>
+                <Link to="/courses/frontend-developer-zero-to-job-ready" className="text-[#C4D9D7] hover:text-white transition-colors">
+                  Web Development
                 </Link>
               </li>
               <li>
-                <Link to="/courses?category=Cybersecurity" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
-                  <span>Cybersecurity</span>
-                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">1 Course</span>
+                <Link to="/courses/data-analysis-spreadsheets" className="text-[#C4D9D7] hover:text-white transition-colors">
+                  Data Analysis
                 </Link>
               </li>
               <li>
-                <Link to="/courses?category=Data%20%26%20Analytics" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
-                  <span>Data &amp; Analytics</span>
-                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">6 Courses</span>
+                <Link to="/courses?category=Islamic%20Studies" className="text-[#C4D9D7] hover:text-white transition-colors">
+                  Islamic Studies
                 </Link>
               </li>
               <li>
-                <Link to="/courses?category=Islamic%20Studies" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
-                  <span>Islamic Studies</span>
-                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">6 Courses</span>
+                <Link to="/tracks/international-languages" className="text-[#C4D9D7] hover:text-white transition-colors">
+                  Languages
                 </Link>
               </li>
               <li>
-                <Link to="/courses?category=Business%20%26%20Entrepreneurship" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
-                  <span>Business &amp; Entrepreneurship</span>
-                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">3 Courses</span>
+                <Link to="/courses?category=Business" className="text-[#C4D9D7] hover:text-white transition-colors">
+                  Business
                 </Link>
               </li>
               <li>
-                <Link to="/tracks/international-languages" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
-                  <span>International Languages</span>
-                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">6 Languages</span>
-                </Link>
-              </li>
-              <li>
-                <Link to="/courses?category=Career%20Skills" className="flex items-center justify-between text-slate-300 hover:text-emerald-400 transition-colors">
-                  <span>Career Skills</span>
-                  <span className="text-[10px] bg-emerald-950 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-800">1 Course</span>
-                </Link>
-              </li>
-              <li className="pt-2 border-t border-slate-900">
-                <Link to="/become-a-coach" className="flex items-center justify-between text-emerald-400 hover:text-emerald-300 font-semibold transition-colors">
-                  <span>Become a FAHMRISE Coach</span>
-                  <span className="text-[10px] bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-500/30">Apply</span>
+                <Link to="/courses?category=Career%20Skills" className="text-[#C4D9D7] hover:text-white transition-colors">
+                  Career Skills
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Platform Architecture & Verification */}
-          <div className="space-y-3">
-            <h4 className="font-bold text-white mb-4 text-xs uppercase tracking-wider text-amber-400">
-              Platform &amp; Verification
+          {/* 4. Trust & Credentials */}
+          <div className="space-y-4">
+            <h4 className="font-bold text-white mb-4 text-sm uppercase tracking-wider">
+              Platform &amp; Trust
             </h4>
-            <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800 text-xs space-y-2">
-              <div className="flex items-center gap-2 text-amber-400 font-semibold">
-                <ShieldCheck className="w-4 h-4 flex-shrink-0" aria-hidden="true" />
+            
+            <div className="p-3.5 bg-black/20 rounded-xl border border-white/10 text-xs space-y-2">
+              <div className="flex items-center gap-2 text-[#E5B869] font-bold">
+                <ShieldCheck className="w-4 h-4 flex-shrink-0" />
                 <span>Verified Credentials</span>
               </div>
-              <p className="text-[11px] text-slate-400 leading-relaxed">
-                Cryptographically signed certificates of completion, interactive browser sandboxes, and verified learning milestones.
+              <p className="text-[11px] text-[#C4D9D7] leading-relaxed">
+                Cryptographically signed certificates, browser coding sandboxes, and self-contained interactive curriculums.
               </p>
             </div>
 
-            <div className="pt-1">
-              <div className="text-[11px] text-slate-400 flex items-center gap-1.5">
-                <Globe className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" aria-hidden="true" />
-                <span>FAHMRISE Global &amp; African Learning</span>
+            <div className="p-3.5 bg-black/20 rounded-xl border border-white/10 text-xs space-y-2">
+              <div className="flex items-center gap-2 text-emerald-400 font-bold">
+                <Sparkles className="w-4 h-4 flex-shrink-0" />
+                <span>24/7 Socratic AI Tutor</span>
               </div>
+              <p className="text-[11px] text-[#C4D9D7] leading-relaxed">
+                Immediate hints, concept breakdowns, and code guidance whenever you need assistance.
+              </p>
             </div>
           </div>
 
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-slate-900 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-          <p className="text-slate-400">
-            &copy; {new Date().getFullYear()} FAHMRISE Platform. Understand. Learn. Rise. All rights reserved.
+        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+          <p className="text-[#A2C4C1]">
+            &copy; {new Date().getFullYear()} FAHMRISE. All rights reserved.
           </p>
+
           <div className="flex items-center gap-6">
+            <span className="font-bold tracking-[0.2em] text-[#E5B869] text-[11px] uppercase">
+              LEARNING WITHOUT LIMITS
+            </span>
             <button 
               onClick={() => setPrivacyOpen(true)}
-              className="text-slate-400 hover:text-white transition-colors underline-offset-4 hover:underline cursor-pointer"
+              className="text-[#C4D9D7] hover:text-white transition-colors cursor-pointer"
             >
-              Privacy Notice
+              Privacy Policy
             </button>
             <button 
               onClick={() => setTermsOpen(true)}
-              className="text-slate-400 hover:text-white transition-colors underline-offset-4 hover:underline cursor-pointer"
+              className="text-[#C4D9D7] hover:text-white transition-colors cursor-pointer"
             >
               Terms of Use
             </button>
@@ -170,7 +194,7 @@ export default function Footer() {
       <Modal
         isOpen={privacyOpen}
         onClose={() => setPrivacyOpen(false)}
-        title="FAHMRISE Privacy Policy & Data Security"
+        title="FAHMRISE Privacy Policy & Data Protection"
       >
         <div className="space-y-3 text-xs text-slate-300 leading-relaxed max-h-[70vh] overflow-y-auto pr-2">
           <p className="font-semibold text-white">Your Privacy on FAHMRISE:</p>
@@ -183,7 +207,7 @@ export default function Footer() {
               onClick={() => setPrivacyOpen(false)}
               className="w-full py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl font-semibold cursor-pointer"
             >
-              Close Privacy Notice
+              Close Privacy Policy
             </button>
           </div>
         </div>
@@ -203,7 +227,7 @@ export default function Footer() {
           <div className="pt-2">
             <button
               onClick={() => setTermsOpen(false)}
-              className="w-full py-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 rounded-xl font-bold cursor-pointer"
+              className="w-full py-2 bg-[#E5B869] hover:bg-[#d9ab58] text-[#0B2F2D] rounded-xl font-bold cursor-pointer"
             >
               Understood
             </button>

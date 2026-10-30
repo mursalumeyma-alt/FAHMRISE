@@ -1,446 +1,525 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  BookOpen, 
   Code2, 
-  Bot, 
-  Sparkles, 
-  CheckCircle2, 
+  BarChart3, 
+  BookOpen, 
   ArrowRight, 
+  Sparkles, 
   ShieldCheck, 
-  Star, 
-  Zap, 
+  CheckCircle2, 
   Award, 
-  Smartphone, 
-  Play, 
+  Bot, 
   ChevronRight, 
-  Flame, 
-  Globe, 
-  Terminal, 
-  Layers, 
-  TrendingUp, 
+  Rocket, 
   Cpu, 
-  BookMarked, 
-  Briefcase,
-  FolderGit2
+  Briefcase, 
+  FolderGit2,
+  TrendingUp,
+  Globe,
+  Clock,
+  Terminal,
+  Play,
+  Check
 } from 'lucide-react';
-import Badge from '../components/common/Badge';
 import AiTutorDrawer from '../components/ai/AiTutorDrawer';
+import { BLOG_POSTS } from '../data/blogData';
 
-// Custom Crisp React Atom Icon
-function ReactIcon({ className = "w-6 h-6" }) {
+// Custom Crisp Bilingual Icon: "A 文"
+function LanguagesBilingualIcon({ className = "w-6 h-6" }) {
   return (
-    <svg viewBox="-11.5 -10.23174 23 20.46348" className={className} fill="currentColor">
-      <circle cx="0" cy="0" r="2.05" />
-      <g stroke="currentColor" strokeWidth="1.1" fill="none">
-        <ellipse rx="11" ry="4.2" />
-        <ellipse rx="11" ry="4.2" transform="rotate(60)" />
-        <ellipse rx="11" ry="4.2" transform="rotate(120)" />
-      </g>
-    </svg>
+    <span className={`${className} inline-flex items-center justify-center font-bold text-sm tracking-tight select-none`}>
+      <span className="font-extrabold">A</span>
+      <span className="text-xs ml-0.5 opacity-90">文</span>
+    </span>
   );
 }
 
 export default function HomePage() {
   const [aiTutorOpen, setAiTutorOpen] = useState(false);
-  const [demoCode, setDemoCode] = useState(`// FAHMRISE Interactive Learning\nconst student = {\n  goal: "Master Full-Stack Web Development",\n  courses: ["HTML From Zero", "CSS From Zero", "JavaScript From Zero"],\n  projects: 10,\n  status: "Rising"\n};\nconsole.log("Welcome to FAHMRISE!");`);
 
-  const featuredCourses = [
+  // 4 Featured Courses Matching the Visual Reference Exactly
+  const referenceFeaturedCourses = [
     {
-      id: "fullstack-developer-bundle",
-      title: "Full-Stack Developer From Zero to Job-Ready",
-      subtitle: "Complete 2-Course Programme: Frontend React + Backend Node.js, Express, PostgreSQL & Docker.",
-      badge: "Full-Stack Master Track • Save KSh 5,000",
-      price: 45000,
-      paymentType: "one_time",
-      color: "from-blue-700 via-indigo-900 to-emerald-900",
-      lessons: 20,
-      hours: "90-135 Hours (9-12 Mos)",
-      category: "Technology"
+      id: "web-development",
+      title: "Web Development",
+      topics: "HTML • CSS • JavaScript",
+      badge: "Beginner",
+      badgeColor: "bg-emerald-50 text-emerald-700 border-emerald-200/80",
+      iconBg: "bg-[#0B2F2D]",
+      icon: <Code2 className="w-6 h-6 text-white" />,
+      link: "/courses/frontend-developer-zero-to-job-ready"
     },
     {
-      id: "data-analytics-professional-programme",
-      title: "Data Analytics & Business Intelligence Professional Programme",
-      subtitle: "Complete 5-Course Master Track: Spreadsheets, Power BI, SQL, Python & Career Portfolio.",
-      badge: "5-Course Master Track • Save KSh 12,000",
-      price: 35000,
-      paymentType: "one_time",
-      color: "from-teal-600 via-indigo-900 to-slate-950",
-      lessons: 48,
-      hours: "100-130 Hours (4-6 Mos)",
-      category: "Technology"
+      id: "data-analysis",
+      title: "Data Analysis",
+      topics: "Excel • Power BI • SQL",
+      badge: "Intermediate",
+      badgeColor: "bg-purple-50 text-purple-700 border-purple-200/80",
+      iconBg: "bg-[#4F46E5]",
+      icon: <BarChart3 className="w-6 h-6 text-white" />,
+      link: "/courses/data-analysis-spreadsheets"
     },
     {
-      id: "frontend-developer-zero-to-job-ready",
-      title: "Frontend Developer From Zero to Job-Ready",
-      subtitle: "Web history, HTML, CSS, JavaScript, Git, React, TypeScript, Next.js & career prep.",
-      badge: "Flagship • 10 Modules",
-      price: 20000,
-      paymentType: "one_time",
-      color: "from-blue-600 to-indigo-800",
-      lessons: 10,
-      hours: "40-60 Hours (6 Mos)",
-      category: "Technology"
+      id: "islamic-studies",
+      title: "Islamic Studies",
+      topics: "Quran • Hadith • Tafsir",
+      badge: "All Levels",
+      badgeColor: "bg-emerald-50 text-emerald-700 border-emerald-200/80",
+      iconBg: "bg-[#059669]",
+      icon: <BookOpen className="w-6 h-6 text-white" />,
+      link: "/courses?category=Islamic%20Studies"
     },
     {
-      id: "backend-developer-zero-to-job-ready",
-      title: "Backend Developer From Zero to Job-Ready",
-      subtitle: "Server architecture, Node.js, Express, SQL, databases, JWT auth, security, testing & Docker.",
-      badge: "Flagship • 10 Modules",
-      price: 30000,
-      paymentType: "one_time",
-      color: "from-emerald-700 to-slate-900",
-      lessons: 10,
-      hours: "50-75 Hours (6-9 Mos)",
-      category: "Technology"
-    },
-    {
-      id: "power-bi-business-intelligence",
-      title: "Power BI & Business Intelligence",
-      subtitle: "Connect data, build Star Schemas, write DAX formulas & create executive dashboards.",
-      badge: "BI Specialization • 10 Modules",
-      price: 12000,
-      paymentType: "one_time",
-      color: "from-amber-600 to-yellow-800",
-      lessons: 10,
-      hours: "25-35 Hours",
-      category: "Technology"
+      id: "languages",
+      title: "Languages",
+      topics: "Arabic • English • Kiswahili",
+      badge: "Beginner",
+      badgeColor: "bg-amber-50 text-amber-800 border-amber-200/80",
+      iconBg: "bg-[#D97706]",
+      icon: <LanguagesBilingualIcon className="w-6 h-6 text-white" />,
+      link: "/tracks/international-languages"
     }
   ];
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 selection:bg-emerald-500 selection:text-white">
+    <div className="min-h-screen bg-white text-slate-800 selection:bg-[#E5B869] selection:text-[#0B2F2D]">
       
-      {/* 1. HERO SECTION */}
-      <section className="relative pt-12 pb-20 md:pt-20 md:pb-28 overflow-hidden">
-        {/* Background gradient orbs */}
-        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[380px] bg-gradient-to-tr from-emerald-600/15 via-teal-500/10 to-amber-500/10 rounded-full blur-3xl pointer-events-none -z-10" />
+      {/* =========================================================================
+          1. HERO SECTION (Deep Teal Background with Student Image)
+         ========================================================================= */}
+      <section className="relative bg-[#0B2F2D] text-white overflow-hidden pt-12 pb-16 md:pt-18 md:pb-24 lg:pt-20 lg:pb-28">
+        {/* Subtle Ambient Light Gradients */}
+        <div className="absolute top-0 right-1/4 w-96 h-96 bg-[#124542] rounded-full blur-3xl opacity-30 pointer-events-none -z-0" />
+        <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-[#E5B869]/10 rounded-full blur-3xl opacity-30 pointer-events-none -z-0" />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto space-y-6">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
             
-            {/* Tagline Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold tracking-wide uppercase shadow-sm">
-              <Sparkles className="w-4 h-4 text-emerald-400" />
-              <span>Understand. Learn. Rise.</span>
+            {/* Left Content Column */}
+            <div className="lg:col-span-7 space-y-6 md:space-y-7 text-center lg:text-left">
+              
+              {/* Gold Uppercase Subtitle */}
+              <div className="inline-flex items-center gap-2">
+                <span className="text-[#E5B869] font-bold text-xs sm:text-sm tracking-[0.25em] uppercase">
+                  WELCOME TO FAHMRISE
+                </span>
+              </div>
+
+              {/* Main Headline (Elegant Serif) */}
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-[1.12]">
+                Learn Today,<br />
+                Build Tomorrow
+              </h1>
+
+              {/* Supporting Text */}
+              <p className="text-base sm:text-lg lg:text-xl text-[#D1E0DE] leading-relaxed max-w-xl mx-auto lg:mx-0 font-normal">
+                Quality education, flexible learning and endless opportunities — all in one place.
+              </p>
+
+              {/* Gold "Explore Courses" Button */}
+              <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                <Link
+                  to="/courses"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl bg-[#E5B869] hover:bg-[#d9ab58] text-[#0B2F2D] font-bold text-base shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5 active:translate-y-0"
+                >
+                  <span>Explore Courses</span>
+                  <ArrowRight className="w-5 h-5" />
+                </Link>
+
+                <button
+                  onClick={() => setAiTutorOpen(true)}
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-semibold text-sm border border-white/15 transition-all"
+                >
+                  <Bot className="w-4 h-4 text-[#E5B869]" />
+                  <span>Try AI Tutor (24/7)</span>
+                </button>
+              </div>
+
+              {/* Value Badges */}
+              <div className="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-xs text-[#A2C4C1]">
+                <span className="flex items-center gap-1.5">
+                  <ShieldCheck className="w-4 h-4 text-[#E5B869]" />
+                  <span>Flexible &amp; Self-Paced</span>
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <Sparkles className="w-4 h-4 text-emerald-400" />
+                  <span>Interactive Sandboxes</span>
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <Award className="w-4 h-4 text-[#E5B869]" />
+                  <span>Verified Certificates</span>
+                </span>
+              </div>
+
             </div>
 
-            {/* Main Headline */}
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-white leading-tight">
-              Empower Your Mind.{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-amber-400">
-                Rise Through Knowledge.
-              </span>
-            </h1>
+            {/* Right Visual Column (Student in Teal Hijab with Laptop) */}
+            <div className="lg:col-span-5 flex justify-center lg:justify-end">
+              <div className="relative group max-w-sm sm:max-w-md w-full">
+                
+                {/* Decorative Background Glow / Border Frame */}
+                <div className="absolute -inset-2 bg-gradient-to-tr from-[#E5B869]/30 via-transparent to-[#124542]/40 rounded-3xl blur-lg opacity-70 group-hover:opacity-100 transition duration-500" />
 
-            {/* Subtitle */}
-            <p className="text-lg sm:text-xl text-slate-300 leading-relaxed font-normal">
-              FAHMRISE delivers practical, high-impact digital skills and multidisciplinary courses with Socratic AI guidance, in-browser practice, and verified certifications.
-            </p>
+                {/* Arched / Rounded Container Frame */}
+                <div className="relative overflow-hidden rounded-3xl border-2 border-[#E5B869]/50 bg-[#072120] shadow-2xl">
+                  <img
+                    src="/fahmrise-hero-student.png"
+                    alt="FAHMRISE student learning at desk with laptop and notebook"
+                    className="w-full h-auto object-cover object-center transform group-hover:scale-[1.02] transition duration-500"
+                    width="299"
+                    height="224"
+                  />
+                </div>
 
-            {/* Hero CTA Buttons */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-              <Link
-                to="/courses"
-                className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 font-extrabold text-base shadow-glow flex items-center justify-center gap-2 transition-all transform hover:-translate-y-0.5 active:translate-y-0"
-              >
-                <span>Explore Course Catalog</span>
-                <ArrowRight className="w-5 h-5" />
-              </Link>
-
-              <Link
-                to="/practice"
-                className="w-full sm:w-auto px-6 py-4 rounded-2xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 font-bold text-base border border-slate-800 hover:border-emerald-500/40 flex items-center justify-center gap-2.5 transition-all"
-              >
-                <Code2 className="w-5 h-5 text-emerald-400" />
-                <span>Practice Arena (10 Projects)</span>
-              </Link>
-            </div>
-
-            {/* Trust indicators */}
-            <div className="pt-6 flex flex-wrap items-center justify-center gap-6 text-xs text-slate-400">
-              <span className="flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4 text-emerald-400" /> M-Pesa STK Push & Card Access
-              </span>
-              <span className="flex items-center gap-1.5">
-                <Bot className="w-4 h-4 text-teal-400" /> 24/7 Socratic AI Tutor
-              </span>
-              <span className="flex items-center gap-1.5">
-                <Award className="w-4 h-4 text-amber-400" /> Verified Course Certificates
-              </span>
+              </div>
             </div>
 
           </div>
         </div>
       </section>
 
-      {/* 2. MULTIDISCIPLINARY DISCIPLINES BAR */}
-      <section className="border-y border-slate-900 bg-slate-950/60 py-8 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <p className="text-center text-xs font-bold uppercase tracking-widest text-slate-500 mb-6">
-            Multidisciplinary Learning Categories on FAHMRISE
-          </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
-            {/* 1. Technology & Code */}
-            <Link 
-              to="/courses?category=Technology"
-              className="flex flex-col items-center p-3.5 sm:p-4 rounded-2xl bg-slate-900/40 border border-slate-800/60 hover:border-emerald-500/50 hover:bg-slate-900/80 text-center space-y-2 transition-all group"
-            >
-              <Cpu className="w-6 h-6 text-emerald-400 group-hover:scale-110 transition-transform" />
-              <span className="text-xs font-bold text-white group-hover:text-emerald-300 transition-colors">Technology</span>
-              <span className="text-[10px] text-emerald-400 font-semibold">10 Courses Live</span>
-            </Link>
 
-            {/* 2. Projects */}
-            <Link 
-              to="/courses?category=Projects"
-              className="flex flex-col items-center p-3.5 sm:p-4 rounded-2xl bg-slate-900/40 border border-slate-800/60 hover:border-violet-500/50 hover:bg-slate-900/80 text-center space-y-2 transition-all group"
+      {/* =========================================================================
+          2. FEATURED COURSES SECTION (Warm Cream Background)
+         ========================================================================= */}
+      <section className="bg-[#FAF8F5] py-16 md:py-20 lg:py-24 border-b border-[#EAE2D5]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          {/* Section Header: Left Heading & Right "View All Courses" Link */}
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10 md:mb-12">
+            <div>
+              <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0B2F2D]">
+                Featured Courses
+              </h2>
+              <p className="text-sm text-slate-600 mt-1">
+                Explore our core learning disciplines designed for practical excellence.
+              </p>
+            </div>
+            <Link
+              to="/courses"
+              className="inline-flex items-center gap-1.5 text-sm font-bold text-[#0B2F2D] hover:text-[#06423F] transition-colors group self-start sm:self-auto"
             >
-              <FolderGit2 className="w-6 h-6 text-violet-400 group-hover:scale-110 transition-transform" />
-              <span className="text-xs font-bold text-white group-hover:text-violet-300 transition-colors">Projects</span>
-              <span className="text-[10px] text-violet-400 font-semibold">10 Projects Live</span>
-            </Link>
-
-            {/* 3. Islamic Studies */}
-            <Link 
-              to="/courses?category=Islamic%20Studies"
-              className="flex flex-col items-center p-3.5 sm:p-4 rounded-2xl bg-slate-900/40 border border-slate-800/60 hover:border-teal-500/50 hover:bg-slate-900/80 text-center space-y-2 transition-all group"
-            >
-              <BookMarked className="w-6 h-6 text-teal-400 group-hover:scale-110 transition-transform" />
-              <span className="text-xs font-bold text-white group-hover:text-teal-300 transition-colors">Islamic Studies</span>
-              <span className="text-[10px] text-teal-400 font-semibold">6 Courses Live</span>
-            </Link>
-
-            {/* 4. Business & Ventures */}
-            <Link 
-              to="/courses?category=Business"
-              className="flex flex-col items-center p-3.5 sm:p-4 rounded-2xl bg-slate-900/40 border border-slate-800/60 hover:border-amber-500/50 hover:bg-slate-900/80 text-center space-y-2 transition-all group"
-            >
-              <Briefcase className="w-6 h-6 text-amber-400 group-hover:scale-110 transition-transform" />
-              <span className="text-xs font-bold text-white group-hover:text-amber-300 transition-colors">Business</span>
-              <span className="text-[10px] text-amber-400 font-semibold">3 Courses Live</span>
-            </Link>
-
-            {/* 5. International Languages */}
-            <Link 
-              to="/courses?category=International%20Languages"
-              className="flex flex-col items-center p-3.5 sm:p-4 rounded-2xl bg-slate-900/40 border border-slate-800/60 hover:border-cyan-500/50 hover:bg-slate-900/80 text-center space-y-2 transition-all group"
-            >
-              <Globe className="w-6 h-6 text-cyan-400 group-hover:scale-110 transition-transform" />
-              <span className="text-xs font-bold text-white group-hover:text-cyan-300 transition-colors">International Languages</span>
-              <span className="text-[10px] text-cyan-400 font-semibold">6 Language Tracks</span>
-            </Link>
-
-            {/* 6. Career Skills */}
-            <Link 
-              to="/courses?category=Career%20Skills"
-              className="flex flex-col items-center p-3.5 sm:p-4 rounded-2xl bg-slate-900/40 border border-slate-800/60 hover:border-rose-500/50 hover:bg-slate-900/80 text-center space-y-2 transition-all group"
-            >
-              <TrendingUp className="w-6 h-6 text-rose-400 group-hover:scale-110 transition-transform" />
-              <span className="text-xs font-bold text-white group-hover:text-rose-300 transition-colors">Career Skills</span>
-              <span className="text-[10px] text-rose-400 font-semibold">3 Courses Live</span>
+              <span>View All Courses</span>
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
-        </div>
-      </section>
 
-      {/* 3. FEATURED WEB DEVELOPMENT COURSES */}
-      <section className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
-          <div className="space-y-2">
-            <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest">
-              Comprehensive Curriculum
-            </span>
-            <h2 className="text-2xl sm:text-4xl font-black text-white">
-              Featured Technology & Engineering Tracks
-            </h2>
-            <p className="text-slate-400 text-sm max-w-xl">
-              Master frontend engineering, scalable backend microservices, database design, cybersecurity, and applied data analysis with hands-on practice.
-            </p>
-          </div>
-          <Link
-            to="/courses"
-            className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-400 hover:text-emerald-300 transition-colors"
-          >
-            <span>View Full Catalog</span>
-            <ChevronRight className="w-4 h-4" />
-          </Link>
-        </div>
+          {/* 4 Cards Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {referenceFeaturedCourses.map((course) => (
+              <Link
+                key={course.id}
+                to={course.link}
+                className="group flex flex-col justify-between bg-white border border-slate-200/90 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:border-[#E5B869]/80 transition-all duration-300 transform hover:-translate-y-1"
+              >
+                <div>
+                  {/* Top Row: Icon on Left, Pill Badge on Right */}
+                  <div className="flex items-center justify-between mb-5">
+                    <div className={`w-12 h-12 rounded-xl ${course.iconBg} flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform`}>
+                      {course.icon}
+                    </div>
+                    <span className={`text-[11px] font-semibold px-2.5 py-1 rounded-full border ${course.badgeColor}`}>
+                      {course.badge}
+                    </span>
+                  </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {featuredCourses.map((course) => (
-            <div
-              key={course.id}
-              className="flex flex-col bg-slate-900/60 border border-slate-800 rounded-2xl overflow-hidden hover:border-emerald-500/50 hover:shadow-2xl transition-all group"
-            >
-              <div className={`p-6 bg-gradient-to-br ${course.color} relative`}>
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-slate-950/60 text-white backdrop-blur">
-                    {course.badge}
+                  {/* Title */}
+                  <h3 className="text-xl font-bold text-[#0B2F2D] group-hover:text-[#06423F] transition-colors">
+                    {course.title}
+                  </h3>
+
+                  {/* Subtitle / Topics */}
+                  <p className="text-xs text-slate-500 font-medium mt-1">
+                    {course.topics}
+                  </p>
+                </div>
+
+                {/* Bottom Row: Circular Arrow Button */}
+                <div className="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
+                  <span className="text-xs font-semibold text-slate-400 group-hover:text-[#0B2F2D] transition-colors">
+                    Start Learning
                   </span>
-                  <div className="text-right">
-                    <span className="text-lg font-black text-white">
-                      KSh {course.price.toLocaleString()}
-                    </span>
-                    <span className="block text-[10px] text-slate-300 font-medium">
-                      {course.paymentType === 'one_time' ? 'One-Time' : '/ month'}
-                    </span>
+                  <div className="w-9 h-9 rounded-full bg-slate-100 group-hover:bg-[#E5B869] text-slate-700 group-hover:text-[#0B2F2D] flex items-center justify-center transition-colors shadow-sm">
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold text-white group-hover:text-emerald-300 transition-colors">
-                  {course.title}
-                </h3>
-                <p className="text-xs text-slate-200 mt-1 opacity-90">
-                  {course.subtitle}
-                </p>
-              </div>
-
-              <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
-                <div className="grid grid-cols-2 gap-2 text-xs text-slate-400">
-                  <div className="flex items-center gap-1.5">
-                    <BookOpen className="w-4 h-4 text-emerald-400" />
-                    <span>{course.lessons} In-depth Lessons</span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <Award className="w-4 h-4 text-amber-400" />
-                    <span>Certificate Included</span>
-                  </div>
-                </div>
-
-                <div className="pt-3 border-t border-slate-800 flex items-center justify-between">
-                  <span className="text-xs text-slate-400">Lifetime Access</span>
-                  <Link
-                    to={`/courses/${course.id}`}
-                    className="px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs shadow-glow transition-all flex items-center gap-1"
-                  >
-                    <span>View Course</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* 4. PRACTICE ARENA SPOTLIGHT (10 REAL JS PROJECTS) */}
-      <section className="py-16 bg-slate-900/40 border-y border-slate-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
-          <div className="text-center max-w-2xl mx-auto space-y-3">
-            <span className="text-xs font-bold text-amber-400 uppercase tracking-widest">
-              Hands-On Mastery
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-black text-white">
-              Practice Arena: 10 Real JavaScript Projects
-            </h2>
-            <p className="text-slate-400 text-sm">
-              Level up progressively from beginner DOM widgets to complex full-stack API apps.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-            {[
-              { num: "01", name: "Interactive To-Do List", lvl: "Beginner" },
-              { num: "02", name: "Modern Calculator", lvl: "Beginner" },
-              { num: "03", name: "Rock Paper Scissors", lvl: "Beginner" },
-              { num: "04", name: "Timed Quiz App", lvl: "Intermediate" },
-              { num: "05", name: "Random Joke (REST API)", lvl: "Intermediate" },
-              { num: "06", name: "Live Weather Explorer", lvl: "Intermediate" },
-              { num: "07", name: "Expense Tracker", lvl: "Intermediate" },
-              { num: "08", name: "Movie Search App", lvl: "Advanced" },
-              { num: "09", name: "E-Commerce Cart", lvl: "Advanced" },
-              { num: "10", name: "Analytics Dashboard", lvl: "Capstone" }
-            ].map((proj) => (
-              <Link
-                key={proj.num}
-                to={`/practice/project-${parseInt(proj.num)}`}
-                className="p-3.5 rounded-xl bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 transition-all group flex flex-col justify-between space-y-2"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-mono font-bold text-emerald-400">{proj.num}</span>
-                  <span className="text-[10px] px-1.5 py-0.5 rounded bg-slate-800 text-slate-300">{proj.lvl}</span>
-                </div>
-                <p className="text-xs font-bold text-slate-200 group-hover:text-emerald-300 transition-colors">
-                  {proj.name}
-                </p>
               </Link>
             ))}
           </div>
 
-          <div className="text-center pt-4">
+        </div>
+      </section>
+
+
+      {/* =========================================================================
+          3. ABOUT & WHY FAHMRISE (id="about")
+         ========================================================================= */}
+      <section id="about" className="py-16 md:py-24 bg-white border-b border-slate-200 scroll-mt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div className="text-center max-w-3xl mx-auto space-y-4 mb-14">
+            <span className="text-xs font-bold text-[#D97706] uppercase tracking-[0.2em]">
+              OUR COMMITMENT TO EXCELLENCE
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0B2F2D]">
+              Why Learn With FAHMRISE?
+            </h2>
+            <p className="text-base text-slate-600 leading-relaxed">
+              We bring together rigorous digital and multidisciplinary education with modern interactive technology, making mastery accessible to every learner worldwide.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Pillar 1 */}
+            <div className="p-6 rounded-2xl bg-[#FAF8F5] border border-[#EAE2D5] space-y-3">
+              <div className="w-12 h-12 rounded-xl bg-[#0B2F2D] text-[#E5B869] flex items-center justify-center font-bold">
+                <Code2 className="w-6 h-6" />
+              </div>
+              <h3 className="text-lg font-bold text-[#0B2F2D]">Practical Competency</h3>
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                Learn by authoring code, building database queries, and solving realistic problem sets rather than passive lectures.
+              </p>
+            </div>
+
+            {/* Pillar 2 */}
+            <div className="p-6 rounded-2xl bg-[#FAF8F5] border border-[#EAE2D5] space-y-3">
+              <div className="w-12 h-12 rounded-xl bg-[#0B2F2D] text-[#E5B869] flex items-center justify-center font-bold">
+                <Bot className="w-6 h-6" />
+              </div>
+              <h3 className="text-lg font-bold text-[#0B2F2D]">Socratic AI Tutor</h3>
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                Receive personalized guidance, debugging assistance, and concept breakdowns whenever you encounter a learning blocker.
+              </p>
+            </div>
+
+            {/* Pillar 3 */}
+            <div className="p-6 rounded-2xl bg-[#FAF8F5] border border-[#EAE2D5] space-y-3">
+              <div className="w-12 h-12 rounded-xl bg-[#0B2F2D] text-[#E5B869] flex items-center justify-center font-bold">
+                <Sparkles className="w-6 h-6" />
+              </div>
+              <h3 className="text-lg font-bold text-[#0B2F2D]">Practice Arena</h3>
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                Work through 10 full browser-based JavaScript and web projects with live rendering and test grading.
+              </p>
+            </div>
+
+            {/* Pillar 4 */}
+            <div className="p-6 rounded-2xl bg-[#FAF8F5] border border-[#EAE2D5] space-y-3">
+              <div className="w-12 h-12 rounded-xl bg-[#0B2F2D] text-[#E5B869] flex items-center justify-center font-bold">
+                <Award className="w-6 h-6" />
+              </div>
+              <h3 className="text-lg font-bold text-[#0B2F2D]">Verified Credentials</h3>
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                Earn cryptographic certificates of completion that can be publicly validated by employers and institutions.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+      {/* =========================================================================
+          4. PRACTICE ARENA & INTERACTIVE CODE PREVIEW (Programiz-inspired)
+         ========================================================================= */}
+      <section className="py-16 md:py-24 bg-[#FAF8F5] border-b border-[#EAE2D5]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-[#0B2F2D] text-white rounded-3xl p-8 sm:p-12 lg:p-14 shadow-2xl relative overflow-hidden border border-[#165b57]">
+            
+            {/* Subtle background glow */}
+            <div className="absolute top-0 right-0 w-96 h-96 bg-[#E5B869]/10 rounded-full blur-3xl pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#124542] rounded-full blur-2xl pointer-events-none" />
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center relative z-10">
+              
+              {/* Left Column: Description & CTAs */}
+              <div className="lg:col-span-6 space-y-5">
+                <span className="text-xs font-bold text-[#E5B869] uppercase tracking-widest inline-flex items-center gap-1.5">
+                  <Terminal className="w-3.5 h-3.5" />
+                  <span>INTERACTIVE CODE PRACTICE</span>
+                </span>
+                
+                <h3 className="text-2xl sm:text-4xl font-serif font-bold text-white leading-tight">
+                  Learn by Coding in Your Browser with Instant Tests
+                </h3>
+                
+                <p className="text-sm sm:text-base text-[#D1E0DE] leading-relaxed">
+                  Passive video watching creates the illusion of skill. In FAHMRISE, you solve realistic code challenges, write real JavaScript and SQL, and get immediate automated test feedback on every execution.
+                </p>
+
+                <div className="pt-2 flex flex-wrap gap-4">
+                  <Link
+                    to="/practice"
+                    className="px-6 py-3.5 rounded-xl bg-[#E5B869] hover:bg-[#d9ab58] text-[#0B2F2D] font-bold text-sm shadow-md transition-all flex items-center gap-2 transform hover:-translate-y-0.5"
+                  >
+                    <Code2 className="w-4 h-4" />
+                    <span>Launch Practice Arena (10 Projects)</span>
+                  </Link>
+                  <Link
+                    to="/fullstack-projects"
+                    className="px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-semibold text-sm border border-white/20 transition-all flex items-center gap-2"
+                  >
+                    <Rocket className="w-4 h-4 text-[#E5B869]" />
+                    <span>Full Stack Projects</span>
+                  </Link>
+                </div>
+
+                <div className="pt-3 flex items-center gap-6 text-xs text-[#A2C4C1]">
+                  <span className="flex items-center gap-1.5">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                    <span>Instant Automated Grading</span>
+                  </span>
+                  <span className="flex items-center gap-1.5">
+                    <CheckCircle2 className="w-4 h-4 text-[#E5B869]" />
+                    <span>Zero Setup Required</span>
+                  </span>
+                </div>
+              </div>
+
+              {/* Right Column: Realistic Interactive Code Sandbox Mockup */}
+              <div className="lg:col-span-6">
+                <div className="rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shadow-2xl">
+                  {/* Window Bar */}
+                  <div className="px-4 py-3 bg-slate-900 border-b border-slate-800 flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <div className="w-3 h-3 rounded-full bg-rose-500/80" />
+                      <div className="w-3 h-3 rounded-full bg-amber-500/80" />
+                      <div className="w-3 h-3 rounded-full bg-emerald-500/80" />
+                      <span className="ml-2 font-mono text-xs text-slate-400">practice_exercise.js</span>
+                    </div>
+                    <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800 font-bold">
+                      JavaScript • ES2026
+                    </span>
+                  </div>
+
+                  {/* Code Editor Body */}
+                  <div className="p-4 sm:p-5 font-mono text-xs sm:text-sm text-slate-200 leading-relaxed bg-slate-950 overflow-x-auto">
+                    <p className="text-slate-500">// Problem: Calculate gross margin percentage</p>
+                    <p className="mt-1">
+                      <span className="text-purple-400">function</span> <span className="text-amber-300">calculateGrossMargin</span>(revenue, cogs) &#123;
+                    </p>
+                    <p className="pl-4 text-slate-400">
+                      <span className="text-purple-400">if</span> (revenue &lt;= 0) <span className="text-purple-400">return</span> <span className="text-emerald-300">'0.0%'</span>;
+                    </p>
+                    <p className="pl-4">
+                      <span className="text-purple-400">const</span> grossProfit = revenue - cogs;
+                    </p>
+                    <p className="pl-4">
+                      <span className="text-purple-400">return</span> ((grossProfit / revenue) * 100).<span className="text-blue-300">toFixed</span>(1) + <span className="text-emerald-300">'%'</span>;
+                    </p>
+                    <p>&#125;</p>
+                  </div>
+
+                  {/* Test Feedback Bar */}
+                  <div className="p-3.5 bg-slate-900/90 border-t border-slate-800 space-y-1.5 text-xs">
+                    <div className="flex items-center justify-between text-slate-300">
+                      <span className="font-semibold flex items-center gap-1.5 text-emerald-400">
+                        <Check className="w-4 h-4 text-emerald-400 font-bold" />
+                        <span>All 2 Test Cases Passed (12ms)</span>
+                      </span>
+                      <span className="text-[10px] text-slate-400">100% Correct</span>
+                    </div>
+                    <div className="text-[11px] font-mono text-slate-400 pl-5">
+                      ✓ calculateGrossMargin(1000, 400) == "60.0%"
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      {/* =========================================================================
+          5. LATEST FROM THE BLOG (Programiz-inspired Educational Articles)
+         ========================================================================= */}
+      <section className="py-16 md:py-24 bg-white border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10 md:mb-12">
+            <div>
+              <div className="inline-flex items-center gap-1.5 text-xs font-bold text-[#D97706] uppercase tracking-[0.2em] mb-2">
+                <BookOpen className="w-3.5 h-3.5" />
+                <span>EDUCATIONAL JOURNAL &amp; TUTORIALS</span>
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0B2F2D]">
+                Latest from the FAHMRISE Blog
+              </h2>
+              <p className="text-sm text-slate-600 mt-1 max-w-xl">
+                Practical engineering roadmaps, SQL optimization guides, and learning science insights written by our academic team.
+              </p>
+            </div>
+
             <Link
-              to="/practice"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-sm font-bold shadow-glow transition-all"
+              to="/blog"
+              className="inline-flex items-center gap-1.5 text-sm font-bold text-[#0B2F2D] hover:text-[#06423F] transition-colors group self-start sm:self-auto"
             >
-              <Code2 className="w-4 h-4" />
-              <span>Launch Practice Arena</span>
+              <span>View All Articles</span>
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {BLOG_POSTS.slice(0, 3).map((post) => (
+              <article
+                key={post.id}
+                className="group flex flex-col justify-between bg-[#FAF8F5] border border-[#EAE2D5] rounded-3xl p-6 shadow-sm hover:shadow-xl hover:border-[#E5B869] transition-all duration-300 transform hover:-translate-y-1"
+              >
+                <div>
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="px-2.5 py-1 rounded-full bg-white text-[#0B2F2D] text-[11px] font-bold uppercase tracking-wider border border-slate-200">
+                      {post.category}
+                    </span>
+                    <span className="text-[11px] text-slate-400 font-medium flex items-center gap-1">
+                      <Clock className="w-3 h-3" />
+                      <span>{post.readTime}</span>
+                    </span>
+                  </div>
+
+                  <h3 className="text-lg sm:text-xl font-serif font-bold text-[#0B2F2D] group-hover:text-[#06423F] transition-colors leading-snug">
+                    <Link to={`/blog/${post.slug}`}>
+                      {post.title}
+                    </Link>
+                  </h3>
+
+                  <p className="text-xs sm:text-sm text-slate-600 line-clamp-3 mt-2.5 leading-relaxed">
+                    {post.excerpt}
+                  </p>
+                </div>
+
+                <div className="pt-6 mt-6 border-t border-slate-200/80 flex items-center justify-between">
+                  <span className="text-[11px] text-slate-500 font-medium">
+                    {post.publishedDate}
+                  </span>
+
+                  <Link
+                    to={`/blog/${post.slug}`}
+                    className="inline-flex items-center gap-1 text-xs font-bold text-[#0B2F2D] group-hover:text-[#E5B869] transition-colors"
+                  >
+                    <span>Read Article</span>
+                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
+
         </div>
       </section>
 
-      {/* 5. THE 4-STEP FAHMRISE LEARNING CYCLE */}
-      <section className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-        <div className="text-center max-w-2xl mx-auto space-y-3">
-          <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest">
-            The FAHMRISE Methodology
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-black text-white">
-            Understand. Learn. Rise.
-          </h2>
-          <p className="text-slate-400 text-sm">
-            Our 4-step pedagogical cycle ensures long-term skill retention and real-world execution.
-          </p>
-        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          <div className="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 space-y-3">
-            <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold">
-              1
-            </div>
-            <h3 className="text-lg font-bold text-white">1. Understand</h3>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              Read concise, structured chapters crafted with real-world analogies and clear visual mental models.
-            </p>
-          </div>
-
-          <div className="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 space-y-3">
-            <div className="w-10 h-10 rounded-xl bg-teal-500/10 border border-teal-500/30 flex items-center justify-center text-teal-400 font-bold">
-              2
-            </div>
-            <h3 className="text-lg font-bold text-white">2. AI Tutor Support</h3>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              Stuck on a syntax bug or concept? Ask the FAHMRISE AI Tutor for Socratic hints, code inspection, and voice explanations.
-            </p>
-          </div>
-
-          <div className="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 space-y-3">
-            <div className="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 font-bold">
-              3
-            </div>
-            <h3 className="text-lg font-bold text-white">3. Practice & Build</h3>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              Write code in browser, execute real test cases, test DOM outputs in real-time, and pass checkpoint quizzes.
-            </p>
-          </div>
-
-          <div className="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 space-y-3">
-            <div className="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold">
-              4
-            </div>
-            <h3 className="text-lg font-bold text-white">4. Rise</h3>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              Complete capstone projects, earn verified credentials, build your digital portfolio, and advance your career.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* AI Tutor Drawer Trigger */}
+      {/* Socratic AI Tutor Drawer */}
       <AiTutorDrawer
         isOpen={aiTutorOpen}
         onClose={() => setAiTutorOpen(false)}
-        currentLesson={{ title: "FAHMRISE Web Overview", summary: "Introduction to HTML, CSS, JavaScript, and practice projects." }}
+        currentLesson={{ 
+          title: "FAHMRISE Learning Platform", 
+          summary: "Explore courses, practice real projects, and develop verified skills." 
+        }}
       />
 
     </div>

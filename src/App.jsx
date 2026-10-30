@@ -28,6 +28,10 @@ import BecomeCoachPage from './pages/BecomeCoachPage';
 import InstructorDashboardPage from './pages/InstructorDashboardPage';
 import ArabicTrackPage from './pages/ArabicTrackPage';
 import FullStackProjectsPage from './pages/FullStackProjectsPage';
+import BlogPage from './pages/BlogPage';
+import BlogPostPage from './pages/BlogPostPage';
+import ContactPage from './pages/ContactPage';
+import WelcomePromoModal from './components/common/WelcomePromoModal';
 import { ShieldCheck, Lock } from 'lucide-react';
 
 // Protected Route Guard (For authenticated learners & admins)
@@ -120,6 +124,11 @@ function AdminRoute({ children }) {
   return children;
 }
 
+// Disable automatic browser scroll restoration to prevent browser history restoring wrong scroll positions
+if (typeof window !== 'undefined' && 'scrollRestoration' in window.history) {
+  window.history.scrollRestoration = 'manual';
+}
+
 // Scroll to top helper
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -135,7 +144,7 @@ export default function App() {
       <ProgressProvider>
         <Router>
           <ScrollToTop />
-          <div className="flex flex-col min-h-screen bg-slate-950 text-slate-100 selection:bg-emerald-500 selection:text-white">
+          <div className="flex flex-col min-h-screen bg-[#0B2F2D] text-slate-100 selection:bg-[#E5B869] selection:text-[#0B2F2D]">
             <Navbar />
             <div className="flex-1">
               <Routes>
@@ -232,6 +241,13 @@ export default function App() {
                 {/* Practice Arena (10 Progressive JS Projects) */}
                 <Route path="/practice/:practiceId?" element={<PracticePage />} />
 
+                {/* Educational Blog & Articles */}
+                <Route path="/blog" element={<BlogPage />} />
+                <Route path="/blog/:slug" element={<BlogPostPage />} />
+
+                {/* Contact FAHMRISE Support */}
+                <Route path="/contact" element={<ContactPage />} />
+
                 {/* Full Stack Development Projects & Deployment (6 Progressive Projects) */}
                 <Route path="/fullstack-projects" element={<FullStackProjectsPage />} />
                 <Route path="/fullstack-projects/:projectId" element={<FullStackProjectsPage />} />
@@ -276,6 +292,7 @@ export default function App() {
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </div>
+            <WelcomePromoModal />
             <Footer />
           </div>
         </Router>

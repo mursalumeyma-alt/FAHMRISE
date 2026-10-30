@@ -1072,5 +1072,24 @@ export const api = {
       });
       return handleResponse(res);
     }
+  },
+
+  // Contact & Inquiries
+  contact: {
+    async sendMessage(payload) {
+      const res = await fetch(`${API_BASE}/contact`, {
+        method: 'POST',
+        headers: getAuthHeaders(),
+        body: JSON.stringify(payload)
+      });
+      return handleResponse(res);
+    },
+
+    async getStatus() {
+      const res = await fetch(`${API_BASE}/contact/status`, {
+        headers: getAuthHeaders()
+      });
+      return handleResponse(res);
+    }
   }
 };

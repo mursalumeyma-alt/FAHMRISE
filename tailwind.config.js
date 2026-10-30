@@ -29,10 +29,21 @@ export default {
           savannah: '#10b981',
           slate: '#0f172a',
           obsidian: '#090d16'
+        },
+        fahmrise: {
+          teal: '#0B2F2D',
+          'teal-dark': '#072120',
+          'teal-light': '#124542',
+          gold: '#E5B869',
+          'gold-light': '#F0C775',
+          'gold-dark': '#C99D4E',
+          cream: '#FAF8F5',
+          'cream-dark': '#F0EBE1',
         }
       },
       fontFamily: {
         sans: ['Plus Jakarta Sans', 'Inter', 'system-ui', 'sans-serif'],
+        serif: ['Playfair Display', 'Georgia', 'Cambria', '"Times New Roman"', 'serif'],
         mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
       },
       boxShadow: {

@@ -76,6 +76,10 @@ export default function ArabicTrackPage() {
   const [selectedLangId, setSelectedLangId] = useState(getLanguageFromUrl());
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
+  useEffect(() => {
     const activeFromUrl = getLanguageFromUrl();
     if (activeFromUrl && activeFromUrl !== selectedLangId) {
       setSelectedLangId(activeFromUrl);

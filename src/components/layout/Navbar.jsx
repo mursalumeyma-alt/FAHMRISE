@@ -21,17 +21,22 @@ import {
   Coins,
   GraduationCap,
   Rocket,
-  Video
+  Video,
+  Search,
+  ExternalLink,
+  Mail
 } from 'lucide-react';
+import Modal from '../common/Modal';
+import { BLOG_POSTS } from '../../data/blogData';
 
 export default function Navbar() {
   const { user, logout, subscription, isSubscriptionActive, daysRemaining, isTeacherReviewer } = useAuth();
-
-  const { progress } = useProgress();
   const navigate = useNavigate();
   const location = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [userMenuOpen, setUserMenuOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
   const activeSub = isSubscriptionActive();
 
@@ -41,407 +46,413 @@ export default function Navbar() {
     navigate('/');
   };
 
-  const navLinks = [
-    { name: 'Course Catalog', path: '/courses', icon: Layers },
-    { name: 'Full Stack Projects', path: '/fullstack-projects', icon: Rocket, badge: '6 Projects' },
-    { name: 'Practice Arena', path: '/practice', icon: Code2, badge: '10 Projects' },
-    { name: 'AI Tutor', path: '/ai-tutor', icon: Bot, badge: 'Voice' },
-    { name: 'Become a Coach', path: '/become-a-coach', icon: Sparkles, badge: 'Apply' },
-    ...(user?.role === 'admin' ? [
-      { name: 'YouTube Video Manager', path: '/admin/videos', icon: Video, badge: 'Admin' }
-    ] : []),
-    ...(user ? [{ name: 'My Learning', path: '/dashboard', icon: BookOpen }] : [])
+  const handleAboutClick = (e) => {
+    if (location.pathname === '/') {
+      e.preventDefault();
+      const el = document.getElementById('about');
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      navigate('/#about');
+    }
+    setMobileOpen(false);
+  };
+
+  const handleCoursesClick = () => {
+    setMobileOpen(false);
+    navigate('/courses');
+  };
+
+  const searchableItems = [
+    { title: 'Frontend Developer: Zero to Job-Ready', path: '/courses/frontend-developer-zero-to-job-ready', category: 'Technology', badge: 'Flagship' },
+    { title: 'Backend Developer: Zero to Job-Ready', path: '/courses/backend-developer-zero-to-job-ready', category: 'Technology', badge: 'Flagship' },
+    { title: 'Full-Stack Developer Bundle', path: '/courses/fullstack-developer-bundle', category: 'Technology', badge: 'Bundle' },
+    { title: 'Data Analytics & Spreadsheets', path: '/courses/data-analysis-spreadsheets', category: 'Data & Analytics', badge: 'Beginner' },
+    { title: 'SQL & Relational Databases Mastery', path: '/courses/sql-relational-databases', category: 'Data & Analytics', badge: 'Interactive' },
+    { title: 'Power BI Business Intelligence', path: '/courses/power-bi-business-intelligence', category: 'Data & Analytics', badge: 'DAX' },
+    { title: 'International Languages: Arabic Track', path: '/tracks/international-languages', category: 'Languages', badge: 'A1-B2' },
+    { title: 'Islamic Studies & Quranic Sciences', path: '/courses?category=Islamic%20Studies', category: 'Islamic Studies', badge: 'Core' },
+    { title: 'Practice Arena (10 Real JavaScript Projects)', path: '/practice', category: 'Practice Arena', badge: '10 Projects' },
+    { title: 'Full Stack Projects & Deployment', path: '/fullstack-projects', category: 'Projects', badge: '6 Projects' },
+    ...BLOG_POSTS.map(post => ({
+      title: post.title,
+      path: `/blog/${post.slug}`,
+      category: `Blog • ${post.category}`,
+      badge: post.readTime
+    }))
   ];
+
+  const filteredItems = searchQuery.trim() === ''
+    ? searchableItems
+    : searchableItems.filter(item => 
+        item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        item.category.toLowerCase().includes(searchQuery.toLowerCase())
+      );
 
   const isActive = (path) => {
     if (path === '/' && location.pathname === '/') return true;
-    return location.pathname.startsWith(path);
+    if (path !== '/' && location.pathname.startsWith(path)) return true;
+    return false;
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full max-w-full bg-slate-950/95 backdrop-blur-md border-b border-slate-800/80">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 gap-2">
-          
-          {/* FAHMRISE Brand Logo */}
-          <Link to="/" className="flex items-center gap-2.5 sm:gap-3 group flex-shrink-0">
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-emerald-500 via-teal-600 to-amber-500 p-0.5 shadow-glow group-hover:scale-105 transition-transform flex items-center justify-center">
-              <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
-                <span className="text-lg sm:text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">
-                  F
-                </span>
-              </div>
-            </div>
-            <div className="min-w-0">
-              <div className="flex items-center gap-1.5 sm:gap-2">
-                <span className="text-lg sm:text-xl font-black tracking-tight text-white group-hover:text-emerald-400 transition-colors">
+    <>
+      <header className="sticky top-0 z-40 w-full max-w-full bg-[#0B2F2D] border-b border-[#072120] shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-20 gap-4">
+            
+            {/* FAHMRISE Brand Logo */}
+            <Link to="/" className="flex items-center gap-3 group flex-shrink-0">
+              <img
+                src="/fahmrise-gold-emblem.png"
+                alt="FAHMRISE Gold Emblem"
+                className="w-10 h-10 object-contain drop-shadow-md group-hover:scale-105 transition-transform"
+              />
+              <div className="flex flex-col">
+                <span className="text-xl sm:text-2xl font-serif font-bold tracking-tight text-[#E5B869] group-hover:text-amber-200 transition-colors leading-none">
                   FAHMRISE
                 </span>
-                <span className="text-[9px] sm:text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-                  v2.0
+                <span className="text-[9px] sm:text-[10px] font-bold tracking-[0.2em] text-[#E5B869] uppercase mt-1 leading-none">
+                  LEARNING WITHOUT LIMITS
                 </span>
               </div>
-              <p className="text-[9px] sm:text-[10px] text-slate-400 -mt-0.5 font-medium hidden md:block tracking-wide truncate">
-                Understand. Learn. Rise.
-              </p>
-            </div>
-          </Link>
+            </Link>
 
-          {/* Desktop Navigation (lg screens and above) */}
-          <nav className="hidden lg:flex items-center gap-1 xl:gap-2 flex-shrink-0">
-            {navLinks.map((link) => {
-              const Icon = link.icon;
-              const active = isActive(link.path);
-              return (
-                <Link
-                  key={link.path}
-                  to={link.path}
-                  className={`flex items-center gap-1.5 px-2.5 xl:px-3.5 py-1.5 xl:py-2 rounded-xl text-xs xl:text-sm font-medium transition-all whitespace-nowrap ${
-                    active 
-                      ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 shadow-sm font-semibold' 
-                      : 'text-slate-300 hover:text-white hover:bg-slate-900'
-                  }`}
-                >
-                  <Icon className="w-3.5 h-3.5 xl:w-4 xl:h-4 opacity-80 flex-shrink-0" />
-                  <span>{link.name}</span>
-                  {link.badge && (
-                    <span className="text-[9px] xl:text-[10px] font-bold px-1.5 py-0.5 rounded bg-amber-400/20 text-amber-300 border border-amber-400/30 flex-shrink-0 leading-none">
-                      {link.badge}
-                    </span>
-                  )}
-                </Link>
-              );
-            })}
-          </nav>
+            {/* Desktop Navigation Links */}
+            <nav className="hidden md:flex items-center gap-5 lg:gap-7 flex-shrink-0">
+              <Link
+                to="/"
+                className={`text-sm font-semibold transition-colors ${
+                  location.pathname === '/' 
+                    ? 'text-[#E5B869]' 
+                    : 'text-white/90 hover:text-white'
+                }`}
+              >
+                Home
+              </Link>
+              <Link
+                to="/courses"
+                className={`text-sm font-semibold transition-colors ${
+                  isActive('/courses') 
+                    ? 'text-[#E5B869]' 
+                    : 'text-white/90 hover:text-white'
+                }`}
+              >
+                Courses
+              </Link>
+              <Link
+                to="/practice"
+                className={`text-sm font-semibold transition-colors ${
+                  isActive('/practice') 
+                    ? 'text-[#E5B869]' 
+                    : 'text-white/90 hover:text-white'
+                }`}
+              >
+                Practice
+              </Link>
+              <Link
+                to="/blog"
+                className={`text-sm font-semibold transition-colors ${
+                  isActive('/blog') 
+                    ? 'text-[#E5B869]' 
+                    : 'text-white/90 hover:text-white'
+                }`}
+              >
+                Blog
+              </Link>
+              <a
+                href="#about"
+                onClick={handleAboutClick}
+                className="text-sm font-semibold text-white/90 hover:text-white transition-colors cursor-pointer"
+              >
+                About
+              </a>
+              <Link
+                to="/contact"
+                className={`text-sm font-semibold transition-colors ${
+                  isActive('/contact') 
+                    ? 'text-[#E5B869]' 
+                    : 'text-white/90 hover:text-white'
+                }`}
+              >
+                Contact
+              </Link>
+            </nav>
 
-          {/* User Auth Actions (Desktop) */}
-          <div className="hidden lg:flex items-center gap-2 xl:gap-3 flex-shrink-0">
-            {user ? (
-              <>
-                {user.role === 'admin' && (
-                  <Link
-                    to="/admin/videos"
-                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-rose-500/15 text-rose-300 hover:bg-rose-500/25 border border-rose-500/30 transition-all shadow-sm"
-                    title="YouTube Video Manager Console"
-                  >
-                    <Video className="w-3.5 h-3.5 text-rose-400" />
-                    <span>Video Manager</span>
-                  </Link>
-                )}
+            {/* Right Side Actions: Search + Auth */}
+            <div className="hidden sm:flex items-center gap-3 flex-shrink-0">
+              {/* Search Icon Button */}
+              <button
+                onClick={() => setSearchOpen(true)}
+                className="p-2 text-white/80 hover:text-white hover:bg-white/10 rounded-full transition-colors"
+                aria-label="Search courses"
+                title="Search courses & topics"
+              >
+                <Search className="w-5 h-5" />
+              </button>
+
+              {user ? (
+                /* Authenticated User Menu */
                 <div className="relative">
                   <button
                     onClick={() => setUserMenuOpen(!userMenuOpen)}
-                    className="flex items-center gap-2 p-1.5 pr-2.5 rounded-full bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition-all text-xs xl:text-sm"
+                    className="flex items-center gap-2 p-1.5 pr-3 rounded-full bg-black/20 border border-white/10 hover:border-[#E5B869]/50 transition-all text-xs"
                   >
-                  <img
-                    src={user.avatar || 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100'}
-                    alt={user.name}
-                    className="w-6 h-6 xl:w-7 xl:h-7 rounded-full object-cover border border-emerald-500/40"
-                  />
-                  <span className="text-slate-200 font-semibold text-xs max-w-[80px] xl:max-w-[110px] truncate">{user.name}</span>
-                  
-                  {/* Subscription / Teacher Reviewer Pill */}
-                  {isTeacherReviewer ? (
-                    <span className="text-[9px] xl:text-[10px] font-bold px-2 py-0.5 rounded border whitespace-nowrap bg-indigo-950 text-indigo-300 border-indigo-700/80 flex items-center gap-1 shadow-sm">
-                      <GraduationCap className="w-3 h-3 text-indigo-400" />
-                      <span>Teacher Reviewer</span>
-                    </span>
-                  ) : subscription && (
-                    <span className={`text-[9px] xl:text-[10px] font-bold px-1.5 py-0.5 rounded border whitespace-nowrap ${
-                      activeSub
-                        ? 'bg-emerald-950 text-emerald-300 border-emerald-800/80'
-                        : 'bg-rose-950 text-rose-300 border-rose-800/80'
-                    }`}>
-                      {activeSub ? `Active • ${daysRemaining}d` : 'Expired'}
-                    </span>
-                  )}
-                </button>
-
-                {userMenuOpen && (
-                  <div 
-                    className="absolute right-0 mt-2 w-64 bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl py-2 z-50 animate-in fade-in slide-in-from-top-2"
-                    onClick={() => setUserMenuOpen(false)}
-                  >
-                    <div className="px-4 py-2.5 border-b border-slate-800 text-xs">
-                      <p className="font-bold text-white truncate">{user.name}</p>
-                      <p className="text-slate-400 truncate">{user.email}</p>
-                      
-                      {isTeacherReviewer ? (
-                        <div className="mt-2 p-2.5 rounded-xl bg-indigo-950/80 border border-indigo-500/40 space-y-1">
-                          <div className="flex items-center justify-between text-[11px]">
-                            <span className="text-indigo-300 font-bold flex items-center gap-1">
-                              <GraduationCap className="w-3.5 h-3.5 text-indigo-400" />
-                              Reviewer Mode
-                            </span>
-                            <span className="text-emerald-400 font-bold">Full Access 🔓</span>
-                          </div>
-                          <p className="text-[10px] text-slate-300 leading-tight">
-                            All courses, lessons, quizzes & sandboxes unlocked for inspection.
-                          </p>
-                        </div>
-                      ) : subscription && (
-                        <div className="mt-2 p-2 rounded-xl bg-slate-950 border border-slate-800/80 space-y-1">
-                          <div className="flex items-center justify-between text-[11px]">
-                            <span className="text-slate-400">Monthly Plan:</span>
-                            <span className={activeSub ? 'text-emerald-400 font-bold' : 'text-rose-400 font-bold'}>
-                              {activeSub ? 'Active 🔓' : 'Expired 🔒'}
-                            </span>
-                          </div>
-                          <p className="text-[10px] text-slate-500">
-                            {activeSub ? `Expires: ${subscription.formattedExpiresAt}` : 'Renew to unlock courses'}
-                          </p>
-                        </div>
-                      )}
-                    </div>
-
-                    <Link
-                      to="/dashboard"
-                      className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-300 hover:text-white hover:bg-slate-800/70"
-                    >
-                      <Sparkles className="w-4 h-4 text-emerald-400" />
-                      <span>My Learning</span>
-                    </Link>
-
-                    <Link
-                      to="/courses"
-                      className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-300 hover:text-white hover:bg-slate-800/70"
-                    >
-                      <BookOpen className="w-4 h-4 text-teal-400" />
-                      <span>Browse All Courses</span>
-                    </Link>
-
-                    <Link
-                      to="/fullstack-projects"
-                      className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-300 hover:text-white hover:bg-slate-800/70"
-                    >
-                      <Rocket className="w-4 h-4 text-indigo-400" />
-                      <span>Full Stack Projects</span>
-                    </Link>
-
-                    {(user?.role === 'instructor' || user?.role === 'admin') && (
-                      <Link
-                        to="/instructor/dashboard"
-                        className="flex items-center gap-2.5 px-4 py-2.5 text-sm font-medium text-emerald-300 bg-emerald-950/30 hover:bg-emerald-900/40 border-y border-emerald-500/20"
-                      >
-                        <Coins className="w-4 h-4 text-emerald-400" />
-                        <span>Instructor Portal (70%)</span>
-                        <span className="ml-auto text-[10px] uppercase font-bold px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300">Share</span>
-                      </Link>
+                    <img
+                      src={user.avatar || 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100'}
+                      alt={user.name}
+                      className="w-7 h-7 rounded-full object-cover border border-[#E5B869]/40"
+                    />
+                    <span className="text-white font-medium text-xs max-w-[100px] truncate">{user.name}</span>
+                    
+                    {isTeacherReviewer ? (
+                      <span className="text-[9px] font-bold px-2 py-0.5 rounded bg-indigo-900/80 text-indigo-200 border border-indigo-700/60 flex items-center gap-1">
+                        <GraduationCap className="w-3 h-3" />
+                        <span>Reviewer</span>
+                      </span>
+                    ) : subscription && (
+                      <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded ${
+                        activeSub ? 'bg-emerald-900/80 text-emerald-300' : 'bg-rose-900/80 text-rose-300'
+                      }`}>
+                        {activeSub ? 'Active' : 'Expired'}
+                      </span>
                     )}
+                  </button>
 
-                    {user?.role === 'admin' && (
-                      <>
-                        <Link
-                          to="/admin"
-                          className="flex items-center gap-2.5 px-4 py-2 text-sm font-semibold text-purple-300 bg-purple-950/40 hover:bg-purple-900/50"
-                        >
-                          <ShieldCheck className="w-4 h-4 text-purple-400" />
-                          <span>Admin Console</span>
-                          <span className="ml-auto text-[10px] uppercase font-bold px-1.5 py-0.5 rounded bg-purple-500/30 text-purple-200">Admin</span>
-                        </Link>
+                  {userMenuOpen && (
+                    <div 
+                      className="absolute right-0 mt-2 w-64 bg-[#072120] border border-white/10 rounded-2xl shadow-2xl py-2 z-50 animate-in fade-in slide-in-from-top-2"
+                      onClick={() => setUserMenuOpen(false)}
+                    >
+                      <div className="px-4 py-2.5 border-b border-white/10 text-xs">
+                        <p className="font-bold text-white truncate">{user.name}</p>
+                        <p className="text-[#A2C4C1] truncate">{user.email}</p>
+                      </div>
+
+                      <Link
+                        to="/dashboard"
+                        className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-200 hover:text-white hover:bg-white/5"
+                      >
+                        <Sparkles className="w-4 h-4 text-[#E5B869]" />
+                        <span>My Learning</span>
+                      </Link>
+
+                      <Link
+                        to="/courses"
+                        className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-200 hover:text-white hover:bg-white/5"
+                      >
+                        <BookOpen className="w-4 h-4 text-emerald-400" />
+                        <span>Browse Courses</span>
+                      </Link>
+
+                      <Link
+                        to="/fullstack-projects"
+                        className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-200 hover:text-white hover:bg-white/5"
+                      >
+                        <Rocket className="w-4 h-4 text-indigo-400" />
+                        <span>Full Stack Projects</span>
+                      </Link>
+
+                      {user?.role === 'admin' && (
                         <Link
                           to="/admin/videos"
-                          className="flex items-center gap-2.5 px-4 py-2 text-sm font-semibold text-rose-300 bg-rose-950/40 hover:bg-rose-900/50 border-b border-rose-500/20"
+                          className="flex items-center gap-2.5 px-4 py-2 text-sm font-semibold text-rose-300 bg-rose-950/40 hover:bg-rose-900/50"
                         >
                           <Video className="w-4 h-4 text-rose-400" />
                           <span>Video Manager</span>
-                          <span className="ml-auto text-[10px] uppercase font-bold px-1.5 py-0.5 rounded bg-rose-500/30 text-rose-200">YouTube</span>
                         </Link>
-                      </>
-                    )}
+                      )}
 
-                    <div className="border-t border-slate-800 my-1"></div>
+                      <div className="border-t border-white/10 my-1"></div>
 
-                    <button
-                      onClick={handleLogout}
-                      className="w-full text-left flex items-center gap-2.5 px-4 py-2.5 text-sm text-rose-400 hover:bg-rose-950/30"
-                    >
-                      <LogOut className="w-4 h-4" />
-                      <span>Sign Out</span>
-                    </button>
-                  </div>
-                )}
-              </div>
-            </>
-            ) : (
-              <div className="flex items-center gap-2">
-                <Link
-                  to="/admin/videos"
-                  className="px-2.5 xl:px-3 py-1.5 xl:py-2 rounded-xl text-xs xl:text-sm font-bold bg-rose-500/20 text-rose-300 hover:bg-rose-500/30 border border-rose-500/40 transition-all flex items-center gap-1.5 whitespace-nowrap shadow-sm"
-                  title="Administrator & YouTube Video Manager Access"
-                >
-                  <Video className="w-3.5 h-3.5 text-rose-400" />
-                  <span>Admin / Videos</span>
-                </Link>
-                <Link
-                  to="/login"
-                  className="px-2.5 xl:px-3 py-1.5 xl:py-2 rounded-xl text-xs xl:text-sm font-bold bg-indigo-500/20 text-indigo-300 hover:bg-indigo-500/30 border border-indigo-500/40 transition-all flex items-center gap-1.5 whitespace-nowrap shadow-sm"
-                  title="Teacher Reviewer & Supervisor Access"
-                >
-                  <GraduationCap className="w-3.5 h-3.5 text-indigo-400" />
-                  <span>Teacher Review</span>
-                </Link>
-                <Link
-                  to="/login"
-                  className="px-3 xl:px-4 py-1.5 xl:py-2 text-xs xl:text-sm font-semibold text-slate-300 hover:text-white transition-colors"
-                >
-                  Log In
-                </Link>
-                <Link
-                  to="/courses"
-                  className="px-3 xl:px-4 py-1.5 xl:py-2 rounded-xl text-xs xl:text-sm font-semibold bg-emerald-500 hover:bg-emerald-400 text-slate-950 shadow-glow transition-all flex items-center gap-1.5 whitespace-nowrap"
-                >
-                  <span>Explore Courses</span>
-                  <ChevronRight className="w-3.5 h-3.5 xl:w-4 xl:h-4" />
-                </Link>
-              </div>
-            )}
-          </div>
+                      <button
+                        onClick={handleLogout}
+                        className="w-full text-left flex items-center gap-2.5 px-4 py-2.5 text-sm text-rose-400 hover:bg-rose-950/30"
+                      >
+                        <LogOut className="w-4 h-4" />
+                        <span>Sign Out</span>
+                      </button>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                /* Unauthenticated Actions */
+                <div className="flex items-center gap-3">
+                  <Link
+                    to="/login"
+                    className="text-sm font-semibold text-white/95 hover:text-white px-3 py-2 rounded-lg hover:bg-white/5 transition-colors"
+                  >
+                    Log In
+                  </Link>
+                  <Link
+                    to="/signup"
+                    className="text-sm font-bold bg-[#E5B869] hover:bg-[#d9ab58] text-[#0B2F2D] px-5 py-2.5 rounded-xl shadow-md transition-all transform hover:-translate-y-0.5 active:translate-y-0 flex items-center justify-center whitespace-nowrap"
+                  >
+                    Sign Up
+                  </Link>
+                </div>
+              )}
+            </div>
 
-
-          {/* Mobile/Tablet Menu Button */}
-          <div className="flex lg:hidden items-center gap-2">
-            {user && (
-              <Link
-                to="/dashboard"
-                className="p-1.5 px-2.5 rounded-lg text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 text-xs font-semibold flex items-center gap-1"
-                title="My Learning"
+            {/* Mobile / Tablet Menu Button */}
+            <div className="flex md:hidden items-center gap-2">
+              <button
+                onClick={() => setSearchOpen(true)}
+                className="p-2 text-white/80 hover:text-white rounded-lg"
+                aria-label="Search"
               >
-                <Sparkles className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline">My Learning</span>
-              </Link>
-            )}
-            <button
-              onClick={() => setMobileOpen(!mobileOpen)}
-              className="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-900 border border-slate-800 transition-colors"
-              aria-label="Toggle menu"
-            >
-              {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-            </button>
+                <Search className="w-5 h-5" />
+              </button>
+              <button
+                onClick={() => setMobileOpen(!mobileOpen)}
+                className="p-2 rounded-xl text-white/80 hover:text-white hover:bg-white/10 transition-colors"
+                aria-label="Toggle navigation menu"
+              >
+                {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              </button>
+            </div>
+
           </div>
         </div>
-      </div>
 
-      {/* Mobile/Tablet Slide-Down Navigation Drawer */}
-      {mobileOpen && (
-        <div className="lg:hidden bg-slate-950/98 border-b border-slate-800 px-4 pt-2 pb-6 space-y-2 max-w-full overflow-hidden animate-in fade-in slide-in-from-top-2">
-          {navLinks.map((link) => {
-            const Icon = link.icon;
-            return (
-              <Link
-                key={link.path}
-                to={link.path}
-                onClick={() => setMobileOpen(false)}
-                className="flex items-center justify-between px-4 py-3 rounded-xl text-base font-medium text-slate-200 hover:bg-slate-900 border border-slate-900"
-              >
-                <div className="flex items-center gap-3">
-                  <Icon className="w-5 h-5 text-emerald-400" />
-                  <span>{link.name}</span>
-                </div>
-                {link.badge && (
-                  <span className="text-xs px-2 py-0.5 rounded bg-amber-400/20 text-amber-300 border border-amber-400/30">
-                    {link.badge}
-                  </span>
-                )}
-              </Link>
-            );
-          })}
+        {/* Mobile Navigation Drawer */}
+        {mobileOpen && (
+          <div className="md:hidden bg-[#072120] border-b border-[#0B2F2D] px-4 pt-3 pb-6 space-y-3 animate-in fade-in slide-in-from-top-2">
+            <Link
+              to="/"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 rounded-lg text-base font-semibold text-white hover:bg-white/5"
+            >
+              Home
+            </Link>
+            <Link
+              to="/courses"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 rounded-lg text-base font-semibold text-white hover:bg-white/5"
+            >
+              Courses
+            </Link>
+            <Link
+              to="/practice"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 rounded-lg text-base font-semibold text-white hover:bg-white/5"
+            >
+              Practice
+            </Link>
+            <Link
+              to="/blog"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 rounded-lg text-base font-semibold text-white hover:bg-white/5"
+            >
+              Blog
+            </Link>
+            <a
+              href="#about"
+              onClick={handleAboutClick}
+              className="block px-3 py-2.5 rounded-lg text-base font-semibold text-white hover:bg-white/5 cursor-pointer"
+            >
+              About
+            </a>
+            <Link
+              to="/contact"
+              onClick={() => setMobileOpen(false)}
+              className={`block px-3 py-2.5 rounded-lg text-base font-semibold transition-colors ${
+                isActive('/contact') 
+                  ? 'text-[#E5B869] bg-white/10' 
+                  : 'text-white hover:bg-white/5'
+              }`}
+            >
+              Contact
+            </Link>
 
-          <div className="border-t border-slate-800 pt-4 mt-2">
-            {user ? (
-              <div className="space-y-2">
-                {(user?.role === 'instructor' || user?.role === 'admin') && (
+            <div className="border-t border-white/10 pt-4 mt-2 space-y-2">
+              {user ? (
+                <>
                   <Link
-                    to="/instructor/dashboard"
+                    to="/dashboard"
                     onClick={() => setMobileOpen(false)}
-                    className="flex items-center gap-3 px-4 py-3 rounded-xl bg-emerald-950/60 border border-emerald-500/30 text-emerald-200 text-sm font-bold"
+                    className="block w-full text-center py-2.5 px-4 rounded-xl bg-white/10 text-white font-semibold text-sm"
                   >
-                    <Coins className="w-5 h-5 text-emerald-400" />
-                    <span>Instructor Portal (70%)</span>
-                    <span className="ml-auto text-[10px] bg-emerald-500/30 px-2 py-0.5 rounded">Provider</span>
+                    My Learning
                   </Link>
-                )}
-                {user?.role === 'admin' && (
-                  <>
-                    <Link
-                      to="/admin"
-                      onClick={() => setMobileOpen(false)}
-                      className="flex items-center gap-3 px-4 py-3 rounded-xl bg-purple-950/60 border border-purple-500/30 text-purple-200 text-sm font-bold"
-                    >
-                      <ShieldCheck className="w-5 h-5 text-purple-400" />
-                      <span>Admin Console</span>
-                      <span className="ml-auto text-[10px] bg-purple-500/30 px-2 py-0.5 rounded">Admin</span>
-                    </Link>
-                    <Link
-                      to="/admin/videos"
-                      onClick={() => setMobileOpen(false)}
-                      className="flex items-center gap-3 px-4 py-3 rounded-xl bg-rose-950/60 border border-rose-500/30 text-rose-200 text-sm font-bold"
-                    >
-                      <Video className="w-5 h-5 text-rose-400" />
-                      <span>YouTube Video Manager</span>
-                      <span className="ml-auto text-[10px] bg-rose-500/30 px-2 py-0.5 rounded">Videos</span>
-                    </Link>
-                  </>
-                )}
-                <Link
-                  to="/profile"
-                  onClick={() => setMobileOpen(false)}
-                  className="flex items-center gap-3 px-4 py-3 rounded-xl bg-slate-900 text-slate-200 text-sm font-medium"
-                >
-                  <User className="w-5 h-5 text-amber-400" />
-                  <span>{user.name} (Profile & Certificates)</span>
-                </Link>
-                <button
-                  onClick={() => {
-                    handleLogout();
-                    setMobileOpen(false);
-                  }}
-                  className="w-full text-left flex items-center gap-3 px-4 py-3 rounded-xl text-rose-400 hover:bg-rose-950/30 text-sm font-medium"
-                >
-                  <LogOut className="w-5 h-5" />
-                  <span>Sign Out</span>
-                </button>
-              </div>
-            ) : (
-              <div className="space-y-2 pt-2">
-                <Link
-                  to="/admin/videos"
-                  onClick={() => setMobileOpen(false)}
-                  className="w-full text-center py-2.5 rounded-xl bg-rose-950/80 text-rose-300 border border-rose-500/40 text-sm font-bold flex items-center justify-center gap-2"
-                >
-                  <Video className="w-4 h-4 text-rose-400" />
-                  <span>Admin & Video Manager Access</span>
-                </Link>
-                <Link
-                  to="/login"
-                  onClick={() => setMobileOpen(false)}
-                  className="w-full text-center py-2.5 rounded-xl bg-indigo-950/80 text-indigo-300 border border-indigo-500/40 text-sm font-bold flex items-center justify-center gap-2"
-                >
-                  <GraduationCap className="w-4 h-4 text-indigo-400" />
-                  <span>Teacher Review Access</span>
-                </Link>
-                <div className="grid grid-cols-2 gap-2">
+                  <button
+                    onClick={handleLogout}
+                    className="block w-full text-center py-2.5 px-4 rounded-xl bg-rose-950/60 text-rose-300 font-semibold text-sm"
+                  >
+                    Sign Out
+                  </button>
+                </>
+              ) : (
+                <div className="grid grid-cols-2 gap-3 pt-1">
                   <Link
                     to="/login"
                     onClick={() => setMobileOpen(false)}
-                    className="w-full text-center py-2.5 rounded-xl bg-slate-900 text-slate-200 text-sm font-semibold border border-slate-800"
+                    className="text-center py-2.5 px-4 rounded-xl border border-white/20 text-white font-semibold text-sm hover:bg-white/5"
                   >
                     Log In
                   </Link>
                   <Link
                     to="/signup"
                     onClick={() => setMobileOpen(false)}
-                    className="w-full text-center py-2.5 rounded-xl bg-emerald-500 text-slate-950 text-sm font-semibold shadow-glow"
+                    className="text-center py-2.5 px-4 rounded-xl bg-[#E5B869] text-[#0B2F2D] font-bold text-sm shadow-md"
                   >
                     Sign Up
                   </Link>
                 </div>
-              </div>
-            )}
+              )}
+            </div>
+          </div>
+        )}
+      </header>
 
+      {/* Course Search Modal */}
+      <Modal
+        isOpen={searchOpen}
+        onClose={() => setSearchOpen(false)}
+        title="Search FAHMRISE Courses & Disciplines"
+      >
+        <div className="space-y-4">
+          <div className="relative">
+            <Search className="w-5 h-5 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
+            <input
+              type="text"
+              placeholder="Search by course name, topic, or discipline (e.g. React, SQL, Arabic)..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-11 pr-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white placeholder-slate-400 text-sm focus:outline-none focus:border-[#E5B869]"
+              autoFocus
+            />
+          </div>
+
+          <div className="max-h-[60vh] overflow-y-auto space-y-2 divide-y divide-slate-800">
+            {filteredItems.length === 0 ? (
+              <p className="text-center text-slate-400 py-6 text-sm">
+                No matching courses found for "{searchQuery}".
+              </p>
+            ) : (
+              filteredItems.map((item, idx) => (
+                <Link
+                  key={idx}
+                  to={item.path}
+                  onClick={() => setSearchOpen(false)}
+                  className="flex items-center justify-between p-3 rounded-lg hover:bg-slate-800/60 transition-colors group"
+                >
+                  <div>
+                    <h5 className="text-sm font-semibold text-white group-hover:text-[#E5B869] transition-colors">
+                      {item.title}
+                    </h5>
+                    <p className="text-xs text-slate-400">{item.category}</p>
+                  </div>
+                  <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                    {item.badge}
+                  </span>
+                </Link>
+              ))
+            )}
           </div>
         </div>
-      )}
-    </header>
+      </Modal>
+    </>
   );
 }
