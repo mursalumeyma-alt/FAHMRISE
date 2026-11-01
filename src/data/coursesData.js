@@ -22294,324 +22294,522 @@ export const coursesData = [
         "lessonsCount": 8,
         "lessons": [
           {
-            "id": "m1-l1",
-            "number": 1,
-            "title": "Introduction to the Arabic Writing System",
-            "subtitle": "RTL orientation, 28 consonants, letter positions, and cursive baseline",
-            "readingTime": "10 min",
-            "explanation": "The Arabic alphabet consists of 28 consonants, written and read from right to left (RTL). Arabic script is inherently cursive—letters link continuously along a shared baseline. Each letter adopts up to four distinct contextual shapes: Isolated, Initial (beginning of word/group), Medial (middle), and Final (end).",
-            "learningObjective": "Master the RTL writing system, recognize all 28 consonants in their 4 positional forms, identify the 6 non-connecting letters, and distinguish Alif from Hamzah.",
-            "keyPoints": [
-              "Arabic reads and writes strictly from Right to Left (RTL).",
-              "Consists of 28 distinct consonant sounds represented across 4 positional shapes (Isolated, Initial, Medial, Final).",
-              "The 6 Non-Connecting Letters (حروف القطع): Alif (ا), Daal (د), Dhaal (ذ), Raa (ر), Zaay (ز), and Waaw (و). These attach to preceding letters from the right, but NEVER connect to following letters on the left.",
-              "Distinction between Hamzah (ء) and Alif (ا): Hamzah is the true glottal stop consonant (carrying vowels a, i, u), whereas Alif functions primarily as a 'seat' (kursi) for Hamzah (أ / إ) or as a long vowel prolonger (Madd Asli 'aa')."
-            ],
-            "orthographyGuide": {
-              "title": "The 28 Arabic Consonants & 4 Positional Forms (RTL)",
-              "headers": [
-                "Name",
-                "Transliteration",
-                "Isolated",
-                "Initial",
-                "Medial",
-                "Final",
-                "Type"
-              ],
-              "letters": [
-                {
-                  "name": "Alif",
-                  "trans": "ā / '",
-                  "isolated": "ا",
-                  "initial": "ا",
-                  "medial": "ـا",
-                  "final": "ـا",
-                  "nonConnector": true
-                },
-                {
-                  "name": "Bā'",
-                  "trans": "b",
-                  "isolated": "ب",
-                  "initial": "بـ",
-                  "medial": "ـبـ",
-                  "final": "ـب",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Tā'",
-                  "trans": "t",
-                  "isolated": "ت",
-                  "initial": "تـ",
-                  "medial": "ـتـ",
-                  "final": "ـت",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Thā'",
-                  "trans": "th",
-                  "isolated": "ث",
-                  "initial": "ثـ",
-                  "medial": "ـثـ",
-                  "final": "ـث",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Jīm",
-                  "trans": "j",
-                  "isolated": "ج",
-                  "initial": "جـ",
-                  "medial": "ـجـ",
-                  "final": "ـج",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Ḥā'",
-                  "trans": "ḥ",
-                  "isolated": "ح",
-                  "initial": "حـ",
-                  "medial": "ـحـ",
-                  "final": "ـح",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Khā'",
-                  "trans": "kh",
-                  "isolated": "خ",
-                  "initial": "خـ",
-                  "medial": "ـخـ",
-                  "final": "ـخ",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Dāl",
-                  "trans": "d",
-                  "isolated": "د",
-                  "initial": "د",
-                  "medial": "ـد",
-                  "final": "ـد",
-                  "nonConnector": true
-                },
-                {
-                  "name": "Dhāl",
-                  "trans": "dh",
-                  "isolated": "ذ",
-                  "initial": "ذ",
-                  "medial": "ـذ",
-                  "final": "ـذ",
-                  "nonConnector": true
-                },
-                {
-                  "name": "Rā'",
-                  "trans": "r",
-                  "isolated": "ر",
-                  "initial": "ر",
-                  "medial": "ـر",
-                  "final": "ـر",
-                  "nonConnector": true
-                },
-                {
-                  "name": "Zāy",
-                  "trans": "z",
-                  "isolated": "ز",
-                  "initial": "ز",
-                  "medial": "ـز",
-                  "final": "ـز",
-                  "nonConnector": true
-                },
-                {
-                  "name": "Sīn",
-                  "trans": "s",
-                  "isolated": "س",
-                  "initial": "سـ",
-                  "medial": "ـسـ",
-                  "final": "ـس",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Shīn",
-                  "trans": "sh",
-                  "isolated": "ش",
-                  "initial": "شـ",
-                  "medial": "ـشـ",
-                  "final": "ـش",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Ṣād",
-                  "trans": "ṣ",
-                  "isolated": "ص",
-                  "initial": "صـ",
-                  "medial": "ـصـ",
-                  "final": "ـص",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Ḍād",
-                  "trans": "ḍ",
-                  "isolated": "ض",
-                  "initial": "ضـ",
-                  "medial": "ـضـ",
-                  "final": "ـض",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Ṭā'",
-                  "trans": "ṭ",
-                  "isolated": "ط",
-                  "initial": "طـ",
-                  "medial": "ـطـ",
-                  "final": "ـط",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Ẓā'",
-                  "trans": "ẓ",
-                  "isolated": "ظ",
-                  "initial": "ظـ",
-                  "medial": "ـظـ",
-                  "final": "ـظ",
-                  "nonConnector": false
-                },
-                {
-                  "name": "'Ayn",
-                  "trans": "‘",
-                  "isolated": "ع",
-                  "initial": "عـ",
-                  "medial": "ـعـ",
-                  "final": "ـع",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Ghayn",
-                  "trans": "gh",
-                  "isolated": "غ",
-                  "initial": "غـ",
-                  "medial": "ـغـ",
-                  "final": "ـغ",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Fā'",
-                  "trans": "f",
-                  "isolated": "ف",
-                  "initial": "فـ",
-                  "medial": "ـفـ",
-                  "final": "ـف",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Qāf",
-                  "trans": "q",
-                  "isolated": "ق",
-                  "initial": "قـ",
-                  "medial": "ـقـ",
-                  "final": "ـق",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Kāf",
-                  "trans": "k",
-                  "isolated": "ك",
-                  "initial": "كـ",
-                  "medial": "ـكـ",
-                  "final": "ـك",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Lām",
-                  "trans": "l",
-                  "isolated": "ل",
-                  "initial": "لـ",
-                  "medial": "ـلـ",
-                  "final": "ـل",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Mīm",
-                  "trans": "m",
-                  "isolated": "م",
-                  "initial": "مـ",
-                  "medial": "ـمـ",
-                  "final": "ـم",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Nūn",
-                  "trans": "n",
-                  "isolated": "ن",
-                  "initial": "نـ",
-                  "medial": "ـنـ",
-                  "final": "ـن",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Hā'",
-                  "trans": "h",
-                  "isolated": "هـ",
-                  "initial": "هـ",
-                  "medial": "ـهـ",
-                  "final": "ـه",
-                  "nonConnector": false
-                },
-                {
-                  "name": "Wāw",
-                  "trans": "w / ū",
-                  "isolated": "و",
-                  "initial": "و",
-                  "medial": "ـو",
-                  "final": "ـو",
-                  "nonConnector": true
-                },
-                {
-                  "name": "Yā'",
-                  "trans": "y / ī",
-                  "isolated": "ي",
-                  "initial": "يـ",
-                  "medial": "ـيـ",
-                  "final": "ـي",
-                  "nonConnector": false
-                }
-              ]
-            },
-            "examples": [
-              {
-                "arabic": "أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن هـ و ي",
-                "trans": "The Complete 28 Arabic Consonants",
-                "note": "Written Right-to-Left (RTL)"
-              },
-              {
-                "arabic": "ا د ذ ر ز و",
-                "trans": "The 6 Non-Connecting Letters (حروف القطع)",
-                "note": "Do not join to letters after them"
-              },
-              {
-                "arabic": "أَكَلَ (Hamzah on Alif) vs كِتَاب (Alif as Madd prolonger)",
-                "trans": "Hamzah vs Alif distinction",
-                "note": "Hamzah produces glottal stop /ʔ/; Alif prolongs 'aa'"
-              }
-            ]
+                    "id": "m1-l1",
+                    "number": 1,
+                    "title": "Introduction to the Arabic Writing System",
+                    "subtitle": "RTL orientation, 28 consonants, letter positions, and cursive baseline",
+                    "readingTime": "10 min",
+                    "description": "Learn how Arabic is written from right to left, understand the 28 Arabic letters, and explore how letters change shape depending on their position in a word.",
+                    "explanation": "Learn how Arabic is written from right to left, understand the 28 Arabic letters, and explore how letters change shape depending on their position in a word. The Arabic alphabet consists of 28 consonants, written and read strictly from right to left (RTL). Arabic script is inherently cursive—letters link continuously along a shared baseline. While 22 letters connect in both directions (possessing 4 contextual forms: Isolated, Initial, Medial, and Final), the 6 non-connecting letters possess only 2 functional shapes and never connect to following letters on the left.",
+                    "learningObjective": "Master the RTL writing system, recognize all 28 consonants in their positional forms, identify the 6 non-connecting letters, understand Alif forward non-connection in real words, and distinguish Alif from Hamzah.",
+                    "keyPoints": [
+                              "Arabic reads and writes strictly from Right to Left (RTL) along a continuous cursive baseline.",
+                              "Consists of 28 distinct consonant sounds. 22 letters are Dual-Connectors with 4 distinct positional shapes (Isolated, Initial, Medial, Final).",
+                              "The 6 Non-Connecting Letters (حروف القطع): Alif (ا), Dāl (د), Dhāl (ذ), Rā' (ر), Zāy (ز), and Wāw (و). These attach to preceding letters from the right, but NEVER connect to following letters on the left. They possess only 2 functional shapes (Standalone and Right-joined) and must not be forced into 4 shapes.",
+                              "Alif Forward Non-Connection: In words like أَمَل (Amal), أُمّ (Umm), بَاب (Bāb), دَار (Dār), and كِتَاب (Kitāb), Alif never connects forward to the next letter, forcing the subsequent letter to begin anew in initial or isolated form.",
+                              "Hamzah (ء) vs Alif (ا): Hamzah is the true consonant glottal stop (/ʔ/) capable of carrying short vowels (أَ, إِ, أُ) or sukun, whereas bare Alif produces no independent sound, acting as a long vowel prolonger (Madd Asli 'aa') or as an orthographic seat (kursī) for Hamzah.",
+                              "Accurate Letter Forms: Hā' has 4 distinct shapes: Isolated loop (ه), Initial (هـ), Medial bow-tie (ـهـ), and Final (ـه)."
+                    ],
+                    "orthographyGuide": {
+                              "title": "The 28 Arabic Consonants & Positional Forms (RTL)",
+                              "headers": [
+                                        "Name",
+                                        "Transliteration",
+                                        "Isolated",
+                                        "Initial",
+                                        "Medial",
+                                        "Final",
+                                        "Type"
+                              ],
+                              "letters": [
+                                        {
+                                                  "name": "Alif",
+                                                  "trans": "ā / '",
+                                                  "isolated": "ا",
+                                                  "initial": "ا",
+                                                  "medial": "ـا",
+                                                  "final": "ـا",
+                                                  "nonConnector": true,
+                                                  "shapes": 2
+                                        },
+                                        {
+                                                  "name": "Bā'",
+                                                  "trans": "b",
+                                                  "isolated": "ب",
+                                                  "initial": "بـ",
+                                                  "medial": "ـبـ",
+                                                  "final": "ـب",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Tā'",
+                                                  "trans": "t",
+                                                  "isolated": "ت",
+                                                  "initial": "تـ",
+                                                  "medial": "ـتـ",
+                                                  "final": "ـت",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Thā'",
+                                                  "trans": "th",
+                                                  "isolated": "ث",
+                                                  "initial": "ثـ",
+                                                  "medial": "ـثـ",
+                                                  "final": "ـث",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Jīm",
+                                                  "trans": "j",
+                                                  "isolated": "ج",
+                                                  "initial": "جـ",
+                                                  "medial": "ـجـ",
+                                                  "final": "ـج",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Ḥā'",
+                                                  "trans": "ḥ",
+                                                  "isolated": "ح",
+                                                  "initial": "حـ",
+                                                  "medial": "ـحـ",
+                                                  "final": "ـح",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Khā'",
+                                                  "trans": "kh",
+                                                  "isolated": "خ",
+                                                  "initial": "خـ",
+                                                  "medial": "ـخـ",
+                                                  "final": "ـخ",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Dāl",
+                                                  "trans": "d",
+                                                  "isolated": "د",
+                                                  "initial": "د",
+                                                  "medial": "ـد",
+                                                  "final": "ـد",
+                                                  "nonConnector": true,
+                                                  "shapes": 2
+                                        },
+                                        {
+                                                  "name": "Dhāl",
+                                                  "trans": "dh",
+                                                  "isolated": "ذ",
+                                                  "initial": "ذ",
+                                                  "medial": "ـذ",
+                                                  "final": "ـذ",
+                                                  "nonConnector": true,
+                                                  "shapes": 2
+                                        },
+                                        {
+                                                  "name": "Rā'",
+                                                  "trans": "r",
+                                                  "isolated": "ر",
+                                                  "initial": "ر",
+                                                  "medial": "ـر",
+                                                  "final": "ـر",
+                                                  "nonConnector": true,
+                                                  "shapes": 2
+                                        },
+                                        {
+                                                  "name": "Zāy",
+                                                  "trans": "z",
+                                                  "isolated": "ز",
+                                                  "initial": "ز",
+                                                  "medial": "ـز",
+                                                  "final": "ـز",
+                                                  "nonConnector": true,
+                                                  "shapes": 2
+                                        },
+                                        {
+                                                  "name": "Sīn",
+                                                  "trans": "s",
+                                                  "isolated": "س",
+                                                  "initial": "سـ",
+                                                  "medial": "ـسـ",
+                                                  "final": "ـس",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Shīn",
+                                                  "trans": "sh",
+                                                  "isolated": "ش",
+                                                  "initial": "شـ",
+                                                  "medial": "ـشـ",
+                                                  "final": "ـش",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Ṣād",
+                                                  "trans": "ṣ",
+                                                  "isolated": "ص",
+                                                  "initial": "صـ",
+                                                  "medial": "ـصـ",
+                                                  "final": "ـص",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Ḍād",
+                                                  "trans": "ḍ",
+                                                  "isolated": "ض",
+                                                  "initial": "ضـ",
+                                                  "medial": "ـضـ",
+                                                  "final": "ـض",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Ṭā'",
+                                                  "trans": "ṭ",
+                                                  "isolated": "ط",
+                                                  "initial": "طـ",
+                                                  "medial": "ـطـ",
+                                                  "final": "ـط",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Ẓā'",
+                                                  "trans": "ẓ",
+                                                  "isolated": "ظ",
+                                                  "initial": "ظـ",
+                                                  "medial": "ـظـ",
+                                                  "final": "ـظ",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "'Ayn",
+                                                  "trans": "‘",
+                                                  "isolated": "ع",
+                                                  "initial": "عـ",
+                                                  "medial": "ـعـ",
+                                                  "final": "ـع",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Ghayn",
+                                                  "trans": "gh",
+                                                  "isolated": "غ",
+                                                  "initial": "غـ",
+                                                  "medial": "ـغـ",
+                                                  "final": "ـغ",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Fā'",
+                                                  "trans": "f",
+                                                  "isolated": "ف",
+                                                  "initial": "فـ",
+                                                  "medial": "ـفـ",
+                                                  "final": "ـف",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Qāf",
+                                                  "trans": "q",
+                                                  "isolated": "ق",
+                                                  "initial": "قـ",
+                                                  "medial": "ـقـ",
+                                                  "final": "ـق",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Kāf",
+                                                  "trans": "k",
+                                                  "isolated": "ك",
+                                                  "initial": "كـ",
+                                                  "medial": "ـكـ",
+                                                  "final": "ـك",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Lām",
+                                                  "trans": "l",
+                                                  "isolated": "ل",
+                                                  "initial": "لـ",
+                                                  "medial": "ـلـ",
+                                                  "final": "ـل",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Mīm",
+                                                  "trans": "m",
+                                                  "isolated": "م",
+                                                  "initial": "مـ",
+                                                  "medial": "ـمـ",
+                                                  "final": "ـم",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Nūn",
+                                                  "trans": "n",
+                                                  "isolated": "ن",
+                                                  "initial": "نـ",
+                                                  "medial": "ـنـ",
+                                                  "final": "ـن",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Hā'",
+                                                  "trans": "h",
+                                                  "isolated": "ه",
+                                                  "initial": "هـ",
+                                                  "medial": "ـهـ",
+                                                  "final": "ـه",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        },
+                                        {
+                                                  "name": "Wāw",
+                                                  "trans": "w / ū",
+                                                  "isolated": "و",
+                                                  "initial": "و",
+                                                  "medial": "ـو",
+                                                  "final": "ـو",
+                                                  "nonConnector": true,
+                                                  "shapes": 2
+                                        },
+                                        {
+                                                  "name": "Yā'",
+                                                  "trans": "y / ī",
+                                                  "isolated": "ي",
+                                                  "initial": "يـ",
+                                                  "medial": "ـيـ",
+                                                  "final": "ـي",
+                                                  "nonConnector": false,
+                                                  "shapes": 4
+                                        }
+                              ]
+                    },
+                    "examples": [
+                              {
+                                        "arabic": "أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي",
+                                        "trans": "The 28 Arabic Consonants (RTL)",
+                                        "note": "Read and written strictly Right-to-Left along a continuous baseline"
+                              },
+                              {
+                                        "arabic": "ا د ذ ر ز و",
+                                        "trans": "The 6 Non-Connecting Letters (حروف القطع)",
+                                        "note": "Only 2 functional shapes: Standalone and Right-joined. They connect from the right, but NEVER connect to following letters on the left."
+                              },
+                              {
+                                        "arabic": "أَمَل / أُمّ",
+                                        "trans": "Initial Alif Non-Connection",
+                                        "note": "Alif stands independently at the start of a word; does not connect forward to Mīm (which starts in its initial form)."
+                              },
+                              {
+                                        "arabic": "بَاب",
+                                        "trans": "Medial Alif Forward Break",
+                                        "note": "First Bā' (بـ) joins into Alif (ـا), but Alif refuses forward connection, forcing the second Bā' into isolated form (ب)."
+                              },
+                              {
+                                        "arabic": "دَار",
+                                        "trans": "Successive Non-Connecting Letters",
+                                        "note": "Dāl (د), Alif (ا), and Rā' (ر) are all non-connectors; none can join forward, so all three sit in standalone isolated forms."
+                              },
+                              {
+                                        "arabic": "كِتَاب",
+                                        "trans": "Word-Internal Alif Non-Connection",
+                                        "note": "Tā' joins Alif (ـتا), but Alif breaks the connection, leaving Bā' in isolated form (ب)."
+                              },
+                              {
+                                        "arabic": "أَكَلَ (Hamzah glottal stop) vs كِتَاب (Alif Madd prolonger)",
+                                        "trans": "Hamzah (ء) vs Alif (ا) Distinction",
+                                        "note": "Hamzah is the true consonant glottal stop (/ʔ/) carrying vowels (أَ, إِ, أُ); Alif has no sound of its own, functioning as long vowel prolonger ('aa') or seat for Hamzah."
+                              },
+                              {
+                                        "arabic": "ه (Isolated) / هـ (Initial) / ـهـ (Medial) / ـه (Final)",
+                                        "trans": "Hā' (ه) 4 Positional Forms",
+                                        "note": "Isolated shape is a standalone loop (ه), initial is (هـ), medial is the bow-tie (ـهـ), and final connects from right (ـه)."
+                              }
+                    ],
+                    "videoLesson": {
+                      "title": "How to Connect Arabic Letters Step-by-Step Guide (Arabic for Beginners) | Lesson 1 | Access Arabic",
+                      "channel": "Access Arabic",
+                      "duration": "09:17",
+                      "videoId": "9bQXR16hvlI",
+                      "watchUrl": "https://www.youtube.com/watch?v=9bQXR16hvlI",
+                      "embedUrl": "https://www.youtube-nocookie.com/embed/9bQXR16hvlI",
+                      "url": "https://www.youtube-nocookie.com/embed/9bQXR16hvlI",
+                      "alternativeSource": "https://www.madinaharabic.com/arabic-language-course/lessons",
+                      "sourceName": "Madinah Arabic — Free Arabic Reading Course",
+                      "badge": "Verified Reference Video",
+                      "resourceType": "free_lesson",
+                      "note": "Supplemental reference video on Arabic letter connections. The full orthography guide, letter shape visualizer, vocabulary, and exercises below are completely self-contained.",
+                      "references": [
+                        {
+                          "id": "ref-connect",
+                          "tabLabel": "Connecting Letters Guide (09:17)",
+                          "title": "How to Connect Arabic Letters Step-by-Step Guide (Arabic for Beginners) | Lesson 1 | Access Arabic",
+                          "channel": "Access Arabic",
+                          "duration": "09:17",
+                          "videoId": "9bQXR16hvlI",
+                          "watchUrl": "https://www.youtube.com/watch?v=9bQXR16hvlI",
+                          "badge": "Verified Reference Video",
+                          "isUserProvided": false,
+                          "note": "Verified reference video detailing step-by-step Arabic letter connections."
+                        },
+                        {
+                          "id": "ref-writing",
+                          "tabLabel": "Writing & Stroke Mechanics (13:25)",
+                          "title": "Writing & Stroke Mechanics Reference Lecture",
+                          "channel": "FAHMRISE Curriculum Studio",
+                          "duration": "13:25",
+                          "videoId": null,
+                          "watchUrl": null,
+                          "isUnavailable": true,
+                          "badge": "Reference Currently Unavailable",
+                          "unavailableTitle": "Video Reference Currently Unavailable",
+                          "unavailableMessage": "A verified reference video specifically teaching Writing & Stroke Mechanics (13:25) is currently being vetted. Full interactive stroke mechanics and guided handwriting exercises are available in Chapter 2, and the self-contained written orthography guide is below.",
+                          "note": "Reference lecture currently being vetted. Complete written materials below are fully self-contained."
+                        }
+                      ]
+                    }
           },
           {
-            "id": "m1-l2",
-            "number": 2,
-            "title": "Letter Shapes and Dot Variations",
-            "subtitle": "Visual discrimination and skeleton groupings",
-            "readingTime": "6 min",
-            "explanation": "Arabic letters share common base skeletons differentiated by the number and placement of dots (e.g. Baa, Taa, Thaa share the boat skeleton).",
-            "learningObjective": "Identify all 28 letters based on skeletal shape and dot placement.",
-            "keyPoints": [
-              "Baa (ب), Taa (ت), Thaa (ث) share the boat skeleton.",
-              "Jeem (ج), Haa (ح), Khaa (خ) share the loop skeleton.",
-              "Daal (د) and Dhaal (ذ) form a non-descending pair.",
-              "Raa (ر) and Zaay (ز) form a descending curve pair."
-            ],
-            "examples": [
-              {
-                "arabic": "ب (1 dot below) / ت (2 dots above) / ث (3 dots above)",
-                "trans": "Bā' / Tā' / Thā'",
-                "note": "Boat shape with dots"
-              }
-            ]
+                    "id": "m1-l2",
+                    "number": 2,
+                    "title": "Letter Shapes and Dot Variations",
+                    "subtitle": "Visual discrimination and skeleton groupings",
+                    "readingTime": "8 min",
+                    "description": "Visual discrimination and skeleton groupings.",
+                    "explanation": "Arabic letters share common base skeletons (rasm) differentiated by the number and placement of dots (nuqaṭ). While 18 consonant letters belong to 8 shared skeleton families (such as the boat skeleton of ب/ت/ث and the loop skeleton of ج/ح/خ), not every Arabic letter belongs to a multi-letter group; several letters possess unique standalone skeletons.",
+                    "learningObjective": "Visually discriminate look-alike Arabic letters using dot placement, distinguish subtle baseline variations (such as Dāl vs Rā' and Fā' vs Qāf), and identify standalone skeletons.",
+                    "keyPoints": [
+                              "Boat Family (ب ، ت ، ث): Bā' has 1 dot below; Tā' has 2 dots above; Thā' has 3 dots above.",
+                              "Hook/Crown Family (ج ، ح ، خ): Ḥā' has no dots; Jīm has 1 dot in the belly/below; Khā' has 1 dot above.",
+                              "Angle Family (د ، ذ) vs. Curve Family (ر ، ز): Dāl (no dot) and Dhāl (1 dot above) sit flat on the baseline; Rā' (no dot) and Zāy (1 dot above) drop below the baseline.",
+                              "Teeth & Loop Pairs: Sīn (3 teeth, no dots) vs Shīn (3 dots above); Ṣād (oval loop, no dots) vs Ḍād (1 dot above); Ṭā' (staff, no dots) vs Ẓā' (staff, 1 dot above); 'Ayn (no dots) vs Ghayn (1 dot above).",
+                              "Fā' (ف) vs Qāf (ق): Fā' has 1 dot above with a shallow flat baseline bowl; Qāf has 2 dots above with a deeper circular bowl descending below the baseline.",
+                              "Standalone Skeletons: Alif, Kāf, Lām, Mīm, Nūn, Hā', Wāw, and Yā' have independent geometric bodies that do not belong to simple two- or three-letter groups."
+                    ],
+                    "examples": [
+                              {
+                                        "arabic": "بَـيْـت vs تِـيـن vs ثَـوْب",
+                                        "trans": "Boat Family: Bā' (1 dot below) / Tā' (2 dots above) / Thā' (3 dots above)",
+                                        "note": "Same boat baseline skeleton distinguished solely by dot count and vertical placement"
+                              },
+                              {
+                                        "arabic": "جَـمَـل vs حَـمَـل vs خَـبَـر",
+                                        "trans": "Hook Family: Jīm (1 dot below) / Ḥā' (0 dots) / Khā' (1 dot above)",
+                                        "note": "Ḥā' is bare; Jīm has dot in belly; Khā' has dot atop the crown"
+                              },
+                              {
+                                        "arabic": "دَار vs ذَوْق",
+                                        "trans": "Angle Family: Dāl (0 dots) / Dhāl (1 dot above)",
+                                        "note": "Both sit upright on the baseline as non-connecting letters"
+                              },
+                              {
+                                        "arabic": "رَأْس vs زَيْـت",
+                                        "trans": "Descending Curve Family: Rā' (0 dots) / Zāy (1 dot above)",
+                                        "note": "Both swoop downward below the baseline (unlike Dāl/Dhāl)"
+                              },
+                              {
+                                        "arabic": "سَـمَـك vs شَـمْـس",
+                                        "trans": "Three Teeth Family: Sīn (0 dots) / Shīn (3 dots above)",
+                                        "note": "Three teeth along baseline with or without 3 dots arranged in a triangle"
+                              },
+                              {
+                                        "arabic": "صَـبَـاح vs ضَـوْء",
+                                        "trans": "Loop & Tooth Family: Ṣād (0 dots) / Ḍād (1 dot above)",
+                                        "note": "Emphatic oval loop with final tooth"
+                              },
+                              {
+                                        "arabic": "طَـالِـب vs ظِـلّ",
+                                        "trans": "Upright Staff Family: Ṭā' (0 dots) / Ẓā' (1 dot above)",
+                                        "note": "Oval base loop pierced by vertical pole; never drops below baseline"
+                              },
+                              {
+                                        "arabic": "عَـيْـن vs غَـيْـم",
+                                        "trans": "Open Eye Family: 'Ayn (0 dots) / Ghayn (1 dot above)",
+                                        "note": "Ghayn carries 1 dot above the open eye stroke"
+                              },
+                              {
+                                        "arabic": "فِـيـل vs قَـلَـم",
+                                        "trans": "Bowl Depth Contrast: Fā' (1 dot above, flat bowl) vs Qāf (2 dots above, deep sink)",
+                                        "note": "Fā' bowl remains flat on baseline; Qāf bowl sinks deeply below baseline like Nūn"
+                              }
+                    ],
+                    "videoLesson": {
+                      "title": "Memorize the ARABIC ALPHABET in 7 Minutes (Really)",
+                      "channel": "Brian Wiles",
+                      "duration": "07:17",
+                      "start": 44,
+                      "startFormatted": "00:44",
+                      "videoId": "NYQU0_KgWD8",
+                      "watchUrl": "https://www.youtube.com/watch?v=NYQU0_KgWD8&t=44s",
+                      "embedUrl": "https://www.youtube-nocookie.com/embed/NYQU0_KgWD8?start=44",
+                      "url": "https://www.youtube-nocookie.com/embed/NYQU0_KgWD8?start=44",
+                      "alternativeSource": "https://www.madinaharabic.com/arabic-language-course/lessons",
+                      "sourceName": "Madinah Arabic — Free Arabic Reading Course",
+                      "badge": "User-Provided Video Reference",
+                      "isUserProvided": true,
+                      "resourceType": "fast_video_reference",
+                      "note": "Fast video reference provided by user. Playback starts at 00:44. Supplemental reference; full handwriting lesson and exercises below are self-contained.",
+                      "references": [
+                        {
+                          "id": "ref-fast-user",
+                          "tabLabel": "Fast Video Reference (07:17 • 00:44)",
+                          "title": "Memorize the ARABIC ALPHABET in 7 Minutes (Really)",
+                          "channel": "Brian Wiles",
+                          "duration": "07:17",
+                          "start": 44,
+                          "startFormatted": "00:44",
+                          "videoId": "NYQU0_KgWD8",
+                          "watchUrl": "https://www.youtube.com/watch?v=NYQU0_KgWD8&t=44s",
+                          "badge": "User-Provided Video Reference",
+                          "isUserProvided": true,
+                          "note": "User-provided fast video reference. Playback begins at 00:44."
+                        },
+                        {
+                          "id": "ref-look-alike",
+                          "tabLabel": "Similar Letters & Dots (07:38)",
+                          "title": "Arabic Letters That Look Alike | Learn Similar Arabic Alphabets for Beginners | Nurul bayan Lesson 3",
+                          "channel": "An-Nur Qur’an Academy",
+                          "duration": "07:38",
+                          "videoId": "rJAA9QwLuLM",
+                          "watchUrl": "https://www.youtube.com/watch?v=rJAA9QwLuLM",
+                          "badge": "Verified Reference Video",
+                          "isUserProvided": false,
+                          "note": "Detailed board lecture contrasting look-alike Arabic letter shapes and dot placements."
+                        },
+                        {
+                          "id": "ref-elements",
+                          "tabLabel": "Dots & Letter Elements (04:48)",
+                          "title": "Arabic Letter Elements Explained (Dots, Lines & Shapes)",
+                          "channel": "Arabic for English speakers",
+                          "duration": "04:48",
+                          "videoId": "BqbkJ4YJzy0",
+                          "watchUrl": "https://www.youtube.com/watch?v=BqbkJ4YJzy0",
+                          "badge": "Verified Reference Video",
+                          "isUserProvided": false,
+                          "note": "Analytical explanation of dots, lines, and shape components in the Arabic writing system."
+                        }
+                      ]
+                    }
           },
           {
             "id": "m1-l3",
@@ -23396,424 +23594,765 @@ export const coursesData = [
     ],
     "lessons": [
       {
-        "id": "m1-l1",
-        "number": 1,
-        "moduleNumber": 1,
-        "moduleTitle": "Arabic Alphabet, Vowels & Phonetics",
-        "title": "Introduction to the Arabic Writing System",
-        "subtitle": "RTL orientation, 28 consonants, letter positions, and cursive baseline",
-        "readingTime": "10 min",
-        "explanation": "The Arabic alphabet consists of 28 consonants, written and read from right to left (RTL). Arabic script is inherently cursive—letters link continuously along a shared baseline. Each letter adopts up to four distinct contextual shapes: Isolated, Initial (beginning of word/group), Medial (middle), and Final (end).",
-        "learningObjective": "Master the RTL writing system, recognize all 28 consonants in their 4 positional forms, identify the 6 non-connecting letters, and distinguish Alif from Hamzah.",
-        "keyPoints": [
-          "Arabic reads and writes strictly from Right to Left (RTL).",
-          "Consists of 28 distinct consonant sounds represented across 4 positional shapes (Isolated, Initial, Medial, Final).",
-          "The 6 Non-Connecting Letters (حروف القطع): Alif (ا), Daal (د), Dhaal (ذ), Raa (ر), Zaay (ز), and Waaw (و). These attach to preceding letters from the right, but NEVER connect to following letters on the left.",
-          "Distinction between Hamzah (ء) and Alif (ا): Hamzah is the true glottal stop consonant (carrying vowels a, i, u), whereas Alif functions primarily as a 'seat' (kursi) for Hamzah (أ / إ) or as a long vowel prolonger (Madd Asli 'aa')."
-        ],
-        "examples": [
-          {
-            "arabic": "أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن هـ و ي",
-            "trans": "The Complete 28 Arabic Consonants",
-            "note": "Written Right-to-Left (RTL)"
-          },
-          {
-            "arabic": "ا د ذ ر ز و",
-            "trans": "The 6 Non-Connecting Letters (حروف القطع)",
-            "note": "Do not join to letters after them"
-          },
-          {
-            "arabic": "أَكَلَ (Hamzah on Alif) vs كِتَاب (Alif as Madd prolonger)",
-            "trans": "Hamzah vs Alif distinction",
-            "note": "Hamzah produces glottal stop /ʔ/; Alif prolongs 'aa'"
-          }
-        ],
-        "orthographyGuide": {
-          "title": "The 28 Arabic Consonants & 4 Positional Forms (RTL)",
-          "headers": [
-            "Name",
-            "Transliteration",
-            "Isolated",
-            "Initial",
-            "Medial",
-            "Final",
-            "Type"
-          ],
-          "letters": [
-            {
-              "name": "Alif",
-              "trans": "ā / '",
-              "isolated": "ا",
-              "initial": "ا",
-              "medial": "ـا",
-              "final": "ـا",
-              "nonConnector": true
-            },
-            {
-              "name": "Bā'",
-              "trans": "b",
-              "isolated": "ب",
-              "initial": "بـ",
-              "medial": "ـبـ",
-              "final": "ـب",
-              "nonConnector": false
-            },
-            {
-              "name": "Tā'",
-              "trans": "t",
-              "isolated": "ت",
-              "initial": "تـ",
-              "medial": "ـتـ",
-              "final": "ـت",
-              "nonConnector": false
-            },
-            {
-              "name": "Thā'",
-              "trans": "th",
-              "isolated": "ث",
-              "initial": "ثـ",
-              "medial": "ـثـ",
-              "final": "ـث",
-              "nonConnector": false
-            },
-            {
-              "name": "Jīm",
-              "trans": "j",
-              "isolated": "ج",
-              "initial": "جـ",
-              "medial": "ـجـ",
-              "final": "ـج",
-              "nonConnector": false
-            },
-            {
-              "name": "Ḥā'",
-              "trans": "ḥ",
-              "isolated": "ح",
-              "initial": "حـ",
-              "medial": "ـحـ",
-              "final": "ـح",
-              "nonConnector": false
-            },
-            {
-              "name": "Khā'",
-              "trans": "kh",
-              "isolated": "خ",
-              "initial": "خـ",
-              "medial": "ـخـ",
-              "final": "ـخ",
-              "nonConnector": false
-            },
-            {
-              "name": "Dāl",
-              "trans": "d",
-              "isolated": "د",
-              "initial": "د",
-              "medial": "ـد",
-              "final": "ـد",
-              "nonConnector": true
-            },
-            {
-              "name": "Dhāl",
-              "trans": "dh",
-              "isolated": "ذ",
-              "initial": "ذ",
-              "medial": "ـذ",
-              "final": "ـذ",
-              "nonConnector": true
-            },
-            {
-              "name": "Rā'",
-              "trans": "r",
-              "isolated": "ر",
-              "initial": "ر",
-              "medial": "ـر",
-              "final": "ـر",
-              "nonConnector": true
-            },
-            {
-              "name": "Zāy",
-              "trans": "z",
-              "isolated": "ز",
-              "initial": "ز",
-              "medial": "ـز",
-              "final": "ـز",
-              "nonConnector": true
-            },
-            {
-              "name": "Sīn",
-              "trans": "s",
-              "isolated": "س",
-              "initial": "سـ",
-              "medial": "ـسـ",
-              "final": "ـس",
-              "nonConnector": false
-            },
-            {
-              "name": "Shīn",
-              "trans": "sh",
-              "isolated": "ش",
-              "initial": "شـ",
-              "medial": "ـشـ",
-              "final": "ـش",
-              "nonConnector": false
-            },
-            {
-              "name": "Ṣād",
-              "trans": "ṣ",
-              "isolated": "ص",
-              "initial": "صـ",
-              "medial": "ـصـ",
-              "final": "ـص",
-              "nonConnector": false
-            },
-            {
-              "name": "Ḍād",
-              "trans": "ḍ",
-              "isolated": "ض",
-              "initial": "ضـ",
-              "medial": "ـضـ",
-              "final": "ـض",
-              "nonConnector": false
-            },
-            {
-              "name": "Ṭā'",
-              "trans": "ṭ",
-              "isolated": "ط",
-              "initial": "طـ",
-              "medial": "ـطـ",
-              "final": "ـط",
-              "nonConnector": false
-            },
-            {
-              "name": "Ẓā'",
-              "trans": "ẓ",
-              "isolated": "ظ",
-              "initial": "ظـ",
-              "medial": "ـظـ",
-              "final": "ـظ",
-              "nonConnector": false
-            },
-            {
-              "name": "'Ayn",
-              "trans": "‘",
-              "isolated": "ع",
-              "initial": "عـ",
-              "medial": "ـعـ",
-              "final": "ـع",
-              "nonConnector": false
-            },
-            {
-              "name": "Ghayn",
-              "trans": "gh",
-              "isolated": "غ",
-              "initial": "غـ",
-              "medial": "ـغـ",
-              "final": "ـغ",
-              "nonConnector": false
-            },
-            {
-              "name": "Fā'",
-              "trans": "f",
-              "isolated": "ف",
-              "initial": "فـ",
-              "medial": "ـفـ",
-              "final": "ـف",
-              "nonConnector": false
-            },
-            {
-              "name": "Qāf",
-              "trans": "q",
-              "isolated": "ق",
-              "initial": "قـ",
-              "medial": "ـقـ",
-              "final": "ـق",
-              "nonConnector": false
-            },
-            {
-              "name": "Kāf",
-              "trans": "k",
-              "isolated": "ك",
-              "initial": "كـ",
-              "medial": "ـكـ",
-              "final": "ـك",
-              "nonConnector": false
-            },
-            {
-              "name": "Lām",
-              "trans": "l",
-              "isolated": "ل",
-              "initial": "لـ",
-              "medial": "ـلـ",
-              "final": "ـل",
-              "nonConnector": false
-            },
-            {
-              "name": "Mīm",
-              "trans": "m",
-              "isolated": "م",
-              "initial": "مـ",
-              "medial": "ـمـ",
-              "final": "ـم",
-              "nonConnector": false
-            },
-            {
-              "name": "Nūn",
-              "trans": "n",
-              "isolated": "ن",
-              "initial": "نـ",
-              "medial": "ـنـ",
-              "final": "ـن",
-              "nonConnector": false
-            },
-            {
-              "name": "Hā'",
-              "trans": "h",
-              "isolated": "هـ",
-              "initial": "هـ",
-              "medial": "ـهـ",
-              "final": "ـه",
-              "nonConnector": false
-            },
-            {
-              "name": "Wāw",
-              "trans": "w / ū",
-              "isolated": "و",
-              "initial": "و",
-              "medial": "ـو",
-              "final": "ـو",
-              "nonConnector": true
-            },
-            {
-              "name": "Yā'",
-              "trans": "y / ī",
-              "isolated": "ي",
-              "initial": "يـ",
-              "medial": "ـيـ",
-              "final": "ـي",
-              "nonConnector": false
-            }
-          ]
-        },
-        "videoLesson": {
-          "title": "Learn the Arabic Alphabet in 1 Hour or Less! (free printable worksheets)",
-          "channel": "Learn Arabic with ArabicPod101.com",
-          "duration": "02:44:30",
-          "videoId": "5eAlnoF20YM",
-          "watchUrl": "https://www.youtube.com/watch?v=5eAlnoF20YM",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/5eAlnoF20YM",
-          "url": "https://www.youtube-nocookie.com/embed/5eAlnoF20YM",
-          "alternativeSource": "https://www.madinaharabic.com/arabic-language-course/lessons",
-          "sourceName": "Madinah Arabic — Free Arabic Reading Course",
-          "badge": "Arabic Alphabet Video",
-          "resourceType": "free_lesson"
-        },
-        "transcript": "Welcome to Arabic Alphabet, Vowels & Phonetics - Introduction to the Arabic Writing System.\n\nIn this lesson, we study: The Arabic alphabet consists of 28 consonants, written and read from right to left (RTL). Arabic script is inherently cursive—letters link continuously along a shared baseline. Each letter adopts up to four distinct contextual shapes: Isolated, Initial (beginning of word/group), Medial (middle), and Final (end).\n\nKey Focus: Master the RTL writing system, recognize all 28 consonants in their 4 positional forms, identify the 6 non-connecting letters, and distinguish Alif from Hamzah.",
-        "vocabulary": [
-          {
-            "word": "أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن هـ و ي",
-            "phonetic": "The Complete 28 Arabic Consonants",
-            "translation": "Written Right-to-Left (RTL)",
-            "example": "أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن هـ و ي (The Complete 28 Arabic Consonants)"
-          },
-          {
-            "word": "ا د ذ ر ز و",
-            "phonetic": "The 6 Non-Connecting Letters (حروف القطع)",
-            "translation": "Do not join to letters after them",
-            "example": "ا د ذ ر ز و (The 6 Non-Connecting Letters (حروف القطع))"
-          },
-          {
-            "word": "أَكَلَ (Hamzah on Alif) vs كِتَاب (Alif as Madd prolonger)",
-            "phonetic": "Hamzah vs Alif distinction",
-            "translation": "Hamzah produces glottal stop /ʔ/; Alif prolongs 'aa'",
-            "example": "أَكَلَ (Hamzah on Alif) vs كِتَاب (Alif as Madd prolonger) (Hamzah vs Alif distinction)"
-          }
-        ],
-        "quiz": {
-          "id": "quiz-m1-l1",
-          "title": "Introduction to the Arabic Writing System Checkpoint Quiz",
-          "questions": [
-            {
-              "id": "m1-l1-q1",
-              "question": "What is the primary objective of Introduction to the Arabic Writing System?",
-              "options": [
-                "Master the RTL writing system, recognize all 28 consonants in their 4 positional forms, identify the 6 non-connecting letters, and distinguish Alif from Hamzah.",
-                "Memorizing unrelated vocabulary lists",
-                "Skipping grammatical concordance",
-                "Ignoring vowel diacritics"
+              "id": "m1-l1",
+              "number": 1,
+              "moduleNumber": 1,
+              "moduleTitle": "Arabic Alphabet, Vowels & Phonetics",
+              "title": "Introduction to the Arabic Writing System",
+              "subtitle": "RTL orientation, 28 consonants, letter positions, and cursive baseline",
+              "readingTime": "10 min",
+              "description": "Learn how Arabic is written from right to left, understand the 28 Arabic letters, and explore how letters change shape depending on their position in a word.",
+              "explanation": "Learn how Arabic is written from right to left, understand the 28 Arabic letters, and explore how letters change shape depending on their position in a word. The Arabic alphabet consists of 28 consonants, written and read strictly from right to left (RTL). Arabic script is inherently cursive—letters link continuously along a shared baseline. While 22 letters connect in both directions (possessing 4 contextual forms: Isolated, Initial, Medial, and Final), the 6 non-connecting letters possess only 2 functional shapes and never connect to following letters on the left.",
+              "learningObjective": "Master the RTL writing system, recognize all 28 consonants in their positional forms, identify the 6 non-connecting letters, understand Alif forward non-connection in real words, and distinguish Alif from Hamzah.",
+              "keyPoints": [
+                      "Arabic reads and writes strictly from Right to Left (RTL) along a continuous cursive baseline.",
+                      "Consists of 28 distinct consonant sounds. 22 letters are Dual-Connectors with 4 distinct positional shapes (Isolated, Initial, Medial, Final).",
+                      "The 6 Non-Connecting Letters (حروف القطع): Alif (ا), Dāl (د), Dhāl (ذ), Rā' (ر), Zāy (ز), and Wāw (و). These attach to preceding letters from the right, but NEVER connect to following letters on the left. They possess only 2 functional shapes (Standalone and Right-joined) and must not be forced into 4 shapes.",
+                      "Alif Forward Non-Connection: In words like أَمَل (Amal), أُمّ (Umm), بَاب (Bāb), دَار (Dār), and كِتَاب (Kitāb), Alif never connects forward to the next letter, forcing the subsequent letter to begin anew in initial or isolated form.",
+                      "Hamzah (ء) vs Alif (ا): Hamzah is the true consonant glottal stop (/ʔ/) capable of carrying short vowels (أَ, إِ, أُ) or sukun, whereas bare Alif produces no independent sound, acting as a long vowel prolonger (Madd Asli 'aa') or as an orthographic seat (kursī) for Hamzah.",
+                      "Accurate Letter Forms: Hā' has 4 distinct shapes: Isolated loop (ه), Initial (هـ), Medial bow-tie (ـهـ), and Final (ـه)."
               ],
-              "correctAnswer": 0,
-              "explanation": "The Arabic alphabet consists of 28 consonants, written and read from right to left (RTL). Arabic script is inherently cursive—letters link continuously along a shared baseline. Each letter adopts up to four distinct contextual shapes: Isolated, Initial (beginning of word/group), Medial (middle), and Final (end)."
-            }
-          ]
-        },
-        "content": "The Arabic alphabet consists of 28 consonants, written and read from right to left (RTL). Arabic script is inherently cursive—letters link continuously along a shared baseline. Each letter adopts up to four distinct contextual shapes: Isolated, Initial (beginning of word/group), Medial (middle), and Final (end).\n\n### Learning Objectives\n* Master the RTL writing system, recognize all 28 consonants in their 4 positional forms, identify the 6 non-connecting letters, and distinguish Alif from Hamzah.\n\n### Key Concepts\n* Arabic reads and writes strictly from Right to Left (RTL).\n* Consists of 28 distinct consonant sounds represented across 4 positional shapes (Isolated, Initial, Medial, Final).\n* The 6 Non-Connecting Letters (حروف القطع): Alif (ا), Daal (د), Dhaal (ذ), Raa (ر), Zaay (ز), and Waaw (و). These attach to preceding letters from the right, but NEVER connect to following letters on the left.\n* Distinction between Hamzah (ء) and Alif (ا): Hamzah is the true glottal stop consonant (carrying vowels a, i, u), whereas Alif functions primarily as a 'seat' (kursi) for Hamzah (أ / إ) or as a long vowel prolonger (Madd Asli 'aa').\n\n### Examples & Applications\n* **أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن هـ و ي** (The Complete 28 Arabic Consonants) — Written Right-to-Left (RTL)\n* **ا د ذ ر ز و** (The 6 Non-Connecting Letters (حروف القطع)) — Do not join to letters after them\n* **أَكَلَ (Hamzah on Alif) vs كِتَاب (Alif as Madd prolonger)** (Hamzah vs Alif distinction) — Hamzah produces glottal stop /ʔ/; Alif prolongs 'aa'"
+              "examples": [
+                      {
+                              "arabic": "أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي",
+                              "trans": "The 28 Arabic Consonants (RTL)",
+                              "note": "Read and written strictly Right-to-Left along a continuous baseline"
+                      },
+                      {
+                              "arabic": "ا د ذ ر ز و",
+                              "trans": "The 6 Non-Connecting Letters (حروف القطع)",
+                              "note": "Only 2 functional shapes: Standalone and Right-joined. They connect from the right, but NEVER connect to following letters on the left."
+                      },
+                      {
+                              "arabic": "أَمَل / أُمّ",
+                              "trans": "Initial Alif Non-Connection",
+                              "note": "Alif stands independently at the start of a word; does not connect forward to Mīm (which starts in its initial form)."
+                      },
+                      {
+                              "arabic": "بَاب",
+                              "trans": "Medial Alif Forward Break",
+                              "note": "First Bā' (بـ) joins into Alif (ـا), but Alif refuses forward connection, forcing the second Bā' into isolated form (ب)."
+                      },
+                      {
+                              "arabic": "دَار",
+                              "trans": "Successive Non-Connecting Letters",
+                              "note": "Dāl (د), Alif (ا), and Rā' (ر) are all non-connectors; none can join forward, so all three sit in standalone isolated forms."
+                      },
+                      {
+                              "arabic": "كِتَاب",
+                              "trans": "Word-Internal Alif Non-Connection",
+                              "note": "Tā' joins Alif (ـتا), but Alif breaks the connection, leaving Bā' in isolated form (ب)."
+                      },
+                      {
+                              "arabic": "أَكَلَ (Hamzah glottal stop) vs كِتَاب (Alif Madd prolonger)",
+                              "trans": "Hamzah (ء) vs Alif (ا) Distinction",
+                              "note": "Hamzah is the true consonant glottal stop (/ʔ/) carrying vowels (أَ, إِ, أُ); Alif has no sound of its own, functioning as long vowel prolonger ('aa') or seat for Hamzah."
+                      },
+                      {
+                              "arabic": "ه (Isolated) / هـ (Initial) / ـهـ (Medial) / ـه (Final)",
+                              "trans": "Hā' (ه) 4 Positional Forms",
+                              "note": "Isolated shape is a standalone loop (ه), initial is (هـ), medial is the bow-tie (ـهـ), and final connects from right (ـه)."
+                      }
+              ],
+              "orthographyGuide": {
+                      "title": "The 28 Arabic Consonants & Positional Forms (RTL)",
+                      "headers": [
+                              "Name",
+                              "Transliteration",
+                              "Isolated",
+                              "Initial",
+                              "Medial",
+                              "Final",
+                              "Type"
+                      ],
+                      "letters": [
+                              {
+                                      "name": "Alif",
+                                      "trans": "ā / '",
+                                      "isolated": "ا",
+                                      "initial": "ا",
+                                      "medial": "ـا",
+                                      "final": "ـا",
+                                      "nonConnector": true,
+                                      "shapes": 2
+                              },
+                              {
+                                      "name": "Bā'",
+                                      "trans": "b",
+                                      "isolated": "ب",
+                                      "initial": "بـ",
+                                      "medial": "ـبـ",
+                                      "final": "ـب",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Tā'",
+                                      "trans": "t",
+                                      "isolated": "ت",
+                                      "initial": "تـ",
+                                      "medial": "ـتـ",
+                                      "final": "ـت",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Thā'",
+                                      "trans": "th",
+                                      "isolated": "ث",
+                                      "initial": "ثـ",
+                                      "medial": "ـثـ",
+                                      "final": "ـث",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Jīm",
+                                      "trans": "j",
+                                      "isolated": "ج",
+                                      "initial": "جـ",
+                                      "medial": "ـجـ",
+                                      "final": "ـج",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Ḥā'",
+                                      "trans": "ḥ",
+                                      "isolated": "ح",
+                                      "initial": "حـ",
+                                      "medial": "ـحـ",
+                                      "final": "ـح",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Khā'",
+                                      "trans": "kh",
+                                      "isolated": "خ",
+                                      "initial": "خـ",
+                                      "medial": "ـخـ",
+                                      "final": "ـخ",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Dāl",
+                                      "trans": "d",
+                                      "isolated": "د",
+                                      "initial": "د",
+                                      "medial": "ـد",
+                                      "final": "ـد",
+                                      "nonConnector": true,
+                                      "shapes": 2
+                              },
+                              {
+                                      "name": "Dhāl",
+                                      "trans": "dh",
+                                      "isolated": "ذ",
+                                      "initial": "ذ",
+                                      "medial": "ـذ",
+                                      "final": "ـذ",
+                                      "nonConnector": true,
+                                      "shapes": 2
+                              },
+                              {
+                                      "name": "Rā'",
+                                      "trans": "r",
+                                      "isolated": "ر",
+                                      "initial": "ر",
+                                      "medial": "ـر",
+                                      "final": "ـر",
+                                      "nonConnector": true,
+                                      "shapes": 2
+                              },
+                              {
+                                      "name": "Zāy",
+                                      "trans": "z",
+                                      "isolated": "ز",
+                                      "initial": "ز",
+                                      "medial": "ـز",
+                                      "final": "ـز",
+                                      "nonConnector": true,
+                                      "shapes": 2
+                              },
+                              {
+                                      "name": "Sīn",
+                                      "trans": "s",
+                                      "isolated": "س",
+                                      "initial": "سـ",
+                                      "medial": "ـسـ",
+                                      "final": "ـس",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Shīn",
+                                      "trans": "sh",
+                                      "isolated": "ش",
+                                      "initial": "شـ",
+                                      "medial": "ـشـ",
+                                      "final": "ـش",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Ṣād",
+                                      "trans": "ṣ",
+                                      "isolated": "ص",
+                                      "initial": "صـ",
+                                      "medial": "ـصـ",
+                                      "final": "ـص",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Ḍād",
+                                      "trans": "ḍ",
+                                      "isolated": "ض",
+                                      "initial": "ضـ",
+                                      "medial": "ـضـ",
+                                      "final": "ـض",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Ṭā'",
+                                      "trans": "ṭ",
+                                      "isolated": "ط",
+                                      "initial": "طـ",
+                                      "medial": "ـطـ",
+                                      "final": "ـط",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Ẓā'",
+                                      "trans": "ẓ",
+                                      "isolated": "ظ",
+                                      "initial": "ظـ",
+                                      "medial": "ـظـ",
+                                      "final": "ـظ",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "'Ayn",
+                                      "trans": "‘",
+                                      "isolated": "ع",
+                                      "initial": "عـ",
+                                      "medial": "ـعـ",
+                                      "final": "ـع",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Ghayn",
+                                      "trans": "gh",
+                                      "isolated": "غ",
+                                      "initial": "غـ",
+                                      "medial": "ـغـ",
+                                      "final": "ـغ",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Fā'",
+                                      "trans": "f",
+                                      "isolated": "ف",
+                                      "initial": "فـ",
+                                      "medial": "ـفـ",
+                                      "final": "ـف",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Qāf",
+                                      "trans": "q",
+                                      "isolated": "ق",
+                                      "initial": "قـ",
+                                      "medial": "ـقـ",
+                                      "final": "ـق",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Kāf",
+                                      "trans": "k",
+                                      "isolated": "ك",
+                                      "initial": "كـ",
+                                      "medial": "ـكـ",
+                                      "final": "ـك",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Lām",
+                                      "trans": "l",
+                                      "isolated": "ل",
+                                      "initial": "لـ",
+                                      "medial": "ـلـ",
+                                      "final": "ـل",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Mīm",
+                                      "trans": "m",
+                                      "isolated": "م",
+                                      "initial": "مـ",
+                                      "medial": "ـمـ",
+                                      "final": "ـم",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Nūn",
+                                      "trans": "n",
+                                      "isolated": "ن",
+                                      "initial": "نـ",
+                                      "medial": "ـنـ",
+                                      "final": "ـن",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Hā'",
+                                      "trans": "h",
+                                      "isolated": "ه",
+                                      "initial": "هـ",
+                                      "medial": "ـهـ",
+                                      "final": "ـه",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              },
+                              {
+                                      "name": "Wāw",
+                                      "trans": "w / ū",
+                                      "isolated": "و",
+                                      "initial": "و",
+                                      "medial": "ـو",
+                                      "final": "ـو",
+                                      "nonConnector": true,
+                                      "shapes": 2
+                              },
+                              {
+                                      "name": "Yā'",
+                                      "trans": "y / ī",
+                                      "isolated": "ي",
+                                      "initial": "يـ",
+                                      "medial": "ـيـ",
+                                      "final": "ـي",
+                                      "nonConnector": false,
+                                      "shapes": 4
+                              }
+                      ]
+              },
+              "videoLesson": {
+                      "title": "How to Connect Arabic Letters Step-by-Step Guide (Arabic for Beginners) | Lesson 1 | Access Arabic",
+                      "channel": "Access Arabic",
+                      "duration": "09:17",
+                      "videoId": "9bQXR16hvlI",
+                      "watchUrl": "https://www.youtube.com/watch?v=9bQXR16hvlI",
+                      "embedUrl": "https://www.youtube-nocookie.com/embed/9bQXR16hvlI",
+                      "url": "https://www.youtube-nocookie.com/embed/9bQXR16hvlI",
+                      "alternativeSource": "https://www.madinaharabic.com/arabic-language-course/lessons",
+                      "sourceName": "Madinah Arabic — Free Arabic Reading Course",
+                      "badge": "Verified Reference Video",
+                      "resourceType": "free_lesson",
+                      "note": "Supplemental reference video on Arabic letter connections. The full orthography guide, letter shape visualizer, vocabulary, and exercises below are completely self-contained.",
+                      "references": [
+                              {
+                                      "id": "ref-connect",
+                                      "tabLabel": "Connecting Letters Guide (09:17)",
+                                      "title": "How to Connect Arabic Letters Step-by-Step Guide (Arabic for Beginners) | Lesson 1 | Access Arabic",
+                                      "channel": "Access Arabic",
+                                      "duration": "09:17",
+                                      "videoId": "9bQXR16hvlI",
+                                      "watchUrl": "https://www.youtube.com/watch?v=9bQXR16hvlI",
+                                      "badge": "Verified Reference Video",
+                                      "isUserProvided": false,
+                                      "note": "Verified reference video detailing step-by-step Arabic letter connections."
+                              },
+                              {
+                                      "id": "ref-writing",
+                                      "tabLabel": "Writing & Stroke Mechanics (13:25)",
+                                      "title": "Writing & Stroke Mechanics Reference Lecture",
+                                      "channel": "FAHMRISE Curriculum Studio",
+                                      "duration": "13:25",
+                                      "videoId": null,
+                                      "watchUrl": null,
+                                      "isUnavailable": true,
+                                      "badge": "Reference Currently Unavailable",
+                                      "unavailableTitle": "Video Reference Currently Unavailable",
+                                      "unavailableMessage": "A verified reference video specifically teaching Writing & Stroke Mechanics (13:25) is currently being vetted. Full interactive stroke mechanics and guided handwriting exercises are available in Chapter 2, and the self-contained written orthography guide is below.",
+                                      "note": "Reference lecture currently being vetted. Complete written materials below are fully self-contained."
+                              }
+                      ]
+              },
+              "transcript": "Welcome to Chapter 1 of 37: Introduction to the Arabic Writing System.\n\nIn this lesson, you will master the foundational mechanics of reading and writing Arabic from Right to Left (RTL).\n\nKey Core Concepts:\n1. The 28 Arabic Consonants: Written along a continuous baseline.\n2. Dual-Connecting vs Non-Connecting Letters: 22 letters connect in both directions with 4 shapes. 6 letters (Alif, Dāl, Dhāl, Rā', Zāy, and Wāw) never connect forward to the left and have only 2 functional shapes.\n3. Alif Forward Non-Connection: Demonstrations in words like أَمَل (Amal), بَاب (Bāb), دَار (Dār), and كِتَاب (Kitāb).\n4. Hamzah (ء) vs Alif (ا): Hamzah is the true consonant glottal stop (/ʔ/), whereas Alif is a vowel prolonger or seat.\n5. Hā' (ه) Form: Isolated loop (ه), initial (هـ), medial bow-tie (ـهـ), and final (ـه).",
+              "vocabulary": [
+                      {
+                              "word": "أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي",
+                              "phonetic": "The 28 Arabic Consonants",
+                              "translation": "Written strictly Right-to-Left (RTL)",
+                              "example": "أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي (The 28 Arabic Consonants)"
+                      },
+                      {
+                              "word": "ا د ذ ر ز و",
+                              "phonetic": "The 6 Non-Connecting Letters (حروف القطع)",
+                              "translation": "Only 2 functional shapes; never connect forward to the left",
+                              "example": "ا د ذ ر ز و (The 6 Non-Connecting Letters)"
+                      },
+                      {
+                              "word": "أَمَل / أُمّ",
+                              "phonetic": "Amal / Umm",
+                              "translation": "Hope / Mother (Initial Alif non-connection)",
+                              "example": "أَمَل / أُمّ (Initial Alif stands alone; does not join forward to Mīm)"
+                      },
+                      {
+                              "word": "بَاب",
+                              "phonetic": "Bāb",
+                              "translation": "Door (Medial Alif breaks connection before final Bā')",
+                              "example": "بَاب (Bāb - Door)"
+                      },
+                      {
+                              "word": "دَار",
+                              "phonetic": "Dār",
+                              "translation": "Home / House (Three successive non-connecting letters)",
+                              "example": "دَار (Dār - House / Home)"
+                      },
+                      {
+                              "word": "كِتَاب",
+                              "phonetic": "Kitāb",
+                              "translation": "Book (Word-internal Alif breaks connection to final Bā')",
+                              "example": "كِتَاب (Kitāb - Book)"
+                      },
+                      {
+                              "word": "أَكَلَ (Hamzah glottal stop) vs كِتَاب (Alif Madd prolonger)",
+                              "phonetic": "Hamzah vs Alif distinction",
+                              "translation": "Hamzah produces glottal stop /ʔ/; Alif prolongs 'aa'",
+                              "example": "أَكَلَ vs كِتَاب (Hamzah consonant vs Alif long vowel prolonger)"
+                      },
+                      {
+                              "word": "ه (Isolated) / هـ (Initial) / ـهـ (Medial) / ـه (Final)",
+                              "phonetic": "Hā' 4 positional forms",
+                              "translation": "Loop (isolated) / Baseline (initial) / Bow-tie (medial) / Final loop",
+                              "example": "ه / هـ / ـهـ / ـه (Hā' Form Variations)"
+                      }
+              ],
+              "quiz": {
+                      "id": "quiz-m1-l1",
+                      "title": "Introduction to the Arabic Writing System Checkpoint Quiz",
+                      "questions": [
+                              {
+                                      "id": "m1-l1-q1",
+                                      "question": "What is the primary objective of Introduction to the Arabic Writing System?",
+                                      "options": [
+                                              "Master the RTL writing system, recognize all 28 consonants in their positional forms, identify the 6 non-connecting letters, and distinguish Alif from Hamzah.",
+                                              "Memorizing unrelated vocabulary lists",
+                                              "Skipping grammatical concordance",
+                                              "Ignoring vowel diacritics"
+                                      ],
+                                      "correctAnswer": 0,
+                                      "explanation": "The Arabic alphabet consists of 28 consonants, written and read from right to left (RTL). Arabic script is inherently cursive. While 22 letters possess 4 forms, the 6 non-connecting letters possess only 2 functional shapes and never connect to following letters on the left."
+                              },
+                              {
+                                      "id": "m1-l1-q2",
+                                      "question": "Which set contains the 6 non-connecting letters (حروف القطع) that never connect forward to the left?",
+                                      "options": [
+                                              "ا ، د ، ذ ، ر ، ز ، و (Alif, Dāl, Dhāl, Rā', Zāy, Wāw)",
+                                              "ب ، ت ، ث ، ن ، ي ، ف",
+                                              "ج ، ح ، خ ، ع ، غ ، م",
+                                              "س ، ش ، ص ، ض ، ط ، ظ"
+                                      ],
+                                      "correctAnswer": 0,
+                                      "explanation": "The 6 non-connecting letters are Alif (ا), Dāl (د), Dhāl (ذ), Rā' (ر), Zāy (ز), and Wāw (و). They connect only from the right and never connect to following letters on the left, possessing only 2 functional shapes."
+                              },
+                              {
+                                      "id": "m1-l1-q3",
+                                      "question": "Why does the word بَاب (Bāb) have the second Bā' written in isolated form (ب)?",
+                                      "options": [
+                                              "Because Alif (ا) is a non-connecting letter that cannot connect forward to the left.",
+                                              "Because Bā' cannot be written at the end of a word.",
+                                              "Because Arabic words cannot have more than two connected letters.",
+                                              "Because Alif only connects to vowels."
+                                      ],
+                                      "correctAnswer": 0,
+                                      "explanation": "In بَاب, the first Bā' connects into Alif (با), but Alif cannot connect forward to the following letter, forcing the second Bā' into its isolated form (ب)."
+                              }
+                      ]
+              },
+              "content": "### Introduction to the Arabic Writing System\n\nLearn how Arabic is written from right to left, understand the 28 Arabic letters, and explore how letters change shape depending on their position in a word.\n\nArabic orthography is an elegant, cursive script written and read strictly from **Right to Left (RTL)** along a shared baseline. Unlike Latin print, Arabic letters in a word connect together continuously, much like English cursive handwriting.\n\n---\n\n### 1. The 28 Arabic Consonants & RTL Direction\nThe standard Arabic alphabet consists of **28 consonant letters**. When reading or writing, you always begin at the right side of the page and move towards the left.\n\nThe 28 consonants in traditional order:\n**أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي**\n\n---\n\n### 2. Dual-Connecting Letters vs. The 6 Non-Connecting Letters\nArabic letters change their shape depending on their position in a word:\n* **Isolated (مُنْفَصِل):** Written completely on its own.\n* **Initial (بِدَايَة):** At the beginning of a word or after a non-connecting letter, connecting to the left.\n* **Medial (وَسَط):** In the middle of a word, connecting on both sides.\n* **Final (نِهَايَة):** At the end of a word, connecting from the right.\n\n#### The 22 Dual-Connecting Letters (4 Shapes)\n22 of the 28 letters are **dual-connectors**—they connect to preceding letters from the right AND to subsequent letters on the left. These letters possess **4 distinct positional shapes** (Isolated, Initial, Medial, Final).\n\n#### The 6 Non-Connecting Letters (حُرُوفُ الْقَطْع) — Only 2 Functional Shapes\nSix letters in Arabic connect **only from the right** (to preceding letters), but **NEVER connect forward to the letter that follows them on the left**:\n* **Alif (ا)**\n* **Dāl (د)**\n* **Dhāl (ذ)**\n* **Rā' (ر)**\n* **Zāy (ز)**\n* **Wāw (و)**\n\n> **Important Rule:** Because these 6 letters cannot connect forward to the left, they have **only 2 functional shapes** (not 4). Do not force every letter into 4 shapes:\n> 1. **Standalone shape** (`ا`, `د`, `ذ`, `ر`, `ز`, `و`): used when isolated or at the beginning of a word.\n> 2. **Right-joined shape** (`ـا`, `ـد`, `ـذ`, `ـر`, `ـز`, `ـو`): used when preceded by a connecting letter.\n\nAny letter following a non-connector must be written as if starting a fresh sequence (in its initial or isolated form).\n\n---\n\n### 3. Alif Forward Non-Connection in Real Words\nTo see how the non-connection rule works in practice, examine how **Alif (ا)** behaves in common Arabic words:\n\n1. **Initial Alif — `أَمَل` (Amal - Hope) / `أُمّ` (Umm - Mother):**\n   Alif stands independently at the beginning. It refuses to join to the left into Mīm (`م`). Therefore, Mīm begins in its initial shape (`مـ`).\n2. **Medial Alif with Forward Break — `بَاب` (Bāb - Door):**\n   The first Bā' connects forward into Alif (`بـ` + `ـا` = `با`). However, Alif cannot connect forward to the second Bā'. As a result, the second Bā' must appear in its standalone isolated shape (`ب`).\n3. **Successive Non-Connecting Letters — `دَار` (Dār - Home / Abode):**\n   Here, Dāl (`د`), Alif (`ا`), and Rā' (`ر`) are all non-connectors. Dāl cannot connect to Alif, and Alif cannot connect to Rā'. All three letters stand side-by-side completely unlinked: `د` + `ا` + `ر` = `دَار`.\n4. **Word-Internal Non-Connection — `كِتَاب` (Kitāb - Book):**\n   The Tā' connects smoothly into Alif (`ـتـ` + `ـا` = `ـتا`). Alif then terminates the stroke connection, leaving the final Bā' (`ب`) in its isolated form.\n\n---\n\n### 4. Distinction Between Hamzah (ء) and Alif (ا)\nBeginners frequently confuse Hamzah and Alif because Hamzah often perches atop or beneath an Alif. However, they are phonetically and grammatically distinct:\n\n* **Hamzah (`ء`):** A true consonant representing a phonetic glottal stop (`/ʔ/`). It carries short vowels (Fathah `أَ`, Kasrah `إِ`, Dammah `أُ`) or Sukun (`أْ`), and can be written alone or supported on an orthographic \"seat\" (*kursī*: `أ`, `إ`, `ؤ`, `ئ`).\n* **Alif (`ا`):** A bare vertical letter that produces **no independent consonant sound**. It serves two primary functions:\n  1. Prolonging a preceding Fathah as the long vowel *Madd Asli* (`/aː/`), as in `كِتَاب` (*kitāb*).\n  2. Acting as an orthographic bearer or \"seat\" for the Hamzah.\n\n---\n\n### 5. Accurate Letter Forms: Notice the Shape of Hā' (ه)\nSpecial attention must be paid to the letter **Hā' (ه)**, which undergoes substantial transformation across its 4 forms:\n* **Isolated (مُنْفَصِل):** `ه` — A standalone closed circular loop or teardrop (not `هـ`). Example: `مِيَاه` (*miyāh* - waters).\n* **Initial (بِدَايَة):** `هـ` — A loop sitting directly on the baseline connecting to the left. Example: `هَدِيَّة` (*hadiyyah* - gift).\n* **Medial (وَسَط):** `ـهـ` — A two-tier \"bow-tie\" or figure-eight loop crossing above and below the baseline. Example: `نَهْر` (*nahr* - river).\n* **Final (نِهَايَة):** `ـه` — A small loop rising above the incoming baseline stroke. Example: `كِتَابُهُ` (*kitābuhu* - his book)."
       },
       {
-        "id": "m1-l2",
-        "number": 2,
-        "moduleNumber": 1,
-        "moduleTitle": "Arabic Alphabet, Vowels & Phonetics",
-        "title": "Letter Shapes and Dot Variations",
-        "subtitle": "Visual discrimination and skeleton groupings",
-        "readingTime": "6 min",
-        "explanation": "Arabic letters share common base skeletons differentiated by the number and placement of dots (e.g. Baa, Taa, Thaa share the boat skeleton).",
-        "learningObjective": "Identify all 28 letters based on skeletal shape and dot placement.",
-        "keyPoints": [
-          "Baa (ب), Taa (ت), Thaa (ث) share the boat skeleton.",
-          "Jeem (ج), Haa (ح), Khaa (خ) share the loop skeleton.",
-          "Daal (د) and Dhaal (ذ) form a non-descending pair.",
-          "Raa (ر) and Zaay (ز) form a descending curve pair."
-        ],
-        "examples": [
-          {
-            "arabic": "ب (1 dot below) / ت (2 dots above) / ث (3 dots above)",
-            "trans": "Bā' / Tā' / Thā'",
-            "note": "Boat shape with dots"
-          }
-        ],
-        "orthographyGuide": null,
-        "videoLesson": {
-          "title": "Learn the Arabic Alphabet in 1 Hour or Less! (free printable worksheets)",
-          "channel": "Learn Arabic with ArabicPod101.com",
-          "duration": "02:44:30",
-          "videoId": "5eAlnoF20YM",
-          "watchUrl": "https://www.youtube.com/watch?v=5eAlnoF20YM",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/5eAlnoF20YM",
-          "url": "https://www.youtube-nocookie.com/embed/5eAlnoF20YM",
-          "alternativeSource": "https://www.madinaharabic.com/arabic-language-course/lessons",
-          "sourceName": "Madinah Arabic — Free Arabic Reading Course",
-          "badge": "Arabic Alphabet Video",
-          "resourceType": "free_lesson"
-        },
-        "transcript": "Welcome to Arabic Alphabet, Vowels & Phonetics - Letter Shapes and Dot Variations.\n\nIn this lesson, we study: Arabic letters share common base skeletons differentiated by the number and placement of dots (e.g. Baa, Taa, Thaa share the boat skeleton).\n\nKey Focus: Identify all 28 letters based on skeletal shape and dot placement.",
-        "vocabulary": [
-          {
-            "word": "ب (1 dot below) / ت (2 dots above) / ث (3 dots above)",
-            "phonetic": "Bā' / Tā' / Thā'",
-            "translation": "Boat shape with dots",
-            "example": "ب (1 dot below) / ت (2 dots above) / ث (3 dots above) (Bā' / Tā' / Thā')"
-          }
-        ],
-        "quiz": {
-          "id": "quiz-m1-l2",
-          "title": "Letter Shapes and Dot Variations Checkpoint Quiz",
-          "questions": [
-            {
-              "id": "m1-l2-q1",
-              "question": "What is the primary objective of Letter Shapes and Dot Variations?",
-              "options": [
-                "Identify all 28 letters based on skeletal shape and dot placement.",
-                "Memorizing unrelated vocabulary lists",
-                "Skipping grammatical concordance",
-                "Ignoring vowel diacritics"
-              ],
-              "correctAnswer": 0,
-              "explanation": "Arabic letters share common base skeletons differentiated by the number and placement of dots (e.g. Baa, Taa, Thaa share the boat skeleton)."
-            }
-          ]
-        },
-        "content": "Arabic letters share common base skeletons differentiated by the number and placement of dots (e.g. Baa, Taa, Thaa share the boat skeleton).\n\n### Learning Objectives\n* Identify all 28 letters based on skeletal shape and dot placement.\n\n### Key Concepts\n* Baa (ب), Taa (ت), Thaa (ث) share the boat skeleton.\n* Jeem (ج), Haa (ح), Khaa (خ) share the loop skeleton.\n* Daal (د) and Dhaal (ذ) form a non-descending pair.\n* Raa (ر) and Zaay (ز) form a descending curve pair.\n\n### Examples & Applications\n* **ب (1 dot below) / ت (2 dots above) / ث (3 dots above)** (Bā' / Tā' / Thā') — Boat shape with dots"
+  "id": "m1-l2",
+  "number": 2,
+  "moduleNumber": 1,
+  "moduleTitle": "Arabic Alphabet, Vowels & Phonetics",
+  "title": "Letter Shapes and Dot Variations",
+  "subtitle": "Visual discrimination, handwriting stroke mechanics, and skeleton groupings",
+  "readingTime": "8 min",
+  "explanation": "Arabic handwriting is built upon fluid Right-to-Left (RTL) pen movements along a shared horizontal baseline (Saṭr). In this practical handwriting guide, you will learn the exact stroke sequence, pen starting coordinates, and dot timing for all 9 core letter groups: Boat shape (ب ت ث), Loop shape (ج ح خ), Short angle (د ذ), Descending curve (ر ز), Three teeth (س ش), Oval and tooth (ص ض), Upright staff (ط ظ), Similar shapes (ع غ), and Dot variations (ف ق).",
+  "learningObjective": "Write Arabic letters correctly by hand from right to left, execute proper stroke order and baseline discipline, position dots accurately after forming the base skeleton, recognize letters in isolated and connected forms, and avoid common beginner handwriting mistakes.",
+  "keyPoints": [
+    "Rule #1 of Arabic Handwriting: Always draw the continuous base skeleton first from right to left; never lift the pen mid-stroke. Add dots (Nuqaṭ) only AFTER completing the base skeleton.",
+    "Boat Shape (ب ت ث): Start right tooth 2mm above baseline, glide flat RTL on baseline, curve up left tooth. Lift pen: Bā' (1 dot below), Tā' (2 dots side-by-side above), Thā' (3 dots in an upright triangle above).",
+    "Loop Shape (ج ح خ): Start above baseline, draw wavy brow to the right, retrace and loop down into large semi-circular belly below baseline. Initial/medial forms drop the belly to stay flat on baseline.",
+    "Short Angle (د ذ) vs Descending Curve (ر ز): Dāl/Dhāl sit flat ON the baseline at a 60° angle; Rā'/Zāy swoop smoothly in a banana curve plunging BELOW the baseline.",
+    "Three Teeth (س ش) & Oval-and-Tooth (ص ض): Sīn/Shīn have exactly 3 small teeth on baseline. Ṣād/Ḍād have an oval loop followed by a MANDATORY upward tooth before connecting or dropping their tail.",
+    "Upright Staff (ط ظ) & Similar Shapes (ع غ): Ṭā'/Ẓā' form the baseline oval first, then drop the vertical staff onto the right edge. 'Ayn/Ghayn have an open crescent initial head, but form closed/shaded inverted triangles in medial and final forms.",
+    "Dot & Bowl Variations (ف ق): Fā' has a round head on baseline with a flat boat bowl (like Bā') and 1 dot; Qāf has a round head with a deep circular bowl plunging below baseline (like Nūn) and 2 dots.",
+    "Avoid Common Handwriting Mistakes: Never write left-to-right, never place dots before drawing the body, never omit the tooth of Ṣād/Ḍād, and never flatten Qāf's bowl on the baseline."
+  ],
+  "examples": [
+    {
+      "arabic": "بَـيْـت vs تِـيـن vs ثَـوْب",
+      "trans": "Boat Family: Bā' (1 dot below) / Tā' (2 dots above) / Thā' (3 dots above)",
+      "note": "Same boat baseline skeleton distinguished solely by dot count and vertical placement"
+    },
+    {
+      "arabic": "جَـمَـل vs حَـمَـل vs خَـبَـر",
+      "trans": "Hook Family: Jīm (1 dot below) / Ḥā' (0 dots) / Khā' (1 dot above)",
+      "note": "Ḥā' is bare; Jīm has dot in belly; Khā' has dot atop the crown"
+    },
+    {
+      "arabic": "دَار vs ذَوْق",
+      "trans": "Angle Family: Dāl (0 dots) / Dhāl (1 dot above)",
+      "note": "Both sit upright on the baseline as non-connecting letters"
+    },
+    {
+      "arabic": "رَأْس vs زَيْـت",
+      "trans": "Descending Curve Family: Rā' (0 dots) / Zāy (1 dot above)",
+      "note": "Both swoop downward below the baseline (unlike Dāl/Dhāl)"
+    },
+    {
+      "arabic": "سَـمَـك vs شَـمْـس",
+      "trans": "Three Teeth Family: Sīn (0 dots) / Shīn (3 dots above)",
+      "note": "Three teeth along baseline with or without 3 dots arranged in a triangle"
+    },
+    {
+      "arabic": "صَـبَـاح vs ضَـوْء",
+      "trans": "Loop & Tooth Family: Ṣād (0 dots) / Ḍād (1 dot above)",
+      "note": "Emphatic oval loop with final tooth"
+    },
+    {
+      "arabic": "طَـالِـب vs ظِـلّ",
+      "trans": "Upright Staff Family: Ṭā' (0 dots) / Ẓā' (1 dot above)",
+      "note": "Oval base loop pierced by vertical pole; never drops below baseline"
+    },
+    {
+      "arabic": "عَـيْـن vs غَـيْـم",
+      "trans": "Open Eye Family: 'Ayn (0 dots) / Ghayn (1 dot above)",
+      "note": "Ghayn carries 1 dot above the open eye stroke"
+    },
+    {
+      "arabic": "فِـيـل vs قَـلَـم",
+      "trans": "Bowl Depth Contrast: Fā' (1 dot above, flat bowl) vs Qāf (2 dots above, deep sink)",
+      "note": "Fā' bowl remains flat on baseline; Qāf bowl sinks deeply below baseline like Nūn"
+    }
+  ],
+  "orthographyGuide": null,
+  "videoLesson": {
+    "title": "Memorize the ARABIC ALPHABET in 7 Minutes (Really)",
+    "channel": "Brian Wiles",
+    "duration": "07:17",
+    "start": 44,
+    "startFormatted": "00:44",
+    "videoId": "NYQU0_KgWD8",
+    "watchUrl": "https://www.youtube.com/watch?v=NYQU0_KgWD8&t=44s",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/NYQU0_KgWD8?start=44",
+    "url": "https://www.youtube-nocookie.com/embed/NYQU0_KgWD8?start=44",
+    "alternativeSource": "https://www.madinaharabic.com/arabic-language-course/lessons",
+    "sourceName": "Madinah Arabic — Free Arabic Reading Course",
+    "badge": "User-Provided Video Reference",
+    "isUserProvided": true,
+    "resourceType": "fast_video_reference",
+    "note": "Fast video reference provided by user. Playback starts at 00:44. Supplemental reference; full handwriting lesson and exercises below are self-contained.",
+    "references": [
+      {
+        "id": "ref-fast-user",
+        "tabLabel": "Fast Video Reference (07:17 • 00:44)",
+        "title": "Memorize the ARABIC ALPHABET in 7 Minutes (Really)",
+        "channel": "Brian Wiles",
+        "duration": "07:17",
+        "start": 44,
+        "startFormatted": "00:44",
+        "videoId": "NYQU0_KgWD8",
+        "watchUrl": "https://www.youtube.com/watch?v=NYQU0_KgWD8&t=44s",
+        "badge": "User-Provided Video Reference",
+        "isUserProvided": true,
+        "note": "User-provided fast video reference. Playback begins at 00:44."
       },
+      {
+        "id": "ref-look-alike",
+        "tabLabel": "Similar Letters & Dots (07:38)",
+        "title": "Arabic Letters That Look Alike | Learn Similar Arabic Alphabets for Beginners | Nurul bayan Lesson 3",
+        "channel": "An-Nur Qur’an Academy",
+        "duration": "07:38",
+        "videoId": "rJAA9QwLuLM",
+        "watchUrl": "https://www.youtube.com/watch?v=rJAA9QwLuLM",
+        "badge": "Verified Reference Video",
+        "isUserProvided": false,
+        "note": "Detailed board lecture contrasting look-alike Arabic letter shapes and dot placements."
+      },
+      {
+        "id": "ref-elements",
+        "tabLabel": "Dots & Letter Elements (04:48)",
+        "title": "Arabic Letter Elements Explained (Dots, Lines & Shapes)",
+        "channel": "Arabic for English speakers",
+        "duration": "04:48",
+        "videoId": "BqbkJ4YJzy0",
+        "watchUrl": "https://www.youtube.com/watch?v=BqbkJ4YJzy0",
+        "badge": "Verified Reference Video",
+        "isUserProvided": false,
+        "note": "Analytical explanation of dots, lines, and shape components in the Arabic writing system."
+      }
+    ]
+  },
+  "transcript": "Welcome to Chapter 2 of 37: Letter Shapes and Dot Variations (Handwriting Focus).\n\nIn this lesson, you will master the physical act of writing Arabic letters by hand: stroke direction, starting positions, dot placement, positional cursive shapes, and error prevention for all 9 skeleton groups.\n\nCore Handwriting Rules:\n1. Move strictly from Right to Left (RTL) along the baseline.\n2. Complete the continuous base skeleton first, then lift the pen to add dots.\n3. Keep baseline letters on the baseline wire; let descending letters plunge smoothly into the basement.\n4. Avoid common handwriting traps: never write LTR, never skip the tooth of Ṣād/Ḍād, and never flatten Qāf's bowl.",
+  "vocabulary": [
+    {
+      "word": "تَـاج",
+      "phonetic": "Tāj",
+      "translation": "Crown (Tā' 2 dots above + Jīm 1 dot below)",
+      "example": "تَـاج (Illustrates Tā' 2 dots above and Jīm 1 dot in belly)"
+    },
+    {
+      "word": "خُـبْـز",
+      "phonetic": "Khubz",
+      "translation": "Bread (Khā' 1 dot above + Bā' 1 dot below + Zāy 1 dot above)",
+      "example": "خُـبْـز (Three dotted letters: Khā' top, Bā' bottom, Zāy top)"
+    },
+    {
+      "word": "ذَهَـب",
+      "phonetic": "Dhahab",
+      "translation": "Gold (Dhāl 1 dot above + Hā' loop + Bā' 1 dot below)",
+      "example": "ذَهَـب (Dhāl angled dot above, Hā' loop, Bā' dot below)"
+    },
+    {
+      "word": "شَـجَـر",
+      "phonetic": "Shajar",
+      "translation": "Trees (Shīn 3 dots above + Jīm 1 dot below + Rā' 0 dots)",
+      "example": "شَـجَـر (Shīn 3 dots, Jīm 1 dot, Rā' no dots)"
+    },
+    {
+      "word": "صُـنْـدُوق",
+      "phonetic": "Ṣundūq",
+      "translation": "Box / Chest (Ṣād 0 dots + Nūn 1 dot + Dāl 0 dots + Qāf 2 dots)",
+      "example": "صُـنْـدُوق (Ṣād bare loop, Nūn 1 dot, Dāl bare angle, Qāf 2 dots)"
+    },
+    {
+      "word": "ضِـفْـدَع",
+      "phonetic": "Ḍifda'",
+      "translation": "Frog (Ḍād 1 dot above + Fā' 1 dot above + Dāl 0 dots + 'Ayn 0 dots)",
+      "example": "ضِـفْـدَع (Ḍād loop with dot, Fā' 1 dot, Dāl bare, 'Ayn bare)"
+    },
+    {
+      "word": "طَـبِـيـب",
+      "phonetic": "Ṭabīb",
+      "translation": "Doctor (Ṭā' staff 0 dots + Bā' 1 dot below + Yā' 2 dots below)",
+      "example": "طَـبِـيـب (Ṭā' upright pole, Bā' 1 dot below, Yā' 2 dots below)"
+    },
+    {
+      "word": "غَـزَال",
+      "phonetic": "Ghazāl",
+      "translation": "Gazelle (Ghayn 1 dot above + Zāy 1 dot above + Lām staff)",
+      "example": "غَـزَال (Ghayn 1 dot above open eye, Zāy 1 dot above curve)"
+    },
+    {
+      "word": "قِـطّ",
+      "phonetic": "Qiṭṭ",
+      "translation": "Cat (Qāf 2 dots above + Ṭā' staff 0 dots)",
+      "example": "قِـطّ (Qāf 2 dots above loop, Ṭā' upright staff without dots)"
+    },
+    {
+      "word": "مَـطَـر",
+      "phonetic": "Maṭar",
+      "translation": "Rain (Mīm standalone circle + Ṭā' staff + Rā' curve 0 dots)",
+      "example": "مَـطَـر (Mīm standalone head, Ṭā' staff, Rā' descending curve)"
+    }
+  ],
+  "quiz": {
+    "id": "quiz-m1-l2",
+    "title": "Arabic Handwriting & Dot Mechanics Checkpoint Quiz",
+    "questions": [
+      {
+        "id": "m1-l2-q1",
+        "question": "How do you correctly write and dot the three letters of the Boat shape family: Bā' (ب), Tā' (ت), and Thā' (ث)?",
+        "options": [
+          "Draw the flat boat skeleton from right to left along the baseline, then place: 1 dot below for Bā', 2 dots side-by-side above for Tā', and 3 dots in an upright triangle above for Thā'.",
+          "Draw from left to right, placing 2 dots below for Bā', 1 dot above for Tā', and 3 dots below for Thā'.",
+          "Place the dots first on the page, then draw the boat around them.",
+          "Draw Bā' flat on the baseline, but drop Tā' and Thā' below the baseline."
+        ],
+        "correctAnswer": 0,
+        "explanation": "All three letters share the flat horizontal boat skeleton drawn strictly from right to left along the baseline. Dots are placed after the skeleton is complete: Bā' has 1 dot below, Tā' has 2 dots above side-by-side, and Thā' has 3 dots arranged in an upright triangle above."
+      },
+      {
+        "id": "m1-l2-q2",
+        "question": "What is the golden rule of stroke sequence and dot placement when handwriting Arabic letters?",
+        "options": [
+          "Always write the dots first before drawing any part of the letter.",
+          "Draw the continuous base consonant skeleton first from right to left, then lift the pen to add dots afterwards.",
+          "Stop the pen mid-stroke to draw dots whenever passing a letter center.",
+          "Dots are optional in handwriting and should be omitted."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Rule #1 of Arabic calligraphy and handwriting: Never interrupt the cursive baseline flow. Complete the continuous consonant skeleton stroke first from right to left, then lift the pen to place the dots (Nuqaṭ) in their exact positions."
+      },
+      {
+        "id": "m1-l2-q3",
+        "question": "In handwriting, what is the crucial baseline distinction between the Short Angle family (د ، ذ) and the Descending Curve family (ر ، ز)?",
+        "options": [
+          "Dāl and Dhāl have a tooth at the beginning, while Rā' and Zāy have no tooth.",
+          "Dāl and Dhāl connect forward to the left, while Rā' and Zāy do not.",
+          "Dāl and Dhāl form a 60° angle sitting flat ON the baseline, whereas Rā' and Zāy swoop downward into a smooth crescent plunging BELOW the baseline.",
+          "Dāl and Dhāl are written from left to right, whereas Rā' and Zāy are written right to left."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dāl (د) and Dhāl (ذ) sit strictly flat ON the baseline with a sharp angled corner. In contrast, Rā' (ر) and Zāy (ز) are smooth crescent curves that plunge below the baseline. If your Dāl drops below the baseline, it becomes an unreadable Rā'!"
+      },
+      {
+        "id": "m1-l2-q4",
+        "question": "When writing isolated Fā' (ف) and Qāf (ق) by hand, how are their base bowls distinguished on the page?",
+        "options": [
+          "Fā' rests flat along the baseline in a shallow boat-like bowl (like Bā'), while Qāf plunges deeply below the baseline into a circular bowl (like Nūn).",
+          "Fā' plunges below the baseline, while Qāf sits flat on the baseline.",
+          "Both letters share the exact same bowl depth, but Fā' has 2 dots and Qāf has 1 dot.",
+          "Fā' has a vertical staff like Ṭā', while Qāf has a wavy brow like Jīm."
+        ],
+        "correctAnswer": 0,
+        "explanation": "In handwriting, Fā' (ف) carries 1 dot above and sits completely flat ON the baseline in a wide boat bowl. Qāf (ق) carries 2 dots above and drops its circular bowl deeply BELOW the baseline, identical to Nūn."
+      },
+      {
+        "id": "m1-l2-q5",
+        "question": "In the handwritten Arabic word خُـبْـز (Khubz - Bread), what is the correct stroke order and dot sequence?",
+        "options": [
+          "Draw from left to right: Zāy, Bā', Khā', then add random dots.",
+          "Write the three connected skeletons (Khā' hook on baseline + Bā' tooth + Zāy descending curve), then lift pen and dot: 1 dot above Khā', 1 dot below Bā', and 1 dot above Zāy.",
+          "Write Khā' with its full isolated belly below the baseline, then write Bā', then Zāy.",
+          "Write the dots first, then connect them with a straight line."
+        ],
+        "correctAnswer": 1,
+        "explanation": "In خُـبْـز: The initial Khā' drops its belly and glides along the baseline, connecting into the medial tooth of Bā', which leads into the final descending curve of Zāy. Once the skeleton sequence is completed, dots are added: 1 dot above Khā', 1 dot below Bā', and 1 dot above Zāy."
+      },
+      {
+        "id": "m1-l2-q6",
+        "question": "What is the critical rule for handwriting Sīn (س) and Shīn (ش) to avoid confusing them with other letters?",
+        "options": [
+          "Write exactly 3 small compact teeth along the baseline; never draw 2 or 4 teeth, and cluster Shīn's 3 dots in an upright triangle above the teeth.",
+          "Draw a smooth wavy line with as many teeth as you like.",
+          "Draw 4 teeth so it looks wider than Bā'.",
+          "Place the 3 dots beneath the baseline."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sīn and Shīn must always have exactly 3 teeth along the baseline. Drawing 2 teeth creates ambiguity with Bā'/Tā', and drawing 4 teeth is an orthographic error. For Shīn, the 3 dots are clustered in an upright triangle above the teeth."
+      }
+    ]
+  },
+  "content": "### Letter Shapes and Dot Variations: The Handwriting Guide\n\nVisual discrimination, stroke mechanics, and skeleton groupings.\n\nArabic handwriting is an art of flow and precision. Unlike Latin script, which is composed of separate upright characters, Arabic is written **strictly from Right to Left (RTL)** along an invisible or ruled **horizontal baseline (سَطْر, Saṭr)**. \n\nTo become fluent in writing Arabic by hand, beginners must master two foundational insights:\n1. **The Shared Skeleton (*Rasm*, رَسْم):** 18 of the 28 consonants share just 8 base skeletons. Once you master drawing a skeleton, you can write 2 to 3 distinct letters simply by placing dots correctly.\n2. **Rule #1 of Arabic Handwriting:** *Always write the continuous base skeleton first from right to left. Never stop or lift your pen mid-word to add dots. Complete the baseline body stroke, then lift your pen to place the dots (Nuqaṭ, نُقَط) in their exact positions.*\n\n---\n\n### The Three Elevation Zones of Arabic Handwriting\nWhen writing Arabic on lined paper, visualize three vertical levels:\n\n* **Zone 1: Upper Zone (Ascender Level):** The space above the baseline where tall vertical staffs rise (such as Alif `ا` and the staff of Ṭā' `ط`).\n* **Zone 2: Baseline Zone (Primary Flow):** Where the vast majority of letter bodies sit and cursive connection links occur (such as the boat of `ب`, the angle of `د`, and the teeth of `س`).\n* **Zone 3: Lower Zone (Descender / \"The Basement\"):** The space plunging **below the baseline** where tails and deep bowls drop (such as the curve of `ر`, the belly of `ج`, and the circular bowl of `ق`).\n\n---\n\n### Detailed Handwriting Breakdown: All 9 Skeleton Families\n\n---\n\n#### 1. Boat Shape Family (ب ، ت ، ث)\nThese three letters share a wide, shallow horizontal bowl resting flat on the baseline:\n\n* **Bā' (ب):** Exactly **1 dot below** the center of the boat.\n* **Tā' (ت):** Exactly **2 dots side-by-side above** inside the boat bowl.\n* **Thā' (ث):** Exactly **3 dots in an upright triangle above** (2 base dots, 1 peak dot).\n\n**Step-by-Step Handwriting Instructions:**\n1. **Starting Point:** Place your pen tip about 2mm directly above the baseline on the right side.\n2. **Stroke 1 (Right Tooth):** Stroke downwards, curving smoothly as you meet the baseline.\n3. **Stroke 2 (Baseline Glide):** Without lifting the pen, glide horizontally flat along the baseline from right to left.\n4. **Stroke 3 (Left Tooth):** Curve slightly upward on the left edge to form the matching terminal tooth.\n5. **Stroke 4 (Dot Placement):** Lift the pen! Place the dot(s) strictly centered. Never draw dots while drawing the line.\n\n**Positional Forms in Handwriting:**\n* **Isolated (مُنْفَصِل):** `ب / ت / ث` — Full boat with both right and left upward teeth.\n* **Initial (بِدَايَة):** `بـ / تـ / ثـ` — Right tooth curves into baseline, then glides left to connect to the next letter. The left tooth is omitted. Place dots after!\n* **Medial (وَسَط):** `ـبـ / ـتـ / ـثـ` — Incoming baseline stroke rises into a single short upward tooth, then continues left.\n* **Final (نِهَايَة):** `ـب / ـت / ـث` — Incoming baseline stroke connects, rises, and completes the full upward left boat edge.\n\n**Common Handwriting Mistakes to Avoid:**\n* *Mistake:* Writing from left to right (LTR). *Correction:* Always initiate the stroke at the right tooth and travel leftward.\n* *Mistake:* Making the bottom round like the Latin letter 'U'. *Correction:* Keep the base flat against the baseline line.\n\n---\n\n#### 2. Loop / Hook Family (ج ، ح ، خ)\nThese letters feature a wavy top crown and a large descending belly:\n\n* **Ḥā' (ح):** The bare mother skeleton — **zero dots anywhere**.\n* **Jīm (ج):** Exactly **1 dot inside the lower belly** (or below baseline when connected: `جـ`).\n* **Khā' (خ):** Exactly **1 dot directly above the apex of the crown**.\n\n**Step-by-Step Handwriting Instructions:**\n1. **Starting Point:** Place your pen tip above the baseline on the left/middle.\n2. **Stroke 1 (The Brow/Crown):** Wave slightly upward and to the right to form the crest.\n3. **Stroke 2 (The Retrace):** Retrace backward along the crest to its midpoint without lifting the pen.\n4. **Stroke 3 (The Belly):** Sweep backward and downward to form a large semi-circular belly that drops below the baseline.\n5. **Stroke 4 (Dotting):** Lift pen! For Jīm, place 1 dot inside the belly; for Khā', place 1 dot above the crest.\n\n**Positional Forms in Handwriting:**\n* **Isolated (مُنْفَصِل):** `ج / ح / خ` — Full crown above baseline with large descending belly below.\n* **Initial (بِدَايَة):** `جـ / حـ / خـ` — Form the crown, retrace directly down onto the baseline, and glide left. **The large descending belly is completely omitted!**\n* **Medial (وَسَط):** `ـجـ / ـحـ / ـخـ` — Baseline stroke rises into the hook brow, retraces, and glides forward on the baseline.\n* **Final (نِهَايَة):** `ـج / ـح / ـخ` — Baseline joins the brow, then plunges into the full descending belly below baseline.\n\n**Common Handwriting Mistakes to Avoid:**\n* *Mistake:* Drawing a closed circle like the letter 'O'. *Correction:* The hook is an open horizontal brow, not a loop.\n* *Mistake:* Keeping the belly above the baseline in isolated form. *Correction:* The belly must sink into Zone 3.\n\n---\n\n#### 3. Short Angle Family (د ، ذ) — Non-Connectors\nThese letters form a compact upright corner sitting strictly flat on the baseline:\n\n* **Dāl (د):** **Zero dots** — bare corner.\n* **Dhāl (ذ):** Exactly **1 dot placed directly above the upper angle tip**.\n\n**Step-by-Step Handwriting Instructions:**\n1. **Starting Point:** Place your pen tip about 3mm above the baseline.\n2. **Stroke 1 (Slant):** Slant down and forward at a ~60° angle to touch the baseline.\n3. **Stroke 2 (Base Arm):** Make a sharp corner transition and glide horizontally flat along the baseline from right to left.\n4. **Stroke 3 (Dotting):** (For Dhāl) Lift pen and place 1 dot above.\n\n**Positional Forms in Handwriting (Only 2 Shapes!):**\n* **Standalone (مُنْفَصِل):** `د / ذ` — Both strokes sit strictly flat ON the baseline.\n* **Right-Joined (مُتَّصِل مِنْ الْيَمِين):** `ـد / ـذ` — Incoming baseline stroke rises into the peak, retraces, and terminates on the baseline.\n* *Non-Connection Rule:* Never connect forward to the left! The next letter must start fresh in its initial form.\n\n**Common Handwriting Mistakes to Avoid:**\n* *Mistake:* Letting the lower stroke plunge below the baseline. *Correction:* If Dāl drops below the baseline, it turns into Rā' (ر)! Keep Dāl flat on the line.\n\n---\n\n#### 4. Descending Curve Family (ر ، ز) — Non-Connectors\nThese letters swoop smoothly downward in a crescent curve plunging below the baseline:\n\n* **Rā' (ر):** **Zero dots** — bare descending crescent.\n* **Zāy (ز):** Exactly **1 dot placed directly above the top tip**.\n\n**Step-by-Step Handwriting Instructions:**\n1. **Starting Point:** Place your pen tip just 1mm above the baseline.\n2. **Stroke 1 (Initial Tick):** Make a tiny downward vertical tick onto the baseline.\n3. **Stroke 2 (The Crescent Swoop):** Swoop smoothly downward and left in a crescent banana curve that drops *below the baseline*, tapering to a sharp tail.\n4. **Stroke 3 (Dotting):** (For Zāy) Lift pen and place 1 dot directly above the starting tick.\n\n**Positional Forms in Handwriting (Only 2 Shapes!):**\n* **Standalone (مُنْفَصِل):** `ر / ز` — Crescent curve plunging below the baseline.\n* **Right-Joined (مُتَّصِل مِنْ الْيَمِين):** `ـر / ـز` — Incoming baseline stroke rises slightly, then plunges into the descending crescent.\n* *Non-Connection Rule:* Never connects forward to the left.\n\n**Common Handwriting Mistakes to Avoid:**\n* *Mistake:* Making a sharp 90° corner with a flat base (confusing it with Dāl). *Correction:* Rā' is a continuous smooth curve with no flat baseline arm.\n\n---\n\n#### 5. Three Teeth Family (س ، ش)\nThese letters feature three small, compact teeth along the baseline followed by a deep tail:\n\n* **Sīn (س):** **Zero dots** — bare 3 teeth and tail.\n* **Shīn (ش):** Exactly **3 dots above the teeth in an upright triangle**.\n\n**Step-by-Step Handwriting Instructions:**\n1. **Starting Point:** Place pen tip slightly above baseline on the right.\n2. **Stroke 1 (First Tooth):** Draw a small downward-upward tick.\n3. **Stroke 2 (Second Tooth):** Draw the second small tooth immediately adjacent.\n4. **Stroke 3 (Third Tooth):** Draw the third tooth connecting back down to the baseline.\n5. **Stroke 4 (The Tail):** Plunge down below the baseline to form a deep semicircular bowl that loops back up to the baseline.\n6. **Stroke 5 (Dotting):** (For Shīn) Lift pen and place 3 dots in an upright triangle clustered above the middle tooth.\n\n**Positional Forms in Handwriting:**\n* **Initial (بِدَايَة):** `سـ / شـ` — Exactly 3 small teeth on baseline, then glides left to connect. Tail is dropped!\n* **Medial (وَسَط):** `ـسـ / ـشـ` — Connecting stroke enters, draws 3 teeth on baseline, then continues left.\n* **Final (نِهَايَة):** `ـس / ـش` — 3 teeth on baseline + restores the full deep descending tail below baseline.\n\n**Common Handwriting Mistakes to Avoid:**\n* *Mistake:* Drawing 2 or 4 teeth instead of exactly 3 teeth. *Correction:* Always verify 3 upward teeth.\n* *Mistake:* Making the teeth too tall like Alifs. *Correction:* Teeth should be small, compact ripples.\n\n---\n\n#### 6. Oval Loop and Tooth Family (ص ، ض)\nThese letters feature an oval loop on the baseline followed by a mandatory upward tooth:\n\n* **Ṣād (ص):** **Zero dots** — oval loop with mandatory trailing tooth.\n* **Ḍād (ض):** Exactly **1 dot placed directly above the oval loop**.\n\n**Step-by-Step Handwriting Instructions:**\n1. **Starting Point:** Place pen tip on the baseline.\n2. **Stroke 1 (The Loop):** Sweep upward and forward to the right, loop around counter-clockwise, and touch down on the baseline to close the oval.\n3. **Stroke 2 (The Tooth - سن):** Glide along the baseline and immediately draw a small, mandatory vertical upward tooth.\n4. **Stroke 3 (The Tail):** Plunge below baseline into the deep semicircular tail (in isolated/final).\n5. **Stroke 4 (Dotting):** (For Ḍād) Lift pen and place 1 dot directly above the oval body.\n\n**Positional Forms in Handwriting:**\n* **Initial (بِدَايَة):** `صـ / ضـ` — Oval loop + upward tooth + glide left on baseline. **(The tooth is MANDATORY!).**\n* **Medial (وَسَط):** `ـصـ / ـضـ` — Baseline enters loop, closes loop, forms tooth, continues left.\n* **Final (نِهَايَة):** `ـص / ـض` — Baseline enters loop, forms tooth, finishes with deep descending tail.\n\n**Common Handwriting Mistakes to Avoid:**\n* *Mistake:* **Omitting the tooth after the oval loop.** This is the single most common handwriting mistake for beginners! Ṣād and Ḍād must ALWAYS have their distinguishing tooth.\n\n---\n\n#### 7. Upright Staff Family (ط ، ظ)\nThese letters feature an oval loop on the baseline pierced by a tall vertical pole:\n\n* **Ṭā' (ط):** **Zero dots** — oval base pierced by vertical staff.\n* **Ẓā' (ظ):** Exactly **1 dot placed to the upper right of the staff**.\n\n**Step-by-Step Handwriting Instructions:**\n1. **Starting Point:** Start on the baseline (same oval loop motion as Ṣād).\n2. **Stroke 1 (Base Loop):** Form the oval base loop along the baseline and continue the baseline stroke flat to the left (**NO tooth, NO tail!**).\n3. **Stroke 2 (Vertical Staff):** Lift pen! Draw a tall straight vertical staff (like Alif) dropping straight down onto the right juncture of the loop.\n4. **Stroke 3 (Dotting):** (For Ẓā') Lift pen and place 1 dot to the upper right of the staff.\n\n**Positional Forms in Handwriting:**\n* **All Positions:** `طـ / ـطـ / ـط` — Never drops below the baseline in any position.\n\n**Common Handwriting Mistakes to Avoid:**\n* *Mistake:* Drawing the vertical staff first before the loop. *Correction:* Always write the baseline loop first, then drop the staff on top.\n* *Mistake:* Adding a tooth like Ṣād. *Correction:* Ṭā' and Ẓā' have NO tooth.\n\n---\n\n#### 8. Similar Shapes / Open Eye Family (ع ، غ)\nThese letters feature a crescent head and a large descending belly:\n\n* **'Ayn (ع):** **Zero dots** — crescent head with descending belly.\n* **Ghayn (غ):** Exactly **1 dot placed directly above the crescent crest**.\n\n**Step-by-Step Handwriting Instructions:**\n1. **Starting Point:** Place pen tip above baseline on the left.\n2. **Stroke 1 (The Eyebrow):** Draw a small open crescent (like a mini-Latin 'c') facing right.\n3. **Stroke 2 (The Belly):** From the bottom tip on the baseline, sweep backward and downward into a massive semi-circular belly below baseline.\n4. **Stroke 3 (Dotting):** (For Ghayn) Lift pen and place 1 dot above the crest.\n\n**Positional Forms in Handwriting:**\n* **Initial (بِدَايَة):** `عـ / غـ` — Open crescent head sitting on baseline, connecting left. Belly is dropped!\n* **Medial (وَسَط):** `ـعـ / ـغـ` — Connecting stroke slants up, forms an **inverted shaded triangle**, continues left.\n* **Final (نِهَايَة):** `ـع / ـغ` — Inverted shaded triangle head + full descending belly below baseline.\n\n**Common Handwriting Mistakes to Avoid:**\n* *Mistake:* Leaving medial and final 'Ayn open like initial form. *Correction:* In handwritten Arabic, medial and final 'Ayn are always closed, inverted shaded triangles.\n\n---\n\n#### 9. Dot Variations & Bowl Depth (ف ، ق)\nThese two letters look similar in initial and medial positions, but have fundamentally different isolated bowls:\n\n| Feature | Fā' (ف) | Qāf (ق) |\n| :--- | :--- | :--- |\n| **Dot Count** | **1 dot above** | **2 dots above side-by-side** |\n| **Isolated Bowl Shape** | Shallow, flat baseline boat (like ب) | Deep, circular bowl sinking below baseline (like ن) |\n| **Baseline Depth** | Rests completely **ON** the baseline | Deep tail drops **BELOW** the baseline |\n| **Connected Form** | Sits on baseline (`فـ، ـفـ، ـف`) | Sits on baseline in initial/medial (`قـ، ـقـ`), restores deep bowl in final (`ـق`) |\n\n**Step-by-Step Handwriting Instructions:**\n* **For Fā' (ف):**\n  1. Start above baseline, loop upward and counter-clockwise into a rounded head with a short neck sitting ON the baseline.\n  2. Glide along baseline to form a shallow, flat boat-like bowl (identical to Bā'!). Entire letter sits ON the baseline.\n  3. Lift pen! Place exactly 1 dot centered above the round head.\n* **For Qāf (ق):**\n  1. Form the round head loop sitting directly on the baseline.\n  2. Plunge **DEEPLY below the baseline** into a circular sinking bowl (identical to Nūn!).\n  3. Lift pen! Place 2 dots horizontally side-by-side above the head.\n\n**Common Handwriting Mistakes to Avoid:**\n* *Mistake:* Writing isolated Qāf on the baseline like Fā'. *Correction:* Qāf's bowl MUST sink below the baseline.\n\n---\n\n### Guided Visual Discrimination Drills\nCompare these similar-looking Arabic words to strengthen your visual recognition:\n\n1. **بَـيْـت (Bayt - House) vs تِـيـن (Tīn - Fig) vs ثَـوْب (Thawb - Garment):**\n   * *Notice the initial tooth:* 1 dot below = Bā', 2 dots above = Tā', 3 dots above = Thā'.\n2. **جَـمَـل (Jamal - Camel) vs حَـمَـل (Ḥamal - Lamb) vs خَـبَـر (Khabar - News):**\n   * *Notice the initial hook:* 1 dot below = Jīm, no dot = Ḥā', 1 dot above = Khā'.\n3. **دَار (Dār - House) vs ذَوْق (Dhawq - Taste):**\n   * *Notice the initial angle on the baseline:* no dot = Dāl, 1 dot above = Dhāl.\n4. **رَأْس (Ra's - Head) vs زَيْـت (Zayt - Oil):**\n   * *Notice the descending curve:* no dot = Rā', 1 dot above = Zāy.\n5. **فِـيـل (Fīl - Elephant) vs قَـلَـم (Qalam - Pen):**\n   * *Notice the head loop:* 1 dot above = Fā', 2 dots above = Qāf."
+},
       {
         "id": "m1-l3",
         "number": 3,

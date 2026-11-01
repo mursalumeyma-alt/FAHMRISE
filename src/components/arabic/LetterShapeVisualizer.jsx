@@ -71,9 +71,36 @@ const DEFAULT_SHAPE_GROUPS = [
     initial: 'د',
     medial: 'ـد',
     final: 'ـد',
+    isNonConnector: true,
     exampleWord: 'دَرْس',
     exampleTrans: 'Dars (Lesson)',
-    rule: 'Non-connecting letter: never connects forward to the left. Any letter following it must start in initial form.'
+    rule: 'Non-connecting letter with only 2 functional shapes: never connects forward to the left. Any letter following it must start in initial form.'
+  },
+  {
+    name: 'Non-Connecting: Alif (ا)',
+    letter: 'ا',
+    audioText: 'أَلِف',
+    isolated: 'ا',
+    initial: 'ا',
+    medial: 'ـا',
+    final: 'ـا',
+    isNonConnector: true,
+    exampleWord: 'بَـاب',
+    exampleTrans: 'Bāb (Door)',
+    rule: 'Non-connecting letter with only 2 functional shapes: connects from the right, but NEVER connects forward to the left (e.g. in بَاب, Alif leaves final Bā\' isolated).'
+  },
+  {
+    name: 'Hā\' 4 Forms (ه)',
+    letter: 'ه',
+    audioText: 'هَاء',
+    isolated: 'ه',
+    initial: 'هـ',
+    medial: 'ـهـ',
+    final: 'ـه',
+    isNonConnector: false,
+    exampleWord: 'هَـدِيَّـة',
+    exampleTrans: 'Hadiyyah (Gift)',
+    rule: 'Notice the 4 distinct forms: isolated loop (ه, not هـ), baseline loop (هـ), bow-tie medial (ـهـ), and elevated final loop (ـه).'
   }
 ];
 
@@ -156,7 +183,9 @@ export default function LetterShapeVisualizer({ customShapes = null, customNote 
               >
                 {current.initial}
               </span>
-              <span className="text-xs text-slate-400 mt-2">Connects to Left</span>
+              <span className="text-xs text-slate-400 mt-2">
+                {current.isNonConnector ? 'No Forward Left Connection' : 'Connects to Left'}
+              </span>
             </div>
 
             {/* 2. Medial Position (وَسَط) */}
@@ -170,7 +199,9 @@ export default function LetterShapeVisualizer({ customShapes = null, customNote 
               >
                 {current.medial}
               </span>
-              <span className="text-xs text-slate-400 mt-2">Connects Both Sides</span>
+              <span className="text-xs text-slate-400 mt-2">
+                {current.isNonConnector ? 'Connects from Right Only' : 'Connects Both Sides'}
+              </span>
             </div>
 
             {/* 3. Final Position (نِهَايَة) */}
@@ -283,10 +314,22 @@ export default function LetterShapeVisualizer({ customShapes = null, customNote 
 
                 <div className="p-4 rounded-2xl bg-amber-950/30 border border-amber-500/40 space-y-1">
                   <strong className="text-amber-300 block font-bold text-sm sm:text-base">
-                    4. The 6 Non-Connecting Letters (حُرُوفُ الْفَصْل)
+                    4. The 6 Non-Connecting Letters (حُرُوفُ الْقَطْع) — Only 2 Functional Shapes
                   </strong>
                   <p className="text-slate-200 text-xs sm:text-sm leading-relaxed">
-                    Six letters (<span className="font-serif text-amber-200 text-lg font-bold">ا , د , ذ , ر , ز , و</span>) NEVER connect to any letter that comes after them. They only connect from the right. Any letter following them must be written in its Initial or Isolated shape.
+                    Six letters (<span className="font-serif text-amber-200 text-lg font-bold">ا , د , ذ , ر , ز , و</span>) connect <strong>only from the right</strong> and <strong>NEVER connect to following letters on the left</strong>. Because they do not connect forward, they have <strong>only 2 functional shapes</strong> (Standalone and Right-joined) rather than four. Any letter following them must be written in its Initial or Isolated shape.
+                  </p>
+                  <p className="text-amber-200/90 text-xs mt-1">
+                    Examples: <span className="font-serif text-sm font-bold">أَمَل</span> (Alif stands alone; does not join Mīm), <span className="font-serif text-sm font-bold">بَاب</span> (Bā' joins into Alif, but Alif breaks connection leaving final Bā' isolated), <span className="font-serif text-sm font-bold">دَار</span> (all 3 letters stand unjoined).
+                  </p>
+                </div>
+
+                <div className="p-4 rounded-2xl bg-teal-950/40 border border-teal-500/40 space-y-1">
+                  <strong className="text-teal-300 block font-bold text-sm sm:text-base">
+                    5. Hā' (ه) Form Variations & Alif (ا) vs Hamzah (ء)
+                  </strong>
+                  <p className="text-slate-200 text-xs sm:text-sm leading-relaxed">
+                    The isolated form of Hā' is a standalone loop (<span className="font-serif text-teal-200 text-base font-bold">ه</span>), whereas initial is <span className="font-serif text-teal-200 text-base font-bold">هـ</span>, medial is <span className="font-serif text-teal-200 text-base font-bold">ـهـ</span>, and final is <span className="font-serif text-teal-200 text-base font-bold">ـه</span>. Hamzah (<span className="font-serif text-cyan-200 text-base font-bold">ء</span>) is the true glottal stop consonant carrying vowels, while bare Alif (<span className="font-serif text-cyan-200 text-base font-bold">ا</span>) is a vowel prolonger or seat.
                   </p>
                 </div>
               </div>

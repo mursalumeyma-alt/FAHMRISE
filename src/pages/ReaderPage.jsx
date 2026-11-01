@@ -44,6 +44,7 @@ import LessonChallenge from '../components/practice/LessonChallenge';
 import LessonQuiz from '../components/practice/LessonQuiz';
 import LessonNotes from '../components/notes/LessonNotes';
 import LetterShapeVisualizer from '../components/arabic/LetterShapeVisualizer';
+import ArabicHandwritingStudio from '../components/arabic/ArabicHandwritingStudio';
 import LessonVideoPlayer from '../components/video/LessonVideoPlayer';
 
 // Inline markdown formatting helper (bold, code, italics)
@@ -296,12 +297,12 @@ function ArabicOrthographyGuide({ guide }) {
                 <td className="py-3 px-4 text-center font-serif text-2xl text-amber-300" dir="rtl">{item.final}</td>
                 <td className="py-3 px-4 font-sans">
                   {item.nonConnector ? (
-                    <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 font-bold">
-                      Non-Connector
+                    <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 font-bold whitespace-nowrap">
+                      Non-Connector (2 shapes)
                     </span>
                   ) : (
-                    <span className="text-[10px] px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700">
-                      Connector
+                    <span className="text-[10px] px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700 whitespace-nowrap">
+                      Dual-Connector (4 shapes)
                     </span>
                   )}
                 </td>
@@ -311,17 +312,49 @@ function ArabicOrthographyGuide({ guide }) {
         </table>
       </div>
 
-      {/* The 6 Non-Connecting Letters Rule */}
-      <div className="p-5 sm:p-6 rounded-2xl bg-amber-950/30 border border-amber-500/40 space-y-2.5">
+      {/* The 6 Non-Connecting Letters Rule & 2-Shape Clarification */}
+      <div className="p-5 sm:p-6 rounded-2xl bg-amber-950/30 border border-amber-500/40 space-y-3">
         <h4 className="text-sm sm:text-base font-bold text-amber-300 flex items-center gap-2">
           <Info className="w-4 h-4 text-amber-400" />
-          <span>The 6 Non-Connecting Letters (حروف القطع)</span>
+          <span>The 6 Non-Connecting Letters (حروف القطع) — Only 2 Functional Shapes</span>
         </h4>
         <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">
-          In Arabic, 6 letters connect only from the right (to preceding letters), but <strong>NEVER</strong> connect forward to following letters on the left:
+          In Arabic, 6 letters connect only from the right (to preceding letters), but <strong>NEVER connect forward to following letters on the left</strong>:
           <strong className="text-amber-200 font-serif text-xl mx-2" dir="rtl">ا ، د ، ذ ، ر ، ز ، و</strong>
-          (Alif, Dāl, Dhāl, Rā', Zāy, and Wāw / Waw). Any letter appearing after one of these six must begin in its initial or isolated form.
+          (Alif, Dāl, Dhāl, Rā', Zāy, and Wāw). Because these letters do not connect to the left, they have <strong>only 2 functional shapes</strong> (Standalone and Right-joined) rather than four. We must not force every letter into four distinct shapes.
         </p>
+        
+        {/* Real-word Alif Non-Connection Examples */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-1">
+          <div className="p-3 bg-slate-950/80 rounded-xl border border-amber-500/30">
+            <span className="text-xs font-mono text-amber-400 font-bold block mb-1">1. Initial Alif</span>
+            <div className="font-serif text-2xl text-white font-bold mb-1" dir="rtl">أَمَل / أُمّ</div>
+            <p className="text-[11px] text-slate-300 leading-normal">
+              Alif refuses to connect forward; Mīm begins in initial form (<span className="font-serif text-sm">مـ</span>).
+            </p>
+          </div>
+          <div className="p-3 bg-slate-950/80 rounded-xl border border-amber-500/30">
+            <span className="text-xs font-mono text-amber-400 font-bold block mb-1">2. Medial Forward Break</span>
+            <div className="font-serif text-2xl text-white font-bold mb-1" dir="rtl">بَاب</div>
+            <p className="text-[11px] text-slate-300 leading-normal">
+              Bā' joins into Alif (<span className="font-serif text-sm">با</span>), but Alif stops connection, leaving second Bā' isolated (<span className="font-serif text-sm">ب</span>).
+            </p>
+          </div>
+          <div className="p-3 bg-slate-950/80 rounded-xl border border-amber-500/30">
+            <span className="text-xs font-mono text-amber-400 font-bold block mb-1">3. Successive Non-Connectors</span>
+            <div className="font-serif text-2xl text-white font-bold mb-1" dir="rtl">دَار</div>
+            <p className="text-[11px] text-slate-300 leading-normal">
+              Dāl, Alif, and Rā' are all non-connectors; none can join forward, so all 3 stand side-by-side unjoined.
+            </p>
+          </div>
+          <div className="p-3 bg-slate-950/80 rounded-xl border border-amber-500/30">
+            <span className="text-xs font-mono text-amber-400 font-bold block mb-1">4. Word-Internal Alif</span>
+            <div className="font-serif text-2xl text-white font-bold mb-1" dir="rtl">كِتَاب</div>
+            <p className="text-[11px] text-slate-300 leading-normal">
+              Tā' connects into Alif (<span className="font-serif text-sm">ـتا</span>); Alif terminates connection before final Bā' (<span className="font-serif text-sm">ب</span>).
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Difference Between Alif and Hamzah */}
@@ -342,6 +375,39 @@ function ArabicOrthographyGuide({ guide }) {
             <p className="text-slate-300">
               Never carries a short vowel. It functions either as a prolongation of the Fathah sound (Madd Asli long vowel 'aa', e.g. <span className="font-serif text-base text-cyan-200" dir="rtl">كِتَاب</span>) or as a bearer/seat (kursi) for Hamzah.
             </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Accurate Form of Hā' (ه) */}
+      <div className="p-5 sm:p-6 rounded-2xl bg-slate-950/90 border border-slate-800 space-y-2.5">
+        <h4 className="text-sm sm:text-base font-bold text-white flex items-center gap-2">
+          <Layers className="w-4 h-4 text-teal-400" />
+          <span>Accurate Forms of Hā' (ه) Across 4 Positions</span>
+        </h4>
+        <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+          The letter Hā' possesses distinct cursive shapes across its 4 positions. Notice especially the standalone isolated form (a single loop or teardrop, not with a connecting baseline):
+        </p>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-1 text-center" dir="rtl">
+          <div className="p-3 bg-slate-900 rounded-xl border border-slate-700/80">
+            <span className="text-[10px] font-mono text-teal-400 uppercase font-bold block mb-1">Isolated (مُنْفَصِل)</span>
+            <span className="font-serif text-3xl text-emerald-300 font-bold block">ه</span>
+            <span className="text-[11px] text-slate-400 font-sans mt-1 block">Standalone loop (e.g. مِيَاه)</span>
+          </div>
+          <div className="p-3 bg-slate-900 rounded-xl border border-slate-700/80">
+            <span className="text-[10px] font-mono text-teal-400 uppercase font-bold block mb-1">Initial (بِدَايَة)</span>
+            <span className="font-serif text-3xl text-cyan-300 font-bold block">هـ</span>
+            <span className="text-[11px] text-slate-400 font-sans mt-1 block">Baseline loop (e.g. هَدِيَّة)</span>
+          </div>
+          <div className="p-3 bg-slate-900 rounded-xl border border-slate-700/80">
+            <span className="text-[10px] font-mono text-teal-400 uppercase font-bold block mb-1">Medial (وَسَط)</span>
+            <span className="font-serif text-3xl text-teal-300 font-bold block">ـهـ</span>
+            <span className="text-[11px] text-slate-400 font-sans mt-1 block">Bow-tie loop (e.g. نَهْر)</span>
+          </div>
+          <div className="p-3 bg-slate-900 rounded-xl border border-slate-700/80">
+            <span className="text-[10px] font-mono text-teal-400 uppercase font-bold block mb-1">Final (نِهَايَة)</span>
+            <span className="font-serif text-3xl text-amber-300 font-bold block">ـه</span>
+            <span className="text-[11px] text-slate-400 font-sans mt-1 block">Joined loop (e.g. وَجْه)</span>
           </div>
         </div>
       </div>
@@ -1349,6 +1415,16 @@ export default function ReaderPage() {
                       </div>
                     )}
                   </div>
+
+                  {/* Interactive Arabic Letter Shapes Visualizer for Chapter 1 (Positional Forms & Connection Rules) */}
+                  {(currentLesson.id === 'm1-l1' || (targetBookId.includes('arabic') && currentLesson.number === 1)) && (
+                    <LetterShapeVisualizer />
+                  )}
+
+                  {/* Interactive Arabic Handwriting & Stroke Mechanics Studio for Chapter 2 */}
+                  {(currentLesson.id === 'm1-l2' || (targetBookId.includes('arabic') && currentLesson.number === 2)) && (
+                    <ArabicHandwritingStudio />
+                  )}
 
                   {/* Comprehensive 28-Letter Arabic Orthography Guide & Positional Forms */}
                   {currentLesson.orthographyGuide && (

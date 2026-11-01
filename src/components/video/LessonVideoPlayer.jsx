@@ -51,6 +51,7 @@ const ENGLISH_ONLY_VIDEO_IDS = new Set([
 
 function isMismatchedLanguageVideo(videoLesson, courseId, courseLanguage) {
   if (!videoLesson) return true;
+  if (videoLesson.isUserProvided) return false;
   const courseKey = String(courseId || courseLanguage || '').toLowerCase();
   const isTargetArabic = courseKey.includes('arabic') || videoLesson.language === 'arabic';
   const isTargetSwahili = courseKey.includes('swahili') || courseKey.includes('kiswahili') || videoLesson.language === 'swahili';
@@ -111,12 +112,21 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
   // Derive genuine watch URL and embed URL safely
   const embedUrl = useMemo(() => {
     if (!videoId || isLanguageMismatched) return null;
-    return `https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1&enablejsapi=1`;
-  }, [videoId, isLanguageMismatched]);
+    let url = `https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1&enablejsapi=1`;
+    if (activeVideo?.start) {
+      url += `&start=${activeVideo.start}`;
+    }
+    return url;
+  }, [videoId, isLanguageMismatched, activeVideo]);
 
   const watchUrl = useMemo(() => {
     if (isLanguageMismatched) return null;
-    if (videoId) return `https://www.youtube.com/watch?v=${videoId}`;
+    if (videoId) {
+      if (activeVideo?.start) {
+        return `https://www.youtube.com/watch?v=${videoId}&t=${activeVideo.start}s`;
+      }
+      return `https://www.youtube.com/watch?v=${videoId}`;
+    }
     return activeVideo?.watchUrl || activeVideo?.url || null;
   }, [videoId, activeVideo, isLanguageMismatched]);
 
@@ -178,6 +188,24 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
           <div className="flex flex-wrap items-center gap-2">
             {/* Verification Status Badge */}
             {(() => {
+              if (activeVideo.isUnavailable || (!activeVideo.videoId && !videoId)) {
+                return (
+                  <span className="inline-flex items-center gap-1.5 text-slate-300 font-bold text-xs uppercase tracking-wider bg-slate-800/90 border border-slate-700/80 px-2.5 py-0.5 rounded-full">
+                    <AlertCircle className="w-3.5 h-3.5 text-amber-400" />
+                    <span>Reference Currently Unavailable</span>
+                  </span>
+                );
+              }
+              const isUserProvided = activeVideo.isUserProvided || 
+                (activeVideo.badge && activeVideo.badge.toLowerCase().includes('user-provided'));
+              if (isUserProvided) {
+                return (
+                  <span className="inline-flex items-center gap-1.5 text-blue-400 font-bold text-xs uppercase tracking-wider bg-blue-500/10 border border-blue-500/20 px-2.5 py-0.5 rounded-full">
+                    <ShieldCheck className="w-3.5 h-3.5" />
+                    <span>User-Provided Video Reference</span>
+                  </span>
+                );
+              }
               const isVerified = (activeVideo.badge === 'Verified Reference Video' || activeVideo.badge === 'Verified' || activeVideo.status === 'Verified') && activeVideo.badge !== 'Needs Review' && activeVideo.status !== 'Needs Review';
               if (isVerified) {
                 return (
@@ -195,10 +223,10 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
               );
             })()}
 
-            {/* Video Duration */}
+            {/* Video Duration & Start Time */}
             {activeVideo.duration && (
               <span className="text-[11px] text-slate-300 font-mono bg-slate-800/80 px-2 py-0.5 rounded-md border border-slate-700/60">
-                ⏱ {activeVideo.duration}
+                ⏱ {activeVideo.duration}{activeVideo.startFormatted ? ` (Starts at ${activeVideo.startFormatted})` : ''}
               </span>
             )}
 
@@ -249,7 +277,7 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
             </button>
           )}
 
-          {watchUrl && (
+          {watchUrl && !activeVideo?.isUnavailable && (
             <a
               href={watchUrl}
               target="_blank"
@@ -294,15 +322,15 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
                 </div>
                 <div className="space-y-1">
                   <p className="text-sm font-bold text-white">
-                    {isLanguageMismatched ? 'Video Unavailable for This Language' : 'Video Lecture Unavailable'}
+                    {activeVideo.unavailableTitle || (isLanguageMismatched ? 'Video Unavailable for This Language' : 'Video Reference Currently Unavailable')}
                   </p>
                   <p className="text-xs text-slate-400 max-w-md mx-auto">
-                    {isLanguageMismatched
+                    {activeVideo.unavailableMessage || (isLanguageMismatched
                       ? 'This lesson requires dedicated native audio and does not use an unverified fallback video. Structured lesson notes, vocabulary, and interactive exercises are provided below.'
-                      : 'Video lecture is currently unavailable for this lesson. Comprehensive study notes, vocabulary, and interactive practice exercises are fully self-contained below.'}
+                      : 'A verified reference video for this topic is currently being reviewed and prepared. The complete written lesson, interactive exercises, and study notes below are fully self-contained.')}
                   </p>
                 </div>
-                {watchUrl && !isLanguageMismatched && (
+                {watchUrl && !isLanguageMismatched && !activeVideo.isUnavailable && (
                   <a
                     href={watchUrl}
                     target="_blank"

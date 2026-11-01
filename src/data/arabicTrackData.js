@@ -1036,8 +1036,8 @@ export const ARABIC_TRACK_DATA = {
         }
       ],
       lessons: [
-        { id: 'm1-l1', number: 1, title: 'Introduction to the Arabic Writing System', readingTime: '5 min', explanation: 'RTL orientation, 28 consonants, and cursive baseline connectivity.' },
-        { id: 'm1-l2', number: 2, title: 'Letter Shapes and Dot Variations', readingTime: '6 min', explanation: 'Visual discrimination and skeletal groupings across letter forms.' }
+        { id: 'm1-l1', number: 1, title: 'Introduction to the Arabic Writing System', readingTime: '10 min', description: 'Learn how Arabic is written from right to left, understand the 28 Arabic letters, and explore how letters change shape depending on their position in a word.', explanation: 'Learn how Arabic is written from right to left, understand the 28 Arabic letters, and explore how letters change shape depending on their position in a word.' },
+        { id: 'm1-l2', number: 2, title: 'Letter Shapes and Dot Variations', readingTime: '8 min', description: 'Visual discrimination, handwriting stroke mechanics, and skeleton groupings.', explanation: 'Master Arabic handwriting step-by-step: stroke direction, starting positions, dot placement, positional cursive shapes, and error prevention for all 9 skeleton groups.' }
       ]
     },
     {
