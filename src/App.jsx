@@ -32,6 +32,7 @@ import BlogPage from './pages/BlogPage';
 import BlogPostPage from './pages/BlogPostPage';
 import ContactPage from './pages/ContactPage';
 import WelcomePromoModal from './components/common/WelcomePromoModal';
+import FloatingWhatsAppButton from './components/common/FloatingWhatsAppButton';
 import { ShieldCheck, Lock } from 'lucide-react';
 
 // Protected Route Guard (For authenticated learners & admins)
@@ -293,6 +294,7 @@ export default function App() {
               </Routes>
             </div>
             <WelcomePromoModal />
+            <FloatingWhatsAppButton />
             <Footer />
           </div>
         </Router>

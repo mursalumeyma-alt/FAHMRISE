@@ -41,6 +41,7 @@ export default function CheckoutPage() {
   const [processing, setProcessing] = useState(false);
   const [step, setStep] = useState('input'); // 'input', 'polling_stk', 'success'
   const [checkoutRequestId, setCheckoutRequestId] = useState(null);
+  const [stkMode, setStkMode] = useState('daraja-live');
   const [statusMessage, setStatusMessage] = useState('');
   const [receipt, setReceipt] = useState(null);
   const [error, setError] = useState(null);
@@ -79,11 +80,16 @@ export default function CheckoutPage() {
   }, []);
 
   // Poll STK status
-  const startSTKPolling = (reqId) => {
+  const startSTKPolling = (reqId, mode = 'daraja-live') => {
     setCheckoutRequestId(reqId);
+    setStkMode(mode);
     setStep('polling_stk');
     setPollCountdown(45);
-    setStatusMessage('STK Push sent to your phone. Please enter your M-Pesa PIN...');
+    setStatusMessage(
+      mode === 'sandbox-simulation'
+        ? 'Sandbox test transaction active. Awaiting verification callback...'
+        : 'STK Push sent to your phone. Please enter your M-Pesa PIN...'
+    );
 
     let attempts = 0;
     const maxAttempts = 20;
@@ -111,10 +117,35 @@ export default function CheckoutPage() {
 
       if (attempts >= maxAttempts) {
         clearInterval(pollIntervalRef.current);
-        // Timeout resolution: simulate success for smooth evaluation
-        finalizeFallbackMpesa();
+        // SECURITY: Never auto-unlock on timeout. Set to pending timeout state.
+        setStep('polling_timeout');
+        setStatusMessage('We have not yet received confirmation from Safaricom M-Pesa. If you have entered your PIN on your phone, click "Check Status Again" below.');
       }
     }, 2200);
+  };
+
+  const handleManualCheckStatus = async () => {
+    if (!checkoutRequestId) return;
+    setProcessing(true);
+    setError(null);
+    try {
+      const queryRes = await api.payments.queryMpesa(checkoutRequestId);
+      if (queryRes.status === 'paid') {
+        setReceipt(queryRes.receiptNumber || 'SAF' + Date.now().toString().slice(-6));
+        await refreshEnrollments();
+        await fetchProgress(targetId);
+        setStep('success');
+      } else if (queryRes.status === 'failed' || queryRes.status === 'cancelled') {
+        setError(queryRes.message || 'Payment was cancelled or failed.');
+        setStep('input');
+      } else {
+        setStatusMessage(queryRes.message || 'Transaction is still pending on your phone handset.');
+      }
+    } catch (err) {
+      setError(err.message || 'Could not verify payment status.');
+    } finally {
+      setProcessing(false);
+    }
   };
 
   const handleStartPayment = async (e) => {
@@ -131,9 +162,9 @@ export default function CheckoutPage() {
         const initRes = await api.payments.initiateMpesa(targetId, phoneNumber);
         setProcessing(false);
         if (initRes.checkoutRequestId) {
-          startSTKPolling(initRes.checkoutRequestId);
+          startSTKPolling(initRes.checkoutRequestId, initRes.mode || 'daraja-live');
         } else {
-          finalizeFallbackMpesa();
+          setError(initRes.error || initRes.message || 'Failed to initiate M-Pesa STK push.');
         }
       } catch (err) {
         setProcessing(false);
@@ -152,31 +183,19 @@ export default function CheckoutPage() {
           amount: course?.price || 200
         });
 
-        setReceipt(verifyRes.receiptNumber);
-        await refreshEnrollments();
-        await fetchProgress(targetId);
-        setStep('success');
+        if (verifyRes.success && verifyRes.receiptNumber) {
+          setReceipt(verifyRes.receiptNumber);
+          await refreshEnrollments();
+          await fetchProgress(targetId);
+          setStep('success');
+        } else {
+          setError(verifyRes.error || verifyRes.message || 'Card payment verification failed.');
+        }
       } catch (err) {
         setError(err.message || 'Card payment processing failed.');
       } finally {
         setProcessing(false);
       }
-    }
-  };
-
-  const finalizeFallbackMpesa = async () => {
-    setProcessing(true);
-    try {
-      const data = await api.payments.simulateMpesa(targetId, phoneNumber);
-      setReceipt(data.receiptNumber);
-      await refreshEnrollments();
-      await fetchProgress(targetId);
-      setStep('success');
-    } catch (err) {
-      setError(err.message || 'M-Pesa payment confirmation failed.');
-      setStep('input');
-    } finally {
-      setProcessing(false);
     }
   };
 
@@ -271,14 +290,18 @@ export default function CheckoutPage() {
             </div>
 
             <div className="space-y-2">
-              <span className="text-xs uppercase font-bold tracking-wider text-emerald-400">
-                Safaricom Daraja STK Push Active
+              <span className={`text-xs uppercase font-bold tracking-wider ${stkMode === 'sandbox-simulation' ? 'text-amber-400' : 'text-emerald-400'}`}>
+                {stkMode === 'sandbox-simulation' ? 'M-Pesa Sandbox Simulation Mode' : 'Safaricom Daraja STK Push Active'}
               </span>
               <h2 className="text-2xl font-black text-white">
-                Check Your Phone
+                {stkMode === 'sandbox-simulation' ? 'Awaiting Payment Callback' : 'Check Your Phone'}
               </h2>
               <p className="text-slate-300 text-sm max-w-md mx-auto">
-                An M-Pesa prompt for <strong className="text-emerald-400">{courseCurrency} {coursePrice.toLocaleString()}</strong> has been sent to <strong className="text-white">{phoneNumber}</strong>.
+                {stkMode === 'sandbox-simulation' ? (
+                  <>Test transaction initiated for <strong className="text-amber-400">{courseCurrency} {coursePrice.toLocaleString()}</strong> ({phoneNumber}). Note: Live handset PIN prompts require production Daraja credentials in server/.env.</>
+                ) : (
+                  <>An M-Pesa prompt for <strong className="text-emerald-400">{courseCurrency} {coursePrice.toLocaleString()}</strong> has been sent to <strong className="text-white">{phoneNumber}</strong>.</>
+                )}
               </p>
             </div>
 
@@ -294,12 +317,16 @@ export default function CheckoutPage() {
 
             <div className="pt-2 flex items-center justify-center gap-4">
               <button
-                onClick={finalizeFallbackMpesa}
-                className="text-xs text-emerald-400 hover:text-emerald-300 underline font-medium"
+                type="button"
+                onClick={handleManualCheckStatus}
+                disabled={processing}
+                className="text-xs text-emerald-400 hover:text-emerald-300 underline font-medium flex items-center gap-1.5"
               >
-                Instant Confirm Simulation [Testing]
+                {processing && <RefreshCw className="w-3.5 h-3.5 animate-spin" />}
+                <span>Check Status Now</span>
               </button>
               <button
+                type="button"
                 onClick={() => {
                   if (pollIntervalRef.current) clearInterval(pollIntervalRef.current);
                   setStep('input');
@@ -307,6 +334,63 @@ export default function CheckoutPage() {
                 className="text-xs text-slate-500 hover:text-slate-300"
               >
                 Cancel / Change Phone
+              </button>
+            </div>
+          </div>
+        ) : step === 'polling_timeout' ? (
+          /* Step 2b: TIMEOUT / PENDING STATE (NEVER AUTO-UNLOCK) */
+          <div className="bg-slate-900/90 border border-amber-500/40 rounded-3xl p-8 sm:p-12 text-center space-y-6 shadow-2xl animate-in fade-in">
+            <div className="w-16 h-16 rounded-2xl bg-amber-500/20 text-amber-400 border border-amber-500/30 flex items-center justify-center mx-auto">
+              <Clock className="w-8 h-8" />
+            </div>
+
+            <div className="space-y-2">
+              <span className="text-xs uppercase font-bold tracking-wider text-amber-400">
+                Payment Confirmation Pending
+              </span>
+              <h2 className="text-2xl font-black text-white">
+                Waiting for M-Pesa Confirmation
+              </h2>
+              <p className="text-slate-300 text-sm max-w-md mx-auto">
+                We have not yet received confirmation from Safaricom M-Pesa for <strong className="text-white">{phoneNumber}</strong>.
+              </p>
+            </div>
+
+            <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 text-xs text-slate-400 max-w-md mx-auto space-y-2 text-left">
+              <p className="text-slate-300 font-medium">
+                • If you entered your M-Pesa PIN: Please check your SMS messages for the Safaricom confirmation receipt, then click below to verify status.
+              </p>
+              <p className="text-slate-400">
+                • If you did not receive a prompt: Your session may have expired. You can retry with the same or another phone number.
+              </p>
+            </div>
+
+            {error && (
+              <div className="max-w-md mx-auto text-xs text-rose-400 bg-rose-950/40 border border-rose-800/60 p-3 rounded-xl">
+                {error}
+              </div>
+            )}
+
+            <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3">
+              <button
+                type="button"
+                onClick={handleManualCheckStatus}
+                disabled={processing}
+                className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-sm shadow-glow flex items-center justify-center gap-2 disabled:opacity-50"
+              >
+                {processing ? <RefreshCw className="w-4 h-4 animate-spin" /> : <RefreshCw className="w-4 h-4" />}
+                <span>Check Status Again</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  setError(null);
+                  setStep('input');
+                }}
+                className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-sm"
+              >
+                Try Again / Change Number
               </button>
             </div>
           </div>

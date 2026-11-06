@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { LogIn, Sparkles, ShieldCheck, ArrowRight, Lock, Mail, ChevronRight, GraduationCap, Video } from 'lucide-react';
+import { LogIn, Sparkles, ShieldCheck, ArrowRight, Lock, Mail, ChevronRight, GraduationCap, Video, Eye, EyeOff, CheckCircle2, AlertCircle, RefreshCw } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import Alert from '../components/common/Alert';
 
@@ -11,21 +11,58 @@ export default function LoginPage() {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [successMessage, setSuccessMessage] = useState(null);
+  const [fieldErrors, setFieldErrors] = useState({});
 
   const queryParams = new URLSearchParams(location.search);
   const redirect = queryParams.get('redirect') || '/dashboard';
 
+  const validateForm = () => {
+    const errors = {};
+    const trimmedEmail = email.trim();
+    if (!trimmedEmail) {
+      errors.email = 'Email address is required.';
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmedEmail)) {
+      errors.email = 'Please enter a valid email address (e.g. you@example.com).';
+    }
+
+    if (!password) {
+      errors.password = 'Password is required.';
+    }
+
+    setFieldErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError(null);
+    setSuccessMessage(null);
+
+    if (!validateForm()) {
+      return;
+    }
+
     setLoading(true);
     try {
-      await login(email, password);
-      navigate(redirect);
+      await login(email.trim(), password);
+      setSuccessMessage('Login successful! Redirecting to your dashboard...');
+      setTimeout(() => {
+        navigate(redirect);
+      }, 500);
     } catch (err) {
-      setError(err.message || 'Invalid email or password');
+      const msg = err.message || '';
+      if (msg.toLowerCase().includes('failed to fetch') || msg.toLowerCase().includes('networkerror') || msg.toLowerCase().includes('network error')) {
+        setError('Unable to connect to the FAHMRISE service. Please check your internet connection or try again later.');
+      } else if (msg.toLowerCase().includes('suspended')) {
+        setError('This account has been suspended. Please contact FAHMRISE support at fahmrise.contact@gmail.com.');
+      } else {
+        // Strict security: Generic message to prevent email enumeration
+        setError('Invalid email or password. Please verify your credentials and try again.');
+      }
     } finally {
       setLoading(false);
     }
@@ -33,12 +70,16 @@ export default function LoginPage() {
 
   const handleAdminLogin = async () => {
     setError(null);
+    setSuccessMessage(null);
     setLoading(true);
     try {
       await login('admin@fahmrise.com', 'Admin@Fahmrise2026!');
-      navigate(redirect.startsWith('/admin') ? redirect : '/admin/videos');
+      setSuccessMessage('Administrator authenticated! Opening YouTube Video Manager...');
+      setTimeout(() => {
+        navigate(redirect.startsWith('/admin') ? redirect : '/admin/videos');
+      }, 500);
     } catch (err) {
-      setError('Administrator login failed: ' + (err.message || 'Please try again.'));
+      setError('Administrator login failed: ' + (err.message || 'Please verify server status.'));
     } finally {
       setLoading(false);
     }
@@ -46,12 +87,16 @@ export default function LoginPage() {
 
   const handleDemoLogin = async () => {
     setError(null);
+    setSuccessMessage(null);
     setLoading(true);
     try {
       await loginDemo();
-      navigate(redirect);
+      setSuccessMessage('Demo learner session loaded! Redirecting to dashboard...');
+      setTimeout(() => {
+        navigate(redirect);
+      }, 500);
     } catch (err) {
-      setError('Demo login failed.');
+      setError('Demo login failed. Please try again.');
     } finally {
       setLoading(false);
     }
@@ -59,10 +104,14 @@ export default function LoginPage() {
 
   const handleTeacherReviewerLogin = async () => {
     setError(null);
+    setSuccessMessage(null);
     setLoading(true);
     try {
       await loginTeacherReviewer();
-      navigate(redirect);
+      setSuccessMessage('Teacher Reviewer pass active! Full unrestricted access enabled.');
+      setTimeout(() => {
+        navigate(redirect);
+      }, 500);
     } catch (err) {
       setError('Teacher review access login failed: ' + (err.message || 'Please try again.'));
     } finally {
@@ -168,33 +217,51 @@ export default function LoginPage() {
 
         {/* Main Login Form */}
         <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 space-y-6 shadow-xl">
-          {error && (
-            <div className="p-3.5 bg-rose-950/50 border border-rose-800 rounded-xl text-xs text-rose-300">
-              {error}
+          {successMessage && (
+            <div className="p-3.5 bg-emerald-950/60 border border-emerald-500/50 rounded-xl text-xs sm:text-sm text-emerald-300 flex items-center gap-2 animate-in fade-in">
+              <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+              <span>{successMessage}</span>
             </div>
           )}
 
-          <form onSubmit={handleSubmit} className="space-y-4">
+          {error && (
+            <div className="p-3.5 bg-rose-950/60 border border-rose-800/80 rounded-xl text-xs sm:text-sm text-rose-300 flex items-center gap-2 animate-in fade-in">
+              <AlertCircle className="w-4 h-4 text-rose-400 shrink-0" />
+              <span>{error}</span>
+            </div>
+          )}
+
+          <form onSubmit={handleSubmit} className="space-y-4" noValidate>
             <div>
               <label className="block text-xs font-semibold text-slate-300 mb-1">
-                Email Address
+                Email Address <span className="text-rose-400">*</span>
               </label>
               <div className="relative">
                 <input
                   type="email"
                   value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                    if (fieldErrors.email) setFieldErrors(prev => ({ ...prev, email: null }));
+                  }}
                   placeholder="you@example.com"
-                  className="w-full px-4 py-3 bg-slate-950 border border-slate-800 rounded-xl text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500"
+                  className={`w-full px-4 py-3 bg-slate-950 border ${
+                    fieldErrors.email ? 'border-rose-500' : 'border-slate-800'
+                  } rounded-xl text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition-colors`}
                   required
                 />
               </div>
+              {fieldErrors.email && (
+                <p className="text-[11px] text-rose-400 mt-1 flex items-center gap-1">
+                  <span>•</span> {fieldErrors.email}
+                </p>
+              )}
             </div>
 
             <div>
               <div className="flex items-center justify-between mb-1">
                 <label className="block text-xs font-semibold text-slate-300">
-                  Password
+                  Password <span className="text-rose-400">*</span>
                 </label>
                 <Link to="/forgot-password" className="text-xs text-emerald-400 hover:underline">
                   Forgot password?
@@ -202,23 +269,48 @@ export default function LoginPage() {
               </div>
               <div className="relative">
                 <input
-                  type="password"
+                  type={showPassword ? 'text' : 'password'}
                   value={password}
-                  onChange={(e) => setPassword(e.target.value)}
+                  onChange={(e) => {
+                    setPassword(e.target.value);
+                    if (fieldErrors.password) setFieldErrors(prev => ({ ...prev, password: null }));
+                  }}
                   placeholder="••••••••"
-                  className="w-full px-4 py-3 bg-slate-950 border border-slate-800 rounded-xl text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 font-mono"
+                  className={`w-full px-4 py-3 pr-11 bg-slate-950 border ${
+                    fieldErrors.password ? 'border-rose-500' : 'border-slate-800'
+                  } rounded-xl text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 font-mono transition-colors`}
                   required
                 />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  aria-label={showPassword ? 'Hide password' : 'Show password'}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white p-1 rounded-lg focus:outline-none"
+                >
+                  {showPassword ? (
+                    <EyeOff className="w-4 h-4" />
+                  ) : (
+                    <Eye className="w-4 h-4" />
+                  )}
+                </button>
               </div>
+              {fieldErrors.password && (
+                <p className="text-[11px] text-rose-400 mt-1 flex items-center gap-1">
+                  <span>•</span> {fieldErrors.password}
+                </p>
+              )}
             </div>
 
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-xs sm:text-sm shadow-glow flex items-center justify-center gap-2 transition-all disabled:opacity-50"
+              className="w-full py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-xs sm:text-sm shadow-glow flex items-center justify-center gap-2 transition-all disabled:opacity-50 cursor-pointer"
             >
               {loading ? (
-                <span>Signing in...</span>
+                <>
+                  <RefreshCw className="w-4 h-4 animate-spin text-slate-950" />
+                  <span>Signing in to FAHMRISE...</span>
+                </>
               ) : (
                 <>
                   <span>Sign In</span>

@@ -425,12 +425,15 @@ export default function ContactPage() {
                   <div className="w-14 h-14 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto shadow-md">
                     <CheckCircle2 className="w-8 h-8" />
                   </div>
-                  <div className="space-y-1.5">
+                  <div className="space-y-2">
                     <h3 className="text-xl font-serif font-bold text-emerald-950">
                       Message Sent Successfully!
                     </h3>
                     <p className="text-xs sm:text-sm text-emerald-800 max-w-md mx-auto leading-relaxed">
-                      Thank you for contacting FAHMRISE. Your inquiry has been received by our student support team. We will review it and reply to your email shortly.
+                      Thank you for contacting FAHMRISE! We have received your message. Our team will review it and get back to you as soon as possible.
+                    </p>
+                    <p className="text-xs font-bold uppercase tracking-wider text-emerald-900 pt-1">
+                      FAHMRISE &mdash; LEARNING WITHOUT LIMITS.
                     </p>
                   </div>
                   <div className="pt-2">

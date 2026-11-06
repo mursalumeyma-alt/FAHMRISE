@@ -312,14 +312,19 @@ export const api = {
       const prevLesson = currentIndex > 0 ? { id: course.lessons[currentIndex - 1].id, title: course.lessons[currentIndex - 1].title } : null;
       const nextLesson = currentIndex < (course.lessons || []).length - 1 ? { id: course.lessons[currentIndex + 1].id, title: course.lessons[currentIndex + 1].title } : null;
 
+      // SECURITY: Client fallback must NEVER unlock paid courses from frontend state alone
+      const isFreeCourse = !course.requiresPayment;
+      const isFreePreview = lesson.number === 1;
+      const isLocked = !isFreeCourse && !isFreePreview;
+
       return {
         courseId: course.id,
         lesson,
         prevLesson,
         nextLesson,
         totalLessons: (course.lessons || []).length,
-        isLocked: false,
-        hasFullAccess: true
+        isLocked,
+        hasFullAccess: !isLocked
       };
     },
 
@@ -686,21 +691,17 @@ export const api = {
       return handleResponse(res);
     },
 
-    async simulateMpesa(bookId, phoneNumber) {
-      const res = await fetch(`${API_BASE}/payments/initiate-mpesa`, {
+    async initiateCard(bookId) {
+      const res = await fetch(`${API_BASE}/payments/initiate-card`, {
         method: 'POST',
         headers: getAuthHeaders(),
-        body: JSON.stringify({ bookId, phoneNumber })
+        body: JSON.stringify({ bookId })
       });
       return handleResponse(res);
     },
 
-    async initiateCard(bookId) {
-      return { session: { sessionId: 'sess_' + Date.now(), bookId } };
-    },
-
     async verifyCard(data) {
-      const res = await fetch(`${API_BASE}/payments/process-card`, {
+      const res = await fetch(`${API_BASE}/payments/verify-card`, {
         method: 'POST',
         headers: getAuthHeaders(),
         body: JSON.stringify(data)
@@ -709,7 +710,7 @@ export const api = {
     },
 
     async processCard(data) {
-      const res = await fetch(`${API_BASE}/payments/process-card`, {
+      const res = await fetch(`${API_BASE}/payments/verify-card`, {
         method: 'POST',
         headers: getAuthHeaders(),
         body: JSON.stringify(data)

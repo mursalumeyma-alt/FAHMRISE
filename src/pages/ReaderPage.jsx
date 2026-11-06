@@ -1378,7 +1378,7 @@ export default function ReaderPage() {
                     </div>
                   )}
 
-                  {/* Resilient Video Lesson Player */}
+                  {/* Resilient Video Lesson Player / Clean Coming Soon Notice */}
                   {currentLesson.videoLesson ? (
                     <LessonVideoPlayer 
                       key={`${targetBookId}-${currentLesson.id}`}
@@ -1387,16 +1387,39 @@ export default function ReaderPage() {
                       courseLanguage={course?.category === 'International Languages' ? targetBookId : null}
                     />
                   ) : (course?.category === 'International Languages' && (
-                    <div className="my-6 p-5 sm:p-6 rounded-3xl bg-slate-900/95 border border-slate-800 shadow-2xl space-y-3">
-                      <div className="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-wider">
-                        <Play className="w-4 h-4 opacity-70" />
-                        <span>Video Lecture Unavailable</span>
+                    <div className="my-6 p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-lg flex items-center gap-3">
+                      <div className="w-9 h-9 rounded-xl bg-teal-500/10 border border-teal-500/20 text-teal-400 flex items-center justify-center flex-shrink-0">
+                        <Video className="w-4 h-4" />
                       </div>
-                      <p className="text-xs text-slate-300">
-                        A dedicated native-language video lecture is currently being prepared for this chapter. The complete lesson notes, vocabulary bank, dialogues, and practice drills below are fully self-contained.
+                      <p className="text-xs sm:text-sm text-slate-300 font-medium">
+                        Video lesson coming soon. This chapter's written lesson and exercises are available.
                       </p>
                     </div>
                   ))}
+
+                  {/* Separate Additional Learning Resources (e.g. Madinah Arabic) */}
+                  {currentLesson.additionalResources && currentLesson.additionalResources.length > 0 && (
+                    <div className="my-4 p-4 rounded-2xl bg-slate-900/70 border border-slate-800 text-xs text-slate-300 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                      <div className="flex items-center gap-2">
+                        <BookOpen className="w-4 h-4 text-teal-400 flex-shrink-0" />
+                        <span className="font-semibold text-slate-200">Additional Learning Resource:</span>
+                      </div>
+                      <div className="flex flex-wrap items-center gap-2">
+                        {currentLesson.additionalResources.map((res, rIdx) => (
+                          <a
+                            key={rIdx}
+                            href={res.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-800 text-teal-300 hover:text-teal-200 border border-slate-700 font-semibold transition-all text-xs"
+                          >
+                            <span>{res.title || res.name}</span>
+                            <ExternalLink className="w-3 h-3 text-teal-400" />
+                          </a>
+                        ))}
+                      </div>
+                    </div>
+                  )}
 
                   {/* Lesson Body Rendered Markdown */}
                   <div className="prose prose-invert max-w-none text-slate-300 space-y-6 text-sm sm:text-base leading-relaxed">
