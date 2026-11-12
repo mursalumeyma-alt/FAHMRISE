@@ -21,7 +21,7 @@ import { useAuth } from '../../context/AuthContext';
 // Standard Suggested Coaching Starting Prices per Category (approved baselines)
 export const COACH_STARTING_PRICES = [
   {
-    category: "Qur’an Recitation & Tajweed",
+    category: "Ahkam Al-Tajweed (أحكام التجويد)",
     oneToOne: "KSh 1,500",
     smallGroup: "KSh 500",
     hint: "KSh 1,500 (1-on-1, 60 min) or KSh 500 (Small Group)"
@@ -65,7 +65,7 @@ export default function CoachApplicationForm({ onSuccess, isModal = false }) {
     fullName: '',
     email: '',
     phone: '',
-    expertise: 'Qur’an Recitation & Tajweed',
+    expertise: 'Ahkam Al-Tajweed (أحكام التجويد)',
     qualifications: '',
     preferredFormat: 'Both One-to-One and Small Group',
     preferredPrice: ''
@@ -205,7 +205,7 @@ export default function CoachApplicationForm({ onSuccess, isModal = false }) {
                 fullName: user?.name || '',
                 email: user?.email || '',
                 phone: user?.phone || '',
-                expertise: 'Qur’an Recitation & Tajweed',
+                expertise: 'Ahkam Al-Tajweed (أحكام التجويد)',
                 qualifications: '',
                 preferredFormat: 'Both One-to-One and Small Group',
                 preferredPrice: ''
@@ -422,7 +422,8 @@ export default function CoachApplicationForm({ onSuccess, isModal = false }) {
                 required
                 className="w-full pl-10 pr-4 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-white text-sm focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all cursor-pointer"
               >
-                <option value="Qur’an Recitation & Tajweed">Qur’an Recitation & Tajweed</option>
+                <option value="Ahkam Al-Tajweed (أحكام التجويد)">Ahkam Al-Tajweed (أحكام التجويد)</option>
+                <option value="Qur’an Recitation & Tajweed" className="hidden">Qur’an Recitation & Tajweed</option>
                 <option value="Arabic Language (Grammar & Conversation)">Arabic Language (Grammar & Conversation)</option>
                 <option value="Islamic Studies">Islamic Studies</option>
                 <option value="Technology & Software Engineering">Technology & Software Engineering</option>

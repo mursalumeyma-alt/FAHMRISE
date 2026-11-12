@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import { Mail, ShieldCheck, Sparkles, Globe, ArrowRight } from 'lucide-react';
 import Modal from '../common/Modal';
 import WhatsAppIcon from '../common/WhatsAppIcon';
-import { getWhatsAppChatUrl } from '../../config/contactConfig';
+import { getWhatsAppChatUrl, isRealWhatsAppConfigured, CONTACT_CONFIG } from '../../config/contactConfig';
 
 export default function Footer() {
   const [privacyOpen, setPrivacyOpen] = useState(false);
   const [termsOpen, setTermsOpen] = useState(false);
+  const whatsappConfigured = isRealWhatsAppConfigured();
+  const whatsappUrl = getWhatsAppChatUrl();
 
   return (
     <footer className="bg-[#0B2F2D] text-slate-300 text-sm border-t border-[#072120]">
@@ -39,21 +41,34 @@ export default function Footer() {
 
             <div className="pt-2 flex flex-col gap-2">
               <a 
-                href="mailto:fahmrise.contact@gmail.com" 
+                href={`mailto:${CONTACT_CONFIG.email}`} 
+                data-testid="footer-email-link"
                 className="inline-flex items-center gap-2 text-xs font-semibold text-[#E5B869] hover:text-[#f3cca0] transition-colors"
               >
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span>fahmrise.contact@gmail.com</span>
+                <span>{CONTACT_CONFIG.email}</span>
               </a>
-              <a 
-                href={getWhatsAppChatUrl()}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-xs font-semibold text-[#25D366] hover:text-[#20ba5a] transition-colors"
-              >
-                <WhatsAppIcon className="w-4 h-4 flex-shrink-0" />
-                <span>Chat on WhatsApp</span>
-              </a>
+              {whatsappConfigured && whatsappUrl ? (
+                <a 
+                  href={whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="footer-whatsapp-link"
+                  className="inline-flex items-center gap-2 text-xs font-semibold text-[#25D366] hover:text-[#20ba5a] transition-colors"
+                >
+                  <WhatsAppIcon className="w-4 h-4 flex-shrink-0" />
+                  <span>Chat on WhatsApp</span>
+                </a>
+              ) : (
+                <Link
+                  to="/contact"
+                  data-testid="footer-whatsapp-fallback"
+                  className="inline-flex items-center gap-2 text-xs font-semibold text-[#25D366] hover:text-[#20ba5a] transition-colors"
+                >
+                  <WhatsAppIcon className="w-4 h-4 flex-shrink-0" />
+                  <span>WhatsApp &amp; Support</span>
+                </Link>
+              )}
             </div>
           </div>
 
@@ -115,11 +130,6 @@ export default function Footer() {
               <li>
                 <Link to="/courses?category=Islamic%20Studies" className="text-[#C4D9D7] hover:text-white transition-colors">
                   Islamic Studies
-                </Link>
-              </li>
-              <li>
-                <Link to="/tracks/international-languages" className="text-[#C4D9D7] hover:text-white transition-colors">
-                  Languages
                 </Link>
               </li>
               <li>
@@ -221,7 +231,7 @@ export default function Footer() {
       >
         <div className="space-y-3 text-xs text-slate-300 leading-relaxed max-h-[70vh] overflow-y-auto pr-2">
           <p className="font-semibold text-white">Welcome to FAHMRISE!</p>
-          <p>1. <strong>Educational Content</strong>: All lessons, project specifications, and quizzes across Technology, Islamic Studies, Business, Languages, and Career Skills are crafted for practical competency.</p>
+          <p>1. <strong>Educational Content</strong>: All lessons, project specifications, and quizzes across Technology, Islamic Studies, Business, and Career Skills are crafted for practical competency.</p>
           <p>2. <strong>AI Tutor Guidance</strong>: The FAHMRISE AI Tutor is an automated Socratic learning mentor designed to assist students 24/7.</p>
           <p>3. <strong>Verified Certificates</strong>: Certificate verification is cryptographically confirmed against the registry upon successful course completion.</p>
           <div className="pt-2">

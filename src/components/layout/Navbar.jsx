@@ -71,7 +71,6 @@ export default function Navbar() {
     { title: 'Data Analytics & Spreadsheets', path: '/courses/data-analysis-spreadsheets', category: 'Data & Analytics', badge: 'Beginner' },
     { title: 'SQL & Relational Databases Mastery', path: '/courses/sql-relational-databases', category: 'Data & Analytics', badge: 'Interactive' },
     { title: 'Power BI Business Intelligence', path: '/courses/power-bi-business-intelligence', category: 'Data & Analytics', badge: 'DAX' },
-    { title: 'International Languages: Arabic Track', path: '/tracks/international-languages', category: 'Languages', badge: 'A1-B2' },
     { title: 'Islamic Studies & Quranic Sciences', path: '/courses?category=Islamic%20Studies', category: 'Islamic Studies', badge: 'Core' },
     { title: 'Practice Arena (10 Real JavaScript Projects)', path: '/practice', category: 'Practice Arena', badge: '10 Projects' },
     { title: 'Full Stack Projects & Deployment', path: '/fullstack-projects', category: 'Projects', badge: '6 Projects' },
@@ -417,7 +416,7 @@ export default function Navbar() {
             <Search className="w-5 h-5 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
             <input
               type="text"
-              placeholder="Search by course name, topic, or discipline (e.g. React, SQL, Arabic)..."
+              placeholder="Search by course name, topic, or discipline (e.g. React, SQL, Tajweed)..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-11 pr-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white placeholder-slate-400 text-sm focus:outline-none focus:border-[#E5B869]"

@@ -261,7 +261,7 @@ export default function DashboardPage() {
                     </span>
                   </div>
                   <p className="text-xs text-slate-300 max-w-2xl leading-relaxed">
-                    Welcome to the FAHMRISE evaluation session. All courses across <strong>Technology</strong>, <strong>Islamic Studies</strong>, <strong>Business</strong>, and <strong>International Languages</strong> are pre-authorized with zero payment locks. Inspect curriculum structure, read lesson chapters, test quizzes, and verify practice sandboxes.
+                    Welcome to the FAHMRISE evaluation session. All courses across <strong>Technology</strong>, <strong>Islamic Studies</strong>, and <strong>Business</strong> are pre-authorized with zero payment locks. Inspect curriculum structure, read lesson chapters, test quizzes, and verify practice sandboxes.
                   </p>
                   <div className="flex flex-wrap items-center gap-2 pt-1 text-[11px] text-indigo-300">
                     <span className="px-2.5 py-1 rounded-lg bg-slate-950/80 border border-indigo-900/60 font-mono">

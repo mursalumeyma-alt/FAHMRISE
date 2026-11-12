@@ -784,6 +784,7 @@ export const api = {
         success: true,
         rates: {
           categories: {
+            "Ahkam Al-Tajweed (أحكام التجويد)": { oneToOne: "KSh 1,500", smallGroup: "KSh 500" },
             "Qur’an Recitation & Tajweed": { oneToOne: "KSh 1,500", smallGroup: "KSh 500" },
             "Arabic Language (Grammar & Conversation)": { oneToOne: "KSh 1,500", smallGroup: "KSh 500" },
             "Islamic Studies": { oneToOne: "KSh 1,500", smallGroup: "KSh 500" },
@@ -971,39 +972,6 @@ export const api = {
         headers: getAuthHeaders(),
         body: JSON.stringify(splitData)
       });
-      return handleResponse(res);
-    }
-  },
-
-  // News & Language Immersion Feeds
-  news: {
-    async getByLanguage(language = 'somali') {
-      const res = await fetch(`${API_BASE}/news/${encodeURIComponent(language)}`);
-      return handleResponse(res);
-    },
-    async getAll() {
-      const res = await fetch(`${API_BASE}/news`);
-      return handleResponse(res);
-    }
-  },
-
-  // Somali Learning Educational Curriculum & Resources
-  somaliLearning: {
-    async getCategories() {
-      const res = await fetch(`${API_BASE}/somali-learning/categories`);
-      return handleResponse(res);
-    },
-    async getLessons(params = {}) {
-      const query = new URLSearchParams(params).toString();
-      const res = await fetch(`${API_BASE}/somali-learning/lessons${query ? `?${query}` : ''}`);
-      return handleResponse(res);
-    },
-    async getLessonById(id) {
-      const res = await fetch(`${API_BASE}/somali-learning/lessons/${encodeURIComponent(id)}`);
-      return handleResponse(res);
-    },
-    async getResources() {
-      const res = await fetch(`${API_BASE}/somali-learning/resources`);
       return handleResponse(res);
     }
   },

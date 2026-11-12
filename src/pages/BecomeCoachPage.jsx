@@ -26,11 +26,11 @@ export default function BecomeCoachPage() {
   const faqs = [
     {
       q: "Who can apply to become a FAHMRISE Coach?",
-      a: "We welcome passionate, qualified instructors in Qur'an recitation & Tajweed, Arabic language (grammar, conversation, morphology), Islamic studies, software engineering, and modern career/business skills. Whether you have formal degrees, Ijazah certifications, or deep industry experience, we encourage you to apply."
+      a: "We welcome passionate, qualified instructors in Ahkam Al-Tajweed (أحكام التجويد), Arabic language (grammar, conversation, morphology), Islamic studies, software engineering, and modern career/business skills. Whether you have formal degrees, Ijazah certifications, or deep industry experience, we encourage you to apply."
     },
     {
       q: "How are the coaching rates decided?",
-      a: "FAHMRISE establishes standard suggested starting prices per category (e.g. KSh 1,500 for Qur’an Recitation, Arabic, and Islamic Studies; KSh 2,500 for Technology; KSh 2,000 for Business; and KSh 500–1,000 for Small Groups). These are suggested starting prices, not guaranteed earnings or compulsory prices. Coaches may propose a different rate during application, subject to FAHMRISE review and approval."
+      a: "FAHMRISE establishes standard suggested starting prices per category (e.g. KSh 1,500 for Ahkam Al-Tajweed, Arabic, and Islamic Studies; KSh 2,500 for Technology; KSh 2,000 for Business; and KSh 500–1,000 for Small Groups). These are suggested starting prices, not guaranteed earnings or compulsory prices. Coaches may propose a different rate during application, subject to FAHMRISE review and approval."
     },
     {
       q: "Is my application data kept private?",
@@ -65,7 +65,7 @@ export default function BecomeCoachPage() {
           </h1>
 
           <p className="mt-6 text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            Share your knowledge, inspire learners, and earn by teaching what you know. We welcome qualified and passionate coaches in technology, Arabic, Qur’an recitation and Tajweed, Islamic studies, and business.
+            Share your knowledge, inspire learners, and earn by teaching what you know. We welcome qualified and passionate coaches in technology, Arabic, Ahkam Al-Tajweed (أحكام التجويد), Islamic studies, and business.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">

@@ -35,7 +35,6 @@ import {
  * - Technology & Web Development
  * - Data & Analytics
  * - Islamic Studies
- * - International Languages
  * - Business & Entrepreneurship
  * - Career Skills
  * - Practice Arena (Projects)
@@ -45,7 +44,6 @@ export const CATEGORIES = [
   { id: 'Technology', label: 'Technology' },
   { id: 'Data & Analytics', label: 'Data & Analytics' },
   { id: 'Islamic Studies', label: 'Islamic Studies' },
-  { id: 'International Languages', label: 'International Languages' },
   { id: 'Business', label: 'Business' },
   { id: 'Career Skills', label: 'Career Skills' },
   { id: 'Projects', label: 'Practice Arena' }
@@ -63,8 +61,6 @@ function getCategoryIcon(catId) {
       return Shield;
     case 'Islamic Studies':
       return BookMarked;
-    case 'International Languages':
-      return Globe;
     case 'Business':
     case 'Business & Entrepreneurship':
       return Briefcase;
@@ -78,32 +74,7 @@ function getCategoryIcon(catId) {
 }
 
 // Dedicated Live Curriculum Tracks Metadata
-const LIVE_TRACKS = [
-  {
-    id: 'international-languages',
-    courseId: 'arabic-language-learning',
-    trackUrl: '/tracks/international-languages',
-    title: 'International Languages',
-    fullTitle: 'International Languages Track',
-    subtitle: 'Learn World Languages Through Structured Digital Modules',
-    category: 'International Languages',
-    categoryAliases: ['International Languages', 'Languages & Arabic', 'Languages'],
-    level: 'Beginner to Advanced',
-    estimatedHours: '40 – 60 Hours (Self-Paced)',
-    statusBadge: 'Multi-Language Pathway',
-    description: 'Develop practical language fluency through structured courses in reading, writing, pronunciation, vocabulary, grammar, listening, and real-world conversation across world languages.',
-    syllabus: [
-      { id: 'lang-track-1', courseId: 'arabic-language-learning', number: '01', title: 'Arabic Language Learning', desc: 'Alphabet, phonetics, root vocabulary, applied grammar, conversation, and classical reading.' },
-      { id: 'lang-track-2', courseId: 'english-language-learning', number: '02', title: 'English Language Learning', desc: 'Phonetics, core vocabulary, social greetings, sentence mechanics, listening comprehension, and fluency.' },
-      { id: 'lang-track-3', courseId: 'french-language-learning', number: '03', title: 'French Language Learning', desc: 'Pronunciation, essential vocabulary, greetings, grammar foundations, listening skills, and conversation.' },
-      { id: 'lang-track-4', courseId: 'swahili-language-learning', number: '04', title: 'Swahili Language Learning', desc: 'Kiswahili phonetics, vocabulary, greetings, noun classes, sentence structure, and marketplace conversation.' },
-      { id: 'lang-track-5', courseId: 'japanese-language-learning', number: '05', title: 'Japanese Language Learning', desc: 'Writing systems (Hiragana, Katakana, Kanji), pronunciation, greetings, numbers, particles, and daily dialogues.' },
-      { id: 'lang-track-6', courseId: 'somali-language-learning', number: '06', title: 'Somali Language Learning', desc: 'Latin script (1972), unique pharyngeal sounds (X, C) & DH, vowel lengths, greetings, family, numbers, verbs, and market dialogues.' }
-    ],
-    features: ['Multi-Language Curriculum', 'Grammar & Vocabulary Drills', 'Reading & Conversational Practice', 'Verified Certificate of Completion'],
-    actionLabel: 'Explore Language Track'
-  }
-];
+const LIVE_TRACKS = [];
 
 /**
  * Thematic Course Card Header Illustrations
@@ -212,35 +183,7 @@ function CourseCardIllustration({ course }) {
     );
   }
 
-  // 4. International Languages (Arabic, English, French, Swahili, Japanese, Somali)
-  if (cat.includes('language') || id.includes('language')) {
-    return (
-      <div className="relative w-full h-36 bg-gradient-to-br from-[#173F38] via-[#1C4B43] to-[#123630] overflow-hidden flex items-center justify-center p-4">
-        {/* Multilingual Glyph Field */}
-        <div className="absolute inset-0 flex items-center justify-between px-6 opacity-20 text-xl font-bold text-[#D4A94F] select-none pointer-events-none">
-          <span>ض</span>
-          <span>Aa</span>
-          <span>あ</span>
-          <span>Bonjour</span>
-          <span>Habari</span>
-        </div>
-
-        <div className="relative z-10 flex items-center gap-3 bg-black/35 border border-[#D4A94F]/40 px-4 py-2.5 rounded-2xl shadow-lg backdrop-blur-xs">
-          <div className="w-10 h-10 rounded-xl bg-[#D4A94F]/20 flex items-center justify-center text-[#D4A94F] font-bold">
-            <Globe className="w-5 h-5 text-[#D4A94F]" />
-          </div>
-          <div className="text-left">
-            <span className="text-xs font-bold text-white block">Applied Language Pathway</span>
-            <span className="text-[10px] text-[#F1E8D8] opacity-80 block">Reading • Grammar • Fluency</span>
-          </div>
-        </div>
-
-        <div className="absolute -top-6 -right-6 w-24 h-24 bg-cyan-400/15 rounded-full blur-xl pointer-events-none" />
-      </div>
-    );
-  }
-
-  // 5. Business & Entrepreneurship
+  // 4. Business & Entrepreneurship
   if (cat.includes('business')) {
     return (
       <div className="relative w-full h-36 bg-gradient-to-br from-[#173F38] via-[#1B4840] to-[#10332D] overflow-hidden flex items-center justify-center p-4">
@@ -290,9 +233,6 @@ export function normalizeCategory(param) {
   if (lower.includes('cyber') || lower.includes('security')) {
     return 'Technology';
   }
-  if (lower.includes('international') || lower.includes('arabic') || lower.includes('language') || lower.includes('swahili') || lower.includes('french') || lower.includes('english') || lower.includes('japanese') || lower.includes('somali')) {
-    return 'International Languages';
-  }
   if (lower.includes('career') || lower.includes('skill') || lower.includes('job') || lower.includes('comm')) {
     return 'Career Skills';
   }
@@ -325,10 +265,6 @@ function matchesCategory(course, selectedCategory) {
   // Data & Analytics
   if (sel === 'data & analytics') {
     return cat === 'data & analytics' || (cat === 'technology' && (course.id.includes('data') || course.id.includes('power-bi') || course.id.includes('sql') || course.id.includes('python')));
-  }
-  // Languages
-  if (sel === 'international languages') {
-    return cat === 'international languages' || cat === 'languages & arabic' || cat === 'languages';
   }
   // Islamic Studies
   if (sel === 'islamic studies') {
@@ -407,9 +343,7 @@ export default function BookCatalogPage() {
   const scrollToCategorySection = useCallback((catId, immediate = false) => {
     const doScroll = () => {
       let targetEl = null;
-      if (catId === 'International Languages') {
-        targetEl = document.getElementById('international-languages-section') || document.getElementById('courses-grid-section');
-      } else if (catId === 'Projects') {
+      if (catId === 'Projects') {
         targetEl = document.getElementById('practice-arena-section') || document.getElementById('practice-projects-section');
       } else {
         targetEl = document.getElementById('courses-grid-section') || document.getElementById('catalog-content');
@@ -543,15 +477,7 @@ export default function BookCatalogPage() {
   const comingSoonCourses = filteredCourses.filter(c => c.isComingSoon || c.status === 'coming_soon');
 
   // Filter Live Tracks by Category
-  const filteredLiveTracks = LIVE_TRACKS.filter((track) => {
-    if (selectedCategory === 'All' || selectedCategory === 'International Languages') {
-      if (searchQuery && !matchesSearch({ title: track.fullTitle, subtitle: track.subtitle, description: track.description, category: track.category }, searchQuery)) {
-        return false;
-      }
-      return true;
-    }
-    return false;
-  });
+  const filteredLiveTracks = LIVE_TRACKS.filter(() => false);
 
   // Filter Practice Projects by Category and Search Query
   const filteredProjects = projects.filter((project) => {
@@ -607,7 +533,7 @@ export default function BookCatalogPage() {
             </h1>
 
             <p className="text-base sm:text-lg text-[#F1E8D8] opacity-90 leading-relaxed font-normal">
-              Self-paced, hands-on curriculums designed for practical excellence. Explore modern web engineering, commercial data analytics, classical Islamic sciences, and world languages.
+              Self-paced, hands-on curriculums designed for practical excellence. Explore modern web engineering, commercial data analytics, classical Islamic sciences, business, and career skills.
             </p>
           </div>
 
@@ -615,7 +541,7 @@ export default function BookCatalogPage() {
           <div className="mt-8 pt-6 border-t border-white/10 flex flex-wrap items-center gap-6 text-xs text-[#E2D9C8]">
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#D4A94F]" />
-              <strong className="text-white">26</strong> Curated Courses
+              <strong className="text-white">19</strong> Curated Courses
             </span>
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-emerald-400" />
@@ -652,7 +578,7 @@ export default function BookCatalogPage() {
               <Search className="w-4 h-4 absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
               <input
                 type="text"
-                placeholder="Search by course title, topic, or keyword (e.g. React, SQL, Tajweed, Arabic)..."
+                placeholder="Search by course title, topic, or keyword (e.g. React, SQL, Tajweed, Business)..."
                 value={searchQuery}
                 onChange={(e) => handleSearchChange(e.target.value)}
                 className="w-full pl-11 pr-10 py-3 bg-white border border-[#E2D9C8] rounded-2xl text-slate-800 placeholder-slate-400 text-xs sm:text-sm focus:outline-none focus:border-[#173F38] focus:ring-2 focus:ring-[#173F38]/10 shadow-xs transition-all"
@@ -747,76 +673,7 @@ export default function BookCatalogPage() {
           </div>
         ) : (
           <div className="space-y-12">
-            
-            {/* 1. International Languages Spotlight Track (Visible on 'All' or 'International Languages') */}
-            {filteredLiveTracks.length > 0 && (
-              <section
-                id="international-languages-section"
-                className="bg-white rounded-3xl border-2 border-[#173F38]/20 p-6 sm:p-8 lg:p-10 shadow-sm relative overflow-hidden scroll-mt-48"
-              >
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                  <div className="lg:col-span-8 space-y-4">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#173F38]/10 border border-[#173F38]/20 text-[#173F38] text-xs font-bold uppercase tracking-wider">
-                      <Globe className="w-3.5 h-3.5 text-[#173F38]" />
-                      <span>Specialized Multilingual Track</span>
-                    </div>
-
-                    <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#173F38]">
-                      International Languages: Arabic, French, Swahili &amp; More
-                    </h2>
-
-                    <p className="text-sm text-slate-600 leading-relaxed max-w-2xl">
-                      Master world languages through structured phonetics, root vocabulary, conversational dialogues, and real-time grammar drills. Includes Arabic, English, French, Swahili, Japanese, and Somali.
-                    </p>
-
-                    {/* Supported World Languages Tags */}
-                    <div className="space-y-2 pt-1">
-                      <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider block">
-                        Supported Languages:
-                      </span>
-                      <div className="flex flex-wrap items-center gap-2" aria-label="Supported International Languages">
-                        {[
-                          { name: 'Arabic', id: 'arabic-language-learning' },
-                          { name: 'English', id: 'english-language-learning' },
-                          { name: 'French', id: 'french-language-learning' },
-                          { name: 'Swahili', id: 'swahili-language-learning' },
-                          { name: 'Japanese', id: 'japanese-language-learning' },
-                          { name: 'Somali', id: 'somali-language-learning' }
-                        ].map(({ name, id }) => (
-                          <Link
-                            key={name}
-                            to={`/courses/${id}`}
-                            data-testid={`language-tag-${name.toLowerCase()}`}
-                            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#FAF7F2] hover:bg-[#F1E8D8] text-slate-800 hover:text-[#173F38] text-xs font-semibold border border-[#E2D9C8] hover:border-[#173F38]/40 shadow-2xs transition-all group"
-                          >
-                            <span className="w-1.5 h-1.5 rounded-full bg-[#D4A94F] group-hover:scale-125 transition-transform" />
-                            <span>{name}</span>
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="lg:col-span-4 flex flex-col justify-center items-start lg:items-end gap-4 bg-[#FAF7F2] p-6 rounded-2xl border border-[#E2D9C8]">
-                    <div className="space-y-1">
-                      <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Pathway Tuition</span>
-                      <span className="text-xl font-serif font-bold text-[#173F38]">KSh 5,000</span>
-                      <span className="text-xs text-slate-500 block">per individual language track</span>
-                    </div>
-
-                    <Link
-                      to="/tracks/international-languages"
-                      className="w-full lg:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-[#173F38] hover:bg-[#1E5047] text-white font-bold text-xs shadow-md transition-all"
-                    >
-                      <span>Explore Languages Track</span>
-                      <ArrowRight className="w-3.5 h-3.5 text-[#D4A94F]" />
-                    </Link>
-                  </div>
-                </div>
-              </section>
-            )}
-
-            {/* 2. Practice Arena Spotlight (When 'Projects' is selected) */}
+            {/* 1. Practice Arena Spotlight (When 'Projects' is selected) */}
             {selectedCategory === 'Projects' && (
               <section
                 id="practice-arena-section"

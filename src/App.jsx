@@ -26,7 +26,6 @@ import AdminPage from './pages/AdminPage';
 import AdminVideosPage from './pages/AdminVideosPage';
 import BecomeCoachPage from './pages/BecomeCoachPage';
 import InstructorDashboardPage from './pages/InstructorDashboardPage';
-import ArabicTrackPage from './pages/ArabicTrackPage';
 import FullStackProjectsPage from './pages/FullStackProjectsPage';
 import BlogPage from './pages/BlogPage';
 import BlogPostPage from './pages/BlogPostPage';
@@ -149,18 +148,6 @@ export default function App() {
             <Navbar />
             <div className="flex-1">
               <Routes>
-                {/* Dedicated International Languages Track Page */}
-                <Route path="/tracks/international-languages" element={<ArabicTrackPage />} />
-                <Route path="/international-languages" element={<ArabicTrackPage />} />
-                <Route path="/tracks/languages" element={<ArabicTrackPage />} />
-                <Route path="/languages" element={<ArabicTrackPage />} />
-                <Route path="/courses/international-languages" element={<ArabicTrackPage />} />
-                <Route path="/tracks/languages-arabic" element={<ArabicTrackPage />} />
-                <Route path="/tracks/arabic" element={<ArabicTrackPage />} />
-                <Route path="/languages-arabic" element={<ArabicTrackPage />} />
-                <Route path="/arabic-track" element={<ArabicTrackPage />} />
-                <Route path="/courses/languages-arabic" element={<ArabicTrackPage />} />
-
                 {/* Public Marketing & Courses Catalog */}
                 <Route path="/" element={<HomePage />} />
                 <Route path="/courses" element={<BookCatalogPage />} />

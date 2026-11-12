@@ -1138,7 +1138,6 @@ export default function AdminPage({ defaultTab }) {
                     <option value="Technology">Technology</option>
                     <option value="Islamic Studies">Islamic Studies</option>
                     <option value="Business">Business</option>
-                    <option value="International Languages">International Languages</option>
                     <option value="Career Skills">Career Skills</option>
                   </select>
 
@@ -1676,7 +1675,7 @@ export default function AdminPage({ defaultTab }) {
                     </thead>
                     <tbody className="divide-y divide-slate-800/50">
                       {[
-                        { cat: "Qur’an Recitation & Tajweed", one: "KSh 1,500", grp: "KSh 500" },
+                        { cat: "Ahkam Al-Tajweed (أحكام التجويد)", one: "KSh 1,500", grp: "KSh 500" },
                         { cat: "Arabic Language (Grammar & Conversation)", one: "KSh 1,500", grp: "KSh 500" },
                         { cat: "Islamic Studies", one: "KSh 1,500", grp: "KSh 500" },
                         { cat: "Technology & Software Engineering", one: "KSh 2,500", grp: "KSh 1,000" },

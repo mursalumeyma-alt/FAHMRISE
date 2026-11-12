@@ -43,7 +43,7 @@ export default function BookProductPage() {
 
   const isComingSoon = course ? Boolean(course.isComingSoon || course.status === 'coming_soon' || course.price === null) : false;
   const isEnrolled = isEnrolledIn(targetId);
-  const isFree = course ? (!isComingSoon && (course.price === 0 || !course.requiresPayment || course.isFree || course.category === 'Islamic Studies' || (course.category === 'International Languages' && course.price === 0))) : false;
+  const isFree = course ? (!isComingSoon && (course.price === 0 || !course.requiresPayment || course.isFree || course.category === 'Islamic Studies')) : false;
 
   // Always reset scroll to the top of the course product page on mount or ID change
   useEffect(() => {
@@ -110,8 +110,6 @@ export default function BookProductPage() {
     let redirectToCategory = null;
     if (raw.includes('react') || raw.includes('frontend') || raw.includes('html') || raw.includes('css') || raw.includes('javascript') || raw.includes('backend') || raw.includes('fullstack') || raw.includes('sql') || raw.includes('python') || raw.includes('powerbi') || raw.includes('cyber')) {
       redirectToCategory = 'Technology';
-    } else if (raw.includes('arabic') || raw.includes('language') || raw.includes('international') || raw.includes('swahili') || raw.includes('french') || raw.includes('english') || raw.includes('japanese') || raw.includes('somali')) {
-      redirectToCategory = 'International Languages';
     } else if (raw.includes('career') || raw.includes('skill')) {
       redirectToCategory = 'Career Skills';
     } else if (raw.includes('project')) {
@@ -155,7 +153,7 @@ export default function BookProductPage() {
 
   const handleEnrollClick = async () => {
     if (isComingSoon) {
-      navigate('/courses?category=International%20Languages');
+      navigate('/courses');
       return;
     }
     if (isEnrolled) {

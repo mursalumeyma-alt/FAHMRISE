@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { 
   Mail, 
   Copy, 
@@ -21,7 +21,8 @@ import {
   CONTACT_CONFIG, 
   isWhatsAppConfigured, 
   isRealWhatsAppConfigured,
-  getWhatsAppChatUrl 
+  getWhatsAppChatUrl,
+  formatWhatsAppDisplay
 } from '../config/contactConfig';
 
 /**
@@ -42,10 +43,19 @@ export function WhatsAppIcon({ className = "w-5 h-5", ...props }) {
 }
 
 export default function ContactPage() {
-  // Always scroll to top on mount
+  const location = useLocation();
+
+  // Scroll to #contact-form when anchored from support modals, otherwise scroll to top
   useEffect(() => {
+    if (location.hash === '#contact-form') {
+      const formEl = document.getElementById('contact-form');
+      if (formEl) {
+        formEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+    }
     window.scrollTo(0, 0);
-  }, []);
+  }, [location.hash]);
 
   // Email Copy State
   const [copiedEmail, setCopiedEmail] = useState(false);
@@ -242,51 +252,66 @@ export default function ContactPage() {
                   </p>
                 </div>
 
-                {/* Primary WhatsApp Click-to-Chat Button */}
+                {/* Primary WhatsApp Click-to-Chat Button (Only links externally when real official number is configured) */}
                 <div className="pt-2 space-y-3">
-                  <a
-                    href={whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-testid="whatsapp-chat-button"
-                    className="w-full inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-[#25D366] hover:bg-[#20ba5a] active:bg-[#1caa52] text-white font-bold text-sm shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer select-none"
-                    onClick={(e) => {
-                      if (!whatsappUrl) {
-                        e.preventDefault();
-                      }
-                    }}
-                  >
-                    <WhatsAppIcon className="w-5 h-5 flex-shrink-0" />
-                    <span>Chat with FAHMRISE on WhatsApp</span>
-                    <ExternalLink className="w-4 h-4 opacity-80 flex-shrink-0 ml-1" />
-                  </a>
+                  {isRealConfigured && whatsappUrl ? (
+                    <>
+                      <a
+                        href={whatsappUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-testid="whatsapp-chat-button"
+                        className="w-full inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-[#25D366] hover:bg-[#20ba5a] active:bg-[#1caa52] text-white font-bold text-sm shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer select-none"
+                      >
+                        <WhatsAppIcon className="w-5 h-5 flex-shrink-0" />
+                        <span>Chat with FAHMRISE on WhatsApp</span>
+                        <ExternalLink className="w-4 h-4 opacity-80 flex-shrink-0 ml-1" />
+                      </a>
 
-                  <div className="space-y-1.5 text-center sm:text-left">
-                    <span className="text-[11px] text-slate-500 block text-center">
-                      Opens WhatsApp in a new tab or the WhatsApp application
-                    </span>
-
-                    {/* Status note regarding WhatsApp number */}
-                    {!isRealConfigured ? (
-                      <div 
+                      <div className="space-y-1.5 text-center sm:text-left">
+                        <span className="text-[11px] text-slate-500 block text-center">
+                          Opens WhatsApp in a new tab or the WhatsApp application
+                        </span>
+                        <div className="flex items-center justify-center gap-1.5 text-[11px] text-emerald-700 font-semibold pt-1">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                          <span>Official Dedicated Support Line Active: {formatWhatsAppDisplay()}</span>
+                        </div>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div
                         data-testid="whatsapp-status-note"
                         className="p-3.5 rounded-xl bg-[#FAF8F5] border border-[#E2D9C8] text-left text-xs text-slate-600 space-y-1.5"
                       >
                         <div className="flex items-center gap-2 font-bold text-[#0B2F2D] text-xs">
                           <Clock className="w-4 h-4 text-amber-600 flex-shrink-0" />
-                          <span>Click-to-chat URL: <code className="font-mono text-[#0B2F2D]">{whatsappUrl?.split('?')[0]}</code></span>
+                          <span>WhatsApp Support Line Being Activated</span>
                         </div>
                         <p className="text-[11px] text-slate-500 leading-relaxed">
-                          Note: The real FAHMRISE WhatsApp phone number is required to replace the <code className="font-mono text-slate-700 font-bold">254XXXXXXXXX</code> placeholder.
+                          Our official WhatsApp number is currently being finalized. For immediate support, please use the interactive Contact Form or email{' '}
+                          <a href={`mailto:${CONTACT_CONFIG.email}`} className="font-semibold text-[#0B2F2D] underline">
+                            {CONTACT_CONFIG.email}
+                          </a>.
                         </p>
                       </div>
-                    ) : (
-                      <div className="flex items-center justify-center gap-1.5 text-[11px] text-emerald-700 font-semibold pt-1">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-                        <span>Official Dedicated Support Line Active</span>
-                      </div>
-                    )}
-                  </div>
+
+                      <button
+                        type="button"
+                        data-testid="whatsapp-fallback-contact-btn"
+                        onClick={() => {
+                          const formEl = document.getElementById('contact-form');
+                          if (formEl) formEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                          const nameInput = document.getElementById('contact-name');
+                          if (nameInput) nameInput.focus();
+                        }}
+                        className="w-full inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-[#0B2F2D] hover:bg-[#165b57] text-white font-bold text-sm shadow-md transition-all duration-200 cursor-pointer select-none"
+                      >
+                        <MessageSquare className="w-5 h-5 text-[#E5B869] flex-shrink-0" />
+                        <span>Send Inquiry via Contact Form</span>
+                      </button>
+                    </>
+                  )}
                 </div>
               </div>
             </div>
@@ -399,7 +424,7 @@ export default function ContactPage() {
           {/* -------------------------------------------------------------------
               RIGHT COLUMN (7 Cols): INTERACTIVE CONTACT FORM
              ------------------------------------------------------------------- */}
-          <div className="lg:col-span-7">
+          <div id="contact-form" className="lg:col-span-7 scroll-mt-24">
             <div className="bg-white rounded-3xl border border-[#E2D9C8] p-6 sm:p-10 shadow-sm relative">
               
               {/* Form Title */}

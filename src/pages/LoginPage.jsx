@@ -176,7 +176,7 @@ export default function LoginPage() {
             <span>Teacher Demo / Reviewer Access</span>
           </div>
           <p className="text-xs text-slate-200 leading-relaxed">
-            Specially configured for teachers and reviewers. Inspect all courses across <strong>Technology</strong>, <strong>Islamic Studies</strong>, <strong>Business</strong>, and <strong>International Languages</strong> with zero payment locks, pre-loaded sample coursework, full reader access, quizzes, and live progress tracking.
+            Specially configured for teachers and reviewers. Inspect all courses across <strong>Technology</strong>, <strong>Islamic Studies</strong>, and <strong>Business</strong> with zero payment locks, pre-loaded sample coursework, full reader access, quizzes, and live progress tracking.
           </p>
           <div className="pt-1">
             <button

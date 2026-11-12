@@ -1,26 +1,23 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import WhatsAppIcon from './WhatsAppIcon';
-import { getWhatsAppChatUrl, isRealWhatsAppConfigured, CONTACT_CONFIG } from '../../config/contactConfig';
-import { MessageCircle, X, ExternalLink, Mail, Phone, AlertCircle } from 'lucide-react';
+import { getWhatsAppChatUrl, isRealWhatsAppConfigured, CONTACT_CONFIG, formatWhatsAppDisplay } from '../../config/contactConfig';
+import { MessageCircle, X, ExternalLink, Mail, AlertCircle, Phone } from 'lucide-react';
 
 /**
  * Mobile-Responsive Floating WhatsApp Contact Button for FAHMRISE
  * - Fixed bottom-right positioning with high z-index.
  * - Mobile responsive padding and dimensions.
  * - If official business number is configured, opens WhatsApp click-to-chat directly.
- * - If unconfigured (placeholder), opens a friendly modal requesting the real number rather than inventing one.
+ * - If unconfigured, opens a friendly support popup with Email & Contact Form links (never opening a broken 404 link).
  */
 export default function FloatingWhatsAppButton() {
   const [showConfigModal, setShowConfigModal] = useState(false);
   const isConfigured = isRealWhatsAppConfigured();
   const chatUrl = getWhatsAppChatUrl();
 
-  const handleClick = (e) => {
-    if (!isConfigured) {
-      e.preventDefault();
-      setShowConfigModal(true);
-    }
-  };
+  const buttonClasses =
+    "w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#25D366] hover:bg-[#20bd5a] active:scale-95 text-white flex items-center justify-center shadow-2xl shadow-emerald-950/60 border-2 border-white/20 transition-all duration-200 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-emerald-400/40 cursor-pointer";
 
   return (
     <>
@@ -36,25 +33,43 @@ export default function FloatingWhatsAppButton() {
         </div>
 
         {/* WhatsApp Circular Button */}
-        <a
-          href={isConfigured ? chatUrl : '#'}
-          target={isConfigured ? "_blank" : undefined}
-          rel={isConfigured ? "noopener noreferrer" : undefined}
-          onClick={handleClick}
-          aria-label="Chat with FAHMRISE on WhatsApp"
-          className="w-13 h-13 sm:w-14 sm:h-14 rounded-full bg-[#25D366] hover:bg-[#20bd5a] active:scale-95 text-white flex items-center justify-center shadow-2xl shadow-emerald-950/60 border-2 border-white/20 transition-all duration-200 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-emerald-400/40"
-        >
-          <WhatsAppIcon className="w-7 h-7 sm:w-8 sm:h-8" />
-        </a>
+        {isConfigured && chatUrl ? (
+          <a
+            href={chatUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Chat with FAHMRISE on WhatsApp"
+            data-testid="floating-whatsapp-button"
+            className={buttonClasses}
+          >
+            <WhatsAppIcon className="w-7 h-7 sm:w-8 sm:h-8" />
+          </a>
+        ) : (
+          <button
+            type="button"
+            onClick={() => setShowConfigModal(true)}
+            aria-label="WhatsApp Support Options"
+            data-testid="floating-whatsapp-button"
+            className={buttonClasses}
+          >
+            <WhatsAppIcon className="w-7 h-7 sm:w-8 sm:h-8" />
+          </button>
+        )}
       </aside>
 
-      {/* Modal shown if official WhatsApp number is not yet configured */}
+      {/* Support Options Modal shown if official WhatsApp number is not yet configured */}
       {showConfigModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-xs animate-in fade-in">
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="whatsapp-support-title"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-xs animate-in fade-in"
+        >
           <div className="w-full max-w-md bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 space-y-6 shadow-2xl relative text-left">
             <button
+              type="button"
               onClick={() => setShowConfigModal(false)}
-              className="absolute top-5 right-5 p-1.5 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
+              className="absolute top-5 right-5 p-1.5 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer"
               aria-label="Close"
             >
               <X className="w-5 h-5" />
@@ -65,26 +80,52 @@ export default function FloatingWhatsAppButton() {
                 <WhatsAppIcon className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="text-lg font-black text-white">WhatsApp Support</h3>
+                <h3 id="whatsapp-support-title" className="text-lg font-black text-white">WhatsApp Support</h3>
                 <p className="text-xs text-slate-400">FAHMRISE Direct Student Inquiry</p>
               </div>
             </div>
 
-            <div className="p-4 bg-amber-950/40 border border-amber-500/30 rounded-2xl space-y-2 text-xs text-amber-200">
-              <div className="flex items-center gap-2 font-bold text-amber-400">
-                <AlertCircle className="w-4 h-4 shrink-0" />
-                <span>Official Business Number Required</span>
+            {isConfigured ? (
+              <div className="p-4 bg-emerald-950/40 border border-emerald-500/30 rounded-2xl space-y-2.5 text-xs text-emerald-200">
+                <div className="flex items-center gap-2 font-bold text-emerald-400">
+                  <WhatsAppIcon className="w-4 h-4 shrink-0" />
+                  <span>Official WhatsApp Support Active</span>
+                </div>
+                <p className="text-slate-300 leading-relaxed">
+                  Direct Student &amp; Admissions Line: <strong className="text-white font-mono">{formatWhatsAppDisplay()}</strong>
+                </p>
+                {chatUrl && (
+                  <a
+                    href={chatUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-testid="whatsapp-modal-direct-chat-btn"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-xs rounded-xl shadow-md transition-all"
+                  >
+                    <WhatsAppIcon className="w-4 h-4" />
+                    <span>Open WhatsApp Chat</span>
+                    <ExternalLink className="w-3.5 h-3.5 opacity-80" />
+                  </a>
+                )}
               </div>
-              <p className="text-slate-300 leading-relaxed">
-                The official FAHMRISE WhatsApp phone number is currently in configuration (<code className="font-mono text-amber-300 font-bold">254XXXXXXXXX</code>). Per security policy, we do not invent a placeholder phone number.
-              </p>
-            </div>
+            ) : (
+              <div className="p-4 bg-amber-950/40 border border-amber-500/30 rounded-2xl space-y-2 text-xs text-amber-200">
+                <div className="flex items-center gap-2 font-bold text-amber-400">
+                  <AlertCircle className="w-4 h-4 shrink-0" />
+                  <span>WhatsApp Support Line Being Activated</span>
+                </div>
+                <p className="text-slate-300 leading-relaxed">
+                  Our dedicated official WhatsApp support line is currently being activated. For immediate assistance, please reach our team directly by email or submit your inquiry through the Contact Form below.
+                </p>
+              </div>
+            )}
 
             <div className="space-y-3 text-xs text-slate-300">
               <p className="font-semibold text-white">To reach the FAHMRISE team immediately:</p>
               <div className="space-y-2">
                 <a
                   href={`mailto:${CONTACT_CONFIG.email}`}
+                  data-testid="whatsapp-modal-email-link"
                   className="flex items-center justify-between p-3 rounded-xl bg-slate-950 border border-slate-800 hover:border-emerald-500/50 text-slate-200 hover:text-white transition-all"
                 >
                   <div className="flex items-center gap-2.5">
@@ -94,8 +135,9 @@ export default function FloatingWhatsAppButton() {
                   <ExternalLink className="w-3.5 h-3.5 text-slate-500" />
                 </a>
 
-                <a
-                  href="/contact"
+                <Link
+                  to="/contact#contact-form"
+                  data-testid="whatsapp-modal-contact-link"
                   onClick={() => setShowConfigModal(false)}
                   className="flex items-center justify-between p-3 rounded-xl bg-slate-950 border border-slate-800 hover:border-emerald-500/50 text-slate-200 hover:text-white transition-all"
                 >
@@ -104,7 +146,7 @@ export default function FloatingWhatsAppButton() {
                     <span>Submit Inquiry via <strong>Contact Form</strong></span>
                   </div>
                   <ExternalLink className="w-3.5 h-3.5 text-slate-500" />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -112,7 +154,7 @@ export default function FloatingWhatsAppButton() {
               <button
                 type="button"
                 onClick={() => setShowConfigModal(false)}
-                className="w-full py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition-all"
+                className="w-full py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition-all cursor-pointer"
               >
                 Close
               </button>

@@ -12,7 +12,6 @@ export const BLOG_CATEGORIES = [
   'Technology',
   'Data & Analytics',
   'Islamic Studies',
-  'International Languages',
   'Business',
   'Career Skills',
   'Learning Tips',
@@ -71,7 +70,7 @@ export const BLOG_POSTS = [
       },
       {
         type: 'paragraph',
-        text: 'From full-stack web engineering and business intelligence dashboards to Qur’anic Tajweed and international language tracks in Arabic and Swahili, FAHMRISE unites essential technical skills with foundational cultural and ethical disciplines.'
+        text: 'From full-stack web engineering and business intelligence dashboards to Qur’anic Tajweed and applied business skills, FAHMRISE unites essential technical skills with foundational cultural and ethical disciplines.'
       }
     ]
   },
@@ -254,7 +253,7 @@ async function fetchLearnerCourse(courseId) {
     featured: false,
     relatedCourse: {
       id: 'quran-tajweed-from-zero',
-      title: 'Qur’an Recitation & Tajweed',
+      title: 'Ahkam Al-Tajweed (أحكام التجويد)',
       path: '/courses/quran-tajweed-from-zero'
     },
     content: [

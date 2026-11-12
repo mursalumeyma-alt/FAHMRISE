@@ -84,7 +84,7 @@ export default function BlogPage() {
             </h1>
 
             <p className="text-base sm:text-lg text-[#D1E0DE] leading-relaxed">
-              In-depth articles exploring web engineering, database architecture, Qur’anic sciences, language acquisition, and the science of active learning.
+              In-depth articles exploring web engineering, database architecture, Qur’anic sciences, business strategy, and the science of active learning.
             </p>
           </div>
 

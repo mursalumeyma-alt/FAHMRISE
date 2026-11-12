@@ -44,7 +44,6 @@ import LessonChallenge from '../components/practice/LessonChallenge';
 import LessonQuiz from '../components/practice/LessonQuiz';
 import LessonNotes from '../components/notes/LessonNotes';
 import LetterShapeVisualizer from '../components/arabic/LetterShapeVisualizer';
-import ArabicHandwritingStudio from '../components/arabic/ArabicHandwritingStudio';
 import LessonVideoPlayer from '../components/video/LessonVideoPlayer';
 
 // Inline markdown formatting helper (bold, code, italics)
@@ -482,39 +481,9 @@ export default function ReaderPage() {
       targetBookId = 'islamic-manners-and-duas';
     } else if (raw === 'quran-tajweed-from-zero' || raw === 'tajweed-from-zero' || raw === 'tajweed' || raw === 'quran-recitation' || raw === 'quran-recitation-and-tajweed' || raw === 'huruf-al-hijaa') {
       targetBookId = 'quran-tajweed-from-zero';
-    } else if (raw === 'arabic-language-learning' || raw === 'arabic-language-from-zero' || raw === 'arabic-language-mastery' || raw === 'learn-arabic' || raw === 'arabic' || raw === 'international-languages' || raw === 'languages') {
-      targetBookId = 'arabic-language-learning';
-    } else if (raw === 'english-language-learning' || raw === 'english-language-skills' || raw === 'english-language' || raw === 'learn-english' || raw === 'english') {
-      targetBookId = 'english-language-learning';
-    } else if (raw === 'french-language-learning' || raw === 'french-language' || raw === 'learn-french' || raw === 'french') {
-      targetBookId = 'french-language-learning';
-    } else if (raw === 'swahili-language-learning' || raw === 'swahili-language-skills' || raw === 'swahili-language' || raw === 'kiswahili-skills' || raw === 'learn-swahili' || raw === 'swahili' || raw === 'kiswahili') {
-      targetBookId = 'swahili-language-learning';
-    } else if (raw === 'japanese-language-learning' || raw === 'japanese-language' || raw === 'learn-japanese' || raw === 'japanese' || raw === 'nihongo') {
-      targetBookId = 'japanese-language-learning';
-    } else if (raw === 'somali-language-learning' || raw === 'somali-language' || raw === 'learn-somali' || raw === 'somali' || raw === 'af-somali') {
-      targetBookId = 'somali-language-learning';
     }
     // 2. Check if params.bookId is a single standalone lesson ID (e.g. /reader/data-1 or /reader/pbi-3)
-    else if (/^m\d+-l\d+$/i.test(raw) || /^ar-\d+$/i.test(raw)) {
-      targetBookId = 'arabic-language-learning';
-      targetLessonId = raw;
-    } else if (/^en-\d+$/i.test(raw)) {
-      targetBookId = 'english-language-learning';
-      targetLessonId = raw;
-    } else if (/^fr-\d+$/i.test(raw)) {
-      targetBookId = 'french-language-learning';
-      targetLessonId = raw;
-    } else if (/^sw-\d+$/i.test(raw)) {
-      targetBookId = 'swahili-language-learning';
-      targetLessonId = raw;
-    } else if (/^jp-\d+$/i.test(raw) || /^ja-\d+$/i.test(raw)) {
-      targetBookId = 'japanese-language-learning';
-      targetLessonId = raw;
-    } else if (/^so-\d+$/i.test(raw)) {
-      targetBookId = 'somali-language-learning';
-      targetLessonId = raw;
-    } else if (/^pbi-\d+$/i.test(raw)) {
+    else if (/^pbi-\d+$/i.test(raw)) {
       targetBookId = 'power-bi-business-intelligence';
       targetLessonId = raw;
     } else if (/^sql-\d+$/i.test(raw)) {
@@ -1075,7 +1044,7 @@ export default function ReaderPage() {
                       key={`${targetBookId}-${currentLesson.id}`}
                       videoLesson={currentLesson.videoLesson} 
                       courseId={targetBookId}
-                      courseLanguage={course?.category === 'International Languages' ? targetBookId : null}
+                      courseLanguage={null}
                     />
                   )}
 
@@ -1378,24 +1347,15 @@ export default function ReaderPage() {
                     </div>
                   )}
 
-                  {/* Resilient Video Lesson Player / Clean Coming Soon Notice */}
-                  {currentLesson.videoLesson ? (
+                  {/* Resilient Video Lesson Player */}
+                  {currentLesson.videoLesson && (
                     <LessonVideoPlayer 
                       key={`${targetBookId}-${currentLesson.id}`}
                       videoLesson={currentLesson.videoLesson} 
                       courseId={targetBookId}
-                      courseLanguage={course?.category === 'International Languages' ? targetBookId : null}
+                      courseLanguage={null}
                     />
-                  ) : (course?.category === 'International Languages' && (
-                    <div className="my-6 p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-lg flex items-center gap-3">
-                      <div className="w-9 h-9 rounded-xl bg-teal-500/10 border border-teal-500/20 text-teal-400 flex items-center justify-center flex-shrink-0">
-                        <Video className="w-4 h-4" />
-                      </div>
-                      <p className="text-xs sm:text-sm text-slate-300 font-medium">
-                        Video lesson coming soon. This chapter's written lesson and exercises are available.
-                      </p>
-                    </div>
-                  ))}
+                  )}
 
                   {/* Separate Additional Learning Resources (e.g. Madinah Arabic) */}
                   {currentLesson.additionalResources && currentLesson.additionalResources.length > 0 && (
@@ -1438,16 +1398,6 @@ export default function ReaderPage() {
                       </div>
                     )}
                   </div>
-
-                  {/* Interactive Arabic Letter Shapes Visualizer for Chapter 1 (Positional Forms & Connection Rules) */}
-                  {(currentLesson.id === 'm1-l1' || (targetBookId.includes('arabic') && currentLesson.number === 1)) && (
-                    <LetterShapeVisualizer />
-                  )}
-
-                  {/* Interactive Arabic Handwriting & Stroke Mechanics Studio for Chapter 2 */}
-                  {(currentLesson.id === 'm1-l2' || (targetBookId.includes('arabic') && currentLesson.number === 2)) && (
-                    <ArabicHandwritingStudio />
-                  )}
 
                   {/* Comprehensive 28-Letter Arabic Orthography Guide & Positional Forms */}
                   {currentLesson.orthographyGuide && (

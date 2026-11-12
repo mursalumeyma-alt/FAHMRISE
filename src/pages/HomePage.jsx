@@ -25,20 +25,10 @@ import {
 import AiTutorDrawer from '../components/ai/AiTutorDrawer';
 import { BLOG_POSTS } from '../data/blogData';
 
-// Custom Crisp Bilingual Icon: "A 文"
-function LanguagesBilingualIcon({ className = "w-6 h-6" }) {
-  return (
-    <span className={`${className} inline-flex items-center justify-center font-bold text-sm tracking-tight select-none`}>
-      <span className="font-extrabold">A</span>
-      <span className="text-xs ml-0.5 opacity-90">文</span>
-    </span>
-  );
-}
-
 export default function HomePage() {
   const [aiTutorOpen, setAiTutorOpen] = useState(false);
 
-  // 4 Featured Courses Matching the Visual Reference Exactly
+  // 3 Core Featured Courses
   const referenceFeaturedCourses = [
     {
       id: "web-development",
@@ -69,16 +59,6 @@ export default function HomePage() {
       iconBg: "bg-[#059669]",
       icon: <BookOpen className="w-6 h-6 text-white" />,
       link: "/courses?category=Islamic%20Studies"
-    },
-    {
-      id: "languages",
-      title: "Languages",
-      topics: "Arabic • English • Kiswahili",
-      badge: "Beginner",
-      badgeColor: "bg-amber-50 text-amber-800 border-amber-200/80",
-      iconBg: "bg-[#D97706]",
-      icon: <LanguagesBilingualIcon className="w-6 h-6 text-white" />,
-      link: "/tracks/international-languages"
     }
   ];
 
@@ -205,8 +185,8 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* 4 Cards Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* 3 Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {referenceFeaturedCourses.map((course) => (
               <Link
                 key={course.id}
