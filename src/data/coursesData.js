@@ -12784,3962 +12784,6405 @@ export const coursesData = [
     ]
   },
   {
-    "id": "quran-tajweed-from-zero",
-    "aliases": [
-      "ahkam-al-tajweed",
-      "ahkam-tajweed",
-      "huruf-al-hijaa",
-      "quran-tajweed-from-zero",
-      "arabic-alphabet",
-      "tajweed",
-      "quran-recitation-and-tajweed",
-      "quran-recitation"
-    ],
-    "title": "Ahkam Al-Tajweed (أحكام التجويد)",
-    "subtitle": "A comprehensive, structured curriculum mastering the essential rules of Qur'anic recitation (Ahkam Al-Tajweed): Makharij, Sifaat, Noon & Meem Sakinah, Madd, and vocal articulation.",
-    "tagline": "Understand. Learn. Rise.",
-    "category": "Islamic Studies",
-    "subCategory": "Ahkam Al-Tajweed",
-    "price": 0,
-    "regularPrice": 0,
-    "discountAmount": 0,
-    "monthlyPrice": 0,
-    "paymentType": "free",
-    "billingType": "free",
-    "billingCycle": "free",
-    "currency": "KSh",
-    "priceUSD": 0,
-    "coverBadge": "Foundational • 100% Free",
-    "coverColor": "from-emerald-700 via-teal-800 to-slate-900",
-    "author": "FAHMRISE Qur'anic & Islamic Studies Faculty",
-    "level": "Beginner",
-    "estimatedHours": "8 – 12 Hours",
-    "totalLessons": 13,
-    "totalExercises": 13,
-    "totalQuizzes": 13,
-    "rating": null,
-    "reviewsCount": 0,
-    "published": true,
-    "requiresPayment": false,
-    "isFree": true,
-    "description": "Master the essential rules of Qur'anic recitation (Ahkam Al-Tajweed) with precision, phonetic accuracy, and confidence. Step-by-step small lessons and interactive audio exercises guide you through the Arabic alphabet, anatomical points of articulation (Makharij), intrinsic letter characteristics (Sifaat), Noon Sakinah & Tanween rules, Meem Sakinah rules, Madd elongation, Tafkhim & Tarqiq (heaviness and lightness), and Waqf stop signs.",
-    "learningOutcomes": [
-      "Pronounce all 28 Arabic letters accurately from their exact anatomical points of articulation (Makharij)",
-      "Master the 4 rules of Noon Sakinah & Tanween (Izhar, Idgham, Iqlab, Ikhfa)",
-      "Apply the 3 rules of Meem Sakinah (Ikhfa Shafawi, Idgham Shafawi, Izhar Shafawi)",
-      "Implement the fundamental and secondary rules of Madd (Elongation) with precise count timing",
-      "Distinguish between heavy (Tafkhim) and light (Tarqiq) letters with confidence",
-      "Identify and apply proper stopping (Waqf) and starting (Ibtida) signs in the Qur'anic text",
-      "Recite foundational chapters (Surah Al-Fatihah and short surahs) with pristine Tajweed"
-    ],
-    "targetAudience": [
-      "Beginners learning to read and recite the Holy Qur'an from scratch",
-      "Learners seeking to correct common pronunciation and Tajweed errors",
-      "Parents and educators teaching foundational Islamic recitation"
-    ],
-    "prerequisites": "Zero prior background required. Starts directly from the Arabic alphabet and basic phonetics.",
-    "includes": [
-      "13 Comprehensive chapters containing 68 bite-sized interactive lessons",
-      "Integrated crystal-clear audio pronunciation engine for every Arabic letter & rule",
-      "Hands-on interactive checkpoints, quizzes, and concept-matching challenges",
-      "Private personal note-taking system for every lesson",
-      "24/7 FAHMRISE AI Tutor recitation and Tajweed assistance",
-      "Official Verified FAHMRISE Certificate of Completion in Ahkam Al-Tajweed (أحكام التجويد)"
-    ],
-    "lessons": [
-      {
-        "id": "lesson-1",
-        "number": 1,
-        "title": "Foundations of Tajweed & Arabic Letters (مبادئ التجويد وحروف الهجاء)",
-        "subtitle": "Letter recognition, script shapes, articulation foundations, and foundational vowels (Harakat)",
-        "readingTime": "16 min",
-        "videoLesson": {
-          "title": "How to READ ARABIC? - The Alphabet - Lesson 1",
-          "channel": "Arabic 101",
-          "duration": "18:45",
-          "videoId": "c-7SVieC_04",
-          "watchUrl": "https://www.youtube.com/watch?v=c-7SVieC_04",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/c-7SVieC_04",
-          "url": "https://www.youtube-nocookie.com/embed/c-7SVieC_04",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Classical Arabic Reading & Letters",
-          "badge": "Verified Reference Video"
-        },
-        "summary": "Master the 28 consonants of the Arabic alphabet, their cursive connecting shapes, and the 3 short vowel marks.",
-        "smallLessons": [
-          {
-            "id": "tajweed-ch1-l1",
-            "number": 1,
-            "title": "Introduction to Arabic Letters",
-            "subtitle": "The 28 foundational consonants",
-            "readingTime": "3 min",
-            "explanation": "The Arabic alphabet consists of 28 consonants. Arabic is written and read from right to left (RTL). Unlike English print, Arabic is inherently cursive—letters connect to neighboring letters within a word. Every letter represents a distinct consonant sound that has a specific point of physical articulation.",
-            "keyPoints": [
-              "Arabic is read and written from Right to Left (RTL).",
-              "There are 28 unique letters in the alphabet.",
-              "All letters are consonants; vowels are indicated by accent marks (Harakat).",
-              "Letter recognition is the cornerstone of fluent Qur'anic recitation."
-            ],
-            "audio": {
-              "arabicText": "ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن هـ و ي",
-              "phonetic": "Alif, Ba, Ta, Tha, Jim, Ha, Kha...",
-              "description": "Listen to the sequential pronunciation of the 28 Arabic letters."
-            },
-            "examples": [
-              {
-                "arabic": "أ",
-                "label": "Alif",
-                "sound": "Glottal stop / vowel carrier"
-              },
-              {
-                "arabic": "ب",
-                "label": "Ba",
-                "sound": "B sound from both lips"
-              },
-              {
-                "arabic": "ت",
-                "label": "Ta",
-                "sound": "Soft dental T sound"
-              },
-              {
-                "arabic": "ث",
-                "label": "Tha",
-                "sound": "Soft Th as in 'Think'"
-              }
-            ],
-            "practice": "Look at the letters from right to left. Read aloud: Alif, Ba, Ta, Tha, Jim, Ha, Kha.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "In which direction is the Arabic alphabet written and read?",
-              "options": [
-                "Left to right",
-                "Right to left",
-                "Top to bottom",
-                "It varies by word"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Arabic is always written and read from Right to Left (RTL)."
-            }
-          },
-          {
-            "id": "tajweed-ch1-l2",
-            "number": 2,
-            "title": "Letter Shapes: Initial, Medial, Final",
-            "subtitle": "How letters change shape when connecting",
-            "readingTime": "4 min",
-            "explanation": "Because Arabic script is cursive, most letters change their shape slightly depending on whether they appear at the beginning (Initial), middle (Medial), end (Final), or by themselves (Isolated) in a word. 6 letters never connect to the letter after them: Alif (ا), Dal (د), Dhal (ذ), Ra (ر), Zay (ز), and Waw (و).",
-            "keyPoints": [
-              "Letters have up to 4 visual forms: Isolated, Initial, Medial, and Final.",
-              "6 'non-connecting' letters (ا, د, ذ, ر, ز, و) only connect from the right.",
-              "The core distinguishing identity of a letter is its main body shape and dot placement."
-            ],
-            "audio": {
-              "arabicText": "بـ ـبـ ـب ب",
-              "phonetic": "Ba initial, medial, final, isolated",
-              "description": "Listen to the letter Ba in its various connected positions."
-            },
-            "examples": [
-              {
-                "arabic": "بَـيْت",
-                "label": "Initial Ba",
-                "sound": "Ba connects forward to Ya"
-              },
-              {
-                "arabic": "كِـتَـاب",
-                "label": "Medial Ta",
-                "sound": "Ta connects on both sides"
-              },
-              {
-                "arabic": "كَتَبَ",
-                "label": "Final Ba",
-                "sound": "Ba completes the word with its full tail"
-              }
-            ],
-            "practice": "Observe how letter Ba (ب) maintains its single bottom dot in all positions.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which of the following letters does NOT connect to the letter following it?",
-              "options": [
-                "Ba (ب)",
-                "Jim (ج)",
-                "Dal (د)",
-                "Sin (س)"
-              ],
-              "correctAnswer": 2,
-              "explanation": "Dal (د) is one of the 6 non-connecting letters that never connects to the left."
-            }
-          },
-          {
-            "id": "tajweed-ch1-l3",
-            "number": 3,
-            "title": "Similar-Looking Letters & Dot Distinctions",
-            "subtitle": "Mastering dot counts and positioning",
-            "readingTime": "3 min",
-            "explanation": "Several Arabic letters share identical base shapes and are distinguished solely by the number and position of dots (I'jam). For example, Ba (ب - 1 dot below), Ta (ت - 2 dots above), and Tha (ث - 3 dots above) share the exact same boat-like bowl.",
-            "keyPoints": [
-              "Boat family: ب (1 below), ت (2 above), ث (3 above).",
-              "Hook family: ج (1 inside), ح (0 dots), خ (1 above).",
-              "Angle family: د (0 dots), ذ (1 above).",
-              "Loop family: ر (0 dots), ز (1 above).",
-              "Always inspect dot count and dot placement carefully."
-            ],
-            "audio": {
-              "arabicText": "ب ت ث - ج ح خ - د ذ - ر ز - س ش - ص ض - ط ظ - ع غ",
-              "phonetic": "Ba, Ta, Tha | Jim, Ha, Kha | Dal, Dhal...",
-              "description": "Listen to how dot variations alter the letter's sound completely."
-            },
-            "examples": [
-              {
-                "arabic": "ح vs خ",
-                "label": "Ha vs Kha",
-                "sound": "Ha has no dot (pure throat); Kha has 1 dot above (raspy)"
-              },
-              {
-                "arabic": "س vs ش",
-                "label": "Sin vs Shin",
-                "sound": "Sin has 0 dots (S); Shin has 3 dots above (Sh)"
-              },
-              {
-                "arabic": "ع vs غ",
-                "label": "'Ayn vs Ghayn",
-                "sound": "'Ayn has 0 dots (deep throat); Ghayn has 1 dot above (gargling Gh)"
-              }
-            ],
-            "practice": "Identify the number of dots on: ت (2 above), ج (1 below/inside), and ذ (1 above).",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "How many dots does the letter Tha (ث) have, and where are they located?",
-              "options": [
-                "1 dot below",
-                "2 dots above",
-                "3 dots above",
-                "0 dots"
-              ],
-              "correctAnswer": 2,
-              "explanation": "Tha (ث) has three dots placed above the letter."
-            }
-          },
-          {
-            "id": "tajweed-ch1-l4",
-            "number": 4,
-            "title": "Short Vowels (Harakat) & Sukoon",
-            "subtitle": "Fat-hah, Kasrah, Dammah, and the silent sign",
-            "readingTime": "3 min",
-            "explanation": "In Arabic, vowels are written as small marks above or below consonants: 1) Fat-hah (َ) makes an 'a' sound (as in 'bat'), 2) Kasrah (ِ) makes an 'i' sound (as in 'bit'), 3) Dammah (ُ) makes an 'u' sound (as in 'put'). Sukoon (ْ) indicates the absence of a vowel—the letter is pronounced quietly with a stop.",
-            "keyPoints": [
-              "Fat-hah (َ): Stroke above letter = 'a' sound (1 count duration).",
-              "Kasrah (ِ): Stroke below letter = 'i' sound (1 count duration).",
-              "Dammah (ُ): Small waw above letter = 'u' sound (1 count duration).",
-              "Sukoon (ْ): Small circle above letter = no vowel (silent/resting letter)."
-            ],
-            "audio": {
-              "arabicText": "بَ بِ بُ بْ - تَ تِ تُ تْ",
-              "phonetic": "Ba, Bi, Bu, B' | Ta, Ti, Tu, T'",
-              "description": "Listen to the 3 short vowel sounds followed by Sukoon."
-            },
-            "examples": [
-              {
-                "arabic": "دَرَجَ",
-                "label": "All Fat-hah",
-                "sound": "Da - Ra - Ja"
-              },
-              {
-                "arabic": "كُتِبَ",
-                "label": "Dammah, Kasrah, Fat-hah",
-                "sound": "Ku - Ti - Ba"
-              },
-              {
-                "arabic": "قُلْ",
-                "label": "Dammah + Sukoon",
-                "sound": "Qul (L is silent/resting)"
-              }
-            ],
-            "practice": "Recite the vowel progression: Ba (بَ), Bi (بِ), Bu (بُ), B' (بْ).",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which vowel mark produces the 'i' sound and is placed underneath the letter?",
-              "options": [
-                "Fat-hah",
-                "Kasrah",
-                "Dammah",
-                "Sukoon"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Kasrah (ِ) is a diagonal line placed below the letter producing the short 'i' sound."
-            }
-          },
-          {
-            "id": "tajweed-ch1-l5",
-            "number": 5,
-            "title": "Chapter 1 Review & Foundations Challenge",
-            "subtitle": "Checkpoint on letters, shapes, and short vowels",
-            "readingTime": "3 min",
-            "explanation": "Congratulations on completing Chapter 1! You now understand the 28 Arabic letters, their initial/medial/final cursive connecting forms, dot distinctions, and how the 3 Harakat (Fat-hah, Kasrah, Dammah) and Sukoon vocalize every Arabic syllable.",
-            "keyPoints": [
-              "28 consonants + 3 short vowels form the complete reading foundation.",
-              "Always read from right to left with consistent short vowel timing.",
-              "Sukoon signifies stopping on the letter without adding an extra vowel sound."
-            ],
-            "audio": {
-              "arabicText": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
-              "phonetic": "Bismillahi-r-Rahmani-r-Rahim",
-              "description": "Listen to the Basmalah demonstrating connected letters and vowels."
-            },
-            "examples": [
-              {
-                "arabic": "مِنْ",
-                "label": "Kasrah + Sukoon",
-                "sound": "Min"
-              },
-              {
-                "arabic": "عَنْ",
-                "label": "Fat-hah + Sukoon",
-                "sound": "'An"
-              }
-            ],
-            "practice": "Read aloud the Basmalah and observe the vowels on each letter.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What sound does the Sukoon (ْ) mark produce on a letter?",
-              "options": [
-                "An elongated 'aa' sound",
-                "A silent resting stop with no vowel sound",
-                "A double vowel sound",
-                "A heavy nasal sound"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Sukoon indicates the absence of a vowel, meaning the letter is pronounced with a clean resting stop."
-            }
-          }
-        ]
+  "id": "quran-tajweed-from-zero",
+  "aliases": [
+    "ahkamu-al-tajweued",
+    "ahkamu-al-tajweed",
+    "ahkam-al-tajweed",
+    "ahkam-tajweed",
+    "huruf-al-hijaa",
+    "quran-tajweed-from-zero",
+    "arabic-alphabet",
+    "tajweed",
+    "quran-recitation-and-tajweed",
+    "quran-recitation"
+  ],
+  "title": "AHKAMU AL TAJWEUED",
+  "subtitle": "A comprehensive, structured curriculum mastering the essential rules of Qur'anic recitation (Ahkam Al-Tajweed): Makharij, Sifaat, Noon & Meem Sakinah, Madd, and vocal articulation.",
+  "tagline": "Understand. Learn. Rise.",
+  "category": "Islamic Studies",
+  "subCategory": "Ahkam Al-Tajweed",
+  "price": 0,
+  "regularPrice": 0,
+  "discountAmount": 0,
+  "monthlyPrice": 0,
+  "paymentType": "free",
+  "billingType": "free",
+  "billingCycle": "free",
+  "currency": "KSh",
+  "priceUSD": 0,
+  "coverBadge": "Foundational • 100% Free",
+  "coverColor": "from-emerald-700 via-teal-800 to-slate-900",
+  "author": "FAHMRISE Qur'anic & Islamic Studies Faculty",
+  "level": "Beginner",
+  "estimatedHours": "8 – 12 Hours",
+  "totalLessons": 10,
+  "totalExercises": 13,
+  "totalQuizzes": 13,
+  "rating": null,
+  "reviewsCount": 0,
+  "published": true,
+  "requiresPayment": false,
+  "isFree": true,
+  "description": "Master the essential rules of Qur'anic recitation (Ahkam Al-Tajweed) with precision, phonetic accuracy, and confidence. Step-by-step small lessons and interactive audio exercises guide you through the Arabic alphabet, anatomical points of articulation (Makharij), intrinsic letter characteristics (Sifaat), Noon Sakinah & Tanween rules, Meem Sakinah rules, Madd elongation, Tafkhim & Tarqiq (heaviness and lightness), and Waqf stop signs.",
+  "learningOutcomes": [
+    "Pronounce all 28 Arabic letters accurately from their exact anatomical points of articulation (Makharij)",
+    "Master the 4 rules of Noon Sakinah & Tanween (Izhar, Idgham, Iqlab, Ikhfa)",
+    "Apply the 3 rules of Meem Sakinah (Ikhfa Shafawi, Idgham Shafawi, Izhar Shafawi)",
+    "Implement the fundamental and secondary rules of Madd (Elongation) with precise count timing",
+    "Distinguish between heavy (Tafkhim) and light (Tarqiq) letters with confidence",
+    "Identify and apply proper stopping (Waqf) and starting (Ibtida) signs in the Qur'anic text",
+    "Recite foundational chapters (Surah Al-Fatihah and short surahs) with pristine Tajweed"
+  ],
+  "targetAudience": [
+    "Beginners learning to read and recite the Holy Qur'an from scratch",
+    "Learners seeking to correct common pronunciation and Tajweed errors",
+    "Parents and educators teaching foundational Islamic recitation"
+  ],
+  "prerequisites": "Zero prior background required. Starts directly from the Arabic alphabet and basic phonetics.",
+  "includes": [
+    "13 Comprehensive chapters containing 68 bite-sized interactive lessons",
+    "Integrated crystal-clear audio pronunciation engine for every Arabic letter & rule",
+    "Hands-on interactive checkpoints, quizzes, and concept-matching challenges",
+    "Private personal note-taking system for every lesson",
+    "24/7 FAHMRISE AI Tutor recitation and Tajweed assistance",
+    "Official Verified FAHMRISE Certificate of Completion in Ahkam Al-Tajweed (أحكام التجويد)"
+  ],
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "number": 1,
+      "title": "Ahkam Al-Makharij: Points of Articulation (مخارج الحروف)",
+      "subtitle": "What Are Makharij? The Science of Sound Origin",
+      "readingTime": "45 min",
+      "aliases": [
+        "tajweed-ch1",
+        "tajweed-makharij",
+        "makharij",
+        "points-of-articulation",
+        "lesson-1"
+      ],
+      "videoLesson": {
+        "videoId": "A50an842ZPM",
+        "title": "Articulation Points of Arabic Alphabet Letters - Learn Tajweed Rules Makharij al Huruf",
+        "channel": "Learn Quran with Hafiz Bilal - ENG"
       },
-      {
-        "id": "lesson-2",
-        "number": 2,
-        "title": "Ahkam Al-Makharij: Points of Articulation (مخارج الحروف)",
-        "subtitle": "The 5 major physical zones and 17 specific anatomical points where Arabic sounds originate",
-        "readingTime": "25 min",
-        "videoLesson": {
-          "title": "Makharij: Points of Articulation for Arabic Letters",
-          "channel": "Arabic 101",
-          "duration": "14:20",
-          "videoId": "BDgw0fWZwMU",
-          "watchUrl": "https://www.youtube.com/watch?v=BDgw0fWZwMU",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/BDgw0fWZwMU",
-          "url": "https://www.youtube-nocookie.com/embed/BDgw0fWZwMU",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Articulation Points & Phonetics",
-          "badge": "Verified Reference Video"
-        },
-        "summary": "Master the anatomical origin of all 28 Arabic letters: Al-Jawf (Oral Cavity), Al-Halq (Throat), Al-Lisan (Tongue), Ash-Shafatan (Lips), and Al-Khayshum (Nasal Cavity).",
-        "smallLessons": [
-          {
-            "id": "tajweed-ch2-l1",
-            "number": 1,
-            "title": "What Are Makharij? The Science of Sound Origin",
-            "subtitle": "How to physically identify where any letter begins and ends",
-            "readingTime": "4 min",
-            "arabic": "مَخَارِجُ الْحُرُوفِ",
-            "transliteration": "Makhārij al-Hurūf",
-            "makhraj": "The foundational anatomical study of sound exits in the human vocal tract.",
-            "sound": "Pronounce with Hamzah + Sukoon: أَبْ - أَتْ - أَثْ - أَقْ - أَكْ",
-            "explanation": "Makharij (مَخَارِج, singular: Makhraj مَخْرَج) literally translates to 'points of exit' or 'places of articulation'. In classical Tajweed, a Makhraj is the exact anatomical location in the respiratory and vocal tract where a letter sound is formed and distinguished from all other sounds.\n\n### The Standard Golden Test for Any Letter\nTo discover and feel the precise physical Makhraj of any Arabic letter:\n1. Place a Hamzah with Fat-hah (أَ) before the letter.\n2. Place a Sukoon (ْ) on the target letter.\n3. Vocalize the sound clearly (e.g. 'Ab' أَبْ for Ba, 'At' أَتْ for Ta, 'Ah' أَهْ for Ha, 'Aq' أَقْ for Qaf).\n4. The exact anatomical point where the airflow stops, compresses, or vibrates is that letter's true Makhraj.\n\nMastering Makharij is strictly obligatory (Fard) because substituting one articulation point for another changes the literal meaning of the Divine Qur'anic text (e.g. changing 'قَالَ' [He said] into 'كَانَ' [He was], or 'عَلِيم' [All-Knowing] into 'أَلِيم' [Painful]).",
-            "keyPoints": [
-              "Makhraj is the exact physical, anatomical origin of a letter's sound.",
-              "There are 5 General Articulation Zones (Makhārij 'Āmmah) containing 17 Specific Points (Makhārij Khāssah).",
-              "Universal Testing Formula: Hamzah + Letter with Sukoon (e.g. أَبْ, أَقْ, أَعْ).",
-              "Correct Makharij prevents major recitation mistakes (Lahn Jaliyy) that distort Qur'anic meanings."
-            ],
-            "examples": [
-              {
-                "arabic": "أَبْ",
-                "label": "Makhraj Test for Bā' (ب)",
-                "sound": "Sound terminates firmly at the wet inner contact of both lips.",
-                "description": "Feel both lips press together firmly, stopping the airflow cleanly."
-              },
-              {
-                "arabic": "أَحْ",
-                "label": "Makhraj Test for Ḥā' (ح)",
-                "sound": "Sound originates smoothly from the middle throat (epiglottis).",
-                "description": "Feel the smooth, rasp-free constriction in the center of your throat."
-              },
-              {
-                "arabic": "أَقْ",
-                "label": "Makhraj Test for Qāf (ق)",
-                "sound": "Deepest back of the tongue presses against the soft palate.",
-                "description": "Feel the deep tap near the uvula at the highest roof of the throat."
-              }
-            ],
-            "practice": "Pronounce 'أَبْ', 'أَتْ', 'أَقْ', and 'أَكْ' aloud in succession. Observe how the point of acoustic stoppage shifts systematically from the outer lips to the tongue tip, then to the deep soft palate, and then forward to the hard palate.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What is the classical Tajweed rule to accurately locate the Makhraj of any letter?",
-              "options": [
-                "Recite the letter with a Shaddah and hold your breath for 3 seconds",
-                "Precede the letter with a Hamzah with Fat-hah and place a Sukoon on the letter (e.g. أَبْ)",
-                "Whisper the letter repeatedly while exhaling through the nose",
-                "Elongate the letter into a Madd for 6 counts"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Preceding the letter with a Hamzah carrying Fat-hah and putting a Sukoon on the letter (such as أَبْ, أَتْ, أَقْ) freezes the airflow precisely at the letter's anatomical point of origin.",
-              "breakdown": [
-                "Option A is incorrect: Shaddah indicates doubling, not isolating the raw sound point.",
-                "Option B is correct: Hamzah + Sukoon stops the acoustic wave at the exact physical boundary.",
-                "Option C is incorrect: Whispering alters airflow pressure and masks the True Makhraj.",
-                "Option D is incorrect: Elongation only applies to the 3 Madd letters from Al-Jawf."
-              ]
-            }
+      "summary": "Master the 5 general articulation zones and 17 specific points of articulation (Makharij) of the Arabic language with anatomical precision, video demonstrations, and audio ear training.",
+      "smallLessons": [
+        {
+          "id": "tajweed-ch1-l1",
+          "aliases": [
+            "tajweed-makharij-l1",
+            "tajweed-ch1-intro"
+          ],
+          "number": 1,
+          "title": "What Are Makharij? The Science of Sound Origin",
+          "subtitle": "How to physically identify where any letter begins and ends",
+          "readingTime": "5 min",
+          "arabic": "مَخَارِجُ الْحُرُوفِ",
+          "transliteration": "Makhārij al-Hurūf",
+          "makhraj": "The foundational anatomical study of sound exits in the human vocal tract.",
+          "sound": "Pronounce with Hamzah + Sukoon: أَبْ - أَتْ - أَثْ - أَقْ - أَكْ",
+          "videoLesson": {
+            "videoId": "A50an842ZPM",
+            "title": "Articulation Points of Arabic Alphabet Letters - Learn Tajweed Rules Makharij al Huruf",
+            "channel": "Learn Quran with Hafiz Bilal - ENG",
+            "shortTitle": "Lesson 1: Introduction to Makharij"
           },
-          {
-            "id": "tajweed-ch2-l2",
-            "number": 2,
-            "title": "Zone 1: The Oral Cavity (Al-Jawf)",
-            "subtitle": "The open hollow of the mouth and throat for the 3 Madd letters",
-            "readingTime": "4 min",
-            "arabic": "الْجَوْف",
-            "transliteration": "Al-Jawf",
-            "makhraj": "The entire open, unobstructed space inside the throat and oral cavity.",
-            "sound": "Smooth, continuous breath: ـَـا (Alif) | ـُـو (Waw) | ـِـي (Ya)",
-            "explanation": "Al-Jawf (الْجَوْف) is the first of the five major articulation zones. Anatomically, it refers to the open, hollow space stretching from the chest and throat through the mouth cavity.\n\n### An Estimated (Muqaddar) Articulation Point\nUnlike other letters that strike specific physical tissues (like teeth, lips, or tongue), the sounds of Al-Jawf do NOT touch any fixed boundary. The air flows freely and smoothly outward.\n\n### The 3 Letters of Madd (Hurūf al-Madd)\nAl-Jawf produces exactly three elongated vowel sounds:\n1. **Alif (ا)** preceded by a Fat-hah (e.g. قَالَ - 'Qāla')\n2. **Waw Sakinah (و)** preceded by a Dammah (e.g. يَقُولُ - 'Yaqūlu')\n3. **Ya Sakinah (ي)** preceded by a Kasrah (e.g. قِيلَ - 'Qīla')\n\nAll three letters combine in the famous Qur'anic word **'نُوحِيهَا'** (Nūḥīhā) in Surah Hud (11:49).",
-            "keyPoints": [
-              "Al-Jawf is an estimated (Muqaddar) Makhraj with no fixed physical point of collision.",
-              "Produces the 3 fundamental elongated Madd vowels: Alif (ـَـا), Waw (ـُـو), Ya (ـِـي).",
-              "The airflow must exit unimpeded without adding a Hamzah stop or nasal hum at the end.",
-              "Standard natural duration is 2 Harakat (beats)."
-            ],
-            "examples": [
-              {
-                "arabic": "قَالَ",
-                "label": "Alif Madd (ـَـا)",
-                "sound": "Qā - open oral airflow with tongue relaxed.",
-                "description": "The sound flows straight through the mouth cavity for 2 smooth counts."
-              },
-              {
-                "arabic": "يَقُولُ",
-                "label": "Waw Madd (ـُـو)",
-                "sound": "Qū - circular lip opening with deep resonance.",
-                "description": "The sound originates from the chest and flows through the rounded mouth cavity."
-              },
-              {
-                "arabic": "قِيلَ",
-                "label": "Ya Madd (ـِـي)",
-                "sound": "Qī - lowered jaw with smooth vocal flow.",
-                "description": "The sound resonates softly through the open mouth with the middle tongue slightly raised."
-              },
-              {
-                "arabic": "نُوحِيهَا",
-                "label": "Comprehensive Master Example",
-                "sound": "Nū - ḥī - hā (combines all 3 Al-Jawf Madd vowels)",
-                "description": "Notice how Nū uses Waw, ḥī uses Ya, and hā uses Alif in one single word."
-              }
-            ],
-            "practice": "Recite 'نُوحِيهَا' (Nu-hee-haa) slowly. Hold each syllable for precisely two counts, ensuring no nasal air escapes and no sudden glottal stop cuts the flow.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which of the following groups of letters originates from Al-Jawf (the open oral cavity)?",
-              "options": [
-                "The throat letters (ء , هـ , ع , ح , غ , خ)",
-                "The 3 long vowel Madd letters (ا after Fat-hah, و after Dammah, ي after Kasrah)",
-                "The 4 lip letters (ب , م , ف , و non-vowel)",
-                "The 3 heavy tongue letters (ص , ض , ط)"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Al-Jawf is the non-fixed open space that gives rise to the three elongated Madd vowels (Alif, Waw, and Ya) when preceded by matching Harakat.",
-              "breakdown": [
-                "Option A is incorrect: The 6 throat letters originate from Al-Halq.",
-                "Option B is correct: Al-Jawf produces the 3 elongated Madd vowels (as in 'نُوحِيهَا').",
-                "Option C is incorrect: The lip letters originate from Ash-Shafatan.",
-                "Option D is incorrect: The heavy letters originate from specific points of Al-Lisan."
-              ]
+          "explanation": "Makharij (مَخَارِج, singular: Makhraj مَخْرَج) literally translates to 'points of exit' or 'places of articulation'. In classical Tajweed, a Makhraj is the exact anatomical location in the respiratory and vocal tract where a letter sound is formed and distinguished from all other sounds.\n\n### The Standard Golden Test for Any Letter\nTo discover and feel the precise physical Makhraj of any Arabic letter:\n1. Place a Hamzah with Fat-hah (أَ) before the letter.\n2. Place a Sukoon (ْ) on the target letter.\n3. Vocalize the combination firmly (e.g., `أَبْ`, `أَنْ`, `أَقْ`).\n4. **The exact location where the sound and airflow halt or resonate is the letter's specific Makhraj.**\n\n### General Zones vs. Specific Articulation Points\nClassical Tajweed scholars categorise articulation into two levels:\n- **General Articulation Areas (المخارج العامة - Al-Makhārij al-'Āmmah):** The 5 broad anatomical regions of the human vocal tract.\n- **Specific Articulation Points (المخارج الخاصة - Al-Makhārij al-Khāssah):** The 17 pinpointed contact or release locations according to the dominant classical school of Imam Al-Khalil ibn Ahmad al-Farahidi and Imam Ibn al-Jazari.\n\n### The 5 General Articulation Zones\n1. **Al-Jawf (الجَوْف) — The Oral & Throat Cavity:** The open internal passage producing the 3 Madd prolongation vowels.\n2. **Al-Halq (الحَلْق) — The Throat:** Three vertical levels producing 6 throat consonants.\n3. **Al-Lisan (اللِّسَان) — The Tongue:** The primary organ of speech containing 10 specific points producing 18 letters.\n4. **Ash-Shafatan (الشَّفَتَان) — The Lips:** Producing 4 labial consonants.\n5. **Al-Khayshum (الخَيْشُوم) — The Nasal Cavity:** The hollow nasal passage producing nasal resonance (Ghunnah).",
+          "keyPoints": [
+            "Makhraj is the physical anatomical origin point of an Arabic consonant.",
+            "The classical consensus (Imam Ibn al-Jazari) identifies 5 general zones and 17 specific points.",
+            "Diagnostic Test: Prefix a vocalized Hamzah with Fat-hah (أَ) and place Sukoon (ْ) on the target letter (e.g. أَبْ).",
+            "Knowing the precise Makhraj prevents sound blending and ensures pristine Qur'anic recitation."
+          ],
+          "examples": [
+            {
+              "arabic": "أَبْ",
+              "transliteration": "Ab",
+              "label": "Firm labial closure (Zone 4)",
+              "sound": "Ab"
+            },
+            {
+              "arabic": "أَنْ",
+              "transliteration": "An",
+              "label": "Tongue tip to gums + nasal resonance (Zone 3 + 5)",
+              "sound": "An"
+            },
+            {
+              "arabic": "أَقْ",
+              "transliteration": "Aq",
+              "label": "Deepest tongue touching soft palate (Zone 3)",
+              "sound": "Aq"
+            },
+            {
+              "arabic": "أَحْ",
+              "transliteration": "Aḥ",
+              "label": "Middle throat constriction (Zone 2)",
+              "sound": "Ah"
             }
-          },
-          {
-            "id": "tajweed-ch2-l3",
-            "number": 3,
-            "title": "Zone 2: The Throat (Al-Halq)",
-            "subtitle": "6 letters originating across 3 distinct vertical throat levels",
-            "readingTime": "4 min",
-            "arabic": "الْحَلْق",
-            "transliteration": "Al-Halq",
-            "makhraj": "The throat region from the vocal cords to the root of the tongue.",
-            "sound": "ء هـ (Deep) | ع ح (Middle) | غ خ (Closest)",
-            "explanation": "Al-Halq (الْحَلْق) represents the throat and contains 3 distinct articulation zones producing exactly 6 letters. These 6 letters are also the exact letters of Izhar Halqi in Noon Sakinah rules.\n\n### 1. Deepest Throat (أَقْصَى الْحَلْق - Aqṣā al-Ḥalq)\nLocated at the bottom of the throat near the vocal cords (glottis):\n* **Hamzah (ء)**: Formed when the vocal cords snap shut and release.\n* **Hā' (هـ)**: A soft, airy sound produced when the vocal cords remain partially open.\n\n### 2. Middle Throat (وَسَطُ الْحَلْق - Wasaṭ al-Ḥalq)\nLocated at the region of the epiglottis:\n* **'Ayn (ع)**: Produced by gently pulling the epiglottis backward toward the throat wall. It is smooth and deep, never choked.\n* **Ḥā' (ح)**: A crisp, breathy, clean friction sound produced with gentle throat contraction (as if cleaning eyeglasses).\n\n### 3. Closest Throat (أَدْنَى الْحَلْق - Adnā al-Ḥalq)\nLocated at the upper throat near the uvula and root of the tongue:\n* **Ghayn (غ)**: A soft, gargling, heavy sound without harsh scraping.\n* **Khā' (خ)**: A raspy, heavy sound produced with friction at the top of the throat.",
-            "keyPoints": [
-              "Al-Halq is divided into 3 vertical zones producing 6 letters.",
-              "Deepest Throat (Aqṣā): ء (Hamzah) and هـ (Hā').",
-              "Middle Throat (Wasaṭ): ع ('Ayn) and ح (Ḥā').",
-              "Closest Throat (Adnā): غ (Ghayn) and خ (Khā').",
-              "These 6 letters are also the Izhar Halqi letters."
+          ],
+          "practice": "Test the articulation point of Bā' (ب), Nūn (ن), Qāf (ق), and Ḥā' (ح) using the Hamzah + Sukoon rule. Note where the airflow stops.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "According to Imam Ibn al-Jazari, how many general articulation zones and specific articulation points exist?",
+            "options": [
+              "5 general zones and 17 specific articulation points",
+              "4 general zones and 14 specific articulation points",
+              "3 general zones and 28 specific articulation points",
+              "7 general zones and 19 specific articulation points"
             ],
-            "examples": [
-              {
-                "arabic": "أَهْـل",
-                "label": "Deep Throat Hā' (هـ)",
-                "sound": "Ahl - soft, light breath from deep vocal cords.",
-                "description": "Light and airy, completely distinct from the middle throat Ḥā'."
-              },
-              {
-                "arabic": "عَلِيم",
-                "label": "Middle Throat 'Ayn (ع)",
-                "sound": "'Alīm - compressed resonant sound from the epiglottis.",
-                "description": "Feel the center of your neck muscles gently compress inward."
-              },
-              {
-                "arabic": "حَمْد",
-                "label": "Middle Throat Ḥā' (ح)",
-                "sound": "Ḥamd - pure, sharp, raspy-free breathy friction.",
-                "description": "Exhale warm breath from the mid-throat without phlegm friction."
-              },
-              {
-                "arabic": "خَبِير",
-                "label": "Closest Throat Khā' (خ)",
-                "sound": "Khabīr - heavy, textured sound from the upper throat.",
-                "description": "Full-mouth heaviness (Tafkhīm) near the uvula."
-              }
-            ],
-            "practice": "Contrast 'هَلَكَ' (Halaka - deep throat هـ) with 'حَلَقَ' (Ḥalaqa - middle throat ح). Feel the physical shift in the vocal tract.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which two letters originate from the Middle of the Throat (Wasaṭ al-Ḥalq)?",
-              "options": [
-                "Hamzah (ء) and Hā' (هـ)",
-                "'Ayn (ع) and Ḥā' (ح)",
-                "Ghayn (غ) and Khā' (خ)",
-                "Qāf (ق) and Kāf (ك)"
-              ],
-              "correctAnswer": 1,
-              "explanation": "'Ayn (ع) and Ḥā' (ح) are produced from Wasaṭ al-Ḥalq (the middle region of the throat around the epiglottis).",
-              "breakdown": [
-                "Option A is incorrect: ء and هـ originate from the deepest throat (Aqṣā al-Ḥalq).",
-                "Option B is correct: ع and ح originate precisely from the middle throat (Wasaṭ al-Ḥalq).",
-                "Option C is incorrect: غ and خ originate from the upper throat (Adnā al-Ḥalq).",
-                "Option D is incorrect: ق and ك originate from the back of the tongue (Al-Lisan)."
-              ]
-            }
-          },
-          {
-            "id": "tajweed-ch2-l4",
-            "number": 4,
-            "title": "Zone 3: The Tongue (Al-Lisan)",
-            "subtitle": "18 letters across 10 specific articulation points",
-            "readingTime": "5 min",
-            "arabic": "اللِّسَان",
-            "transliteration": "Al-Lisān",
-            "makhraj": "The tongue, divided into Root, Deep, Middle, Edges, and Tip.",
-            "sound": "ق ك | ج ش ي | ض ل | ن ر | ط د ت | ص ز س | ظ ذ ث",
-            "explanation": "Al-Lisān (اللِّسَان) is the most comprehensive articulation organ, producing 18 letters across 10 specific anatomical points:\n\n### 1. Deepest Tongue (أَقْصَى اللِّسَان - Aqṣā al-Lisān)\n* **Qāf (ق)**: The furthest back of the tongue strikes the soft palate. Heavy (Mufakhkham) and explosive.\n* **Kāf (ك)**: Slightly in front of Qāf, the tongue strikes the hard palate. Light (Muraqqaq) with a whisper of breath (Hams).\n\n### 2. Middle Tongue (وَسَطُ اللِّسَان - Wasaṭ al-Lisān)\n* **Jīm (ج), Shīn (ش), Yā' non-vowel (ي)**: Middle of the tongue rises toward the hard roof palate.\n\n### 3. Edges/Sides of Tongue (حَافَةُ اللِّسَان - Ḥāfat al-Lisān)\n* **Ḍād (ض)**: The one or both sides of the tongue press against the upper molars. The most distinct letter in Arabic.\n* **Lām (ل)**: Front edge of the tongue to the front palate/gums.\n\n### 4. Tip of Tongue (طَرَفُ اللِّسَان - Ṭaraf al-Lisān)\n* **Nūn (ن) & Rā' (ر)**: Tip touching the gums behind upper front teeth.\n* **Ṭā' (ط), Dāl (د), Tā' (ت)**: Tip touching the roots/bases of upper front incisors.\n* **Ṣād (ص), Zāy (ز), Sīn (س)**: Tip placed just behind lower front teeth, with whistling sound (Ṣafīr).\n* **Ẓā' (ظ), Dhāl (ذ), Thā' (ث)**: Tip touching the bottom edges of upper front incisors.",
-            "keyPoints": [
-              "Al-Lisān produces 18 letters (the majority of the Arabic alphabet).",
-              "Deep Tongue: ق (soft palate, heavy) vs ك (hard palate, light + Hams).",
-              "Sides: ض (unique molar contact) and ل (front gums).",
-              "Tip provides precision for 11 distinct letters."
-            ],
-            "examples": [
-              {
-                "arabic": "قَالَ vs كَانَ",
-                "label": "Qāf vs Kāf Contrast",
-                "sound": "Qāf is deep and heavy; Kāf is forward, light, and airy.",
-                "description": "Listen to the stark difference between deep soft palate Qāf and front hard palate Kāf."
-              },
-              {
-                "arabic": "سَارَ vs صَارَ",
-                "label": "Sīn vs Ṣād Contrast",
-                "sound": "Sīn is light and flat; Ṣād is elevated and full-mouthed.",
-                "description": "In Ṣād, the back of the tongue elevates (Isti'lā'), making the sound heavy."
-              },
-              {
-                "arabic": "ضَالِّين",
-                "label": "Letter Ḍād (ض)",
-                "sound": "Ḍāllīn - side edge of tongue against upper molars with elongation (Istiṭālah).",
-                "description": "Never pronounce Ḍād like a simple 'D' or 'Z'; it requires upper molar contact."
-              }
-            ],
-            "practice": "Pronounce 'أَقْ' vs 'أَكْ', then 'أَسْ' vs 'أَصْ', then 'أَتْ' vs 'أَطْ'. Feel how elevating the back of the tongue creates the heavy (Tafkhīm) resonance.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which Arabic letter is uniquely articulated by pressing the side edge(s) of the tongue against the upper molars?",
-              "options": [
-                "Ṣād (ص)",
-                "Ḍād (ض)",
-                "Ṭā' (ط)",
-                "Qāf (ق)"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Ḍād (ض) is uniquely produced when one or both side edges of the tongue press against the upper molars, giving Arabic its title 'Lughat aḍ-Ḍād'.",
-              "breakdown": [
-                "Option A is incorrect: Ṣād is produced from the tongue tip near the lower incisors.",
-                "Option B is correct: Ḍād is the exclusive letter of the lateral tongue edge (Ḥāfat al-Lisān) touching upper molars.",
-                "Option C is incorrect: Ṭā' is produced from the tongue tip touching the roots of upper front teeth.",
-                "Option D is incorrect: Qāf is produced from the deepest root of the tongue touching the soft palate."
-              ]
-            }
-          },
-          {
-            "id": "tajweed-ch2-l5",
-            "number": 5,
-            "title": "Zone 4: The Lips (Ash-Shafatan)",
-            "subtitle": "4 distinct letters produced across 2 physical points",
-            "readingTime": "4 min",
-            "arabic": "الشَّفَتَان",
-            "transliteration": "Ash-Shafatān",
-            "makhraj": "The upper and lower lips.",
-            "sound": "فَ فِ فُ | بَ بِ بُ | مَ مِ مُ | وَ وِ وُ",
-            "explanation": "Ash-Shafatān (الشَّفَتَان) refers to the lips and produces 4 consonants across 2 specific articulation points:\n\n### 1. The Inside of the Lower Lip (One Point for Fā')\n* **Fā' (ف)**: The cutting edges of the upper two front incisors meet the wet, inner part of the lower lip. Air flows continuously with a soft friction.\n\n### 2. Both Lips Together (One Point for Bā', Mīm, Wāw)\n* **Bā' (ب)**: Both lips press firmly together on their inner, wet surfaces. Upon release with Sukoon, it produces a distinct bounce (Qalqalah).\n* **Mīm (م)**: Both lips close gently on their outer, dry surfaces, accompanied by continuous nasal resonance (Ghunnah).\n* **Wāw non-vowel (و)**: Both lips round together into a circular 'O' shape without completely touching, with a slight elevation at the back of the tongue.",
-            "keyPoints": [
-              "Ash-Shafatān produces 4 letters: Fā' (ف), Bā' (ب), Mīm (م), and non-vowel Wāw (و).",
-              "Fā' involves upper teeth touching inside the lower lip.",
-              "Bā' uses firm inner lip closure; Mīm uses gentle outer lip closure + Ghunnah.",
-              "Wāw is articulated by lip rounding without full closure."
-            ],
-            "examples": [
-              {
-                "arabic": "فِيل",
-                "label": "Fā' (ف)",
-                "sound": "Fīl - top front teeth resting on lower inner lip.",
-                "description": "Feel the clean air escape between the upper teeth and wet lower lip."
-              },
-              {
-                "arabic": "بَاب",
-                "label": "Bā' (ب)",
-                "sound": "Bāb - firm closure with Qalqalah bounce on final stop.",
-                "description": "Both lips close firmly, sealing the air before crisp release."
-              },
-              {
-                "arabic": "مَال",
-                "label": "Mīm (م)",
-                "sound": "Māl - gentle dry lip touch with pleasant nasal hum.",
-                "description": "Notice the natural nasal vibration accompanying the lip closure."
-              },
-              {
-                "arabic": "وَقَى",
-                "label": "Wāw (و)",
-                "sound": "Waqā - forward lip rounding.",
-                "description": "Form an 'O' ring with the lips without letting them touch."
-              }
-            ],
-            "practice": "Pronounce 'أَفْ', 'أَبْ', 'أَمْ', 'أَوْ' sequentially. Notice how Fā' uses teeth+lip, Bā' uses wet lips, Mīm uses dry lips, and Wāw rounds without touching.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "How is the Arabic letter Fā' (ف) correctly articulated?",
-              "options": [
-                "By pressing both lips together firmly",
-                "By placing the edges of the upper front incisors onto the inside wet surface of the lower lip",
-                "By rounding both lips into a small circle without touching",
-                "From the middle of the throat"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Fā' (ف) is formed when the tips of the two upper front incisors make contact with the inside wet portion of the lower lip.",
-              "breakdown": [
-                "Option A is incorrect: Firm double-lip closure produces Bā' (ب).",
-                "Option B is correct: Upper teeth onto inside lower lip produces Fā' (ف).",
-                "Option C is incorrect: Lip rounding produces Wāw (و).",
-                "Option D is incorrect: The throat produces the 6 Halqi letters."
-              ]
-            }
-          },
-          {
-            "id": "tajweed-ch2-l6",
-            "number": 6,
-            "title": "Zone 5: The Nasal Cavity (Al-Khayshum)",
-            "subtitle": "The anatomical chamber of Ghunnah (nasal resonance)",
-            "readingTime": "4 min",
-            "arabic": "الْخَيْشُوم",
-            "transliteration": "Al-Khayshūm",
-            "makhraj": "The internal nasal passage above the roof of the mouth.",
-            "sound": "إِنَّ | ثُمَّ | مِّن مَّالٍ | عَن نَّفْسٍ",
-            "explanation": "Al-Khayshūm (الْخَيْشُوم) is the nasal cavity—the hollow passage connecting the top of the throat with the nose. Unlike the other four zones, Al-Khayshūm does not produce individual consonant shapes by itself; rather, it is the dedicated acoustic chamber for **Ghunnah (غُنَّة)**.\n\n### What is Ghunnah?\nGhunnah is a rich, melodious nasal hum that is inherently embedded in the letters **Nūn (ن)** and **Mīm (م)**.\n\n### Levels of Ghunnah in Tajweed\n1. **Most Complete (Akmal):** Nūn and Mīm with a Shaddah (ّ), or in Idghām with Ghunnah (e.g. إِنَّ, ثُمَّ, مَن يَّقُولُ). Held for 2 full counts.\n2. **Complete (Kāmilah):** In the state of Ikhfā' (concealment) or Iqlāb (e.g. مِن قَبْلِكَ, أَنبِئْهُم).\n3. **Incomplete (Nāqiṣah):** In Nūn Sakinah and Mīm Sakinah with Iẓhār (e.g. أَنْعَمْتَ).\n4. **Most Incomplete (Anqaṣ):** When Nūn and Mīm have standard short vowels (e.g. نَ, نِ, نُ).",
-            "keyPoints": [
-              "Al-Khayshūm is the nasal chamber located behind the nose.",
-              "Produces Ghunnah (resonant nasal hum) for Nūn (ن) and Mīm (م).",
-              "Full Ghunnah duration is standardly held for 2 counts (Harakat).",
-              "Testing Ghunnah: Pinching your nostrils while reciting 'إِنَّ' should immediately block the sound."
-            ],
-            "examples": [
-              {
-                "arabic": "إِنَّ اللَّهَ",
-                "label": "Nūn Mushaddadah",
-                "sound": "Inna - hold resonant nasal hum for 2 counts.",
-                "description": "Feel the sound vibrate purely inside the nasal passage before releasing to 'Llah'."
-              },
-              {
-                "arabic": "ثُمَّ كَلَّا",
-                "label": "Mīm Mushaddadah",
-                "sound": "Thumma - hold resonant nasal hum with closed lips for 2 counts.",
-                "description": "Keep lips closed while allowing the air to resonate through the nose."
-              },
-              {
-                "arabic": "مِّن مَّالٍ",
-                "label": "Idghām with Ghunnah",
-                "sound": "Mim-mālin - 2 counts of continuous nasal flow.",
-                "description": "The Nūn merges into Mīm with rich nasal resonance."
-              }
-            ],
-            "practice": "Recite 'إِنَّ' and gently pinch your nose during the double 'نّ'. The sound should instantly stop, proving the sound exits via Al-Khayshūm.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which acoustic sound in Tajweed originates exclusively from Al-Khayshum (the nasal cavity)?",
-              "options": [
-                "Qalqalah (the bouncing echo)",
-                "Ghunnah (the 2-count nasal resonance)",
-                "Tafkhīm (the deep heaviness)",
-                "Hams (the whisper of air)"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Al-Khayshūm is the sole anatomical home of Ghunnah, the resonant nasal hum that accompanies Nūn (ن) and Mīm (م).",
-              "breakdown": [
-                "Option A is incorrect: Qalqalah originates from the tongue or lips upon releasing a Sukoon.",
-                "Option B is correct: Ghunnah originates strictly in the nasal passage (Al-Khayshūm).",
-                "Option C is incorrect: Tafkhīm is created by elevating the back of the tongue in the oral cavity.",
-                "Option D is incorrect: Hams is created by breath escaping through open vocal cords."
-              ]
-            }
-          },
-          {
-            "id": "tajweed-ch2-l7",
-            "number": 7,
-            "title": "Makharij Review & Mastery Challenge",
-            "subtitle": "Comprehensive review of all 5 zones, pairwise letter comparisons, and audio testing",
-            "readingTime": "5 min",
-            "arabic": "مُرَاجَعَةُ الْمَخَارِجِ وَاخْتِبَارُ الإِتْقَانِ",
-            "transliteration": "Murāja'at al-Makhārij wa Ikhtibār al-Itqān",
-            "makhraj": "Comprehensive review across all 5 vocal regions: Oral Cavity, Throat, Tongue, Lips, and Nasal Cavity.",
-            "sound": "Mastery of all 28 letters and 17 articulation points",
-            "explanation": "Congratulations! You have completed the foundational study of the 5 major articulation zones and 17 specific Makharij points in Arabic phonetics.\n\n### Summary of the 5 Articulation Zones\n1. **Al-Jawf (Oral Cavity)**: 3 Madd letters (ا, و, ي) — estimated, open flow.\n2. **Al-Halq (Throat)**: 6 letters (Deep: ء هـ | Middle: ع ح | Top: غ خ).\n3. **Al-Lisan (Tongue)**: 18 letters (Deep: ق ك | Middle: ج ش ي | Edges: ض ل | Tip: ن ر ط د ت ص ز س ظ ذ ث).\n4. **Ash-Shafatan (Lips)**: 4 letters (ف, ب, م, و).\n5. **Al-Khayshum (Nasal Cavity)**: Ghunnah nasal hum of ن and م.\n\n### Critical Pairwise Contrasts (Avoid Confusing These!)\n* **Qāf (ق) vs Kāf (ك)**: 'قَالَ' (Qāla - He said) vs 'كَانَ' (Kāna - He was).\n* **Sīn (س) vs Ṣād (ص)**: 'سَارَ' (Sāra - He traveled) vs 'صَارَ' (Ṣāra - He became).\n* **Tā' (ت) vs Ṭā' (ط)**: 'تَابَ' (Tāba - He repented) vs 'طَابَ' (Ṭāba - It became pleasant).\n* **Ḥā' (ح) vs Hā' (هـ)**: 'حَلَقَ' (Ḥalaqa - He shaved) vs 'هَلَكَ' (Halaka - He perished).\n* **'Ayn (ع) vs Hamzah (ء)**: 'عَلِمَ' ('Alima - He knew) vs 'أَلِمَ' (Alima - He felt pain).\n* **Dhāl (ذ) vs Zāy (ز) vs Thā' (ث)**: 'ذَلَّ' (Dhalla) vs 'زَلَّ' (Zalla).",
-            "keyPoints": [
-              "5 General Areas contain 17 specific anatomical points for 28 letters + Madd + Ghunnah.",
-              "Never substitute heavy letters for light letters (e.g. Ṣād vs Sīn, Ṭā' vs Tā', Qāf vs Kāf).",
-              "Middle throat letters (ع and ح) require active epiglottis engagement without choking.",
-              "Precision in Makharij protects the Divine message from corrupting word changes."
-            ],
-            "examples": [
-              {
-                "arabic": "قَالَ vs كَانَ",
-                "label": "Qāf vs Kāf (Deep Palate vs Front Palate)",
-                "sound": "Listen to Qāf (heavy, soft palate) vs Kāf (light, hard palate + air).",
-                "description": "Confusing these two changes 'He said' into 'He was'."
-              },
-              {
-                "arabic": "سَارَ vs صَارَ",
-                "label": "Sīn vs Ṣād (Flat vs Elevated Tongue)",
-                "sound": "Listen to Sīn (light, smiling mouth) vs Ṣād (heavy, full mouth).",
-                "description": "Confusing these two changes 'He traveled' into 'He became'."
-              },
-              {
-                "arabic": "تَابَ vs طَابَ",
-                "label": "Tā' vs Ṭā' (Light Dental vs Heavy Palatal)",
-                "sound": "Listen to Tā' (light, crisp) vs Ṭā' (heavy, amplified).",
-                "description": "Confusing these two changes 'He repented' into 'It became pleasant'."
-              },
-              {
-                "arabic": "عَلِمَ vs أَلِمَ",
-                "label": "'Ayn vs Hamzah (Mid Throat vs Vocal Cords)",
-                "sound": "Listen to 'Ayn (smooth epiglottis) vs Hamzah (glottal stop).",
-                "description": "Confusing these two changes 'He knew' into 'He suffered pain'."
-              },
-              {
-                "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
-                "label": "Surah Al-Fatihah Verse 2 Recitation",
-                "sound": "Sheikh Mahmoud Khalil Al-Husary reciting with pristine Makharij.",
-                "description": "Notice the pure Ḥā' in 'Al-Ḥamdu' and the deep 'Ayn in 'Al-'Ālamīn'."
-              }
-            ],
-            "practice": "Recite the contrast pairs aloud 3 times: 'قَالَ / كَانَ', 'سَارَ / صَارَ', 'تَابَ / طَابَ', 'عَلِمَ / أَلِمَ'. Record your voice and compare it with the audio engine.",
-            "challenge": {
-              "type": "multiple-choice",
-              "title": "Makharij Comprehensive Mastery Challenge",
-              "question": "A reciter is reciting Surah Al-Fatihah and pronounces 'الْحَمْدُ' using a deep, airy sound from the vocal cords (like 'هـ') instead of the middle throat. Which error did they make, and what is the correct Makhraj?",
-              "arabicPrompt": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
-              "promptTransliteration": "Al-ḥamdu lillāhi Rabbi-l-'Ālamīn",
-              "soundCue": "Listen to the sharp, clean middle-throat Ḥā' (ح) in Al-Ḥamdu",
-              "options": [
-                {
-                  "text": "They substituted middle-throat Ḥā' (ح) with deepest-throat Hā' (هـ). The correct Makhraj for Ḥā' is Wasaṭ al-Ḥalq (middle throat/epiglottis).",
-                  "arabic": "حَ vs هَـ",
-                  "sound": "Ḥā' vs Hā'"
-                },
-                {
-                  "text": "They substituted Qāf (ق) with Kāf (ك). The correct Makhraj is Aqṣā al-Lisān (deep tongue).",
-                  "arabic": "قَ vs كَ",
-                  "sound": "Qāf vs Kāf"
-                },
-                {
-                  "text": "They substituted Ṣād (ص) with Sīn (س). The correct Makhraj is Ṭaraf al-Lisān (tongue tip).",
-                  "arabic": "صَ vs سَ",
-                  "sound": "Ṣād vs Sīn"
-                },
-                {
-                  "text": "They forgot to hold the Ghunnah on letter Dāl for 2 counts in Al-Khayshūm.",
-                  "arabic": "دَ",
-                  "sound": "Dāl"
-                }
-              ],
-              "correctAnswer": 0,
-              "explanation": "The letter Ḥā' (ح) in 'الْحَمْدُ' must originate from the middle of the throat (Wasaṭ al-Ḥalq). Pronouncing it like a soft English 'H' replaces it with Hā' (هـ) from the deepest throat (Aqṣā al-Ḥalq), which alters the word.",
-              "breakdown": [
-                "Option A is correct: Ḥā' (ح) is an epiglottic middle-throat sound; substituting it with Hā' (هـ) from the vocal cords is a common pronunciation mistake.",
-                "Option B is incorrect: Qāf and Kāf are tongue letters not present in 'Al-Ḥamdu'.",
-                "Option C is incorrect: Ṣād and Sīn are sibilant letters not present in 'Al-Ḥamdu'.",
-                "Option D is incorrect: Dāl has no Ghunnah; Ghunnah belongs exclusively to Nūn and Mīm in Al-Khayshūm."
-              ]
-            }
+            "correctAnswer": 0,
+            "explanation": "The dominant classical standard formulated by Imam Al-Khalil and verified by Imam Ibn al-Jazari counts 5 general articulation areas (المخارج العامة) and 17 specific articulation points (المخارج الخاصة)."
           }
-        ]
-      },
-      {
-        "id": "lesson-sifaat",
-        "aliases": [
-          "lesson-3",
-          "sifaat",
-          "sifaat-al-huroof"
-        ],
-        "number": 3,
-        "title": "Sifaat al-Huroof: Characteristics of Arabic Letters (صفات الحروف)",
-        "subtitle": "The intrinsic acoustic qualities and manner of articulation that distinguish every Arabic letter",
-        "readingTime": "25 min",
-        "videoLesson": {
-          "title": "Quranic Qalqala & Sifaat al-Huroof Explained",
-          "channel": "Arabic 101",
-          "duration": "12:30",
-          "videoId": "thu6eZ-AeOA",
-          "watchUrl": "https://www.youtube.com/watch?v=thu6eZ-AeOA",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/thu6eZ-AeOA",
-          "url": "https://www.youtube-nocookie.com/embed/thu6eZ-AeOA",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Letter Characteristics (Sifaat)",
-          "badge": "Verified Reference Video"
         },
-        "summary": "Master the 18 essential characteristics (Sifaat) of Arabic letters, including the 5 pairs with opposites (Hams/Jahr, Shiddah/Tawassut/Rakhawah, Isti'la/Istifal, Itbaq/Infitah, Idhlaq/Ismat), the 8 non-opposites (Safir, Qalqalah, Leen, Inhiraf, Takrir, Tafashshi, Istitalah, Ghunnah), critical letter contrasts, and practical Tajweed drills.",
-        "smallLessons": [
-          {
-            "id": "tajweed-sifaat-l1",
-            "number": 1,
-            "title": "Introduction to Sifaat al-Huroof (صفات الحروف)",
-            "subtitle": "What are characteristics of Arabic letters and why do they matter?",
-            "readingTime": "4 min",
-            "arabic": "مُقَدِّمَةٌ فِي صِفَاتِ الْحُرُوفِ",
-            "transliteration": "Muqaddimatun fī Ṣifāt al-Ḥurūf",
-            "makhraj": "The acoustic manner of articulation applied to every letter exiting its physical Makhraj.",
-            "sound": "The breath, vibration, firmness, resonance, and elevation of Arabic letters",
-            "explanation": "In Arabic phonetics and Tajweed, **Sifah (صفة - plural: Sifaat / صفات)** refers to the intrinsic manner, acoustic texture, and physical characteristics with which a letter's sound is produced upon leaving its point of articulation (Makhraj).\n\nWhile **Makhraj (المخرج)** determines the physical location where the letter is formed (the throat, tongue, lips, or oral cavity), **Sifah (الصفة)** determines how that letter actually sounds (the flow of breath, vibration of vocal cords, firmness of sound, palatal elevation, or echoing bounce).\n\n### The 3 Critical Purposes of Sifaat in Qur'anic Recitation\n1. **Distinguishing letters that share identical Makharij**: Several Arabic letters originate from the exact same anatomical point. For example, **Ṭā' (ط)**, **Dāl (د)**, and **Tā' (ت)** all share the same Makhraj (the tongue tip touching the roots of upper front incisors). Without Sifaat, they would sound identical. The heaviness and palatal compression of `ط`, the voiced echo of `د`, and the whispered breath of `ت` are what make them distinct.\n2. **Preserving Sacred Qur'anic Meanings**: A subtle failure in a letter's Sifah can alter the entire meaning of an Ayah. For example, failing to elevate the tongue for `ص` turns 'عَصَى' (*He disobeyed* - Surah Ta-Ha 20:121) into 'عَسَى' (*Perhaps / It may be*), and failing to apply heaviness to `ق` turns 'قُلْ' (*Say*) into 'كُلْ' (*Eat*).\n3. **Beautifying Recitation (Taḥsīn al-Qirā'ah)**: Fulfilling the divine command to recite with *Tartīl* by giving every letter its intrinsic right (*Ḥaqq al-Ḥarf*) and deserved phonetic weight (*Mustaḥaqq al-Ḥarf*).\n\n### Classical Classification of Sifaat\nThe classical scholars of Tajweed (led by Imam Ibn al-Jazari and Al-Khalil ibn Ahmad) categorized the 18 essential Sifaat into two primary divisions:\n* **Sifaat with Opposites (صفات لها ضد)**: 5 foundational pairs (10 characteristics + 1 intermediate state). Every single Arabic letter **must** possess at least 5 of these traits (one from each pair).\n* **Sifaat without Opposites (صفات لا ضد لها)**: 8 special acoustic traits (Safir, Qalqalah, Leen, Inhiraf, Takrir, Tafashshi, Istitalah, Ghunnah) possessed only by specific letters.",
-            "keyPoints": [
-              "Sifah is the acoustic quality and manner in which a letter is pronounced.",
-              "Sifaat distinguish letters originating from the same physical Makhraj (e.g. ط / د / ت or ص / ز / س).",
-              "Correct Sifaat prevent severe semantic corruption in the Qur'an (e.g. 'عَسَى' vs 'عَصَى', 'قُلْ' vs 'كُلْ').",
-              "Every Arabic letter possesses at least 5 characteristics (one from each opposite pair) and up to 2-3 non-opposite traits."
-            ],
-            "audio": {
-              "arabicText": "عَسَى vs عَصَى • قُلْ vs كُلْ",
-              "phonetic": "'Asa vs 'Asa • Qul vs Kul",
-              "description": "Listen to the crucial difference in meaning caused by Sifaat (elevation vs flat tongue)."
-            },
-            "examples": [
-              {
-                "arabic": "عَسَى vs عَصَى",
-                "label": "Sīn vs Ṣād (Flat vs Elevated)",
-                "sound": "'Asā (Perhaps) vs 'Aṣā (He disobeyed)",
-                "description": "Notice how failing to apply Isti'la and Itbaq to Ṣād changes the word entirely."
-              },
-              {
-                "arabic": "قُلْ vs كُلْ",
-                "label": "Qāf vs Kāf (Heavy vs Light)",
-                "sound": "Qul (Say!) vs Kul (Eat!)",
-                "description": "Elevating the tongue on Qāf vs releasing breath on Kāf preserves the divine command."
-              },
-              {
-                "arabic": "تَابَ vs طَابَ",
-                "label": "Tā' vs Ṭā' (Light vs Heavy)",
-                "sound": "Tāba (He repented) vs Ṭāba (It became good)",
-                "description": "Tā' has Hams (whisper); Ṭā' has Itbaq (full palatal adhesion)."
-              }
-            ],
-            "practice": "Recite 'عَسَى' with a light smiling mouth, then recite 'عَصَى' by lifting the back and middle of your tongue to the roof of your mouth. Notice the deep acoustic contrast.",
-            "challenge": {
-              "type": "multiple-choice",
-              "title": "Introduction to Sifaat Checkpoint",
-              "question": "Why is the study of Sifaat al-Huroof essential when multiple letters share the exact same Makhraj (point of articulation)?",
-              "arabicPrompt": "ط • د • ت",
-              "promptTransliteration": "Ṭā' • Dāl • Tā'",
-              "soundCue": "Listen to how Ṭā', Dāl, and Tā' sound completely distinct despite sharing one Makhraj.",
-              "options": [
-                {
-                  "text": "Because Sifaat provide the acoustic qualities (heaviness, breath flow, vibration, echo) that distinguish letters born in the same physical spot.",
-                  "arabic": "الصِّفَاتُ تُمَيِّزُ بَيْنَ الْحُرُوفِ الْمُشْتَرِكَةِ فِي الْمَخْرَجِ",
-                  "sound": "Sifaat distinguish shared-makhraj letters"
-                },
-                {
-                  "text": "Because Sifaat change the spelling of Arabic words in modern dictionaries.",
-                  "arabic": "تَغْيِيرُ الإِمْلَاءِ",
-                  "sound": "Spelling alteration"
-                },
-                {
-                  "text": "Because without Sifaat, letters cannot be written in cursive script.",
-                  "arabic": "الْكِتَابَةُ",
-                  "sound": "Cursive writing"
-                },
-                {
-                  "text": "Because Sifaat only apply to English transliterations.",
-                  "arabic": "التَّرْجَمَةُ",
-                  "sound": "Transliteration"
-                }
-              ],
-              "correctAnswer": 0,
-              "explanation": "Sifaat provide the unique manner of articulation (flow of air, acoustic fullness, echo) that allows letters sharing one physical origin (like ط, د, and ت) to be heard and recognized as distinct sounds.",
-              "breakdown": [
-                "Option A is correct: Sifaat give each letter its distinct acoustic signature and prevent letters of the same origin from merging.",
-                "Option B is incorrect: Sifaat are phonetic rules of pronunciation, not dictionary spelling rules.",
-                "Option C is incorrect: Cursive script is governed by Arabic calligraphy and typography, not Sifaat.",
-                "Option D is incorrect: Sifaat are intrinsic classical Arabic phonetic principles."
-              ]
-            }
+        {
+          "id": "tajweed-ch1-l2",
+          "aliases": [
+            "tajweed-ch2-l2"
+          ],
+          "number": 2,
+          "title": "Zone 1: The Oral Cavity (Al-Jawf — الجَوْف)",
+          "subtitle": "The 3 Madd prolongation letters and open vocal tract",
+          "readingTime": "5 min",
+          "arabic": "الجَوْفُ",
+          "transliteration": "Al-Jawf",
+          "makhraj": "The open hollow interior cavity extending throughout the throat and mouth.",
+          "sound": "Madd Letters: Alif (ـَا), Wāw (ـُو), Yā' (ـِي)",
+          "videoLesson": {
+            "videoId": "dvNKcQaQA5k",
+            "title": "Makhraj No 16/17 - Makhraj of Maddah Letters (Al-Jawf)",
+            "channel": "Learn Quran with Hafiz Bilal - ENG",
+            "shortTitle": "Makhraj 16: Maddah Letters"
           },
-          {
-            "id": "tajweed-sifaat-l2",
-            "number": 2,
-            "title": "Makharij vs Sifaat: Where vs How (المخرج والصفة)",
-            "subtitle": "Understanding the factory vs the texture of Arabic phonetics",
-            "readingTime": "4 min",
-            "arabic": "الْفَرْقُ بَيْنَ الْمَخْرَجِ وَالصِّفَةِ",
-            "transliteration": "Al-Farqu bayna al-Makhraj wa aṣ-Ṣifah",
-            "makhraj": "Makhraj = The anatomical place of birth; Sifah = The acoustic behavior and texture.",
-            "sound": "Anatomical location (Where) vs Acoustic quality (How)",
-            "explanation": "To recite the Qur'an with authentic Arabic phonetics, you must clearly understand the relationship between **Al-Makhraj (المخرج)** and **Aṣ-Ṣifah (الصفة)**.\n\n### The 'Factory and Texture' Paradigm\n* **Al-Makhraj (المخرج = The Place/Origin)**: The precise anatomical coordinate where two speech organs meet or air is shaped (e.g. tongue tip touching the base of upper incisors, or the middle of the throat). It answers the question: **WHERE is the sound born?**\n* **Aṣ-Ṣifah (الصفة = The Quality/Texture)**: The acoustic behavior of the sound when releasing from that point (e.g. whether air continues to flow, whether sound is locked, whether the tongue elevates toward the palate, or whether an echo resonates). It answers the question: **HOW does the sound escape?**\n\n### Case Study 1: The Triplets of the Upper Incisors (ط / د / ت)\nAll 3 letters share the exact same physical contact point (the tip of the tongue touching the roots of the upper front incisors):\n* **Ṭā' (ط)**: Same place + Isti'lā' (tongue back elevated) + Iṭbāq (tongue body arched to palate) + Jahr (no air leak) + Shiddah (solid stop). Result: A deep, authoritative, heavy explosion.\n* **Tā' (ت)**: Same place + Istifāl (tongue lowered) + Infitāḥ (open palate) + Hams (whisper of escaping air) + Shiddah. Result: A light, crisp, whispering tap.\n* **Dāl (د)**: Same place + Istifāl (tongue lowered) + Infitāḥ (open palate) + Jahr (strong voice) + Qalqalah (resonant bounce). Result: A clear, voiced, bouncing tap.\n\n### Case Study 2: The Sibilant Whistle Triplets (ص / ز / س)\nAll 3 letters share the same position (tongue tip placed just behind the lower front incisors with air escaping over the edges):\n* **Ṣād (ص)**: Sibilant whistle + Heavy (Isti'la & Itbaq) + Whispered (Hams).\n* **Sīn (س)**: Sibilant whistle + Light (Istifal & Infitah) + Whispered (Hams).\n* **Zāy (ز)**: Sibilant whistle + Light (Istifal & Infitah) + Voiced (Jahr).",
-            "keyPoints": [
-              "Makhraj is the physical place of production (WHERE); Sifah is the acoustic quality and behavior (HOW).",
-              "Letters sharing the same Makhraj (e.g. ط / د / ت) depend 100% on Sifaat to remain distinct.",
-              "A reciter must position their tongue at the correct Makhraj AND simultaneously apply the required Sifaat."
-            ],
-            "audio": {
-              "arabicText": "طَ دَ تَ • صَ زَ سَ",
-              "phonetic": "Ta Da Ta • Sa Za Sa",
-              "description": "Hear how shared-makhraj triplets differ purely through their Sifaat."
+          "explanation": "Al-Jawf (الجَوْف) literally means 'the interior' or 'the hollow'. Anatomically in Tajweed, it refers to the open, uninterrupted acoustic chamber extending from above the vocal cords in the throat through the entire oral cavity.\n\n### Distinctive Nature: Estimated Point (مخرج تقديري)\nUnlike the other four articulation zones where speech organs physically collide or touch (Muhaqqaq - مخرج محقق), Al-Jawf is an **estimated or non-localized point (Makhraj Taqdīrī - مخرج تقديري)**. The sound ends simply when the exhaled acoustic breath stream ceases.\n\n### The Three Madd Prolongation Letters (حُرُوفُ الْمَدِّ)\nThe Jawf produces the three long vowels under strict conditions:\n1. **Alif Sakinah preceded by Fat-hah (ـَ + ا):** E.g., `قَالَ` (*Qāla*).\n2. **Wāw Sakinah preceded by Dammah (ـُ + و):** E.g., `يَقُولُ` (*Yaqūlu*).\n3. **Yā' Sakinah preceded by Kasrah (ـِ + ي):** E.g., `قِيلَ` (*Qīla*).\n\nAll three conditions are united in the classical Qur'anic phrase in Surah Hud (11:49): **`نُوحِيهَا`** (*Nūḥīhā*).",
+          "keyPoints": [
+            "Al-Jawf is the only estimated (Taqdīrī) articulation zone without physical contact points.",
+            "It contains exactly 1 specific articulation point which produces the 3 Madd letters.",
+            "The 3 Madd letters are: Alif after Fat-hah, Wāw after Dammah, Yā' after Kasrah.",
+            "The composite mnemonic word in the Qur'an is: نُوحِيهَا (Nū-ḥī-hā)."
+          ],
+          "examples": [
+            {
+              "arabic": "نُوحِيهَا",
+              "transliteration": "Nū-ḥī-hā",
+              "label": "Unites all 3 Madd letters in one word (Surah Hud 11:49)",
+              "sound": "Nu-hee-haa"
             },
-            "examples": [
-              {
-                "arabic": "أَطْ vs أَدْ vs أَتْ",
-                "label": "Same Makhraj, 3 Distinct Sifaat",
-                "sound": "At (heavy stop) vs Ad (voiced bounce) vs At (crisp whisper)",
-                "description": "Notice the heavy adhesion on Ṭā', the Qalqalah bounce on Dāl, and the whisper on Tā'."
-              },
-              {
-                "arabic": "أَصْ vs أَزْ vs أَسْ",
-                "label": "Sibilant Whistles",
-                "sound": "As (heavy whistle) vs Az (voiced buzz) vs As (light whisper)",
-                "description": "All 3 use the lower incisor tip, but vary in heaviness and vocal cord vibration."
-              }
-            ],
-            "practice": "Place the tip of your tongue at the root of your upper front teeth. Pronounce 'أَتْ' (releasing a tiny breath of air), then 'أَدْ' (bouncing the sound), then 'أَطْ' (raising the back and center of your tongue to fill your mouth).",
-            "challenge": {
-              "type": "multiple-choice",
-              "title": "Makhraj vs Sifah Distinction",
-              "question": "Which statement accurately describes the difference between Makhraj and Sifah in Tajweed?",
-              "options": [
-                {
-                  "text": "Makhraj is the anatomical location where a letter originates, while Sifah is the manner and acoustic quality of how it sounds.",
-                  "arabic": "الْمَخْرَجُ هُوَ الْمَكَانُ وَالصِّفَةُ هِيَ الْكَيْفِيَّةُ",
-                  "sound": "Makhraj is place, Sifah is manner"
-                },
-                {
-                  "text": "Makhraj is used for vowels, while Sifah is used only for consonants.",
-                  "arabic": "الْمَخْرَجُ لِلْحَرَكَاتِ",
-                  "sound": "Vowels vs consonants"
-                },
-                {
-                  "text": "Makhraj is only studied in grammar (Nahw), while Sifah is studied in morphology (Sarf).",
-                  "arabic": "النَّحْوُ وَالصَّرْفُ",
-                  "sound": "Grammar vs morphology"
-                },
-                {
-                  "text": "There is no difference; Makhraj and Sifah are identical terms.",
-                  "arabic": "مُتَرَادِفَانِ",
-                  "sound": "Identical terms"
-                }
-              ],
-              "correctAnswer": 0,
-              "explanation": "Makhraj defines the anatomical point of articulation (WHERE), whereas Sifah defines the manner, airflow, voice, and resonance (HOW).",
-              "breakdown": [
-                "Option A is correct: This is the precise classical definition established by scholars of phonetics.",
-                "Option B is incorrect: Both Makharij and Sifaat apply to all Arabic consonants and vowels.",
-                "Option C is incorrect: Both Makharij and Sifaat are subfields of Tajweed and Ilm al-Aswat (phonology).",
-                "Option D is incorrect: They refer to two fundamentally distinct phonetic dimensions."
-              ]
-            }
-          },
-          {
-            "id": "tajweed-sifaat-l3",
-            "number": 3,
-            "title": "Sifaat With Opposites: Breath & Sound Flow (الهمس والجهر • الشدة والرخاوة)",
-            "subtitle": "Controlling airflow through vocal cords and sound obstruction in the vocal tract",
-            "readingTime": "5 min",
-            "arabic": "الْهَمْسُ وَالْجَهْرُ • الشِّدَّةُ وَالتَّوَسُّطُ وَالرَّخَاوَةُ",
-            "transliteration": "Al-Hams wa al-Jahr • Ash-Shiddah wa at-Tawassuṭ wa ar-Rakhāwah",
-            "makhraj": "The vocal cords (air flow) and oral articulation points (sound flow).",
-            "sound": "Airflow stream (Hams vs Jahr) and Sound duration (Shiddah vs Tawassut vs Rakhawah)",
-            "explanation": "Every Arabic consonant must possess one characteristic from each of the 5 foundational opposite pairs. The first two pairs govern **Airflow (Breath)** and **Sound Duration**.\n\n### 1. The Flow of Breath: Al-Hams vs Al-Jahr\n* **Al-Hams (الْهَمْس = Whispering / Air Continuation)**: The continuation of the breath stream when pronouncing the letter due to the vocal cords remaining wide open and relaxed.\n  - **The 10 Hams Letters**: Memorized in the famous classical mnemonic:\n  - **« فَحَثَّهُ شَخْصٌ سَكَتْ »** (Fā' ف, Ḥā' ح, Thā' ث, Hā' هـ, Shīn ش, Khā' خ, Ṣād ص, Sīn س, Kāf ك, Tā' ت).\n  - *Test*: Place your palm in front of your mouth while pronouncing `أَفْ`, `أَحْ`, `أَسْ`, `أَكْ`, `أَتْ`. You will feel a distinct puff of escaping breath.\n* **Al-Jahr (الْجَهْر = Audibility / Breath Imprisonment)**: The stoppage of the breath stream due to strong vocal cord closure and vibration. The remaining 18 letters are Jahr letters (e.g. `ب, ج, د, ذ, ر, ز, ط, ظ, ع, غ, ق, ل, م, ن, و, ي, ء`).\n\n### 2. The Flow of Sound: Ash-Shiddah vs At-Tawassut vs Ar-Rakhawah\n* **Ash-Shiddah (الشِّدَّة = Strength / Sound Stoppage)**: Complete blockage and confinement of the sound at the Makhraj point. The sound cannot continue even if you try to hold it.\n  - **The 8 Shiddah Letters**: **« أَجِدْ قَطٍ بَكَتْ »** (Hamzah ء, Jīm ج, Dāl د, Qāf ق, Ṭā' ط, Bā' ب, Kāf ك, Tā' ت).\n  - *Special Note on Kāf (ك) and Tā' (ت)*: They combine **Shiddah** first (the sound locks completely), followed immediately by **Hams** (a tiny puff of released air so the reciter does not choke).\n* **At-Tawassuṭ / Al-Bayniyyah (التَّوَسُّط / الْبَيْنِيَّة = Moderation / In-Between Flow)**: Sound is neither abruptly locked nor indefinitely running; it flows moderately for a split second through an alternate escape route.\n  - **The 5 Tawassuṭ Letters**: **« لِنْ عُمَرْ »** (Lām ل, Nūn ن, 'Ayn ع, Mīm م, Rā' ر).\n  - In `ل`, sound flows around the sides of the tongue; in `ن` and `م`, sound flows through the nose (Khayshum); in `ع`, the epiglottis narrows without sealing; in `ر`, sound passes through the central groove.\n* **Ar-Rakhāwah (الرَّخَاوَة = Softness / Continuous Sound Flow)**: The sound flows smoothly and continuously through the Makhraj without being stopped as long as you maintain breath.\n  - **The 15 Rakhāwah Letters**: All remaining letters (e.g. `ث, ح, خ, ذ, ز, س, ش, ص, ض, ظ, غ, ف, هـ, و, ي`).",
-            "keyPoints": [
-              "Hams letters (10): « فَحَثَّهُ شَخْصٌ سَكَتْ » — breath flows freely.",
-              "Jahr letters (18): Breath is imprisoned by vibrating vocal cords.",
-              "Shiddah letters (8): « أَجِدْ قَطٍ بَكَتْ » — sound locks completely at the Makhraj.",
-              "Tawassut letters (5): « لِنْ عُمَرْ » — sound flows moderately.",
-              "Rakhawah letters (15): Sound flows continuously through the open Makhraj.",
-              "Kāf (ك) and Tā' (ت) feature Shiddah (sound lock) followed immediately by Hams (breath release)."
-            ],
-            "audio": {
-              "arabicText": "فَحَثَّهُ شَخْصٌ سَكَتْ • أَجِدْ قَطٍ بَكَتْ • لِنْ عُمَرْ",
-              "phonetic": "Fa-hath-thahu shakhsun sakat • Ajid qatin bakat • Lin 'Umar",
-              "description": "Listen to the classical mnemonics for Hams, Shiddah, and Tawassut."
+            {
+              "arabic": "قَالَ",
+              "transliteration": "Qāla",
+              "label": "Alif Madd preceded by Fat-hah",
+              "sound": "Qaa-la"
             },
-            "examples": [
-              {
-                "arabic": "يَكْتُبُونَ",
-                "label": "Kāf & Tā' (Shiddah + Hams)",
-                "sound": "Yak-tubūn - Notice the instant lock followed by crisp whisper on Kāf.",
-                "description": "Never let Kāf sound choked; release the light Hams whisper."
-              },
-              {
-                "arabic": "الْحَمْدُ لِلَّهِ",
-                "label": "Tawassut in Lām & Mīm",
-                "sound": "Al-Ḥamdu - Moderate glide on Lām, Ḥā' Rakhawah, Mīm Tawassut.",
-                "description": "Feel the gentle 1-count moderate flow of the 'ل' and 'م'."
-              },
-              {
-                "arabic": "يَسْتَبْشِرُونَ",
-                "label": "Sīn (Hams + Rakhawah) vs Bā' (Jahr + Shiddah)",
-                "sound": "Yastabshirūn - Running air on Sīn vs crisp locked bounce on Bā'.",
-                "description": "Contrast the continuous hiss on Sīn with the locked explosion on Bā'."
-              }
-            ],
-            "practice": "Pronounce 'أَسْ' (feel the continuous sound & air - Rakhawah + Hams), then 'أَلْ' (feel the moderate glide - Tawassut), then 'أَقْ' (feel the instant sound lock - Shiddah).",
-            "challenge": {
-              "type": "multiple-choice",
-              "title": "Breath & Sound Flow Mastery",
-              "question": "Which mnemonic contains all 10 letters of Al-Hams (الهمس - the continuation of breath)?",
-              "options": [
-                {
-                  "text": "« فَحَثَّهُ شَخْصٌ سَكَتْ » (Fa-ḥath-thahu shakhṣun sakat)",
-                  "arabic": "فَحَثَّهُ شَخْصٌ سَكَتْ",
-                  "sound": "Hams mnemonic"
-                },
-                {
-                  "text": "« أَجِدْ قَطٍ بَكَتْ » (Ajid qaṭin bakat)",
-                  "arabic": "أَجِدْ قَطٍ بَكَتْ",
-                  "sound": "Shiddah mnemonic"
-                },
-                {
-                  "text": "« لِنْ عُمَرْ » (Lin 'Umar)",
-                  "arabic": "لِنْ عُمَرْ",
-                  "sound": "Tawassut mnemonic"
-                },
-                {
-                  "text": "« خُصَّ ضَغْطٍ قِظْ » (Khuṣṣa ḍaghṭin qiẓ)",
-                  "arabic": "خُصَّ ضَغْطٍ قِظْ",
-                  "sound": "Isti'la mnemonic"
-                }
-              ],
-              "correctAnswer": 0,
-              "explanation": "The 10 Hams letters are collected in « فَحَثَّهُ شَخْصٌ سَكَتْ » (ف, ح, ث, هـ, ش, خ, ص, س, ك, ت).",
-              "breakdown": [
-                "Option A is correct: « فَحَثَّهُ شَخْصٌ سَكَتْ » contains the 10 letters where breath continues flowing.",
-                "Option B is incorrect: « أَجِدْ قَطٍ بَكَتْ » contains the 8 letters of Ash-Shiddah (sound stoppage).",
-                "Option C is incorrect: « لِنْ عُمَرْ » contains the 5 letters of At-Tawassut (moderate sound flow).",
-                "Option D is incorrect: « خُصَّ ضَغْطٍ قِظْ » contains the 7 letters of Al-Isti'la (tongue elevation/heaviness)."
-              ]
-            }
-          },
-          {
-            "id": "tajweed-sifaat-l4",
-            "number": 4,
-            "title": "Sifaat With Opposites: Elevation & Palatal Adhesion (الاستعلاء والإستفال • الإطباق والانفتاح)",
-            "subtitle": "Tongue elevation (Tafkhim/Tarqiq) and palatal sound compression",
-            "readingTime": "5 min",
-            "arabic": "الِاسْتِعْلَاءُ وَالِاسْتِفَالُ • الْإِطْبَاقُ وَالِانْفِتَاحُ",
-            "transliteration": "Al-Isti'lā' wa al-Istifāl • Al-Iṭbāq wa al-Infitāḥ",
-            "makhraj": "The back root and body of the tongue against the roof of the mouth.",
-            "sound": "Heavy elevation (Isti'la) and palatal compression (Itbaq)",
-            "explanation": "These two foundational pairs govern the **Heaviness (Tafkhīm)**, **Tongue Elevation**, and **Palatal Compression (Adhesion)** of Arabic letters.\n\n### 1. Elevation of the Tongue: Al-Isti‘lā' vs Al-Istifāl\n* **Al-Isti‘lā' (الِاسْتِعْلَاء = Elevation / Heaviness / Tafkhīm)**: Raising the posterior (back root) of the tongue toward the soft palate. This directs the acoustic resonance upward into the roof of the mouth, producing a full-mouthed, echoing heaviness (Tafkhīm).\n  - **The 7 Isti'lā' Letters**: Memorized in the classical mnemonic:\n  - **« خُصَّ ضَغْطٍ قِظْ »** (Khā' خ, Ṣād ص, Ḍād ض, Ghayn غ, Ṭā' ط, Qāf ق, Ẓā' ظ).\n  - *Permanent Rule*: These 7 letters are **always pronounced heavy** in every state (whether accompanied by Fatḥah, Ḍammah, Kasrah, or Sukūn).\n* **Al-Istifāl (الِاسْتِفَال = Lowering / Flatness / Tarqīq)**: Keeping the tongue flat and lowered to the floor of the mouth. The acoustic wave disperses forward without echoing against the palate, producing a light, smiling resonance (Tarqīq). The remaining 21 letters of the alphabet are Istifāl letters.\n\n### 2. Palatal Adhesion: Al-Iṭbāq vs Al-Infitāḥ\n* **Al-Iṭbāq (الْإِطْبَاق = Adhesion / Sound Compression)**: Along with elevating the back root of the tongue, the central body of the tongue arches and adheres closely against the roof of the mouth, trapping and compressing the acoustic sound within the oral dome.\n  - **The 4 Iṭbāq Letters**: **« ص , ض , ط , ظ »** (Ṣād, Ḍād, Ṭā', Ẓā').\n  - *Hierarchy of Heaviness*: **Ṭā' (ط)** > **Ḍād (ض)** > **Ṣād (ص)** > **Ẓā' (ظ)**.\n  - *Golden Rule of Tajweed*: Every Iṭbāq letter is automatically an Isti'lā' letter, but NOT every Isti'lā' letter has Iṭbāq. The 4 Iṭbāq letters represent the pinnacle of heaviness in Arabic and remain intensely heavy even with a Kasrah, unlike `ق, غ, خ`.\n* **Al-Infitāḥ (الِانْفِتَاح = Openness)**: The body of the tongue does not adhere to the roof of the mouth; an open channel allows sound to disperse without palatal compression (the remaining 24 letters).",
-            "keyPoints": [
-              "Isti'lā' (7 letters: « خُصَّ ضَغْطٍ قِظْ »): Back of tongue elevates, creating permanent Tafkhim (heaviness).",
-              "Istifāl (21 letters): Tongue remains lowered, creating Tarqiq (lightness).",
-              "Iṭbāq (4 letters: ص, ض, ط, ظ): The strongest, heaviest letters where the tongue arches against the upper roof.",
-              "Infitāḥ (24 letters): Tongue remains open without palatal compression.",
-              "All 4 Iṭbāq letters possess Isti'lā', but not all Isti'lā' letters possess Iṭbāq."
-            ],
-            "audio": {
-              "arabicText": "خُصَّ ضَغْطٍ قِظْ • ص ض ط ظ",
-              "phonetic": "Khuṣṣa ḍaghṭin qiẓ • Ṣād Ḍād Ṭā' Ẓā'",
-              "description": "Listen to the Isti'la and Itbaq letter groups pronounced with pristine heaviness."
+            {
+              "arabic": "يَقُولُ",
+              "transliteration": "Yaqūlu",
+              "label": "Wāw Madd preceded by Dammah",
+              "sound": "Ya-qoo-lu"
             },
-            "examples": [
-              {
-                "arabic": "صِرَاطَ الَّذِينَ",
-                "label": "Itbaq in Ṣād & Ṭā'",
-                "sound": "Ṣirāṭa - Notice the powerful palatal adhesion on Ṣād and Ṭā'.",
-                "description": "Both letters arch the body of the tongue firmly against the roof palate."
-              },
-              {
-                "arabic": "خَالِقِينَ",
-                "label": "Isti'la vs Infitah in Khā' & Qāf",
-                "sound": "Khāliqīn - Heavy elevation without full palatal seal.",
-                "description": "Back of tongue rises for Khā' and Qāf, but the mouth remains open (Infitāḥ)."
-              },
-              {
-                "arabic": "تَبَّتْ يَدَا",
-                "label": "Istifal in Tā' & Dāl",
-                "sound": "Tabbat yadā - Crisp, light, smiling pronunciation.",
-                "description": "The tongue stays flat and lowered for light letters."
-              }
-            ],
-            "practice": "Contrast 'سَ' (Istifal + Infitah - light) with 'صَ' (Isti'la + Itbaq - heavy compressed). Feel your tongue rise and press toward the upper palate for 'صَ'.",
-            "challenge": {
-              "type": "multiple-choice",
-              "title": "Elevation & Adhesion Challenge",
-              "question": "Which 4 letters possess the characteristic of Al-Itbaq (الإطباق - palatal adhesion), making them the heaviest letters in the Arabic language?",
-              "options": [
-                {
-                  "text": "Ṣād (ص), Ḍād (ض), Ṭā' (ط), Ẓā' (ظ)",
-                  "arabic": "ص ، ض ، ط ، ظ",
-                  "sound": "The 4 Itbaq letters"
-                },
-                {
-                  "text": "Qāf (ق), Kāf (ك), Lām (ل), Mīm (م)",
-                  "arabic": "ق ، ك ، ل ، م",
-                  "sound": "Qaf, Kaf, Lam, Mim"
-                },
-                {
-                  "text": "Khā' (خ), Ghayn (غ), 'Ayn (ع), Ḥā' (ح)",
-                  "arabic": "خ ، غ ، ع ، ح",
-                  "sound": "Throat letters"
-                },
-                {
-                  "text": "Alif (ا), Wāw (و), Yā' (ي), Hamzah (ء)",
-                  "arabic": "ا ، و ، ي ، ء",
-                  "sound": "Vowels & Hamzah"
-                }
-              ],
-              "correctAnswer": 0,
-              "explanation": "The 4 letters of Al-Iṭbāq are Ṣād (ص), Ḍād (ض), Ṭā' (ط), and Ẓā' (ظ). They combine Isti'lā' (tongue elevation) with Iṭbāq (palatal adhesion), making them the strongest and heaviest sounds in Arabic.",
-              "breakdown": [
-                "Option A is correct: ص, ض, ط, and ظ are the exclusive letters of Al-Iṭbāq.",
-                "Option B is incorrect: Qāf is Isti'lā' but Infitāḥ; Kāf, Lām, and Mīm are Istifāl.",
-                "Option C is incorrect: These are throat letters with varying elevation.",
-                "Option D is incorrect: These are Madd letters and the glottal stop."
-              ]
+            {
+              "arabic": "قِيلَ",
+              "transliteration": "Qīla",
+              "label": "Yā' Madd preceded by Kasrah",
+              "sound": "Qee-la"
             }
-          },
-          {
-            "id": "tajweed-sifaat-l5",
-            "number": 5,
-            "title": "Sifaat With Opposites: Articulation Fluency & Stability (الإذلاق والإصمات)",
-            "subtitle": "Ease of articulation from tongue tip/lips and morphological balance in Arabic roots",
-            "readingTime": "4 min",
-            "arabic": "الْإِذْلَاقُ وَالإِصْمَاتُ",
-            "transliteration": "Al-Idhlāq wa al-Iṣmāt",
-            "makhraj": "The extreme tip (Dhalq) of the tongue and the lips vs internal mouth stability.",
-            "sound": "Swift lightness (Idhlaq) vs deliberate solid restraint (Ismat)",
-            "explanation": "The fifth and final opposite pair deals with the **acoustic agility** and **phonetic ease** with which letters leave the vocal tract, as well as their morphological distribution across classical Arabic vocabulary.\n\n### 1. Al-Idhlāq (الْإِذْلَاق = Fluency / Swiftness / Edge-Articulation)\n* **Linguistic Meaning**: Fluency, sharpness, or edge (from *Dhalq* ذَلْق, meaning the tip or boundary).\n* **Technical Tajweed Definition**: The swift, effortless, and agile articulation of a letter originating either from the extreme tip of the tongue or the lips.\n* **The 6 Idhlāq Letters**: Collected in the classical mnemonic:\n  - **« فَرَّ مِنْ لُبٍّ »** (*Farra min lubb* — 'He fled from an intelligent person'):\n  - **Fā' (ف)**: Edge of upper front teeth against inner lower lip.\n  - **Rā' (ر)**: Tip of the tongue.\n  - **Mīm (م)**: Between the lips.\n  - **Nūn (ن)**: Tip of the tongue.\n  - **Lām (ل)**: Front edge of the tongue.\n  - **Bā' (ب)**: Between the lips.\n\n### 2. Al-Iṣmāt (الْإِصْمَات = Restraint / Solidity / Deliberation)\n* **Linguistic Meaning**: Silence or solid restraint.\n* **Technical Tajweed Definition**: The pronunciation of letters with deliberate firmness and phonetic weight, originating away from the extreme tips (from the throat, deep tongue, or palate).\n* **The 22 Iṣmāt Letters**: All remaining letters of the Arabic alphabet.\n\n### 3. The Classical Morphological Principle (*Qā'idat aṣ-Ṣarf*)\nClassical Arab grammarians and phonetic scholars (such as Al-Khalīl ibn Aḥmad and Sībawayh) observed a profound morphological rule: in authentic Arabic vocabulary, no root word composed of 4 or 5 root letters (*Rubā'ī* or *Khumāsī*) can consist exclusively of Iṣmāt letters. It **must** contain at least one Idhlāq letter to lighten the pronunciation and maintain phonetic balance. A word devoid of Idhlāq letters (like the coined word *Asjad* for gold) is recognized as a non-Arabic loanword.",
-            "keyPoints": [
-              "Idhlāq letters (6): « فَرَّ مِنْ لُبٍّ » (ف, ر, م, ن, ل, ب) — pronounced with agility from the tongue tip or lips.",
-              "Iṣmāt letters (22): Pronounced with stability and firmness away from the extreme tips.",
-              "Idhlāq provides acoustic lightness; Iṣmāt provides structural solidity.",
-              "Morphological Rule: Authentic 4- and 5-letter Arabic roots must contain at least one Idhlāq letter for phonetic balance."
+          ],
+          "practice": "Recite \"نُوحِيهَا\" slowly. Notice how the sound flows freely from the chest and throat without the tongue or lips blocking the acoustic channel.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Why is the articulation point of Al-Jawf classified as \"Taqdīrī\" (estimated) rather than \"Muhaqqaq\" (determined)?",
+            "options": [
+              "Because the sound flows through open space without physical organs touching",
+              "Because Madd letters can only be pronounced in certain Surahs",
+              "Because the letters change depending on whether they are heavy or light",
+              "Because it requires nasal resonance to produce"
             ],
-            "audio": {
-              "arabicText": "فَرَّ مِنْ لُبٍّ",
-              "phonetic": "Farra min lubb",
-              "description": "Listen to the classical mnemonic for the 6 Idhlaq letters articulated with swift fluency."
-            },
-            "examples": [
-              {
-                "arabic": "فَرَّ مِنْ لُبٍّ",
-                "label": "The 6 Idhlāq Letters Mnemonic",
-                "sound": "Farra min lubb - Swift, agile emission from the lips and tongue tip.",
-                "description": "Notice how each consonant (ف, ر, م, ن, ل, ب) glides effortlessly from the speech boundaries."
-              },
-              {
-                "arabic": "ذَهَبَ • خَرَجَ",
-                "label": "Balance in Everyday Roots",
-                "sound": "Dhahaba (has Ba) • Kharaja (has Ra)",
-                "description": "Notice how everyday Arabic verbs integrate Idhlāq letters to soften pronunciation."
-              }
-            ],
-            "practice": "Pronounce 'فَ', 'رَ', 'مَ', 'نَ', 'لَ', 'بَ' in rapid succession. Notice how all six sounds originate effortlessly from the outermost boundary of your vocal tract (the tongue tip and lips).",
-            "challenge": {
-              "type": "multiple-choice",
-              "title": "Idhlaq & Ismat Checkpoint",
-              "question": "Which mnemonic contains all 6 letters of Al-Idhlaq (الإذلاق - swift, agile articulation from the tongue tip and lips)?",
-              "options": [
-                {
-                  "text": "« فَرَّ مِنْ لُبٍّ » (Farra min lubb)",
-                  "arabic": "فَرَّ مِنْ لُبٍّ",
-                  "sound": "Idhlaq mnemonic"
-                },
-                {
-                  "text": "« قُطْبُ جَدٍّ » (Qutbu jadd)",
-                  "arabic": "قُطْبُ جَدٍّ",
-                  "sound": "Qalqalah mnemonic"
-                },
-                {
-                  "text": "« خُصَّ ضَغْطٍ قِظْ » (Khussa daghtin qiz)",
-                  "arabic": "خُصَّ ضَغْطٍ قِظْ",
-                  "sound": "Isti'la mnemonic"
-                },
-                {
-                  "text": "« أَجِدْ قَطٍ بَكَتْ » (Ajid qatin bakat)",
-                  "arabic": "أَجِدْ قَطٍ بَكَتْ",
-                  "sound": "Shiddah mnemonic"
-                }
-              ],
-              "correctAnswer": 0,
-              "explanation": "The 6 Idhlāq letters are memorized in « فَرَّ مِنْ لُبٍّ » (Fā', Rā', Mīm, Nūn, Lām, Bā'). They are articulated with swift agility from the lips and tongue tip.",
-              "breakdown": [
-                "Option A is correct: « فَرَّ مِنْ لُبٍّ » contains the 6 Idhlāq letters.",
-                "Option B is incorrect: « قُطْبُ جَدٍّ » contains the 5 Qalqalah letters.",
-                "Option C is incorrect: « خُصَّ ضَغْطٍ قِظْ » contains the 7 Isti'lā' letters.",
-                "Option D is incorrect: « أَجِدْ قَطٍ بَكَتْ » contains the 8 Shiddah letters."
-              ]
-            }
-          },
-          {
-            "id": "tajweed-sifaat-l6",
-            "number": 6,
-            "title": "Sifaat Without Opposites: Safir, Qalqalah, Leen & Inhiraf (الصفات التي لا ضد لها)",
-            "subtitle": "Unique acoustic traits: Whistling, Echoing Bounces, Soft Glide, and Sound Deviation",
-            "readingTime": "5 min",
-            "arabic": "الصَّفِيرُ • الْقَلْقَلَةُ • اللِّينُ • الِانْحِرَافُ",
-            "transliteration": "Aṣ-Ṣafīr • Al-Qalqalah • Al-Līn • Al-Inḥirāf",
-            "makhraj": "Specific articulation mechanics for letters with unique acoustic features.",
-            "sound": "Whistle (Safir), Echoing Bounce (Qalqalah), Soft Glide (Leen), and Deflection (Inhiraf)",
-            "explanation": "Unlike the 5 opposite pairs, **Sifaat without opposites (صفات لا ضد لها)** are unique acoustic traits that belong only to specific letters. A letter either has the trait or does not.\n\n### 1. Aṣ-Ṣafīr (الصَّفِير = Whistling / Sibilance)\nA sharp, acoustic, sibilant sound produced when air passes through a narrow channel between the tongue tip and incisors.\n* **The 3 Ṣafīr Letters**: **« ص , ز , س »** (Ṣād, Zāy, Sīn).\n  - **Ṣād (ص)**: Strongest Ṣafīr (heavy, elevated, compressed).\n  - **Zāy (ز)**: Voiced Ṣafīr (buzzing, vibrating vocal cords).\n  - **Sīn (س)**: Whispered Ṣafīr (light, airy, smiling mouth).\n\n### 2. Al-Qalqalah (الْقَلْقَلَة = Echoing / Bouncing / Disturbance)\nA crisp, resonant bounce and release of sound when the letter carries a **Sukūn (ْ)** (no vowel), to resolve the severe pressure created by combining **Shiddah** (total sound stoppage) with **Jahr** (no breath release).\n* **The 5 Qalqalah Letters**: **« قُطْبُ جَدٍّ »** (Qāf ق, Ṭā' ط, Bā' ب, Jīm ج, Dāl د).\n* **The 3 Degrees of Qalqalah**:\n  1. **Kubrā (Major / Strongest)**: Stopping (Waqf) on a Qalqalah letter with a Shaddah (ّ), e.g. `تَبَّ وَتَبَّ` (Watabb), `الْحَقُّ` (Al-Ḥaqq).\n  2. **Wusṭā (Medium)**: Stopping (Waqf) on a Qalqalah letter without a Shaddah, e.g. `قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ` (Al-Falaq), `مُحِيطٌ` (Muḥīṭ).\n  3. **Ṣughrā (Minor / Light)**: In the middle of a word or continuous recitation, e.g. `يَقْطَعُونَ` (Yaqṭa'ūn), `أَبْصَارِهِمْ` (Abṣārihim), `يَدْخُلُونَ` (Yadkhulūn).\n\n### 3. Al-Līn (اللِّين = Softness / Ease of Glide)\nSmooth, effortless emission of sound without strain in the throat or tongue.\n* **The 2 Līn Letters**: **Wāw Sakinah (وْ)** or **Yā' Sakinah (يْ)** preceded by a **Fatḥah (َ)**.\n* *Examples*: `بَيْت` (Bayt), `خَوْف` (Khawf), `قُرَيْش` (Quraysh), `صَيْف` (Ṣayf).\n\n### 4. Al-Inḥirāf (الِانْحِرَاف = Deviation / Deflection)\nThe acoustic deviation of the sound stream from its primary path upon meeting an obstruction at the Makhraj.\n* **The 2 Inḥirāf Letters**: **Lām (ل)** and **Rā' (ر)**.\n  - In **Lām (ل)**: The tongue tip seals the front gums, deflecting the sound outward around both lateral sides of the tongue.\n  - In **Rā' (ر)**: The lateral edges seal against the upper gums, deflecting the sound inward through the narrow central groove of the tongue tip.",
-            "keyPoints": [
-              "Ṣafīr (whistle) belongs to: ص , ز , س.",
-              "Qalqalah (echoing bounce on Sukūn) belongs to: « قُطْبُ جَدٍّ » (ق, ط, ب, ج, د).",
-              "Qalqalah has 3 levels: Kubrā (Waqf + Shaddah), Wusṭā (Waqf without Shaddah), Ṣughrā (mid-word).",
-              "Līn occurs when Wāw Sakinah or Yā' Sakinah is preceded by Fatḥah (e.g. خَوْف, بَيْت).",
-              "Inḥirāf is acoustic sound deflection in Lām (to sides) and Rā' (to center groove)."
-            ],
-            "audio": {
-              "arabicText": "قُطْبُ جَدٍّ • قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ • خَوْفٍ وَبَيْتٍ",
-              "phonetic": "Qutbu Jadd • Qul a'udhu bi-Rabbi-l-Falaq • Khawf wa Bayt",
-              "description": "Hear the Qalqalah bounce on Al-Falaq and the smooth Leen glide on Khawf & Bayt."
-            },
-            "examples": [
-              {
-                "arabic": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
-                "label": "Qalqalah Wusṭā on Qāf",
-                "sound": "Al-Falaq - Crisp, resonant bounce upon stopping on Qāf.",
-                "description": "Releasing the sound prevents the heavy Qāf from being swallowed."
-              },
-              {
-                "arabic": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
-                "label": "Qalqalah Kubrā on Bā' Mushaddadah",
-                "sound": "Wa-tabb - Firm delay on the double Bā' followed by explosive bounce.",
-                "description": "The strongest level of Qalqalah due to the Shaddah."
-              },
-              {
-                "arabic": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ • الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ",
-                "label": "Leen Letters in Surah Quraysh",
-                "sound": "Al-Bayt ... Khawf - Soft, flowing vowel glide.",
-                "description": "Notice the smooth glide of Yā' and Wāw after Fatḥah."
-              }
-            ],
-            "practice": "Recite Surah Al-Ikhlas: 'قُلْ هُوَ اللَّهُ أَحَدٌ • اللَّهُ الصَّمَدُ • لَمْ يَلِدْ وَلَمْ يُولَدْ • وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ'. Focus on the crisp Qalqalah bounce on every final Dāl.",
-            "challenge": {
-              "type": "multiple-choice",
-              "title": "Qalqalah & Leen Checkpoint",
-              "question": "Under what specific condition do Waw (و) and Ya (ي) possess the characteristic of Al-Leen (اللين)?",
-              "arabicPrompt": "بَيْت • خَوْف",
-              "promptTransliteration": "Bayt • Khawf",
-              "soundCue": "Listen to the smooth glide of Leen in 'Bayt' and 'Khawf'",
-              "options": [
-                {
-                  "text": "When they carry a Sukūn (ْ) and are preceded by a Fatḥah (َ).",
-                  "arabic": "سَاكِنَتَانِ بَعْدَ فَتْحٍ",
-                  "sound": "Sakinah after Fatha"
-                },
-                {
-                  "text": "When they carry a Kasrah (ِ) and are preceded by a Ḍammah (ُ).",
-                  "arabic": "مَكْسُورَتَانِ بَعْدَ ضَمٍّ",
-                  "sound": "Kasrah after Dammah"
-                },
-                {
-                  "text": "Whenever they appear at the beginning of any surah.",
-                  "arabic": "فِي بِدَايَةِ السُّوَرِ",
-                  "sound": "Beginning of surah"
-                },
-                {
-                  "text": "When they are pronounced with a full 6-count elongation.",
-                  "arabic": "مَدٌّ لَازِمٌ",
-                  "sound": "Madd Lazim"
-                }
-              ],
-              "correctAnswer": 0,
-              "explanation": "The letters of Al-Līn are Wāw Sakinah (وْ) and Yā' Sakinah (يْ) preceded exclusively by a Fatḥah (َ), producing a soft, effortless glide as in 'خَوْف' and 'بَيْت'.",
-              "breakdown": [
-                "Option A is correct: This is the exact condition for Harf al-Līn.",
-                "Option B is incorrect: Kasrah and Dammah do not produce Leen.",
-                "Option C is incorrect: Leen letters can appear anywhere within words.",
-                "Option D is incorrect: Leen letters without stopping are pronounced with normal natural length (approx 1-2 counts)."
-              ]
-            }
-          },
-          {
-            "id": "tajweed-sifaat-l7",
-            "number": 7,
-            "title": "Sifaat Without Opposites: Takrir, Tafashshi, Istitalah & Strength Chart (التَّكْرِير • التَّفَشِّي • الِاسْتِطَالَة • مِيزَانُ الْقُوَّة)",
-            "subtitle": "Trill control, spreading breath, lateral elongation, and the strength hierarchy of letters",
-            "readingTime": "5 min",
-            "arabic": "التَّكْرِيرُ • التَّفَشِّي • الِاسْتِطَالَةُ • مِيزَانُ قُوَّةِ الْحُرُوفِ",
-            "transliteration": "At-Takrīr • At-Tafashshī • Al-Istiṭālah • Mīzān Quwwat al-Ḥurūf",
-            "makhraj": "Rā' (trill control), Shīn (breath spread), Ḍād (molar elongation), and Letter Strength balance.",
-            "sound": "Restrained trill (Takrir), Dispersed breath (Tafashshi), Lateral glide (Istitalah)",
-            "explanation": "The final group of non-opposite Sifaat contains specialized traits for **Rā' (ر)**, **Shīn (ش)**, and **Ḍād (ض)**, followed by the master hierarchy of letter strength.\n\n### 5. At-Takrīr (التَّكْرِير = Trill / Repetition)\nThe innate trembling and vibration of the tongue tip when pronouncing **Rā' (ر)**.\n* **Crucial Tajweed Rule**: Unlike other Sifaat which reciters strive to express, Takrīr is studied **to be concealed and restrained (تُعْرَفُ لِتُجْتَنَب)**.\n* *How to execute*: The tip of the tongue taps the upper gums **only once**. Reciters must firmly control the tongue to prevent rolling the 'r' (e.g. avoiding 'Arrrrr-Raḥmān').\n\n### 6. At-Tafashshī (التَّفَشِّي = Diffusion / Spreading of Breath)\nThe spreading and dispersal of the breath stream throughout the entire oral cavity between the tongue and roof of the mouth for **Shīn (ش)**.\n* *Examples*: `الشَّمْس` (Ash-Shams), `يَشْرَبُونَ` (Yashrabūn), `اشْتَرَوْا` (Ishtaraw).\n* *Test*: When pronouncing 'أَشْ', you should feel warm air fill both cheeks before exiting.\n\n### 7. Al-Istiṭālah (الِاسْتِطَالَة = Elongation / Extension)\nThe physical extension of the tongue's lateral edge along the upper molars from back to front, sustaining the voiced sound of **Ḍād (ض)** under internal air pressure for approximately 1 count.\n* *Crucial Distinction*: Do not confuse **Istiṭālah** (extending the consonant sound of `ض` at its molar Makhraj) with **Madd** (elongating a vowel into the oral cavity).\n* *Examples*: `الضَّالِّينَ` (Aḍ-Ḍāllīn), `يَضْرِبُونَ` (Yaḍribūn), `فَمَنِ اضْطُرَّ` (Faman-iḍṭurra).\n\n### 8. Al-Ghunnah (الْغُنَّة = Nasal Resonance)\nThe innate, melodious hum originating from **Al-Khayshūm (the nasal cavity)** present in **Nūn (ن)** and **Mīm (م)**.\n\n---\n\n### The Balance of Letter Strength (مِيزَانُ قُوَّةِ الْحُرُوفِ)\nScholars classified all Sifaat into Strong, Weak, and Neutral to determine letter dominance in Tajweed rules like Idghām (assimilation):\n* **Strong Sifaat (صفات القوة)**: Al-Jahr, Ash-Shiddah, Al-Isti'lā', Al-Iṭbāq, Aṣ-Ṣafīr, Al-Qalqalah, Al-Inḥirāf, At-Takrīr, At-Tafashshī, Al-Istiṭālah, Al-Ghunnah.\n* **Weak Sifaat (صفات الضعف)**: Al-Hams, Ar-Rakhāwah, Al-Istifāl, Al-Infitāḥ, Al-Līn.\n* **Neutral Sifaat**: At-Tawassuṭ, Al-Idhlāq, Al-Iṣmāt.\n\n### The Letter Strength Hierarchy\n* **The Strongest Letter in Arabic**: **Ṭā' (ط)** — Possesses 6 strong qualities (Jahr, Shiddah, Isti'la, Itbaq, Qalqalah, Ismat) and ZERO weak qualities.\n* **Strong Letters**: `ض , ص , ظ , ق , ج , د , ر`.\n* **Medium Letters**: `ب , ل , م , ن , ع , غ`.\n* **Weak Letters**: `ت , ك , س , ش , ز , ف , ح , خ , ث , ذ`.\n* **The Weakest Letter in Arabic**: **Hā' (هـ)** — Possesses 5 weak qualities (Hams, Rakhawah, Istifal, Infitah, Ismat).",
-            "keyPoints": [
-              "Takrīr belongs to Rā' (ر) and must be restrained to a single tap (not rolled).",
-              "Tafashshī is the filling of the mouth with breath for Shīn (ش).",
-              "Istiṭālah is the sustaining of Ḍād (ض) along the upper molars under air pressure.",
-              "Ghunnah is the nasal hum for Nūn (ن) and Mīm (م).",
-              "Ṭā' (ط) is the single strongest letter in Arabic; Hā' (هـ) is the weakest letter."
-            ],
-            "audio": {
-              "arabicText": "الرَّحْمَٰنِ الرَّحِيمِ • الشَّمْسُ • وَلَا الضَّالِّينَ",
-              "phonetic": "Ar-Rahman Ar-Rahim • Ash-Shams • Wa la-d-Dallin",
-              "description": "Listen to the restrained Ra, the diffused Shin, and the elongated Dad."
-            },
-            "examples": [
-              {
-                "arabic": "الرَّحْمَٰنِ الرَّحِيمِ",
-                "label": "Restrained Takrīr on Rā'",
-                "sound": "Ar-Raḥmāni-r-Raḥīm - Single tap on gums without rolling trill.",
-                "description": "Hold the tongue tip steady so the 'r' does not flutter uncontrollably."
-              },
-              {
-                "arabic": "الشَّمْسُ وَالْقَمَرُ",
-                "label": "Tafashshī in Shīn",
-                "sound": "Ash-Shamsu - Air disperses freely throughout the oral cavity.",
-                "description": "Feel the breath spread across the roof of the mouth and cheeks."
-              },
-              {
-                "arabic": "غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
-                "label": "Istiṭālah in Ḍād",
-                "sound": "Al-Maghḍūbi ... Wa la-ḍ-Ḍāllīn - Lateral extension along molars.",
-                "description": "Maintain side tongue contact against upper molars with continuous voice."
-              }
-            ],
-            "practice": "Pronounce 'أَرْ' keeping the tongue tip to ONE single touch. Then pronounce 'أَشْ' filling your cheeks with air. Finally pronounce 'أَضْ' sustaining the sound along your side molars.",
-            "challenge": {
-              "type": "multiple-choice",
-              "title": "Letter Strength & Non-Opposites Challenge",
-              "question": "Which Arabic letter is recognized in Tajweed as the phonetically STRONGEST letter in the entire alphabet because all of its Sifaat are strong?",
-              "options": [
-                {
-                  "text": "Ṭā' (ط) — possessing Jahr, Shiddah, Isti'lā', Iṭbāq, Qalqalah, and Iṣmāt.",
-                  "arabic": "حَرْفُ الطَّاءِ (ط)",
-                  "sound": "Letter Ttaa"
-                },
-                {
-                  "text": "Hā' (هـ) — because it comes from the deepest throat.",
-                  "arabic": "حَرْفُ الْهَاءِ (هـ)",
-                  "sound": "Letter Haa"
-                },
-                {
-                  "text": "Alif (ا) — because it is the first letter of the alphabet.",
-                  "arabic": "حَرْفُ الأَلِفِ (ا)",
-                  "sound": "Letter Alif"
-                },
-                {
-                  "text": "Kāf (ك) — because it has a crisp whisper.",
-                  "arabic": "حَرْفُ الْكَافِ (ك)",
-                  "sound": "Letter Kaf"
-                }
-              ],
-              "correctAnswer": 0,
-              "explanation": "Ṭā' (ط) is the single strongest letter in Arabic phonetics. Every one of its Sifaat (Jahr, Shiddah, Isti'la, Itbaq, Qalqalah, Ismat) is classified as a strong characteristic with zero weak traits.",
-              "breakdown": [
-                "Option A is correct: Ṭā' (ط) is unanimously the strongest letter in classical Tajweed.",
-                "Option B is incorrect: Hā' (هـ) is actually the weakest letter in the alphabet.",
-                "Option C is incorrect: Alif is an open vowel sound with weak Sifaat.",
-                "Option D is incorrect: Kāf possesses weak traits including Hams and Infitah."
-              ]
-            }
-          },
-          {
-            "id": "tajweed-sifaat-l8",
-            "number": 8,
-            "title": "Master the Contrasts: Critical Letter Pairwise Drills (مقارنة الحروف المتشابهة)",
-            "subtitle": "Direct comparisons, audio cues, and preventing catastrophic meaning shifts",
-            "readingTime": "5 min",
-            "arabic": "مُقَارَنَةُ الْحُرُوفِ الْمُتَشَابِهَةِ وَتَدْرِيبَاتُ النُّطْقِ",
-            "transliteration": "Muqāranat al-Ḥurūf al-Mutashābihah wa Tadrībāt an-Nuṭq",
-            "makhraj": "Comparative acoustic contrast between similar-sounding letter pairs.",
-            "sound": "Sīn vs Ṣād • Tā' vs Ṭā' • Dāl vs Ḍād • Dhāl vs Ẓā' vs Zāy • Ḥā' vs Hā'",
-            "explanation": "In Qur'anic recitation, mastering individual letters is not enough; you must master the contrasts between letters that sound similar to non-native speakers. These 5 critical pairs require precise Sifaat differentiation:\n\n### 1. Sīn (س) vs Ṣād (ص)\n* **Sīn (س)**: Light (Istifāl), Open (Infitāḥ), Whispered (Hams), Whistling (Ṣafīr) — mouth in a relaxed, smiling posture.\n* **Ṣād (ص)**: Heavy (Isti'lā'), Compressed (Iṭbāq), Whispered (Hams), Whistling (Ṣafīr) — back and center of tongue arched to palate.\n* *Contrast*: **« سَارَ »** (*Sāra - He traveled*) vs **« صَارَ »** (*Ṣāra - He became*); **« عَسَى »** (*'Asā - Perhaps*) vs **« عَصَى »** (*'Aṣā - He disobeyed*).\n\n### 2. Tā' (ت) vs Ṭā' (ط)\n* **Tā' (ت)**: Light (Istifāl), Open (Infitāḥ), Whispered release (Hams), Locked (Shiddah).\n* **Ṭā' (ط)**: Heavy (Isti'lā'), Compressed (Iṭbāq), Voiced (Jahr), Locked (Shiddah), Echo on Sukūn (Qalqalah).\n* *Contrast*: **« تَابَ »** (*Tāba - He repented*) vs **« طَابَ »** (*Ṭāba - It became pleasant*); **« فَتَنَ »** (*Fatana - He tempted/tested*) vs **« فَطَنَ »** (*Faṭana - He understood*).\n\n### 3. Dāl (د) vs Ḍād (ض)\n* **Dāl (د)**: Tip of tongue on teeth roots, Light (Istifāl), Instant Stop (Shiddah), Echo on Sukūn (Qalqalah).\n* **Ḍād (ض)**: Lateral sides of tongue on upper molars, Heavy (Isti'lā'), Compressed (Iṭbāq), Continuous Sound (Rakhāwah), Lateral Elongation (Istiṭālah).\n* *Contrast*: **« دَلَّ »** (*Dalla - He guided*) vs **« ضَلَّ »** (*Ḍalla - He went astray*); **« نَدَى »** (*Nadā - Dew*) vs **« نَضَى »** (*Naḍā - It withered*).\n\n### 4. Dhāl (ذ) vs Ẓā' (ظ) vs Zāy (ز)\n* **Dhāl (ذ)**: Tongue tip between front incisors, Light (Istifāl), Open (Infitāḥ), Voiced (Jahr), Soft (Rakhāwah).\n* **Ẓā' (ظ)**: Tongue tip between front incisors, Heavy (Isti'lā'), Compressed (Iṭbāq), Voiced (Jahr), Soft (Rakhāwah).\n* **Zāy (ز)**: Tongue tip behind lower front incisors, Light (Istifāl), Open (Infitāḥ), Whistling Buzz (Ṣafīr), Voiced (Jahr).\n* *Contrast*: **« ذَلَّ »** (*Dhalla - He was humbled*) vs **« ظَلَّ »** (*Ẓalla - He remained*) vs **« زَلَّ »** (*Zalla - He slipped/erred*); **« نَذَرَ »** (*Nadhara - He vowed*) vs **« نَظَرَ »** (*Naẓara - He looked*).\n\n### 5. Ḥā' (ح) vs Hā' (هـ)\n* **Ḥā' (ح)**: Middle of the throat (epiglottis), crisp, breathy friction, Light.\n* **Hā' (هـ)**: Deepest throat (vocal cords), airy, soft sigh, Light.\n* *Contrast*: **« حَلَقَ »** (*Ḥalaqa - He shaved*) vs **« هَلَكَ »** (*Halaka - He perished*); **« حَمْد »** (*Ḥamd - Praise*) vs **« هَمْد »** (*Hamd - Extinction/Dormancy*).",
-            "keyPoints": [
-              "س vs ص: Smiling mouth vs full palatal compression ('سَارَ' vs 'صَارَ').",
-              "ت vs ط: Light dental whisper vs heavy palatal powerhouse ('تَابَ' vs 'طَابَ').",
-              "د vs ض: Front tongue bounce vs lateral molar extension ('دَلَّ' vs 'ضَلَّ').",
-              "ذ vs ظ vs ز: Light interdental vs heavy interdental vs lower-teeth sibilant buzz ('ذَلَّ' vs 'ظَلَّ' vs 'زَلَّ').",
-              "ح vs هـ: Middle throat epiglottic friction vs deep vocal cord sigh ('حَلَقَ' vs 'هَلَكَ')."
-            ],
-            "audio": {
-              "arabicText": "سَارَ vs صَارَ • تَابَ vs طَابَ • دَلَّ vs ضَلَّ • ذَلَّ vs ظَلَّ vs زَلَّ • حَلَقَ vs هَلَكَ",
-              "phonetic": "Sara vs Sara • Taba vs Taba • Dalla vs Dalla • Dhalla vs Zalla vs Zalla • Halaqa vs Halaka",
-              "description": "Listen carefully to all 5 critical letter pairwise pronunciation drills."
-            },
-            "examples": [
-              {
-                "arabic": "سَارَ vs صَارَ",
-                "label": "Sīn vs Ṣād",
-                "sound": "Sāra (He traveled) vs Ṣāra (He became)",
-                "description": "Elevating the tongue transforms 'traveled' into 'became'."
-              },
-              {
-                "arabic": "تَابَ vs طَابَ",
-                "label": "Tā' vs Ṭā'",
-                "sound": "Tāba (He repented) vs Ṭāba (It became good)",
-                "description": "Notice the crisp light Tā' vs deep commanding Ṭā'."
-              },
-              {
-                "arabic": "دَلَّ vs ضَلَّ",
-                "label": "Dāl vs Ḍād",
-                "sound": "Dalla (He guided) vs Ḍalla (He went astray)",
-                "description": "Pronouncing Dāl instead of Ḍād in Surah Al-Fatihah alters the meaning catastrophically."
-              },
-              {
-                "arabic": "ذَلَّ vs ظَلَّ vs زَلَّ",
-                "label": "Dhāl vs Ẓā' vs Zāy",
-                "sound": "Dhalla (Humbled) vs Ẓalla (Remained) vs Zalla (Slipped)",
-                "description": "Contrast the light interdental, heavy interdental, and lower-teeth buzzing."
-              },
-              {
-                "arabic": "حَلَقَ vs هَلَكَ",
-                "label": "Ḥā' vs Hā'",
-                "sound": "Ḥalaqa (He shaved) vs Halaka (He perished)",
-                "description": "Middle throat friction on Ḥā' vs deep glottal sigh on Hā'."
-              }
-            ],
-            "practice": "Recite the 5 pairs aloud in sequence: 'سَارَ / صَارَ', 'تَابَ / طَابَ', 'دَلَّ / ضَلَّ', 'ذَلَّ / ظَلَّ / زَلَّ', 'حَلَقَ / هَلَكَ'. Record and compare with the authentic audio playback.",
-            "challenge": {
-              "type": "multiple-choice",
-              "title": "Pairwise Contrast Challenge",
-              "question": "In Surah Al-Fatihah, why is it a critical recitation error to pronounce 'الضَّالِّينَ' using the letter Dāl (د) or Zāy (ز) instead of Ḍād (ض)?",
-              "arabicPrompt": "وَلَا الضَّالِّينَ",
-              "promptTransliteration": "Wa lā-ḍ-Ḍāllīn",
-              "soundCue": "Listen to the correct lateral Istitalah on Ḍād in 'Wa la-d-Dallin'",
-              "options": [
-                {
-                  "text": "Because 'ضَلَّ' (with Ḍād) means 'those who went astray', whereas substituting Dāl ('دَلَّ') changes the meaning to 'those who guided', reversing the prayer.",
-                  "arabic": "تَغْيِيرُ الْمَعْنَى مِنَ الضَّلَالِ إِلَى الْهِدَايَةِ",
-                  "sound": "Meaning reversed from straying to guiding"
-                },
-                {
-                  "text": "Because Ḍād is only written in poetry and cannot be recited in prayer.",
-                  "arabic": "خَاصٌّ بِالشِّعْرِ",
-                  "sound": "Poetry only"
-                },
-                {
-                  "text": "Because Dāl requires 6 counts of Madd, while Ḍād requires 2 counts.",
-                  "arabic": "مَقَادِيرُ الْمَدِّ",
-                  "sound": "Madd counts"
-                },
-                {
-                  "text": "Because both letters sound completely identical in authentic recitation.",
-                  "arabic": "مُتَمَاثِلَانِ",
-                  "sound": "Identical sounds"
-                }
-              ],
-              "correctAnswer": 0,
-              "explanation": "Substituting Dāl (د) for Ḍād (ض) alters 'Ḍalla' (went astray) into 'Dalla' (guided), creating a severe error (Laḥn Jalī) that reverses the Qur'anic meaning.",
-              "breakdown": [
-                "Option A is correct: This is a textbook example of why mastering Sifaat protects the integrity of Qur'anic meaning.",
-                "Option B is incorrect: Ḍād is a core letter of the Qur'an and Arabic language.",
-                "Option C is incorrect: The Madd in 'Aḍ-Ḍāllīn' is Madd Lāzim Kalimī Muthaqqal (6 counts) regardless of consonant length.",
-                "Option D is incorrect: Dāl and Ḍād have entirely distinct Makharij and Sifaat."
-              ]
-            }
-          },
-          {
-            "id": "tajweed-sifaat-l9",
-            "number": 9,
-            "title": "Sifaat Review & Comprehensive Mastery Challenge (مراجعة صفات الحروف واختبار الإتقان)",
-            "subtitle": "Comprehensive synthesis of all 18 characteristics, mnemonics, and practical application",
-            "readingTime": "6 min",
-            "arabic": "مُرَاجَعَةُ صِفَاتِ الْحُرُوفِ وَاخْتِبَارُ الإِتْقَانِ",
-            "transliteration": "Murāja'at Ṣifāt al-Ḥurūf wa Ikhtibār al-Itqān",
-            "makhraj": "Mastery across all 18 characteristics (10 with opposites + 1 intermediate + 7 non-opposites).",
-            "sound": "Complete synthesis of Qur'anic phonetic characteristics and recitation mastery",
-            "explanation": "Congratulations! You have completed the comprehensive study of **Sifaat al-Huroof (صفات الحروف)**. Review the Master Sifaat Matrix below before attempting your Mastery Challenge.\n\n### The Master Sifaat Mnemonics Matrix\n1. **Al-Hams (الهمس - Air Flow)**: **« فَحَثَّهُ شَخْصٌ سَكَتْ »** (10 letters). *Opposite*: Al-Jahr (18 letters).\n2. **Ash-Shiddah (الشدة - Sound Blockage)**: **« أَجِدْ قَطٍ بَكَتْ »** (8 letters).\n3. **At-Tawassuṭ (التوسط - Moderate Flow)**: **« لِنْ عُمَرْ »** (5 letters). *Opposite*: Ar-Rakhāwah (15 letters).\n4. **Al-Isti‘lā' (الاستعلاء - Tongue Elevation / Heaviness)**: **« خُصَّ ضَغْطٍ قِظْ »** (7 letters). *Opposite*: Al-Istifāl (21 letters).\n5. **Al-Iṭbāq (الإطباق - Palatal Adhesion / Compression)**: **« ص , ض , ط , ظ »** (4 letters). *Opposite*: Al-Infitāḥ (24 letters).\n6. **Al-Idhlāq (الإذلاق - Articulation Fluency)**: **« فَرَّ مِنْ لُبٍّ »** (6 letters). *Opposite*: Al-Iṣmāt (22 letters).\n7. **Aṣ-Ṣafīr (الصفير - Sibilant Whistle)**: **« ص , ز , س »** (3 letters).\n8. **Al-Qalqalah (القلقلة - Echo Bounce on Sukūn)**: **« قُطْبُ جَدٍّ »** (5 letters).\n9. **Al-Līn (اللين - Soft Glide)**: Wāw Sakinah (وْ) and Yā' Sakinah (يْ) preceded by Fatḥah (َ).\n10. **Al-Inḥirāf (الانحراف - Sound Deflection)**: **« ل , ر »**.\n11. **At-Takrīr (التكرير - Restrained Trill)**: **« ر »**.\n12. **At-Tafashshī (التفشي - Air Diffusion)**: **« ش »**.\n13. **Al-Istiṭālah (الاستطالة - Lateral Elongation)**: **« ض »**.\n14. **Al-Ghunnah (الغنة - Nasal Hum)**: **« ن , م »** (Al-Khayshūm).\n\n### Practical Application in Surah Al-Fatihah Verse 6\n**« اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ »** (*Guide us to the straight path*):\n* **Hā' (هـ) in 'اهْدِنَا'**: Deep throat, Hams breath flow, soft Rakhāwah.\n* **Ṣād (ص) in 'الصِّرَاطَ'**: Heavy Isti'lā' + Iṭbāq adhesion + Ṣafīr whistle + Hams.\n* **Ṭā' (ط) in 'الصِّرَاطَ'**: Maximum strength (Jahr + Shiddah + Isti'lā' + Iṭbāq).\n* **Sīn (س) in 'الْمُسْتَقِيمَ'**: Light Istifāl, open Infitāḥ, crisp Ṣafīr, Hams.\n* **Tā' (ت) in 'الْمُسْتَقِيمَ'**: Light Shiddah with subtle Hams breath release.\n* **Qāf (ق) in 'الْمُسْتَقِيمَ'**: Isti'lā' (heaviness softened by Kasrah) + Shiddah + Jahr.",
-            "keyPoints": [
-              "Every Arabic consonant has between 5 and 7 total Sifaat.",
-              "Memorizing the 6 core mnemonics unlocks effortless Tajweed mastery.",
-              "Applying Sifaat in real-time protects every Ayah from meaning corruption and beautifies recitation."
-            ],
-            "audio": {
-              "arabicText": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ • صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
-              "phonetic": "Ihdina-s-Sirata-l-Mustaqim • Sirata-lladhina an'amta 'alayhim",
-              "description": "Sheikh Mahmoud Khalil Al-Husary reciting with pristine Sifaat application."
-            },
-            "examples": [
-              {
-                "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
-                "label": "Surah Al-Fatihah Verse 6",
-                "sound": "Mastery of Hā', Ṣād, Ṭā', Sīn, Tā', and Qāf.",
-                "description": "Listen to the interplay of heavy Ṣād/Ṭā' and light Sīn/Tā'."
-              },
-              {
-                "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
-                "label": "Surah Al-Ikhlas Verse 1",
-                "sound": "Qāf Isti'la + Dāl Qalqalah on Waqf.",
-                "description": "Notice the deep soft-palate Qāf and the resonant Dāl bounce."
-              }
-            ],
-            "practice": "Recite Surah Al-Fatihah from beginning to end. Pay deliberate attention to every heavy letter (خ, ص, ض, غ, ط, ق, ظ) vs light letter, and ensure every Qalqalah bounce on Sukūn is crisp.",
-            "challenge": {
-              "type": "multiple-choice",
-              "title": "Sifaat Comprehensive Mastery Challenge",
-              "question": "A reciter is reciting Surah Al-Fatihah and reads 'الصِّرَاطَ' by making the letter Ṣād (ص) sound light and flat like Sīn (س), and makes Ṭā' (ط) sound like a soft English 'T'. Which critical Sifaat did they neglect?",
-              "arabicPrompt": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
-              "promptTransliteration": "Ihdina-ṣ-Ṣirāṭa-l-Mustaqīm",
-              "soundCue": "Listen to the correct heavy Itbaq on Ṣād and Ṭā' in Al-Sirat",
-              "options": [
-                {
-                  "text": "They neglected Al-Isti'la (tongue elevation) and Al-Itbaq (palatal adhesion) on both Ṣād and Ṭā', reducing heavy palatal letters to light Istifal sounds.",
-                  "arabic": "إِهْمَالُ الاسْتِعْلَاءِ وَالإِطْبَاقِ فِي الصَّادِ وَالطَّاءِ",
-                  "sound": "Neglected Isti'la and Itbaq"
-                },
-                {
-                  "text": "They forgot to hold the Ghunnah for 6 counts on the letter Alif.",
-                  "arabic": "نِسْيَانُ الْغُنَّةِ",
-                  "sound": "Forgotten Ghunnah"
-                },
-                {
-                  "text": "They applied too much Qalqalah to the letter Rā'.",
-                  "arabic": "قَلْقَلَةُ الرَّاءِ",
-                  "sound": "Qalqalah on Ra"
-                },
-                {
-                  "text": "They pronounced Hamzah from the nasal cavity instead of the throat.",
-                  "arabic": "الْهَمْزَةُ مِنَ الْخَيْشُومِ",
-                  "sound": "Hamzah from nose"
-                }
-              ],
-              "correctAnswer": 0,
-              "explanation": "Both Ṣād (ص) and Ṭā' (ط) are letters of Al-Isti'lā' (tongue elevation) and Al-Iṭbāq (palatal adhesion). Pronouncing them without raising the tongue reduces them to Sīn (س) and Tā' (ت), which corrupts the Qur'anic text.",
-              "breakdown": [
-                "Option A is correct: Neglecting Isti'lā' and Iṭbāq on Ṣād and Ṭā' turns 'الصِّرَاطَ' into 'السِّرَاتَ', which is an invalid pronunciation.",
-                "Option B is incorrect: Alif has no Ghunnah; Ghunnah belongs only to Nūn and Mīm.",
-                "Option C is incorrect: Rā' is not a Qalqalah letter.",
-                "Option D is incorrect: Hamzah originates from the deepest throat (Aqṣā al-Ḥalq)."
-              ]
-            }
+            "correctAnswer": 0,
+            "explanation": "Al-Jawf is Taqdīrī (estimated) because the three Madd letters end purely when the exhalation breath finishes, without the tongue, teeth, or lips making physical contact."
           }
-        ]
-      },
-      {
-        "id": "lesson-3",
-        "number": 4,
-        "title": "Core Rules & Principles of Tajweed (أصول وقواعد التجويد)",
-        "subtitle": "Why Tajweed matters, spiritual etiquette, and avoiding clear and hidden recitation errors (Lahn)",
-        "readingTime": "15 min",
-        "videoLesson": {
-          "title": "Basic Tajweed Principles & Beautiful Recitation",
-          "channel": "Arabic 101",
-          "duration": "16:15",
-          "videoId": "5hcc7xpUKnM",
-          "watchUrl": "https://www.youtube.com/watch?v=5hcc7xpUKnM",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/5hcc7xpUKnM",
-          "url": "https://www.youtube-nocookie.com/embed/5hcc7xpUKnM",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Tajweed Foundations",
-          "badge": "Verified Reference Video"
         },
-        "summary": "Understand the definition of Tajweed, its spiritual obligations, and the difference between major (Jali) and minor (Khafi) recitation errors.",
-        "smallLessons": [
-          {
-            "id": "tajweed-ch3-l1",
-            "number": 1,
-            "title": "What Is Tajweed?",
-            "subtitle": "Linguistic and technical definition",
-            "readingTime": "3 min",
-            "explanation": "Linguistically, 'Tajweed' (تَجْوِيد) means to beautify, improve, and make something better. In Islamic terminology, Tajweed is the science of reciting the Holy Qur'an by giving every letter its exact point of articulation (Makhraj) and its rightful permanent and temporary characteristics (Sifat), without exaggeration or deficiency.",
-            "keyPoints": [
-              "Linguistic meaning: Beautification and perfection.",
-              "Technical meaning: Giving each letter its correct Makhraj and Sifat.",
-              "Revealed by Allah and transmitted continuously from Prophet Muhammad ﷺ.",
-              "Goal: Reciting the Qur'an exactly as it was revealed."
-            ],
-            "audio": {
-              "arabicText": "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا",
-              "phonetic": "Wa rattili-l-Qur'ana tarteela",
-              "description": "And recite the Qur'an with measured, beautiful recitation (Surah Al-Muzzammil 73:4)."
-            },
-            "examples": [
-              {
-                "arabic": "تَرْتِيل",
-                "label": "Tarteel",
-                "sound": "Measured, calm, melodious, rule-compliant recitation"
-              }
-            ],
-            "practice": "Reflect on Surah Al-Muzzammil verse 4: 'And recite the Qur'an with measured recitation.'",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What is the technical definition of Tajweed in Qur'anic recitation?",
-              "options": [
-                "Translating Arabic words into another language",
-                "Giving every Arabic letter its rightful articulation point and characteristics",
-                "Memorizing the entire Qur'an without reading",
-                "Writing verses in decorative calligraphy"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Tajweed is the science of giving every single letter its precise articulation point and characteristics."
-            }
+        {
+          "id": "tajweed-ch1-l3",
+          "aliases": [
+            "tajweed-ch2-l3"
+          ],
+          "number": 3,
+          "title": "Zone 2: The Throat (Al-Halq — الحَلْق)",
+          "subtitle": "The 6 throat letters across deep, middle, and upper regions",
+          "readingTime": "6 min",
+          "arabic": "الحَلْقُ",
+          "transliteration": "Al-Halq",
+          "makhraj": "The throat passage, divided vertically into three distinct articulation levels.",
+          "sound": "Deep (ء ، هـ) • Middle (ع ، ح) • Upper (غ ، خ)",
+          "videoLesson": {
+            "videoId": "aTqdzuiLLIA",
+            "title": "Makhraj No 1/17 - Deep Throat: Hamzah (ء) & Ha (هـ)",
+            "channel": "Learn Quran with Hafiz Bilal - ENG",
+            "shortTitle": "1. Deep Throat (ء / هـ)"
           },
-          {
-            "id": "tajweed-ch3-l2",
-            "number": 2,
-            "title": "Major vs Minor Mistakes (Lahn Jali vs Lahn Khafi)",
-            "subtitle": "Categorizing errors and their legal rulings",
-            "readingTime": "4 min",
-            "explanation": "Mistakes in recitation are classified into two categories: 1) Lahn Jali (Obvious/Major Mistake): Changing a letter for another (e.g. pronouncing ت as ط) or changing a vowel (e.g. changing Fat-hah to Dammah), which can alter the divine meaning. This is forbidden (Haram) to commit intentionally. 2) Lahn Khafi (Hidden/Minor Mistake): Imperfections in fine Tajweed rules like shortening Madd or not holding Ghunnah long enough. This is disliked (Makruh) and should be corrected through practice.",
-            "keyPoints": [
-              "Lahn Jali (Major): Changing letters or vowels; alters meaning; strictly forbidden.",
-              "Lahn Khafi (Minor): Sub-optimal timing of Ghunnah or Madd; disliked.",
-              "Beginners must prioritize eliminating Lahn Jali first."
-            ],
-            "audio": {
-              "arabicText": "أَنْعَمْتَ عَلَيْهِمْ",
-              "phonetic": "An'amta 'alayhim (Correct: with Fat-hah on Ta)",
-              "description": "Listen to the correct pronunciation of 'An'amta' in Surah Al-Fatihah."
+          "additionalVideos": [
+            {
+              "videoId": "C-Ww6I5hTG0",
+              "title": "Makhraj No 2/17 - Middle Throat: Ha (ح) & 'Ayn (ع)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "2. Middle Throat (ع / ح)"
             },
-            "examples": [
-              {
-                "arabic": "أَنْعَمْتَ vs أَنْعَمْتُ",
-                "label": "Lahn Jali Example",
-                "sound": "'An'amta' (You bestowed) vs 'An'amtu' (I bestowed - changes meaning completely!)"
-              }
-            ],
-            "practice": "Recite 'أَنْعَمْتَ عَلَيْهِمْ' ensuring the 'تَ' ends with a crisp Fat-hah ('ta', not 'tu').",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What type of recitation mistake is it when someone changes a letter or a vowel mark (e.g. Fat-hah to Dammah)?",
-              "options": [
-                "Lahn Khafi (Minor mistake)",
-                "Lahn Jali (Major obvious mistake)",
-                "Idgham",
-                "Qalqalah"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Changing a letter or vowel is Lahn Jali (Major Mistake) because it can corrupt the theological meaning of the verse."
+            {
+              "videoId": "yOzxCYAEXJI",
+              "title": "Makhraj No 3/17 - Upper Throat: Kha (خ) & Ghayn (غ)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "3. Upper Throat (غ / خ)"
             }
-          },
-          {
-            "id": "tajweed-ch3-l3",
-            "number": 3,
-            "title": "Etiquette of Qur'anic Recitation",
-            "subtitle": "Spiritual readiness, Isti'adhah, and Basmalah",
-            "readingTime": "3 min",
-            "explanation": "Before beginning recitation, a learner should observe the sacred etiquette: 1) Be in a state of physical purity (Wudu). 2) Recite in a clean, quiet environment. 3) Seek refuge in Allah from Satan by reciting Isti'adhah (أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ). 4) Begin in the name of Allah with Basmalah (بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ).",
-            "keyPoints": [
-              "Physical cleanliness and Wudu before touching the Mushaf.",
-              "Isti'adhah: Seeking protection from distraction before starting.",
-              "Basmalah: Commencing every Surah (except Surah At-Tawbah).",
-              "Reciting with contemplation (Tadabbur) and humility."
-            ],
-            "audio": {
-              "arabicText": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
-              "phonetic": "A'oodhu billahi mina-sh-Shaytani-r-Rajeem",
-              "description": "Listen to the classical Isti'adhah formula."
+          ],
+          "explanation": "The throat (Al-Halq — الحَلْق) contains **3 specific articulation points** producing **6 consonants**, arranged vertically from deepest (closest to the chest) to highest (closest to the mouth):\n\n### 1. Deepest Throat (أَقْصَى الحَلْقِ — Aqsā al-Halq)\n- **Location:** The vocal cords (glottis), deepest part of the throat nearest the chest.\n- **Letters:** **Hamzah (ء)** and **Hā' (هـ)**.\n- **Acoustic Feel:** Hamzah forms with complete glottal closure when Sakinah (`يَأْكُلُونَ`). Hā' forms with open vocal cords allowing soft breath flow (`اهْدِنَا`).\n\n### 2. Middle Throat (وَسَطُ الحَلْقِ — Wasat al-Halq)\n- **Location:** The epiglottis and pharynx wall.\n- **Letters:** **'Ayn (ع)** and **Ḥā' (ح)**.\n- **Acoustic Feel:** 'Ayn requires the epiglottis to pull backward toward the pharyngeal wall, creating deep compression without choking. Ḥā' produces pure, clean breath friction across the epiglottis (`الرَّحْمَٰنِ`).\n\n### 3. Closest Throat (أَدْنَى الحَلْقِ — Adnā al-Halq)\n- **Location:** The upper throat at the root of the tongue / uvula area.\n- **Letters:** **Ghayn (غ)** and **Khā' (خ)**.\n- **Acoustic Feel:** Both are heavy (*Musta'liyah*) letters. Ghayn has voiced friction like gargling (`غَيْرِ`). Khā' has unvoiced rough friction (`خَالِدِينَ`).",
+          "keyPoints": [
+            "Al-Halq has 3 specific points producing 6 letters: Deep (ء / هـ), Middle (ع / ح), Upper (غ / خ).",
+            "All 6 throat letters are the letters of Clear Pronunciation (Izhar Halqi) when following Noon Sakinah.",
+            "Ghayn and Khā' are inherently heavy (elevated back of tongue), while the other four are light.",
+            "Do not substitute Hā' (هـ) for Ḥā' (ح), or Hamzah (ء) for 'Ayn (ع)."
+          ],
+          "examples": [
+            {
+              "arabic": "يَأْكُلُونَ",
+              "transliteration": "Ya'kulūn",
+              "label": "Hamzah (ء) - Glottal stop",
+              "sound": "Ya-ku-loon"
             },
-            "examples": [
-              {
-                "arabic": "أَعُوذُ بِاللَّهِ",
-                "label": "Isti'adhah",
-                "sound": "A'oodhu billahi..."
-              }
-            ],
-            "practice": "Recite the Isti'adhah followed immediately by the Basmalah with calm focus.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which Surah in the Holy Qur'an is recited without the opening Basmalah?",
-              "options": [
-                "Surah Al-Fatihah",
-                "Surah Al-Baqarah",
-                "Surah At-Tawbah (Surah 9)",
-                "Surah Al-Ikhlas"
-              ],
-              "correctAnswer": 2,
-              "explanation": "Surah At-Tawbah (Surah 9) is the only Surah in the Holy Qur'an that does not start with Basmalah."
-            }
-          },
-          {
-            "id": "tajweed-ch3-l4",
-            "number": 4,
-            "title": "Chapter 3 Review & Foundations Checkpoint",
-            "subtitle": "Summary of principles, rules, and recitation etiquette",
-            "readingTime": "3 min",
-            "explanation": "Tajweed combines heart, mind, and physical vocal precision. Having grounded yourself in the definition, importance, error avoidance, and recitation etiquette, you are fully prepared to dive into the core acoustic rules starting with Noon Sakinah and Tanween.",
-            "keyPoints": [
-              "Tajweed beautifies recitation and safeguards the sacred text.",
-              "Always eliminate letter and vowel substitutions first.",
-              "Keep an attentive ear and repeat after qualified reciters."
-            ],
-            "audio": {
-              "arabicText": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
-              "phonetic": "Bismillahi-r-Rahmani-r-Rahim",
-              "description": "Listen to the Basmalah recited with measured Tajweed."
+            {
+              "arabic": "اهْدِنَا",
+              "transliteration": "Ihdinā",
+              "label": "Hā' (هـ) - Deep throat breath flow",
+              "sound": "Ih-di-naa"
             },
-            "examples": [
-              {
-                "arabic": "رَتِّلْ",
-                "label": "Command",
-                "sound": "Recite with slow, melodious measurement"
-              }
-            ],
-            "practice": "Recite the opening verses of Surah Al-Fatihah applying calm, deliberate pronunciation.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What is the primary spiritual and practical goal of studying Tajweed?",
-              "options": [
-                "To recite the Qur'an as fast as possible",
-                "To recite the Qur'an accurately and beautifully as it was revealed",
-                "To learn grammar rules only",
-                "To change the pronunciation of old words"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The ultimate purpose of Tajweed is to recite the Qur'an accurately and beautifully exactly as it was revealed to Prophet Muhammad ﷺ."
+            {
+              "arabic": "عَلِيمٌ",
+              "transliteration": "'Alīm",
+              "label": "'Ayn (ع) - Pharyngeal compression",
+              "sound": "A-leem"
+            },
+            {
+              "arabic": "الرَّحْمَٰنِ",
+              "transliteration": "Ar-Raḥmān",
+              "label": "Ḥā' (ح) - Middle throat breath friction",
+              "sound": "Ar-Rah-maan"
+            },
+            {
+              "arabic": "غَفُورٌ",
+              "transliteration": "Ghafūr",
+              "label": "Ghayn (غ) - Upper throat heavy voiced friction",
+              "sound": "Gha-foor"
+            },
+            {
+              "arabic": "خَالِدِينَ",
+              "transliteration": "Khālidīn",
+              "label": "Khā' (خ) - Upper throat heavy unvoiced friction",
+              "sound": "Khaa-li-deen"
             }
+          ],
+          "practice": "Contrast the deep throat Hā' (هـ) in \"اهْدِنَا\" with the crisp middle throat Ḥā' (ح) in \"الرَّحْمَٰنِ\".",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which pair of letters emerges from the middle throat (وَسَطُ الحَلْقِ)?",
+            "options": [
+              "'Ayn (ع) and Ḥā' (ح)",
+              "Hamzah (ء) and Hā' (هـ)",
+              "Ghayn (غ) and Khā' (خ)",
+              "Qāf (ق) and Kāf (ك)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The middle throat (Wasat al-Halq) produces 'Ayn (ع) and Ḥā' (ح) at the epiglottis."
           }
-        ],
-        "aliases": [
-          "lesson-3",
-          "lesson-4"
-        ]
-      },
-      {
-        "id": "lesson-4",
-        "number": 5,
-        "title": "Ahkam Al-Noon Al-Sakinah & Tanween (أحكام النون الساكنة والتنوين)",
-        "subtitle": "The 4 foundational rules: Izhar, Idgham, Iqlab, and Ikhfa with precise ghunnah timing",
-        "readingTime": "24 min",
-        "videoLesson": {
-          "title": "Rules of Noon Sakinah & Tanween (Izhar, Idgham, Iqlab, Ikhfa)",
-          "channel": "Understand Al-Quran Official",
-          "duration": "15:40",
-          "videoId": "GpeXkOLDXZw",
-          "watchUrl": "https://www.youtube.com/watch?v=GpeXkOLDXZw",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/GpeXkOLDXZw",
-          "url": "https://www.youtube-nocookie.com/embed/GpeXkOLDXZw",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Rules of Noon Sakinah",
-          "badge": "Verified Reference Video"
         },
-        "summary": "Master the 4 universal rules governing unvoweled Noon (نْ) and double vowel endings (ً ٍ ٌ).",
-        "smallLessons": [
-          {
-            "id": "tajweed-ch4-l1",
-            "number": 1,
-            "title": "What Is Noon Sakinah and Tanween?",
-            "subtitle": "The unvoweled Noon and double vowels",
-            "readingTime": "3 min",
-            "explanation": "Noon Sakinah (نْ) is a permanent Noon letter with a Sukoon (no vowel) that is written and pronounced in words and nouns. Tanween (ً ٍ ٌ) is a double vowel (Fathatayn, Kasratayn, Dammatayn) occurring at the end of nouns that sounds phonetically like a Noon Sakinah when spoken, but is not written as a letter 'ن'. Both share the exact same 4 Tajweed rules based on the letter that follows them.",
-            "keyPoints": [
-              "Noon Sakinah (نْ): A silent Noon with a Sukoon.",
-              "Tanween (ً ٍ ٌ): Double vowels that produce an 'N' sound when recited.",
-              "Both follow 4 rules: Izhar, Idgham, Iqlab, Ikhfa.",
-              "The rule is determined by the first letter of the following word or syllable."
-            ],
-            "audio": {
-              "arabicText": "مِنْ - كِتَابٌ - رَحِيمًا - يَوْمٍ",
-              "phonetic": "Min, Kitābun, Rahīman, Yawmin",
-              "description": "Listen to Noon Sakinah and the 3 forms of Tanween."
-            },
-            "examples": [
-              {
-                "arabic": "مِنْ",
-                "label": "Noon Sakinah",
-                "sound": "Min (silent Noon with Sukoon)"
-              },
-              {
-                "arabic": "عَلِيمٌ",
-                "label": "Tanween Dammah",
-                "sound": "'Aleemun (produces 'un' sound)"
-              },
-              {
-                "arabic": "غَفُورًا",
-                "label": "Tanween Fat-hah",
-                "sound": "Ghafooran (produces 'an' sound)"
-              }
-            ],
-            "practice": "Identify the Noon Sakinah in 'مِنْ قَبْلُ' and the Tanween in 'سَمِيعٌ عَلِيمٌ'.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "How many Tajweed rules apply to Noon Sakinah and Tanween?",
-              "options": [
-                "2 rules",
-                "4 rules (Izhar, Idgham, Iqlab, Ikhfa)",
-                "6 rules",
-                "8 rules"
-              ],
-              "correctAnswer": 1,
-              "explanation": "There are 4 rules governing Noon Sakinah and Tanween: Izhar, Idgham, Iqlab, and Ikhfa."
-            }
+        {
+          "id": "tajweed-ch1-l4",
+          "aliases": [
+            "tajweed-ch2-l4"
+          ],
+          "number": 4,
+          "title": "Zone 3: The Tongue Part 1 — Deep & Middle Tongue (اللِّسَان)",
+          "subtitle": "Soft palate, hard palate, and molar edge articulation points",
+          "readingTime": "7 min",
+          "arabic": "اللِّسَانُ (أَقْصَى وَوَسَطُ وَحَافَةُ اللِّسَان)",
+          "transliteration": "Al-Lisān (Part 1)",
+          "makhraj": "Posterior root, dorsal center, and lateral edges of the tongue.",
+          "sound": "Deep: Qāf (ق) • Kāf (ك) | Middle: Jīm, Shīn, Yā' (ج ، ش ، ي) | Edges: Ḍād (ض) • Lām (ل)",
+          "videoLesson": {
+            "videoId": "Ofq57gASCgY",
+            "title": "Makhraj No 4/17 - Makhraj of Qaaf (ق)",
+            "channel": "Learn Quran with Hafiz Bilal - ENG",
+            "shortTitle": "Makhraj 4: Qaf (ق)"
           },
-          {
-            "id": "tajweed-ch4-l2",
-            "number": 2,
-            "title": "Rule 1: Izhar (Clarity)",
-            "subtitle": "Pronouncing Noon with crisp clarity before 6 throat letters",
-            "readingTime": "4 min",
-            "explanation": "Izhar (إِظْهَار) literally means 'to make clear'. When a Noon Sakinah or Tanween is followed by any of the 6 throat letters (ء , هـ , ع , ح , غ , خ), the Noon sound must be pronounced clearly and crisply from its tongue tip Makhraj without any extra nasal elongation (Ghunnah).",
-            "keyPoints": [
-              "Izhar letters: The 6 throat letters (ء , هـ , ع , ح , غ , خ).",
-              "Pronounce the Noon clearly and distinctly.",
-              "Do NOT merge, hide, or hold an extended Ghunnah.",
-              "Known as 'Izhar Halqi' (Throat Clarity)."
-            ],
-            "audio": {
-              "arabicText": "مَنْ آمَنَ - مِنْ خَوْفٍ - سَمِيعٌ عَلِيمٌ - أَنْعَمْتَ",
-              "phonetic": "Man aamana | Min khawf | Samee'un 'aleem | An'amta",
-              "description": "Listen to the crisp, clear Izhar pronunciation before throat letters."
+          "additionalVideos": [
+            {
+              "videoId": "aNVHdXdprqc",
+              "title": "Makhraj No 5/17 - Makhraj of Kaaf (ك)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Makhraj 5: Kaf (ك)"
             },
-            "examples": [
-              {
-                "arabic": "مَنْ آمَنَ",
-                "label": "Noon before Hamzah (ء)",
-                "sound": "Man aamana (clean N sound)"
-              },
-              {
-                "arabic": "سَمِيعٌ عَلِيمٌ",
-                "label": "Tanween before 'Ayn (ع)",
-                "sound": "Samee'un 'Aleem"
-              },
-              {
-                "arabic": "مِنْ خَوْفٍ",
-                "label": "Noon before Kha (خ)",
-                "sound": "Min khawf"
-              }
-            ],
-            "practice": "Recite 'أَنْعَمْتَ' in Surah Al-Fatihah, pronouncing the 'نْ' cleanly before 'ع'.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which 6 letters cause the rule of Izhar Halqi (Clarity) when following Noon Sakinah?",
-              "options": [
-                "ب , ت , ث , ج , ح , خ",
-                "ء , هـ , ع , ح , غ , خ (The 6 throat letters)",
-                "ي , ر , م , ل , و , ن (Yarmaloon)",
-                "ق , ط , ب , ج , د (Qutb Jad)"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The 6 throat letters (ء, هـ, ع, ح, غ, خ) trigger Izhar Halqi."
-            }
-          },
-          {
-            "id": "tajweed-ch4-l3",
-            "number": 3,
-            "title": "Rule 2: Idgham (Merging)",
-            "subtitle": "Merging Noon into the letters of 'Yarmaloon' (ي ر م ل و ن)",
-            "readingTime": "4 min",
-            "explanation": "Idgham (إِدْغَام) means 'to merge or assimilate'. When Noon Sakinah or Tanween is followed by any of the 6 letters of Yarmaloon (يَرْمَلُون: ي , ر , م , ل , و , ن), the Noon is merged into the following letter. It is divided into: 1) Idgham with Ghunnah (Bi Ghunnah - 4 letters: ي , ن , م , و / YANMU): merge with 2-count nasal hum. 2) Idgham without Ghunnah (Bila Ghunnah - 2 letters: ل , ر): merge completely with zero nasal hum.",
-            "keyPoints": [
-              "6 Idgham letters combined in the phrase: يَرْمَلُون (Yarmaloon).",
-              "With Ghunnah (YANMU - ي ن م و): Merge with 2-count nasal resonance.",
-              "Without Ghunnah (ل and ر): Merge completely (e.g. 'Mir-Rabbihim').",
-              "Idgham only occurs between TWO separate words."
-            ],
-            "audio": {
-              "arabicText": "مَن يَقُولُ - مِّن وَالٍ - مِّن رَّبِّهِمْ - هُدًى لِّلْمُتَّقِينَ",
-              "phonetic": "May-yaqoolu | Miw-waal | Mir-Rabbihim | Hudal-lil-muttaqeen",
-              "description": "Listen to Idgham with Ghunnah and Idgham without Ghunnah."
+            {
+              "videoId": "ZE02lSmD5YI",
+              "title": "Makhraj No 6 - 17 - Makhraj of Jeem, Sheen and Yaa (ج، ش، ي)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Makhraj 6: Jim, Shin, Ya"
             },
-            "examples": [
-              {
-                "arabic": "مَن يَقُولُ",
-                "label": "Idgham with Ghunnah (ي)",
-                "sound": "May-yaqoolu (Noon becomes Ya with nasal hum)"
-              },
-              {
-                "arabic": "مِّن رَّبِّهِمْ",
-                "label": "Idgham without Ghunnah (ر)",
-                "sound": "Mir-Rabbihim (Noon transforms completely into R)"
-              }
-            ],
-            "practice": "Recite 'مَن يَعْمَلْ' as 'May-ya'mal' holding the nasal hum for 2 counts.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which two letters trigger Idgham WITHOUT Ghunnah (complete merging with no nasal hum)?",
-              "options": [
-                "Ya and Waw (ي , و)",
-                "Lam and Ra (ل , ر)",
-                "Nun and Meem (ن , م)",
-                "Kaf and Qaf (ك , ق)"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Lam (ل) and Ra (ر) trigger Idgham Bila Ghunnah (merging without nasal resonance)."
-            }
-          },
-          {
-            "id": "tajweed-ch4-l4",
-            "number": 4,
-            "title": "Rule 3: Iqlab (Conversion)",
-            "subtitle": "Converting Noon into Meem before letter Ba (ب)",
-            "readingTime": "3 min",
-            "explanation": "Iqlab (إِقْلَاب) means 'to convert or transform'. When a Noon Sakinah or Tanween is followed by the single letter Ba (ب), the Noon is transformed into a hidden Meem (م) with a 2-count Ghunnah. In printed Mushafs, a small miniature Meem (مـ) is placed above the Noon or Tanween to indicate Iqlab.",
-            "keyPoints": [
-              "Iqlab has only ONE letter: Ba (ب).",
-              "Transform the 'N' sound into a 'M' sound.",
-              "Hold a 2-count Ghunnah with relaxed lips.",
-              "Indicated by a small 'م' written above the letter in the Qur'an."
-            ],
-            "audio": {
-              "arabicText": "مِـن بَعْدِ - أَنۢبِئْهُم - عَلِيمٌۢ بِذَاتِ",
-              "phonetic": "Mim-ba'd | Ambi'hum | 'Aleemum-bi-dhaat",
-              "description": "Listen to the transformation of Noon into Meem before Ba."
+            {
+              "videoId": "3EjM7Gz4VRI",
+              "title": "Makhraj No 7/17 - Makhraj of Daad (ض)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Makhraj 7: Dad (ض)"
             },
-            "examples": [
-              {
-                "arabic": "مِـن بَعْدِ",
-                "label": "Pronounced",
-                "sound": "'Mim-ba'd' (not Min-ba'd)"
-              },
-              {
-                "arabic": "سَمِيعٌۢ بَصِيرٌ",
-                "label": "Tanween Iqlab",
-                "sound": "Samee'um-Baseer"
-              }
-            ],
-            "practice": "Recite 'مِنْ بَعْدِ' ensuring your lips touch gently as a Meem with 2-count Ghunnah.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which single letter triggers the rule of Iqlab (Conversion)?",
-              "options": [
-                "Meem (م)",
-                "Ba (ب)",
-                "Alif (ا)",
-                "Fa (ف)"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Ba (ب) is the only letter that triggers Iqlab, converting the Noon into a Meem."
+            {
+              "videoId": "PUiqnHsUV-w",
+              "title": "Makhraj No 8/17 - Makhraj of Laam (ل)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Makhraj 8: Lam (ل)"
             }
-          },
-          {
-            "id": "tajweed-ch4-l5",
-            "number": 5,
-            "title": "Rule 4: Ikhfa (Concealment)",
-            "subtitle": "Hiding Noon before the remaining 15 letters",
-            "readingTime": "4 min",
-            "explanation": "Ikhfa (إِخْفَاء) means 'to conceal or hide'. When Noon Sakinah or Tanween is followed by any of the remaining 15 Arabic letters, the Noon is concealed—pronounced halfway between Izhar and Idgham with a 2-count Ghunnah. The tongue prepares near the Makhraj of the upcoming letter. The 15 letters are the first letters in the famous poem line: صِفْ ذَا ثَنَا كَمْ جَادَ شَخْصٌ قَدْ سَمَا دُمْ طَيِّبًا زِدْ فِي تُقًى ضَعْ ظَالِمًا.",
-            "keyPoints": [
-              "15 Ikhfa letters: ص ذ ث ك ج ش ق س د ط ز ف ت ض ظ.",
-              "Pronounce halfway between Izhar and Idgham with 2-count Ghunnah.",
-              "Heavy Ikhfa before heavy letters (ص ض ط ظ ق).",
-              "Light Ikhfa before light letters (the remaining 10 letters)."
-            ],
-            "audio": {
-              "arabicText": "مِن قَبْلُ - كُنتُمْ - أَنفُسَكُمْ - رِجَالًا كَثِيرًا",
-              "phonetic": "Min-qablu | Kuntum | Anfusakum | Rijaalan-katheera",
-              "description": "Listen to the concealed nasal sound of Ikhfa before various letters."
+          ],
+          "explanation": "The tongue (Al-Lisān — اللِّسَان) is the largest and most versatile articulation zone, producing **18 letters** across **10 specific points**. In this lesson, we master the posterior, central, and lateral points:\n\n### 1. Deepest Tongue at Soft Palate (أَقْصَى اللِّسَان مَعَ الحَنَك اللَّحْمِي)\n- **Makhraj 4:** **Qāf (ق)**.\n- Deepest root of the tongue raises against the soft palate (near uvula).\n- **Key Note:** It is a tongue letter, *not* a throat letter! It is intensely heavy (*Musta'liyah*) with Qalqalah on Sukoon (`أَقْ`).\n\n### 2. Deepest Tongue at Hard/Soft Junction (أَقْصَى اللِّسَان مَعَ الحَنَك اللَّحْمِي وَالعَظْمِي)\n- **Makhraj 5:** **Kāf (ك)**.\n- Positioned slightly forward from Qāf toward the mouth, contacting both the soft and hard palate.\n- **Key Note:** Light (*Mustafilah*) and characterized by a crisp puff of air (*Hams*) on Sukoon (`أَكْ`).\n\n### 3. Middle Tongue (وَسَطُ اللِّسَان — Ash-Shajariyyah)\n- **Makhraj 6:** **Jīm (ج)**, **Shīn (ش)**, and non-Madd **Yā' (ي)**.\n- Center of the tongue raises toward the roof (hard palate):\n  - **Jīm (ج):** Complete closure blocking sound, then release with Qalqalah.\n  - **Shīn (ش):** Incomplete closure with wide airflow spreading throughout the mouth (*Tafashshī*).\n  - **Yā' (ي):** Sound channel remains open with melodic vowel resonance.\n\n### 4. Lateral Edges of the Tongue (حَافَةُ اللِّسَان)\n- **Makhraj 7:** **Ḍād (ض)**.\n  - One or both lateral edges of the tongue pressed against the upper molars with sound prolongation (*Istīṭālah*).\n- **Makhraj 8:** **Lām (ل)**.\n  - The front edges of the tongue to the gums of the upper front teeth. Broadest contact area of any letter.",
+          "keyPoints": [
+            "Qāf (ق) is an anatomical tongue letter at the soft palate, never a throat letter.",
+            "Kāf (ك) is situated just below Qāf and features Hams (breath release) on Sukoon.",
+            "Middle tongue letters (Shajariyyah) are Jīm, Shīn, and Yā'.",
+            "Ḍād (ض) articulates from the lateral tongue edge against the upper molars with Istiṭālah."
+          ],
+          "examples": [
+            {
+              "arabic": "الْحَقُّ",
+              "transliteration": "Al-Haqqu",
+              "label": "Qāf (ق) - Deep tongue at soft palate",
+              "sound": "Al-Haqq"
             },
-            "examples": [
-              {
-                "arabic": "كُنتُمْ",
-                "label": "Ikhfa before Ta",
-                "sound": "Kun-tum (light nasal concealment)"
-              },
-              {
-                "arabic": "مِن قَبْلُ",
-                "label": "Ikhfa before Qaf",
-                "sound": "Min-qablu (deep, heavy nasal concealment)"
-              }
-            ],
-            "practice": "Recite 'مِن دُونِ' (Min dooni) with light Ikhfa and 'مِن قَبْلِ' (Min qabli) with heavy Ikhfa.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "How many letters trigger the rule of Ikhfa (Concealment)?",
-              "options": [
-                "6 letters",
-                "15 letters",
-                "4 letters",
-                "1 letter"
-              ],
-              "correctAnswer": 1,
-              "explanation": "There are 15 letters that trigger Ikhfa (all letters remaining after Izhar, Idgham, and Iqlab)."
-            }
-          },
-          {
-            "id": "tajweed-ch4-l6",
-            "number": 6,
-            "title": "Chapter 4 Review & Noon Sakinah Mastery Challenge",
-            "subtitle": "Distinguishing all 4 rules in real Qur'anic verses",
-            "readingTime": "4 min",
-            "explanation": "You have now mastered the 4 universal rules of Noon Sakinah & Tanween: 1) Izhar (6 throat letters), 2) Idgham (6 Yarmaloon letters), 3) Iqlab (1 letter: Ba), and 4) Ikhfa (15 remaining letters). Totaling all 28 letters of the Arabic alphabet!",
-            "keyPoints": [
-              "Izhar = 6 throat letters (ء هـ ع ح غ خ)",
-              "Idgham = 6 letters (ي ر م ل و ن)",
-              "Iqlab = 1 letter (ب)",
-              "Ikhfa = 15 remaining letters",
-              "6 + 6 + 1 + 15 = 28 letters accounted for!"
-            ],
-            "audio": {
-              "arabicText": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ",
-              "phonetic": "Fa-may-ya'mal mithqaala dharratin khayray-yarah",
-              "description": "Listen to Surah Az-Zalzalah demonstrating Idgham, Izhar, and Tanween."
+            {
+              "arabic": "الْمُلْكُ",
+              "transliteration": "Al-Mulku",
+              "label": "Kāf (ك) - Deep tongue at hard palate junction with Hams",
+              "sound": "Al-Mulk"
             },
-            "examples": [
-              {
-                "arabic": "ذَرَّةٍ خَيْرًا",
-                "label": "Izhar",
-                "sound": "Dharratin khayra (clean Tanween before Kha)"
-              },
-              {
-                "arabic": "خَيْرًا يَرَهُ",
-                "label": "Idgham with Ghunnah",
-                "sound": "Khayray-yarah (Tanween merges into Ya)"
-              }
-            ],
-            "practice": "Identify the 2 Tajweed rules in 'ذَرَّةٍ خَيْرًا يَرَهُ' (Izhar then Idgham).",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "In the phrase 'مِن بَعْدِ', which Tajweed rule must be applied?",
-              "options": [
-                "Izhar",
-                "Idgham",
-                "Iqlab (converting Noon to Meem)",
-                "Ikhfa"
-              ],
-              "correctAnswer": 2,
-              "explanation": "'مِن بَعْدِ' is Iqlab because Noon Sakinah is followed by the letter Ba (ب)."
+            {
+              "arabic": "الْفَجْرِ",
+              "transliteration": "Al-Fajr",
+              "label": "Jīm (ج) - Center tongue complete closure",
+              "sound": "Al-Fajr"
+            },
+            {
+              "arabic": "الشَّمْسُ",
+              "transliteration": "Ash-Shams",
+              "label": "Shīn (ش) - Center tongue with Tafashshī",
+              "sound": "Ash-Shams"
+            },
+            {
+              "arabic": "وَلاَ الضَّالِّينَ",
+              "transliteration": "Wa-laḍ-Ḍāllīn",
+              "label": "Ḍād (ض) - Molar edges with Istiṭālah",
+              "sound": "Wa lad-daal-leen"
             }
+          ],
+          "practice": "Pronounce \"أَقْ\" vs \"أَكْ\". Feel how Qāf contacts the soft uvular palate while Kāf strikes further forward on the hard bone.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the anatomical difference in the articulation of Qāf (ق) versus Kāf (ك)?",
+            "options": [
+              "Qāf strikes the soft palate alone, while Kāf strikes slightly forward on the hard/soft palate junction",
+              "Qāf is from the throat, while Kāf is from the tongue",
+              "Qāf is produced by the lips, while Kāf is produced by the teeth",
+              "Both letters share the exact same articulation point with no difference"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Qāf is articulated from the deepest tongue contacting the soft palate, while Kāf is slightly lower/forward contacting the hard-soft palatal junction."
           }
-        ],
-        "aliases": [
-          "lesson-4",
-          "lesson-5"
-        ]
-      },
-      {
-        "id": "lesson-5",
-        "number": 6,
-        "title": "Ahkam Al-Meem Al-Sakinah (أحكام الميم الساكنة)",
-        "subtitle": "The 3 core oral rules: Ikhfa Shafawi, Idgham Shafawi, and Izhar Shafawi",
-        "readingTime": "18 min",
-        "videoLesson": {
-          "title": "Rules of Meem Sakinah (Ikhfa, Idgham & Izhar Shafawi)",
-          "channel": "Yusuf Ashraf - Arabic Guru",
-          "duration": "11:50",
-          "videoId": "sbYE5wmNiAk",
-          "watchUrl": "https://www.youtube.com/watch?v=sbYE5wmNiAk",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
-          "url": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Rules of Meem Sakinah",
-          "badge": "Verified Reference Video"
         },
-        "summary": "Master the 3 rules governing unvoweled silent Meem (مْ): Labial Concealment, Merging, and Clarity.",
-        "smallLessons": [
-          {
-            "id": "tajweed-ch5-l1",
-            "number": 1,
-            "title": "Introduction to Meem Sakinah",
-            "subtitle": "The unvoweled Meem and its 3 rules",
-            "readingTime": "3 min",
-            "explanation": "Meem Sakinah (مْ) is a Meem with a Sukoon (free of vowels). It has only 3 simple rules: 1) Ikhfa Shafawi (before Ba ب), 2) Idgham Shafawi (before another Meem م), 3) Izhar Shafawi (before all other 26 letters). The word 'Shafawi' means 'of the lips' because Meem is articulated from the lips.",
-            "keyPoints": [
-              "Meem Sakinah (مْ) = Silent Meem without vowel.",
-              "Only 3 rules: Ikhfa Shafawi, Idgham Shafawi, Izhar Shafawi.",
-              "Named 'Shafawi' because the Makhraj is Ash-Shafatan (the lips)."
-            ],
-            "audio": {
-              "arabicText": "عَلَيْهِمْ - تَرْمِيهِم بِحِجَارَةٍ - لَهُم مَّا يَشَاءُونَ",
-              "phonetic": "Alayhim | Tarmeehim bi-hijarah | Lahum-maa yashaa'oon",
-              "description": "Listen to Meem Sakinah across its 3 rules."
-            },
-            "examples": [
-              {
-                "arabic": "أَلَمْ تَرَ",
-                "label": "Izhar Shafawi",
-                "sound": "Alam tara (clear Meem before Ta)"
-              }
-            ],
-            "practice": "Inspect how many Meem Sakinahs appear in Surah Al-Fil.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "How many rules govern Meem Sakinah (silent Meem)?",
-              "options": [
-                "2 rules",
-                "3 rules (Ikhfa Shafawi, Idgham Shafawi, Izhar Shafawi)",
-                "4 rules",
-                "6 rules"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Meem Sakinah has 3 rules: Ikhfa Shafawi, Idgham Shafawi, and Izhar Shafawi."
-            }
+        {
+          "id": "tajweed-ch1-l5",
+          "aliases": [
+            "tajweed-ch2-l5"
+          ],
+          "number": 5,
+          "title": "Zone 3: The Tongue Part 2 — Tongue Tip Letters (طَرَف اللِّسَان)",
+          "subtitle": "Incisors, dental roots, and sibilant whistle articulation",
+          "readingTime": "7 min",
+          "arabic": "طَرَفُ اللِّسَانِ",
+          "transliteration": "Taraf al-Lisān",
+          "makhraj": "The anterior tip of the tongue contacting the gums, teeth roots, and incisors.",
+          "sound": "Nūn (ن) • Rā' (ر) • Nat'iyyah (ط ، د ، ت) • Lithawiyyah (ظ ، ذ ، ث) • Asaliyyah (ص ، ز ، س)",
+          "videoLesson": {
+            "videoId": "qFIxQYYiT4I",
+            "title": "Makhraj No 9/17 - Makhraj of Noon (ن)",
+            "channel": "Learn Quran with Hafiz Bilal - ENG",
+            "shortTitle": "Makhraj 9: Noon (ن)"
           },
-          {
-            "id": "tajweed-ch5-l2",
-            "number": 2,
-            "title": "Rule 1: Ikhfa Shafawi (Labial Concealment)",
-            "subtitle": "Concealing Meem before letter Ba (ب)",
-            "readingTime": "3 min",
-            "explanation": "When Meem Sakinah (مْ) is followed by the single letter Ba (ب), it is concealed with a 2-count Ghunnah by gently bringing the lips together without pressing them tightly shut.",
-            "keyPoints": [
-              "Single letter: Ba (ب).",
-              "Hold 2-count nasal Ghunnah with relaxed lips.",
-              "Example: تَرْمِيهِم بِحِجَارَةٍ (Tarmeehim bi-hijarah)."
-            ],
-            "audio": {
-              "arabicText": "تَرْمِيهِم بِحِجَارَةٍ - يَعْتَصِم بِاللَّهِ",
-              "phonetic": "Tarmeehim bi-hijarah | Ya'tasim billah",
-              "description": "Listen to Ikhfa Shafawi with relaxed lip closure."
+          "additionalVideos": [
+            {
+              "videoId": "hFiGXkUZosI",
+              "title": "Makhraj No 10/17 - Makhraj of Raa (ر)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Makhraj 10: Ra (ر)"
             },
-            "examples": [
-              {
-                "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
-                "label": "Ikhfa Shafawi",
-                "sound": "Tarmeehimmm-bi-hijarah"
-              }
-            ],
-            "practice": "Recite 'تَرْمِيهِم بِحِجَارَةٍ' in Surah Al-Fil with gentle lip touch and 2 counts of Ghunnah.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which letter triggers Ikhfa Shafawi when following Meem Sakinah?",
-              "options": [
-                "Meem (م)",
-                "Ba (ب)",
-                "Waw (و)",
-                "Fa (ف)"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Ba (ب) is the only letter that triggers Ikhfa Shafawi for Meem Sakinah."
-            }
-          },
-          {
-            "id": "tajweed-ch5-l3",
-            "number": 3,
-            "title": "Rule 2: Idgham Shafawi (Labial Merging)",
-            "subtitle": "Merging Meem into another Meem (م)",
-            "readingTime": "3 min",
-            "explanation": "When Meem Sakinah (مْ) is followed by another voweled Meem (م), the first Meem merges completely into the second, forming a single Meem with Shaddah (مّ) and a 2-count Ghunnah.",
-            "keyPoints": [
-              "Single letter: Meem (م).",
-              "Produces Meem Mushaddadah (مّ) with 2-count Ghunnah.",
-              "Also called Idgham Mithlayn Sagheer (Merging of Identical Letters)."
-            ],
-            "audio": {
-              "arabicText": "لَهُم مَّا يَشَاءُونَ - كُنتُم مُّؤْمِنِينَ",
-              "phonetic": "Lahum-maa yashaa'oon | Kuntum-mu'mineen",
-              "description": "Listen to Idgham Shafawi merging two Meems seamlessly."
+            {
+              "videoId": "ysHW4yVx7h4",
+              "title": "Makhraj No 11/17 - Makhraj of Taa, Daal and Tua (ط، د، ت)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Makhraj 11: Ta, Daal, Tua"
             },
-            "examples": [
-              {
-                "arabic": "لَهُم مَّا",
-                "label": "Pronounced",
-                "sound": "Lahum-maa (merged with 2-count hum)"
-              }
-            ],
-            "practice": "Recite 'فِي قُلُوبِهِم مَّرَضٌ' merging the two Meems with 2-count Ghunnah.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What rule occurs when Meem Sakinah is followed by another Meem?",
-              "options": [
-                "Izhar Shafawi",
-                "Idgham Shafawi (Labial Merging with Ghunnah)",
-                "Iqlab",
-                "Qalqalah"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Meem Sakinah followed by Meem results in Idgham Shafawi with a 2-count Ghunnah."
-            }
-          },
-          {
-            "id": "tajweed-ch5-l4",
-            "number": 4,
-            "title": "Rule 3: Izhar Shafawi (Labial Clarity)",
-            "subtitle": "Clear Meem before the remaining 26 letters",
-            "readingTime": "3 min",
-            "explanation": "When Meem Sakinah (مْ) is followed by any of the remaining 26 Arabic letters (everything except Ba and Meem), the Meem is pronounced clearly without holding extra Ghunnah. Be especially careful when Meem is followed by Waw (و) or Fa (ف) not to hide the Meem due to their shared lip Makhraj!",
-            "keyPoints": [
-              "26 letters trigger Izhar Shafawi.",
-              "Pronounce Meem clearly with no extra delay.",
-              "Special caution before Waw (و) and Fa (ف): Keep Meem distinct!"
-            ],
-            "audio": {
-              "arabicText": "عَلَيْهِمْ غَيْرِ - أَنعَمْتَ عَلَيْهِمْ - لَمْ يَلِدْ",
-              "phonetic": "Alayhim ghayri | An'amta 'alayhim | Lam yalid",
-              "description": "Listen to clear, crisp Izhar Shafawi across verses."
+            {
+              "videoId": "IsAJ0O6yoMk",
+              "title": "Makhraj No 12/17 - Makhraj of Zaal, Thaa (Saa) and Zua (ظ، ذ، ث)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Makhraj 12: Zaal, Thaa, Zua"
             },
-            "examples": [
-              {
-                "arabic": "أَنْعَمْتَ عَلَيْهِمْ",
-                "label": "Izhar Shafawi",
-                "sound": "Clean Meem before 'Ayn and at verse end"
-              },
-              {
-                "arabic": "عَلَيْهِمْ وَلَا",
-                "label": "Caution before Waw",
-                "sound": "Alayhim wa-la (do not blend Meem into Waw!)"
-              }
-            ],
-            "practice": "Recite 'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ' ensuring both Meems are clear.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Why must reciters take extra care to pronounce Izhar Shafawi clearly before Waw (و) and Fa (ف)?",
-              "options": [
-                "Because they are heavy letters",
-                "Because Waw and Fa share the lip Makhraj with Meem, making accidental hiding common",
-                "Because they require Qalqalah",
-                "Because they are throat letters"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Because Meem, Waw, and Fa all originate from the lips, reciters must consciously prevent accidental concealment (Ikhfa)."
-            }
-          },
-          {
-            "id": "tajweed-ch5-l5",
-            "number": 5,
-            "title": "Chapter 5 Review & Meem Sakinah Challenge",
-            "subtitle": "Summary of the 3 Shafawi rules",
-            "readingTime": "3 min",
-            "explanation": "Meem Sakinah is straightforward: 1) Before Ba (ب) = Ikhfa Shafawi (hide + Ghunnah), 2) Before Meem (م) = Idgham Shafawi (merge + Ghunnah), 3) Before all 26 other letters = Izhar Shafawi (clear Meem).",
-            "keyPoints": [
-              "Ba -> Ikhfa Shafawi",
-              "Meem -> Idgham Shafawi",
-              "All other 26 letters -> Izhar Shafawi"
-            ],
-            "audio": {
-              "arabicText": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ",
-              "phonetic": "Alam tara kayfa fa'ala Rabbuka bi-as-haabi-l-Feel",
-              "description": "Listen to Surah Al-Fil demonstrating Meem Sakinah rules."
+            {
+              "videoId": "tLIzDWKezHE",
+              "title": "Teeth Letters Tajweed Rules (Asaliyyah Intro)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Teeth Letters Intro"
             },
-            "examples": [
-              {
-                "arabic": "أَلَمْ يَجْعَلْ",
-                "label": "Izhar Shafawi",
-                "sound": "Alam yaj'al (clean Meem before Ya)"
-              }
-            ],
-            "practice": "Recite Surah Al-Fil from memory and identify every Meem Sakinah rule.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What rule applies in 'لَمْ يَلِدْ وَلَمْ يُولَدْ'?",
-              "options": [
-                "Ikhfa Shafawi",
-                "Idgham Shafawi",
-                "Izhar Shafawi",
-                "Iqlab"
-              ],
-              "correctAnswer": 2,
-              "explanation": "Izhar Shafawi applies in 'لَمْ يَلِدْ' because Meem Sakinah is followed by Ya (ي)."
+            {
+              "videoId": "pggB_NgVs-8",
+              "title": "Makhraj No 13/17 - Makhraj of Zaa, Seen & Saad (ص، ز، س)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Makhraj 13: Saad, Zay, Seen"
             }
+          ],
+          "explanation": "The anterior tip of the tongue (Taraf al-Lisān — طَرَف اللِّسَان) contains **5 specific articulation points** producing **11 consonants**:\n\n### 1. Tip to Upper Gums (الرَّأْس وَاللِّثَة)\n- **Makhraj 9:** **Nūn (ن)**: Tongue tip contacts upper central incisor gums. Accompanied by nasal Ghunnah from the Khayshum.\n- **Makhraj 10:** **Rā' (ر)**: Slightly posterior to Nūn on the upper gum palate. Formed with a slight trill (*Takrīr*), avoiding excessive flapping.\n\n### 2. Tip to Upper Incisor Roots (النِّطْعِيَّة — Al-Hurūf an-Nat'iyyah)\n- **Makhraj 11:** **Ṭā' (ط)**, **Dāl (د)**, and **Tā' (ت)**.\n- Tongue tip strikes the gum-ridge (*Nat'*) directly behind the upper central incisors.\n- **Contrast:** Ṭā' (ط) is heavy (*Musta'liyah / Muṭbaqah*), while Dāl and Tā' are light. Tā' has unvoiced breath release (*Hams*).\n\n### 3. Tip Between Incisors (اللِّثَوِيَّة — Al-Hurūf al-Lithawiyyah)\n- **Makhraj 12:** **Ẓā' (ظ)**, **Dhāl (ذ)**, and **Thā' (ث)**.\n- Tongue tip extends slightly between the edges of the upper and lower central incisors.\n- **Contrast:** Ẓā' (ظ) is heavy with full mouth resonance. Dhāl and Thā' are light. Never substitute Sīn for Thā' or Zāy for Dhāl!\n\n### 4. Tip at Lower Incisors (الأَسَلِيَّة / الصَّفِير — Sibilant Letters)\n- **Makhraj 13:** **Ṣād (ص)**, **Zāy (ز)**, and **Sīn (س)**.\n- Tongue tip rests just above the inner surface of the bottom central incisors, allowing sound to escape over the tongue blade producing a sharp whistle (*Safīr*).\n- **Contrast:** Ṣād (ص) is heavy and compressed; Sīn (س) is light and crisp.",
+          "keyPoints": [
+            "Tongue tip produces 11 letters across 5 specific points.",
+            "Nat'iyyah (ط، د، ت) strike the upper incisor gum roots.",
+            "Lithawiyyah (ظ، ذ، ث) require extending the tongue tip between the incisors.",
+            "Asaliyyah (ص، ز، س) rest behind the lower incisors producing Safīr (whistle)."
+          ],
+          "examples": [
+            {
+              "arabic": "نُورٌ",
+              "transliteration": "Nūr",
+              "label": "Nūn (ن) - Tip to gums with nasal resonance",
+              "sound": "Noor"
+            },
+            {
+              "arabic": "الرَّحْمَٰنِ",
+              "transliteration": "Ar-Raḥmān",
+              "label": "Rā' (ر) - Tip to gums with single tap",
+              "sound": "Ar-Rah-maan"
+            },
+            {
+              "arabic": "طَرِيقٌ",
+              "transliteration": "Ṭarīq",
+              "label": "Ṭā' (ط) - Heavy Nat'iyyah with adhesion",
+              "sound": "Ta-reeq"
+            },
+            {
+              "arabic": "الَّذِينَ",
+              "transliteration": "Alladhīna",
+              "label": "Dhāl (ذ) - Interdental tip between incisors",
+              "sound": "Al-la-dhee-na"
+            },
+            {
+              "arabic": "الصِّرَاطَ",
+              "transliteration": "Aṣ-Ṣirāṭ",
+              "label": "Ṣād (ص) - Heavy sibilant with Safīr",
+              "sound": "As-Si-raat"
+            }
+          ],
+          "practice": "Carefully contrast the interdental Dhāl (ذ) in \"الَّذِينَ\" with the sibilant Zāy (ز) in \"زَيَّنَّا\". The tongue must peek through the teeth for Dhāl.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which group of letters requires the tongue tip to articulate directly against the gum-ridge roots of the upper central incisors?",
+            "options": [
+              "Ṭā' (ط), Dāl (د), and Tā' (ت)",
+              "Ẓā' (ظ), Dhāl (ذ), and Thā' (ث)",
+              "Ṣād (ص), Zāy (ز), and Sīn (س)",
+              "Jīm (ج), Shīn (ش), and Yā' (ي)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Al-Hurūf an-Nat'iyyah (ط، د، ت) strike the gum-ridge (Nat') at the roots of the upper central incisors."
           }
-        ],
-        "aliases": [
-          "lesson-5",
-          "lesson-6"
-        ]
-      },
-      {
-        "id": "lesson-6",
-        "number": 7,
-        "title": "Ahkam Al-Madd: Rules of Elongation (أحكام المد)",
-        "subtitle": "Natural Madd (Asli) vs Secondary Madd (Far'i) and exact count durations (Harakat)",
-        "readingTime": "22 min",
-        "videoLesson": {
-          "title": "Madd (مد) in Quran MADE EASY",
-          "channel": "Arabic 101",
-          "duration": "17:25",
-          "videoId": "Q737ZCSbC_g",
-          "watchUrl": "https://www.youtube.com/watch?v=Q737ZCSbC_g",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/Q737ZCSbC_g",
-          "url": "https://www.youtube-nocookie.com/embed/Q737ZCSbC_g",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Rules of Madd Elongation",
-          "badge": "Verified Reference Video"
         },
-        "summary": "Learn how to properly elongate vowels for 2, 4, 5, or 6 counts based on Hamzah and Sukoon causes.",
-        "smallLessons": [
-          {
-            "id": "tajweed-ch6-l1",
-            "number": 1,
-            "title": "What Is Madd and Its Letters?",
-            "subtitle": "The 3 letters of elongation",
-            "readingTime": "3 min",
-            "explanation": "Madd (مَدّ) literally means 'to lengthen or elongate'. In Tajweed, it refers to stretching the sound of a vowel letter. The 3 Madd letters are: 1) Alif (ا) preceded by Fat-hah (ـَـا), 2) Waw Sakinah (وْ) preceded by Dammah (ـُـو), 3) Ya Sakinah (يْ) preceded by Kasrah (ـِـي). All three are combined in the Qur'anic word: نُوحِيهَا (Nu-hee-ha).",
-            "keyPoints": [
-              "Madd = Elongating the sound of a long vowel.",
-              "3 Letters: Alif (after Fat-hah), Waw (after Dammah), Ya (after Kasrah).",
-              "Mnemonic word: نُوحِيهَا (Nu - Hee - Haa).",
-              "Measured in Harakat (counts): 1 Harakah is approx. the time to open or close a finger."
-            ],
-            "audio": {
-              "arabicText": "نُوحِيهَا - قَالَ - يَقُولُ - قِيلَ",
-              "phonetic": "Nu-hee-haa | Qaala | Yaqoolu | Qeela",
-              "description": "Listen to the 3 Madd letters in their natural elongation."
-            },
-            "examples": [
-              {
-                "arabic": "قَالَ",
-                "label": "Alif Madd",
-                "sound": "Qaa-la (2 counts on Qaa)"
-              },
-              {
-                "arabic": "يَقُولُ",
-                "label": "Waw Madd",
-                "sound": "Ya-qoo-lu (2 counts on Qoo)"
-              },
-              {
-                "arabic": "قِيلَ",
-                "label": "Ya Madd",
-                "sound": "Qee-la (2 counts on Qee)"
-              }
-            ],
-            "practice": "Recite 'نُوحِيهَا' giving exactly 2 counts to Nu, 2 counts to Hee, and 2 counts to Haa.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which Qur'anic word contains all three Madd letters with their required preceding vowels?",
-              "options": [
-                "الْحَمْدُ",
-                "نُوحِيهَا (Nu-hee-haa)",
-                "كِتَابٌ",
-                "مُسْتَقِيم"
-              ],
-              "correctAnswer": 1,
-              "explanation": "نُوحِيهَا contains Waw preceded by Dammah (نُو), Ya preceded by Kasrah (حِي), and Alif preceded by Fat-hah (هَا)."
-            }
+        {
+          "id": "tajweed-ch1-l6",
+          "aliases": [
+            "tajweed-ch2-l6"
+          ],
+          "number": 6,
+          "title": "Zone 4 & Zone 5: The Lips (الشَّفَتَان) & The Nasal Cavity (الخَيْشُوم)",
+          "subtitle": "Labial letters and nasal resonance (Ghunnah)",
+          "readingTime": "6 min",
+          "arabic": "الشَّفَتَانِ وَالْخَيْشُومُ",
+          "transliteration": "Ash-Shafatān wa Al-Khayshūm",
+          "makhraj": "Both lips and the upper hollow nasal sinus.",
+          "sound": "Lips: Fā' (ف) • Bā' (ب) • Mīm (م) • Wāw (و) | Nasal: Ghunnah (غُنَّة)",
+          "videoLesson": {
+            "videoId": "xeE7_zVYD58",
+            "title": "Makhraj No 14/17 - Makhraj of Faa (ف)",
+            "channel": "Learn Quran with Hafiz Bilal - ENG",
+            "shortTitle": "Makhraj 14: Fa (ف)"
           },
-          {
-            "id": "tajweed-ch6-l2",
-            "number": 2,
-            "title": "Natural Madd (Madd Asli / Tabee'i)",
-            "subtitle": "The 2-count standard elongation",
-            "readingTime": "3 min",
-            "explanation": "Madd Asli (Natural Madd) occurs when a Madd letter appears WITHOUT being followed by a Hamzah (ء) or a Sukoon (ْ). It must be elongated for exactly 2 counts (Harakataan)—neither rushed (which drops the letter) nor overstretched.",
-            "keyPoints": [
-              "No Hamzah or Sukoon after the Madd letter.",
-              "Exact duration: 2 counts (Harakataan).",
-              "Dropping it (reciting 1 count) is a major mistake (Lahn Jali).",
-              "Example: قَالَ (Qala), كَانَ (Kana), مَالِكِ (Maliki)."
-            ],
-            "audio": {
-              "arabicText": "مَالِكِ يَوْمِ الدِّينِ - قَالَ كَلَّا",
-              "phonetic": "Maaliki Yawmi-d-Deen | Qaala kalla",
-              "description": "Listen to exact 2-count Natural Madd timing."
+          "additionalVideos": [
+            {
+              "videoId": "i_tyC1hJufs",
+              "title": "Makhraj No 15-1/17 - Makhraj of Baa (ب)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Makhraj 15-1: Ba (ب)"
             },
-            "examples": [
-              {
-                "arabic": "مَالِكِ",
-                "label": "Madd Asli on Ma",
-                "sound": "Maa-li-ki (2 counts on Maa)"
-              }
-            ],
-            "practice": "Recite 'مَالِكِ يَوْمِ الدِّينِ' maintaining 2 steady counts on 'Maa'.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What is the mandatory count duration for Madd Asli (Natural Madd)?",
-              "options": [
-                "1 count",
-                "2 counts (Harakataan)",
-                "4 counts",
-                "6 counts"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Madd Asli is always elongated for exactly 2 counts."
-            }
-          },
-          {
-            "id": "tajweed-ch6-l3",
-            "number": 3,
-            "title": "Secondary Madd Due to Hamzah (Madd Muttasil & Munfasil)",
-            "subtitle": "Connected (4-5 counts) vs Separated (4-5 counts) Madd",
-            "readingTime": "4 min",
-            "explanation": "When a Madd letter is followed by a Hamzah (ء), it elongates to 4 or 5 counts: 1) Madd Muttasil (Connected): Madd letter and Hamzah are in the SAME word (e.g. جَاءَ , السَّمَاءِ). Mandatory (Wajib) 4-5 counts. 2) Madd Munfasil (Separated): Madd letter is at the end of one word and Hamzah is at the beginning of the next word (e.g. يَا أَيُّهَا , فِي أَنفُسِكُمْ). Permissible (Ja'iz) 4-5 counts.",
-            "keyPoints": [
-              "Madd Muttasil (Same Word): Mandatory 4-5 counts (e.g. جَاءَ , سُوءَ).",
-              "Madd Munfasil (Two Words): 4-5 counts (e.g. يَا أَيُّهَا , إِنَّا أَعْطَيْنَاكَ).",
-              "Indicated in Mushafs by the curved wave symbol (~)."
-            ],
-            "audio": {
-              "arabicText": "إِذَا جَاءَ نَصْرُ اللَّهِ - إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
-              "phonetic": "Idha jaaa'a nasrullah | Innaaa a'taynaaka-l-Kawthar",
-              "description": "Listen to the 4-5 count elongation on Muttasil and Munfasil."
+            {
+              "videoId": "zDt2Da5bJz8",
+              "title": "Makhraj No 15-2/17 - Makhraj of Meem (م)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Makhraj 15-2: Meem (م)"
             },
-            "examples": [
-              {
-                "arabic": "جَاءَ",
-                "label": "Madd Muttasil",
-                "sound": "Jaaa'a (4-5 counts in single word)"
-              },
-              {
-                "arabic": "إِنَّا أَعْطَيْنَاكَ",
-                "label": "Madd Munfasil",
-                "sound": "Innaaa a'taynaak (4-5 counts across word boundary)"
-              }
-            ],
-            "practice": "Recite 'إِذَا جَاءَ نَصْرُ اللَّهِ' holding 'Jaaa'a' for a full 4 counts.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What type of Madd occurs in the single word 'السَّمَاءِ' (As-Samaaa')?",
-              "options": [
-                "Madd Munfasil (Separated)",
-                "Madd Muttasil (Connected in the same word)",
-                "Madd Asli",
-                "Madd Lazim"
-              ],
-              "correctAnswer": 1,
-              "explanation": "'السَّمَاءِ' is Madd Muttasil because the Madd letter and the Hamzah are inside the same single word."
-            }
-          },
-          {
-            "id": "tajweed-ch6-l4",
-            "number": 4,
-            "title": "Secondary Madd Due to Sukoon & Madd Lazim",
-            "subtitle": "Madd 'Arid li-Sukoon (2/4/6 counts) and Madd Lazim (6 counts)",
-            "readingTime": "4 min",
-            "explanation": "When a Madd letter is followed by a Sukoon: 1) Madd 'Arid li-s-Sukoon (Temporary Stop): When stopping at verse ends, the last letter gets a temporary Sukoon (e.g. الرَّحِيمِ -> الرَّحِيمْ). You may hold it for 2, 4, or 6 counts. 2) Madd Lazim (Compulsory): When a permanent Sukoon or Shaddah follows a Madd letter in a word or Quranic opening letter (e.g. الضَّالِّينَ , الٓمٓ). Must be held for a full 6 counts!",
-            "keyPoints": [
-              "Madd 'Arid li-Sukoon: Stopping at verse end (2, 4, or 6 counts).",
-              "Madd Lazim: Followed by permanent Sukoon or Shaddah = Compulsory 6 counts.",
-              "Example of Madd Lazim: وَلَا الضَّالِّينَ (Wa la-d-Daaalleen - 6 full counts on Daaall!)."
-            ],
-            "audio": {
-              "arabicText": "الْعَالَمِينَ - وَلَا الضَّالِّينَ - الٓمٓ - قٓ",
-              "phonetic": "Al-'Aalameen (2/4/6) | Wa la-d-Daalleen (6) | Alif-Laaam-Meeem (6)",
-              "description": "Listen to Madd 'Arid and the powerful 6-count Madd Lazim."
+            {
+              "videoId": "uVCd8CqXrpw",
+              "title": "Makhraj No 15-3/17 - Makhraj of Wao (و)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Makhraj 15-3: Waw (و)"
             },
-            "examples": [
-              {
-                "arabic": "الرَّحِيمِ (stopping)",
-                "label": "Madd 'Arid",
-                "sound": "Ar-Raheem (2, 4, or 6 counts)"
-              },
-              {
-                "arabic": "الضَّالِّينَ",
-                "label": "Madd Lazim",
-                "sound": "Ad-Daaalleen (mandatory 6 counts)"
-              }
-            ],
-            "practice": "Recite Surah Al-Fatihah verse 7, holding 'الضَّالِّينَ' for 6 full counts.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "How many counts must Madd Lazim (such as in 'وَلَا الضَّالِّينَ') be elongated?",
-              "options": [
-                "2 counts",
-                "4 counts",
-                "6 counts (Compulsory)",
-                "8 counts"
-              ],
-              "correctAnswer": 2,
-              "explanation": "Madd Lazim is compulsory (Lazim) and must be elongated for a full 6 counts."
+            {
+              "videoId": "NEF902uWtcg",
+              "title": "Makhraj No 17/17 - Makhraj of Ghunnah (Nasal Cavity)",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Makhraj 17: Ghunnah"
             }
-          },
-          {
-            "id": "tajweed-ch6-l5",
-            "number": 5,
-            "title": "Chapter 6 Review & Madd Count Summary",
-            "subtitle": "Mastering the 2, 4/5, and 6 count rules",
-            "readingTime": "3 min",
-            "explanation": "Madd summary: 1) Madd Asli = 2 counts (natural). 2) Madd Muttasil & Munfasil = 4 to 5 counts (due to Hamzah). 3) Madd 'Arid li-Sukoon = 2, 4, or 6 counts (at verse stops). 4) Madd Lazim = 6 counts (due to permanent Sukoon/Shaddah).",
-            "keyPoints": [
-              "2 Counts: Madd Asli (قَالَ).",
-              "4-5 Counts: Madd Muttasil & Munfasil (جَاءَ , إِنَّا أَنزَلْنَاهُ).",
-              "2/4/6 Counts: Madd 'Arid li-s-Sukoon at stops (نَسْتَعِينُ).",
-              "6 Counts: Madd Lazim (الضَّالِّينَ , الٓمٓ)."
-            ],
-            "audio": {
-              "arabicText": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ - فَصَلِّ لِرَبِّكَ وَانْحَرْ - إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
-              "phonetic": "Surah Al-Kawthar complete",
-              "description": "Listen to Surah Al-Kawthar applying Madd Asli and Madd Munfasil."
+          ],
+          "explanation": "This lesson completes the 5 general zones by covering **Zone 4 (The Lips)** and **Zone 5 (The Nasal Cavity)**:\n\n### Zone 4: The Lips (الشَّفَتَان — Ash-Shafatān)\nContains **2 specific articulation points** producing **4 consonants**:\n\n1. **Makhraj 14: Fā' (ف)**\n   - **Anatomy:** The inner moist part of the lower lip against the sharp cutting edges of the upper central incisors.\n   - **Acoustic:** Continuous unvoiced breath flow (*Hams*).\n\n2. **Makhraj 15: The Three Two-Lip Letters (ب ، م ، و)**\n   - **Bā' (ب):** Both lips pressed together firmly along the wet interior surface, trapping air before explosive release with Qalqalah (`أَبْ`).\n   - **Mīm (م):** Both lips closed gently along the dry exterior surface, with sound resonating simultaneously through the nasal cavity (`أَمْ`).\n   - **Wāw (و, non-Madd):** Both lips rounded forward leaving an open central circular aperture, without full contact (`أَوْ`).\n\n### Zone 5: The Nasal Cavity (الخَيْشُوم — Al-Khayshūm)\n- **Makhraj 17:** **Ghunnah (الْغُنَّة)**.\n- **Anatomy:** The open nasal vault situated above the hard palate.\n- **Nature:** Unlike other points that produce individual letters, Al-Khayshum is the anatomical source of **Ghunnah** — an inherent musical nasal humming sound embedded within **Nūn (ن)** and **Mīm (م)**.\n- **The Pinch Test:** If you pinch your nostrils closed while vocalizing a Nūn or Mīm with Shaddah (`إِنَّ`, `ثُمَّ`), the sound immediately halts. This proves that the nasal cavity is its essential physical channel.",
+          "keyPoints": [
+            "The lips produce 4 letters: Fā' (incisors to lower lip) and Bā', Mīm, Wāw (both lips).",
+            "Bā' closes firmly with Qalqalah; Mīm closes lightly with nasal resonance; Wāw rounds without closing.",
+            "Al-Khayshūm contains 1 specific point: the source of Ghunnah in Nūn and Mīm.",
+            "Pinch test: Clamping the nose stops Ghunnah, proving nasal cavity activation."
+          ],
+          "examples": [
+            {
+              "arabic": "فَتَحْنَا",
+              "transliteration": "Fataḥnā",
+              "label": "Fā' (ف) - Upper teeth to wet inner lower lip",
+              "sound": "Fa-tah-naa"
             },
-            "examples": [
-              {
-                "arabic": "إِنَّا أَعْطَيْنَاكَ",
-                "label": "Madd Munfasil (4-5 counts)",
-                "sound": "Innaaa a'taynaak"
-              }
-            ],
-            "practice": "Recite Surah Al-Kawthar distinguishing between 2-count and 4-count Madd.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What is the count duration of Madd Asli (Natural Madd)?",
-              "options": [
-                "2 counts",
-                "4 counts",
-                "6 counts",
-                "1 count"
-              ],
-              "correctAnswer": 0,
-              "explanation": "Madd Asli is always 2 counts."
+            {
+              "arabic": "بِسْمِ اللَّهِ",
+              "transliteration": "Bismi Allāh",
+              "label": "Bā' (ب) - Firm bilateral lip closure",
+              "sound": "Bis-mil-laah"
+            },
+            {
+              "arabic": "مَالِكِ",
+              "transliteration": "Māliki",
+              "label": "Mīm (م) - Gentle lip closure with nasal Ghunnah",
+              "sound": "Maa-li-ki"
+            },
+            {
+              "arabic": "وَيْلٌ",
+              "transliteration": "Waylun",
+              "label": "Wāw (و) - Incomplete lip rounding",
+              "sound": "Way-lun"
+            },
+            {
+              "arabic": "إِنَّ اللَّهَ",
+              "transliteration": "Inna Allāha",
+              "label": "Ghunnah (غنة) - Complete nasal resonance in Nūn Mushaddadah",
+              "sound": "In-nal-laah"
             }
+          ],
+          "practice": "Recite \"إِنَّ\" and \"ثُمَّ\" while gently pinching your nose. Note how the sound is blocked, confirming nasal cavity function.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which of the following sounds originates specifically from Al-Khayshūm (the nasal cavity)?",
+            "options": [
+              "The sound of Ghunnah (nasal resonance in Nūn and Mīm)",
+              "The letter Fā' (ف)",
+              "The prolongation of Alif Madd",
+              "The echoing bounce of Qalqalah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Al-Khayshūm is the sole anatomical home of Ghunnah (nasal resonance), which is an intrinsic component of Nūn and Mīm."
           }
-        ],
-        "aliases": [
-          "lesson-6",
-          "lesson-7"
-        ]
-      },
-      {
-        "id": "lesson-7",
-        "number": 8,
-        "title": "Ahkam Al-Qalqalah: The Echoing Mechanism (أحكام القلقلة)",
-        "subtitle": "The 5 Qalqalah letters (ق ط ب ج د), vibration dynamics, and minor vs major echo",
-        "readingTime": "18 min",
-        "videoLesson": {
-          "title": "Quranic Qalqala (Echoing Sounds) Explained",
-          "channel": "Arabic 101",
-          "duration": "12:30",
-          "videoId": "thu6eZ-AeOA",
-          "watchUrl": "https://www.youtube.com/watch?v=thu6eZ-AeOA",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/thu6eZ-AeOA",
-          "url": "https://www.youtube-nocookie.com/embed/thu6eZ-AeOA",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Rules of Qalqalah",
-          "badge": "Verified Reference Video"
         },
-        "summary": "Master the echoing bounce produced when any of the 5 Qutb Jad letters carries a Sukoon.",
-        "smallLessons": [
-          {
-            "id": "tajweed-ch7-l1",
-            "number": 1,
-            "title": "What Is Qalqalah?",
-            "subtitle": "The acoustic vibration of trapped air",
-            "readingTime": "3 min",
-            "explanation": "Qalqalah (قَلْقَلَة) literally means 'shaking, disturbance, or echoing'. In Tajweed, it is the echoing vibration or bounce produced when one of the 5 Qalqalah letters carries a Sukoon (ْ). Because these letters have complete closure of their articulation point (Shiddah), releasing them with Sukoon produces a natural resonant bounce without adding a vowel.",
-            "keyPoints": [
-              "Qalqalah = An echoing bounce on a silent letter.",
-              "Only happens when the letter has a Sukoon (ْ).",
-              "Do NOT add a Fat-hah, Kasrah, or Dammah to the bounce.",
-              "The 5 letters are grouped in the mnemonic: قُطْبُ جَدٍّ (Qutb Jad)."
-            ],
-            "audio": {
-              "arabicText": "قُطْبُ جَدٍّ - قْ طْ بْ جْ دْ",
-              "phonetic": "Qutb Jad: Qaf, Ta, Ba, Jim, Dal",
-              "description": "Listen to the 5 Qalqalah letters with their characteristic bounce."
-            },
-            "examples": [
-              {
-                "arabic": "قُطْبُ جَدٍّ",
-                "label": "Mnemonic",
-                "sound": "Qaf (ق), Ta (ط), Ba (ب), Jim (ج), Dal (د)"
-              }
-            ],
-            "practice": "Recite: أَقْ , أَطْ , أَبْ , أَجْ , أَدْ and feel the clean echoing release.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which mnemonic phrase combines all 5 letters of Qalqalah?",
-              "options": [
-                "يَرْمَلُون (Yarmaloon)",
-                "قُطْبُ جَدٍّ (Qutb Jad: ق , ط , ب , ج , د)",
-                "أَخِي هَاكَ عِلْمًا",
-                "خُصَّ ضَغْطٍ قِظْ"
-              ],
-              "correctAnswer": 1,
-              "explanation": "قُطْبُ جَدٍّ (Qaf, Ta, Ba, Jim, Dal) combines the 5 Qalqalah letters."
-            }
+        {
+          "id": "tajweed-ch1-l7",
+          "aliases": [
+            "tajweed-ch2-l7"
+          ],
+          "number": 7,
+          "title": "Makharij Review, Letter Comparisons & Mastery Challenge",
+          "subtitle": "Complete 17-point synthesis, 7 contrast drills, and final chapter assessment",
+          "readingTime": "8 min",
+          "arabic": "مُرَاجَعَةُ الْمَخَارِجِ وَاخْتِبَارُ الإِتْقَانِ",
+          "transliteration": "Murāja'at al-Makhārij",
+          "makhraj": "Comprehensive review across all 5 zones and 17 articulation points.",
+          "sound": "17 Makharij Synthesis & Distinction Practice",
+          "videoLesson": {
+            "videoId": "aTqdzuiLLIA",
+            "title": "Mastery Review: 17 Makharij Classification",
+            "channel": "Learn Quran with Hafiz Bilal - ENG",
+            "shortTitle": "Makharij Synthesis Review"
           },
-          {
-            "id": "tajweed-ch7-l2",
-            "number": 2,
-            "title": "The 5 Qalqalah Letters in Detail",
-            "subtitle": "Qaf, Ta, Ba, Jim, Dal and their articulation",
-            "readingTime": "3 min",
-            "explanation": "1) Qaf (قْ): Deepest tongue bounce (heavy/thick). 2) Ta (طْ): Tongue tip to upper gum bounce (heavy/thick). 3) Ba (بْ): Lip closure release bounce. 4) Jim (جْ): Middle tongue release bounce. 5) Dal (دْ): Tongue tip release bounce (light/crisp).",
-            "keyPoints": [
-              "ق and ط are heavy Qalqalah letters.",
-              "ب , ج , and د are light Qalqalah letters.",
-              "Keep the bounce crisp, quick, and natural."
-            ],
-            "audio": {
-              "arabicText": "خَلَقْنَاهُ - نُطْفَةٍ - حَبْلِ - يَجْعَلْ - قَدْ",
-              "phonetic": "Khalaqnaahu | Nutfatin | Habli | Yaj'al | Qad",
-              "description": "Listen to each of the 5 letters inside words."
+          "explanation": "Congratulations on completing the study of all 5 general zones and 17 specific articulation points! \n\n### The 17 Makharij Master Summary Table\n1. **Al-Jawf (1 point):** 3 Madd letters (ـَا ، ـُو ، ـِي).\n2. **Al-Halq (3 points):**\n   - Deepest: Hamzah (ء) and Hā' (هـ).\n   - Middle: 'Ayn (ع) and Ḥā' (ح).\n   - Upper: Ghayn (غ) and Khā' (خ).\n3. **Al-Lisān (10 points):**\n   - Soft Palate: Qāf (ق).\n   - Hard/Soft Junction: Kāf (ك).\n   - Middle Tongue: Jīm (ج), Shīn (ش), Yā' (ي).\n   - Molar Edge: Ḍād (ض).\n   - Gum Edge: Lām (ل).\n   - Tip & Gums: Nūn (ن) and Rā' (ر).\n   - Tip & Incisor Roots: Ṭā' (ط), Dāl (د), Tā' (ت).\n   - Tip Between Incisors: Ẓā' (ظ), Dhāl (ذ), Thā' (ث).\n   - Tip Behind Lower Incisors: Ṣād (ص), Zāy (ز), Sīn (س).\n4. **Ash-Shafatān (2 points):**\n   - Lower Lip & Incisors: Fā' (ف).\n   - Both Lips: Bā' (ب), Mīm (م), non-Madd Wāw (و).\n5. **Al-Khayshūm (1 point):**\n   - Nasal Passage: Ghunnah (غنة) in Nūn and Mīm.\n\n### The 7 Critical Pairwise Distinctions\nMastering these 7 contrast pairs eliminates 90% of common recitation errors:\n1. **Bā' (ب) vs. Fā' (ف):** Both lips pressed together firmly vs. upper teeth to inner lower lip.\n2. **Tā' (ت) vs. Ṭā' (ط):** Same tooth-root Makhraj, but Ṭā' has back-of-tongue elevation (*Isti'lā'*) and roof adhesion (*Iṭbāq*).\n3. **Sīn (س) vs. Ṣād (ص):** Same lower-incisor Makhraj, but Ṣād is heavily elevated and compressed.\n4. **Dhāl (ذ) vs. Ẓā' (ظ):** Same interdental Makhraj, but Ẓā' is heavily elevated with full mouth resonance.\n5. **Ḥā' (ح) vs. Hā' (هـ):** Clean middle-throat friction at epiglottis vs. deep vocal cords at chest level.\n6. **'Ayn (ع) vs. Hamzah (ء):** Pharyngeal wall squeeze vs. crisp vocal cord glottal stop.\n7. **Kāf (ك) vs. Qāf (ق):** Hard palatal junction with light breath (*Hams*) vs. deepest soft uvular palate with heavy drop.",
+          "keyPoints": [
+            "5 general zones contain exactly 17 specific articulation points (Ibn al-Jazari).",
+            "The tongue houses the majority (10 points producing 18 letters).",
+            "Critical pairs (ت/ط, س/ص, ذ/ظ, ح/هـ, ع/ء, ك/ق) share similar locations but differ in acoustic mechanics.",
+            "Always test unknown articulation using Hamzah + Sukoon."
+          ],
+          "examples": [
+            {
+              "arabic": "تَابَ / طَابَ",
+              "transliteration": "Tāba / Ṭāba",
+              "label": "Contrast 1: Light Tā' vs. Heavy Ṭā'",
+              "sound": "Taa-ba vs Taa-ba"
             },
-            "examples": [
-              {
-                "arabic": "خَلَقْنَا",
-                "label": "Qaf Sukoon",
-                "sound": "Khalaq-naa (heavy bounce on Qaf)"
-              },
-              {
-                "arabic": "قَدْ سَمِعَ",
-                "label": "Dal Sukoon",
-                "sound": "Qad sami'a (light bounce on Dal)"
-              }
-            ],
-            "practice": "Recite 'يَجْعَلْ كَيْدَهُمْ' with a clean middle-tongue bounce on 'جْ'.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which of the following letters is NOT a Qalqalah letter?",
-              "options": [
-                "Ba (ب)",
-                "Kaf (ك)",
-                "Jim (ج)",
-                "Dal (د)"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Kaf (ك) is not a Qalqalah letter (the 5 are ق ط ب ج د)."
-            }
-          },
-          {
-            "id": "tajweed-ch7-l3",
-            "number": 3,
-            "title": "Minor Qalqalah (Qalqalah Sughra)",
-            "subtitle": "In the middle of a word or continuous reading",
-            "readingTime": "3 min",
-            "explanation": "Qalqalah Sughra (Minor / Light Echo) occurs when a Qalqalah letter carries a Sukoon in the MIDDLE of a word or sentence without stopping on it. The bounce is light and quick so that it does not disrupt the rhythm of reading.",
-            "keyPoints": [
-              "Occurs in the middle of a word or connected speech.",
-              "The bounce is quick and subtle.",
-              "Examples: يَطْمَعُ (Yat-ma'u), أَبْصَارِهِمْ (Ab-saarihim), يَدْعُونَ (Yad-'oona)."
-            ],
-            "audio": {
-              "arabicText": "يَطْمَعُ - أَبْصَارِهِمْ - يَدْعُونَ - يَجْعَلُونَ",
-              "phonetic": "Yat-ma'u | Ab-saarihim | Yad-'oona | Yaj-'aloona",
-              "description": "Listen to the light, quick bounce of Qalqalah Sughra in mid-word."
+            {
+              "arabic": "سَارَ / صَارَ",
+              "transliteration": "Sāra / Ṣāra",
+              "label": "Contrast 2: Light Sīn vs. Heavy Ṣād",
+              "sound": "Saa-ra vs Saa-ra"
             },
-            "examples": [
-              {
-                "arabic": "يَطْمَعُ",
-                "label": "Middle Ta",
-                "sound": "Yat-ma'u (quick bounce)"
-              },
-              {
-                "arabic": "أَبْصَارِهِمْ",
-                "label": "Middle Ba",
-                "sound": "Ab-saarihim (quick bounce)"
-              }
-            ],
-            "practice": "Recite 'فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ' with minor bounce on 'حَبْلٌ'.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "When does Qalqalah Sughra (Minor Qalqalah) occur?",
-              "options": [
-                "When stopping at the end of a verse",
-                "In the middle of a word or during continuous recitation",
-                "Only on letters with Shaddah",
-                "When reciting Surah Al-Fatihah only"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Qalqalah Sughra occurs in the middle of a word or during continuous speech."
-            }
-          },
-          {
-            "id": "tajweed-ch7-l4",
-            "number": 4,
-            "title": "Major Qalqalah (Qalqalah Kubra & Akbar)",
-            "subtitle": "Stopping at the end of a word on a Qalqalah letter",
-            "readingTime": "4 min",
-            "explanation": "Qalqalah Kubra (Major / Strong Echo) occurs when you STOP at the end of a word on a Qalqalah letter (e.g. قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ -> الْفَلَقْ). When the letter has a Shaddah at the stop (e.g. وَتَبَّ -> وَتَبّْ), it is the strongest level (Qalqalah Akbar).",
-            "keyPoints": [
-              "Qalqalah Kubra: Stopping on a Qalqalah letter at word end (e.g. الْفَلَقْ , كَسَبْ , أَحَدْ).",
-              "Qalqalah Akbar: Stopping on a letter with Shaddah (e.g. وَتَبَّ , بِالْحَقِّ).",
-              "The echo is pronounced with clarity and strength."
-            ],
-            "audio": {
-              "arabicText": "قُلْ هُوَ اللَّهُ أَحَدٌ - اللَّهُ الصَّمَدُ - لَمْ يَلِدْ وَلَمْ يُولَدْ - وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
-              "phonetic": "Complete Surah Al-Ikhlas with Major Qalqalah stops",
-              "description": "Listen to Surah Al-Ikhlas demonstrating powerful Major Qalqalah on every verse ending."
+            {
+              "arabic": "ذَلَّ / ظَلَّ",
+              "transliteration": "Dhalla / Ẓalla",
+              "label": "Contrast 3: Light Dhāl vs. Heavy Ẓā'",
+              "sound": "Dhal-la vs Zhal-la"
             },
-            "examples": [
-              {
-                "arabic": "أَحَدٌ (stop: أَحَدْ)",
-                "label": "Dal Qalqalah Kubra",
-                "sound": "Ahad (strong echoing Dal)"
-              },
-              {
-                "arabic": "الْفَلَقِ (stop: الْفَلَقْ)",
-                "label": "Qaf Qalqalah Kubra",
-                "sound": "Al-Falaq (strong echoing Qaf)"
-              },
-              {
-                "arabic": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
-                "label": "Ba with Shaddah",
-                "sound": "Wa-tabb (strongest Qalqalah Akbar)"
-              }
-            ],
-            "practice": "Recite Surah Al-Ikhlas, giving a strong, resonant Qalqalah to: أَحَدْ , الصَّمَدْ , يَلِدْ , يُولَدْ , أَحَدْ.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "In Surah Al-Ikhlas, what rule is applied to the letter Dal when stopping on 'قُلْ هُوَ اللَّهُ أَحَدْ'?",
-              "options": [
-                "Izhar Halqi",
-                "Qalqalah Kubra (Major Echoing)",
-                "Idgham",
-                "Madd Lazim"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Stopping on 'أَحَدْ' creates Qalqalah Kubra (Major Qalqalah) on the letter Dal."
+            {
+              "arabic": "أَلَمْ / عَلِمَ",
+              "transliteration": "Alam / 'Alima",
+              "label": "Contrast 4: Glottal Hamzah vs. Pharyngeal 'Ayn",
+              "sound": "A-lam vs A-li-ma"
             }
-          },
-          {
-            "id": "tajweed-ch7-l5",
-            "number": 5,
-            "title": "Chapter 7 Review & Qalqalah Listening Challenge",
-            "subtitle": "Mastering the echo across Surah Al-Falaq and Surah Al-Ikhlas",
-            "readingTime": "3 min",
-            "explanation": "Qalqalah brings energy and acoustic clarity to silent letters. Master the 5 letters (ق ط ب ج د), use minor bounce in mid-words, and deliver a powerful clear echo when stopping at verse ends.",
-            "keyPoints": [
-              "5 Letters: ق ط ب ج د (Qutb Jad).",
-              "Minor in middle of words (يَطْمَعُ).",
-              "Major when stopping at ends of words (الْفَلَقْ).",
-              "Never add a vowel sound to the bounce."
+          ],
+          "practice": "Recite the contrast pairs (تَابَ / طَابَ) and (سَارَ / صَارَ) back to back. Ensure your mouth cavity expands on the heavy letters.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which of the following pairs share the exact same specific articulation point but are distinguished solely by their characteristics (Sifāt)?",
+            "options": [
+              "Tā' (ت) and Ṭā' (ط)",
+              "Hamzah (ء) and 'Ayn (ع)",
+              "Qāf (ق) and Kāf (ك)",
+              "Fā' (ف) and Bā' (ب)"
             ],
-            "audio": {
-              "arabicText": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ - مِن شَرِّ مَا خَلَقَ - وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ - وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ - وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
-              "phonetic": "Complete Surah Al-Falaq",
-              "description": "Listen to Surah Al-Falaq with Qalqalah on every single verse end."
-            },
-            "examples": [
-              {
-                "arabic": "خَلَقَ (stop: خَلَقْ)",
-                "label": "Qaf bounce",
-                "sound": "Khalaq"
-              },
-              {
-                "arabic": "وَقَبَ (stop: وَقَبْ)",
-                "label": "Ba bounce",
-                "sound": "Waqab"
-              },
-              {
-                "arabic": "الْعُقَدِ (stop: الْعُقَدْ)",
-                "label": "Dal bounce",
-                "sound": "Al-'Uqad"
-              }
-            ],
-            "practice": "Recite Surah Al-Falaq and ensure all 5 verse endings have a crisp, resonant Qalqalah.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which of the following words contains Qalqalah when read continuously?",
-              "options": [
-                "الْحَمْدُ",
-                "يَجْعَلُونَ (Yaj'aloona)",
-                "كِتَابٌ",
-                "سَمِيعٌ"
-              ],
-              "correctAnswer": 1,
-              "explanation": "'يَجْعَلُونَ' contains a silent Jim (جْ) in the middle of the word, triggering Qalqalah Sughra."
-            }
+            "correctAnswer": 0,
+            "explanation": "Tā' (ت) and Ṭā' (ط) share the exact same specific articulation point at the gum-ridge roots of the upper central incisors (Al-Hurūf an-Nat'iyyah). They are distinguished because Ṭā' possesses Isti'lā' (elevation) and Iṭbāq (compression), making it heavy."
           }
-        ],
-        "aliases": [
-          "lesson-7",
-          "lesson-8"
-        ]
-      },
-      {
-        "id": "lesson-8",
-        "number": 9,
-        "title": "Ahkam Al-Tafkhim & Al-Tarqiq: Heaviness & Lightness (أحكام التفخيم والترقيق)",
-        "subtitle": "The 7 heavy letters (خ ص ض غ ط ق ظ) and conditioned rules for Ra and Lam of Jalalah",
-        "readingTime": "20 min",
-        "videoLesson": {
-          "title": "Heavy & Light Letters (Tafkhim & Tarqiq)",
-          "channel": "Arabic 101",
-          "duration": "15:10",
-          "videoId": "A0lHGbe0K-M",
-          "watchUrl": "https://www.youtube.com/watch?v=A0lHGbe0K-M",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/A0lHGbe0K-M",
-          "url": "https://www.youtube-nocookie.com/embed/A0lHGbe0K-M",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Tafkhim & Tarqiq Guide",
-          "badge": "Verified Reference Video"
-        },
-        "summary": "Understand mouth posture, full-mouth elevation (Tafkhim), flat-mouth softness (Tarqiq), and the conditions for Ra and the Name of Allah.",
-        "smallLessons": [
+        }
+      ],
+      "quiz": {
+        "id": "quiz-tajweed-ch1",
+        "title": "Chapter 1 Mastery Quiz: Ahkam Al-Makharij",
+        "questions": [
           {
-            "id": "tajweed-ch8-l1",
-            "number": 1,
-            "title": "What Are Tafkhim and Tarqiq?",
-            "subtitle": "Full-mouth heaviness vs flat-mouth lightness",
-            "readingTime": "3 min",
-            "explanation": "Tafkhim (تَفْخِيم) means 'to make heavy or thick'—the back of the tongue elevates towards the roof of the mouth, filling the oral cavity with an echo (sounding like 'O' rather than 'A'). Tarqiq (تَرْقِيق) means 'to make light or thin'—the tongue stays relaxed/flat, producing a bright, smiling 'A' sound.",
-            "keyPoints": [
-              "Tafkhim = Heavy, full-mouth sound (elevated back of tongue).",
-              "Tarqiq = Light, flat-mouth sound (smiling posture).",
-              "Never pronounce light letters heavily (e.g. do not say 'Saa' for س).",
-              "Never pronounce heavy letters lightly (e.g. do not say 'S' for ص)."
+            "question": "What is the classical definition of a Makhraj in Tajweed?",
+            "options": [
+              "The exact anatomical place where a letter sound begins and is distinguished from others",
+              "The length of time a vowel is held in recitation",
+              "The rule for stopping at the end of a verse",
+              "The speed of Qur'anic recitation"
             ],
-            "audio": {
-              "arabicText": "سَ vs صَ - تَ vs طَ - دَ vs ضَ - كَ vs قَ",
-              "phonetic": "Sa vs Saa | Ta vs Taa | Da vs Daa | Ka vs Qaa",
-              "description": "Listen to the stark contrast between light and heavy letter pairs."
-            },
-            "examples": [
-              {
-                "arabic": "سَ (Light) vs صَ (Heavy)",
-                "label": "Sin vs Sad",
-                "sound": "Sin is light/smiling; Sad is thick/full-mouth"
-              },
-              {
-                "arabic": "تَ (Light) vs طَ (Heavy)",
-                "label": "Ta vs Taa",
-                "sound": "Ta is soft/dental; Taa is thick/elevated"
-              }
-            ],
-            "practice": "Contrast: 'سَارَ' (Saara - he walked) vs 'صَارَ' (Saara - he became). Notice how heaviness changes word meaning!",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What physical tongue movement creates the heavy (Tafkhim) sound in Arabic?",
-              "options": [
-                "Sticking the tongue out past the lips",
-                "Elevating the back of the tongue toward the palate to create a full-mouth acoustic chamber",
-                "Closing the lips tightly",
-                "Holding the breath for 3 seconds"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Elevating the back of the tongue toward the upper palate creates the full-mouth resonant chamber characteristic of Tafkhim."
-            }
+            "correctAnswer": 0
           },
           {
-            "id": "tajweed-ch8-l2",
-            "number": 2,
-            "title": "The 7 Always-Heavy Letters",
-            "subtitle": "Khussa Daghtin Qiz (خُصَّ ضَغْطٍ قِظْ)",
-            "readingTime": "3 min",
-            "explanation": "There are 7 letters that are ALWAYS heavy (Tafkhim) regardless of their vowel mark. They are grouped in the mnemonic: خُصَّ ضَغْطٍ قِظْ (Kha, Sad, Dad, Ghayn, Ta, Qaf, Zha: خ , ص , ض , غ , ط , ق , ظ). Among these, the 4 strongest are the 'Istila + Itbaq' letters: ص , ض , ط , ظ.",
-            "keyPoints": [
-              "The 7 heavy letters: خ , ص , ض , غ , ط , ق , ظ.",
-              "Grouped as: خُصَّ ضَغْطٍ قِظْ (Khussa Daghtin Qiz).",
-              "They remain heavy with Fat-hah, Dammah, Kasrah, and Sukoon.",
-              "Strongest heaviness is with Fat-hah followed by Alif (e.g. خَالِدِينَ)."
+            "question": "How do you practically test the articulation point of an Arabic consonant?",
+            "options": [
+              "Prefix a Hamzah with Fat-hah and place a Sukoon on the letter (e.g. أَبْ)",
+              "Read the letter three times quickly with Dammah",
+              "Hold your breath while reciting the letter",
+              "Whisper the letter into your hand"
             ],
-            "audio": {
-              "arabicText": "خَالِدِينَ - الصَّابِرِينَ - ضَالِّينَ - غَافِرِ - طَالُوتَ - قَالَ - ظَالِمِينَ",
-              "phonetic": "Khaalideen, As-Saabireen, Daalleen, Ghaafir, Taaloot, Qaala, Zhaalimeen",
-              "description": "Listen to the 7 always-heavy letters recited with full resonance."
-            },
-            "examples": [
-              {
-                "arabic": "طَالُوتَ",
-                "label": "Letter Ta (ط)",
-                "sound": "Taa-loot (deepest heavy letter)"
-              },
-              {
-                "arabic": "الصِّرَاطَ",
-                "label": "Letter Sad (ص) & Ta (ط)",
-                "sound": "As-Siraat (both are heavy)"
-              }
-            ],
-            "practice": "Recite 'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ' keeping 'ص' and 'ط' heavy, but 'مُسْتَ' completely light.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which of the following letters is ALWAYS pronounced with heaviness (Tafkhim)?",
-              "options": [
-                "Ba (ب)",
-                "Sad (ص)",
-                "Sin (س)",
-                "Dal (د)"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Sad (ص) is one of the 7 always-heavy letters (خ ص ض غ ط ق ظ)."
-            }
+            "correctAnswer": 0
           },
           {
-            "id": "tajweed-ch8-l3",
-            "number": 3,
-            "title": "The Special Rule for Letter Alif (ا)",
-            "subtitle": "Following the heaviness or lightness of the preceding letter",
-            "readingTime": "3 min",
-            "explanation": "The letter Alif (ا) has no independent heaviness or lightness of its own. It acts like an acoustic mirror: if the letter before it is heavy, the Alif is heavy (e.g. قَالَ 'Qaa-la'); if the letter before it is light, the Alif is light (e.g. كَانَ 'Kaa-na').",
-            "keyPoints": [
-              "Alif follows the preceding letter.",
-              "After heavy letter -> Heavy Alif (e.g. صَابِرِينَ , غَاسِقٍ).",
-              "After light letter -> Light Alif (e.g. تَائِبُونَ , جَاءَ)."
+            "question": "How many general zones and specific articulation points exist according to Imam Ibn al-Jazari?",
+            "options": [
+              "5 general zones and 17 specific articulation points",
+              "4 general zones and 14 specific articulation points",
+              "3 general zones and 28 specific articulation points",
+              "6 general zones and 12 specific articulation points"
             ],
-            "audio": {
-              "arabicText": "قَالَ (Heavy) vs كَانَ (Light) - صَابِرِينَ (Heavy) vs سَائِلِينَ (Light)",
-              "phonetic": "Qaala vs Kaana | Saabireen vs Saa'ileen",
-              "description": "Listen to how Alif mirrors the heavy vs light preceding consonant."
-            },
-            "examples": [
-              {
-                "arabic": "قَالَ",
-                "label": "Heavy Alif",
-                "sound": "Qaa-la (Alif fills the mouth)"
-              },
-              {
-                "arabic": "كَانَ",
-                "label": "Light Alif",
-                "sound": "Kaa-na (Alif is smiling and flat)"
-              }
-            ],
-            "practice": "Contrast: 'قَالَ' (Heavy Alif) with 'كَانَ' (Light Alif).",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "How is the heaviness or lightness of the letter Alif (ا) determined?",
-              "options": [
-                "Alif is always heavy",
-                "Alif is always light",
-                "Alif follows the heavy/light state of the letter BEFORE it",
-                "Alif follows the letter AFTER it"
-              ],
-              "correctAnswer": 2,
-              "explanation": "Alif mirrors the preceding letter: heavy after heavy letters, light after light letters."
-            }
+            "correctAnswer": 0
           },
           {
-            "id": "tajweed-ch8-l4",
-            "number": 4,
-            "title": "The Name of Allah (Lafz al-Jalalah)",
-            "subtitle": "When the Lam in 'Allah' is heavy vs light",
-            "readingTime": "3 min",
-            "explanation": "Normally, the letter Lam (ل) is light. However, in the Name of Allah (اللَّه / اللَّهُمَّ), the Lam has a special rule: 1) Heavy Lam: If preceded by Fat-hah (َ) or Dammah (ُ) (e.g. قُلْ هُوَ اللَّهُ , شَهِدَ اللَّهُ). 2) Light Lam: If preceded by Kasrah (ِ) (e.g. بِسْمِ اللَّهِ , قُلِ اللَّهُمَّ).",
-            "keyPoints": [
-              "After Fat-hah -> Heavy Lam (قَالَ اللَّهُ 'Qaalallahu').",
-              "After Dammah -> Heavy Lam (عَبْدُ اللَّهِ 'Abdullahi').",
-              "After Kasrah -> Light Lam (بِسْمِ اللَّهِ 'Bismillahi')."
+            "question": "Which articulation zone is described as \"Taqdīrī\" (estimated) because sound flows through open space without physical organs touching?",
+            "options": [
+              "Al-Jawf (The Oral Cavity)",
+              "Al-Halq (The Throat)",
+              "Al-Lisan (The Tongue)",
+              "Ash-Shafatan (The Lips)"
             ],
-            "audio": {
-              "arabicText": "بِسْمِ اللَّهِ (Light) - هُوَ اللَّهُ (Heavy) - رَسُولُ اللَّهِ (Heavy)",
-              "phonetic": "Bismillahi (Light) | Huwa-llaahu (Heavy) | Rasoolu-llaahi (Heavy)",
-              "description": "Listen to the Name of Allah with light Lam (after Kasrah) vs heavy Lam."
-            },
-            "examples": [
-              {
-                "arabic": "بِسْمِ اللَّهِ",
-                "label": "Light Lam",
-                "sound": "Bismillahi (Kasrah on Meem makes Lam light)"
-              },
-              {
-                "arabic": "هُوَ اللَّهُ",
-                "label": "Heavy Lam",
-                "sound": "Huwallahu (Fat-hah on Waw makes Lam heavy)"
-              }
-            ],
-            "practice": "Recite: 'بِسْمِ اللَّهِ' (Light) and 'قُلْ هُوَ اللَّهُ' (Heavy).",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "In the phrase 'بِسْمِ اللَّهِ' (Bismillah), is the Lam in the Name of Allah heavy or light?",
-              "options": [
-                "Heavy (Tafkhim)",
-                "Light (Tarqiq, because it is preceded by a Kasrah on the Meem)",
-                "Silent",
-                "Elongated for 6 counts"
-              ],
-              "correctAnswer": 1,
-              "explanation": "In 'بِسْمِ اللَّهِ', the Lam is light (Tarqiq) because the preceding letter carries a Kasrah (بِسْمِ)."
-            }
+            "correctAnswer": 0
           },
           {
-            "id": "tajweed-ch8-l5",
-            "number": 5,
-            "title": "The Rules of Letter Ra (ر)",
-            "subtitle": "When Ra is heavy vs when Ra is light",
-            "readingTime": "4 min",
-            "explanation": "The letter Ra (ر) alternates between heavy and light: 1) Heavy Ra (Tafkhim): When Ra has Fat-hah (رَ), Dammah (رُ), or Sukoon preceded by Fat-hah/Dammah (e.g. رَبَّنَا , قُرْآن , مَرْيَم). 2) Light Ra (Tarqiq): When Ra has Kasrah (رِ) or Sukoon preceded by an original Kasrah (e.g. رِزْقًا , فِرْعَوْن).",
-            "keyPoints": [
-              "Heavy Ra: With Fat-hah (رَ), Dammah (رُ), or Sukoon after Fat-hah/Dammah.",
-              "Light Ra: With Kasrah (رِ) or Sukoon after original Kasrah.",
-              "Example Heavy: رَبِّ الْعَالَمِينَ (Rabbi).",
-              "Example Light: رِزْقًا (Rizqan), فِرْعَوْنَ (Fir'awn)."
+            "question": "From where are the letters 'Ayn (ع) and Ḥā' (ح) articulated?",
+            "options": [
+              "Middle Throat (Wasat al-Halq)",
+              "Deep Throat (Aqsa al-Halq)",
+              "Upper Throat (Adna al-Halq)",
+              "Center of the Tongue (Wasat al-Lisan)"
             ],
-            "audio": {
-              "arabicText": "رَبِّنَا (Heavy) - رِزْقًا (Light) - قُرْآن (Heavy) - فِرْعَوْن (Light)",
-              "phonetic": "Rabbana (Heavy) | Rizqan (Light) | Qur'an (Heavy) | Fir'awn (Light)",
-              "description": "Listen to the clear shift between heavy and light Ra."
-            },
-            "examples": [
-              {
-                "arabic": "رَبَّنَا",
-                "label": "Heavy Ra",
-                "sound": "Rabbana (Fat-hah on Ra)"
-              },
-              {
-                "arabic": "فِرْعَوْنَ",
-                "label": "Light Ra",
-                "sound": "Fir'awn (Sukoon after Kasrah)"
-              }
-            ],
-            "practice": "Recite 'الرَّحْمَٰنِ الرَّحِيمِ' noting both Ra letters are heavy with Fat-hah.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "In the word 'فِرْعَوْنَ' (Fir'awn), is the letter Ra heavy or light?",
-              "options": [
-                "Heavy",
-                "Light (because the Ra carries a Sukoon preceded by a Kasrah)",
-                "It alternates",
-                "Qalqalah"
-              ],
-              "correctAnswer": 1,
-              "explanation": "In 'فِرْعَوْنَ', the Ra has a Sukoon preceded by a Kasrah on the Fa, making it light (Tarqiq)."
-            }
+            "correctAnswer": 0
           },
           {
-            "id": "tajweed-ch8-l6",
-            "number": 6,
-            "title": "Chapter 8 Review & Heaviness Mastery Challenge",
-            "subtitle": "Summary of Tafkhim and Tarqiq across all letters",
-            "readingTime": "3 min",
-            "explanation": "Mastering Tafkhim and Tarqiq gives your recitation its dignified, authoritative Arabic beauty. Keep the 7 letters (خ ص ض غ ط ق ظ) heavy, control the Name of Allah based on preceding vowel, and apply Ra rules with precision.",
-            "keyPoints": [
-              "Always Heavy: خ ص ض غ ط ق ظ (Khussa Daghtin Qiz).",
-              "Name of Allah: Heavy after Fat-hah/Dammah; Light after Kasrah.",
-              "Ra: Heavy with Fat-hah/Dammah; Light with Kasrah."
+            "question": "What sound originates specifically from Al-Khayshum (the nasal cavity)?",
+            "options": [
+              "Ghunnah (nasal resonance in Nūn and Mīm)",
+              "Qalqalah (echoing bounce)",
+              "Alif Madd (prolongation)",
+              "Hams (whispering breath)"
             ],
-            "audio": {
-              "arabicText": "إِنَّ رَبَّكَ لَبِالْمِرْصَادِ",
-              "phonetic": "Inna Rabbaka labi-l-Mirsaad",
-              "description": "Listen to heavy Ra and heavy Sad in Surah Al-Fajr."
-            },
-            "examples": [
-              {
-                "arabic": "مِرْصَاد",
-                "label": "Heavy Ra exception",
-                "sound": "Mirsaad (Ra before heavy letter Sad becomes heavy)"
-              }
-            ],
-            "practice": "Recite Surah Al-Fatihah paying special attention to: الصِّرَاطَ , غَيْرِ , الضَّالِّينَ.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "How many letters in the Arabic alphabet are ALWAYS pronounced with heaviness (Tafkhim)?",
-              "options": [
-                "3 letters",
-                "7 letters (خ ص ض غ ط ق ظ)",
-                "10 letters",
-                "All 28 letters"
-              ],
-              "correctAnswer": 1,
-              "explanation": "There are 7 always-heavy letters combined in the phrase خُصَّ ضَغْطٍ قِظْ."
-            }
+            "correctAnswer": 0
           }
-        ],
-        "aliases": [
-          "lesson-8",
-          "lesson-9"
-        ]
-      },
-      {
-        "id": "lesson-9",
-        "number": 10,
-        "title": "Ahkam Al-Waqf & Al-Ibtida: Stopping & Starting (أحكام الوقف والابتداء)",
-        "subtitle": "Where to pause, where to continue, types of stops, and Qur'anic punctuation symbols",
-        "readingTime": "18 min",
-        "videoLesson": {
-          "title": "One Pause Can Flip the Meaning: The 4 Types of Optional Waqf",
-          "channel": "Arabic 101",
-          "duration": "13:45",
-          "videoId": "KIwOl-djFJE",
-          "watchUrl": "https://www.youtube.com/watch?v=KIwOl-djFJE",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/KIwOl-djFJE",
-          "url": "https://www.youtube-nocookie.com/embed/KIwOl-djFJE",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Rules of Waqf & Stopping Signs",
-          "badge": "Verified Reference Video"
-        },
-        "summary": "Master the rules of stopping safely (Waqf) and resuming recitation (Ibtida) without altering divine meaning.",
-        "smallLessons": [
-          {
-            "id": "tajweed-ch9-l1",
-            "number": 1,
-            "title": "Meaning & Importance of Waqf",
-            "subtitle": "Safeguarding meaning through proper pausing",
-            "readingTime": "3 min",
-            "explanation": "Waqf (وَقْف) means 'to stop or pause' recitation by cutting off the voice at the end of a word for the duration of taking a natural breath, with the intention of continuing recitation. Ali ibn Abi Talib (RA) said: 'Tajweed is the correct articulation of letters and the knowledge of stopping points (Waqf).'",
-            "keyPoints": [
-              "Waqf = Stopping on a word while taking a natural breath.",
-              "When stopping, the final vowel turns into a Sukoon (resting stop).",
-              "Tanween Fat-hah (ً) turns into an Alif (2-count Madd 'Iwad: عَلِيمًا -> عَلِيمَا).",
-              "Stopping at the right place protects the meaning of the verse."
-            ],
-            "audio": {
-              "arabicText": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (Stop: الْعَالَمِينْ)",
-              "phonetic": "Al-hamdu lillahi Rabbi-l-'Aalameen (Stop)",
-              "description": "Listen to how final vowels turn into Sukoon upon stopping."
-            },
-            "examples": [
-              {
-                "arabic": "رَحِيمٌ (stop: رَحِيمْ)",
-                "label": "Tanween Dammah stop",
-                "sound": "Raheem (ends in Sukoon)"
-              },
-              {
-                "arabic": "غَفُورًا (stop: غَفُورَا)",
-                "label": "Tanween Fat-hah stop",
-                "sound": "Ghafoora (ends in 2-count Alif)"
-              }
-            ],
-            "practice": "Practice stopping on: 'كِتَابٌ' -> 'كِتَابْ' and 'عَلِيمًا' -> 'عَلِيمَا'.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "When stopping at the end of a word ending in Tanween Fat-hah (e.g. عَلِيمًا), how is it pronounced?",
-              "options": [
-                "With a normal Sukoon on the M (عَلِيمْ)",
-                "With an elongated 2-count Alif sound (عَلِيمَا - Madd 'Iwad)",
-                "With a double 'N' sound",
-                "It is forbidden to stop on Tanween Fat-hah"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Stopping on Tanween Fat-hah converts the 'an' sound into a 2-count Alif (Madd 'Iwad: عَلِيمَا)."
-            }
-          },
-          {
-            "id": "tajweed-ch9-l2",
-            "number": 2,
-            "title": "Qur'anic Stop Signs & Symbols",
-            "subtitle": "مـ , قلى , صلى , ج , لا explained",
-            "readingTime": "4 min",
-            "explanation": "The Mushaf contains standardized symbol marks above words: 1) (مـ) Mandatory Stop (Waqf Lazim): Must stop to avoid corrupting meaning. 2) (قلى) Better to Stop (Al-Waqfu Awla). 3) (ج) Permissible Stop (Waqf Ja'iz): Equal to stop or continue. 4) (صلى) Better to Continue (Al-Waslu Awla). 5) (لا) Do Not Stop (Waqf Mamnu'): Do not stop here mid-sentence!",
-            "keyPoints": [
-              "(مـ): Compulsory Stop (Waqf Lazim).",
-              "(قلى): Preferred to Stop.",
-              "(ج): Equal Choice (Stop or Continue).",
-              "(صلى): Preferred to Continue.",
-              "(لا): Do Not Stop (unless at full verse end)."
-            ],
-            "audio": {
-              "arabicText": "إِنَّمَا يَسْتَجِيبُ الَّذِينَ يَسْمَعُونَ ۘ وَالْمَوْتَىٰ يَبْعَثُهُمُ اللَّهُ",
-              "phonetic": "Demonstrating the compulsory stop (مـ) between living and deceased",
-              "description": "Listen to why stopping at (مـ) is critical to preserve theology."
-            },
-            "examples": [
-              {
-                "arabic": "قلى",
-                "label": "Better to Stop",
-                "sound": "Pausing is preferred"
-              },
-              {
-                "arabic": "صلى",
-                "label": "Better to Continue",
-                "sound": "Continuing is preferred"
-              }
-            ],
-            "practice": "Look through Surah Al-Baqarah and identify (قلى), (صلى), and (ج) marks.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What does the symbol (قلى) above a Qur'anic word indicate?",
-              "options": [
-                "Forbidden to stop",
-                "Stopping is preferred (Al-Waqfu Awla)",
-                "Mandatory elongation for 6 counts",
-                "Idgham without Ghunnah"
-              ],
-              "correctAnswer": 1,
-              "explanation": "(قلى) stands for 'Al-Waqfu Awla', meaning stopping is better and preferred."
-            }
-          },
-          {
-            "id": "tajweed-ch9-l3",
-            "number": 3,
-            "title": "Resuming Recitation (Ibtida)",
-            "subtitle": "Starting properly after taking a breath",
-            "readingTime": "3 min",
-            "explanation": "When you run out of breath and stop mid-verse, you cannot simply start from any random next word. You must resume (Ibtida) from a word that forms a complete, correct meaning—often by backing up 1 or 2 words to make the sentence grammatically whole.",
-            "keyPoints": [
-              "Good Start (Ibtida Hasan): Starting from a meaningful sentence.",
-              "Bad Start (Ibtida Qabeeh): Starting in a way that creates a blasphemous or contradictory meaning.",
-              "If stopped mid-verse for breath, back up 1-2 words to resume smoothly."
-            ],
-            "audio": {
-              "arabicText": "رَبَّنَا تَقَبَّلْ مِنَّا ۖ إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ",
-              "phonetic": "Rabbana taqabbal minnaa / Innaka Anta-s-Samee'u-l-'Aleem",
-              "description": "Listen to proper breath pause and smooth resumption."
-            },
-            "examples": [
-              {
-                "arabic": "إِنَّ اللَّهَ لَا يَسْتَحْيِي",
-                "label": "Caution",
-                "sound": "Never stop on 'La yastahyi' (Allah does not shy away) without completing 'an yadriba mathalan'!"
-              }
-            ],
-            "practice": "Practice pausing on 'رَبَّنَا تَقَبَّلْ مِنَّا' and resuming with 'إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ'.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "If you run out of breath in the middle of a long verse, what is the correct Tajweed practice?",
-              "options": [
-                "Continue silently without breath",
-                "Stop on the word, take a breath, and back up a word or two to resume with a complete meaning",
-                "Restart the entire Surah from verse 1",
-                "Skip the rest of the verse"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Stop naturally, take a breath, and back up 1-2 words to resume with a complete, coherent meaning."
-            }
-          },
-          {
-            "id": "tajweed-ch9-l4",
-            "number": 4,
-            "title": "The Female 'Ta' Stop (Ta Marbootah ة)",
-            "subtitle": "Converting Ta Marbootah into Ha (هـ)",
-            "readingTime": "3 min",
-            "explanation": "When stopping on a word ending in Ta Marbootah (ة / ـة), it is ALWAYS pronounced as a silent Ha with Sukoon (هْ), regardless of whether it has Fat-hah, Kasrah, Dammah, or Tanween! (e.g. الْجَنَّةُ -> الْجَنَّهْ 'Al-Jannah', الصَّلَاةَ -> الصَّلَاهْ 'As-Salah').",
-            "keyPoints": [
-              "Ta Marbootah (ة / ـة) turns into Ha (هْ) upon stopping.",
-              "When continuing in connected speech, it sounds like normal 'T'.",
-              "Example: الْقَارِعَةُ (Stop: الْقَارِعَهْ 'Al-Qari'ah')."
-            ],
-            "audio": {
-              "arabicText": "الْقَارِعَةُ (Stop: الْقَارِعَهْ) - مَا الْقَارِعَةُ",
-              "phonetic": "Al-Qari'ah | Ma-l-Qari'ah",
-              "description": "Listen to the Ta Marbootah turning into soft Ha at verse stops."
-            },
-            "examples": [
-              {
-                "arabic": "الْقَارِعَةُ",
-                "label": "Stop",
-                "sound": "Al-Qari'ah (soft Ha)"
-              },
-              {
-                "arabic": "الْقَارِعَةُ مَا الْقَارِعَةُ",
-                "label": "Continuous",
-                "sound": "Al-Qari'atu ma-l-Qari'ah (sounds as T in continuous speech)"
-              }
-            ],
-            "practice": "Recite Surah Al-Qari'ah verses 1-3, stopping on each verse with soft 'Ha'.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "When stopping at the end of a word ending in Ta Marbootah (ة), how is it pronounced?",
-              "options": [
-                "As a crisp 'T' sound",
-                "As a soft 'H' sound with Sukoon (هْ)",
-                "As an elongated 'Ah' for 6 counts",
-                "As a nasal Meem"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Ta Marbootah (ة) always converts to a soft Ha with Sukoon (هْ) when stopping."
-            }
-          },
-          {
-            "id": "tajweed-ch9-l5",
-            "number": 5,
-            "title": "Chapter 9 Review & Stopping Challenge",
-            "subtitle": "Mastering stopping and starting across Surah Al-Qadr",
-            "readingTime": "3 min",
-            "explanation": "Waqf is the punctuation of the Qur'an. Master converting vowels to Sukoon, Tanween Fat-hah to Madd 'Iwad (Alif), Ta Marbootah to Ha, and respect the Mushaf stop signs.",
-            "keyPoints": [
-              "Vowels -> Sukoon at stops.",
-              "Tanween Fat-hah (ً) -> 2-count Alif (Madd 'Iwad).",
-              "Ta Marbootah (ة) -> Soft Ha (هْ).",
-              "Respect stop signs: مـ (Must), قلى (Better), صلى (Continue)."
-            ],
-            "audio": {
-              "arabicText": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ - وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ - لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
-              "phonetic": "Surah Al-Qadr verses 1-3",
-              "description": "Listen to Surah Al-Qadr demonstrating proper stops on 'Al-Qadr' and 'Shahr'."
-            },
-            "examples": [
-              {
-                "arabic": "الْقَدْرِ (stop)",
-                "label": "Waqf with Sukoon",
-                "sound": "Al-Qadr (silent Dal bounce + silent Ra)"
-              }
-            ],
-            "practice": "Recite Surah Al-Qadr from start to finish observing all stopping rules.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What does the stop sign (مـ) indicate in the Holy Qur'an?",
-              "options": [
-                "Optional stop",
-                "Compulsory Stop (Waqf Lazim) to preserve meaning",
-                "Do not stop",
-                "Idgham Shafawi"
-              ],
-              "correctAnswer": 1,
-              "explanation": "(مـ) represents Waqf Lazim, a compulsory stop to prevent blending unrelated meanings."
-            }
-          }
-        ],
-        "aliases": [
-          "lesson-9",
-          "lesson-10"
-        ]
-      },
-      {
-        "id": "lesson-10",
-        "number": 11,
-        "title": "Rectifying Tajweed Violations & Common Mistakes (تنبيهات وأخطاء شائعة في التجويد)",
-        "subtitle": "Diagnosing and fixing letter substitutions, phonetic distortions, timing errors, and breath issues",
-        "readingTime": "18 min",
-        "videoLesson": {
-          "title": "Tajweed Common Mistakes & How to Correct Them",
-          "channel": "Arabic 101",
-          "duration": "19:05",
-          "videoId": "zWZCtEtrkE8",
-          "watchUrl": "https://www.youtube.com/watch?v=zWZCtEtrkE8",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/zWZCtEtrkE8",
-          "url": "https://www.youtube-nocookie.com/embed/zWZCtEtrkE8",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Error Correction & Recitation Refinement",
-          "badge": "Verified Reference Video"
-        },
-        "summary": "Identify and eliminate the 5 most frequent pronunciation mistakes made by non-native Arabic learners.",
-        "smallLessons": [
-          {
-            "id": "tajweed-ch10-l1",
-            "number": 1,
-            "title": "Mistake 1: Letter Substitutions",
-            "subtitle": "Fixing ض vs ظ , ح vs هـ , and س vs ث",
-            "readingTime": "3 min",
-            "explanation": "The most damaging mistake is letter substitution (Lahn Jali). Common traps: 1) Confusing deep 'ح' with English breathy 'هـ' (e.g. 'الحمد' vs 'الهمد'). 2) Confusing side-tongue 'ض' with tongue-tip 'ظ' or 'د'. 3) Confusing dental 'س' with soft 'ث'. Always check dot placement and anchor your tongue in the correct Makhraj.",
-            "keyPoints": [
-              "ح (Mid-throat) is NOT هـ (Deep throat).",
-              "ض (Side tongue against molars) is NOT ظ (Tip of tongue between teeth).",
-              "س (Whistling S) is NOT ث (Soft Th).",
-              "Letter substitutions change sacred word meanings."
-            ],
-            "audio": {
-              "arabicText": "الْحَمْدُ (Correct) vs الْهَمْدُ (Wrong) - ضَلَّ (Correct) vs ظَلَّ (Wrong)",
-              "phonetic": "Al-Hamdu vs Al-Hamdu | Dalla vs Zhalla",
-              "description": "Listen to the sharp audio contrast between easily confused letters."
-            },
-            "examples": [
-              {
-                "arabic": "قَلْب (Heart) vs كَلْب (Dog)",
-                "label": "Qaf vs Kaf",
-                "sound": "Qalb (Heart with Qaf) vs Kalb (Dog with Kaf) - essential distinction!"
-              }
-            ],
-            "practice": "Pronounce: 'حَسَن' (Ha - pure throat) vs 'هَدَف' (Ha - deep air).",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What is the difference between 'قَلْب' (Qalb) and 'كَلْب' (Kalb)?",
-              "options": [
-                "They mean the exact same thing",
-                "'Qalb' (with Qaf) means Heart; 'Kalb' (with Kaf) means Dog",
-                "They are different dialects of the same word",
-                "One is past tense, one is present tense"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Substituting Qaf for Kaf turns 'Heart' (قَلْب) into 'Dog' (كَلْب), highlighting why Tajweed is so essential."
-            }
-          },
-          {
-            "id": "tajweed-ch10-l2",
-            "number": 2,
-            "title": "Mistake 2: Inconsistent Vowel Durations",
-            "subtitle": "Overstretching short vowels or clipping Madd",
-            "readingTime": "3 min",
-            "explanation": "Short vowels (Fat-hah, Kasrah, Dammah) must take exactly 1 count. A frequent beginner mistake is dragging a short vowel so long that it accidentally turns into a full 2-count Madd letter (e.g. turning 'كَتَبَ' 'kataba' into 'كَتَابَا' 'kataabaa'). Conversely, do not rush Madd letters down to 1 count.",
-            "keyPoints": [
-              "Short Vowel = Exactly 1 count (quick, crisp).",
-              "Long Vowel (Madd) = Exactly 2 counts (twice the duration).",
-              "Do not stretch Fat-hah on suffixes (e.g. 'أَنْعَمْتَ' is 'ta', not 'taa')."
-            ],
-            "audio": {
-              "arabicText": "كَتَبَ (1-1-1) vs كَاتَبَ (2-1-1) vs كِتَاب (1-2)",
-              "phonetic": "Kataba vs Kaataba vs Kitaab",
-              "description": "Listen to exact 1-count vs 2-count vowel timing."
-            },
-            "examples": [
-              {
-                "arabic": "خَلَقَكَ",
-                "label": "All 1 count",
-                "sound": "Kha-la-qa-ka (do not drag any vowel!)"
-              }
-            ],
-            "practice": "Recite 'خَلَقَكَ فَسَوَّاكَ' keeping 'خَلَقَكَ' brisk (1 count each) and 'سَوَّاكَ' elongated (2 counts on Waa).",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What error occurs when a reciter drags a short Fat-hah vowel too long?",
-              "options": [
-                "It turns into an unwanted Madd Alif letter (altering the word structure)",
-                "It becomes a Qalqalah",
-                "It becomes an Izhar",
-                "It produces a Ghunnah"
-              ],
-              "correctAnswer": 0,
-              "explanation": "Overstretching a 1-count short vowel accidentally creates an extra Madd letter, changing the word."
-            }
-          },
-          {
-            "id": "tajweed-ch10-l3",
-            "number": 3,
-            "title": "Mistake 3: Dropping or Rushing Ghunnah",
-            "subtitle": "Giving Nun and Meem Mushaddadah their full 2 counts",
-            "readingTime": "3 min",
-            "explanation": "When Nun or Meem carries a Shaddah (نّ , مّ), or in rules of Idgham/Ikhfa, the Ghunnah MUST be sustained in the nasal cavity for a full 2 counts. Rushing past it as a normal 1-count consonant strips the recitation of its required Tajweed beauty.",
-            "keyPoints": [
-              "Always hold 2 full counts on نّ and مّ.",
-              "Hold 2 counts on Idgham Bi Ghunnah (مَن يَقُولُ).",
-              "Hold 2 counts on Ikhfa (كُنتُمْ).",
-              "Do not rush the nasal resonance."
-            ],
-            "audio": {
-              "arabicText": "إِنَّ الإِنسَانَ - عَمَّ يَتَسَاءَلُونَ",
-              "phonetic": "Inna-l-Insaana | 'Amma yatasaa'aloon",
-              "description": "Listen to the rich, patient 2-count Ghunnah on Inna and 'Amma."
-            },
-            "examples": [
-              {
-                "arabic": "إِنَّ",
-                "label": "Full Ghunnah",
-                "sound": "Inn---a (patient 2 counts)"
-              },
-              {
-                "arabic": "عَمَّ",
-                "label": "Full Ghunnah",
-                "sound": "'Ammm---a (patient 2 counts)"
-              }
-            ],
-            "practice": "Recite Surah An-Nas verse 1: 'قُلْ أَعُوذُ بِرَبِّ النَّاسِ' holding 2 counts on 'النَّاسِ'.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What is the required holding time for Ghunnah on a Nun with Shaddah (نّ)?",
-              "options": [
-                "Zero counts (read instantly)",
-                "2 counts (Harakataan)",
-                "6 counts",
-                "10 counts"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Ghunnah on Nun/Meem with Shaddah is always held for 2 counts."
-            }
-          },
-          {
-            "id": "tajweed-ch10-l4",
-            "number": 4,
-            "title": "Mistake 4: Adding Unwanted Vowels to Qalqalah",
-            "subtitle": "Keeping the bounce pure without adding 'a' or 'e'",
-            "readingTime": "3 min",
-            "explanation": "When executing Qalqalah on (ق ط ب ج د), some learners mistakenly add a miniature Fat-hah or Kasrah to the bounce (e.g. saying 'Ab-a' instead of 'Ab'). Qalqalah is a pure physical echo release of trapped air—it must never sound like an extra syllable!",
-            "keyPoints": [
-              "Qalqalah is a clean rebound, NOT an extra vowel.",
-              "Do NOT say 'Ahada' when stopping on 'أَحَدْ'—say 'Ahad' with crisp bounce.",
-              "Keep the vocal cords relaxed during the release."
-            ],
-            "audio": {
-              "arabicText": "قُلْ هُوَ اللَّهُ أَحَدْ (Correct pure bounce) vs أَحَدَ (Incorrect vowel addition)",
-              "phonetic": "Ahad (clean) vs Ahada (incorrect)",
-              "description": "Listen to the difference between a pure Qalqalah bounce and a corrupted vowel bounce."
-            },
-            "examples": [
-              {
-                "arabic": "لَمْ يَلِدْ",
-                "label": "Pure Dal Qalqalah",
-                "sound": "Lam yalid (clean bounce, not yali-da!)"
-              }
-            ],
-            "practice": "Recite 'لَمْ يَلِدْ وَلَمْ يُولَدْ' ensuring neither Dal adds an extra 'a' sound.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What is the common mistake to avoid when pronouncing Qalqalah?",
-              "options": [
-                "Pronouncing it too softly",
-                "Adding an extra vowel sound (like 'a' or 'e') to the bounce",
-                "Holding it for 6 counts",
-                "Reciting with smiling lips"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The most common error is adding an unwanted vowel (e.g. 'Ahad-a'), which corrupts the silent Sukoon."
-            }
-          },
-          {
-            "id": "tajweed-ch10-l5",
-            "number": 5,
-            "title": "Chapter 10 Review & Self-Correction Checklist",
-            "subtitle": "A 5-point checklist for clean recitation",
-            "readingTime": "3 min",
-            "explanation": "Use this 5-point self-correction checklist during daily practice: 1) Are my letters coming from their exact Makhraj? 2) Are heavy letters heavy and light letters light? 3) Are short vowels 1 count and Madd vowels 2/4/6 counts? 4) Am I holding Ghunnah for 2 counts? 5) Are my Qalqalah bounces clean?",
-            "keyPoints": [
-              "1. Accurate Makharij (no letter swaps).",
-              "2. Consistent Tafkhim & Tarqiq.",
-              "3. Precise vowel & Madd timing.",
-              "4. Patient 2-count Ghunnah.",
-              "5. Pure Qalqalah echo."
-            ],
-            "audio": {
-              "arabicText": "فَإِذَا فَرَغْتَ فَانصَبْ - وَإِلَىٰ رَبِّكَ فَارْغَب",
-              "phonetic": "Surah Ash-Sharh verses 7-8",
-              "description": "Listen to Surah Ash-Sharh applying the complete 5-point checklist."
-            },
-            "examples": [
-              {
-                "arabic": "فَانصَبْ",
-                "label": "Ikhfa + Qalqalah",
-                "sound": "Fa-n-sab (Ikhfa on Noon, heavy Sad, Qalqalah on Ba)"
-              }
-            ],
-            "practice": "Recite Surah Ash-Sharh checking off all 5 items on your recitation checklist.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which of the following represents the correct self-correction habit in daily Tajweed practice?",
-              "options": [
-                "Reciting as fast as possible to build speed",
-                "Checking articulation, heaviness/lightness, vowel counts, Ghunnah, and clean Qalqalah",
-                "Skipping difficult verses",
-                "Only focusing on Tajweed during Ramadan"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Regularly auditing your Makharij, Tafkhim/Tarqiq, Madd counts, Ghunnah, and Qalqalah ensures lifelong recitation mastery."
-            }
-          }
-        ],
-        "aliases": [
-          "lesson-10",
-          "lesson-11"
-        ]
-      },
-      {
-        "id": "lesson-11",
-        "number": 12,
-        "title": "Applied Tajweed Practice (تطبيق أحكام التجويد عملياً)",
-        "subtitle": "Verse-by-verse rule application across Surah Al-Fatihah, Al-Ikhlas, and Al-Falaq",
-        "readingTime": "20 min",
-        "videoLesson": {
-          "title": "Practice 95% of Tajweed Rules with ONE SINGLE Aya",
-          "channel": "Arabic 101",
-          "duration": "21:30",
-          "videoId": "BfsRbY3F7IE",
-          "watchUrl": "https://www.youtube.com/watch?v=BfsRbY3F7IE",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/BfsRbY3F7IE",
-          "url": "https://www.youtube-nocookie.com/embed/BfsRbY3F7IE",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Guided Verses Recitation",
-          "badge": "Verified Reference Video"
-        },
-        "summary": "Apply every Tajweed rule learned so far to complete Surahs with slow, measured audio guidance.",
-        "smallLessons": [
-          {
-            "id": "tajweed-ch11-l1",
-            "number": 1,
-            "title": "Surah Al-Fatihah: Verses 1 to 4",
-            "subtitle": "Basmalah, Ar-Rahman, and Malik",
-            "readingTime": "4 min",
-            "explanation": "Surah Al-Fatihah is the greatest chapter in the Qur'an and an essential pillar of daily Salah. Let us analyze verses 1-4: 1) بِسْمِ اللَّهِ (Light Lam in Allah). 2) الرَّحْمَٰنِ الرَّحِيمِ (Heavy Ra, clear mid-throat Ha, Madd 'Arid at stop). 3) الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (Clear Ha, heavy Ra, 2-count Madd). 4) مَالِكِ يَوْمِ الدِّينِ (2-count Madd on Ma, crisp Kasrah on li-ki).",
-            "keyPoints": [
-              "Verse 1: Basmalah with light Lam.",
-              "Verse 2: Clear 'ح' in Al-Hamdu.",
-              "Verse 3: Heavy 'ر' in Ar-Rahman & Ar-Raheem.",
-              "Verse 4: 2 counts on 'Maa' in Maliki."
-            ],
-            "audio": {
-              "arabicText": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ (١) الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (٢) الرَّحْمَٰنِ الرَّحِيمِ (٣) مَالِكِ يَوْمِ الدِّينِ (٤)",
-              "phonetic": "Surah Al-Fatihah Verses 1-4",
-              "description": "Listen to the slow, measured recitation of verses 1-4."
-            },
-            "examples": [
-              {
-                "arabic": "الْحَمْدُ لِلَّهِ",
-                "label": "Makhraj focus",
-                "sound": "Al-Hamdu lillah (pure throat Ha)"
-              }
-            ],
-            "practice": "Recite verses 1-4 three times slowly, matching the audio teacher's timing.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "In verse 2 'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ', from which Makhraj does the letter 'ح' originate?",
-              "options": [
-                "Deepest throat (near vocal cords)",
-                "Middle of the throat (Wasatal-Halq)",
-                "The lips",
-                "The nasal cavity"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The letter Ha (ح) originates from the middle of the throat (Wasatal-Halq)."
-            }
-          },
-          {
-            "id": "tajweed-ch11-l2",
-            "number": 2,
-            "title": "Surah Al-Fatihah: Verses 5 to 7",
-            "subtitle": "Iyyaka na'budu through to the compulsory 6-count Madd Lazim",
-            "readingTime": "4 min",
-            "explanation": "Verses 5-7: 5) إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (Shaddah on Ya, crisp 'Ayn). 6) اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (Deep Ha in Ihdina, heavy Sad and Ta in As-Siraat, light Ta in Al-Mustaqeem). 7) صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ (Izhar on An'amta, clear Meem before Ghayr, heavy Dad, and compulsory 6-count Madd Lazim on Ad-Daaalleen!).",
-            "keyPoints": [
-              "Verse 5: Shaddah pressure on 'Iyyaka'.",
-              "Verse 6: Heavy ص and ط vs light مستقيم.",
-              "Verse 7: Izhar on أَنْعَمْتَ, heavy ض, and full 6 counts on الضَّالِّينَ."
-            ],
-            "audio": {
-              "arabicText": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (٥) اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (٦) صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ (٧)",
-              "phonetic": "Surah Al-Fatihah Verses 5-7",
-              "description": "Listen to the powerful conclusion of Surah Al-Fatihah with 6-count Madd Lazim."
-            },
-            "examples": [
-              {
-                "arabic": "وَلَا الضَّالِّينَ",
-                "label": "Madd Lazim",
-                "sound": "Wa la-d-Daaalleen (6 full counts + Shaddah on Lam)"
-              }
-            ],
-            "practice": "Recite verse 7, holding 'الضَّالِّينَ' for 6 full counts before completing with 'leen'.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What is the mandatory count duration for 'الضَّالِّينَ' at the end of Surah Al-Fatihah?",
-              "options": [
-                "2 counts",
-                "4 counts",
-                "6 counts (Madd Lazim)",
-                "1 count"
-              ],
-              "correctAnswer": 2,
-              "explanation": "'الضَّالِّينَ' is a Madd Lazim and must be elongated for a full 6 counts."
-            }
-          },
-          {
-            "id": "tajweed-ch11-l3",
-            "number": 3,
-            "title": "Surah Al-Ikhlas & Al-Falaq Masterclass",
-            "subtitle": "Mastering Qalqalah and Noon rules across short Surahs",
-            "readingTime": "4 min",
-            "explanation": "Surah Al-Ikhlas (Purity of Faith) and Surah Al-Falaq (The Daybreak) provide the ultimate practice for Qalqalah (ق ط ب ج د) and Noon rules: 1) Al-Ikhlas features 5 major Qalqalah endings on Dal (أَحَدْ , الصَّمَدْ , يَلِدْ , يُولَدْ , أَحَدْ). 2) Al-Falaq features Ikhfa (مِن شَرِّ) and 5 major Qalqalah stops on Qaf, Ba, and Dal (الْفَلَقْ , خَلَقْ , وَقَبْ , الْعُقَدْ , حَسَدْ).",
-            "keyPoints": [
-              "Al-Ikhlas: 5 crisp Qalqalah Kubra stops on letter Dal.",
-              "Al-Falaq: Ikhfa on 'مِن شَرِّ' + 5 Qalqalah endings.",
-              "Do not rush the pauses at verse ends."
-            ],
-            "audio": {
-              "arabicText": "قُلْ هُوَ اللَّهُ أَحَدٌ (١) اللَّهُ الصَّمَدُ (٢) لَمْ يَلِدْ وَلَمْ يُولَدْ (٣) وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ (٤)",
-              "phonetic": "Complete Surah Al-Ikhlas",
-              "description": "Listen to Surah Al-Ikhlas recited with pristine Qalqalah."
-            },
-            "examples": [
-              {
-                "arabic": "مِن شَرِّ",
-                "label": "Ikhfa",
-                "sound": "Min-sharri (light 2-count nasal concealment before Shin)"
-              }
-            ],
-            "practice": "Recite Surah Al-Ikhlas and Surah Al-Falaq back to back with perfect Tajweed.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What Tajweed rule is applied in 'مِن شَرِّ' (Min sharri)?",
-              "options": [
-                "Izhar Halqi",
-                "Idgham",
-                "Ikhfa (Concealing Noon before Shin with 2-count Ghunnah)",
-                "Madd Lazim"
-              ],
-              "correctAnswer": 2,
-              "explanation": "'مِن شَرِّ' is Ikhfa because Noon Sakinah is followed by the letter Shin (ش)."
-            }
-          },
-          {
-            "id": "tajweed-ch11-l4",
-            "number": 4,
-            "title": "Surah An-Nas & Ayah al-Kursi Highlights",
-            "subtitle": "Ghunnah resonance and sacred verse recitation",
-            "readingTime": "4 min",
-            "explanation": "1) Surah An-Nas showcases the continuous 2-count Ghunnah on Nun with Shaddah (النَّاسِ) across all 6 verses. 2) Ayah al-Kursi (Surah Al-Baqarah 2:255) brings together Madd Asli, Madd Munfasil, Idgham, and heavy Lam in the Name of Allah.",
-            "keyPoints": [
-              "Surah An-Nas: 6 verses of beautiful 2-count Ghunnah on النَّاسِ.",
-              "Ayah al-Kursi: The greatest verse in the Qur'an.",
-              "Maintain breath control and steady pace (Tarteel)."
-            ],
-            "audio": {
-              "arabicText": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ (١) مَلِكِ النَّاسِ (٢) إِلَٰهِ النَّاسِ (٣) مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ (٤) الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ (٥) مِنَ الْجِنَّةِ وَالنَّاسِ (٦)",
-              "phonetic": "Complete Surah An-Nas",
-              "description": "Listen to Surah An-Nas with rich 2-count Ghunnah on every verse."
-            },
-            "examples": [
-              {
-                "arabic": "النَّاسِ",
-                "label": "Ghunnah",
-                "sound": "An-Naaas (2-count nasal hum on Nun)"
-              }
-            ],
-            "practice": "Recite Surah An-Nas holding the Ghunnah on 'النَّاسِ' for 2 full counts in every verse.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What rule is repeated throughout all 6 verses of Surah An-Nas on the word 'النَّاسِ'?",
-              "options": [
-                "Qalqalah Kubra",
-                "Ghunnah of 2 counts on Nun with Shaddah (نّ)",
-                "Idgham Bila Ghunnah",
-                "Iqlab"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The word 'النَّاسِ' contains a Nun with Shaddah (نّ) requiring a 2-count Ghunnah in every verse."
-            }
-          },
-          {
-            "id": "tajweed-ch11-l5",
-            "number": 5,
-            "title": "Chapter 11 Review & Recitation Fluency Check",
-            "subtitle": "Consolidating your recitation into prayer (Salah)",
-            "readingTime": "4 min",
-            "explanation": "Reciting with Tajweed during daily Salah transforms prayer from a routine into a deeply moving, spiritually elevated experience. When your tongue articulates every letter with precision, your heart connects directly with the divine speech.",
-            "keyPoints": [
-              "Apply Tajweed in daily Salah (Fatihah + short Surah).",
-              "Recite at a calm, measured pace (Tarteel).",
-              "Listen regularly to master reciters (e.g. Al-Husary, Al-Minshawi) to maintain pristine ear training."
-            ],
-            "audio": {
-              "arabicText": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
-              "phonetic": "Opening of Ayah al-Kursi",
-              "description": "Listen to the majestic opening of Ayah al-Kursi."
-            },
-            "examples": [
-              {
-                "arabic": "الْحَيُّ الْقَيُّومُ",
-                "label": "Shaddah & Stop",
-                "sound": "Al-Hayyu-l-Qayyoom"
-              }
-            ],
-            "practice": "Recite the opening of Ayah al-Kursi with deep reverence and precision.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What is the recommended style of recitation for daily study and prayer?",
-              "options": [
-                "Rushing quickly without pausing",
-                "Tarteel (measured, calm, beautiful recitation with Tajweed)",
-                "Reciting silently without moving the tongue or lips",
-                "Skipping vowel endings"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Tarteel (measured, calm recitation observing all Tajweed rules) is the prescribed divine method."
-            }
-          }
-        ],
-        "aliases": [
-          "lesson-11",
-          "lesson-12"
-        ]
-      },
-      {
-        "id": "lesson-12",
-        "number": 13,
-        "title": "Ahkam Al-Tajweed Comprehensive Assessment & Certification (الاختبار الشامل في أحكام التجويد)",
-        "subtitle": "Comprehensive evaluation of Makharij, Sifaat, Ahkam rules, and practical recitation mastery",
-        "readingTime": "25 min",
-        "videoLesson": {
-          "title": "Comprehensive Tajweed Mastery Assessment & Synthesis",
-          "channel": "Arabic 101",
-          "duration": "21:30",
-          "videoId": "BfsRbY3F7IE",
-          "watchUrl": "https://www.youtube.com/watch?v=BfsRbY3F7IE",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/BfsRbY3F7IE",
-          "url": "https://www.youtube-nocookie.com/embed/BfsRbY3F7IE",
-          "alternativeSource": "https://quran.com",
-          "sourceName": "Quran.com — Complete Tajweed Guide",
-          "badge": "Verified Reference Video"
-        },
-        "summary": "Complete your final assessment to verify 100% course mastery and unlock your official FAHMRISE Verified Certificate.",
-        "smallLessons": [
-          {
-            "id": "tajweed-ch12-l1",
-            "number": 1,
-            "title": "Makharij Mastery Evaluation",
-            "subtitle": "Checkpoint on all 5 vocal zones",
-            "readingTime": "4 min",
-            "explanation": "This checkpoint tests your knowledge of the 5 articulation zones: Al-Jawf (open cavity), Al-Halq (throat), Al-Lisan (tongue), Ash-Shafatan (lips), and Al-Khayshum (nasal cavity).",
-            "keyPoints": [
-              "Know the exact origin of all 28 letters.",
-              "Understand the 3 throat levels and 4 lip letters.",
-              "Identify Ghunnah and Madd origins."
-            ],
-            "audio": {
-              "arabicText": "أَبْ أَتْ أَثْ أَجْ أَحْ أَخْ أَدْ أَذْ أَرْ أَزْ أَسْ أَشْ أَصْ أَضْ أَطْ أَظْ أَعْ أَغْ أَفْ أَقْ أَكْ أَلْ أَمْ أَنْ أَهْ أَوْ أَيْ",
-              "phonetic": "The complete 28 Makharij checkpoints",
-              "description": "Listen to the complete 28 letter Makharij reference."
-            },
-            "examples": [
-              {
-                "arabic": "ع vs ح",
-                "label": "Mid-throat",
-                "sound": "Middle of throat letters"
-              }
-            ],
-            "practice": "Review the 5 general Makharij zones before taking the challenge.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "From where does the letter 'Ghayn' (غ) articulate?",
-              "options": [
-                "Deepest part of the throat near vocal cords",
-                "Closest part of the throat near the back of the mouth (Adnal-Halq)",
-                "The tip of the tongue",
-                "Both lips closed"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Ghayn (غ) originates from the closest top part of the throat (Adnal-Halq)."
-            }
-          },
-          {
-            "id": "tajweed-ch12-l2",
-            "number": 2,
-            "title": "Noon Sakinah & Tanween Comprehensive Test",
-            "subtitle": "Classifying Izhar, Idgham, Iqlab, and Ikhfa",
-            "readingTime": "4 min",
-            "explanation": "Test your mastery of classifying all 28 letters under Noon Sakinah and Tanween: 6 for Izhar, 6 for Idgham, 1 for Iqlab, and 15 for Ikhfa.",
-            "keyPoints": [
-              "Izhar = 6 (ء هـ ع ح غ خ)",
-              "Idgham = 6 (ي ر م ل و ن)",
-              "Iqlab = 1 (ب)",
-              "Ikhfa = 15 remaining"
-            ],
-            "audio": {
-              "arabicText": "مَنْ آمَنَ - مَن يَقُولُ - مِـن بَعْدِ - مِن قَبْلُ",
-              "phonetic": "Izhar, Idgham, Iqlab, Ikhfa",
-              "description": "Listen to the 4 rules demonstrated side by side."
-            },
-            "examples": [
-              {
-                "arabic": "مَن يَقُولُ",
-                "label": "Idgham",
-                "sound": "May-yaqoolu"
-              }
-            ],
-            "practice": "Categorize: 'مِنْ خَوْفٍ' (Izhar), 'مِـن بَعْدِ' (Iqlab), 'مَن يَعْمَلْ' (Idgham), 'كُنتُمْ' (Ikhfa).",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "In the phrase 'مِنْ خَوْفٍ', which rule applies?",
-              "options": [
-                "Idgham with Ghunnah",
-                "Izhar Halqi (Clear Noon before Kha)",
-                "Iqlab",
-                "Ikhfa"
-              ],
-              "correctAnswer": 1,
-              "explanation": "'مِنْ خَوْفٍ' is Izhar Halqi because Noon Sakinah is followed by the throat letter Kha (خ)."
-            }
-          },
-          {
-            "id": "tajweed-ch12-l3",
-            "number": 3,
-            "title": "Meem Sakinah & Qalqalah Assessment",
-            "subtitle": "Testing labial rules and echoing bounces",
-            "readingTime": "4 min",
-            "explanation": "Review Meem Sakinah (Ikhfa Shafawi before Ba, Idgham Shafawi before Meem, Izhar Shafawi before all 26 other letters) and Qalqalah (ق ط ب ج د - Minor in mid-words, Major at stops).",
-            "keyPoints": [
-              "Meem + Ba = Ikhfa Shafawi.",
-              "Meem + Meem = Idgham Shafawi.",
-              "Qalqalah = ق ط ب ج د.",
-              "Minor = mid-word; Major = verse stop."
-            ],
-            "audio": {
-              "arabicText": "تَرْمِيهِم بِحِجَارَةٍ - لَهُم مَّا يَشَاءُونَ - قُلْ هُوَ اللَّهُ أَحَدْ",
-              "phonetic": "Ikhfa Shafawi, Idgham Shafawi, Qalqalah Kubra",
-              "description": "Listen to Meem rules and Qalqalah in combination."
-            },
-            "examples": [
-              {
-                "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
-                "label": "Ikhfa Shafawi",
-                "sound": "Tarmeehimmm-bi-hijarah"
-              }
-            ],
-            "practice": "Recite 'أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ' identifying all Meem and Qalqalah rules.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "Which rule applies in 'لَهُم مَّغْفِرَةٌ'?",
-              "options": [
-                "Izhar Shafawi",
-                "Idgham Shafawi (Merging two Meems with 2-count Ghunnah)",
-                "Qalqalah",
-                "Madd Lazim"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Meem Sakinah followed by another Meem is Idgham Shafawi with a 2-count Ghunnah."
-            }
-          },
-          {
-            "id": "tajweed-ch12-l4",
-            "number": 4,
-            "title": "Madd Timing & Tafkhim/Tarqiq Assessment",
-            "subtitle": "Evaluating counts (2, 4/5, 6) and heavy/light rules",
-            "readingTime": "4 min",
-            "explanation": "Review elongation rules (Asli 2 counts, Muttasil/Munfasil 4-5 counts, Lazim 6 counts) and heavy letters (خ ص ض غ ط ق ظ, Name of Allah, and Ra rules).",
-            "keyPoints": [
-              "Madd Asli = 2 counts; Lazim = 6 counts.",
-              "7 Always Heavy: خ ص ض غ ط ق ظ.",
-              "Name of Allah: Heavy after Fat-hah/Dammah; Light after Kasrah.",
-              "Ra: Heavy with Fat-hah/Dammah; Light with Kasrah."
-            ],
-            "audio": {
-              "arabicText": "قَالَ - جَاءَ - الضَّالِّينَ - بِسْمِ اللَّهِ - شَهِدَ اللَّهُ",
-              "phonetic": "Madd and Heaviness Reference",
-              "description": "Listen to the complete spectrum of Madd counts and heaviness."
-            },
-            "examples": [
-              {
-                "arabic": "الضَّالِّينَ",
-                "label": "Madd Lazim (6)",
-                "sound": "6 counts + Shaddah"
-              }
-            ],
-            "practice": "Recite 'إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ' applying 4 counts on 'Innaaa' and heavy Ra on 'Al-Kawthar'.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "In the word 'جَاءَ' (Jaaa'a), what type of Madd occurs and what is its count duration?",
-              "options": [
-                "Madd Asli (2 counts)",
-                "Madd Muttasil in a single word (4 to 5 counts)",
-                "Madd Lazim (6 counts)",
-                "Madd 'Iwad (1 count)"
-              ],
-              "correctAnswer": 1,
-              "explanation": "'جَاءَ' is Madd Muttasil (Madd letter and Hamzah in the same word), taking 4 to 5 counts."
-            }
-          },
-          {
-            "id": "tajweed-ch12-l5",
-            "number": 5,
-            "title": "Complete Capstone Recitation Review",
-            "subtitle": "Synthesizing all 12 chapters into fluent recitation",
-            "readingTime": "5 min",
-            "explanation": "You have journeyed from the Arabic alphabet and Makharij to Noon & Meem rules, Madd elongation, Tafkhim/Tarqiq, and Waqf stops. Recite Surah Al-Fatihah, Surah Al-Ikhlas, and Surah Al-Falaq as your comprehensive capstone practical presentation.",
-            "keyPoints": [
-              "Complete Tajweed synthesis achieved.",
-              "Recite with confidence, humility, and beauty.",
-              "Maintain daily recitation habits to keep your Tajweed sharp."
-            ],
-            "audio": {
-              "arabicText": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ... وَلَا الضَّالِّينَ",
-              "phonetic": "Complete Surah Al-Fatihah Master Recitation",
-              "description": "Listen to the complete Surah Al-Fatihah recited to perfection."
-            },
-            "examples": [
-              {
-                "arabic": "تَمَّ بِحَمْدِ اللَّهِ",
-                "label": "Completion",
-                "sound": "Completed by the Grace of Allah"
-              }
-            ],
-            "practice": "Recite Surah Al-Fatihah from memory observing every single rule you have learned.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What is the best way to maintain and deepen your Tajweed mastery after completing this course?",
-              "options": [
-                "Never practice again",
-                "Recite the Holy Qur'an daily with conscious Tajweed application and continue listening to master reciters",
-                "Only read translations",
-                "Memorize without applying pronunciation rules"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Daily deliberate recitation applying Tajweed rules and listening to master reciters cements lifelong mastery."
-            }
-          },
-          {
-            "id": "tajweed-ch12-l6",
-            "number": 6,
-            "title": "Course Completion & Milestone Achievement",
-            "subtitle": "Claim your official FAHMRISE Verified Certificate of Completion",
-            "readingTime": "3 min",
-            "explanation": "Mabruk! Congratulations! You have successfully completed all 13 chapters and 68 small lessons of Ahkam Al-Tajweed (أحكام التجويد). You are now eligible to claim your official, verifiable FAHMRISE Certificate of Completion in Ahkam Al-Tajweed with Distinction. Understand. Learn. Rise.",
-            "keyPoints": [
-              "100% Course Milestones Completed ✓",
-              "Makharij, Noon, Meem, Madd, Tafkhim, and Waqf Mastered ✓",
-              "Official FAHMRISE Credential Available to Claim."
-            ],
-            "audio": {
-              "arabicText": "الْحَمْدُ لِلَّهِ الَّذِي بِنِعْمَتِهِ تَتِمُّ الصَّالِحَاتُ",
-              "phonetic": "Al-hamdu lillahi-lladhi bi-ni'matihi tatimmu-s-saalihaat",
-              "description": "All praise is due to Allah, by Whose grace all good deeds are completed."
-            },
-            "examples": [
-              {
-                "arabic": "شَهَادَةُ التَّخَرُّجِ",
-                "label": "Verified Credential",
-                "sound": "Certificate of Completion"
-              }
-            ],
-            "practice": "Enter your full name in the certificate generator to receive your official verified credential.",
-            "challenge": {
-              "type": "multiple-choice",
-              "question": "What is the motto and tagline of FAHMRISE?",
-              "options": [
-                "Read. Memorize. Repeat.",
-                "Understand. Learn. Rise.",
-                "Code. Deploy. Scale.",
-                "Study. Pass. Forget."
-              ],
-              "correctAnswer": 1,
-              "explanation": "The motto of FAHMRISE is: 'Understand. Learn. Rise.'"
-            }
-          }
-        ],
-        "aliases": [
-          "lesson-12",
-          "lesson-13"
         ]
       }
-    ]
+    },
+    {
+      "id": "lesson-2",
+      "number": 2,
+      "title": "Sifat Al-Huruf: Characteristics of Arabic Letters (صفات الحروف)",
+      "subtitle": "Understanding Opposites, Non-Opposites, and Sound Acoustics",
+      "readingTime": "65 min",
+      "aliases": [
+        "tajweed-ch2",
+        "lesson-sifaat",
+        "tajweed-sifaat",
+        "sifaat",
+        "characteristics-of-arabic-letters",
+        "lesson-2"
+      ],
+      "videoLesson": {
+        "videoId": "ZwgM-1M_J7o",
+        "title": "EASIEST 'Hams' Explanation | Sifaat Al-huruf Lesson 1 | Arabic101",
+        "channel": "Arabic 101"
+      },
+      "summary": "Master the complete science of Sifat Al-Huruf across 10 dedicated lessons: all 5 opposing pairs (Hams/Jahr, Shiddah/Rakhawah/Bayniyyah, Isti'la/Istifal, Itbaq/Infitah, Idhlaq/Ismat) and all 8 non-opposite characteristics (Qalqalah, Safir, Leen, Inhiraf, Takrir, Tafashshi, Ghunnah, and Istitalah & the Seven Steps for Ḍād).",
+      "smallLessons": [
+        {
+          "id": "tajweed-ch2-l1",
+          "aliases": [
+            "tajweed-sifaat-l1",
+            "tajweed-sifaat-l2",
+            "tajweed-sifaat-l3"
+          ],
+          "number": 1,
+          "title": "Introduction to Sifat & The Breath Attributes (Hams & Jahr — الهمس والجهر)",
+          "subtitle": "Why letters need characteristics and how breath flow distinguishes them",
+          "readingTime": "6 min",
+          "arabic": "الْهَمْسُ وَالْجَهْرُ",
+          "transliteration": "Al-Hams wa Al-Jahr",
+          "makhraj": "Acoustic characteristic governing continuous breath vs. trapped breath.",
+          "sound": "Hams (فحثه شخص سكت) vs. Jahr (Remaining 18 letters)",
+          "videoLesson": {
+            "videoId": "ZwgM-1M_J7o",
+            "title": "EASIEST 'Hams' Explanation | Sifaat Al-huruf Lesson 1 | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Lesson 1: Hams & Jahr"
+          },
+          "explanation": "While Makharij (مَخَارِج) identifies *where* a letter is born in the vocal tract, **Sifāt (صِفَات — Characteristics)** governs *how* the sound behaves when released — its acoustic texture, breath flow, vocal pitch, and muscular tension.\n\n### Why Sifāt Are Indispensable\nTwo or more letters frequently share the exact same physical Makhraj (e.g., `ت` and `ط`, or `س` and `ص`). Without Sifāt, they would sound identical. Sifāt is the acoustic fingerprint that distinguishes every letter.\n\n### Permanent (Lāzimah) vs. Conditional (‘Āriḍah) Sifāt\n- **Permanent Attributes (صِفَاتٌ لاَزِمَةٌ):** Inherent traits never leaving the letter (e.g., Hams, Shiddah, Qalqalah).\n- **Conditional Attributes (صِفَاتٌ عَارِضَةٌ):** Contextual rules occurring only under specific grammatical environments (e.g., Ghunnah timing, Tafkhim of Lām in 'Allāh').\n\n### The First Pair of Opposites: Breath Flow (الجَرَيَانُ النَّفَسِي)\n1. **Al-Hams (الْهَمْسُ — Whispering / Breath Flow):**\n   - **Definition:** The continuation of exhaled breath through the vocal tract when articulating the letter due to weak reliance on the Makhraj.\n   - **The 10 Letters of Hams:** United in the famous classical mnemonic: **`فَحَثَّهُ شَخْصٌ سَكَتَ`** (*Fa-ḥath-thahu shakh-sun sakat* — Fā', Ḥā', Thā', Hā', Shīn, Khā', Ṣād, Sīn, Kāf, Tā').\n   - **The Hand Test:** Hold the palm of your hand 2 inches in front of your mouth and pronounce `أَفْ`, `أَسْ`, `أَكْ`, `أَتْ`. You will feel a warm puff of air striking your hand.\n\n2. **Al-Jahr (الْجَهْرُ — Vocal Resonance / Trapped Breath):**\n   - **Definition:** The imprisonment of breath flow due to strong reliance on the Makhraj and full vocal cord vibration.\n   - **Letters:** The remaining **18 letters** (e.g., Bā', Jīm, Dāl, 'Ayn, etc.). Little to no exhaled breath escapes.",
+          "keyPoints": [
+            "Makhraj is where the letter forms; Sifah is how the letter sounds and behaves.",
+            "Sifāt distinguish letters that share identical articulation points (e.g. ت vs ط).",
+            "Hams (الهمس) means continuous breath flow across 10 letters: فَحَثَّهُ شَخْصٌ سَكَتَ.",
+            "Jahr (الجهر) means trapped breath flow across the remaining 18 voiced consonants."
+          ],
+          "examples": [
+            {
+              "arabic": "فَحَثَّهُ شَخْصٌ سَكَتَ",
+              "transliteration": "Fa-ḥath-thahu shakh-sun sakat",
+              "label": "Mnemonic containing all 10 letters of Hams",
+              "sound": "Fa-hath-thahu shakh-sun sa-kat"
+            },
+            {
+              "arabic": "أَفْ - أَحْ - أَثْ",
+              "transliteration": "Af - Aḥ - Ath",
+              "label": "Continuous soft breath flow (Hams)",
+              "sound": "Af - Ah - Ath"
+            },
+            {
+              "arabic": "أَبْ - أَدْ - أَجْ",
+              "transliteration": "Ab - Ad - Aj",
+              "label": "Imprisoned breath with vocal resonance (Jahr)",
+              "sound": "Ab - Ad - Aj"
+            },
+            {
+              "arabic": "الْكَوْثَرَ",
+              "transliteration": "Al-Kawthar",
+              "label": "Kāf (ك) and Thā' (ث) showing clear Hams",
+              "sound": "Al-Kaw-thar"
+            }
+          ],
+          "practice": "Hold your palm before your lips and pronounce \"أَسْ\" (feel the breath stream) vs \"أَزْ\" (feel the vibration without escaping breath).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which classical phrase unites all 10 letters of Al-Hams (breath flow)?",
+            "options": [
+              "فَحَثَّهُ شَخْصٌ سَكَتَ (Fa-ḥath-thahu shakhṣun sakat)",
+              "أَجِدْ قَطٍ بَكَتْ (Ajid qaṭin bakat)",
+              "خُصَّ ضَغْطٍ قِظْ (Khuṣṣa ḍaghṭin qiẓ)",
+              "قُطْبُ جَدٍّ (Quṭbu jaddin)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The 10 letters of Hams are united in \"فَحَثَّهُ شَخْصٌ سَكَتَ\" (Fā', Ḥā', Thā', Hā', Shīn, Khā', Ṣād, Sīn, Kāf, Tā')."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l2",
+          "aliases": [
+            "tajweed-sifaat-sound-flow"
+          ],
+          "number": 2,
+          "title": "Sound Flow Attributes: Shiddah, Rakhawah & Bayniyyah (الشدة والرخاوة والبينية)",
+          "subtitle": "Explosive blockage, moderate flow, and continuous sound acoustics",
+          "readingTime": "6 min",
+          "arabic": "الشِّدَّةُ وَالرَّخَاوَةُ وَالْبَيْنِيَّةُ",
+          "transliteration": "Ash-Shiddah wa Ar-Rakhāwah",
+          "makhraj": "Acoustic characteristic governing sound blockage vs. sound continuation.",
+          "sound": "Shiddah (أجد قط بكت) • Bayniyyah (لن عمر) • Rakhawah (16 letters)",
+          "videoLesson": {
+            "videoId": "LeWwxpm_Lzw",
+            "title": "THAT's why Qalqalah exists | Sifaat Lesson 2 | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Lesson 2: Sound Flow & Qalqalah"
+          },
+          "explanation": "While Hams and Jahr govern **breath flow (نَفَس)**, this category governs **sound continuation (صَوْت)**. When a letter is pronounced with Sukoon, does the audible sound freeze instantly, flow continuously, or take a balanced middle path?\n\n### 1. Ash-Shiddah (الشِّدَّةُ — Explosive Blockage / Trapped Sound)\n- **Definition:** The complete cessation and imprisonment of sound behind the articulation point due to total physical closure.\n- **The 8 Letters of Shiddah:** Mnemonic: **`أَجِدْ قَطٍ بَكَتْ`** (*Ajid qaṭin bakat* — Hamzah, Jīm, Dāl, Qāf, Ṭā', Bā', Kāf, Tā').\n- **The Mechanical Problem of Shiddah:** Because the sound is completely locked inside, releasing the letter comfortably requires an acoustic mechanism:\n  - For **`ق ، ط ، ب ، ج ، د`**: Sound is released via **Qalqalah (echoing bounce)**!\n  - For **`ك ، ت`**: Sound blockage is released via **Hams (whispered puff of air)**!\n\n### 2. At-Tawassuṭ / Al-Bayniyyah (التَّوَسُّطُ / الْبَيْنِيَّةُ — Moderate Flow)\n- **Definition:** A moderate, intermediate sound flow between complete blockage and full continuation.\n- **The 5 Letters of Bayniyyah:** Mnemonic: **`لِنْ عُمَرْ`** (*Lin ‘Umar* — Lām, Nūn, 'Ayn, Mīm, Rā').\n- **Acoustic Feel:** The primary articulation closes partially, while sound continues smoothly through an alternate route (e.g., Nūn and Mīm flow through the nose; Lām flows around the tongue sides; 'Ayn flows through partial epiglottis narrowing).\n\n### 3. Ar-Rakhāwah (الرَّخَاوَةُ — Continuous Flow / Sustained Sound)\n- **Definition:** The continuous, unimpeded running of sound through the Makhraj without obstruction.\n- **Letters:** The remaining **16 consonants** (e.g., Sīn, Shīn, Ṣād, Dhāl, Thā', Fā', Khā', etc.).\n- **Timing:** On Sukoon, Rakhāwah letters naturally endure slightly longer in duration than Shiddah letters (`الرَّحْمَٰنِ`, `يَسْتَبْشِرُونَ`).",
+          "keyPoints": [
+            "Sound flow has 3 tiers: Shiddah (8 letters), Bayniyyah (5 letters), Rakhāwah (16 letters).",
+            "Shiddah (أَجِدْ قَطٍ بَكَتْ) completely traps sound, necessitating Qalqalah (ق، ط، ب، ج، د) or Hams (ك، ت).",
+            "Bayniyyah (لِنْ عُمَرْ) exhibits moderate flow via secondary acoustic channels.",
+            "Rakhāwah letters sustain sound continuation naturally on Sukoon."
+          ],
+          "examples": [
+            {
+              "arabic": "أَجِدْ قَطٍ بَكَتْ",
+              "transliteration": "Ajid qaṭin bakat",
+              "label": "The 8 letters of Shiddah (trapped sound)",
+              "sound": "A-jid qa-tin ba-kat"
+            },
+            {
+              "arabic": "لِنْ عُمَرْ",
+              "transliteration": "Lin ‘Umar",
+              "label": "The 5 letters of Bayniyyah (intermediate flow)",
+              "sound": "Lin U-mar"
+            },
+            {
+              "arabic": "يَجْعَلُونَ",
+              "transliteration": "Yaj'alūn",
+              "label": "Jīm (Shiddah + Qalqalah) vs 'Ayn (Bayniyyah)",
+              "sound": "Yaj-a-loon"
+            },
+            {
+              "arabic": "يَسْتَبْشِرُونَ",
+              "transliteration": "Yastabshirūn",
+              "label": "Sīn (Rakhāwah sound flow) vs Bā' (Shiddah)",
+              "sound": "Yas-tab-shi-roon"
+            }
+          ],
+          "practice": "Pronounce \"أَسْ\" (Rakhāwah: sound sustains as long as you breathe) vs \"أَبْ\" (Shiddah: sound abruptly stops until released).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Why does Qalqalah (the echoing release) exist for the letters ق، ط، ب، ج، د?",
+            "options": [
+              "Because their sound is completely trapped by Shiddah and requires an echoing release to be heard comfortably",
+              "Because they are all throat letters",
+              "Because they can never take a Sukoon in recitation",
+              "Because they only occur at the end of verses"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The letters of Qalb/Qalqalah (قطب جد) possess both Jahr (trapped breath) and Shiddah (trapped sound). The echoing bounce releases the trapped pressure without adding an artificial vowel."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l3",
+          "aliases": [
+            "tajweed-sifaat-l4"
+          ],
+          "number": 3,
+          "title": "Tongue Elevation: Isti'la vs. Istifal & Itbaq vs. Infitah (الاستعلاء والإستفال • الإطباق والانفتاح)",
+          "subtitle": "Heaviness (Tafkhim), lightness (Tarqiq), and palatal adhesion",
+          "readingTime": "6 min",
+          "arabic": "الاِسْتِعْلاَءُ وَالاِسْتِفَالُ • الإِطْبَاقُ وَالاِنْفِتَاحُ",
+          "transliteration": "Al-Isti'lā' wa Al-Iṭbāq",
+          "makhraj": "Elevation of back/dorsum of tongue toward roof of mouth.",
+          "sound": "7 Heavy Letters (خص ضغط قظ) • 4 Maximum Adhesion (ص، ض، ط، ظ)",
+          "videoLesson": {
+            "videoId": "QIxzLs1qGik",
+            "title": "A Characteristic that can CHANGE the meaning if not done properly | Lesson 3 | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Part 1: Isti'la vs. Istifal"
+          },
+          "additionalVideos": [
+            {
+              "videoId": "I1BEoHQzK8E",
+              "title": "Why some HEAVY letters should be HEAVIER than others | Lesson 4 | Arabic101",
+              "channel": "Arabic 101",
+              "shortTitle": "Part 2: Itbaq vs. Infitah"
+            }
+          ],
+          "explanation": "These two pairs of opposites dictate the **weight, resonance, and acoustic fullness** of Arabic consonants, determining whether a letter is **Heavy (Mufakhkham / مَفَخَّم)** or **Light (Muraqqaq / مُرَقَّق)**:\n\n### 1. Al-Isti‘lā’ vs. Al-Istifāl (Back of Tongue Elevation)\n- **Al-Isti‘lā’ (الِاسْتِعْلَاءُ — Elevation / Heaviness):**\n  - **Definition:** The elevation of the posterior root/back of the tongue toward the soft palate when articulating the letter, channeling acoustic reverberation upward into the mouth roof.\n  - **The 7 Letters of Isti‘lā’:** United in: **`خُصَّ ضَغْطٍ قِظْ`** (*Khuṣṣa ḍaghṭin qiẓ* — Khā', Ṣād, Ḍād, Ghayn, Ṭā', Qāf, Ẓā').\n  - **Rule:** All 7 are **permanently heavy (Tafkhīm — تَفْخِيم)** in all states!\n- **Al-Istifāl (الِاسْتِفَالُ — Lowering / Lightness):**\n  - **Definition:** The lowering of the back of the tongue flat to the floor of the mouth.\n  - **Letters:** The remaining **21 consonants**. Permanently light (*Tarqīq*), except for contextual exceptions (Alif, Lām in 'Allāh', and Rā').\n\n### 2. Al-Iṭbāq vs. Al-Infitāḥ (Palatal Adhesion / Compression)\n- **Al-Iṭbāq (الإِطْبَاقُ — Palatal Compression / Extreme Heaviness):**\n  - **Definition:** The adhesion or close cupping of the major blade/dorsum of the tongue along the roof of the mouth, trapping and compressing acoustic energy.\n  - **The 4 Letters of Iṭbāq:** **`ص ، ض ، ط ، ظ`**.\n  - **Rule:** These 4 are the **heaviest, strongest consonants in the entire Arabic language**. Even with a Kasrah, they retain pronounced heaviness (e.g., `طِينٍ`, `ضِيزَىٰ`).\n- **Al-Infitāḥ (الانْفِتَاحُ — Separation / Openness):**\n  - **Definition:** The opening and separation of the tongue away from the roof of the mouth.\n  - **Letters:** The remaining **24 consonants** (including the three non-Iṭbāq Isti‘lā’ letters: `ق ، غ ، خ`).",
+          "keyPoints": [
+            "Isti‘lā’ (خُصَّ ضَغْطٍ قِظْ) elevates the back of the tongue, creating permanent heaviness (Tafkhīm).",
+            "Istifāl lowers the tongue back, producing light consonants (Tarqīq).",
+            "Iṭbāq (ص، ض، ط، ظ) adds extreme roof adhesion, making these 4 the heaviest in Arabic.",
+            "The non-Iṭbāq heavy letters (ق، غ، خ) have slightly reduced heaviness when voweled with Kasrah."
+          ],
+          "examples": [
+            {
+              "arabic": "خُصَّ ضَغْطٍ قِظْ",
+              "transliteration": "Khuṣṣa ḍaghṭin qiẓ",
+              "label": "The 7 permanently heavy letters of Isti‘lā’",
+              "sound": "Khus-sa dagh-tin qiz"
+            },
+            {
+              "arabic": "صِرَاطَ",
+              "transliteration": "Ṣirāṭ",
+              "label": "Ṣād and Ṭā' showing supreme Iṭbāq heaviness",
+              "sound": "Si-raat"
+            },
+            {
+              "arabic": "قِيلَ",
+              "transliteration": "Qīla",
+              "label": "Qāf with Kasrah (Isti‘lā’ with Infitāḥ)",
+              "sound": "Qee-la"
+            },
+            {
+              "arabic": "تَابَ / طَابَ",
+              "transliteration": "Tāba / Ṭāba",
+              "label": "Light Istifāl Tā' vs Heavy Iṭbāq Ṭā'",
+              "sound": "Taa-ba vs Taa-ba"
+            }
+          ],
+          "practice": "Contrast the light Tā' in \"تَابَ\" with the deeply compressed heavy Ṭā' in \"طَابَ\". Do not allow your lips to round for Ṭā'; the heaviness comes strictly from tongue adhesion.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which 4 letters possess both Isti‘lā’ (elevation) and Iṭbāq (palatal compression), making them the strongest heavy letters in Arabic?",
+            "options": [
+              "Ṣād (ص), Ḍād (ض), Ṭā' (ط), and Ẓā' (ظ)",
+              "Qāf (ق), Kāf (ك), Lām (ل), and Mīm (م)",
+              "Khā' (خ), Ghayn (غ), Qāf (ق), and Hā' (هـ)",
+              "Alif (ا), Wāw (و), Yā' (ي), and Nūn (ن)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The 4 letters of Iṭbāq are Ṣād (ص), Ḍād (ض), Ṭā' (ط), and Ẓā' (ظ). They combine tongue-back elevation with blade-to-roof compression."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l4",
+          "aliases": [
+            "tajweed-sifaat-l5"
+          ],
+          "number": 4,
+          "title": "Fluency & Articulative Ease: Al-Idhlaq vs. Al-Ismat (الإذلاق والإصمات)",
+          "subtitle": "Edge-of-organ fluency (lips and tongue tip) vs. the non-Idhlaq classification",
+          "readingTime": "6 min",
+          "arabic": "الإِذْلاَقُ وَالإِصْمَاتُ",
+          "transliteration": "Al-Idhlāq wa Al-Iṣmāt",
+          "makhraj": "Tip/edge of the tongue and lips (Dhalq) vs. the remaining letters of the alphabet.",
+          "sound": "Idhlaq Letters: فَرَّ مِنْ لُبٍّ (Fā', Rā', Mīm, Nūn, Lām, Bā')",
+          "videoLesson": {
+            "videoId": "zy4GVrl3H94",
+            "title": "These traits WILL affect your pronunciation | Lesson 5 | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Lesson 4: Idhlaq & Ismat"
+          },
+          "explanation": "In this lesson, we examine the fifth and final pair of opposing characteristics (Aṣ-Ṣifāt Al-Mutaḍāddah) in classical Tajweed: Al-Idhlāq (الإذلاق) and Al-Iṣmāt (الإصمات).\n\n### 1. Linguistic Foundation and Definition of Al-Idhlāq\n\nLinguistically, the Arabic term Idhlāq (إذلاق) derives from the root dhalq (ذَلْق), which literally signifies the sharp edge, tip, or extreme border of a thing. In speech anatomy, this refers specifically to the tip of the tongue (ذلق اللسان) and the outer border of the lips (ذلق الشفة).\n\nIn the science of Tajweed, Al-Idhlāq refers to the quality of articulative ease, lightness, and speed with which a letter is pronounced. Because the points of articulation for these letters lie at the extreme outer edges of the speech apparatus, the articulators can engage and release rapidly with minimal physical resistance.\n\n### 2. The Six Letters of Al-Idhlāq and Their Articulation Points\n\nThe characteristic of Al-Idhlāq belongs exclusively to six Arabic consonants. Classical scholars gathered them into the famous mnemonic:\n\n**فَرَّ مِنْ لُبٍّ** (*Farra min lubb* — \"He fled from an intelligent heart\")\n\nAlthough all six letters share the quality of emerging from the extremities of the mouth, they do not share the same point of articulation (Makhraj). Instead, they originate from distinct articulators across the lips and tongue:\n\n1. Fā' (**ف**): Articulated from the inside of the lower lip meeting the edges of the upper two front incisors.\n2. Rā' (**ر**): Articulated from the tip of the tongue together with the gums of the upper two front teeth.\n3. Mīm (**م**): Articulated from between both lips by bringing them together with moderate, natural contact.\n4. Nūn (**ن**): Articulated from the tip of the tongue against the upper dental ridge.\n5. Lām (**ل**): Articulated from the front edge of the tongue blade against the upper gums.\n6. Bā' (**ب**): Articulated from between the lips by closing them firmly together.\n\nEach letter retains its specific point of articulation while sharing the general acoustic ease of forward-mouth release.\n\n### 3. Al-Iṣmāt (الإصمات): Restraint and the Non-Idhlāq Letters\n\nLinguistically, Al-Iṣmāt (إصمات) means silence, restraint, or desisting, derived from the Arabic verb samata (صَمَتَ — to remain silent).\n\nIn Tajweed terminology, Al-Iṣmāt is defined strictly as the opposite classification to Al-Idhlāq. It encompasses the remaining twenty-two consonants of the Arabic alphabet after excluding the six Idhlāq letters.\n\nImportantly, Al-Iṣmāt does not mean that a letter requires heavy muscular strain, forceful pressure, or deep throat articulation. Scholars of recitation emphasize that reciters must never confuse Ṣifāt classifications with points of articulation (Makhārij). The letters of Iṣmāt span the entire vocal tract, from deep throat letters (such as Hamzah and Hā') to palate letters (such as Jīm and Kāf) and dental letters (such as Tā' and Zāy). Describing a letter as Muṣmat simply indicates that it does not originate from the extreme lip or tongue-tip category.\n\n### 4. Classical Arabic Morphology (Ṣarf) and Word Structure\n\nBeyond Qur'anic recitation, the classification of Idhlāq and Iṣmāt holds historical importance in classical Arabic morphology (‘Ilm aṣ-Ṣarf). Ancient lexicographers and phoneticians analyzed the natural phonetic balance of native Arabic vocabulary:\n\nIn quadriliteral (four-letter, rubā‘ī) and quinqueliteral (five-letter, khumāsī) native Arabic roots, words almost invariably include at least one of the six Idhlāq letters. Because words of four or five root consonants are longer, including an agile edge-letter provides articulative balance, ensuring the tongue does not experience consecutive resistance across heavier sounds.\n\nClassical examples cited by grammarians include:\n\n- The four-letter root noun **جَعْفَرٌ** (*Ja‘far* — meaning a small stream), which contains two Idhlāq letters: Fā' and Rā'.\n- The five-letter root noun **سَفَرْجَلٌ** (*Safarjal* — the quince fruit), which contains three Idhlāq letters: Fā', Rā', and Lām.\n\nEarly philologists, notably Imam Al-Khalīl ibn Aḥmad al-Farāhīdī, observed that if a four- or five-letter root consisted solely of Iṣmāt consonants, it warranted investigation as an indicator that the word may be exceptionally rare, poetically archaic, or borrowed from a non-Arabic language. A well-known example discussed by grammarians is the ancient noun **عَسْجَدٌ** (*‘Asjad* — an archaic term for gold), which contains exclusively Iṣmāt letters and was classified by philologists as non-native in origin.\n\nCrucially, students should understand this as a descriptive historical observation made by classical lexicographers to explain vocabulary patterns, rather than an absolute phonological rule for every single word.\n\n### 5. Practical Qur'anic Recitation Focus\n\nIn Qur'anic recitation, the practical focus when encountering these letters involves maintaining natural, balanced articulation:\n\n1. Articulate the six Idhlāq letters with natural fluency and clarity, without slurring their distinct points of articulation or rushing past their vowels.\n2. Articulate Iṣmāt letters accurately from their respective Makhārij with their own inherent traits (such as whisper, loudness, lightness, or heaviness), without applying artificial muscular force or stiffness.",
+          "keyPoints": [
+            "Al-Idhlāq comprises 6 letters (فَرَّ مِنْ لُبٍّ) articulated with ease from the tip of the tongue or the lips (Dhalq).",
+            "Each Idhlāq letter has its own distinct Makhraj; they share articulative ease at the extremities, not the same articulation point.",
+            "Al-Iṣmāt is the opposite classification covering the remaining 22 letters; it does not require muscular strain or heaviness.",
+            "Classical morphology observes that pure 4- and 5-letter roots generally include at least one Idhlāq letter for phonetic balance (e.g. جَعْفَرٌ and سَفَرْجَلٌ)."
+          ],
+          "examples": [
+            {
+              "arabic": "فِرْعَوْنَ",
+              "transliteration": "Fir‘awn",
+              "label": "Fā' and Rā' showing fluent Idhlāq edge articulation",
+              "sound": "Fir-aw-na"
+            },
+            {
+              "arabic": "مِنْ لَدُنْهُ",
+              "transliteration": "Min ladunhu",
+              "label": "Mīm, Nūn, and Lām combining three Idhlāq consonants",
+              "sound": "Mil-la-dun-hu"
+            },
+            {
+              "arabic": "بَلَدٍ أَمِينٍ",
+              "transliteration": "Baladin Amīn",
+              "label": "Bā', Lām, and Mīm demonstrating natural lip and tongue-edge ease",
+              "sound": "Ba-la-din a-meen"
+            },
+            {
+              "arabic": "قُرْآنٍ مَجِيدٍ",
+              "transliteration": "Qur’ānin Majīd",
+              "label": "Contrast: heavy Iṣmāt Qāf transitioning into fluent Rā' and Mīm",
+              "sound": "Qur-aa-nin ma-jeed"
+            }
+          ],
+          "practice": "Recite \"فَرَّ مِنْ لُبٍّ\" three times smoothly. Pay attention to how the sound flows effortlessly from the front tip of your tongue and outer lips.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which classical 6-letter mnemonic unites all letters of Al-Idhlāq (fluency and edge articulation)?",
+            "options": [
+              "فَرَّ مِنْ لُبٍّ (Farra min lubb)",
+              "قُطْبُ جَدٍّ (Quṭbu Jadd)",
+              "أَجِدُ قَطٍ بَكَتْ (Ajidu qaṭin bakat)",
+              "خُصَّ ضَغْطٍ قِظْ (Khuṣṣa ḍaghṭin qiẓ)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The 6 letters of Al-Idhlāq are Fā', Rā', Mīm, Nūn, Lām, and Bā', united in the classical mnemonic \"فَرَّ مِنْ لُبٍّ\"."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l5",
+          "aliases": [
+            "tajweed-sifaat-qalqalah"
+          ],
+          "number": 5,
+          "title": "The Echoing Mechanism: Al-Qalqalah (صفة القلقلة)",
+          "subtitle": "The acoustic release bounce of trapped letters on Sukoon",
+          "readingTime": "7 min",
+          "arabic": "صِفَةُ الْقَلْقَلَةِ • قُطْبُ جَدٍّ",
+          "transliteration": "Al-Qalqalah: Quṭbu Jadd",
+          "makhraj": "Throat, tongue, and labial collision with sudden vocal tract release.",
+          "sound": "Echoing bounce on Sukoon: أَقْ - أَطْ - أَبْ - أَجْ - أَدْ",
+          "videoLesson": {
+            "videoId": "ph9AB2CQbVo",
+            "title": "THIS Simple practical Exercise, can transform your Qalqalah - Lesson 7 | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Lesson 5: Qalqalah Mechanics"
+          },
+          "explanation": "Al-Qalqalah (الْقَلْقَلَةُ) is among the most famous and essential non-opposite characteristics in Qur'anic recitation.\n\n### 1. Definition and Linguistic Meaning\n- **Linguistic Meaning:** Shaking, agitation, or disturbance.\n- **Tajweed Definition:** A sudden acoustic vibration, rebound, or energetic release of the vocal organs when pronouncing a letter that carries a **Sukoon (ْ)**, creating a crisp, echoing sound without blending with an adjacent vowel.\n\n---\n\n### 2. The 5 Letters of Qalqalah: `قُطْبُ جَدٍّ`\nUnited in the classical mnemonic **`قُطْبُ جَدٍّ`** (*Quṭbu Jaddin*):\n1. **Qāf (ق):** Back of tongue / uvula (Heavy / Isti‘lā’).\n2. **Ṭā' (ط):** Dorsum of tongue to top teeth gums (Heaviest / Iṭbāq).\n3. **Bā' (ب):** Lips closed firmly.\n4. **Jeem (ج):** Middle of tongue to roof.\n5. **Dāl (د):** Tip of tongue to top teeth gums (Light / Istifāl).\n\n---\n\n### 3. The Acoustic Science: Why Qalqalah Occurs\nAll 5 letters of Qalqalah combine two extreme opposing traits:\n- **Ash-Shiddah (الشدة):** 100% complete blockage of sound.\n- **Al-Jahr (الجهر):** 100% complete blockage of breath.\nWhen a reciter applies a Sukoon to these letters, the speech organs collide so tightly that acoustic pressure becomes totally trapped. If the reciter does not perform a rapid rebound release, the sound will choke or disappear entirely. The Qalqalah bounce provides that necessary acoustic exit!\n\n---\n\n### 4. The Three Degrees of Qalqalah (مَرَاتِبُ الْقَلْقَلَةِ)\n1. **Qalqalah Kubrā (الْكُبْرَى — Greatest Degree):**\n   - Occurs when stopping (*Waqf*) on an end-of-verse doubled letter with a **Shaddah**.\n   - E.g., Surah Al-Masad (111:1): `تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ` (*Wa-tabb!*), Surah Al-Baqarah: `الْحَقُّ` (*Al-Ḥaqq!*).\n2. **Qalqalah Wusṭā (الْوُسْطَى — Medium Degree):**\n   - Occurs when stopping (*Waqf*) on an unvoweled single letter at the end of an Ayah.\n   - E.g., Surah Al-Falaq (113:1-2): `قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ` (*Al-Falaq!*), `مِنْ شَرِّ مَا خَلَقَ` (*Khalaq!*).\n3. **Qalqalah Ṣughrā (الصُّغْرَى — Minor Degree):**\n   - Occurs when the letter carries a Sukoon in the middle of a word or continuous recitation.\n   - E.g., `يَقْطَعُونَ` (*Yaq-ṭa‘ūn*), `أَبْصَارِهِمْ` (*Ab-ṣārihim*), `تَجْرِي` (*Taj-rī*), `ادْعُ` (*Ud-‘u*).\n\n---\n\n### 5. Mistakes to Avoid\n- **Never add a vowel:** Do not skew the bounce toward a Fat-hah (e.g. do not say \"Ab-a\").\n- **Never seal with a Hamzah:** Do not slam the vocal cords shut at the end of the bounce.\n- **Preserve weight:** Keep Qāf and Ṭā' heavy during the bounce, and keep Bā', Jeem, and Dāl light.",
+          "keyPoints": [
+            "Qalqalah (قُطْبُ جَدٍّ) is the echoing release bounce on a Sakin consonant.",
+            "It is acoustically required because these 5 letters combine complete sound stoppage (Shiddah) and breath stoppage (Jahr).",
+            "The 3 degrees: Kubra (stopping on Shaddah), Wusta (stopping on non-Shaddah), Sughra (middle of word).",
+            "Never allow the Qalqalah bounce to tilt into a Fat-hah, Kasrah, or Dammah vowel."
+          ],
+          "examples": [
+            {
+              "arabic": "وَتَبَّ",
+              "transliteration": "Wa-tabb",
+              "label": "Qalqalah Kubra (Greatest) on doubled Bā' with Shaddah at Waqf",
+              "sound": "Wa-tabb"
+            },
+            {
+              "arabic": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+              "transliteration": "Qul a‘ūdhu bi-rabbi al-falaq",
+              "label": "Qalqalah Wusta (Medium) on single Qāf at end of verse",
+              "sound": "Qul a-oodhu bi-rab-bil fa-laq"
+            },
+            {
+              "arabic": "يَقْطَعُونَ",
+              "transliteration": "Yaqṭa‘ūn",
+              "label": "Qalqalah Sughra (Minor) on Qāf Sakinah in the middle of a word",
+              "sound": "Yaq-ta-oon"
+            },
+            {
+              "arabic": "أَبْصَارِهِمْ",
+              "transliteration": "Abṣārihim",
+              "label": "Qalqalah Sughra on Bā' Sakinah followed by heavy Ṣād",
+              "sound": "Ab-saa-ri-him"
+            }
+          ],
+          "practice": "Recite Surah Al-Falaq (verses 1-5). Feel the distinct, crisp Qalqalah Wusta release on every single verse-ending consonant (الْفَلَقْ، خَلَقْ، وَقَبْ، عَقَدْ، حَسَدْ).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which of the following represents the strongest degree of Qalqalah (Qalqalah Kubra)?",
+            "options": [
+              "Stopping on a letter with a Shaddah at the end of a verse (e.g. وَتَبَّ)",
+              "A letter with Sukoon in the middle of a word (e.g. يَقْطَعُونَ)",
+              "A letter with a Fat-hah vowel (e.g. قَلَمٌ)",
+              "Any throat letter followed by Alif"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Qalqalah Kubra occurs when stopping (Waqf) on an end-of-verse doubled letter with a Shaddah (e.g. وَتَبَّ in Surah Al-Masad)."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l6",
+          "aliases": [
+            "tajweed-sifaat-safir-leen",
+            "safir-leen",
+            "tajweed-ch2-l6"
+          ],
+          "number": 6,
+          "title": "Sibilance & Vowel Ease: As-Safir (الصفير) & Al-Leen (اللين)",
+          "subtitle": "The whistling articulation of lower incisors and soft long-glide diphthongs",
+          "readingTime": "8 min",
+          "arabic": "الصَّفِيرُ وَاللِّينُ (ص ، ز ، س • وْ ، يْ)",
+          "transliteration": "Aṣ-Ṣafīr wa Al-Līn",
+          "makhraj": "Tongue tip resting near inner lower incisors (Safir) & oral ease without pressure (Leen)",
+          "sound": "Ṣafīr: ص ، ز ، س • Leen: خَوْفٌ (Khawf) & بَيْتٌ (Bayt)",
+          "videoLesson": {
+            "videoId": "mcOtqWZzI9g",
+            "title": "Theory Lesson 25 - Characteristics With No Opposites (Leen and Safeer) Pt. 1 | Tajweed Made Easy",
+            "channel": "Ustadh Arif * Islamic Sciences",
+            "shortTitle": "Lesson 6: As-Safir & Al-Leen"
+          },
+          "explanation": "In this lesson, we study two essential acoustic characteristics that have no opposites (*Sifāt Lāzimah Ghayr Mutaḍāddah*): **Aṣ-Ṣafīr (الصفير — Whistling Sibilance)** and **Al-Līn (اللين — Softness and Ease)**.\n\n---\n\n### 1. Aṣ-Ṣafīr (الصَّفِيرُ — Whistling Sibilance)\n- **Linguistic Meaning:** The sharp sound, chirping of a bird, or buzzing of an insect (*Ṣawtun yushbihu ṣawtat-ṭā'ir*).\n- **Tajweed Definition:** A sharp, metallic, whistling acoustic sibilance produced naturally when acoustic air is forced through a constricted, narrow channel between the tongue tip and the inner dental plates of the lower front teeth.\n- **The Three Letters of Ṣafīr (حروف الصفير):**\n  1. **Ṣād (`ص`):** Possesses the strongest, fullest whistle in the group because it uniquely combines *Isti‘lā’* (elevation of rear tongue) and *Iṭbāq* (deep palatal compression) with *Jahr*.\n  2. **Zāy (`ز`):** A voiced, metallic, buzzing sibilance powered by continuous vocal fold vibration (*Jahr*) along with *Istifāl* and *Infitāḥ*.\n  3. **Sīn (`س`):** A light, whispered, breathy sibilant whistle powered by continuous running breath (*Hams*) along with *Istifāl* and *Infitāḥ*.\n\n#### Articulation Mechanism & Dental Contact:\n- **Tongue Position:** The tip of the tongue (*Ra's al-Lisān*) is anchored lightly just behind the inner lower front incisors (*Ath-Thanāyā as-Suflā*).\n- **The Acoustic Channel:** Air escapes forcefully over the incisal edges of both the lower and upper front teeth, producing the crisp sibilant whistle.\n- **State Prominence:** Ṣafīr is present in all states (voweled or silent), but reaches its sharpest, most audible clarity when carrying a **Sukūn** (`صْ`, `زْ`, `سْ`) or a **Shaddah** (`صَّ`, `زَّ`, `سَّ`).\n\n#### Common Mistakes to Avoid in Ṣafīr:\n1. **Puckering the Lips for Ṣād (الضم بالشفاه):** Protruding the lips to simulate heaviness is a major mistake (*Laḥn*). Heaviness comes solely from elevating the rear tongue and compressing the palate.\n2. **Pressing the Tongue Against the Upper Incisors:** Jamming the tongue tip against the upper teeth muffles the whistling channel.\n3. **Over-Exaggeration or Spitting:** Generating an unnatural, forced whistle rather than allowing the sound to flow effortlessly.\n\n---\n\n### 2. Al-Līn (اللِّينُ — Softness & Ease)\n- **Linguistic Meaning:** Softness, gentleness, flexibility, and lack of stiffness (*As-Suhūlah wa al-Yusr*).\n- **Tajweed Definition:** Emitting a semivowel glide smoothly and effortlessly from its articulation point with zero tension, straining, or heavy muscular contraction of the tongue or lips.\n- **The Two Letters of Līn (حَرْفَا اللِّينِ):**\n  1. **Wāw Sakinah preceded by a Fat-hah (`ـَ + وْ`):** E.g., **`خَوْفٌ`** / **`خَوْفٍ`** (*Khawf*), **`قَوْلٌ`** (*Qawl*), **`يَوْمٌ`** (*Yawm*).\n  2. **Yā' Sakinah preceded by a Fat-hah (`ـَ + يْ`):** E.g., **`بَيْتٌ`** / **`بَيْتٍ`** (*Bayt*), **`الصَّيْفِ`** (*Aṣ-Ṣayf*), **`عَيْنٌ`** (*‘Ayn*).\n\n#### How Līn Differs from Normal Long Vowels (Madd):\n- **Normal Madd Letters (حروف المد الثلاثة):** Require homogeneous vocalic alignment:\n  - Wāw after Ḍammah (`ـُ + و`), Yā' after Kasrah (`ـِ + ي`), Alif after Fat-hah (`ـَ + ا`). The sound flows freely from the chest through the oral cavity (*Al-Jawf*).\n- **Līn Letters (حرفا اللين):** Require a heterogeneous vocalic structure — unvoweled Wāw (`وْ`) or Yā' (`يْ`) preceded strictly by a **Fat-hah (`ـَ`)**, creating an effortless diphthong (*aw* and *ay*).\n\n#### Articulation Guidance & Madd al-Līn upon Stopping (Waqf):\n- **During Continuous Recitation (Waṣl):** Leen letters flow with natural ease and a timing of approximately 1 count of softness without deliberate prolongation.\n- **Upon Stopping (Waqf — مد اللين العارض للسكون):** When stopping on a word ending with a Līn letter followed by a single consonant (e.g. `فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ`, `وَآمَنَهُمْ مِنْ خَوْفٍ`), reciters are permitted to prolong the diphthong for **2, 4, or 6 counts** (*Qaṣr*, *Tawassuṭ*, or *Ṭūl*).\n\n#### Common Mistakes to Avoid in Līn:\n1. **Bouncing the Līn Letter with Qalqalah:** Adding a bouncing pulse to `وْ` or `يْ` (e.g. bouncing the Wāw in `خَوْف`).\n2. **Nasalizing the Diphthong:** Allowing air to escape through the nose instead of keeping the airflow purely oral.\n3. **Hardening into English Consonants:** Pressing the lips hard like an English \"W\" or jamming the tongue like an English \"Y\" instead of gliding softly.",
+          "keyPoints": [
+            "Aṣ-Ṣafīr belongs to ص، ز، س, produced by air flowing through the narrow space between tongue tip and lower incisors.",
+            "Ṣād has the strongest whistle because of Isti‘lā’ (elevation) and Iṭbāq (compression); keep lips relaxed and unpuckered.",
+            "Al-Līn consists of unvoweled Wāw (وْ) and Yā' (يْ) preceded strictly by a Fat-hah (ـَ), as in خَوْفٌ and بَيْتٌ.",
+            "Līn produces an effortless diphthong, and permits 2, 4, or 6 counts of elongation when stopping (Madd al-Līn on Waqf)."
+          ],
+          "examples": [
+            {
+              "arabic": "وَآمَنَهُمْ مِنْ خَوْفٍ",
+              "transliteration": "Wa-āmanahum min khawf",
+              "label": "Surah Quraysh 106:4 (Primary Leen on Wāw preceded by Fat-hah: Khawf / خَوْفٌ)",
+              "sound": "Min khawf"
+            },
+            {
+              "arabic": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ",
+              "transliteration": "Fal-ya‘budū rabba hādhāl-bayt",
+              "label": "Surah Quraysh 106:3 (Primary Leen on Yā' preceded by Fat-hah: Bayt / بَيْتٌ)",
+              "sound": "Haadhal-bayt"
+            },
+            {
+              "arabic": "الصَّابِرِينَ وَالصَّادِقِينَ",
+              "transliteration": "Aṣ-Ṣābirīna waṣ-Ṣādiqīn",
+              "label": "Surah Ali ‘Imran 3:17 (Strong heavy Ṣafīr on Ṣād without lip puckering)",
+              "sound": "As-Saabi-reen"
+            },
+            {
+              "arabic": "إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا",
+              "transliteration": "Idhā zulzilatil-arḍu zilzālahā",
+              "label": "Surah Az-Zalzalah 99:1 (Voiced buzzing sibilance of Zāy)",
+              "sound": "Zul-zi-la-til ard"
+            },
+            {
+              "arabic": "وَهُوَ السَّمِيعُ الْعَلِيمُ",
+              "transliteration": "Wa-huwas-Samī‘ul-‘Alīm",
+              "label": "Surah Al-Baqarah 2:137 (Breathy whispered sibilance of Sīn with Hams)",
+              "sound": "Was-Sa-mee-ul Aleem"
+            },
+            {
+              "arabic": "رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+              "transliteration": "Riḥlatash-shitā’i waṣ-ṣayf",
+              "label": "Surah Quraysh 106:2 (Composite: heavy Ṣafīr on Ṣād combined with soft Līn on Yā')",
+              "sound": "Was-sayf"
+            }
+          ],
+          "practice": "Recite the three Ṣafīr letters: \"الصَّابِرِينَ\", \"زُلْزِلَتِ\", and \"السَّمِيعِ\". Notice the tongue tip resting near the lower front incisors and observe the heavy whistle of Ṣād versus the buzzing of Zāy and the whisper of Sīn. Next, recite Surah Quraysh (106:1-4): focus on the smooth, gentle glide on \"خَوْفٌ\" / \"خَوْفٍ\" (Khawf) and \"بَيْتٌ\" / \"الْبَيْتِ\" (Bayt), and practice holding the Waqf stop for 2, 4, or 6 counts without any bouncing.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which of the following correctly describes the articulators of Aṣ-Ṣafīr (الصفير) and the vocalic conditions of Al-Leen (اللين)?",
+            "options": [
+              "Ṣafīr letters (ص، ز، س) whistle as air passes between the tongue tip and lower incisors; Leen letters are unvoweled Wāw and Yā' preceded by a Fat-hah (ـَ + وْ / ـَ + يْ as in خَوْفٌ and بَيْتٌ).",
+              "Ṣafīr letters (ط، د، ت) bounce with echoing sound; Leen letters are Wāw and Yā' preceded by a Ḍammah or Kasrah.",
+              "Ṣafīr letters (ف، ح، ث) produce running breath from the throat; Leen letters occur only at the start of a chapter.",
+              "Ṣafīr letters (ق، ك) produce explosive stops; Leen letters require lip rounding and heavy nasal resonance."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Aṣ-Ṣafīr belongs to ص، ز، and س, characterized by whistling sibilance produced near the lower incisors. Al-Leen belongs to unvoweled Wāw and Yā' preceded by a Fat-hah (as in خَوْفٌ and بَيْتٌ), producing a soft, effortless diphthong."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l7",
+          "aliases": [
+            "tajweed-sifaat-inhiraf-takrir"
+          ],
+          "number": 7,
+          "title": "Acoustic Drift & Tremor Control: Al-Inhiraf (الانحراف) & At-Takrir (التكرير)",
+          "subtitle": "Sound deflection in Lam & Ra, and suppressing excessive tongue flutter",
+          "readingTime": "7 min",
+          "arabic": "الانْحِرَافُ وَالتَّكْرِيرُ",
+          "transliteration": "Al-Inḥirāf wa At-Takrīr",
+          "makhraj": "Tongue blade sides (Lam) and tongue tip central channel (Ra).",
+          "sound": "Controlled single tap of Ra (الرَّحْمَٰنِ) & lateral stream of Lam (الْحَمْدُ)",
+          "videoLesson": {
+            "videoId": "TBBMuGVy4mc",
+            "title": "90% of 'RA' mistakes, happen HERE | Lesson 6 | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Lesson 7: Inhiraf & Takrir of Ra'"
+          },
+          "explanation": "In this lesson, we master two specialized acoustic phenomena governing the lingual consonants **Lām (ل)** and **Rā' (ر)**: **Al-Inḥirāf (الانحراف)** and **At-Takrīr (التكرير)**.\n\n### 1. Al-Inḥirāf (الانْحِرَافُ — Sound Deflection & Deviation)\n- **Linguistic Meaning:** Deviation, turning aside, or drifting away from a direct path.\n- **Tajweed Definition:** The acoustic deviation of sound when exiting the vocal tract due to an anatomical obstruction caused by the tongue.\n- **The 2 Letters of Inḥirāf:** **`ل`** (Lām) and **`ر`** (Rā').\n- **How Inḥirāf Operates in Each Letter:**\n  1. **In Lām (ل):** When the front tip and blade of the tongue seal firmly against the upper gum line, sound cannot travel forward. Instead, the acoustic stream **deflects outwards around both lateral edges** (*Ḥāffatān*) of the tongue.\n  2. **In Rā' (ر):** When the lateral sides of the tongue tip touch the upper gums, sound deflects **inward from the sides through a tiny open groove** in the center of the tongue tip.\n\n---\n\n### 2. At-Takrīr (التَّكْرِيرُ — Tongue Trill & Tremor)\n- **Linguistic Meaning:** Repeating or reiterating something multiple times.\n- **Tajweed Definition:** The natural, rapid trembling or fluttering vibration of the tongue tip against the upper palate during the articulation of the letter **Rā' (ر)**.\n- **The Sole Letter of Takrīr:** **`ر`** (Rā') alone.\n\n---\n\n### 3. The Golden Tajweed Rule: Why Takrīr is Taught\nClassical Tajweed scholars established a profound pedagogical principle:\n> **`وَأَخْفِ تَكْرِيرًا إِذَا تُشَدَّدُ`**\n> *(“And conceal the trill, especially when the Rā' carries a Shaddah!” — Imam Ibn al-Jazari)*\n\n- Reciters study Takrīr **to discipline and suppress it, NOT to exaggerate it!**\n- **The Error to Avoid:** Reciting an uncontrolled rolling multi-trill (like a Spanish \"rr\").\n- **The Proper Technique:** Allow the tongue tip to make **one single, firm, elastic contact tap** against the upper palate. The back of the tongue anchors firmly, leaving a microscopic center channel for sound to escape without vibrating into multiple flaps.",
+          "keyPoints": [
+            "Al-Inḥirāf (ل ، ر) describes the acoustic deflection of sound around tongue barriers.",
+            "In Lām, sound deflects laterally around the blade; in Rā', sound deflects inward through a center tip groove.",
+            "At-Takrīr belongs exclusively to Rā' (ر) as an involuntary flutter of the tongue tip.",
+            "Takrīr must be concealed and restrained to a single tap, avoiding exaggerated rolling rolls."
+          ],
+          "examples": [
+            {
+              "arabic": "الرَّحْمَٰنِ الرَّحِيمِ",
+              "transliteration": "Ar-Raḥmāni ar-Raḥīm",
+              "label": "Concealed Takrīr on doubled Rā' with Shaddah (single disciplined contact)",
+              "sound": "Ar-rah-maa-nir ra-heem"
+            },
+            {
+              "arabic": "الْحَمْدُ لِلَّهِ",
+              "transliteration": "Al-ḥamdu lillāh",
+              "label": "Lateral Inḥirāf sound deflection on Lām",
+              "sound": "Al-ham-du lil-laah"
+            },
+            {
+              "arabic": "قُلْ رَبِّي",
+              "transliteration": "Qur-rabbee",
+              "label": "Complete assimilation of Lām into Rā' with controlled trill",
+              "sound": "Qur-rab-bee"
+            },
+            {
+              "arabic": "أَرْسَلْنَا",
+              "transliteration": "Arsalnā",
+              "label": "Sakin Rā' followed by Sakin Lām, demonstrating both Inḥirāf and restrained Takrīr",
+              "sound": "Ar-sal-naa"
+            }
+          ],
+          "practice": "Recite \"بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\". Focus strictly on the two occurrences of \"رَّ\" in \"الرَّحْمَٰنِ\" and \"الرَّحِيمِ\". Prevent your tongue from vibrating more than once.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Why do classical Tajweed masters teach the characteristic of At-Takrīr (التكرير) for the letter Rā' (ر)?",
+            "options": [
+              "To learn how to control, conceal, and prevent excessive rolling vibration",
+              "To roll the tongue multiple times like in European languages",
+              "Because Rā' is pronounced exclusively from the throat",
+              "To convert Rā' into a Madd vowel"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Imam Ibn al-Jazari emphasizes that Takrīr is taught so reciters learn how to avoid and conceal excessive rolling, limiting contact to a single disciplined tap."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l8",
+          "aliases": [
+            "tajweed-sifaat-tafashshi",
+            "tafashshi"
+          ],
+          "number": 8,
+          "title": "Breath Spreading: At-Tafashshi (صفة التفشي)",
+          "subtitle": "Air dispersion and acoustic diffusion exclusive to the letter Shīn (ش)",
+          "readingTime": "8 min",
+          "arabic": "التَّفَشِّي (حَرْفُ الشِّينِ)",
+          "transliteration": "At-Tafashshī",
+          "makhraj": "Middle of the tongue (وسط اللسان) against the hard palate without full occlusion",
+          "sound": "اشْتَرَوْا • الشَّمْسُ • يَغْشَى • مَشْهُودٍ",
+          "videoLesson": {
+            "videoId": "rkx-d4HJ47Q",
+            "title": "At-Tafashi - Sifaat al Huroof Without Opposites - Sifat-ul-Huroof in English - Tajweed Rules by Hafiz Bilal",
+            "channel": "Learn Quran with Hafiz Bilal - ENG",
+            "shortTitle": "Lesson 8: At-Tafashshi (The Letter Shīn)"
+          },
+          "explanation": "### 1. Linguistic and Tajweed Definition of At-Tafashshī (التَّفَشِّي)\n- **Linguistic Meaning:** Spreading, widening, blossoming, or dispersing widely throughout an area (*Al-Intishār wa At-Tawassu'*).\n- **Tajweed Definition:** The wide dispersal and billowing spread of exhaled acoustic breath throughout the oral cavity and along the palate between the middle of the tongue and the roof of the mouth until it meets the inner surfaces of the front teeth.\n- **The Sole Letter of Tafashshī:** **`ش`** (Shīn) **alone**. No other letter in the Arabic alphabet shares this characteristic.\n\n---\n\n### 2. Physical Acoustic Mechanism of Tafashshī\nWhen pronouncing the letter **Shīn (`ش`)**:\n1. **Middle Tongue Elevation without Complete Blockage:** The middle of the tongue rises toward the hard palate (*Wasat al-Lisān*), leaving a controlled central channel through which air continues to flow freely (*Rakhāwah*).\n2. **Breath Diffusion:** Because Shīn possesses both **Hams (الهمس — running breath)** and **Rakhāwah (الرخاوة — running sound)**, air is pushed forward under moderate oral pressure, spreading out laterally across the palate.\n3. **Contact Points:** The tip of the tongue rests gently near the lower front incisors, allowing the billow of air to circulate unobstructed across the palate and brush against the upper teeth.\n\n---\n\n### 3. Tongue and Mouth Positioning Rules\nTo achieve an authentic, pure Arabic Shīn with At-Tafashshī:\n- **Keep Lips in Neutral Resting Position:** The lips must **NOT** be rounded, puckered, or protruded forward (a very common error imported from English \"sh\").\n- **Do Not Create an Airtight Seal:** The tongue middle must not touch the palate so firmly that air is stopped (which would create the explosive \"ch\" sound or the Shiddah of Jīm `ج`).\n- **Sustained Breath on Sukūn:** Tafashshī is present in all states of Shīn (voweled or silent), but its acoustic breadth is most vividly audible and beautiful when Shīn carries a **Sukūn** (`شْ`) or a **Shaddah** (`شَّ`).\n\n---\n\n### 4. Qur'anic Examples for Listening & Pronunciation Practice\nObserve how the breath spreads naturally throughout the mouth:\n1. **`اشْتَرَوْا`** (*Ishtaraw* — Surah Al-Baqarah 2:16): Feel the whisper of breath dispersing across your upper palate before moving smoothly into the `ت`.\n2. **`الشَّمْسُ`** (*Ash-Shamsu* — Surah Ash-Shams 91:1): Prolonged Tafashshī under the doubling of the Shaddah.\n3. **`يَغْشَى`** (*Yaghshā* — Surah Al-Layl 92:1): Smooth flowing breath without lip protrusion.\n4. **`مَشْهُودٍ`** (*Mash-hūdin* — Surah Al-Buruj 85:3): Clear lateral acoustic spread on the silent Shīn.\n\n---\n\n### 5. Common Pronunciation Mistakes to Avoid\n1. **Puckering the Lips (الضم / تقليب الشفتين):** Protruding or curling the lips forward changes the acoustic chamber and produces a heavy, Western-sounding \"sh\" rather than the crisp, light Arabic Shīn.\n2. **Airtight Occlusion (\"ch\" Sound):** Pressing the tongue too hard against the roof of the mouth blocks the airflow, introducing an unauthorized stopped sound similar to the English \"ch\" or Turkish \"ç\".\n3. **Truncating the Duration:** Cutting the Shīn short when Sakinah before giving the breath adequate time to disperse throughout the mouth.",
+          "keyPoints": [
+            "At-Tafashshī is the spreading of breath across the palate and is exclusive to the letter Shīn (ش).",
+            "Shīn combines both Hams (running breath) and Rakhāwah (running sound), giving it its characteristic wide dispersal.",
+            "Keep your lips relaxed and neutral; never round or pucker your lips when pronouncing Shīn.",
+            "Do not press the middle of the tongue so hard against the palate that it turns into a stopped \"ch\" sound."
+          ],
+          "examples": [
+            {
+              "arabic": "اشْتَرَوْا الضَّلَالَةَ",
+              "transliteration": "Ishtarawuḍ-ḍalālah",
+              "label": "Surah Al-Baqarah 2:16 (Clear Tafashshī breath spreading on Shīn Sakinah)",
+              "sound": "Ish-ta-ra-wud-da-laa-lah"
+            },
+            {
+              "arabic": "وَالشَّمْسِ وَضُحَاهَا",
+              "transliteration": "Wash-shamsi wa-ḍuḥāhā",
+              "label": "Surah Ash-Shams 91:1 (Pronounced Tafashshī with Shaddah on Shīn)",
+              "sound": "Wash-sham-si wa-du-haa-haa"
+            },
+            {
+              "arabic": "وَاللَّيْلِ إِذَا يَغْشَى",
+              "transliteration": "Wal-layli idhā yaghshā",
+              "label": "Surah Al-Layl 92:1 (Smooth acoustic diffusion across the oral cavity)",
+              "sound": "Wal-lay-li i-dhaa yagh-shaa"
+            },
+            {
+              "arabic": "وَشَاهِدٍ وَمَشْهُودٍ",
+              "transliteration": "Wa-shāhidin wa-mash-hūd",
+              "label": "Surah Al-Buruj 85:3 (Voweled Shīn followed by Sakinah Shīn with Tafashshī)",
+              "sound": "Wa-shaa-hi-din wa-mash-hood"
+            }
+          ],
+          "practice": "Recite \"اشْتَرَوْا\". Place the middle of your tongue near the hard palate while keeping your tongue tip resting gently down. Notice how the breath billows and disperses across the roof of your mouth without puckering your lips.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which letter uniquely possesses the characteristic of At-Tafashshī (breath spreading), and what is the primary physical error to avoid?",
+            "options": [
+              "The letter Shīn (ش); the error to avoid is puckering or rounding the lips.",
+              "The letter Sād (ص); the error to avoid is dropping the back of the tongue.",
+              "The letter Thā (ث); the error to avoid is pressing the tongue against the molars.",
+              "The letter Jīm (ج); the error to avoid is releasing air continuously."
+            ],
+            "correctAnswer": 0,
+            "explanation": "At-Tafashshī belongs exclusively to the letter Shīn (ش). The most common mistake reciters make is puckering or rounding the lips forward, which artificially alters the timbre of the letter."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l9",
+          "aliases": [
+            "tajweed-sifaat-ghunnah",
+            "ghunnah"
+          ],
+          "number": 9,
+          "title": "Nasal Resonance: Al-Ghunnah (صفة الغنة)",
+          "subtitle": "The inherent melodic nasal resonance residing in Nūn (ن) and Mīm (م)",
+          "readingTime": "8 min",
+          "arabic": "الْغُنَّةُ (حَرْفَا النُّونِ وَالْمِيمِ)",
+          "transliteration": "Al-Ghunnah",
+          "makhraj": "Al-Khayshūm (الخَيْشُوم — The Nasal Cavity)",
+          "sound": "إِنَّ • ثُمَّ • مَنْ يَقُولُ • عَمَّ يَتَسَاءَلُونَ",
+          "videoLesson": {
+            "videoId": "4YmGkk_m87o",
+            "title": "Have Teachers been Teaching this Wrong? - Length of Ghunnah | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Lesson 9: Length & Degrees of Ghunnah"
+          },
+          "additionalVideos": [
+            {
+              "videoId": "NEF902uWtcg",
+              "title": "Makhraj No 17/17 - Makhraj of Ghunnah - Articulation Points of Arabic Letters",
+              "channel": "Learn Quran with Hafiz Bilal - ENG",
+              "shortTitle": "Anatomy of Al-Khayshum & Ghunnah"
+            }
+          ],
+          "explanation": "### 1. Linguistic and Tajweed Definition of Al-Ghunnah (الْغُنَّةُ)\n- **Linguistic Meaning:** A resonant, sweet, or pleasant nasal acoustic sound (*Sawtun rakhīm yakhruju min al-khayshūm*).\n- **Tajweed Definition:** An intrinsic, melodic acoustic resonance produced entirely within the nasal cavity (*Al-Khayshūm*). It accompanies the consonants **Nūn (`ن`)** and **Mīm (`م`)** in all their conditions.\n- **The 2 Consonants of Ghunnah:** **`ن`** (Nūn) and **`م`** (Mīm) **only**.\n- **Dual Nature:** Nūn and Mīm are unique among Arabic letters because their sound is composed of two halves:\n  1. **Oral Half (النصف الفموي):** The tongue tip touching the gum line (for Nūn) or the lips closing together (for Mīm).\n  2. **Nasal Half (النصف الخيشومي):** The acoustic resonance echoing through the nasal chamber (*Al-Ghunnah*). Without this nasal resonance, neither Nūn nor Mīm can exist!\n\n---\n\n### 2. The Role of Al-Khayshūm (الْخَيْشُوم — The Nasal Cavity)\n- **Anatomy:** *Al-Khayshūm* is the open internal nasal passage connecting the back of the throat and oral pharynx to the nostrils.\n- **The Nostril Pinch Diagnostic Test:**\n  - When reciting `إِنَّ` or `ثُمَّ`, pinch your nostrils closed with your fingers. The sound will immediately choke and stop! This proves that the Ghunnah flows exclusively through the nasal cavity.\n  - Conversely, when pronouncing pure vowels and Madd letters (like `قَالُوا` or `الرَّحِيمِ`), pinching your nostrils should make **no difference whatsoever**. If the sound changes or buzzes, you are erroneously leaking nasal resonance into your vowels!\n\n---\n\n### 3. The Four Degrees of Ghunnah (مَرَاتِبُ الْغُنَّةِ)\nGhunnah is a permanent characteristic (*Sifah Lāzimah*), but its audible duration and prominence vary across four classical ranks:\n1. **Most Complete (أَكْمَلُ مَا تَكُون — Akmal mā takūn):**\n   - Duration: Approximately 2 counts (Ḥarakah).\n   - Applied to: Nūn and Mīm with a Shaddah (`إِنَّ`, `ثُمَّ`) and Idghām with Ghunnah (`مَنْ يَقُولُ`, `مِنْ مَالٍ`).\n2. **Complete (كَامِلَة — Kāmilah):**\n   - Duration: Fully resonant, slightly less emphasized than Shaddah.\n   - Applied to: Ikhfā' Ḥaqīqī (`مِنْ قَبْلُ`), Ikhfā' Shafawī (`تَرْمِيهِمْ بِحِجَارَةٍ`), and Iqlāb (`مِنْ بَعْدِ`).\n3. **Incomplete (نَاقِصَة — Nāqiṣah):**\n   - Duration: Short, natural timing without deliberate elongation.\n   - Applied to: Nūn and Mīm Sakinah during Iẓhār (`أَنْعَمْتَ`, `سَمِيعٌ عَلِيمٌ`). The intrinsic nasal timbre remains, but is not stretched.\n4. **Most Incomplete (أَنْقَصُ مَا تَكُون — Anqaṣ mā takūn):**\n   - Duration: Minimal intrinsic acoustic presence.\n   - Applied to: Voweled Nūn and Mīm carrying Fatḥah, Kasrah, or Dammah (`نَ`, `نِ`, `نُ`, `مَ`, `مِ`, `مُ`).\n\n---\n\n### 4. Qur'anic Examples for Listening & Pronunciation Practice\n1. **`إِنَّ اللَّهَ مَعَنَا`** (*Inna Allāha ma‘anā* — Surah At-Tawbah 9:40): Full 2-count Akmal Ghunnah on the doubled Nūn.\n2. **`ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ`** (*Thumma kallā sawfa ta‘lamūn* — Surah At-Takathur 102:4): Full 2-count Akmal Ghunnah on the doubled Mīm.\n3. **`مَنْ يَقُولُ`** (*May-yaqūlu* — Surah Al-Baqarah 2:8): Merged Idghām with nasal resonance flowing through the nasal cavity.\n4. **`عَمَّ يَتَسَاءَلُونَ`** (*‘Amma yatasā’alūn* — Surah An-Naba 78:1): Grand resonant opening with complete nasal vibration.\n\n---\n\n### 5. Common Pronunciation Mistakes to Avoid\n1. **Nasalizing Long Vowels (الخنشة في المدود):** Allowing air to seep into the nasal chamber during Alif, Wāw, or Yā' (e.g. reciting `الْعَالَمِينَ` with a nasal buzz on `ـيـ`).\n2. **Clipping the Duration on Shaddah:** Rushing through `إِنَّ` or `ثُمَّ` as a single quick letter without honoring the 2-harakah duration of the Ghunnah.\n3. **Unequal Balance between Oral and Nasal Halves:** Completely eliminating the tongue closure on Nūn or lip closure on Mīm, producing a vague humming sound rather than a precise consonant.",
+          "keyPoints": [
+            "Al-Ghunnah is the intrinsic nasal resonance residing exclusively within Nūn (ن) and Mīm (م).",
+            "It emanates from Al-Khayshūm (the nasal cavity) and consists of four classical degrees of prominence.",
+            "The highest degree (Akmal) occurs on Mushaddad letters (إِنَّ, ثُمَّ) and Idghām with Ghunnah.",
+            "Avoid nasalizing Madd vowels (Alif, Wāw, Yā'); use the nostril pinch test to verify pure oral airflow."
+          ],
+          "examples": [
+            {
+              "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+              "transliteration": "Inna ma‘al-‘usri yusrā",
+              "label": "Surah Ash-Sharh 94:6 (Most Complete / Akmal Ghunnah on Nūn Mushaddadah)",
+              "sound": "In-na ma-al-us-ri yus-raa"
+            },
+            {
+              "arabic": "ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنِ النَّعِيمِ",
+              "transliteration": "Thumma latus’alunna yawma’idhin ‘anin-na‘īm",
+              "label": "Surah At-Takathur 102:8 (Multiple Akmal Ghunnahs on doubled Mīm and doubled Nūn)",
+              "sound": "Thum-ma la-tus-a-lun-na yaw-ma-i-dhin a-nin-na-eem"
+            },
+            {
+              "arabic": "فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ",
+              "transliteration": "Famay-ya‘mal mithqāla dharrah",
+              "label": "Surah Az-Zalzalah 99:7 (Akmal Ghunnah during Idghām with Yā')",
+              "sound": "Fa-may-ya-mal mith-qaa-la dhar-rah"
+            },
+            {
+              "arabic": "عَمَّ يَتَسَاءَلُونَ",
+              "transliteration": "‘Amma yatasā’alūn",
+              "label": "Surah An-Naba 78:1 (Rich nasal resonance on doubled Mīm)",
+              "sound": "Am-ma ya-ta-saa-a-loon"
+            }
+          ],
+          "practice": "Recite \"إِنَّ اللَّهَ\". Hold the doubled Nūn for two full beats, feeling the resonance vibrate in your nasal chamber. Now pinch your nostrils while saying \"قَالُوا\" to ensure no nasal buzzing leaks into your Madd vowels.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "To which letters does Al-Ghunnah belong, and what is its point of origin (Makhraj)?",
+            "options": [
+              "Nūn (ن) and Mīm (م) exclusively, originating from Al-Khayshūm (the nasal cavity).",
+              "Lām (ل) and Rā' (ر), originating from the tip of the tongue.",
+              "All heavy letters (Khā, Sād, Dād, Ghayn, Tā, Qāf, Zā), originating from the throat.",
+              "Alif (ا), Wāw (و), and Yā' (ي), originating from the chest."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Al-Ghunnah is an inherent acoustic characteristic exclusive to Nūn (ن) and Mīm (م), and its sound resonates through Al-Khayshūm (the nasal cavity)."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l10",
+          "aliases": [
+            "tajweed-ch2-dhad",
+            "tajweed-sifaat-dhad",
+            "tajweed-sifaat-istitalah",
+            "istitalah",
+            "dhad"
+          ],
+          "number": 10,
+          "title": "Mastering Ḍād: Al-Istitalah (الاستطالة وحرف الضاد)",
+          "subtitle": "The exclusive lateral elongation and step-by-step articulation of the letter Ḍād (ض)",
+          "readingTime": "9 min",
+          "arabic": "الاسْتِطَالَةُ وَإِتْقَانُ حَرْفِ الضَّادِ",
+          "transliteration": "Al-Istīṭālah wa Ḥarf aḍ-Ḍād",
+          "makhraj": "Lateral edge(s) of the tongue (حافة اللسان) against the upper molars (الأضراس العليا)",
+          "sound": "وَلَا الضَّالِّينَ • أَنْقَضَ ظَهْرَكَ • يَضْرِبُونَ • فَضْلَ اللَّهِ",
+          "videoLesson": {
+            "videoId": "Nz7BUoOpcXA",
+            "title": "Follow these SEVEN STEPS to pronounce ض correctly | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Lesson 10: The Seven Steps for Ḍād"
+          },
+          "explanation": "### 1. The Crown Letter of Arabic: Ḍād (ض) and Al-Istīṭālah (الاسْتِطَالَةُ)\nThe Arabic language is famously known as *Lughat aḍ-Ḍād* (لغة الضاد — The Language of the Ḍād) because **`ض`** is the most acoustically distinctive, challenging, and unique letter in human speech.\n- **Linguistic Meaning of Istīṭālah:** Elongation, extension, or continuous stretching in duration and space.\n- **Tajweed Definition:** The forward-sliding extension of lateral tongue contact and sound duration along the upper molars under compressed acoustic pressure, from the posterior molar zone forward to the premolar and canine boundary.\n- **Exclusive Letter:** Al-Istīṭālah belongs **ONLY to the letter Ḍād (`ض`)**.\n\n---\n\n### 2. Physical Makhraj: Lateral Tongue Edges against Upper Molars\n- **Articulators:** Articulated from **one or both lateral sides/edges of the tongue (حَافَةُ اللِّسَانِ — Ḥāffat al-Lisān)** pressing firmly against the inner gum line of the **upper molars (الأَضْرَاسُ العُلْيَا — Al-Aḍrās al-‘Ulyā)**.\n- **Three Anatomical Options:**\n  1. The left lateral edge against the left upper molars (easiest and most common).\n  2. The right lateral edge against the right upper molars.\n  3. Both lateral edges simultaneously against both rows of upper molars (the most comprehensive classical practice).\n- **The Tongue Tip is INACTIVE:** The tip of the tongue rests lightly behind the upper front teeth without pressing them! It must never be used as the primary point of pressure.\n\n---\n\n### 3. The 6 Sifāt of Ḍād (صفات حرف الضاد)\nḌād is uniquely defined by a powerhouse combination of six characteristics:\n1. **Al-Jahr (الجهر):** Voiced, clear sound without whispering breath.\n2. **Ar-Rakhāwah (الرخاوة):** Continuous running of sound. The sound **never** cuts off abruptly like a Dāl!\n3. **Al-Isti‘lā’ (الاستعلاء):** Elevation of the rear tongue, creating permanent heaviness (*Tafkhīm*).\n4. **Al-Iṭbāq (الإطباق):** Deep palatal compression adhering the tongue body toward the mouth roof.\n5. **Al-Iṣmāt (الإصمات):** Muscular firmness and deliberate articulation.\n6. **Al-Istīṭālah (الاستطالة):** **Exclusive to Ḍād!** The forward elongation of sound and lateral contact along the molars under breath pressure.\n\n---\n\n### 4. The Seven Steps to Pronounce Ḍād Correctly (Arabic 101 Framework)\nFollow these 7 systematic steps to achieve a flawless Ḍād:\n1. **Step 1: Anchor the Lateral Edges:** Place one or both side edges of your tongue firmly against your upper molar teeth.\n2. **Step 2: Relax the Front Tongue Tip:** Keep the tip of your tongue resting lightly without jamming or pressing against the front teeth.\n3. **Step 3: Elevate the Tongue Back (Isti‘lā’):** Lift the back of your tongue toward the soft palate to establish profound heavy resonance (*Tafkhīm*).\n4. **Step 4: Compress the Dorsum (Iṭbāq):** Adhere the upper surface of your tongue close to the roof of your mouth, trapping an acoustic pressure pocket.\n5. **Step 5: Engage Sound Flow (Rakhāwah):** Allow sound to run through the compressed lateral channel without an explosive burst.\n6. **Step 6: Glide Forward with Istīṭālah:** As acoustic pressure builds behind the tongue, allow the lateral contact zone to slide forward along the molars toward the canines.\n7. **Step 7: Release Smoothly Without Qalqalah:** Release cleanly into the ensuing vowel or Madd letter with **zero bounce or popping sound**.\n\n---\n\n### 5. Critical Pitfalls: Distinguishing Ḍād from Dāl (`د`) and Ẓā' (`ظ`)\n- **Ḍād (`ض`) vs. Dāl (`د`):**\n  - Dāl is a stopped letter (*Shiddah*) made with the **tongue tip**, and it bounces with *Qalqalah* when Sakinah.\n  - Ḍād is a flowing letter (*Rakhāwah*) made with the **lateral molars**, and it has **ZERO Qalqalah**! Substituting Dāl for Ḍād is a major defect (*Laḥn Jalī*).\n- **Ḍād (`ض`) vs. Ẓā' (`ظ`):**\n  - Ẓā' is formed by placing the **tip of the tongue** against the bottom edges of the upper front incisors.\n  - Ḍād is formed from the **sides of the tongue against the molars**!\n  - Confusing these two letters changes the sacred meaning of the Qur'an. For example, in Surah Ash-Sharh (94:3):\n    `أَنْقَضَ ظَهْرَكَ` (*Which weighed heavily upon your back*) contains a lateral Ḍād followed immediately by an incisor Ẓā'. Reciters must clearly articulate both distinct articulation points!",
+          "keyPoints": [
+            "Al-Istīṭālah is the exclusive lateral elongation of sound belonging solely to the letter Ḍād (ض).",
+            "Ḍād is articulated from one or both lateral tongue edges against the upper molars, NOT the tongue tip.",
+            "Follow the 7 steps: lateral anchor, relaxed tip, elevated back, palatal compression, sound flow, forward glide, and smooth release.",
+            "Never bounce Ḍād with Qalqalah, never substitute it with a hard Dāl (د), and never confuse it with Ẓā' (ظ)."
+          ],
+          "examples": [
+            {
+              "arabic": "غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+              "transliteration": "Ghayril-maghḍūbi ‘alayhim wa-laḍ-ḍāllīn",
+              "label": "Surah Al-Fatihah 1:7 (Prolonged Isti‘lā’, Iṭbāq, and Istīṭālah on Ḍād Mushaddadah)",
+              "sound": "Ghay-ril-magh-doo-bi a-lay-him wa-lad-daal-leen"
+            },
+            {
+              "arabic": "الَّذِي أَنْقَضَ ظَهْرَكَ",
+              "transliteration": "Alladhī anqaḍa ẓahrak",
+              "label": "Surah Ash-Sharh 94:3 (Direct acoustic contrast between lateral Ḍād and incisor Ẓā')",
+              "sound": "Al-la-dhee an-qa-da zah-rak"
+            },
+            {
+              "arabic": "يَضْرِبُونَ فِي الْأَرْضِ",
+              "transliteration": "Yaḍribūna fīl-arḍ",
+              "label": "Surah Al-Baqarah (Rakhāwah and Istīṭālah on silent Ḍād without Qalqalah bounce)",
+              "sound": "Yad-ri-boo-na feel-ard"
+            },
+            {
+              "arabic": "ذَٰلِكَ فَضْلُ اللَّهِ يُؤْتِيهِ مَنْ يَشَاءُ",
+              "transliteration": "Dhālika faḍlullāhi yu’tīhi may-yashā’",
+              "label": "Surah Al-Jumu'ah 62:4 (Sustained soft lateral glide on Sakinah Ḍād)",
+              "sound": "Dhaa-li-ka fad-lul-laa-hi yu-tee-hi may-ya-shaa"
+            }
+          ],
+          "practice": "Recite \"وَلَا الضَّالِّينَ\". Anchor the sides of your tongue against your upper molars, elevate the tongue back into full Iṭbāq, feel the forward slide of Istīṭālah, and glide cleanly into the Madd without allowing the tongue tip to bounce.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Where is the physical point of contact (Makhraj) for the letter Ḍād (ض), and which unique characteristic does it possess?",
+            "options": [
+              "The lateral edge(s) of the tongue against the upper molars; it possesses Al-Istīṭālah.",
+              "The tip of the tongue touching the front teeth; it possesses Al-Qalqalah.",
+              "The middle of the tongue against the roof of the mouth; it possesses At-Tafashshī.",
+              "The throat pharynx; it possesses Al-Ghunnah."
+            ],
+            "correctAnswer": 0,
+            "explanation": "The letter Ḍād (ض) is articulated from one or both lateral edges of the tongue pressing against the upper molars, and it uniquely possesses Al-Istīṭālah (forward elongation)."
+          }
+        }
+      ],
+      "quiz": {
+        "id": "quiz-tajweed-ch2",
+        "title": "Chapter 2 Mastery Quiz: Sifat Al-Huruf",
+        "questions": [
+          {
+            "question": "What is the primary function of Sifat in Tajweed?",
+            "options": [
+              "To determine how a sound behaves and distinguish letters that share the same Makhraj",
+              "To count the number of verses in a Surah",
+              "To identify the translation of Arabic words",
+              "To mark the end of a Qur'anic Juz"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Which of the following is the 10-letter mnemonic for Al-Hams (whispered breath flow)?",
+            "options": [
+              "فَحَثَّهُ شَخْصٌ سَكَتَ",
+              "أَجِدْ قَطٍ بَكَتْ",
+              "لِنْ عُمَرْ",
+              "خُصَّ ضَغْطٍ قِظْ"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Why does Qalqalah occur on the letters of قُطْبُ جَدٍّ when they carry a Sukoon?",
+            "options": [
+              "Because both breath and sound are completely trapped by Jahr and Shiddah",
+              "Because they are throat letters",
+              "Because they are pronounced exclusively with the lips",
+              "Because they are silent vowels"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Which 4 letters combine tongue elevation (Isti'la) with roof compression (Itbaq), making them the heaviest consonants in Arabic?",
+            "options": [
+              "ص ، ض ، ط ، ظ",
+              "ق ، ك ، ل ، م",
+              "خ ، غ ، ق ، ح",
+              "ء ، هـ ، ع ، ح"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Which unique characteristic belongs exclusively to the letter Ḍād (ض)?",
+            "options": [
+              "Al-Istīṭālah (prolongation along lateral molars)",
+              "At-Tafashshī (breath diffusion)",
+              "At-Takrīr (tongue tip trill)",
+              "Aṣ-Ṣafīr (sibilant whistle)"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Every Arabic consonant possesses at minimum how many permanent characteristics?",
+            "options": [
+              "5 characteristics (one from each of the 5 opposite pairs)",
+              "2 characteristics",
+              "8 characteristics",
+              "Only 1 characteristic"
+            ],
+            "correctAnswer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-4",
+      "number": 3,
+      "title": "Ahkam Al-Noon Al-Sakinah & Tanween (أحكام النون الساكنة والتنوين)",
+      "subtitle": "The 4 foundational rules: Izhar, Idgham, Iqlab, and Ikhfa with precise ghunnah timing",
+      "readingTime": "24 min",
+      "videoLesson": {
+        "title": "Rules of Noon Sakinah & Tanween (Izhar, Idgham, Iqlab, Ikhfa)",
+        "channel": "Understand Al-Quran Official",
+        "duration": "15:40",
+        "videoId": "GpeXkOLDXZw",
+        "watchUrl": "https://www.youtube.com/watch?v=GpeXkOLDXZw",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/GpeXkOLDXZw",
+        "url": "https://www.youtube-nocookie.com/embed/GpeXkOLDXZw",
+        "alternativeSource": "https://quran.com",
+        "sourceName": "Quran.com — Rules of Noon Sakinah",
+        "badge": "Verified Reference Video"
+      },
+      "summary": "Master the 4 universal rules governing unvoweled Noon (نْ) and double vowel endings (ً ٍ ٌ).",
+      "smallLessons": [
+        {
+          "id": "tajweed-ch4-l1",
+          "number": 1,
+          "title": "What Is Noon Sakinah and Tanween?",
+          "subtitle": "The unvoweled Noon and double vowels",
+          "readingTime": "3 min",
+          "explanation": "Noon Sakinah (نْ) is a permanent Noon letter with a Sukoon (no vowel) that is written and pronounced in words and nouns. Tanween (ً ٍ ٌ) is a double vowel (Fathatayn, Kasratayn, Dammatayn) occurring at the end of nouns that sounds phonetically like a Noon Sakinah when spoken, but is not written as a letter 'ن'. Both share the exact same 4 Tajweed rules based on the letter that follows them.",
+          "keyPoints": [
+            "Noon Sakinah (نْ): A silent Noon with a Sukoon.",
+            "Tanween (ً ٍ ٌ): Double vowels that produce an 'N' sound when recited.",
+            "Both follow 4 rules: Izhar, Idgham, Iqlab, Ikhfa.",
+            "The rule is determined by the first letter of the following word or syllable."
+          ],
+          "audio": {
+            "arabicText": "مِنْ - كِتَابٌ - رَحِيمًا - يَوْمٍ",
+            "phonetic": "Min, Kitābun, Rahīman, Yawmin",
+            "description": "Listen to Noon Sakinah and the 3 forms of Tanween."
+          },
+          "examples": [
+            {
+              "arabic": "مِنْ",
+              "label": "Noon Sakinah",
+              "sound": "Min (silent Noon with Sukoon)"
+            },
+            {
+              "arabic": "عَلِيمٌ",
+              "label": "Tanween Dammah",
+              "sound": "'Aleemun (produces 'un' sound)"
+            },
+            {
+              "arabic": "غَفُورًا",
+              "label": "Tanween Fat-hah",
+              "sound": "Ghafooran (produces 'an' sound)"
+            }
+          ],
+          "practice": "Identify the Noon Sakinah in 'مِنْ قَبْلُ' and the Tanween in 'سَمِيعٌ عَلِيمٌ'.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "How many Tajweed rules apply to Noon Sakinah and Tanween?",
+            "options": [
+              "2 rules",
+              "4 rules (Izhar, Idgham, Iqlab, Ikhfa)",
+              "6 rules",
+              "8 rules"
+            ],
+            "correctAnswer": 1,
+            "explanation": "There are 4 rules governing Noon Sakinah and Tanween: Izhar, Idgham, Iqlab, and Ikhfa."
+          }
+        },
+        {
+          "id": "tajweed-ch4-l2",
+          "number": 2,
+          "title": "Rule 1: Izhar (Clarity)",
+          "subtitle": "Pronouncing Noon with crisp clarity before 6 throat letters",
+          "readingTime": "4 min",
+          "explanation": "Izhar (إِظْهَار) literally means 'to make clear'. When a Noon Sakinah or Tanween is followed by any of the 6 throat letters (ء , هـ , ع , ح , غ , خ), the Noon sound must be pronounced clearly and crisply from its tongue tip Makhraj without any extra nasal elongation (Ghunnah).",
+          "keyPoints": [
+            "Izhar letters: The 6 throat letters (ء , هـ , ع , ح , غ , خ).",
+            "Pronounce the Noon clearly and distinctly.",
+            "Do NOT merge, hide, or hold an extended Ghunnah.",
+            "Known as 'Izhar Halqi' (Throat Clarity)."
+          ],
+          "audio": {
+            "arabicText": "مَنْ آمَنَ - مِنْ خَوْفٍ - سَمِيعٌ عَلِيمٌ - أَنْعَمْتَ",
+            "phonetic": "Man aamana | Min khawf | Samee'un 'aleem | An'amta",
+            "description": "Listen to the crisp, clear Izhar pronunciation before throat letters."
+          },
+          "examples": [
+            {
+              "arabic": "مَنْ آمَنَ",
+              "label": "Noon before Hamzah (ء)",
+              "sound": "Man aamana (clean N sound)"
+            },
+            {
+              "arabic": "سَمِيعٌ عَلِيمٌ",
+              "label": "Tanween before 'Ayn (ع)",
+              "sound": "Samee'un 'Aleem"
+            },
+            {
+              "arabic": "مِنْ خَوْفٍ",
+              "label": "Noon before Kha (خ)",
+              "sound": "Min khawf"
+            }
+          ],
+          "practice": "Recite 'أَنْعَمْتَ' in Surah Al-Fatihah, pronouncing the 'نْ' cleanly before 'ع'.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which 6 letters cause the rule of Izhar Halqi (Clarity) when following Noon Sakinah?",
+            "options": [
+              "ب , ت , ث , ج , ح , خ",
+              "ء , هـ , ع , ح , غ , خ (The 6 throat letters)",
+              "ي , ر , م , ل , و , ن (Yarmaloon)",
+              "ق , ط , ب , ج , د (Qutb Jad)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "The 6 throat letters (ء, هـ, ع, ح, غ, خ) trigger Izhar Halqi."
+          }
+        },
+        {
+          "id": "tajweed-ch4-l3",
+          "number": 3,
+          "title": "Rule 2: Idgham (Merging)",
+          "subtitle": "Merging Noon into the letters of 'Yarmaloon' (ي ر م ل و ن)",
+          "readingTime": "4 min",
+          "explanation": "Idgham (إِدْغَام) means 'to merge or assimilate'. When Noon Sakinah or Tanween is followed by any of the 6 letters of Yarmaloon (يَرْمَلُون: ي , ر , م , ل , و , ن), the Noon is merged into the following letter. It is divided into: 1) Idgham with Ghunnah (Bi Ghunnah - 4 letters: ي , ن , م , و / YANMU): merge with 2-count nasal hum. 2) Idgham without Ghunnah (Bila Ghunnah - 2 letters: ل , ر): merge completely with zero nasal hum.",
+          "keyPoints": [
+            "6 Idgham letters combined in the phrase: يَرْمَلُون (Yarmaloon).",
+            "With Ghunnah (YANMU - ي ن م و): Merge with 2-count nasal resonance.",
+            "Without Ghunnah (ل and ر): Merge completely (e.g. 'Mir-Rabbihim').",
+            "Idgham only occurs between TWO separate words."
+          ],
+          "audio": {
+            "arabicText": "مَن يَقُولُ - مِّن وَالٍ - مِّن رَّبِّهِمْ - هُدًى لِّلْمُتَّقِينَ",
+            "phonetic": "May-yaqoolu | Miw-waal | Mir-Rabbihim | Hudal-lil-muttaqeen",
+            "description": "Listen to Idgham with Ghunnah and Idgham without Ghunnah."
+          },
+          "examples": [
+            {
+              "arabic": "مَن يَقُولُ",
+              "label": "Idgham with Ghunnah (ي)",
+              "sound": "May-yaqoolu (Noon becomes Ya with nasal hum)"
+            },
+            {
+              "arabic": "مِّن رَّبِّهِمْ",
+              "label": "Idgham without Ghunnah (ر)",
+              "sound": "Mir-Rabbihim (Noon transforms completely into R)"
+            }
+          ],
+          "practice": "Recite 'مَن يَعْمَلْ' as 'May-ya'mal' holding the nasal hum for 2 counts.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which two letters trigger Idgham WITHOUT Ghunnah (complete merging with no nasal hum)?",
+            "options": [
+              "Ya and Waw (ي , و)",
+              "Lam and Ra (ل , ر)",
+              "Nun and Meem (ن , م)",
+              "Kaf and Qaf (ك , ق)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Lam (ل) and Ra (ر) trigger Idgham Bila Ghunnah (merging without nasal resonance)."
+          }
+        },
+        {
+          "id": "tajweed-ch4-l4",
+          "number": 4,
+          "title": "Rule 3: Iqlab (Conversion)",
+          "subtitle": "Converting Noon into Meem before letter Ba (ب)",
+          "readingTime": "3 min",
+          "explanation": "Iqlab (إِقْلَاب) means 'to convert or transform'. When a Noon Sakinah or Tanween is followed by the single letter Ba (ب), the Noon is transformed into a hidden Meem (م) with a 2-count Ghunnah. In printed Mushafs, a small miniature Meem (مـ) is placed above the Noon or Tanween to indicate Iqlab.",
+          "keyPoints": [
+            "Iqlab has only ONE letter: Ba (ب).",
+            "Transform the 'N' sound into a 'M' sound.",
+            "Hold a 2-count Ghunnah with relaxed lips.",
+            "Indicated by a small 'م' written above the letter in the Qur'an."
+          ],
+          "audio": {
+            "arabicText": "مِـن بَعْدِ - أَنۢبِئْهُم - عَلِيمٌۢ بِذَاتِ",
+            "phonetic": "Mim-ba'd | Ambi'hum | 'Aleemum-bi-dhaat",
+            "description": "Listen to the transformation of Noon into Meem before Ba."
+          },
+          "examples": [
+            {
+              "arabic": "مِـن بَعْدِ",
+              "label": "Pronounced",
+              "sound": "'Mim-ba'd' (not Min-ba'd)"
+            },
+            {
+              "arabic": "سَمِيعٌۢ بَصِيرٌ",
+              "label": "Tanween Iqlab",
+              "sound": "Samee'um-Baseer"
+            }
+          ],
+          "practice": "Recite 'مِنْ بَعْدِ' ensuring your lips touch gently as a Meem with 2-count Ghunnah.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which single letter triggers the rule of Iqlab (Conversion)?",
+            "options": [
+              "Meem (م)",
+              "Ba (ب)",
+              "Alif (ا)",
+              "Fa (ف)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Ba (ب) is the only letter that triggers Iqlab, converting the Noon into a Meem."
+          }
+        },
+        {
+          "id": "tajweed-ch4-l5",
+          "number": 5,
+          "title": "Rule 4: Ikhfa (Concealment)",
+          "subtitle": "Hiding Noon before the remaining 15 letters",
+          "readingTime": "4 min",
+          "explanation": "Ikhfa (إِخْفَاء) means 'to conceal or hide'. When Noon Sakinah or Tanween is followed by any of the remaining 15 Arabic letters, the Noon is concealed—pronounced halfway between Izhar and Idgham with a 2-count Ghunnah. The tongue prepares near the Makhraj of the upcoming letter. The 15 letters are the first letters in the famous poem line: صِفْ ذَا ثَنَا كَمْ جَادَ شَخْصٌ قَدْ سَمَا دُمْ طَيِّبًا زِدْ فِي تُقًى ضَعْ ظَالِمًا.",
+          "keyPoints": [
+            "15 Ikhfa letters: ص ذ ث ك ج ش ق س د ط ز ف ت ض ظ.",
+            "Pronounce halfway between Izhar and Idgham with 2-count Ghunnah.",
+            "Heavy Ikhfa before heavy letters (ص ض ط ظ ق).",
+            "Light Ikhfa before light letters (the remaining 10 letters)."
+          ],
+          "audio": {
+            "arabicText": "مِن قَبْلُ - كُنتُمْ - أَنفُسَكُمْ - رِجَالًا كَثِيرًا",
+            "phonetic": "Min-qablu | Kuntum | Anfusakum | Rijaalan-katheera",
+            "description": "Listen to the concealed nasal sound of Ikhfa before various letters."
+          },
+          "examples": [
+            {
+              "arabic": "كُنتُمْ",
+              "label": "Ikhfa before Ta",
+              "sound": "Kun-tum (light nasal concealment)"
+            },
+            {
+              "arabic": "مِن قَبْلُ",
+              "label": "Ikhfa before Qaf",
+              "sound": "Min-qablu (deep, heavy nasal concealment)"
+            }
+          ],
+          "practice": "Recite 'مِن دُونِ' (Min dooni) with light Ikhfa and 'مِن قَبْلِ' (Min qabli) with heavy Ikhfa.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "How many letters trigger the rule of Ikhfa (Concealment)?",
+            "options": [
+              "6 letters",
+              "15 letters",
+              "4 letters",
+              "1 letter"
+            ],
+            "correctAnswer": 1,
+            "explanation": "There are 15 letters that trigger Ikhfa (all letters remaining after Izhar, Idgham, and Iqlab)."
+          }
+        },
+        {
+          "id": "tajweed-ch4-l6",
+          "number": 6,
+          "title": "Chapter 4 Review & Noon Sakinah Mastery Challenge",
+          "subtitle": "Distinguishing all 4 rules in real Qur'anic verses",
+          "readingTime": "4 min",
+          "explanation": "You have now mastered the 4 universal rules of Noon Sakinah & Tanween: 1) Izhar (6 throat letters), 2) Idgham (6 Yarmaloon letters), 3) Iqlab (1 letter: Ba), and 4) Ikhfa (15 remaining letters). Totaling all 28 letters of the Arabic alphabet!",
+          "keyPoints": [
+            "Izhar = 6 throat letters (ء هـ ع ح غ خ)",
+            "Idgham = 6 letters (ي ر م ل و ن)",
+            "Iqlab = 1 letter (ب)",
+            "Ikhfa = 15 remaining letters",
+            "6 + 6 + 1 + 15 = 28 letters accounted for!"
+          ],
+          "audio": {
+            "arabicText": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ",
+            "phonetic": "Fa-may-ya'mal mithqaala dharratin khayray-yarah",
+            "description": "Listen to Surah Az-Zalzalah demonstrating Idgham, Izhar, and Tanween."
+          },
+          "examples": [
+            {
+              "arabic": "ذَرَّةٍ خَيْرًا",
+              "label": "Izhar",
+              "sound": "Dharratin khayra (clean Tanween before Kha)"
+            },
+            {
+              "arabic": "خَيْرًا يَرَهُ",
+              "label": "Idgham with Ghunnah",
+              "sound": "Khayray-yarah (Tanween merges into Ya)"
+            }
+          ],
+          "practice": "Identify the 2 Tajweed rules in 'ذَرَّةٍ خَيْرًا يَرَهُ' (Izhar then Idgham).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "In the phrase 'مِن بَعْدِ', which Tajweed rule must be applied?",
+            "options": [
+              "Izhar",
+              "Idgham",
+              "Iqlab (converting Noon to Meem)",
+              "Ikhfa"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'مِن بَعْدِ' is Iqlab because Noon Sakinah is followed by the letter Ba (ب)."
+          }
+        }
+      ],
+      "aliases": [
+        "lesson-4",
+        "tajweed-ch4",
+        "tajweed-ch3"
+      ]
+    },
+    {
+      "id": "lesson-5",
+      "number": 4,
+      "title": "Ahkam Al-Meem Al-Sakinah (أحكام الميم الساكنة)",
+      "subtitle": "The 3 core oral rules: Ikhfa Shafawi, Idgham Shafawi, and Izhar Shafawi",
+      "readingTime": "18 min",
+      "videoLesson": {
+        "videoId": "sbYE5wmNiAk",
+        "title": "Rules of Meem Sakinah (Ikhfa, Idgham & Izhar Shafawi)",
+        "shortTitle": "Chapter Overview (Arabic Guru)",
+        "channel": "Yusuf Ashraf - Arabic Guru",
+        "duration": "11:50",
+        "watchUrl": "https://www.youtube.com/watch?v=sbYE5wmNiAk",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
+        "url": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
+        "alternativeSource": "https://quran.com",
+        "sourceName": "Quran.com — Rules of Meem Sakinah",
+        "badge": "Chapter Reference Video"
+      },
+      "summary": "Master the 3 rules governing unvoweled silent Meem (مْ): Labial Concealment, Merging, and Clarity.",
+      "smallLessons": [
+        {
+          "id": "tajweed-ch5-l1",
+          "number": 1,
+          "title": "Introduction to Meem Sakinah",
+          "subtitle": "The unvoweled Meem and its 3 rules",
+          "readingTime": "3 min",
+          "explanation": "Meem Sakinah (مْ) is a Meem with a Sukoon (free of vowels). It has only 3 simple rules: 1) Ikhfa Shafawi (before Ba ب), 2) Idgham Shafawi (before another Meem م), 3) Izhar Shafawi (before all other 26 letters). The word 'Shafawi' means 'of the lips' because Meem is articulated from the lips.",
+          "keyPoints": [
+            "Meem Sakinah (مْ) = Silent Meem without vowel.",
+            "Only 3 rules: Ikhfa Shafawi, Idgham Shafawi, Izhar Shafawi.",
+            "Named 'Shafawi' because the Makhraj is Ash-Shafatan (the lips)."
+          ],
+          "audio": {
+            "arabicText": "عَلَيْهِمْ - تَرْمِيهِم بِحِجَارَةٍ - لَهُم مَّا يَشَاءُونَ",
+            "phonetic": "Alayhim | Tarmeehim bi-hijarah | Lahum-maa yashaa'oon",
+            "description": "Listen to Meem Sakinah across its 3 rules."
+          },
+          "examples": [
+            {
+              "arabic": "أَلَمْ تَرَ",
+              "label": "Izhar Shafawi",
+              "sound": "Alam tara (clear Meem before Ta)"
+            }
+          ],
+          "practice": "Inspect how many Meem Sakinahs appear in Surah Al-Fil.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "How many rules govern Meem Sakinah (silent Meem)?",
+            "options": [
+              "2 rules",
+              "3 rules (Ikhfa Shafawi, Idgham Shafawi, Izhar Shafawi)",
+              "4 rules",
+              "6 rules"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Meem Sakinah has 3 rules: Ikhfa Shafawi, Idgham Shafawi, and Izhar Shafawi."
+          }
+        },
+        {
+          "id": "tajweed-ch5-l2",
+          "number": 2,
+          "title": "Rule 1: Ikhfa Shafawi (Labial Concealment)",
+          "subtitle": "Concealing Meem Sakinah before the letter Bā (ب) with a two-count Ghunnah",
+          "readingTime": "5 min",
+          "explanation": "In this lesson, we study the first rule of Meem Sakinah (أحكام الميم الساكنة): Al-Ikhfā' Ash-Shafawī (الإخفاء الشفوي — Labial Concealment).\n\n### 1. Definition and Linguistic Meaning of Ikhfa Shafawi\n\nLinguistically, the Arabic word Ikhfā' (إِخْفَاء) means concealment, hiding, or covering. The word Shafawī (شَفَوِيّ) means labial, derived from Ash-Shafatayn (الشَّفَتَان — the two lips), because both the letter Meem (م) and the letter Bā (ب) articulate from the lips.\n\nIn the science of Tajweed, Ikhfa Shafawi is defined as:\n\nPronouncing a Meem Sakinah (مْ) that is followed immediately by the letter Bā (ب) in a state between clarity (Iẓhār) and complete merging (Idghām), while retaining a complete nasal resonance (Ghunnah) held for two counts.\n\nUnlike the rules of Noon Sakinah, which apply both within a single word and between two words, Ikhfa Shafawi occurs only between two separate words, where the first word ends with Meem Sakinah and the following word begins with Bā.\n\n### 2. The Articulation Mechanism: How to Pronounce Ikhfa Shafawi\n\nTo perform Ikhfa Shafawi correctly, follow this step-by-step physical articulation:\n\n1. Bring the two lips gently together with light, relaxed contact (تَلَامُس خَفِيف). Avoid pressing the lips tightly shut with heavy muscular force.\n2. Maintain the lips in this gentle closure while directing the voice upward into the nasal cavity (الخَيْشُوم).\n3. Hold the nasal Ghunnah smoothly for exactly two counts (حَرَكَتَان).\n4. Release the gentle lip contact cleanly and directly into the following letter Bā (ب) with its respective vowel.\n\nDuring this process, two critical pitfalls must be avoided:\n\n- Do not leave an exaggerated wide gap between the lips, as the lips must naturally meet.\n- Do not clamp the lips down forcefully, as excessive pressure produces a hard, clipped sound that eliminates concealment.\n\n### 3. Step-by-Step Qur'anic Application: تَرْمِيهِمْ بِحِجَارَةٍ\n\nConsider the premier Qur'anic example found in Surah Al-Fīl (105:4):\n\n**تَرْمِيهِمْ بِحِجَارَةٍ** (*Tarmīhim bi-ḥijārah* — \"Striking them with stones\")\n\nHere, the word **تَرْمِيهِمْ** ends with an unvoweled Meem Sakinah (مْ), and the next word **بِحِجَارَةٍ** begins with the letter Bā (ب).\n\nStep-by-step recitation breakdown:\n\n1. Recite the syllables: *tar - mī - him*.\n2. As your lips meet at the end of the Meem, do not snap them shut or pronounce a sharp, clear Meem.\n3. Keep the lips softly meeting while sustaining the warm nasal hum: *tarmīhimmm...* for two counts.\n4. Part the lips into the letter Bā with its Kasrah: *...bi-ḥijārah*.\n\nAdditional Qur'anic examples of this rule include:\n\n- **فَاحْكُمْ بَيْنَهُمْ** (*Faḥkum baynahum* — Surah Al-Mā'idah 5:48)\n- **يَعْتَصِمْ بِاللَّهِ** (*Ya‘taṣim billāh* — Surah Āli ‘Imrān 3:101)\n- **وَمَا هُمْ بِمُؤْمِنِينَ** (*Wa mā hum bi-mu'minīn* — Surah Al-Baqarah 2:8)\n\n### 4. Common Recitation Mistakes and How to Correct Them\n\nReciters frequently make four common errors when practicing Ikhfa Shafawi:\n\n1. Excessive Lip Clamping: Pressing the lips together tightly with heavy force. This blocks the air passage and turns the sound into a strained, harsh Meem. *Correction:* Allow the lips to touch lightly without squeezing.\n2. Opening an Artificial Gap (Furjah): Intentionally keeping the lips parted so they never touch. *Correction:* The lips must make natural contact; concealment lies in the softness of the closure and the prominent Ghunnah.\n3. Truncating the Ghunnah: Cutting the nasal sound short after one count instead of giving it the full two counts. *Correction:* Give the Ghunnah its full two-count duration before pronouncing Bā.\n4. Complete Idgham Merging: Merging the Meem completely into Bā so it sounds like a doubled Bā (*tarmīhib-biḥijārah*). *Correction:* Maintain the distinct acoustic identity of the nasal Meem.\n\n### 5. Comparative Overview: The Three Rules of Meem Sakinah\n\nTo master Meem Sakinah, observe how Ikhfa Shafawi fits within the three comprehensive rules:\n\n1. Al-Ikhfā' Ash-Shafawī (الإخفاء الشفوي): Applies to 1 letter: Bā (ب). The Meem is concealed with a 2-count Ghunnah with gentle lip contact.\n2. Al-Idghām Ash-Shafawī (الإدغام الشفوي): Applies to 1 letter: Meem (م). The first Meem merges completely into the second Meem with a 2-count Ghunnah and full lip closure (also called Idgham Mithlayn Saghir).\n3. Al-Iẓhār Ash-Shafawī (الإظهار الشفوي): Applies to the remaining 26 letters. The Meem is pronounced clearly from the lips without extra Ghunnah. Reciters must take extra caution before Wāw (و) and Fā' (ف) to avoid accidental concealment.",
+          "keyPoints": [
+            "Ikhfā' Shafawī occurs when Meem Sakinah (مْ) is followed immediately by the letter Bā (ب).",
+            "The lips meet gently and comfortably without excessive muscular pressure or unnatural gaps.",
+            "A full two-count nasal Ghunnah is sustained through the nasal cavity before releasing into the Bā.",
+            "Premier Qur'anic model: تَرْمِيهِمْ بِحِجَارَةٍ (Surah Al-Fīl 105:4)."
+          ],
+          "audio": {
+            "arabicText": "تَرْمِيهِمْ بِحِجَارَةٍ",
+            "phonetic": "Tarmīhim bi-ḥijārah (Surah Al-Fīl 105:4)",
+            "description": "Listen to the 2-count nasal Ghunnah with gentle labial concealment before Bā."
+          },
+          "examples": [
+            {
+              "arabic": "تَرْمِيهِمْ بِحِجَارَةٍ",
+              "transliteration": "Tarmīhim bi-ḥijārah",
+              "label": "Primary Model: Meem Sakinah followed by Bā with 2-count Ghunnah (Al-Fīl 105:4)",
+              "sound": "Tar-mee-himmm-bi-hi-jaa-rah"
+            },
+            {
+              "arabic": "فَاحْكُمْ بَيْنَهُمْ",
+              "transliteration": "Faḥkum baynahum",
+              "label": "Secondary Model: Meem Sakinah followed by Bā (Al-Mā'idah 5:48)",
+              "sound": "Fah-kummm-bay-na-hum"
+            },
+            {
+              "arabic": "يَعْتَصِمْ بِاللَّهِ",
+              "transliteration": "Ya‘taṣim billāh",
+              "label": "Secondary Model: Meem Sakinah followed by Bā (Āli ‘Imrān 3:101)",
+              "sound": "Ya'ta-simmm-bil-laah"
+            },
+            {
+              "arabic": "وَمَا هُمْ بِمُؤْمِنِينَ",
+              "transliteration": "Wa mā hum bi-mu'minīn",
+              "label": "Contrast Model: Meem Sakinah followed by Bā with gentle lip closure (Al-Baqarah 2:8)",
+              "sound": "Wa-maa-hummm-bi-mu'mi-neen"
+            }
+          ],
+          "practice": "Slow Pronunciation Drill: Recite 'تَرْمِيهِمْ بِحِجَارَةٍ' three times at slow speed (0.75x or 1.0x). On 'him', bring your lips together softly, sustain the nasal hum for 2 full beats, then release into 'bi-ḥijārah' without abrupt clicking.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "In the verse 'تَرْمِيهِمْ بِحِجَارَةٍ', how should the Meem Sakinah before the letter Bā be articulated?",
+            "options": [
+              "Concealed with gentle lip contact and a 2-count nasal Ghunnah (Ikhfa Shafawi)",
+              "Completely merged into Bā as a doubled letter with Ghunnah (Idgham Shafawi)",
+              "Pronounced with sharp, clear lip closure and no extra Ghunnah (Izhar Shafawi)",
+              "Converted into the letter Nūn with tongue elevation (Iqlab)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "When Meem Sakinah is followed by Bā (ب), the rule is Ikhfa Shafawi: the lips meet gently without heavy pressure, and a nasal Ghunnah is held for two counts."
+          },
+          "arabic": "الإِخْفَاءُ الشَّفَوِيُّ",
+          "transliteration": "Al-Ikhfā' Ash-Shafawī",
+          "makhraj": "Light contact between the two lips (Ash-Shafatayn) with sound resonating through the nasal cavity (Al-Khayshum).",
+          "sound": "2-count nasal Ghunnah: تَرْمِيهِمْ بِحِجَارَةٍ (Tarmīhim bi-ḥijārah)",
+          "videoLesson": {
+            "videoId": "7o4Amtw_QFU",
+            "title": "The BEST 30-day Program for Tajweed - DAY 18 | Arabic101",
+            "shortTitle": "Rule 1: Ikhfa Shafawi (Arabic 101)",
+            "channel": "Arabic 101",
+            "duration": "7:38",
+            "watchUrl": "https://www.youtube.com/watch?v=7o4Amtw_QFU",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/7o4Amtw_QFU",
+            "url": "https://www.youtube-nocookie.com/embed/7o4Amtw_QFU",
+            "thumbnail": "https://img.youtube.com/vi/7o4Amtw_QFU/hqdefault.jpg",
+            "badge": "Verified Dedicated Video"
+          },
+          "additionalVideos": [
+            {
+              "videoId": "sbYE5wmNiAk",
+              "title": "Rules of Meem Sakinah (Ikhfa, Idgham & Izhar Shafawi)",
+              "shortTitle": "Chapter Overview (Arabic Guru)",
+              "channel": "Yusuf Ashraf - Arabic Guru",
+              "duration": "11:50",
+              "watchUrl": "https://www.youtube.com/watch?v=sbYE5wmNiAk",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
+              "url": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
+              "alternativeSource": "https://quran.com",
+              "sourceName": "Quran.com — Rules of Meem Sakinah",
+              "badge": "Chapter Reference Video"
+            }
+          ]
+        },
+        {
+          "id": "tajweed-ch5-l3",
+          "number": 3,
+          "title": "Rule 2: Idgham Shafawi (Labial Merging)",
+          "subtitle": "Merging Meem into another Meem (م)",
+          "readingTime": "3 min",
+          "explanation": "When Meem Sakinah (مْ) is followed by another voweled Meem (م), the first Meem merges completely into the second, forming a single Meem with Shaddah (مّ) and a 2-count Ghunnah.",
+          "keyPoints": [
+            "Single letter: Meem (م).",
+            "Produces Meem Mushaddadah (مّ) with 2-count Ghunnah.",
+            "Also called Idgham Mithlayn Sagheer (Merging of Identical Letters)."
+          ],
+          "audio": {
+            "arabicText": "لَهُم مَّا يَشَاءُونَ - كُنتُم مُّؤْمِنِينَ",
+            "phonetic": "Lahum-maa yashaa'oon | Kuntum-mu'mineen",
+            "description": "Listen to Idgham Shafawi merging two Meems seamlessly."
+          },
+          "examples": [
+            {
+              "arabic": "لَهُم مَّا",
+              "label": "Pronounced",
+              "sound": "Lahum-maa (merged with 2-count hum)"
+            }
+          ],
+          "practice": "Recite 'فِي قُلُوبِهِم مَّرَضٌ' merging the two Meems with 2-count Ghunnah.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What rule occurs when Meem Sakinah is followed by another Meem?",
+            "options": [
+              "Izhar Shafawi",
+              "Idgham Shafawi (Labial Merging with Ghunnah)",
+              "Iqlab",
+              "Qalqalah"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Meem Sakinah followed by Meem results in Idgham Shafawi with a 2-count Ghunnah."
+          },
+          "videoLesson": {
+            "videoId": "9Pl_waWlo1k",
+            "title": "The BEST 30-day Program for Tajweed - DAY 17 | Arabic101",
+            "shortTitle": "Rule 2: Idgham Shafawi (Arabic 101)",
+            "channel": "Arabic 101",
+            "duration": "7:28",
+            "watchUrl": "https://www.youtube.com/watch?v=9Pl_waWlo1k",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/9Pl_waWlo1k",
+            "url": "https://www.youtube-nocookie.com/embed/9Pl_waWlo1k",
+            "thumbnail": "https://img.youtube.com/vi/9Pl_waWlo1k/hqdefault.jpg",
+            "badge": "Verified Dedicated Video"
+          },
+          "additionalVideos": [
+            {
+              "videoId": "sbYE5wmNiAk",
+              "title": "Rules of Meem Sakinah (Ikhfa, Idgham & Izhar Shafawi)",
+              "shortTitle": "Chapter Overview (Arabic Guru)",
+              "channel": "Yusuf Ashraf - Arabic Guru",
+              "duration": "11:50",
+              "watchUrl": "https://www.youtube.com/watch?v=sbYE5wmNiAk",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
+              "url": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
+              "alternativeSource": "https://quran.com",
+              "sourceName": "Quran.com — Rules of Meem Sakinah",
+              "badge": "Chapter Reference Video"
+            }
+          ]
+        },
+        {
+          "id": "tajweed-ch5-l4",
+          "number": 4,
+          "title": "Rule 3: Izhar Shafawi (Labial Clarity)",
+          "subtitle": "Clear Meem before the remaining 26 letters",
+          "readingTime": "3 min",
+          "explanation": "When Meem Sakinah (مْ) is followed by any of the remaining 26 Arabic letters (everything except Ba and Meem), the Meem is pronounced clearly without holding extra Ghunnah. Be especially careful when Meem is followed by Waw (و) or Fa (ف) not to hide the Meem due to their shared lip Makhraj!",
+          "keyPoints": [
+            "26 letters trigger Izhar Shafawi.",
+            "Pronounce Meem clearly with no extra delay.",
+            "Special caution before Waw (و) and Fa (ف): Keep Meem distinct!"
+          ],
+          "audio": {
+            "arabicText": "عَلَيْهِمْ غَيْرِ - أَنعَمْتَ عَلَيْهِمْ - لَمْ يَلِدْ",
+            "phonetic": "Alayhim ghayri | An'amta 'alayhim | Lam yalid",
+            "description": "Listen to clear, crisp Izhar Shafawi across verses."
+          },
+          "examples": [
+            {
+              "arabic": "أَنْعَمْتَ عَلَيْهِمْ",
+              "label": "Izhar Shafawi",
+              "sound": "Clean Meem before 'Ayn and at verse end"
+            },
+            {
+              "arabic": "عَلَيْهِمْ وَلَا",
+              "label": "Caution before Waw",
+              "sound": "Alayhim wa-la (do not blend Meem into Waw!)"
+            }
+          ],
+          "practice": "Recite 'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ' ensuring both Meems are clear.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Why must reciters take extra care to pronounce Izhar Shafawi clearly before Waw (و) and Fa (ف)?",
+            "options": [
+              "Because they are heavy letters",
+              "Because Waw and Fa share the lip Makhraj with Meem, making accidental hiding common",
+              "Because they require Qalqalah",
+              "Because they are throat letters"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Because Meem, Waw, and Fa all originate from the lips, reciters must consciously prevent accidental concealment (Ikhfa)."
+          },
+          "videoLesson": {
+            "videoId": "_YvAxTj6FEo",
+            "title": "The BEST 30-day Program for Tajweed - DAY 16 | Arabic101",
+            "shortTitle": "Rule 3: Izhar Shafawi (Arabic 101)",
+            "channel": "Arabic 101",
+            "duration": "9:28",
+            "watchUrl": "https://www.youtube.com/watch?v=_YvAxTj6FEo",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/_YvAxTj6FEo",
+            "url": "https://www.youtube-nocookie.com/embed/_YvAxTj6FEo",
+            "thumbnail": "https://img.youtube.com/vi/_YvAxTj6FEo/hqdefault.jpg",
+            "badge": "Verified Dedicated Video"
+          },
+          "additionalVideos": [
+            {
+              "videoId": "sbYE5wmNiAk",
+              "title": "Rules of Meem Sakinah (Ikhfa, Idgham & Izhar Shafawi)",
+              "shortTitle": "Chapter Overview (Arabic Guru)",
+              "channel": "Yusuf Ashraf - Arabic Guru",
+              "duration": "11:50",
+              "watchUrl": "https://www.youtube.com/watch?v=sbYE5wmNiAk",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
+              "url": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
+              "alternativeSource": "https://quran.com",
+              "sourceName": "Quran.com — Rules of Meem Sakinah",
+              "badge": "Chapter Reference Video"
+            }
+          ]
+        },
+        {
+          "id": "tajweed-ch5-l5",
+          "number": 5,
+          "title": "Chapter 4 Review & Meem Sakinah Challenge",
+          "subtitle": "Summary and mastery of the three Shafawi rules.",
+          "readingTime": "8 min",
+          "explanation": "In this comprehensive capstone review, we consolidate and master the three essential rules of Meem Sakinah (أَحْكَامُ الْمِيمِ السَّاكِنَةِ): Al-Ikhfā' Ash-Shafawī (Labial Concealment), Al-Idghām Ash-Shafawī (Labial Merging), and Al-Iẓhār Ash-Shafawī (Labial Clarity).\n\n### 1. Core Summary and Comparison of the Three Shafawi Rules\n\nWhenever you encounter a Meem Sakinah (مْ) in the Qur'an, observe the single letter immediately following it. The three rules divide the entire Arabic alphabet as follows:\n\n| Rule | Following letter | Action | Ghunnah |\n|---|---|---|---|\n| Ikhfa Shafawi | ب | Conceal Meem | 2 counts |\n| Idgham Shafawi | م | Merge into Meem | 2 counts |\n| Izhar Shafawi | All other 26 letters | Pronounce Meem clearly | No additional Ghunnah required by this rule |\n\nDifferences in Lip Position, Sound, and Pronunciation:\n\n- Ikhfa Shafawi (الإخفاء الشفوي): The two lips come together gently with light, soft contact (تَلَامُس خَفِيف) without tight pressure or an unnatural gap. The voice is directed into the nasal cavity (الخَيْشُوم) producing a resonant, warm Ghunnah held for exactly two counts before releasing into the Bā (ب).\n- Idgham Shafawi (الإدغام الشفوي): The first Meem merges completely into the second voweled Meem, forming one single doubled Meem (مّ) with full lip closure and a complete two-count Ghunnah. Also termed Idghām Mithlayn Ṣaghīr (إدغام مثلين صغير) because both letters are identical.\n- Izhar Shafawi (الإظهار الشفوي): The lips close normally and articulate the Meem clearly from its point of articulation without any elongation of the nasal sound. Only the intrinsic, baseline Ghunnah inherent to the letter Meem is present; no additional two-count hold is added.\n\n### 2. Qur'anic Examples and Step-by-Step Practical Application\n\nMaster each rule using these authentic Qur'anic models:\n\n#### Rule 1: Ikhfa Shafawi (الإخفاء الشفوي)\n- Qur'anic Verse: **تَرْمِيهِمْ بِحِجَارَةٍ** (*Tarmīhim bi-ḥijārah* — Surah Al-Fīl 105:4)\n- Meem Sakinah: The unvoweled Meem at the end of **تَرْمِيهِمْ**.\n- Following Letter: The letter Bā (**بِـ**) at the beginning of the next word.\n- Identified Rule: Ikhfa Shafawi (triggered exclusively by letter Bā).\n- Correct Pronunciation: Recite *tar-mī-him*, bring the lips together softly without clenching, sustain the nasal hum for two full beats (*himmm...*), and release gently into the Bā with Kasrah (*bi-ḥijārah*).\n- Listening Drill: Focus on the continuous, smooth nasal vibration between the words without an abrupt stop or click.\n\n#### Rule 2: Idgham Shafawi (الإدغام الشفوي)\n- Qur'anic Verse: **لَهُم مَّا يَشَاءُونَ** (*Lahum mā yashā'ūn* — Surah Qāf 50:35)\n- Meem Sakinah: The unvoweled Meem at the end of **لَهُم**.\n- Following Letter: The voweled Meem (**مَّـ**) at the start of the next word.\n- Identified Rule: Idgham Shafawi / Idgham Mithlayn Saghir (triggered exclusively by letter Meem).\n- Correct Pronunciation: Merge the two Meems completely into a single doubled Meem with Shaddah, closing the lips firmly and holding the nasal Ghunnah for two counts (*lahummm-mā*).\n- Listening Drill: Notice that there is no separation between the two words; the sound flows as one united, resonant labial letter.\n\n#### Rule 3: Izhar Shafawi (الإظهار الشفوي)\n- Qur'anic Verse: **أَلَمْ يَجْعَلْ** (*Alam yaj‘al* — Surah Al-Fīl 105:2)\n- Meem Sakinah: The unvoweled Meem in **أَلَمْ**.\n- Following Letter: The letter Yā (**يَـ**) in **يَجْعَلْ**.\n- Identified Rule: Izhar Shafawi (triggered by Yā, one of the 26 Izhar letters).\n- Correct Pronunciation: Pronounce the Meem clearly from the lips with crisp closure and release immediately into the Yā without adding any extra Ghunnah duration or dragging the sound (*a-lam yaj-'al*).\n- Listening Drill: The Meem is distinct and crisp; the sound must never linger or blur into the Yā.\n\n### 3. Phonetic Sound Guide & Vital Precautions\n\nWhen reciting Meem Sakinah across the Qur'an, observe these three essential phonetic safeguards:\n\n1. Clean Clarity Before Yā (ي): In examples like **أَلَمْ يَجْعَلْ**, the Meem Sakinah must be articulated with crisp clarity from closed lips before moving smoothly to Yā. Reciters must never attempt to merge or conceal the Meem into the Yā.\n2. The Critical Wāw (و) and Fā' (ف) Precaution: Classical scholars (including Imam Al-Jazarī) specifically warned reciters to take extra caution when Meem Sakinah is followed by Wāw (e.g. **عَلَيْهِمْ وَلَا**) or Fā' (e.g. **هُمْ فِيهَا**). Because Wāw shares the lips as its Makhraj and Fā' articulates from the lower lip, the tongue and lips are prone to accidentally concealing or merging the Meem. The rule remains strict Izhar Shafawi: pronounce the Meem with decisive, clear closure.\n3. Accurate Lip Contact in Ikhfa: Keep the lips softly touching in Ikhfa Shafawi; do not force a tight clamp and do not leave an artificial gap between the lips.\n\n### 4. Final Learning Mastery Checklist\n\nBefore proceeding to Chapter 5, verify that you can confidently perform all of the following skills:\n\n1. Recognize Meem Sakinah (مْ) immediately in the Qur'anic script.\n2. Identify the single letter following the Meem Sakinah across word boundaries.\n3. Accurately categorize the junction into Ikhfa Shafawi (before Bā), Idgham Shafawi (before Meem), or Izhar Shafawi (before all other 26 letters).\n4. Demonstrate the exact lip difference between soft Ikhfa closure, complete Idgham Shaddah, and crisp Izhar clarity.\n5. Sustain an accurate two-count nasal Ghunnah for Ikhfa and Idgham while maintaining zero extra Ghunnah duration for Izhar.\n6. Avoid the common pitfall of accidentally concealing Meem Sakinah before Wāw (و) and Fā' (ف).",
+          "keyPoints": [
+            "Meem Sakinah has only 3 rules: Ikhfā' Shafawī (before Bā), Idghām Shafawī (before Meem), and Iẓhār Shafawī (before all other 26 letters).",
+            "Ikhfā' Shafawī requires gentle lip contact with a 2-count nasal Ghunnah (تَرْمِيهِمْ بِحِجَارَةٍ).",
+            "Idghām Shafawī requires complete merging into a doubled Meem with a 2-count Ghunnah (لَهُم مَّا يَشَاءُونَ).",
+            "Iẓhār Shafawī requires clear lip articulation without extra Ghunnah (أَلَمْ يَجْعَلْ); extra care is required before Wāw and Fā'."
+          ],
+          "audio": {
+            "arabicText": "تَرْمِيهِمْ بِحِجَارَةٍ • لَهُم مَّا يَشَاءُونَ • أَلَمْ يَجْعَلْ",
+            "phonetic": "Tarmīhim bi-ḥijārah (Ikhfā') | Lahum mā (Idghām) | Alam yaj'al (Iẓhār)",
+            "description": "Listen to all three Meem Sakinah rules demonstrated in sequence with authentic Qur'anic timing."
+          },
+          "examples": [
+            {
+              "arabic": "تَرْمِيهِمْ بِحِجَارَةٍ",
+              "transliteration": "Tarmīhim bi-ḥijārah",
+              "label": "Rule 1: Ikhfa Shafawi — Meem Sakinah followed by Bā with 2-count Ghunnah (Al-Fīl 105:4)",
+              "sound": "Tar-mee-himmm-bi-hi-jaa-rah"
+            },
+            {
+              "arabic": "لَهُم مَّا يَشَاءُونَ",
+              "transliteration": "Lahum mā yashā'ūn",
+              "label": "Rule 2: Idgham Shafawi — Meem Sakinah merged into Meem with 2-count Ghunnah (Qāf 50:35)",
+              "sound": "La-hummm-maa ya-shaa-oon"
+            },
+            {
+              "arabic": "أَلَمْ يَجْعَلْ",
+              "transliteration": "Alam yaj‘al",
+              "label": "Rule 3: Izhar Shafawi — Meem Sakinah pronounced clearly before Yā with no extra Ghunnah (Al-Fīl 105:2)",
+              "sound": "A-lam yaj-'al"
+            },
+            {
+              "arabic": "عَلَيْهِمْ وَلَا الضَّالِّينَ",
+              "transliteration": "‘Alayhim wa laḍ-ḍāllīn",
+              "label": "Vital Precaution: Izhar Shafawi before Wāw — clear Meem without accidental concealment (Al-Fātiḥah 1:7)",
+              "sound": "A-lay-him wa-lad-daal-leen"
+            }
+          ],
+          "practice": "Comprehensive Tri-Rule Repetition Drill: Recite each of the three models three times: (1) 'تَرْمِيهِمْ بِحِجَارَةٍ' (Ikhfā': soft lips + 2 counts Ghunnah), (2) 'لَهُم مَّا يَشَاءُونَ' (Idghām: complete merge + 2 counts Ghunnah), and (3) 'أَلَمْ يَجْعَلْ' (Iẓhār: crisp Meem release + 0 counts extra Ghunnah). Focus on the distinct physical feeling of your lips on each rule.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which of the following summaries correctly categorizes the three rules of Meem Sakinah?",
+            "options": [
+              "Before Bā = Ikhfā' (2 counts); Before Meem = Idghām (2 counts); Before other 26 letters = Iẓhār (no extra Ghunnah)",
+              "Before Bā = Idghām; Before Meem = Ikhfā'; Before other letters = Iqlāb",
+              "Before Bā = Iẓhār; Before Meem = Qalqalah; Before other letters = Idghām",
+              "All 28 letters require 2 counts of Ghunnah regardless of the following letter"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The three Shafawi rules are: 1) Ikhfa Shafawi before Bā (ب) with 2-count Ghunnah; 2) Idgham Shafawi before Meem (م) with 2-count Ghunnah; 3) Izhar Shafawi before the remaining 26 letters with clear articulation and no extra Ghunnah."
+          },
+          "arabic": "مُرَاجَعَةُ أَحْكَامِ الْمِيمِ السَّاكِنَةِ",
+          "transliteration": "Murāja‘at Aḥkām Al-Mīm As-Sākinah",
+          "makhraj": "The two lips (Ash-Shafatayn) in conjunction with nasal resonance (Al-Khayshūm).",
+          "sound": "The 3 Shafawi Rules: Ikhfā' (تَرْمِيهِمْ بِحِجَارَةٍ), Idghām (لَهُم مَّا يَشَاءُونَ), Iẓhār (أَلَمْ يَجْعَلْ)",
+          "videoLesson": {
+            "videoId": "sbYE5wmNiAk",
+            "title": "Rules of Meem Sakinah (Ikhfa, Idgham & Izhar Shafawi)",
+            "shortTitle": "Chapter 4 Review (Arabic Guru)",
+            "channel": "Yusuf Ashraf - Arabic Guru",
+            "duration": "11:50",
+            "watchUrl": "https://www.youtube.com/watch?v=sbYE5wmNiAk",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
+            "url": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
+            "thumbnail": "https://img.youtube.com/vi/sbYE5wmNiAk/hqdefault.jpg",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Quran.com — Rules of Meem Sakinah",
+            "badge": "Comprehensive Review Video"
+          },
+          "quiz": {
+            "id": "quiz-tajweed-ch5-l5",
+            "title": "Meem Sakinah Mastery Assessment",
+            "questions": [
+              {
+                "question": "Which rule applies when Meem Sakinah (مْ) is followed by the letter Bā (ب) in the verse 'تَرْمِيهِمْ بِحِجَارَةٍ'?",
+                "options": [
+                  "Al-Ikhfā' Ash-Shafawī (Labial Concealment)",
+                  "Al-Idghām Ash-Shafawī (Labial Merging)",
+                  "Al-Iẓhār Ash-Shafawī (Labial Clarity)",
+                  "Al-Iqlāb (Conversion)"
+                ],
+                "correctAnswer": 0,
+                "explanation": "When Meem Sakinah is followed by Bā (ب), the rule is Ikhfa Shafawi: the Meem is concealed with gentle lip contact and a 2-count Ghunnah."
+              },
+              {
+                "question": "Which single letter triggers Al-Idghām Ash-Shafawī when it follows Meem Sakinah?",
+                "options": [
+                  "Bā' (ب)",
+                  "Meem (م)",
+                  "Nūn (ن)",
+                  "Wāw (و)"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Al-Idgham Ash-Shafawi (also known as Idgham Mithlayn Saghir) occurs exclusively when Meem Sakinah is followed by another Meem (م)."
+              },
+              {
+                "question": "How many Arabic letters trigger Al-Iẓhār Ash-Shafawī when following Meem Sakinah?",
+                "options": [
+                  "6 letters",
+                  "14 letters",
+                  "26 letters",
+                  "28 letters"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Out of the 28 Arabic letters, 1 triggers Ikhfa (Bā) and 1 triggers Idgham (Meem). The remaining 26 letters all trigger Izhar Shafawi."
+              },
+              {
+                "question": "What is the correct physical positioning of the lips during Al-Ikhfā' Ash-Shafawī?",
+                "options": [
+                  "The lips should be pressed together with maximum muscular force",
+                  "The lips should meet gently with light, relaxed contact without tight clamping or wide gaps",
+                  "The lips should be held wide open without touching at all",
+                  "The lower lip should touch the upper front teeth"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The lips make gentle, soft contact (تلامس خفيف) allowing the sound to resonate into the nasal cavity for two counts without forceful pressure."
+              },
+              {
+                "question": "What rule applies in the Qur'anic phrase 'لَهُم مَّا يَشَاءُونَ'?",
+                "options": [
+                  "Al-Ikhfā' Ash-Shafawī",
+                  "Al-Idghām Ash-Shafawī (Idgham Mithlayn)",
+                  "Al-Iẓhār Ash-Shafawī",
+                  "Iẓhār Ḥalqī"
+                ],
+                "correctAnswer": 1,
+                "explanation": "In 'لَهُم مَّا', Meem Sakinah meets a voweled Meem, merging completely into a single doubled Meem with a 2-count Ghunnah."
+              },
+              {
+                "question": "What rule applies to the Meem Sakinah in the verse 'أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ'?",
+                "options": [
+                  "Al-Ikhfā' Ash-Shafawī",
+                  "Al-Idghām Ash-Shafawī",
+                  "Al-Iẓhār Ash-Shafawī",
+                  "Qalqalah"
+                ],
+                "correctAnswer": 2,
+                "explanation": "In 'أَلَمْ يَجْعَلْ', the Meem Sakinah is followed by Yā (ي), which is one of the 26 Izhar letters. The Meem is pronounced clearly without extra Ghunnah."
+              },
+              {
+                "question": "Why did classical scholars like Imam Al-Jazarī issue a special warning regarding Meem Sakinah when followed by Wāw (و) and Fā' (ف)?",
+                "options": [
+                  "Because the Meem turns into a heavy letter before them",
+                  "Because their articulation points are at or near the lips, creating a risk of accidental concealment or merging",
+                  "Because they require a 6-count Madd elongation",
+                  "Because they require Qalqalah bouncing"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Because Wāw shares the lips as its Makhraj and Fā' articulates from the lower lip, the reciter is prone to accidentally concealing or merging the Meem. Reciters must maintain crisp, clear Izhar."
+              },
+              {
+                "question": "What is the Ghunnah duration required for Al-Iẓhār Ash-Shafawī?",
+                "options": [
+                  "Exactly 2 counts",
+                  "Exactly 4 counts",
+                  "No additional Ghunnah duration is added beyond the natural letter body",
+                  "Exactly 1 count"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Izhar Shafawi does not add any extra Ghunnah duration. The Meem retains only its intrinsic baseline nasal quality while being articulated crisply."
+              },
+              {
+                "question": "Which of the following is a common mistake when reciting Al-Ikhfā' Ash-Shafawī in 'تَرْمِيهِمْ بِحِجَارَةٍ'?",
+                "options": [
+                  "Clamping the lips together with excessive muscular force, producing a harsh, clipped sound",
+                  "Holding the nasal hum for 2 counts",
+                  "Gently touching the lips",
+                  "Pronouncing Bā with Kasrah"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Excessive lip pressure blocks the natural resonance and creates a harsh, unnatural Meem rather than a soft, concealed sound."
+              },
+              {
+                "question": "In the phrase 'وَهُم بِالآخِرَةِ كَافِرُونَ', what rule applies to the Meem Sakinah in 'وَهُم بِـ'?",
+                "options": [
+                  "Al-Idghām Ash-Shafawī",
+                  "Al-Iẓhār Ash-Shafawī",
+                  "Al-Ikhfā' Ash-Shafawī",
+                  "Iqlāb"
+                ],
+                "correctAnswer": 2,
+                "explanation": "'وَهُم بِالآخِرَةِ' features Meem Sakinah followed by the letter Bā (ب), triggering Al-Ikhfā' Ash-Shafawī with a 2-count Ghunnah."
+              }
+            ]
+          }
+        }
+      ],
+      "aliases": [
+        "lesson-5",
+        "tajweed-ch5",
+        "tajweed-ch4"
+      ]
+    },
+    {
+      "id": "lesson-6",
+      "number": 5,
+      "title": "Ahkam Al-Madd: Rules of Elongation (أحكام المد)",
+      "subtitle": "Natural Madd (Asli) vs Secondary Madd (Far'i) and exact count durations (Harakat)",
+      "readingTime": "22 min",
+      "videoLesson": {
+        "title": "Madd (مد) in Quran MADE EASY",
+        "channel": "Arabic 101",
+        "duration": "17:25",
+        "videoId": "Q737ZCSbC_g",
+        "watchUrl": "https://www.youtube.com/watch?v=Q737ZCSbC_g",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/Q737ZCSbC_g",
+        "url": "https://www.youtube-nocookie.com/embed/Q737ZCSbC_g",
+        "alternativeSource": "https://quran.com",
+        "sourceName": "Quran.com — Rules of Madd Elongation",
+        "badge": "Verified Reference Video"
+      },
+      "summary": "Learn how to properly elongate vowels for 2, 4, 5, or 6 counts based on Hamzah and Sukoon causes.",
+      "smallLessons": [
+        {
+          "id": "tajweed-ch6-l1",
+          "number": 1,
+          "title": "What Is Madd and Its Letters?",
+          "subtitle": "The 3 letters of elongation",
+          "readingTime": "3 min",
+          "explanation": "Madd (مَدّ) literally means 'to lengthen or elongate'. In Tajweed, it refers to stretching the sound of a vowel letter. The 3 Madd letters are: 1) Alif (ا) preceded by Fat-hah (ـَـا), 2) Waw Sakinah (وْ) preceded by Dammah (ـُـو), 3) Ya Sakinah (يْ) preceded by Kasrah (ـِـي). All three are combined in the Qur'anic word: نُوحِيهَا (Nu-hee-ha).",
+          "keyPoints": [
+            "Madd = Elongating the sound of a long vowel.",
+            "3 Letters: Alif (after Fat-hah), Waw (after Dammah), Ya (after Kasrah).",
+            "Mnemonic word: نُوحِيهَا (Nu - Hee - Haa).",
+            "Measured in Harakat (counts): 1 Harakah is approx. the time to open or close a finger."
+          ],
+          "audio": {
+            "arabicText": "نُوحِيهَا - قَالَ - يَقُولُ - قِيلَ",
+            "phonetic": "Nu-hee-haa | Qaala | Yaqoolu | Qeela",
+            "description": "Listen to the 3 Madd letters in their natural elongation."
+          },
+          "examples": [
+            {
+              "arabic": "قَالَ",
+              "label": "Alif Madd",
+              "sound": "Qaa-la (2 counts on Qaa)"
+            },
+            {
+              "arabic": "يَقُولُ",
+              "label": "Waw Madd",
+              "sound": "Ya-qoo-lu (2 counts on Qoo)"
+            },
+            {
+              "arabic": "قِيلَ",
+              "label": "Ya Madd",
+              "sound": "Qee-la (2 counts on Qee)"
+            }
+          ],
+          "practice": "Recite 'نُوحِيهَا' giving exactly 2 counts to Nu, 2 counts to Hee, and 2 counts to Haa.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which Qur'anic word contains all three Madd letters with their required preceding vowels?",
+            "options": [
+              "الْحَمْدُ",
+              "نُوحِيهَا (Nu-hee-haa)",
+              "كِتَابٌ",
+              "مُسْتَقِيم"
+            ],
+            "correctAnswer": 1,
+            "explanation": "نُوحِيهَا contains Waw preceded by Dammah (نُو), Ya preceded by Kasrah (حِي), and Alif preceded by Fat-hah (هَا)."
+          }
+        },
+        {
+          "id": "tajweed-ch6-l2",
+          "number": 2,
+          "title": "Natural Madd (Madd Asli / Tabee'i)",
+          "subtitle": "The 2-count standard elongation",
+          "readingTime": "3 min",
+          "explanation": "Madd Asli (Natural Madd) occurs when a Madd letter appears WITHOUT being followed by a Hamzah (ء) or a Sukoon (ْ). It must be elongated for exactly 2 counts (Harakataan)—neither rushed (which drops the letter) nor overstretched.",
+          "keyPoints": [
+            "No Hamzah or Sukoon after the Madd letter.",
+            "Exact duration: 2 counts (Harakataan).",
+            "Dropping it (reciting 1 count) is a major mistake (Lahn Jali).",
+            "Example: قَالَ (Qala), كَانَ (Kana), مَالِكِ (Maliki)."
+          ],
+          "audio": {
+            "arabicText": "مَالِكِ يَوْمِ الدِّينِ - قَالَ كَلَّا",
+            "phonetic": "Maaliki Yawmi-d-Deen | Qaala kalla",
+            "description": "Listen to exact 2-count Natural Madd timing."
+          },
+          "examples": [
+            {
+              "arabic": "مَالِكِ",
+              "label": "Madd Asli on Ma",
+              "sound": "Maa-li-ki (2 counts on Maa)"
+            }
+          ],
+          "practice": "Recite 'مَالِكِ يَوْمِ الدِّينِ' maintaining 2 steady counts on 'Maa'.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the mandatory count duration for Madd Asli (Natural Madd)?",
+            "options": [
+              "1 count",
+              "2 counts (Harakataan)",
+              "4 counts",
+              "6 counts"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Madd Asli is always elongated for exactly 2 counts."
+          }
+        },
+        {
+          "id": "tajweed-ch6-l3",
+          "number": 3,
+          "title": "Secondary Madd Due to Hamzah (Madd Muttasil & Munfasil)",
+          "subtitle": "Connected (4-5 counts) vs Separated (4-5 counts) Madd",
+          "readingTime": "4 min",
+          "explanation": "When a Madd letter is followed by a Hamzah (ء), it elongates to 4 or 5 counts: 1) Madd Muttasil (Connected): Madd letter and Hamzah are in the SAME word (e.g. جَاءَ , السَّمَاءِ). Mandatory (Wajib) 4-5 counts. 2) Madd Munfasil (Separated): Madd letter is at the end of one word and Hamzah is at the beginning of the next word (e.g. يَا أَيُّهَا , فِي أَنفُسِكُمْ). Permissible (Ja'iz) 4-5 counts.",
+          "keyPoints": [
+            "Madd Muttasil (Same Word): Mandatory 4-5 counts (e.g. جَاءَ , سُوءَ).",
+            "Madd Munfasil (Two Words): 4-5 counts (e.g. يَا أَيُّهَا , إِنَّا أَعْطَيْنَاكَ).",
+            "Indicated in Mushafs by the curved wave symbol (~)."
+          ],
+          "audio": {
+            "arabicText": "إِذَا جَاءَ نَصْرُ اللَّهِ - إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
+            "phonetic": "Idha jaaa'a nasrullah | Innaaa a'taynaaka-l-Kawthar",
+            "description": "Listen to the 4-5 count elongation on Muttasil and Munfasil."
+          },
+          "examples": [
+            {
+              "arabic": "جَاءَ",
+              "label": "Madd Muttasil",
+              "sound": "Jaaa'a (4-5 counts in single word)"
+            },
+            {
+              "arabic": "إِنَّا أَعْطَيْنَاكَ",
+              "label": "Madd Munfasil",
+              "sound": "Innaaa a'taynaak (4-5 counts across word boundary)"
+            }
+          ],
+          "practice": "Recite 'إِذَا جَاءَ نَصْرُ اللَّهِ' holding 'Jaaa'a' for a full 4 counts.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What type of Madd occurs in the single word 'السَّمَاءِ' (As-Samaaa')?",
+            "options": [
+              "Madd Munfasil (Separated)",
+              "Madd Muttasil (Connected in the same word)",
+              "Madd Asli",
+              "Madd Lazim"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'السَّمَاءِ' is Madd Muttasil because the Madd letter and the Hamzah are inside the same single word."
+          }
+        },
+        {
+          "id": "tajweed-ch6-l4",
+          "number": 4,
+          "title": "Secondary Madd Due to Sukoon & Madd Lazim",
+          "subtitle": "Madd 'Arid li-Sukoon (2/4/6 counts) and Madd Lazim (6 counts)",
+          "readingTime": "4 min",
+          "explanation": "When a Madd letter is followed by a Sukoon: 1) Madd 'Arid li-s-Sukoon (Temporary Stop): When stopping at verse ends, the last letter gets a temporary Sukoon (e.g. الرَّحِيمِ -> الرَّحِيمْ). You may hold it for 2, 4, or 6 counts. 2) Madd Lazim (Compulsory): When a permanent Sukoon or Shaddah follows a Madd letter in a word or Quranic opening letter (e.g. الضَّالِّينَ , الٓمٓ). Must be held for a full 6 counts!",
+          "keyPoints": [
+            "Madd 'Arid li-Sukoon: Stopping at verse end (2, 4, or 6 counts).",
+            "Madd Lazim: Followed by permanent Sukoon or Shaddah = Compulsory 6 counts.",
+            "Example of Madd Lazim: وَلَا الضَّالِّينَ (Wa la-d-Daaalleen - 6 full counts on Daaall!)."
+          ],
+          "audio": {
+            "arabicText": "الْعَالَمِينَ - وَلَا الضَّالِّينَ - الٓمٓ - قٓ",
+            "phonetic": "Al-'Aalameen (2/4/6) | Wa la-d-Daalleen (6) | Alif-Laaam-Meeem (6)",
+            "description": "Listen to Madd 'Arid and the powerful 6-count Madd Lazim."
+          },
+          "examples": [
+            {
+              "arabic": "الرَّحِيمِ (stopping)",
+              "label": "Madd 'Arid",
+              "sound": "Ar-Raheem (2, 4, or 6 counts)"
+            },
+            {
+              "arabic": "الضَّالِّينَ",
+              "label": "Madd Lazim",
+              "sound": "Ad-Daaalleen (mandatory 6 counts)"
+            }
+          ],
+          "practice": "Recite Surah Al-Fatihah verse 7, holding 'الضَّالِّينَ' for 6 full counts.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "How many counts must Madd Lazim (such as in 'وَلَا الضَّالِّينَ') be elongated?",
+            "options": [
+              "2 counts",
+              "4 counts",
+              "6 counts (Compulsory)",
+              "8 counts"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Madd Lazim is compulsory (Lazim) and must be elongated for a full 6 counts."
+          }
+        },
+        {
+          "id": "tajweed-ch6-l5",
+          "number": 5,
+          "title": "Chapter 6 Review & Madd Count Summary",
+          "subtitle": "Mastering the 2, 4/5, and 6 count rules",
+          "readingTime": "3 min",
+          "explanation": "Madd summary: 1) Madd Asli = 2 counts (natural). 2) Madd Muttasil & Munfasil = 4 to 5 counts (due to Hamzah). 3) Madd 'Arid li-Sukoon = 2, 4, or 6 counts (at verse stops). 4) Madd Lazim = 6 counts (due to permanent Sukoon/Shaddah).",
+          "keyPoints": [
+            "2 Counts: Madd Asli (قَالَ).",
+            "4-5 Counts: Madd Muttasil & Munfasil (جَاءَ , إِنَّا أَنزَلْنَاهُ).",
+            "2/4/6 Counts: Madd 'Arid li-s-Sukoon at stops (نَسْتَعِينُ).",
+            "6 Counts: Madd Lazim (الضَّالِّينَ , الٓمٓ)."
+          ],
+          "audio": {
+            "arabicText": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ - فَصَلِّ لِرَبِّكَ وَانْحَرْ - إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+            "phonetic": "Surah Al-Kawthar complete",
+            "description": "Listen to Surah Al-Kawthar applying Madd Asli and Madd Munfasil."
+          },
+          "examples": [
+            {
+              "arabic": "إِنَّا أَعْطَيْنَاكَ",
+              "label": "Madd Munfasil (4-5 counts)",
+              "sound": "Innaaa a'taynaak"
+            }
+          ],
+          "practice": "Recite Surah Al-Kawthar distinguishing between 2-count and 4-count Madd.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the count duration of Madd Asli (Natural Madd)?",
+            "options": [
+              "2 counts",
+              "4 counts",
+              "6 counts",
+              "1 count"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Madd Asli is always 2 counts."
+          }
+        }
+      ],
+      "aliases": [
+        "lesson-6",
+        "tajweed-ch6",
+        "tajweed-ch5"
+      ]
+    },
+    {
+      "id": "lesson-7",
+      "number": 6,
+      "title": "Ahkam Al-Qalqalah: The Echoing Mechanism (أحكام القلقلة)",
+      "subtitle": "The 5 Qalqalah letters (ق ط ب ج د), vibration dynamics, and minor vs major echo",
+      "readingTime": "18 min",
+      "videoLesson": {
+        "title": "Quranic Qalqala (Echoing Sounds) Explained",
+        "channel": "Arabic 101",
+        "duration": "12:30",
+        "videoId": "thu6eZ-AeOA",
+        "watchUrl": "https://www.youtube.com/watch?v=thu6eZ-AeOA",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/thu6eZ-AeOA",
+        "url": "https://www.youtube-nocookie.com/embed/thu6eZ-AeOA",
+        "alternativeSource": "https://quran.com",
+        "sourceName": "Quran.com — Rules of Qalqalah",
+        "badge": "Verified Reference Video"
+      },
+      "summary": "Master the echoing bounce produced when any of the 5 Qutb Jad letters carries a Sukoon.",
+      "smallLessons": [
+        {
+          "id": "tajweed-ch7-l1",
+          "number": 1,
+          "title": "What Is Qalqalah?",
+          "subtitle": "The acoustic vibration of trapped air",
+          "readingTime": "3 min",
+          "explanation": "Qalqalah (قَلْقَلَة) literally means 'shaking, disturbance, or echoing'. In Tajweed, it is the echoing vibration or bounce produced when one of the 5 Qalqalah letters carries a Sukoon (ْ). Because these letters have complete closure of their articulation point (Shiddah), releasing them with Sukoon produces a natural resonant bounce without adding a vowel.",
+          "keyPoints": [
+            "Qalqalah = An echoing bounce on a silent letter.",
+            "Only happens when the letter has a Sukoon (ْ).",
+            "Do NOT add a Fat-hah, Kasrah, or Dammah to the bounce.",
+            "The 5 letters are grouped in the mnemonic: قُطْبُ جَدٍّ (Qutb Jad)."
+          ],
+          "audio": {
+            "arabicText": "قُطْبُ جَدٍّ - قْ طْ بْ جْ دْ",
+            "phonetic": "Qutb Jad: Qaf, Ta, Ba, Jim, Dal",
+            "description": "Listen to the 5 Qalqalah letters with their characteristic bounce."
+          },
+          "examples": [
+            {
+              "arabic": "قُطْبُ جَدٍّ",
+              "label": "Mnemonic",
+              "sound": "Qaf (ق), Ta (ط), Ba (ب), Jim (ج), Dal (د)"
+            }
+          ],
+          "practice": "Recite: أَقْ , أَطْ , أَبْ , أَجْ , أَدْ and feel the clean echoing release.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which mnemonic phrase combines all 5 letters of Qalqalah?",
+            "options": [
+              "يَرْمَلُون (Yarmaloon)",
+              "قُطْبُ جَدٍّ (Qutb Jad: ق , ط , ب , ج , د)",
+              "أَخِي هَاكَ عِلْمًا",
+              "خُصَّ ضَغْطٍ قِظْ"
+            ],
+            "correctAnswer": 1,
+            "explanation": "قُطْبُ جَدٍّ (Qaf, Ta, Ba, Jim, Dal) combines the 5 Qalqalah letters."
+          }
+        },
+        {
+          "id": "tajweed-ch7-l2",
+          "number": 2,
+          "title": "The 5 Qalqalah Letters in Detail",
+          "subtitle": "Qaf, Ta, Ba, Jim, Dal and their articulation",
+          "readingTime": "3 min",
+          "explanation": "1) Qaf (قْ): Deepest tongue bounce (heavy/thick). 2) Ta (طْ): Tongue tip to upper gum bounce (heavy/thick). 3) Ba (بْ): Lip closure release bounce. 4) Jim (جْ): Middle tongue release bounce. 5) Dal (دْ): Tongue tip release bounce (light/crisp).",
+          "keyPoints": [
+            "ق and ط are heavy Qalqalah letters.",
+            "ب , ج , and د are light Qalqalah letters.",
+            "Keep the bounce crisp, quick, and natural."
+          ],
+          "audio": {
+            "arabicText": "خَلَقْنَاهُ - نُطْفَةٍ - حَبْلِ - يَجْعَلْ - قَدْ",
+            "phonetic": "Khalaqnaahu | Nutfatin | Habli | Yaj'al | Qad",
+            "description": "Listen to each of the 5 letters inside words."
+          },
+          "examples": [
+            {
+              "arabic": "خَلَقْنَا",
+              "label": "Qaf Sukoon",
+              "sound": "Khalaq-naa (heavy bounce on Qaf)"
+            },
+            {
+              "arabic": "قَدْ سَمِعَ",
+              "label": "Dal Sukoon",
+              "sound": "Qad sami'a (light bounce on Dal)"
+            }
+          ],
+          "practice": "Recite 'يَجْعَلْ كَيْدَهُمْ' with a clean middle-tongue bounce on 'جْ'.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which of the following letters is NOT a Qalqalah letter?",
+            "options": [
+              "Ba (ب)",
+              "Kaf (ك)",
+              "Jim (ج)",
+              "Dal (د)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Kaf (ك) is not a Qalqalah letter (the 5 are ق ط ب ج د)."
+          }
+        },
+        {
+          "id": "tajweed-ch7-l3",
+          "number": 3,
+          "title": "Minor Qalqalah (Qalqalah Sughra)",
+          "subtitle": "In the middle of a word or continuous reading",
+          "readingTime": "3 min",
+          "explanation": "Qalqalah Sughra (Minor / Light Echo) occurs when a Qalqalah letter carries a Sukoon in the MIDDLE of a word or sentence without stopping on it. The bounce is light and quick so that it does not disrupt the rhythm of reading.",
+          "keyPoints": [
+            "Occurs in the middle of a word or connected speech.",
+            "The bounce is quick and subtle.",
+            "Examples: يَطْمَعُ (Yat-ma'u), أَبْصَارِهِمْ (Ab-saarihim), يَدْعُونَ (Yad-'oona)."
+          ],
+          "audio": {
+            "arabicText": "يَطْمَعُ - أَبْصَارِهِمْ - يَدْعُونَ - يَجْعَلُونَ",
+            "phonetic": "Yat-ma'u | Ab-saarihim | Yad-'oona | Yaj-'aloona",
+            "description": "Listen to the light, quick bounce of Qalqalah Sughra in mid-word."
+          },
+          "examples": [
+            {
+              "arabic": "يَطْمَعُ",
+              "label": "Middle Ta",
+              "sound": "Yat-ma'u (quick bounce)"
+            },
+            {
+              "arabic": "أَبْصَارِهِمْ",
+              "label": "Middle Ba",
+              "sound": "Ab-saarihim (quick bounce)"
+            }
+          ],
+          "practice": "Recite 'فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ' with minor bounce on 'حَبْلٌ'.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "When does Qalqalah Sughra (Minor Qalqalah) occur?",
+            "options": [
+              "When stopping at the end of a verse",
+              "In the middle of a word or during continuous recitation",
+              "Only on letters with Shaddah",
+              "When reciting Surah Al-Fatihah only"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Qalqalah Sughra occurs in the middle of a word or during continuous speech."
+          }
+        },
+        {
+          "id": "tajweed-ch7-l4",
+          "number": 4,
+          "title": "Major Qalqalah (Qalqalah Kubra & Akbar)",
+          "subtitle": "Stopping at the end of a word on a Qalqalah letter",
+          "readingTime": "4 min",
+          "explanation": "Qalqalah Kubra (Major / Strong Echo) occurs when you STOP at the end of a word on a Qalqalah letter (e.g. قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ -> الْفَلَقْ). When the letter has a Shaddah at the stop (e.g. وَتَبَّ -> وَتَبّْ), it is the strongest level (Qalqalah Akbar).",
+          "keyPoints": [
+            "Qalqalah Kubra: Stopping on a Qalqalah letter at word end (e.g. الْفَلَقْ , كَسَبْ , أَحَدْ).",
+            "Qalqalah Akbar: Stopping on a letter with Shaddah (e.g. وَتَبَّ , بِالْحَقِّ).",
+            "The echo is pronounced with clarity and strength."
+          ],
+          "audio": {
+            "arabicText": "قُلْ هُوَ اللَّهُ أَحَدٌ - اللَّهُ الصَّمَدُ - لَمْ يَلِدْ وَلَمْ يُولَدْ - وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+            "phonetic": "Complete Surah Al-Ikhlas with Major Qalqalah stops",
+            "description": "Listen to Surah Al-Ikhlas demonstrating powerful Major Qalqalah on every verse ending."
+          },
+          "examples": [
+            {
+              "arabic": "أَحَدٌ (stop: أَحَدْ)",
+              "label": "Dal Qalqalah Kubra",
+              "sound": "Ahad (strong echoing Dal)"
+            },
+            {
+              "arabic": "الْفَلَقِ (stop: الْفَلَقْ)",
+              "label": "Qaf Qalqalah Kubra",
+              "sound": "Al-Falaq (strong echoing Qaf)"
+            },
+            {
+              "arabic": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
+              "label": "Ba with Shaddah",
+              "sound": "Wa-tabb (strongest Qalqalah Akbar)"
+            }
+          ],
+          "practice": "Recite Surah Al-Ikhlas, giving a strong, resonant Qalqalah to: أَحَدْ , الصَّمَدْ , يَلِدْ , يُولَدْ , أَحَدْ.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "In Surah Al-Ikhlas, what rule is applied to the letter Dal when stopping on 'قُلْ هُوَ اللَّهُ أَحَدْ'?",
+            "options": [
+              "Izhar Halqi",
+              "Qalqalah Kubra (Major Echoing)",
+              "Idgham",
+              "Madd Lazim"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Stopping on 'أَحَدْ' creates Qalqalah Kubra (Major Qalqalah) on the letter Dal."
+          }
+        },
+        {
+          "id": "tajweed-ch7-l5",
+          "number": 5,
+          "title": "Chapter 7 Review & Qalqalah Listening Challenge",
+          "subtitle": "Mastering the echo across Surah Al-Falaq and Surah Al-Ikhlas",
+          "readingTime": "3 min",
+          "explanation": "Qalqalah brings energy and acoustic clarity to silent letters. Master the 5 letters (ق ط ب ج د), use minor bounce in mid-words, and deliver a powerful clear echo when stopping at verse ends.",
+          "keyPoints": [
+            "5 Letters: ق ط ب ج د (Qutb Jad).",
+            "Minor in middle of words (يَطْمَعُ).",
+            "Major when stopping at ends of words (الْفَلَقْ).",
+            "Never add a vowel sound to the bounce."
+          ],
+          "audio": {
+            "arabicText": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ - مِن شَرِّ مَا خَلَقَ - وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ - وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ - وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+            "phonetic": "Complete Surah Al-Falaq",
+            "description": "Listen to Surah Al-Falaq with Qalqalah on every single verse end."
+          },
+          "examples": [
+            {
+              "arabic": "خَلَقَ (stop: خَلَقْ)",
+              "label": "Qaf bounce",
+              "sound": "Khalaq"
+            },
+            {
+              "arabic": "وَقَبَ (stop: وَقَبْ)",
+              "label": "Ba bounce",
+              "sound": "Waqab"
+            },
+            {
+              "arabic": "الْعُقَدِ (stop: الْعُقَدْ)",
+              "label": "Dal bounce",
+              "sound": "Al-'Uqad"
+            }
+          ],
+          "practice": "Recite Surah Al-Falaq and ensure all 5 verse endings have a crisp, resonant Qalqalah.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which of the following words contains Qalqalah when read continuously?",
+            "options": [
+              "الْحَمْدُ",
+              "يَجْعَلُونَ (Yaj'aloona)",
+              "كِتَابٌ",
+              "سَمِيعٌ"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'يَجْعَلُونَ' contains a silent Jim (جْ) in the middle of the word, triggering Qalqalah Sughra."
+          }
+        }
+      ],
+      "aliases": [
+        "lesson-7",
+        "tajweed-ch7",
+        "tajweed-ch6"
+      ]
+    },
+    {
+      "id": "lesson-8",
+      "number": 7,
+      "title": "Ahkam Al-Tafkhim & Al-Tarqiq: Heaviness & Lightness (أحكام التفخيم والترقيق)",
+      "subtitle": "The 7 heavy letters (خ ص ض غ ط ق ظ) and conditioned rules for Ra and Lam of Jalalah",
+      "readingTime": "20 min",
+      "videoLesson": {
+        "title": "Heavy & Light Letters (Tafkhim & Tarqiq)",
+        "channel": "Arabic 101",
+        "duration": "15:10",
+        "videoId": "A0lHGbe0K-M",
+        "watchUrl": "https://www.youtube.com/watch?v=A0lHGbe0K-M",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/A0lHGbe0K-M",
+        "url": "https://www.youtube-nocookie.com/embed/A0lHGbe0K-M",
+        "alternativeSource": "https://quran.com",
+        "sourceName": "Quran.com — Tafkhim & Tarqiq Guide",
+        "badge": "Verified Reference Video"
+      },
+      "summary": "Understand mouth posture, full-mouth elevation (Tafkhim), flat-mouth softness (Tarqiq), and the conditions for Ra and the Name of Allah.",
+      "smallLessons": [
+        {
+          "id": "tajweed-ch8-l1",
+          "number": 1,
+          "title": "What Are Tafkhim and Tarqiq?",
+          "subtitle": "Full-mouth heaviness vs flat-mouth lightness",
+          "readingTime": "3 min",
+          "explanation": "Tafkhim (تَفْخِيم) means 'to make heavy or thick'—the back of the tongue elevates towards the roof of the mouth, filling the oral cavity with an echo (sounding like 'O' rather than 'A'). Tarqiq (تَرْقِيق) means 'to make light or thin'—the tongue stays relaxed/flat, producing a bright, smiling 'A' sound.",
+          "keyPoints": [
+            "Tafkhim = Heavy, full-mouth sound (elevated back of tongue).",
+            "Tarqiq = Light, flat-mouth sound (smiling posture).",
+            "Never pronounce light letters heavily (e.g. do not say 'Saa' for س).",
+            "Never pronounce heavy letters lightly (e.g. do not say 'S' for ص)."
+          ],
+          "audio": {
+            "arabicText": "سَ vs صَ - تَ vs طَ - دَ vs ضَ - كَ vs قَ",
+            "phonetic": "Sa vs Saa | Ta vs Taa | Da vs Daa | Ka vs Qaa",
+            "description": "Listen to the stark contrast between light and heavy letter pairs."
+          },
+          "examples": [
+            {
+              "arabic": "سَ (Light) vs صَ (Heavy)",
+              "label": "Sin vs Sad",
+              "sound": "Sin is light/smiling; Sad is thick/full-mouth"
+            },
+            {
+              "arabic": "تَ (Light) vs طَ (Heavy)",
+              "label": "Ta vs Taa",
+              "sound": "Ta is soft/dental; Taa is thick/elevated"
+            }
+          ],
+          "practice": "Contrast: 'سَارَ' (Saara - he walked) vs 'صَارَ' (Saara - he became). Notice how heaviness changes word meaning!",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What physical tongue movement creates the heavy (Tafkhim) sound in Arabic?",
+            "options": [
+              "Sticking the tongue out past the lips",
+              "Elevating the back of the tongue toward the palate to create a full-mouth acoustic chamber",
+              "Closing the lips tightly",
+              "Holding the breath for 3 seconds"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Elevating the back of the tongue toward the upper palate creates the full-mouth resonant chamber characteristic of Tafkhim."
+          }
+        },
+        {
+          "id": "tajweed-ch8-l2",
+          "number": 2,
+          "title": "The 7 Always-Heavy Letters",
+          "subtitle": "Khussa Daghtin Qiz (خُصَّ ضَغْطٍ قِظْ)",
+          "readingTime": "3 min",
+          "explanation": "There are 7 letters that are ALWAYS heavy (Tafkhim) regardless of their vowel mark. They are grouped in the mnemonic: خُصَّ ضَغْطٍ قِظْ (Kha, Sad, Dad, Ghayn, Ta, Qaf, Zha: خ , ص , ض , غ , ط , ق , ظ). Among these, the 4 strongest are the 'Istila + Itbaq' letters: ص , ض , ط , ظ.",
+          "keyPoints": [
+            "The 7 heavy letters: خ , ص , ض , غ , ط , ق , ظ.",
+            "Grouped as: خُصَّ ضَغْطٍ قِظْ (Khussa Daghtin Qiz).",
+            "They remain heavy with Fat-hah, Dammah, Kasrah, and Sukoon.",
+            "Strongest heaviness is with Fat-hah followed by Alif (e.g. خَالِدِينَ)."
+          ],
+          "audio": {
+            "arabicText": "خَالِدِينَ - الصَّابِرِينَ - ضَالِّينَ - غَافِرِ - طَالُوتَ - قَالَ - ظَالِمِينَ",
+            "phonetic": "Khaalideen, As-Saabireen, Daalleen, Ghaafir, Taaloot, Qaala, Zhaalimeen",
+            "description": "Listen to the 7 always-heavy letters recited with full resonance."
+          },
+          "examples": [
+            {
+              "arabic": "طَالُوتَ",
+              "label": "Letter Ta (ط)",
+              "sound": "Taa-loot (deepest heavy letter)"
+            },
+            {
+              "arabic": "الصِّرَاطَ",
+              "label": "Letter Sad (ص) & Ta (ط)",
+              "sound": "As-Siraat (both are heavy)"
+            }
+          ],
+          "practice": "Recite 'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ' keeping 'ص' and 'ط' heavy, but 'مُسْتَ' completely light.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which of the following letters is ALWAYS pronounced with heaviness (Tafkhim)?",
+            "options": [
+              "Ba (ب)",
+              "Sad (ص)",
+              "Sin (س)",
+              "Dal (د)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Sad (ص) is one of the 7 always-heavy letters (خ ص ض غ ط ق ظ)."
+          }
+        },
+        {
+          "id": "tajweed-ch8-l3",
+          "number": 3,
+          "title": "The Special Rule for Letter Alif (ا)",
+          "subtitle": "Following the heaviness or lightness of the preceding letter",
+          "readingTime": "3 min",
+          "explanation": "The letter Alif (ا) has no independent heaviness or lightness of its own. It acts like an acoustic mirror: if the letter before it is heavy, the Alif is heavy (e.g. قَالَ 'Qaa-la'); if the letter before it is light, the Alif is light (e.g. كَانَ 'Kaa-na').",
+          "keyPoints": [
+            "Alif follows the preceding letter.",
+            "After heavy letter -> Heavy Alif (e.g. صَابِرِينَ , غَاسِقٍ).",
+            "After light letter -> Light Alif (e.g. تَائِبُونَ , جَاءَ)."
+          ],
+          "audio": {
+            "arabicText": "قَالَ (Heavy) vs كَانَ (Light) - صَابِرِينَ (Heavy) vs سَائِلِينَ (Light)",
+            "phonetic": "Qaala vs Kaana | Saabireen vs Saa'ileen",
+            "description": "Listen to how Alif mirrors the heavy vs light preceding consonant."
+          },
+          "examples": [
+            {
+              "arabic": "قَالَ",
+              "label": "Heavy Alif",
+              "sound": "Qaa-la (Alif fills the mouth)"
+            },
+            {
+              "arabic": "كَانَ",
+              "label": "Light Alif",
+              "sound": "Kaa-na (Alif is smiling and flat)"
+            }
+          ],
+          "practice": "Contrast: 'قَالَ' (Heavy Alif) with 'كَانَ' (Light Alif).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "How is the heaviness or lightness of the letter Alif (ا) determined?",
+            "options": [
+              "Alif is always heavy",
+              "Alif is always light",
+              "Alif follows the heavy/light state of the letter BEFORE it",
+              "Alif follows the letter AFTER it"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Alif mirrors the preceding letter: heavy after heavy letters, light after light letters."
+          }
+        },
+        {
+          "id": "tajweed-ch8-l4",
+          "number": 4,
+          "title": "The Name of Allah (Lafz al-Jalalah)",
+          "subtitle": "When the Lam in 'Allah' is heavy vs light",
+          "readingTime": "3 min",
+          "explanation": "Normally, the letter Lam (ل) is light. However, in the Name of Allah (اللَّه / اللَّهُمَّ), the Lam has a special rule: 1) Heavy Lam: If preceded by Fat-hah (َ) or Dammah (ُ) (e.g. قُلْ هُوَ اللَّهُ , شَهِدَ اللَّهُ). 2) Light Lam: If preceded by Kasrah (ِ) (e.g. بِسْمِ اللَّهِ , قُلِ اللَّهُمَّ).",
+          "keyPoints": [
+            "After Fat-hah -> Heavy Lam (قَالَ اللَّهُ 'Qaalallahu').",
+            "After Dammah -> Heavy Lam (عَبْدُ اللَّهِ 'Abdullahi').",
+            "After Kasrah -> Light Lam (بِسْمِ اللَّهِ 'Bismillahi')."
+          ],
+          "audio": {
+            "arabicText": "بِسْمِ اللَّهِ (Light) - هُوَ اللَّهُ (Heavy) - رَسُولُ اللَّهِ (Heavy)",
+            "phonetic": "Bismillahi (Light) | Huwa-llaahu (Heavy) | Rasoolu-llaahi (Heavy)",
+            "description": "Listen to the Name of Allah with light Lam (after Kasrah) vs heavy Lam."
+          },
+          "examples": [
+            {
+              "arabic": "بِسْمِ اللَّهِ",
+              "label": "Light Lam",
+              "sound": "Bismillahi (Kasrah on Meem makes Lam light)"
+            },
+            {
+              "arabic": "هُوَ اللَّهُ",
+              "label": "Heavy Lam",
+              "sound": "Huwallahu (Fat-hah on Waw makes Lam heavy)"
+            }
+          ],
+          "practice": "Recite: 'بِسْمِ اللَّهِ' (Light) and 'قُلْ هُوَ اللَّهُ' (Heavy).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "In the phrase 'بِسْمِ اللَّهِ' (Bismillah), is the Lam in the Name of Allah heavy or light?",
+            "options": [
+              "Heavy (Tafkhim)",
+              "Light (Tarqiq, because it is preceded by a Kasrah on the Meem)",
+              "Silent",
+              "Elongated for 6 counts"
+            ],
+            "correctAnswer": 1,
+            "explanation": "In 'بِسْمِ اللَّهِ', the Lam is light (Tarqiq) because the preceding letter carries a Kasrah (بِسْمِ)."
+          }
+        },
+        {
+          "id": "tajweed-ch8-l5",
+          "number": 5,
+          "title": "The Rules of Letter Ra (ر)",
+          "subtitle": "When Ra is heavy vs when Ra is light",
+          "readingTime": "4 min",
+          "explanation": "The letter Ra (ر) alternates between heavy and light: 1) Heavy Ra (Tafkhim): When Ra has Fat-hah (رَ), Dammah (رُ), or Sukoon preceded by Fat-hah/Dammah (e.g. رَبَّنَا , قُرْآن , مَرْيَم). 2) Light Ra (Tarqiq): When Ra has Kasrah (رِ) or Sukoon preceded by an original Kasrah (e.g. رِزْقًا , فِرْعَوْن).",
+          "keyPoints": [
+            "Heavy Ra: With Fat-hah (رَ), Dammah (رُ), or Sukoon after Fat-hah/Dammah.",
+            "Light Ra: With Kasrah (رِ) or Sukoon after original Kasrah.",
+            "Example Heavy: رَبِّ الْعَالَمِينَ (Rabbi).",
+            "Example Light: رِزْقًا (Rizqan), فِرْعَوْنَ (Fir'awn)."
+          ],
+          "audio": {
+            "arabicText": "رَبِّنَا (Heavy) - رِزْقًا (Light) - قُرْآن (Heavy) - فِرْعَوْن (Light)",
+            "phonetic": "Rabbana (Heavy) | Rizqan (Light) | Qur'an (Heavy) | Fir'awn (Light)",
+            "description": "Listen to the clear shift between heavy and light Ra."
+          },
+          "examples": [
+            {
+              "arabic": "رَبَّنَا",
+              "label": "Heavy Ra",
+              "sound": "Rabbana (Fat-hah on Ra)"
+            },
+            {
+              "arabic": "فِرْعَوْنَ",
+              "label": "Light Ra",
+              "sound": "Fir'awn (Sukoon after Kasrah)"
+            }
+          ],
+          "practice": "Recite 'الرَّحْمَٰنِ الرَّحِيمِ' noting both Ra letters are heavy with Fat-hah.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "In the word 'فِرْعَوْنَ' (Fir'awn), is the letter Ra heavy or light?",
+            "options": [
+              "Heavy",
+              "Light (because the Ra carries a Sukoon preceded by a Kasrah)",
+              "It alternates",
+              "Qalqalah"
+            ],
+            "correctAnswer": 1,
+            "explanation": "In 'فِرْعَوْنَ', the Ra has a Sukoon preceded by a Kasrah on the Fa, making it light (Tarqiq)."
+          }
+        },
+        {
+          "id": "tajweed-ch8-l6",
+          "number": 6,
+          "title": "Chapter 8 Review & Heaviness Mastery Challenge",
+          "subtitle": "Summary of Tafkhim and Tarqiq across all letters",
+          "readingTime": "3 min",
+          "explanation": "Mastering Tafkhim and Tarqiq gives your recitation its dignified, authoritative Arabic beauty. Keep the 7 letters (خ ص ض غ ط ق ظ) heavy, control the Name of Allah based on preceding vowel, and apply Ra rules with precision.",
+          "keyPoints": [
+            "Always Heavy: خ ص ض غ ط ق ظ (Khussa Daghtin Qiz).",
+            "Name of Allah: Heavy after Fat-hah/Dammah; Light after Kasrah.",
+            "Ra: Heavy with Fat-hah/Dammah; Light with Kasrah."
+          ],
+          "audio": {
+            "arabicText": "إِنَّ رَبَّكَ لَبِالْمِرْصَادِ",
+            "phonetic": "Inna Rabbaka labi-l-Mirsaad",
+            "description": "Listen to heavy Ra and heavy Sad in Surah Al-Fajr."
+          },
+          "examples": [
+            {
+              "arabic": "مِرْصَاد",
+              "label": "Heavy Ra exception",
+              "sound": "Mirsaad (Ra before heavy letter Sad becomes heavy)"
+            }
+          ],
+          "practice": "Recite Surah Al-Fatihah paying special attention to: الصِّرَاطَ , غَيْرِ , الضَّالِّينَ.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "How many letters in the Arabic alphabet are ALWAYS pronounced with heaviness (Tafkhim)?",
+            "options": [
+              "3 letters",
+              "7 letters (خ ص ض غ ط ق ظ)",
+              "10 letters",
+              "All 28 letters"
+            ],
+            "correctAnswer": 1,
+            "explanation": "There are 7 always-heavy letters combined in the phrase خُصَّ ضَغْطٍ قِظْ."
+          }
+        }
+      ],
+      "aliases": [
+        "lesson-8",
+        "tajweed-ch8",
+        "tajweed-ch7"
+      ]
+    },
+    {
+      "id": "lesson-9",
+      "number": 8,
+      "title": "Ahkam Al-Waqf & Al-Ibtida: Stopping & Starting (أحكام الوقف والابتداء)",
+      "subtitle": "Where to pause, where to continue, types of stops, and Qur'anic punctuation symbols",
+      "readingTime": "18 min",
+      "videoLesson": {
+        "title": "One Pause Can Flip the Meaning: The 4 Types of Optional Waqf",
+        "channel": "Arabic 101",
+        "duration": "13:45",
+        "videoId": "KIwOl-djFJE",
+        "watchUrl": "https://www.youtube.com/watch?v=KIwOl-djFJE",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/KIwOl-djFJE",
+        "url": "https://www.youtube-nocookie.com/embed/KIwOl-djFJE",
+        "alternativeSource": "https://quran.com",
+        "sourceName": "Quran.com — Rules of Waqf & Stopping Signs",
+        "badge": "Verified Reference Video"
+      },
+      "summary": "Master the rules of stopping safely (Waqf) and resuming recitation (Ibtida) without altering divine meaning.",
+      "smallLessons": [
+        {
+          "id": "tajweed-ch9-l1",
+          "number": 1,
+          "title": "Meaning & Importance of Waqf",
+          "subtitle": "Safeguarding meaning through proper pausing",
+          "readingTime": "3 min",
+          "explanation": "Waqf (وَقْف) means 'to stop or pause' recitation by cutting off the voice at the end of a word for the duration of taking a natural breath, with the intention of continuing recitation. Ali ibn Abi Talib (RA) said: 'Tajweed is the correct articulation of letters and the knowledge of stopping points (Waqf).'",
+          "keyPoints": [
+            "Waqf = Stopping on a word while taking a natural breath.",
+            "When stopping, the final vowel turns into a Sukoon (resting stop).",
+            "Tanween Fat-hah (ً) turns into an Alif (2-count Madd 'Iwad: عَلِيمًا -> عَلِيمَا).",
+            "Stopping at the right place protects the meaning of the verse."
+          ],
+          "audio": {
+            "arabicText": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (Stop: الْعَالَمِينْ)",
+            "phonetic": "Al-hamdu lillahi Rabbi-l-'Aalameen (Stop)",
+            "description": "Listen to how final vowels turn into Sukoon upon stopping."
+          },
+          "examples": [
+            {
+              "arabic": "رَحِيمٌ (stop: رَحِيمْ)",
+              "label": "Tanween Dammah stop",
+              "sound": "Raheem (ends in Sukoon)"
+            },
+            {
+              "arabic": "غَفُورًا (stop: غَفُورَا)",
+              "label": "Tanween Fat-hah stop",
+              "sound": "Ghafoora (ends in 2-count Alif)"
+            }
+          ],
+          "practice": "Practice stopping on: 'كِتَابٌ' -> 'كِتَابْ' and 'عَلِيمًا' -> 'عَلِيمَا'.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "When stopping at the end of a word ending in Tanween Fat-hah (e.g. عَلِيمًا), how is it pronounced?",
+            "options": [
+              "With a normal Sukoon on the M (عَلِيمْ)",
+              "With an elongated 2-count Alif sound (عَلِيمَا - Madd 'Iwad)",
+              "With a double 'N' sound",
+              "It is forbidden to stop on Tanween Fat-hah"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Stopping on Tanween Fat-hah converts the 'an' sound into a 2-count Alif (Madd 'Iwad: عَلِيمَا)."
+          }
+        },
+        {
+          "id": "tajweed-ch9-l2",
+          "number": 2,
+          "title": "Qur'anic Stop Signs & Symbols",
+          "subtitle": "مـ , قلى , صلى , ج , لا explained",
+          "readingTime": "4 min",
+          "explanation": "The Mushaf contains standardized symbol marks above words: 1) (مـ) Mandatory Stop (Waqf Lazim): Must stop to avoid corrupting meaning. 2) (قلى) Better to Stop (Al-Waqfu Awla). 3) (ج) Permissible Stop (Waqf Ja'iz): Equal to stop or continue. 4) (صلى) Better to Continue (Al-Waslu Awla). 5) (لا) Do Not Stop (Waqf Mamnu'): Do not stop here mid-sentence!",
+          "keyPoints": [
+            "(مـ): Compulsory Stop (Waqf Lazim).",
+            "(قلى): Preferred to Stop.",
+            "(ج): Equal Choice (Stop or Continue).",
+            "(صلى): Preferred to Continue.",
+            "(لا): Do Not Stop (unless at full verse end)."
+          ],
+          "audio": {
+            "arabicText": "إِنَّمَا يَسْتَجِيبُ الَّذِينَ يَسْمَعُونَ ۘ وَالْمَوْتَىٰ يَبْعَثُهُمُ اللَّهُ",
+            "phonetic": "Demonstrating the compulsory stop (مـ) between living and deceased",
+            "description": "Listen to why stopping at (مـ) is critical to preserve theology."
+          },
+          "examples": [
+            {
+              "arabic": "قلى",
+              "label": "Better to Stop",
+              "sound": "Pausing is preferred"
+            },
+            {
+              "arabic": "صلى",
+              "label": "Better to Continue",
+              "sound": "Continuing is preferred"
+            }
+          ],
+          "practice": "Look through Surah Al-Baqarah and identify (قلى), (صلى), and (ج) marks.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What does the symbol (قلى) above a Qur'anic word indicate?",
+            "options": [
+              "Forbidden to stop",
+              "Stopping is preferred (Al-Waqfu Awla)",
+              "Mandatory elongation for 6 counts",
+              "Idgham without Ghunnah"
+            ],
+            "correctAnswer": 1,
+            "explanation": "(قلى) stands for 'Al-Waqfu Awla', meaning stopping is better and preferred."
+          }
+        },
+        {
+          "id": "tajweed-ch9-l3",
+          "number": 3,
+          "title": "Resuming Recitation (Ibtida)",
+          "subtitle": "Starting properly after taking a breath",
+          "readingTime": "3 min",
+          "explanation": "When you run out of breath and stop mid-verse, you cannot simply start from any random next word. You must resume (Ibtida) from a word that forms a complete, correct meaning—often by backing up 1 or 2 words to make the sentence grammatically whole.",
+          "keyPoints": [
+            "Good Start (Ibtida Hasan): Starting from a meaningful sentence.",
+            "Bad Start (Ibtida Qabeeh): Starting in a way that creates a blasphemous or contradictory meaning.",
+            "If stopped mid-verse for breath, back up 1-2 words to resume smoothly."
+          ],
+          "audio": {
+            "arabicText": "رَبَّنَا تَقَبَّلْ مِنَّا ۖ إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ",
+            "phonetic": "Rabbana taqabbal minnaa / Innaka Anta-s-Samee'u-l-'Aleem",
+            "description": "Listen to proper breath pause and smooth resumption."
+          },
+          "examples": [
+            {
+              "arabic": "إِنَّ اللَّهَ لَا يَسْتَحْيِي",
+              "label": "Caution",
+              "sound": "Never stop on 'La yastahyi' (Allah does not shy away) without completing 'an yadriba mathalan'!"
+            }
+          ],
+          "practice": "Practice pausing on 'رَبَّنَا تَقَبَّلْ مِنَّا' and resuming with 'إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ'.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "If you run out of breath in the middle of a long verse, what is the correct Tajweed practice?",
+            "options": [
+              "Continue silently without breath",
+              "Stop on the word, take a breath, and back up a word or two to resume with a complete meaning",
+              "Restart the entire Surah from verse 1",
+              "Skip the rest of the verse"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Stop naturally, take a breath, and back up 1-2 words to resume with a complete, coherent meaning."
+          }
+        },
+        {
+          "id": "tajweed-ch9-l4",
+          "number": 4,
+          "title": "The Female 'Ta' Stop (Ta Marbootah ة)",
+          "subtitle": "Converting Ta Marbootah into Ha (هـ)",
+          "readingTime": "3 min",
+          "explanation": "When stopping on a word ending in Ta Marbootah (ة / ـة), it is ALWAYS pronounced as a silent Ha with Sukoon (هْ), regardless of whether it has Fat-hah, Kasrah, Dammah, or Tanween! (e.g. الْجَنَّةُ -> الْجَنَّهْ 'Al-Jannah', الصَّلَاةَ -> الصَّلَاهْ 'As-Salah').",
+          "keyPoints": [
+            "Ta Marbootah (ة / ـة) turns into Ha (هْ) upon stopping.",
+            "When continuing in connected speech, it sounds like normal 'T'.",
+            "Example: الْقَارِعَةُ (Stop: الْقَارِعَهْ 'Al-Qari'ah')."
+          ],
+          "audio": {
+            "arabicText": "الْقَارِعَةُ (Stop: الْقَارِعَهْ) - مَا الْقَارِعَةُ",
+            "phonetic": "Al-Qari'ah | Ma-l-Qari'ah",
+            "description": "Listen to the Ta Marbootah turning into soft Ha at verse stops."
+          },
+          "examples": [
+            {
+              "arabic": "الْقَارِعَةُ",
+              "label": "Stop",
+              "sound": "Al-Qari'ah (soft Ha)"
+            },
+            {
+              "arabic": "الْقَارِعَةُ مَا الْقَارِعَةُ",
+              "label": "Continuous",
+              "sound": "Al-Qari'atu ma-l-Qari'ah (sounds as T in continuous speech)"
+            }
+          ],
+          "practice": "Recite Surah Al-Qari'ah verses 1-3, stopping on each verse with soft 'Ha'.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "When stopping at the end of a word ending in Ta Marbootah (ة), how is it pronounced?",
+            "options": [
+              "As a crisp 'T' sound",
+              "As a soft 'H' sound with Sukoon (هْ)",
+              "As an elongated 'Ah' for 6 counts",
+              "As a nasal Meem"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Ta Marbootah (ة) always converts to a soft Ha with Sukoon (هْ) when stopping."
+          }
+        },
+        {
+          "id": "tajweed-ch9-l5",
+          "number": 5,
+          "title": "Chapter 9 Review & Stopping Challenge",
+          "subtitle": "Mastering stopping and starting across Surah Al-Qadr",
+          "readingTime": "3 min",
+          "explanation": "Waqf is the punctuation of the Qur'an. Master converting vowels to Sukoon, Tanween Fat-hah to Madd 'Iwad (Alif), Ta Marbootah to Ha, and respect the Mushaf stop signs.",
+          "keyPoints": [
+            "Vowels -> Sukoon at stops.",
+            "Tanween Fat-hah (ً) -> 2-count Alif (Madd 'Iwad).",
+            "Ta Marbootah (ة) -> Soft Ha (هْ).",
+            "Respect stop signs: مـ (Must), قلى (Better), صلى (Continue)."
+          ],
+          "audio": {
+            "arabicText": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ - وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ - لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
+            "phonetic": "Surah Al-Qadr verses 1-3",
+            "description": "Listen to Surah Al-Qadr demonstrating proper stops on 'Al-Qadr' and 'Shahr'."
+          },
+          "examples": [
+            {
+              "arabic": "الْقَدْرِ (stop)",
+              "label": "Waqf with Sukoon",
+              "sound": "Al-Qadr (silent Dal bounce + silent Ra)"
+            }
+          ],
+          "practice": "Recite Surah Al-Qadr from start to finish observing all stopping rules.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What does the stop sign (مـ) indicate in the Holy Qur'an?",
+            "options": [
+              "Optional stop",
+              "Compulsory Stop (Waqf Lazim) to preserve meaning",
+              "Do not stop",
+              "Idgham Shafawi"
+            ],
+            "correctAnswer": 1,
+            "explanation": "(مـ) represents Waqf Lazim, a compulsory stop to prevent blending unrelated meanings."
+          }
+        }
+      ],
+      "aliases": [
+        "lesson-9",
+        "tajweed-ch9",
+        "tajweed-ch8"
+      ]
+    },
+    {
+      "id": "lesson-11",
+      "number": 9,
+      "title": "Applied Tajweed Practice (تطبيق أحكام التجويد عملياً)",
+      "subtitle": "Verse-by-verse rule application across Surah Al-Fatihah, Al-Ikhlas, and Al-Falaq",
+      "readingTime": "20 min",
+      "videoLesson": {
+        "title": "Practice 95% of Tajweed Rules with ONE SINGLE Aya",
+        "channel": "Arabic 101",
+        "duration": "21:30",
+        "videoId": "BfsRbY3F7IE",
+        "watchUrl": "https://www.youtube.com/watch?v=BfsRbY3F7IE",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/BfsRbY3F7IE",
+        "url": "https://www.youtube-nocookie.com/embed/BfsRbY3F7IE",
+        "alternativeSource": "https://quran.com",
+        "sourceName": "Quran.com — Guided Verses Recitation",
+        "badge": "Verified Reference Video"
+      },
+      "summary": "Apply every Tajweed rule learned so far to complete Surahs with slow, measured audio guidance.",
+      "smallLessons": [
+        {
+          "id": "tajweed-ch11-l1",
+          "number": 1,
+          "title": "Surah Al-Fatihah: Verses 1 to 4",
+          "subtitle": "Basmalah, Ar-Rahman, and Malik",
+          "readingTime": "4 min",
+          "explanation": "Surah Al-Fatihah is the greatest chapter in the Qur'an and an essential pillar of daily Salah. Let us analyze verses 1-4: 1) بِسْمِ اللَّهِ (Light Lam in Allah). 2) الرَّحْمَٰنِ الرَّحِيمِ (Heavy Ra, clear mid-throat Ha, Madd 'Arid at stop). 3) الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (Clear Ha, heavy Ra, 2-count Madd). 4) مَالِكِ يَوْمِ الدِّينِ (2-count Madd on Ma, crisp Kasrah on li-ki).",
+          "keyPoints": [
+            "Verse 1: Basmalah with light Lam.",
+            "Verse 2: Clear 'ح' in Al-Hamdu.",
+            "Verse 3: Heavy 'ر' in Ar-Rahman & Ar-Raheem.",
+            "Verse 4: 2 counts on 'Maa' in Maliki."
+          ],
+          "audio": {
+            "arabicText": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ (١) الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (٢) الرَّحْمَٰنِ الرَّحِيمِ (٣) مَالِكِ يَوْمِ الدِّينِ (٤)",
+            "phonetic": "Surah Al-Fatihah Verses 1-4",
+            "description": "Listen to the slow, measured recitation of verses 1-4."
+          },
+          "examples": [
+            {
+              "arabic": "الْحَمْدُ لِلَّهِ",
+              "label": "Makhraj focus",
+              "sound": "Al-Hamdu lillah (pure throat Ha)"
+            }
+          ],
+          "practice": "Recite verses 1-4 three times slowly, matching the audio teacher's timing.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "In verse 2 'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ', from which Makhraj does the letter 'ح' originate?",
+            "options": [
+              "Deepest throat (near vocal cords)",
+              "Middle of the throat (Wasatal-Halq)",
+              "The lips",
+              "The nasal cavity"
+            ],
+            "correctAnswer": 1,
+            "explanation": "The letter Ha (ح) originates from the middle of the throat (Wasatal-Halq)."
+          }
+        },
+        {
+          "id": "tajweed-ch11-l2",
+          "number": 2,
+          "title": "Surah Al-Fatihah: Verses 5 to 7",
+          "subtitle": "Iyyaka na'budu through to the compulsory 6-count Madd Lazim",
+          "readingTime": "4 min",
+          "explanation": "Verses 5-7: 5) إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (Shaddah on Ya, crisp 'Ayn). 6) اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (Deep Ha in Ihdina, heavy Sad and Ta in As-Siraat, light Ta in Al-Mustaqeem). 7) صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ (Izhar on An'amta, clear Meem before Ghayr, heavy Dad, and compulsory 6-count Madd Lazim on Ad-Daaalleen!).",
+          "keyPoints": [
+            "Verse 5: Shaddah pressure on 'Iyyaka'.",
+            "Verse 6: Heavy ص and ط vs light مستقيم.",
+            "Verse 7: Izhar on أَنْعَمْتَ, heavy ض, and full 6 counts on الضَّالِّينَ."
+          ],
+          "audio": {
+            "arabicText": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (٥) اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (٦) صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ (٧)",
+            "phonetic": "Surah Al-Fatihah Verses 5-7",
+            "description": "Listen to the powerful conclusion of Surah Al-Fatihah with 6-count Madd Lazim."
+          },
+          "examples": [
+            {
+              "arabic": "وَلَا الضَّالِّينَ",
+              "label": "Madd Lazim",
+              "sound": "Wa la-d-Daaalleen (6 full counts + Shaddah on Lam)"
+            }
+          ],
+          "practice": "Recite verse 7, holding 'الضَّالِّينَ' for 6 full counts before completing with 'leen'.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the mandatory count duration for 'الضَّالِّينَ' at the end of Surah Al-Fatihah?",
+            "options": [
+              "2 counts",
+              "4 counts",
+              "6 counts (Madd Lazim)",
+              "1 count"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'الضَّالِّينَ' is a Madd Lazim and must be elongated for a full 6 counts."
+          }
+        },
+        {
+          "id": "tajweed-ch11-l3",
+          "number": 3,
+          "title": "Surah Al-Ikhlas & Al-Falaq Masterclass",
+          "subtitle": "Mastering Qalqalah and Noon rules across short Surahs",
+          "readingTime": "4 min",
+          "explanation": "Surah Al-Ikhlas (Purity of Faith) and Surah Al-Falaq (The Daybreak) provide the ultimate practice for Qalqalah (ق ط ب ج د) and Noon rules: 1) Al-Ikhlas features 5 major Qalqalah endings on Dal (أَحَدْ , الصَّمَدْ , يَلِدْ , يُولَدْ , أَحَدْ). 2) Al-Falaq features Ikhfa (مِن شَرِّ) and 5 major Qalqalah stops on Qaf, Ba, and Dal (الْفَلَقْ , خَلَقْ , وَقَبْ , الْعُقَدْ , حَسَدْ).",
+          "keyPoints": [
+            "Al-Ikhlas: 5 crisp Qalqalah Kubra stops on letter Dal.",
+            "Al-Falaq: Ikhfa on 'مِن شَرِّ' + 5 Qalqalah endings.",
+            "Do not rush the pauses at verse ends."
+          ],
+          "audio": {
+            "arabicText": "قُلْ هُوَ اللَّهُ أَحَدٌ (١) اللَّهُ الصَّمَدُ (٢) لَمْ يَلِدْ وَلَمْ يُولَدْ (٣) وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ (٤)",
+            "phonetic": "Complete Surah Al-Ikhlas",
+            "description": "Listen to Surah Al-Ikhlas recited with pristine Qalqalah."
+          },
+          "examples": [
+            {
+              "arabic": "مِن شَرِّ",
+              "label": "Ikhfa",
+              "sound": "Min-sharri (light 2-count nasal concealment before Shin)"
+            }
+          ],
+          "practice": "Recite Surah Al-Ikhlas and Surah Al-Falaq back to back with perfect Tajweed.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What Tajweed rule is applied in 'مِن شَرِّ' (Min sharri)?",
+            "options": [
+              "Izhar Halqi",
+              "Idgham",
+              "Ikhfa (Concealing Noon before Shin with 2-count Ghunnah)",
+              "Madd Lazim"
+            ],
+            "correctAnswer": 2,
+            "explanation": "'مِن شَرِّ' is Ikhfa because Noon Sakinah is followed by the letter Shin (ش)."
+          }
+        },
+        {
+          "id": "tajweed-ch11-l4",
+          "number": 4,
+          "title": "Surah An-Nas & Ayah al-Kursi Highlights",
+          "subtitle": "Ghunnah resonance and sacred verse recitation",
+          "readingTime": "4 min",
+          "explanation": "1) Surah An-Nas showcases the continuous 2-count Ghunnah on Nun with Shaddah (النَّاسِ) across all 6 verses. 2) Ayah al-Kursi (Surah Al-Baqarah 2:255) brings together Madd Asli, Madd Munfasil, Idgham, and heavy Lam in the Name of Allah.",
+          "keyPoints": [
+            "Surah An-Nas: 6 verses of beautiful 2-count Ghunnah on النَّاسِ.",
+            "Ayah al-Kursi: The greatest verse in the Qur'an.",
+            "Maintain breath control and steady pace (Tarteel)."
+          ],
+          "audio": {
+            "arabicText": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ (١) مَلِكِ النَّاسِ (٢) إِلَٰهِ النَّاسِ (٣) مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ (٤) الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ (٥) مِنَ الْجِنَّةِ وَالنَّاسِ (٦)",
+            "phonetic": "Complete Surah An-Nas",
+            "description": "Listen to Surah An-Nas with rich 2-count Ghunnah on every verse."
+          },
+          "examples": [
+            {
+              "arabic": "النَّاسِ",
+              "label": "Ghunnah",
+              "sound": "An-Naaas (2-count nasal hum on Nun)"
+            }
+          ],
+          "practice": "Recite Surah An-Nas holding the Ghunnah on 'النَّاسِ' for 2 full counts in every verse.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What rule is repeated throughout all 6 verses of Surah An-Nas on the word 'النَّاسِ'?",
+            "options": [
+              "Qalqalah Kubra",
+              "Ghunnah of 2 counts on Nun with Shaddah (نّ)",
+              "Idgham Bila Ghunnah",
+              "Iqlab"
+            ],
+            "correctAnswer": 1,
+            "explanation": "The word 'النَّاسِ' contains a Nun with Shaddah (نّ) requiring a 2-count Ghunnah in every verse."
+          }
+        },
+        {
+          "id": "tajweed-ch11-l5",
+          "number": 5,
+          "title": "Chapter 11 Review & Recitation Fluency Check",
+          "subtitle": "Consolidating your recitation into prayer (Salah)",
+          "readingTime": "4 min",
+          "explanation": "Reciting with Tajweed during daily Salah transforms prayer from a routine into a deeply moving, spiritually elevated experience. When your tongue articulates every letter with precision, your heart connects directly with the divine speech.",
+          "keyPoints": [
+            "Apply Tajweed in daily Salah (Fatihah + short Surah).",
+            "Recite at a calm, measured pace (Tarteel).",
+            "Listen regularly to master reciters (e.g. Al-Husary, Al-Minshawi) to maintain pristine ear training."
+          ],
+          "audio": {
+            "arabicText": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+            "phonetic": "Opening of Ayah al-Kursi",
+            "description": "Listen to the majestic opening of Ayah al-Kursi."
+          },
+          "examples": [
+            {
+              "arabic": "الْحَيُّ الْقَيُّومُ",
+              "label": "Shaddah & Stop",
+              "sound": "Al-Hayyu-l-Qayyoom"
+            }
+          ],
+          "practice": "Recite the opening of Ayah al-Kursi with deep reverence and precision.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the recommended style of recitation for daily study and prayer?",
+            "options": [
+              "Rushing quickly without pausing",
+              "Tarteel (measured, calm, beautiful recitation with Tajweed)",
+              "Reciting silently without moving the tongue or lips",
+              "Skipping vowel endings"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Tarteel (measured, calm recitation observing all Tajweed rules) is the prescribed divine method."
+          }
+        }
+      ],
+      "aliases": [
+        "lesson-11",
+        "tajweed-ch11",
+        "tajweed-ch10"
+      ]
+    },
+    {
+      "id": "lesson-12",
+      "number": 10,
+      "title": "Chapter 11: Final Tajweed Examination & Certification (الاختبار النهائي وشهادة إتمام التجويد)",
+      "subtitle": "Test your Tajweed knowledge and earn your certificate.",
+      "readingTime": "45 min",
+      "isFinalExam": true,
+      "isExam": true,
+      "summary": "One comprehensive examination across six core sections testing Makharij, Noon Sakinah, Meem Sakinah & Qalqalah, Madd Timing & Tafkhim, Complete Tajweed Knowledge, and Practical Recitation. 80% passing score strictly required for official certification.",
+      "videoLesson": {
+        "title": "Comprehensive Tajweed Mastery Assessment & Synthesis",
+        "channel": "Arabic 101",
+        "duration": "21:30",
+        "videoId": "BfsRbY3F7IE",
+        "watchUrl": "https://www.youtube.com/watch?v=BfsRbY3F7IE",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/BfsRbY3F7IE",
+        "url": "https://www.youtube-nocookie.com/embed/BfsRbY3F7IE",
+        "alternativeSource": "https://quran.com",
+        "sourceName": "Quran.com — Complete Tajweed Guide",
+        "badge": "Verified Reference Video"
+      },
+      "exam": {
+        "id": "tajweed-final-exam",
+        "title": "Chapter 11: Final Tajweed Examination & Certification (الاختبار النهائي وشهادة إتمام التجويد)",
+        "passingPercentage": 80,
+        "sections": [
+          {
+            "id": "makharij",
+            "number": 1,
+            "title": "Makharij Mastery",
+            "arabicTitle": "مخارج الحروف",
+            "subtitle": "Points of articulation and anatomical letter origin",
+            "questionIndices": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "noon-sakinah",
+            "number": 2,
+            "title": "Noon Sakinah & Tanween",
+            "arabicTitle": "أحكام النون الساكنة والتنوين",
+            "subtitle": "The four fundamental rules: Izhar, Idgham, Iqlab, and Ikhfa",
+            "questionIndices": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          {
+            "id": "meem-qalqalah",
+            "number": 3,
+            "title": "Meem Sakinah & Qalqalah",
+            "arabicTitle": "الميم الساكنة والقلقلة",
+            "subtitle": "The three Meem rules, articulation precautions, and echoing levels",
+            "questionIndices": [
+              8,
+              9,
+              10,
+              11
+            ]
+          },
+          {
+            "id": "madd-tafkhim",
+            "number": 4,
+            "title": "Madd Timing & Tafkhim/Tarqiq",
+            "arabicTitle": "المدود والتفخيم والترقيق",
+            "subtitle": "Elongation counts, heavy and light letters, and conditional rules",
+            "questionIndices": [
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          {
+            "id": "complete-knowledge",
+            "number": 5,
+            "title": "Complete Tajweed Knowledge",
+            "arabicTitle": "صفات الحروف والوقف",
+            "subtitle": "Sifat Al-Huruf, Waqf stop symbols, Ibtida, and Ta Marbutah",
+            "questionIndices": [
+              16,
+              17,
+              18,
+              19
+            ]
+          },
+          {
+            "id": "recitation",
+            "number": 6,
+            "title": "Practical Recitation Assessment",
+            "arabicTitle": "التطبيق العملي في الآيات",
+            "subtitle": "Real-world identification of rules in authentic Qur'anic verses",
+            "questionIndices": [
+              20,
+              21,
+              22,
+              23
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "makharij-q1",
+            "sectionId": "makharij",
+            "sectionNumber": 1,
+            "sectionTitle": "Makharij Mastery (مخارج الحروف)",
+            "question": "According to Imam Ibn al-Jazari, what are the five major general articulation zones (المخارج العامة) of the Arabic sound system?",
+            "arabicPrompt": "المخارج العامة الخمسة للحروف العربية",
+            "options": [
+              "Al-Jawf (Oral Cavity), Al-Halq (Throat), Al-Lisan (Tongue), Ash-Shafatan (Lips), and Al-Khayshum (Nasal Cavity)",
+              "Al-Ra's (Head), Al-Halq (Throat), Al-Sadr (Chest), Al-Asnan (Teeth), and Al-Lisan (Tongue)",
+              "Al-Fam (Mouth), Al-Anf (Nose), Al-Udhun (Ear), Al-Hanjar (Larynx), and Al-Lisan (Tongue)",
+              "Al-Madd (Elongation), Al-Ghunnah (Nasalization), Al-Hams (Whisper), Al-Jahr (Vocalness), and Al-Qalqalah (Echo)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The classical standard formulated by Imam Al-Khalil and verified by Imam Ibn al-Jazari identifies 5 general articulation areas (المخارج العامة) containing 17 specific articulation points: 1) Al-Jawf (open interior cavity), 2) Al-Halq (throat), 3) Al-Lisan (tongue), 4) Ash-Shafatan (lips), and 5) Al-Khayshum (nasal passage)."
+          },
+          {
+            "id": "makharij-q2",
+            "sectionId": "makharij",
+            "sectionNumber": 1,
+            "sectionTitle": "Makharij Mastery (مخارج الحروف)",
+            "question": "The six throat letters are divided across three anatomical depths. Which letter pair articulates specifically from the middle of the throat (وسط الحلق)?",
+            "arabicPrompt": "حروف وسط الحلق",
+            "options": [
+              "Hamzah (ء) and Hā' (هـ)",
+              "'Ayn (ع) and Ḥā' (ح)",
+              "Ghayn (غ) and Khā' (خ)",
+              "Qāf (ق) and Kāf (ك)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'Ayn (ع) and Ḥā' (ح) articulate from the middle of the throat (Wasat Al-Halq) by constriction of the epiglottis. In contrast, Hamzah (ء) and Hā' (هـ) originate from the deepest throat (Aqsa Al-Halq), while Ghayn (غ) and Khā' (خ) originate from the closest/uppermost throat (Adna Al-Halq)."
+          },
+          {
+            "id": "makharij-q3",
+            "sectionId": "makharij",
+            "sectionNumber": 1,
+            "sectionTitle": "Makharij Mastery (مخارج الحروف)",
+            "question": "How does the articulation point of Ḍād (ض) anatomically differ from Ẓā' (ظ)?",
+            "arabicPrompt": "الفرق المخرجي الدقيق بين حرفي الضاد (ض) والظاء (ظ)",
+            "options": [
+              "Ḍād articulates from one or both lateral edges of the tongue against the upper molars, whereas Ẓā' articulates from the tip of the tongue contacting the edges of the upper two front incisors",
+              "Both letters articulate identically from the tip of the tongue against the upper gum line",
+              "Ḍād articulates from the back of the throat while Ẓā' articulates from the lips",
+              "Ḍād uses the center of the tongue against the hard palate while Ẓā' uses the nasal cavity"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Ḍād (ض) has one of the most distinctive articulation points in human phonetics: the lateral edge or edges of the tongue (حافة اللسان) pressing against the upper molars, accompanied by elongation (Istitalah). Ẓā' (ظ) is one of the three gingival/tip letters (Al-Huruf Al-Lithaweeyah: ظ، ذ، ث), produced from the tongue tip touching the edges of the upper front incisors."
+          },
+          {
+            "id": "makharij-q4",
+            "sectionId": "makharij",
+            "sectionNumber": 1,
+            "sectionTitle": "Makharij Mastery (مخارج الحروف)",
+            "question": "Which letter articulates by pressing the inner wet margin of the lower lip against the edges of the upper two front incisors?",
+            "arabicPrompt": "مخرج بطن الشفة السفلى مع أطراف الثنايا العليا",
+            "options": [
+              "Fā' (ف)",
+              "Bā' (ب)",
+              "Mīm (م)",
+              "Wāw (و)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Fā' (ف) articulates exclusively from the inner belly of the lower lip contacting the edges of the two upper central incisors (بطن الشفة السفلى مع أطراف الثنايا العليا). Bā' and Mīm articulate by closing both lips together, while vowelized/unvowelized Wāw articulates by rounding both lips with a central opening."
+          },
+          {
+            "id": "noon-q5",
+            "sectionId": "noon-sakinah",
+            "sectionNumber": 2,
+            "sectionTitle": "Noon Sakinah & Tanween (أحكام النون الساكنة والتنوين)",
+            "question": "In the phrases «مِنْ أَهْلِ» and «أَنْعَمْتَ», which rule of Noon Sakinah applies and how must the Noon be pronounced?",
+            "arabicPrompt": "مِنْ أَهْلِ الْكِتَابِ — صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+            "options": [
+              "Izhar Halqi (إظهار حلقي) — pronounce the Noon clearly from its natural makhraj without any extended nasal ghunnah",
+              "Idgham with Ghunnah — merge the Noon into the following letter with a 2-count delay",
+              "Ikhfa Haqiqi — conceal the Noon in the nasal cavity with full mouth opening",
+              "Iqlab — convert the Noon into a light Meem sound"
+            ],
+            "correctAnswer": 0,
+            "explanation": "When Noon Sakinah or Tanween is followed by one of the six throat letters (ء، هـ، ع، ح، غ، خ), it must be pronounced with Izhar Halqi (throat clarity): articulated clearly from the tongue tip and upper gums without any additional lengthening of the natural Ghunnah."
+          },
+          {
+            "id": "noon-q6",
+            "sectionId": "noon-sakinah",
+            "sectionNumber": 2,
+            "sectionTitle": "Noon Sakinah & Tanween (أحكام النون الساكنة والتنوين)",
+            "question": "The six letters of Idgham are gathered in the mnemonic «يَرْمَلُونَ». Which two letters require complete merging WITHOUT Ghunnah (إدغام بغير غنة)?",
+            "arabicPrompt": "حروف الإدغام بغير غنة",
+            "options": [
+              "Lām (ل) and Rā' (ر)",
+              "Yā' (ي) and Nūn (ن)",
+              "Mīm (م) and Wāw (و)",
+              "All six letters require Ghunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Idgham without Ghunnah occurs exclusively before Lām (ل) and Rā' (ر) (e.g. «مِن لَّدُنْهُ», «مِن رَّبِّهِمْ»). In contrast, the remaining four letters grouped in «يَنْمُو» (Yā', Nūn, Mīm, Wāw) require Idgham WITH a sustained 2-count Ghunnah."
+          },
+          {
+            "id": "noon-q7",
+            "sectionId": "noon-sakinah",
+            "sectionNumber": 2,
+            "sectionTitle": "Noon Sakinah & Tanween (أحكام النون الساكنة والتنوين)",
+            "question": "When does Iqlab (الإقلاب) occur, and what are its three exact phonetic stages in recitation?",
+            "arabicPrompt": "حكم الإقلاب وخطوات تطبيقه: مِن بَعْدِ — أَنبِئْهُم",
+            "options": [
+              "When Noon Sakinah or Tanween is followed by Bā' (ب); 1) convert the Noon into a Meem, 2) conceal the Meem, 3) sustain a 2-count Ghunnah without tight lip clamping",
+              "When Noon Sakinah is followed by Mīm; merge completely with a 4-count pause",
+              "When Tanween occurs at the end of an ayah; convert into an Alif",
+              "When Meem Sakinah is followed by Bā'; pronounce clearly with Izhar"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Iqlab occurs when Noon Sakinah or Tanween is followed by the single letter Bā' (ب). The three classical steps are: 1) Changing the Noon into an unwritten Meem (قلب النون ميماً), 2) Concealing the Meem by gently bringing the lips together without pressing firmly (إخفاء الميم), and 3) Pronouncing an audible 2-count nasal Ghunnah (غنة حركتين)."
+          },
+          {
+            "id": "noon-q8",
+            "sectionId": "noon-sakinah",
+            "sectionNumber": 2,
+            "sectionTitle": "Noon Sakinah & Tanween (أحكام النون الساكنة والتنوين)",
+            "question": "In Ikhfa Haqiqi (15 letters), what determines whether the 2-count Ghunnah is pronounced heavy (Mufakhkham) or light (Muraqqaq)?",
+            "arabicPrompt": "تفخيم وترقيق غنة الإخفاء الحقيقي: مِن قَبْلُ vs مِن كِتَابٍ",
+            "options": [
+              "The Ghunnah follows the heaviness of the following letter: heavy before the 5 heavy Ikhfa letters (ص، ض، ط، ظ، ق) and light before the other 10 letters",
+              "The Ghunnah is always heavy regardless of the following letter",
+              "The Ghunnah is always light regardless of the following letter",
+              "The vowel on the letter preceding the Noon determines the heaviness"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In Ikhfa Haqiqi, the tongue prepares at the exact point of articulation of the upcoming letter while the sound resonates in the nasal cavity. When followed by a heavy letter (ص ض ط ظ ق), the back of the tongue elevates, causing the Ghunnah to sound heavy (e.g. «مِن قَبْلُ», «مِن صَلْصَالٍ»). Before the 10 light letters, the tongue remains lowered, making the Ghunnah light (e.g. «مِن كِتَابٍ», «أَنتُمْ»)."
+          },
+          {
+            "id": "meem-q9",
+            "sectionId": "meem-qalqalah",
+            "sectionNumber": 3,
+            "sectionTitle": "Meem Sakinah & Qalqalah (الميم الساكنة والقلقلة)",
+            "question": "Meem Sakinah (مْ) has only three rules. What are they and how many Arabic letters belong to each rule?",
+            "arabicPrompt": "أحكام الميم الساكنة الثلاثة وتوزيع الحروف عليها",
+            "options": [
+              "Ikhfa Shafawi (1 letter: ب), Idgham Shafawi (1 letter: م), and Izhar Shafawi (remaining 26 letters)",
+              "Izhar Halqi (6 letters), Idgham (6 letters), and Ikhfa (15 letters)",
+              "Iqlab (1 letter), Qalqalah (5 letters), and Madd (3 letters)",
+              "Tafkhim (7 letters), Tarqiq (20 letters), and Jawaz (1 letter)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Meem Sakinah has exactly 3 rules: 1) Ikhfa Shafawi when followed by Bā' (ب) with a 2-count Ghunnah, 2) Idgham Shafawi / Idgham Mithlayn Saghir when followed by another Mīm (م) with a 2-count Ghunnah, and 3) Izhar Shafawi when followed by any of the remaining 26 letters."
+          },
+          {
+            "id": "meem-q10",
+            "sectionId": "meem-qalqalah",
+            "sectionNumber": 3,
+            "sectionTitle": "Meem Sakinah & Qalqalah (الميم الساكنة والقلقلة)",
+            "question": "Imam Al-Jamzuri warns in Tuhfat al-Atfal to be especially vigilant NOT to accidentally conceal (Ikhfa) Meem Sakinah before which two letters?",
+            "arabicPrompt": "واحذر لدى واو وفا أن تختفي / لقربها والاتحاد فاعرف",
+            "options": [
+              "Wāw (و) and Fā' (ف)",
+              "Alif (ا) and Hamzah (ء)",
+              "Qāf (ق) and Kāf (ك)",
+              "Tā' (ت) and Dāl (د)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Due to proximity in articulation with Fā' (lower lip to upper teeth) and sharing the exact same lip origin with Wāw (both lips), reciters frequently fall into the mistake of slurring or concealing the Meem. Al-Jamzuri explicitly cautioned: \"واحذر لدى واو وفا أن تختفي / لقربها والاتحاد فاعرف\" (Beware of concealing Meem before Wāw and Fā' due to proximity and sharing of articulation)."
+          },
+          {
+            "id": "meem-q11",
+            "sectionId": "meem-qalqalah",
+            "sectionNumber": 3,
+            "sectionTitle": "Meem Sakinah & Qalqalah (الميم الساكنة والقلقلة)",
+            "question": "What are the five letters of Qalqalah (قلقلة), what is their mnemonic phrase, and under what mandatory condition does Qalqalah occur?",
+            "arabicPrompt": "حروف القلقلة وشرط حدوثها",
+            "options": [
+              "Qāf, Ṭā', Bā', Jīm, Dāl (قُطْبُ جَدٍّ) — strictly when the letter carries a Sukoon (is Sakin)",
+              "Yā', Rā', Mīm, Lām, Wāw, Nūn (يَرْمَلُونَ) — when vowelled with Fat-hah",
+              "Khā', Ṣād, Ḍād, Ghayn, Ṭā', Qāf, Ẓā' (خُصَّ ضَغْطٍ قِظْ) — when carrying a Shaddah",
+              "Alif, Wāw, Yā' (حروف المد) — when prolonged for 4 counts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The five Qalqalah letters are combined in the classical mnemonic «قُطْبُ جَدٍّ» (Qaf, Taa, Ba, Jeem, Dal). Qalqalah—the echoing, rebounding vibration produced by releasing built-up pressure—activates ONLY when one of these five letters is in a state of Sukoon (سكون), whether original in the word or temporary due to stopping."
+          },
+          {
+            "id": "meem-q12",
+            "sectionId": "meem-qalqalah",
+            "sectionNumber": 3,
+            "sectionTitle": "Meem Sakinah & Qalqalah (الميم الساكنة والقلقلة)",
+            "question": "Which of the following ranks the three levels of Qalqalah from strongest acoustic resonance to lightest with correct Qur'anic examples?",
+            "arabicPrompt": "مراتب القلقلة الثلاث: الأكبر — الكبرى — الصغرى",
+            "options": [
+              "Akbar (Stopping on a doubled/shaddah letter, e.g. «وَتَبَّ», «بِالْحَقِّ») > Kubra (Stopping on a single sakin letter, e.g. «الْفَلَقِ», «أَحَدٌ») > Sughra (Sakin in the middle of a word/verse, e.g. «خَلَقْنَا», «يَقْطَعُونَ»)",
+              "Sughra (at the end) > Kubra (in the middle) > Akbar (at the beginning)",
+              "All occurrences of Qalqalah have identical acoustic intensity and cannot be ranked",
+              "Akbar (in Madd letters) > Kubra (in Tanween) > Sughra (in Noon Sakinah)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Classical Tajweed scholars categorize Qalqalah into three acoustic levels: 1) Akbar (Greatest): stopping on a doubled/mushaddad letter (holding the shaddah then releasing with maximum clarity, e.g. «وَتَبَّ»), 2) Kubra (Major): stopping on a single sakin letter at the end of a word (e.g. «مَا خَلَقْ»), and 3) Sughra (Minor): a light, brisk rebound on a sakin letter in the middle of a word or continuous speech (e.g. «يَجْعَلُونَ»)."
+          },
+          {
+            "id": "madd-q13",
+            "sectionId": "madd-tafkhim",
+            "sectionNumber": 4,
+            "sectionTitle": "Madd Timing & Tafkhim/Tarqiq (المدود والتفخيم والترقيق)",
+            "question": "What is the structural difference and obligatory ruling between Madd Muttasil (المتصل) and Madd Munfasil (المنفصل)?",
+            "arabicPrompt": "الفرق بين المد المتصل والمد المنفصل وحكم كل منهما",
+            "options": [
+              "Muttasil: Madd letter and Hamzah are inside the SAME single word (e.g. «جَاءَ», «السَّمَاءِ») — Wajib (obligatory 4–5 counts). Munfasil: Madd letter is at the end of one word and Hamzah at the start of the next (e.g. «إِنَّا أَعْطَيْنَاكَ») — Ja'iz (permissible 4–5 counts)",
+              "Muttasil is 2 counts while Munfasil is 6 counts",
+              "Muttasil occurs only due to Sukoon while Munfasil occurs only due to Hamzah",
+              "Both occur only within the same word and both are strictly 2 counts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Madd Muttasil (Connected Elongation) occurs when the Madd letter and Hamzah are united in one single word; its elongation is Wajib (compulsory 4 or 5 counts in Hafs). Madd Munfasil (Separated Elongation) occurs across two separate words, making its elongation Ja'iz (permissible 4 or 5 counts in Shatibiyyah, or 2 counts in Tayyibah)."
+          },
+          {
+            "id": "madd-q14",
+            "sectionId": "madd-tafkhim",
+            "sectionNumber": 4,
+            "sectionTitle": "Madd Timing & Tafkhim/Tarqiq (المدود والتفخيم والترقيق)",
+            "question": "In words like «الضَّالِّينَ» and «الْحَاقَّةُ», what type of Madd occurs and what is its exact mandatory duration?",
+            "arabicPrompt": "نوع ومقدار المد في «وَلَا الضَّالِّينَ» و«الْحَاقَّةُ»",
+            "options": [
+              "Madd Lazim (المد اللازم) — Compulsory 6 counts (حركات 6) due to an original permanent Sukoon / Shaddah following the Madd letter",
+              "Madd Asli (المد الأصلي) — 2 counts",
+              "Madd Munfasil (المد المنفصل) — 4 counts",
+              "Madd Aridh li-Sukun (المد العارض للسكون) — Optional 2, 4, or 6 counts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Madd Lazim (Compulsory Elongation) occurs when a Madd letter is followed by an original, permanent Sukoon (here incorporated into a doubled/mushaddad letter: Lām in «الضَّالِّينَ» and Qāf in «الْحَاقَّةُ»). All recitation imams unanimously mandate holding it for the full duration of 6 counts (6 Harakat)."
+          },
+          {
+            "id": "madd-q15",
+            "sectionId": "madd-tafkhim",
+            "sectionNumber": 4,
+            "sectionTitle": "Madd Timing & Tafkhim/Tarqiq (المدود والتفخيم والترقيق)",
+            "question": "Which seven Arabic letters are permanently heavy (Tafkhim / Isti'la) under all vowel conditions, elevating the back of the tongue toward the palate?",
+            "arabicPrompt": "حروف الاستعلاء والتفخيم الدائم السبعة",
+            "options": [
+              "Khā', Ṣād, Ḍād, Ghayn, Ṭā', Qāf, Ẓā' — grouped in «خُصَّ ضَغْطٍ قِظْ»",
+              "Qāf, Ṭā', Bā', Jīm, Dāl — grouped in «قُطْبُ جَدٍّ»",
+              "Yā', Rā', Mīm, Lām, Wāw, Nūn — grouped in «يَرْمَلُونَ»",
+              "Hamzah, Hā', 'Ayn, Ḥā', Ghayn, Khā' — the six throat letters"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The seven letters of «خُصَّ ضَغْطٍ قِظْ» (Kha, Saad, Daad, Ghayn, Taa, Qaf, Zhaa) possess the intrinsic quality of Isti'la (elevation of the posterior tongue). They are pronounced heavy (Mufakhkham) in all positions and with all vowels, with the four Itbaq letters (ط، ض، ص، ظ) exhibiting the strongest heaviness."
+          },
+          {
+            "id": "madd-q16",
+            "sectionId": "madd-tafkhim",
+            "sectionNumber": 4,
+            "sectionTitle": "Madd Timing & Tafkhim/Tarqiq (المدود والتفخيم والترقيق)",
+            "question": "When is the letter Lām (ل) pronounced heavy (Mufakhkham) in the Majestic Name of Allah («اللَّه» / «اللَّهُمَّ»)?",
+            "arabicPrompt": "حكم لام لفظ الجلالة (اللَّه) تفخيماً وترقيقاً",
+            "options": [
+              "When the letter preceding the Name of Allah carries a Fat-hah (َ) or Ḍammah (ُ) (e.g. «قَالَ اللَّهُ», «نَصْرُ اللَّهِ»); it is light only when preceded by a Kasrah (ِ) (e.g. «بِسْمِ اللَّهِ»)",
+              "The Lām of Allah is always pronounced light in every Quranic context",
+              "The Lām is heavy only when preceded by a Kasrah",
+              "The Lām is heavy only when followed by another heavy letter"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The Lām in Lafz Al-Jalalah (لفظ الجلالة: اللَّه / اللَّهُمَّ) is uniquely characterized by conditional heaviness: if preceded by a Fat-hah (َ) or Ḍammah (ُ), it is pronounced heavy (Tafkhim). If preceded by an original or temporary Kasrah (ِ), it must be pronounced light (Tarqiq, as in «بِسْمِ اللَّهِ»)."
+          },
+          {
+            "id": "complete-q17",
+            "sectionId": "complete-knowledge",
+            "sectionNumber": 5,
+            "sectionTitle": "Complete Tajweed Knowledge (صفات الحروف والوقف والابتداء)",
+            "question": "The characteristic of Hams (الهَمْس) involves the continuation of breath during letter pronunciation due to weak reliance on the makhraj. What are its 10 letters?",
+            "arabicPrompt": "حروف صفة الهمس العشرة في بيت ابن الجزري",
+            "options": [
+              "«فَحَثَّهُ شَخْصٌ سَكَتَ» (Fā', Ḥā', Thā', Hā', Shīn, Khā', Ṣād, Sīn, Kāf, Tā')",
+              "«أَجِدْ قَطٍ بَكَتْ»",
+              "«لِنْ عُمَر»",
+              "«خُصَّ ضَغْطٍ قِظْ»"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The 10 letters of Hams (whisper/continuation of airflow) are combined in Imam Ibn al-Jazari's famous mnemonic: «فَحَثَّهُ شَخْصٌ سَكَتَ». All remaining 18 Arabic letters possess the opposing characteristic of Jahr (الجهر - trapping and cessation of breath)."
+          },
+          {
+            "id": "complete-q18",
+            "sectionId": "complete-knowledge",
+            "sectionNumber": 5,
+            "sectionTitle": "Complete Tajweed Knowledge (صفات الحروف والوقف والابتداء)",
+            "question": "Which letters possess the whistling quality (الصفير) and which letter is uniquely characterized by continuous extension along its edge (الاستطالة)?",
+            "arabicPrompt": "صفتا الصفير والاستطالة",
+            "options": [
+              "Safir (Whistle) belongs to (Ṣād ص, Zāy ز, Sīn س); Istitalah (Elongation) belongs exclusively to Ḍād (ض)",
+              "Safir belongs to (Qāf, Kāf); Istitalah belongs to (Lām, Rā')",
+              "Safir belongs to (Thā', Dhāl, Ẓā'); Istitalah belongs to (Shīn)",
+              "Safir belongs to (Mīm, Nūn); Istitalah belongs to (Wāw, Yā')"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As-Safir (الصفير - a sharp whistling acoustic tone resembling a bird) is an intrinsic attribute of Ṣād (ص), Zāy (ز), and Sīn (س). Al-Istitalah (الاستطالة - the gradual forward extension of sound and tongue contact from the molar edge to the premolar) belongs solely to the letter Ḍād (ض)."
+          },
+          {
+            "id": "complete-q19",
+            "sectionId": "complete-knowledge",
+            "sectionNumber": 5,
+            "sectionTitle": "Complete Tajweed Knowledge (صفات الحروف والوقف والابتداء)",
+            "question": "In standard Qur'anic printings (Mushaf), what do the stopping symbols (مـ) and (لا) indicate to the reciter?",
+            "arabicPrompt": "علامات الوقف في المصحف الشريف: علامتا (مـ) و(لا)",
+            "options": [
+              "(مـ) denotes a Compulsory/Mandatory Stop (وقف لازم) to avoid distorting theological meaning; (لا) denotes a Prohibited Stop (لا تقف) where stopping breaks the sentence structure",
+              "(مـ) denotes an optional pause; (لا) denotes repeating the entire surah",
+              "(مـ) denotes Meem Sakinah; (لا) denotes reciting without any breath",
+              "(مـ) denotes 6 counts elongation; (لا) denotes zero counts elongation"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The small horizontal meem (مـ) signifies Waqf Lazim (Mandatory Stop), where continuing would connect two unrelated sentences and corrupt the meaning (e.g. Surah Yasin 36:76). The sign (لا) signifies Waqf Mamnu' (Prohibited Stop), because stopping leaves the grammatical clause incomplete and potentially misleading."
+          },
+          {
+            "id": "complete-q20",
+            "sectionId": "complete-knowledge",
+            "sectionNumber": 5,
+            "sectionTitle": "Complete Tajweed Knowledge (صفات الحروف والوقف والابتداء)",
+            "question": "When pausing or stopping on a word ending with Tā' Marbūṭah (ة / ـة), such as «الْقَارِعَةُ» or «رَحْمَةً», how must it be vocalized?",
+            "arabicPrompt": "حكم الوقف على التاء المربوطة (ة): الْقَارِعَةُ — رَحْمَةً",
+            "options": [
+              "It converts completely into a pure Hā' Sakinah (هْ) with gentle Hams breath",
+              "It is pronounced as a clear Tā' Sakinah (تْ)",
+              "It is pronounced with a 2-count Tanween sound",
+              "It is dropped silently without any audible sound"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In Qur'anic recitation and Arabic phonology, stopping on Tā' Marbūṭah (ة) requires transforming it into a voiceless Hā' Sakinah (هْ) with gentle breath continuation (Hams). This distinguishes it from open Tā' Mabsūṭah (ت), which remains a clear Tā' Sakinah with an explosive whisper upon pause."
+          },
+          {
+            "id": "recitation-q21",
+            "sectionId": "recitation",
+            "sectionNumber": 6,
+            "sectionTitle": "Practical Recitation Assessment (التطبيق العملي في الآيات القرآنية)",
+            "question": "In the verses «قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ», what Tajweed rules apply to the Lām of «اللَّهُ» and the final Dāl of «أَحَدٌ» when pausing?",
+            "arabicPrompt": "قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ",
+            "options": [
+              "Tafkhim (heaviness) of the Lām due to the preceding Fat-hah on «هُوَ», and Qalqalah Kubra on the Dāl when pausing on «أَحَدْ»",
+              "Tarqiq (lightness) of the Lām and no Qalqalah on the Dāl",
+              "Idgham of Noon and Madd Lazim on the Name of Allah",
+              "Ikhfa Shafawi on Huwa and Iqlab on Ahad"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In «هُوَ اللَّهُ», the word «هُوَ» ends with a Fat-hah (وَ), requiring the Lām of Allah to be pronounced with heaviness (Tafkhim). When stopping at the verse boundary on «أَحَدٌ», the tanween drops and the Dāl becomes sakin, triggering Qalqalah Kubra (Major Echo) at the verse end."
+          },
+          {
+            "id": "recitation-q22",
+            "sectionId": "recitation",
+            "sectionNumber": 6,
+            "sectionTitle": "Practical Recitation Assessment (التطبيق العملي في الآيات القرآنية)",
+            "question": "In the verse «مِن شَرِّ مَا خَلَقَ», identify the two prominent Tajweed rules applied on «مِن شَرِّ» and «خَلَقَ» (upon pause):",
+            "arabicPrompt": "مِن شَرِّ مَا خَلَقَ — سورة الفلق",
+            "options": [
+              "Ikhfa Haqiqi with light Ghunnah on «مِن شَرِّ» (Noon before Shīn), and Qalqalah Kubra with Tafkhim of Qāf on «خَلَقْ» upon stopping",
+              "Izhar Halqi on «مِن شَرِّ» and Madd Muttasil on «خَلَقَ»",
+              "Idgham without Ghunnah on «مِن شَرِّ» and Iqlab on «خَلَقَ»",
+              "Meem Sakinah Izhar on «مِن شَرِّ» and Tarqiq of Qāf on «خَلَقَ»"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In «مِن شَرِّ», Noon Sakinah is followed by Shīn (ش), one of the 15 Ikhfa letters; since Shīn is a light letter, the 2-count Ghunnah is Muraqqaq (light). In «خَلَقَ», pausing renders the final Qāf (ق) sakin, activating Qalqalah Kubra with full posterior tongue elevation (Tafkhim)."
+          },
+          {
+            "id": "recitation-q23",
+            "sectionId": "recitation",
+            "sectionNumber": 6,
+            "sectionTitle": "Practical Recitation Assessment (التطبيق العملي في الآيات القرآنية)",
+            "question": "In the verse «تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ», which rules apply sequentially to «يَدَا أَبِي», «لَهَبٍ وَ», and the final «وَتَبَّ» upon pause?",
+            "arabicPrompt": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ — سورة المسد",
+            "options": [
+              "Madd Munfasil (4–5 counts) on «يَدَا أَبِي», Idgham with Ghunnah on «لَهَبٍ وَ», and Qalqalah Akbar (highest level on doubled Bā') on «وَتَبَّ»",
+              "Madd Muttasil, Izhar Halqi, and Qalqalah Sughra",
+              "Madd Asli, Iqlab, and Madd Lazim",
+              "Madd Aridh, Idgham without Ghunnah, and Ikhfa Shafawi"
+            ],
+            "correctAnswer": 0,
+            "explanation": "«يَدَا أَبِي» features Madd Munfasil (Alif at the end of «يَدَا» and Hamzah starting «أَبِي»). «لَهَبٍ وَ» applies Idgham with a 2-count Ghunnah (Tanween followed by Wāw). Pausing on «وَتَبَّ» stops on a doubled/mushaddad Bā', representing Qalqalah Akbar—the highest intensity of echoing articulation."
+          },
+          {
+            "id": "recitation-q24",
+            "sectionId": "recitation",
+            "sectionNumber": 6,
+            "sectionTitle": "Practical Recitation Assessment (التطبيق العملي في الآيات القرآنية)",
+            "question": "In the verse «الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ», which comprehensive sequence of rules appears sequentially?",
+            "arabicPrompt": "الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ — سورة قريش",
+            "options": [
+              "Madd Munfasil («الَّذِي أَ»), Qalqalah Sughra («أَطْ»), Idgham Shafawi («ـهُم مِّن»), Ikhfa Haqiqi («مِّن جُوعٍ»), Idgham with Ghunnah («جُوعٍ وَ»), Madd Badal («وَآمَنَهُم»), Idgham Shafawi («ـهُم مِّنْ»), Izhar Halqi («مِّنْ خَوْفٍ»), and Madd Leen upon pause («خَوْفْ»)",
+              "Only Izhar Halqi applied repeatedly across every single word",
+              "Only Qalqalah and Madd Lazim with no nasal Ghunnah rules",
+              "No Tajweed rules apply to short surahs like Surah Quraysh"
+            ],
+            "correctAnswer": 0,
+            "explanation": "This magnificent ayah synthesizes virtually all foundational rules taught across the course: Madd Munfasil («الَّذِي أَ»), Qalqalah Sughra on Ṭā' («أَطْ»), Meem Sakinah Idgham Shafawi («ـهُم مِّن»), Noon Sakinah Ikhfa before Jīm («مِّن جُوعٍ»), Tanween Idgham with Ghunnah before Wāw («جُوعٍ وَ»), Madd Badal («آمَنَهُم»), second Idgham Shafawi, Noon Sakinah Izhar Halqi before throat letter Khā' («مِّنْ خَوْفٍ»), and Madd Leen when pausing on «خَوْفْ» (2, 4, or 6 counts)."
+          }
+        ]
+      },
+      "quiz": {
+        "id": "lesson-12",
+        "title": "Chapter 11: Final Tajweed Examination & Certification (الاختبار النهائي وشهادة إتمام التجويد)",
+        "passingPercentage": 80,
+        "questions": [
+          {
+            "id": "makharij-q1",
+            "sectionId": "makharij",
+            "sectionNumber": 1,
+            "sectionTitle": "Makharij Mastery (مخارج الحروف)",
+            "question": "According to Imam Ibn al-Jazari, what are the five major general articulation zones (المخارج العامة) of the Arabic sound system?",
+            "arabicPrompt": "المخارج العامة الخمسة للحروف العربية",
+            "options": [
+              "Al-Jawf (Oral Cavity), Al-Halq (Throat), Al-Lisan (Tongue), Ash-Shafatan (Lips), and Al-Khayshum (Nasal Cavity)",
+              "Al-Ra's (Head), Al-Halq (Throat), Al-Sadr (Chest), Al-Asnan (Teeth), and Al-Lisan (Tongue)",
+              "Al-Fam (Mouth), Al-Anf (Nose), Al-Udhun (Ear), Al-Hanjar (Larynx), and Al-Lisan (Tongue)",
+              "Al-Madd (Elongation), Al-Ghunnah (Nasalization), Al-Hams (Whisper), Al-Jahr (Vocalness), and Al-Qalqalah (Echo)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The classical standard formulated by Imam Al-Khalil and verified by Imam Ibn al-Jazari identifies 5 general articulation areas (المخارج العامة) containing 17 specific articulation points: 1) Al-Jawf (open interior cavity), 2) Al-Halq (throat), 3) Al-Lisan (tongue), 4) Ash-Shafatan (lips), and 5) Al-Khayshum (nasal passage)."
+          },
+          {
+            "id": "makharij-q2",
+            "sectionId": "makharij",
+            "sectionNumber": 1,
+            "sectionTitle": "Makharij Mastery (مخارج الحروف)",
+            "question": "The six throat letters are divided across three anatomical depths. Which letter pair articulates specifically from the middle of the throat (وسط الحلق)?",
+            "arabicPrompt": "حروف وسط الحلق",
+            "options": [
+              "Hamzah (ء) and Hā' (هـ)",
+              "'Ayn (ع) and Ḥā' (ح)",
+              "Ghayn (غ) and Khā' (خ)",
+              "Qāf (ق) and Kāf (ك)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'Ayn (ع) and Ḥā' (ح) articulate from the middle of the throat (Wasat Al-Halq) by constriction of the epiglottis. In contrast, Hamzah (ء) and Hā' (هـ) originate from the deepest throat (Aqsa Al-Halq), while Ghayn (غ) and Khā' (خ) originate from the closest/uppermost throat (Adna Al-Halq)."
+          },
+          {
+            "id": "makharij-q3",
+            "sectionId": "makharij",
+            "sectionNumber": 1,
+            "sectionTitle": "Makharij Mastery (مخارج الحروف)",
+            "question": "How does the articulation point of Ḍād (ض) anatomically differ from Ẓā' (ظ)?",
+            "arabicPrompt": "الفرق المخرجي الدقيق بين حرفي الضاد (ض) والظاء (ظ)",
+            "options": [
+              "Ḍād articulates from one or both lateral edges of the tongue against the upper molars, whereas Ẓā' articulates from the tip of the tongue contacting the edges of the upper two front incisors",
+              "Both letters articulate identically from the tip of the tongue against the upper gum line",
+              "Ḍād articulates from the back of the throat while Ẓā' articulates from the lips",
+              "Ḍād uses the center of the tongue against the hard palate while Ẓā' uses the nasal cavity"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Ḍād (ض) has one of the most distinctive articulation points in human phonetics: the lateral edge or edges of the tongue (حافة اللسان) pressing against the upper molars, accompanied by elongation (Istitalah). Ẓā' (ظ) is one of the three gingival/tip letters (Al-Huruf Al-Lithaweeyah: ظ، ذ، ث), produced from the tongue tip touching the edges of the upper front incisors."
+          },
+          {
+            "id": "makharij-q4",
+            "sectionId": "makharij",
+            "sectionNumber": 1,
+            "sectionTitle": "Makharij Mastery (مخارج الحروف)",
+            "question": "Which letter articulates by pressing the inner wet margin of the lower lip against the edges of the upper two front incisors?",
+            "arabicPrompt": "مخرج بطن الشفة السفلى مع أطراف الثنايا العليا",
+            "options": [
+              "Fā' (ف)",
+              "Bā' (ب)",
+              "Mīm (م)",
+              "Wāw (و)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Fā' (ف) articulates exclusively from the inner belly of the lower lip contacting the edges of the two upper central incisors (بطن الشفة السفلى مع أطراف الثنايا العليا). Bā' and Mīm articulate by closing both lips together, while vowelized/unvowelized Wāw articulates by rounding both lips with a central opening."
+          },
+          {
+            "id": "noon-q5",
+            "sectionId": "noon-sakinah",
+            "sectionNumber": 2,
+            "sectionTitle": "Noon Sakinah & Tanween (أحكام النون الساكنة والتنوين)",
+            "question": "In the phrases «مِنْ أَهْلِ» and «أَنْعَمْتَ», which rule of Noon Sakinah applies and how must the Noon be pronounced?",
+            "arabicPrompt": "مِنْ أَهْلِ الْكِتَابِ — صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+            "options": [
+              "Izhar Halqi (إظهار حلقي) — pronounce the Noon clearly from its natural makhraj without any extended nasal ghunnah",
+              "Idgham with Ghunnah — merge the Noon into the following letter with a 2-count delay",
+              "Ikhfa Haqiqi — conceal the Noon in the nasal cavity with full mouth opening",
+              "Iqlab — convert the Noon into a light Meem sound"
+            ],
+            "correctAnswer": 0,
+            "explanation": "When Noon Sakinah or Tanween is followed by one of the six throat letters (ء، هـ، ع، ح، غ، خ), it must be pronounced with Izhar Halqi (throat clarity): articulated clearly from the tongue tip and upper gums without any additional lengthening of the natural Ghunnah."
+          },
+          {
+            "id": "noon-q6",
+            "sectionId": "noon-sakinah",
+            "sectionNumber": 2,
+            "sectionTitle": "Noon Sakinah & Tanween (أحكام النون الساكنة والتنوين)",
+            "question": "The six letters of Idgham are gathered in the mnemonic «يَرْمَلُونَ». Which two letters require complete merging WITHOUT Ghunnah (إدغام بغير غنة)?",
+            "arabicPrompt": "حروف الإدغام بغير غنة",
+            "options": [
+              "Lām (ل) and Rā' (ر)",
+              "Yā' (ي) and Nūn (ن)",
+              "Mīm (م) and Wāw (و)",
+              "All six letters require Ghunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Idgham without Ghunnah occurs exclusively before Lām (ل) and Rā' (ر) (e.g. «مِن لَّدُنْهُ», «مِن رَّبِّهِمْ»). In contrast, the remaining four letters grouped in «يَنْمُو» (Yā', Nūn, Mīm, Wāw) require Idgham WITH a sustained 2-count Ghunnah."
+          },
+          {
+            "id": "noon-q7",
+            "sectionId": "noon-sakinah",
+            "sectionNumber": 2,
+            "sectionTitle": "Noon Sakinah & Tanween (أحكام النون الساكنة والتنوين)",
+            "question": "When does Iqlab (الإقلاب) occur, and what are its three exact phonetic stages in recitation?",
+            "arabicPrompt": "حكم الإقلاب وخطوات تطبيقه: مِن بَعْدِ — أَنبِئْهُم",
+            "options": [
+              "When Noon Sakinah or Tanween is followed by Bā' (ب); 1) convert the Noon into a Meem, 2) conceal the Meem, 3) sustain a 2-count Ghunnah without tight lip clamping",
+              "When Noon Sakinah is followed by Mīm; merge completely with a 4-count pause",
+              "When Tanween occurs at the end of an ayah; convert into an Alif",
+              "When Meem Sakinah is followed by Bā'; pronounce clearly with Izhar"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Iqlab occurs when Noon Sakinah or Tanween is followed by the single letter Bā' (ب). The three classical steps are: 1) Changing the Noon into an unwritten Meem (قلب النون ميماً), 2) Concealing the Meem by gently bringing the lips together without pressing firmly (إخفاء الميم), and 3) Pronouncing an audible 2-count nasal Ghunnah (غنة حركتين)."
+          },
+          {
+            "id": "noon-q8",
+            "sectionId": "noon-sakinah",
+            "sectionNumber": 2,
+            "sectionTitle": "Noon Sakinah & Tanween (أحكام النون الساكنة والتنوين)",
+            "question": "In Ikhfa Haqiqi (15 letters), what determines whether the 2-count Ghunnah is pronounced heavy (Mufakhkham) or light (Muraqqaq)?",
+            "arabicPrompt": "تفخيم وترقيق غنة الإخفاء الحقيقي: مِن قَبْلُ vs مِن كِتَابٍ",
+            "options": [
+              "The Ghunnah follows the heaviness of the following letter: heavy before the 5 heavy Ikhfa letters (ص، ض، ط، ظ، ق) and light before the other 10 letters",
+              "The Ghunnah is always heavy regardless of the following letter",
+              "The Ghunnah is always light regardless of the following letter",
+              "The vowel on the letter preceding the Noon determines the heaviness"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In Ikhfa Haqiqi, the tongue prepares at the exact point of articulation of the upcoming letter while the sound resonates in the nasal cavity. When followed by a heavy letter (ص ض ط ظ ق), the back of the tongue elevates, causing the Ghunnah to sound heavy (e.g. «مِن قَبْلُ», «مِن صَلْصَالٍ»). Before the 10 light letters, the tongue remains lowered, making the Ghunnah light (e.g. «مِن كِتَابٍ», «أَنتُمْ»)."
+          },
+          {
+            "id": "meem-q9",
+            "sectionId": "meem-qalqalah",
+            "sectionNumber": 3,
+            "sectionTitle": "Meem Sakinah & Qalqalah (الميم الساكنة والقلقلة)",
+            "question": "Meem Sakinah (مْ) has only three rules. What are they and how many Arabic letters belong to each rule?",
+            "arabicPrompt": "أحكام الميم الساكنة الثلاثة وتوزيع الحروف عليها",
+            "options": [
+              "Ikhfa Shafawi (1 letter: ب), Idgham Shafawi (1 letter: م), and Izhar Shafawi (remaining 26 letters)",
+              "Izhar Halqi (6 letters), Idgham (6 letters), and Ikhfa (15 letters)",
+              "Iqlab (1 letter), Qalqalah (5 letters), and Madd (3 letters)",
+              "Tafkhim (7 letters), Tarqiq (20 letters), and Jawaz (1 letter)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Meem Sakinah has exactly 3 rules: 1) Ikhfa Shafawi when followed by Bā' (ب) with a 2-count Ghunnah, 2) Idgham Shafawi / Idgham Mithlayn Saghir when followed by another Mīm (م) with a 2-count Ghunnah, and 3) Izhar Shafawi when followed by any of the remaining 26 letters."
+          },
+          {
+            "id": "meem-q10",
+            "sectionId": "meem-qalqalah",
+            "sectionNumber": 3,
+            "sectionTitle": "Meem Sakinah & Qalqalah (الميم الساكنة والقلقلة)",
+            "question": "Imam Al-Jamzuri warns in Tuhfat al-Atfal to be especially vigilant NOT to accidentally conceal (Ikhfa) Meem Sakinah before which two letters?",
+            "arabicPrompt": "واحذر لدى واو وفا أن تختفي / لقربها والاتحاد فاعرف",
+            "options": [
+              "Wāw (و) and Fā' (ف)",
+              "Alif (ا) and Hamzah (ء)",
+              "Qāf (ق) and Kāf (ك)",
+              "Tā' (ت) and Dāl (د)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Due to proximity in articulation with Fā' (lower lip to upper teeth) and sharing the exact same lip origin with Wāw (both lips), reciters frequently fall into the mistake of slurring or concealing the Meem. Al-Jamzuri explicitly cautioned: \"واحذر لدى واو وفا أن تختفي / لقربها والاتحاد فاعرف\" (Beware of concealing Meem before Wāw and Fā' due to proximity and sharing of articulation)."
+          },
+          {
+            "id": "meem-q11",
+            "sectionId": "meem-qalqalah",
+            "sectionNumber": 3,
+            "sectionTitle": "Meem Sakinah & Qalqalah (الميم الساكنة والقلقلة)",
+            "question": "What are the five letters of Qalqalah (قلقلة), what is their mnemonic phrase, and under what mandatory condition does Qalqalah occur?",
+            "arabicPrompt": "حروف القلقلة وشرط حدوثها",
+            "options": [
+              "Qāf, Ṭā', Bā', Jīm, Dāl (قُطْبُ جَدٍّ) — strictly when the letter carries a Sukoon (is Sakin)",
+              "Yā', Rā', Mīm, Lām, Wāw, Nūn (يَرْمَلُونَ) — when vowelled with Fat-hah",
+              "Khā', Ṣād, Ḍād, Ghayn, Ṭā', Qāf, Ẓā' (خُصَّ ضَغْطٍ قِظْ) — when carrying a Shaddah",
+              "Alif, Wāw, Yā' (حروف المد) — when prolonged for 4 counts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The five Qalqalah letters are combined in the classical mnemonic «قُطْبُ جَدٍّ» (Qaf, Taa, Ba, Jeem, Dal). Qalqalah—the echoing, rebounding vibration produced by releasing built-up pressure—activates ONLY when one of these five letters is in a state of Sukoon (سكون), whether original in the word or temporary due to stopping."
+          },
+          {
+            "id": "meem-q12",
+            "sectionId": "meem-qalqalah",
+            "sectionNumber": 3,
+            "sectionTitle": "Meem Sakinah & Qalqalah (الميم الساكنة والقلقلة)",
+            "question": "Which of the following ranks the three levels of Qalqalah from strongest acoustic resonance to lightest with correct Qur'anic examples?",
+            "arabicPrompt": "مراتب القلقلة الثلاث: الأكبر — الكبرى — الصغرى",
+            "options": [
+              "Akbar (Stopping on a doubled/shaddah letter, e.g. «وَتَبَّ», «بِالْحَقِّ») > Kubra (Stopping on a single sakin letter, e.g. «الْفَلَقِ», «أَحَدٌ») > Sughra (Sakin in the middle of a word/verse, e.g. «خَلَقْنَا», «يَقْطَعُونَ»)",
+              "Sughra (at the end) > Kubra (in the middle) > Akbar (at the beginning)",
+              "All occurrences of Qalqalah have identical acoustic intensity and cannot be ranked",
+              "Akbar (in Madd letters) > Kubra (in Tanween) > Sughra (in Noon Sakinah)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Classical Tajweed scholars categorize Qalqalah into three acoustic levels: 1) Akbar (Greatest): stopping on a doubled/mushaddad letter (holding the shaddah then releasing with maximum clarity, e.g. «وَتَبَّ»), 2) Kubra (Major): stopping on a single sakin letter at the end of a word (e.g. «مَا خَلَقْ»), and 3) Sughra (Minor): a light, brisk rebound on a sakin letter in the middle of a word or continuous speech (e.g. «يَجْعَلُونَ»)."
+          },
+          {
+            "id": "madd-q13",
+            "sectionId": "madd-tafkhim",
+            "sectionNumber": 4,
+            "sectionTitle": "Madd Timing & Tafkhim/Tarqiq (المدود والتفخيم والترقيق)",
+            "question": "What is the structural difference and obligatory ruling between Madd Muttasil (المتصل) and Madd Munfasil (المنفصل)?",
+            "arabicPrompt": "الفرق بين المد المتصل والمد المنفصل وحكم كل منهما",
+            "options": [
+              "Muttasil: Madd letter and Hamzah are inside the SAME single word (e.g. «جَاءَ», «السَّمَاءِ») — Wajib (obligatory 4–5 counts). Munfasil: Madd letter is at the end of one word and Hamzah at the start of the next (e.g. «إِنَّا أَعْطَيْنَاكَ») — Ja'iz (permissible 4–5 counts)",
+              "Muttasil is 2 counts while Munfasil is 6 counts",
+              "Muttasil occurs only due to Sukoon while Munfasil occurs only due to Hamzah",
+              "Both occur only within the same word and both are strictly 2 counts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Madd Muttasil (Connected Elongation) occurs when the Madd letter and Hamzah are united in one single word; its elongation is Wajib (compulsory 4 or 5 counts in Hafs). Madd Munfasil (Separated Elongation) occurs across two separate words, making its elongation Ja'iz (permissible 4 or 5 counts in Shatibiyyah, or 2 counts in Tayyibah)."
+          },
+          {
+            "id": "madd-q14",
+            "sectionId": "madd-tafkhim",
+            "sectionNumber": 4,
+            "sectionTitle": "Madd Timing & Tafkhim/Tarqiq (المدود والتفخيم والترقيق)",
+            "question": "In words like «الضَّالِّينَ» and «الْحَاقَّةُ», what type of Madd occurs and what is its exact mandatory duration?",
+            "arabicPrompt": "نوع ومقدار المد في «وَلَا الضَّالِّينَ» و«الْحَاقَّةُ»",
+            "options": [
+              "Madd Lazim (المد اللازم) — Compulsory 6 counts (حركات 6) due to an original permanent Sukoon / Shaddah following the Madd letter",
+              "Madd Asli (المد الأصلي) — 2 counts",
+              "Madd Munfasil (المد المنفصل) — 4 counts",
+              "Madd Aridh li-Sukun (المد العارض للسكون) — Optional 2, 4, or 6 counts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Madd Lazim (Compulsory Elongation) occurs when a Madd letter is followed by an original, permanent Sukoon (here incorporated into a doubled/mushaddad letter: Lām in «الضَّالِّينَ» and Qāf in «الْحَاقَّةُ»). All recitation imams unanimously mandate holding it for the full duration of 6 counts (6 Harakat)."
+          },
+          {
+            "id": "madd-q15",
+            "sectionId": "madd-tafkhim",
+            "sectionNumber": 4,
+            "sectionTitle": "Madd Timing & Tafkhim/Tarqiq (المدود والتفخيم والترقيق)",
+            "question": "Which seven Arabic letters are permanently heavy (Tafkhim / Isti'la) under all vowel conditions, elevating the back of the tongue toward the palate?",
+            "arabicPrompt": "حروف الاستعلاء والتفخيم الدائم السبعة",
+            "options": [
+              "Khā', Ṣād, Ḍād, Ghayn, Ṭā', Qāf, Ẓā' — grouped in «خُصَّ ضَغْطٍ قِظْ»",
+              "Qāf, Ṭā', Bā', Jīm, Dāl — grouped in «قُطْبُ جَدٍّ»",
+              "Yā', Rā', Mīm, Lām, Wāw, Nūn — grouped in «يَرْمَلُونَ»",
+              "Hamzah, Hā', 'Ayn, Ḥā', Ghayn, Khā' — the six throat letters"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The seven letters of «خُصَّ ضَغْطٍ قِظْ» (Kha, Saad, Daad, Ghayn, Taa, Qaf, Zhaa) possess the intrinsic quality of Isti'la (elevation of the posterior tongue). They are pronounced heavy (Mufakhkham) in all positions and with all vowels, with the four Itbaq letters (ط، ض، ص، ظ) exhibiting the strongest heaviness."
+          },
+          {
+            "id": "madd-q16",
+            "sectionId": "madd-tafkhim",
+            "sectionNumber": 4,
+            "sectionTitle": "Madd Timing & Tafkhim/Tarqiq (المدود والتفخيم والترقيق)",
+            "question": "When is the letter Lām (ل) pronounced heavy (Mufakhkham) in the Majestic Name of Allah («اللَّه» / «اللَّهُمَّ»)?",
+            "arabicPrompt": "حكم لام لفظ الجلالة (اللَّه) تفخيماً وترقيقاً",
+            "options": [
+              "When the letter preceding the Name of Allah carries a Fat-hah (َ) or Ḍammah (ُ) (e.g. «قَالَ اللَّهُ», «نَصْرُ اللَّهِ»); it is light only when preceded by a Kasrah (ِ) (e.g. «بِسْمِ اللَّهِ»)",
+              "The Lām of Allah is always pronounced light in every Quranic context",
+              "The Lām is heavy only when preceded by a Kasrah",
+              "The Lām is heavy only when followed by another heavy letter"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The Lām in Lafz Al-Jalalah (لفظ الجلالة: اللَّه / اللَّهُمَّ) is uniquely characterized by conditional heaviness: if preceded by a Fat-hah (َ) or Ḍammah (ُ), it is pronounced heavy (Tafkhim). If preceded by an original or temporary Kasrah (ِ), it must be pronounced light (Tarqiq, as in «بِسْمِ اللَّهِ»)."
+          },
+          {
+            "id": "complete-q17",
+            "sectionId": "complete-knowledge",
+            "sectionNumber": 5,
+            "sectionTitle": "Complete Tajweed Knowledge (صفات الحروف والوقف والابتداء)",
+            "question": "The characteristic of Hams (الهَمْس) involves the continuation of breath during letter pronunciation due to weak reliance on the makhraj. What are its 10 letters?",
+            "arabicPrompt": "حروف صفة الهمس العشرة في بيت ابن الجزري",
+            "options": [
+              "«فَحَثَّهُ شَخْصٌ سَكَتَ» (Fā', Ḥā', Thā', Hā', Shīn, Khā', Ṣād, Sīn, Kāf, Tā')",
+              "«أَجِدْ قَطٍ بَكَتْ»",
+              "«لِنْ عُمَر»",
+              "«خُصَّ ضَغْطٍ قِظْ»"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The 10 letters of Hams (whisper/continuation of airflow) are combined in Imam Ibn al-Jazari's famous mnemonic: «فَحَثَّهُ شَخْصٌ سَكَتَ». All remaining 18 Arabic letters possess the opposing characteristic of Jahr (الجهر - trapping and cessation of breath)."
+          },
+          {
+            "id": "complete-q18",
+            "sectionId": "complete-knowledge",
+            "sectionNumber": 5,
+            "sectionTitle": "Complete Tajweed Knowledge (صفات الحروف والوقف والابتداء)",
+            "question": "Which letters possess the whistling quality (الصفير) and which letter is uniquely characterized by continuous extension along its edge (الاستطالة)?",
+            "arabicPrompt": "صفتا الصفير والاستطالة",
+            "options": [
+              "Safir (Whistle) belongs to (Ṣād ص, Zāy ز, Sīn س); Istitalah (Elongation) belongs exclusively to Ḍād (ض)",
+              "Safir belongs to (Qāf, Kāf); Istitalah belongs to (Lām, Rā')",
+              "Safir belongs to (Thā', Dhāl, Ẓā'); Istitalah belongs to (Shīn)",
+              "Safir belongs to (Mīm, Nūn); Istitalah belongs to (Wāw, Yā')"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As-Safir (الصفير - a sharp whistling acoustic tone resembling a bird) is an intrinsic attribute of Ṣād (ص), Zāy (ز), and Sīn (س). Al-Istitalah (الاستطالة - the gradual forward extension of sound and tongue contact from the molar edge to the premolar) belongs solely to the letter Ḍād (ض)."
+          },
+          {
+            "id": "complete-q19",
+            "sectionId": "complete-knowledge",
+            "sectionNumber": 5,
+            "sectionTitle": "Complete Tajweed Knowledge (صفات الحروف والوقف والابتداء)",
+            "question": "In standard Qur'anic printings (Mushaf), what do the stopping symbols (مـ) and (لا) indicate to the reciter?",
+            "arabicPrompt": "علامات الوقف في المصحف الشريف: علامتا (مـ) و(لا)",
+            "options": [
+              "(مـ) denotes a Compulsory/Mandatory Stop (وقف لازم) to avoid distorting theological meaning; (لا) denotes a Prohibited Stop (لا تقف) where stopping breaks the sentence structure",
+              "(مـ) denotes an optional pause; (لا) denotes repeating the entire surah",
+              "(مـ) denotes Meem Sakinah; (لا) denotes reciting without any breath",
+              "(مـ) denotes 6 counts elongation; (لا) denotes zero counts elongation"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The small horizontal meem (مـ) signifies Waqf Lazim (Mandatory Stop), where continuing would connect two unrelated sentences and corrupt the meaning (e.g. Surah Yasin 36:76). The sign (لا) signifies Waqf Mamnu' (Prohibited Stop), because stopping leaves the grammatical clause incomplete and potentially misleading."
+          },
+          {
+            "id": "complete-q20",
+            "sectionId": "complete-knowledge",
+            "sectionNumber": 5,
+            "sectionTitle": "Complete Tajweed Knowledge (صفات الحروف والوقف والابتداء)",
+            "question": "When pausing or stopping on a word ending with Tā' Marbūṭah (ة / ـة), such as «الْقَارِعَةُ» or «رَحْمَةً», how must it be vocalized?",
+            "arabicPrompt": "حكم الوقف على التاء المربوطة (ة): الْقَارِعَةُ — رَحْمَةً",
+            "options": [
+              "It converts completely into a pure Hā' Sakinah (هْ) with gentle Hams breath",
+              "It is pronounced as a clear Tā' Sakinah (تْ)",
+              "It is pronounced with a 2-count Tanween sound",
+              "It is dropped silently without any audible sound"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In Qur'anic recitation and Arabic phonology, stopping on Tā' Marbūṭah (ة) requires transforming it into a voiceless Hā' Sakinah (هْ) with gentle breath continuation (Hams). This distinguishes it from open Tā' Mabsūṭah (ت), which remains a clear Tā' Sakinah with an explosive whisper upon pause."
+          },
+          {
+            "id": "recitation-q21",
+            "sectionId": "recitation",
+            "sectionNumber": 6,
+            "sectionTitle": "Practical Recitation Assessment (التطبيق العملي في الآيات القرآنية)",
+            "question": "In the verses «قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ», what Tajweed rules apply to the Lām of «اللَّهُ» and the final Dāl of «أَحَدٌ» when pausing?",
+            "arabicPrompt": "قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ",
+            "options": [
+              "Tafkhim (heaviness) of the Lām due to the preceding Fat-hah on «هُوَ», and Qalqalah Kubra on the Dāl when pausing on «أَحَدْ»",
+              "Tarqiq (lightness) of the Lām and no Qalqalah on the Dāl",
+              "Idgham of Noon and Madd Lazim on the Name of Allah",
+              "Ikhfa Shafawi on Huwa and Iqlab on Ahad"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In «هُوَ اللَّهُ», the word «هُوَ» ends with a Fat-hah (وَ), requiring the Lām of Allah to be pronounced with heaviness (Tafkhim). When stopping at the verse boundary on «أَحَدٌ», the tanween drops and the Dāl becomes sakin, triggering Qalqalah Kubra (Major Echo) at the verse end."
+          },
+          {
+            "id": "recitation-q22",
+            "sectionId": "recitation",
+            "sectionNumber": 6,
+            "sectionTitle": "Practical Recitation Assessment (التطبيق العملي في الآيات القرآنية)",
+            "question": "In the verse «مِن شَرِّ مَا خَلَقَ», identify the two prominent Tajweed rules applied on «مِن شَرِّ» and «خَلَقَ» (upon pause):",
+            "arabicPrompt": "مِن شَرِّ مَا خَلَقَ — سورة الفلق",
+            "options": [
+              "Ikhfa Haqiqi with light Ghunnah on «مِن شَرِّ» (Noon before Shīn), and Qalqalah Kubra with Tafkhim of Qāf on «خَلَقْ» upon stopping",
+              "Izhar Halqi on «مِن شَرِّ» and Madd Muttasil on «خَلَقَ»",
+              "Idgham without Ghunnah on «مِن شَرِّ» and Iqlab on «خَلَقَ»",
+              "Meem Sakinah Izhar on «مِن شَرِّ» and Tarqiq of Qāf on «خَلَقَ»"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In «مِن شَرِّ», Noon Sakinah is followed by Shīn (ش), one of the 15 Ikhfa letters; since Shīn is a light letter, the 2-count Ghunnah is Muraqqaq (light). In «خَلَقَ», pausing renders the final Qāf (ق) sakin, activating Qalqalah Kubra with full posterior tongue elevation (Tafkhim)."
+          },
+          {
+            "id": "recitation-q23",
+            "sectionId": "recitation",
+            "sectionNumber": 6,
+            "sectionTitle": "Practical Recitation Assessment (التطبيق العملي في الآيات القرآنية)",
+            "question": "In the verse «تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ», which rules apply sequentially to «يَدَا أَبِي», «لَهَبٍ وَ», and the final «وَتَبَّ» upon pause?",
+            "arabicPrompt": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ — سورة المسد",
+            "options": [
+              "Madd Munfasil (4–5 counts) on «يَدَا أَبِي», Idgham with Ghunnah on «لَهَبٍ وَ», and Qalqalah Akbar (highest level on doubled Bā') on «وَتَبَّ»",
+              "Madd Muttasil, Izhar Halqi, and Qalqalah Sughra",
+              "Madd Asli, Iqlab, and Madd Lazim",
+              "Madd Aridh, Idgham without Ghunnah, and Ikhfa Shafawi"
+            ],
+            "correctAnswer": 0,
+            "explanation": "«يَدَا أَبِي» features Madd Munfasil (Alif at the end of «يَدَا» and Hamzah starting «أَبِي»). «لَهَبٍ وَ» applies Idgham with a 2-count Ghunnah (Tanween followed by Wāw). Pausing on «وَتَبَّ» stops on a doubled/mushaddad Bā', representing Qalqalah Akbar—the highest intensity of echoing articulation."
+          },
+          {
+            "id": "recitation-q24",
+            "sectionId": "recitation",
+            "sectionNumber": 6,
+            "sectionTitle": "Practical Recitation Assessment (التطبيق العملي في الآيات القرآنية)",
+            "question": "In the verse «الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ», which comprehensive sequence of rules appears sequentially?",
+            "arabicPrompt": "الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ — سورة قريش",
+            "options": [
+              "Madd Munfasil («الَّذِي أَ»), Qalqalah Sughra («أَطْ»), Idgham Shafawi («ـهُم مِّن»), Ikhfa Haqiqi («مِّن جُوعٍ»), Idgham with Ghunnah («جُوعٍ وَ»), Madd Badal («وَآمَنَهُم»), Idgham Shafawi («ـهُم مِّنْ»), Izhar Halqi («مِّنْ خَوْفٍ»), and Madd Leen upon pause («خَوْفْ»)",
+              "Only Izhar Halqi applied repeatedly across every single word",
+              "Only Qalqalah and Madd Lazim with no nasal Ghunnah rules",
+              "No Tajweed rules apply to short surahs like Surah Quraysh"
+            ],
+            "correctAnswer": 0,
+            "explanation": "This magnificent ayah synthesizes virtually all foundational rules taught across the course: Madd Munfasil («الَّذِي أَ»), Qalqalah Sughra on Ṭā' («أَطْ»), Meem Sakinah Idgham Shafawi («ـهُم مِّن»), Noon Sakinah Ikhfa before Jīm («مِّن جُوعٍ»), Tanween Idgham with Ghunnah before Wāw («جُوعٍ وَ»), Madd Badal («آمَنَهُم»), second Idgham Shafawi, Noon Sakinah Izhar Halqi before throat letter Khā' («مِّنْ خَوْفٍ»), and Madd Leen when pausing on «خَوْفْ» (2, 4, or 6 counts)."
+          }
+        ]
+      },
+      "archivedSmallLessons": [
+        {
+          "id": "tajweed-ch12-l1",
+          "number": 1,
+          "title": "Makharij Mastery Evaluation",
+          "subtitle": "Checkpoint on all 5 vocal zones",
+          "readingTime": "4 min",
+          "explanation": "This checkpoint tests your knowledge of the 5 articulation zones: Al-Jawf (open cavity), Al-Halq (throat), Al-Lisan (tongue), Ash-Shafatan (lips), and Al-Khayshum (nasal cavity).",
+          "keyPoints": [
+            "Know the exact origin of all 28 letters.",
+            "Understand the 3 throat levels and 4 lip letters.",
+            "Identify Ghunnah and Madd origins."
+          ],
+          "audio": {
+            "arabicText": "أَبْ أَتْ أَثْ أَجْ أَحْ أَخْ أَدْ أَذْ أَرْ أَزْ أَسْ أَشْ أَصْ أَضْ أَطْ أَظْ أَعْ أَغْ أَفْ أَقْ أَكْ أَلْ أَمْ أَنْ أَهْ أَوْ أَيْ",
+            "phonetic": "The complete 28 Makharij checkpoints",
+            "description": "Listen to the complete 28 letter Makharij reference."
+          },
+          "examples": [
+            {
+              "arabic": "ع vs ح",
+              "label": "Mid-throat",
+              "sound": "Middle of throat letters"
+            }
+          ],
+          "practice": "Review the 5 general Makharij zones before taking the challenge.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "From where does the letter 'Ghayn' (غ) articulate?",
+            "options": [
+              "Deepest part of the throat near vocal cords",
+              "Closest part of the throat near the back of the mouth (Adnal-Halq)",
+              "The tip of the tongue",
+              "Both lips closed"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Ghayn (غ) originates from the closest top part of the throat (Adnal-Halq)."
+          }
+        },
+        {
+          "id": "tajweed-ch12-l2",
+          "number": 2,
+          "title": "Noon Sakinah & Tanween Comprehensive Test",
+          "subtitle": "Classifying Izhar, Idgham, Iqlab, and Ikhfa",
+          "readingTime": "4 min",
+          "explanation": "Test your mastery of classifying all 28 letters under Noon Sakinah and Tanween: 6 for Izhar, 6 for Idgham, 1 for Iqlab, and 15 for Ikhfa.",
+          "keyPoints": [
+            "Izhar = 6 (ء هـ ع ح غ خ)",
+            "Idgham = 6 (ي ر م ل و ن)",
+            "Iqlab = 1 (ب)",
+            "Ikhfa = 15 remaining"
+          ],
+          "audio": {
+            "arabicText": "مَنْ آمَنَ - مَن يَقُولُ - مِـن بَعْدِ - مِن قَبْلُ",
+            "phonetic": "Izhar, Idgham, Iqlab, Ikhfa",
+            "description": "Listen to the 4 rules demonstrated side by side."
+          },
+          "examples": [
+            {
+              "arabic": "مَن يَقُولُ",
+              "label": "Idgham",
+              "sound": "May-yaqoolu"
+            }
+          ],
+          "practice": "Categorize: 'مِنْ خَوْفٍ' (Izhar), 'مِـن بَعْدِ' (Iqlab), 'مَن يَعْمَلْ' (Idgham), 'كُنتُمْ' (Ikhfa).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "In the phrase 'مِنْ خَوْفٍ', which rule applies?",
+            "options": [
+              "Idgham with Ghunnah",
+              "Izhar Halqi (Clear Noon before Kha)",
+              "Iqlab",
+              "Ikhfa"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'مِنْ خَوْفٍ' is Izhar Halqi because Noon Sakinah is followed by the throat letter Kha (خ)."
+          }
+        },
+        {
+          "id": "tajweed-ch12-l3",
+          "number": 3,
+          "title": "Meem Sakinah & Qalqalah Assessment",
+          "subtitle": "Testing labial rules and echoing bounces",
+          "readingTime": "4 min",
+          "explanation": "Review Meem Sakinah (Ikhfa Shafawi before Ba, Idgham Shafawi before Meem, Izhar Shafawi before all 26 other letters) and Qalqalah (ق ط ب ج د - Minor in mid-words, Major at stops).",
+          "keyPoints": [
+            "Meem + Ba = Ikhfa Shafawi.",
+            "Meem + Meem = Idgham Shafawi.",
+            "Qalqalah = ق ط ب ج د.",
+            "Minor = mid-word; Major = verse stop."
+          ],
+          "audio": {
+            "arabicText": "تَرْمِيهِم بِحِجَارَةٍ - لَهُم مَّا يَشَاءُونَ - قُلْ هُوَ اللَّهُ أَحَدْ",
+            "phonetic": "Ikhfa Shafawi, Idgham Shafawi, Qalqalah Kubra",
+            "description": "Listen to Meem rules and Qalqalah in combination."
+          },
+          "examples": [
+            {
+              "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
+              "label": "Ikhfa Shafawi",
+              "sound": "Tarmeehimmm-bi-hijarah"
+            }
+          ],
+          "practice": "Recite 'أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ' identifying all Meem and Qalqalah rules.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which rule applies in 'لَهُم مَّغْفِرَةٌ'?",
+            "options": [
+              "Izhar Shafawi",
+              "Idgham Shafawi (Merging two Meems with 2-count Ghunnah)",
+              "Qalqalah",
+              "Madd Lazim"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Meem Sakinah followed by another Meem is Idgham Shafawi with a 2-count Ghunnah."
+          }
+        },
+        {
+          "id": "tajweed-ch12-l4",
+          "number": 4,
+          "title": "Madd Timing & Tafkhim/Tarqiq Assessment",
+          "subtitle": "Evaluating counts (2, 4/5, 6) and heavy/light rules",
+          "readingTime": "4 min",
+          "explanation": "Review elongation rules (Asli 2 counts, Muttasil/Munfasil 4-5 counts, Lazim 6 counts) and heavy letters (خ ص ض غ ط ق ظ, Name of Allah, and Ra rules).",
+          "keyPoints": [
+            "Madd Asli = 2 counts; Lazim = 6 counts.",
+            "7 Always Heavy: خ ص ض غ ط ق ظ.",
+            "Name of Allah: Heavy after Fat-hah/Dammah; Light after Kasrah.",
+            "Ra: Heavy with Fat-hah/Dammah; Light with Kasrah."
+          ],
+          "audio": {
+            "arabicText": "قَالَ - جَاءَ - الضَّالِّينَ - بِسْمِ اللَّهِ - شَهِدَ اللَّهُ",
+            "phonetic": "Madd and Heaviness Reference",
+            "description": "Listen to the complete spectrum of Madd counts and heaviness."
+          },
+          "examples": [
+            {
+              "arabic": "الضَّالِّينَ",
+              "label": "Madd Lazim (6)",
+              "sound": "6 counts + Shaddah"
+            }
+          ],
+          "practice": "Recite 'إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ' applying 4 counts on 'Innaaa' and heavy Ra on 'Al-Kawthar'.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "In the word 'جَاءَ' (Jaaa'a), what type of Madd occurs and what is its count duration?",
+            "options": [
+              "Madd Asli (2 counts)",
+              "Madd Muttasil in a single word (4 to 5 counts)",
+              "Madd Lazim (6 counts)",
+              "Madd 'Iwad (1 count)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "'جَاءَ' is Madd Muttasil (Madd letter and Hamzah in the same word), taking 4 to 5 counts."
+          }
+        },
+        {
+          "id": "tajweed-ch12-l5",
+          "number": 5,
+          "title": "Complete Capstone Recitation Review",
+          "subtitle": "Synthesizing all 12 chapters into fluent recitation",
+          "readingTime": "5 min",
+          "explanation": "You have journeyed from the Arabic alphabet and Makharij to Noon & Meem rules, Madd elongation, Tafkhim/Tarqiq, and Waqf stops. Recite Surah Al-Fatihah, Surah Al-Ikhlas, and Surah Al-Falaq as your comprehensive capstone practical presentation.",
+          "keyPoints": [
+            "Complete Tajweed synthesis achieved.",
+            "Recite with confidence, humility, and beauty.",
+            "Maintain daily recitation habits to keep your Tajweed sharp."
+          ],
+          "audio": {
+            "arabicText": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ... وَلَا الضَّالِّينَ",
+            "phonetic": "Complete Surah Al-Fatihah Master Recitation",
+            "description": "Listen to the complete Surah Al-Fatihah recited to perfection."
+          },
+          "examples": [
+            {
+              "arabic": "تَمَّ بِحَمْدِ اللَّهِ",
+              "label": "Completion",
+              "sound": "Completed by the Grace of Allah"
+            }
+          ],
+          "practice": "Recite Surah Al-Fatihah from memory observing every single rule you have learned.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the best way to maintain and deepen your Tajweed mastery after completing this course?",
+            "options": [
+              "Never practice again",
+              "Recite the Holy Qur'an daily with conscious Tajweed application and continue listening to master reciters",
+              "Only read translations",
+              "Memorize without applying pronunciation rules"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Daily deliberate recitation applying Tajweed rules and listening to master reciters cements lifelong mastery."
+          }
+        },
+        {
+          "id": "tajweed-ch12-l6",
+          "number": 6,
+          "title": "Course Completion & Milestone Achievement",
+          "subtitle": "Claim your official FAHMRISE Verified Certificate of Completion",
+          "readingTime": "3 min",
+          "explanation": "Mabruk! Congratulations! You have successfully completed all 13 chapters and 68 small lessons of Ahkam Al-Tajweed (أحكام التجويد). You are now eligible to claim your official, verifiable FAHMRISE Certificate of Completion in Ahkam Al-Tajweed with Distinction. Understand. Learn. Rise.",
+          "keyPoints": [
+            "100% Course Milestones Completed ✓",
+            "Makharij, Noon, Meem, Madd, Tafkhim, and Waqf Mastered ✓",
+            "Official FAHMRISE Credential Available to Claim."
+          ],
+          "audio": {
+            "arabicText": "الْحَمْدُ لِلَّهِ الَّذِي بِنِعْمَتِهِ تَتِمُّ الصَّالِحَاتُ",
+            "phonetic": "Al-hamdu lillahi-lladhi bi-ni'matihi tatimmu-s-saalihaat",
+            "description": "All praise is due to Allah, by Whose grace all good deeds are completed."
+          },
+          "examples": [
+            {
+              "arabic": "شَهَادَةُ التَّخَرُّجِ",
+              "label": "Verified Credential",
+              "sound": "Certificate of Completion"
+            }
+          ],
+          "practice": "Enter your full name in the certificate generator to receive your official verified credential.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the motto and tagline of FAHMRISE?",
+            "options": [
+              "Read. Memorize. Repeat.",
+              "Understand. Learn. Rise.",
+              "Code. Deploy. Scale.",
+              "Study. Pass. Forget."
+            ],
+            "correctAnswer": 1,
+            "explanation": "The motto of FAHMRISE is: 'Understand. Learn. Rise.'"
+          }
+        }
+      ],
+      "aliases": [
+        "lesson-12",
+        "tajweed-ch12",
+        "tajweed-ch11",
+        "tajweed-final-exam",
+        "final-exam",
+        "tajweed-exam"
+      ]
+    }
+  ],
+  "arabicTitle": "أحكام التجويد",
+  "foundationalAlphabet": {
+    "id": "lesson-intro-alphabet",
+    "number": 0,
+    "title": "Foundations: Introduction to Arabic Letters (The 28 Consonants)",
+    "subtitle": "The 28 Foundational Consonants, Letter Shapes, Dot Distinctions, and Harakat",
+    "readingTime": "45 min",
+    "aliases": [
+      "intro-letters",
+      "alphabet-foundations",
+      "foundational-alphabet",
+      "lesson-alphabet"
+    ],
+    "videoLesson": {
+      "videoId": "ZwgM-1M_J7o",
+      "title": "EASIEST 'Hams' Explanation | Sifaat Al-huruf Lesson 1 | Arabic101",
+      "channel": "Arabic 101"
+    },
+    "summary": "Master the science of Sifat Al-Huruf: opposite pairs, non-opposite attributes, the Seven Steps to pronouncing Ḍād (ض), and comprehensive letter profiling.",
+    "smallLessons": [
+      {
+        "id": "tajweed-ch2-l1",
+        "aliases": [
+          "tajweed-sifaat-l1",
+          "tajweed-sifaat-l2",
+          "tajweed-sifaat-l3"
+        ],
+        "number": 1,
+        "title": "Introduction to Sifat & The Breath Attributes (Hams & Jahr — الهمس والجهر)",
+        "subtitle": "Why letters need characteristics and how breath flow distinguishes them",
+        "readingTime": "6 min",
+        "arabic": "الْهَمْسُ وَالْجَهْرُ",
+        "transliteration": "Al-Hams wa Al-Jahr",
+        "makhraj": "Acoustic characteristic governing continuous breath vs. trapped breath.",
+        "sound": "Hams (فحثه شخص سكت) vs. Jahr (Remaining 18 letters)",
+        "videoLesson": {
+          "videoId": "ZwgM-1M_J7o",
+          "title": "EASIEST 'Hams' Explanation | Sifaat Al-huruf Lesson 1 | Arabic101",
+          "channel": "Arabic 101",
+          "shortTitle": "Lesson 1: Hams & Jahr"
+        },
+        "explanation": "While Makharij (مَخَارِج) identifies *where* a letter is born in the vocal tract, **Sifāt (صِفَات — Characteristics)** governs *how* the sound behaves when released — its acoustic texture, breath flow, vocal pitch, and muscular tension.\n\n### Why Sifāt Are Indispensable\nTwo or more letters frequently share the exact same physical Makhraj (e.g., `ت` and `ط`, or `س` and `ص`). Without Sifāt, they would sound identical. Sifāt is the acoustic fingerprint that distinguishes every letter.\n\n### Permanent (Lāzimah) vs. Conditional (‘Āriḍah) Sifāt\n- **Permanent Attributes (صِفَاتٌ لاَزِمَةٌ):** Inherent traits never leaving the letter (e.g., Hams, Shiddah, Qalqalah).\n- **Conditional Attributes (صِفَاتٌ عَارِضَةٌ):** Contextual rules occurring only under specific grammatical environments (e.g., Ghunnah timing, Tafkhim of Lām in 'Allāh').\n\n### The First Pair of Opposites: Breath Flow (الجَرَيَانُ النَّفَسِي)\n1. **Al-Hams (الْهَمْسُ — Whispering / Breath Flow):**\n   - **Definition:** The continuation of exhaled breath through the vocal tract when articulating the letter due to weak reliance on the Makhraj.\n   - **The 10 Letters of Hams:** United in the famous classical mnemonic: **`فَحَثَّهُ شَخْصٌ سَكَتَ`** (*Fa-ḥath-thahu shakh-sun sakat* — Fā', Ḥā', Thā', Hā', Shīn, Khā', Ṣād, Sīn, Kāf, Tā').\n   - **The Hand Test:** Hold the palm of your hand 2 inches in front of your mouth and pronounce `أَفْ`, `أَسْ`, `أَكْ`, `أَتْ`. You will feel a warm puff of air striking your hand.\n\n2. **Al-Jahr (الْجَهْرُ — Vocal Resonance / Trapped Breath):**\n   - **Definition:** The imprisonment of breath flow due to strong reliance on the Makhraj and full vocal cord vibration.\n   - **Letters:** The remaining **18 letters** (e.g., Bā', Jīm, Dāl, 'Ayn, etc.). Little to no exhaled breath escapes.",
+        "keyPoints": [
+          "Makhraj is where the letter forms; Sifah is how the letter sounds and behaves.",
+          "Sifāt distinguish letters that share identical articulation points (e.g. ت vs ط).",
+          "Hams (الهمس) means continuous breath flow across 10 letters: فَحَثَّهُ شَخْصٌ سَكَتَ.",
+          "Jahr (الجهر) means trapped breath flow across the remaining 18 voiced consonants."
+        ],
+        "examples": [
+          {
+            "arabic": "فَحَثَّهُ شَخْصٌ سَكَتَ",
+            "transliteration": "Fa-ḥath-thahu shakh-sun sakat",
+            "label": "Mnemonic containing all 10 letters of Hams",
+            "sound": "Fa-hath-thahu shakh-sun sa-kat"
+          },
+          {
+            "arabic": "أَفْ - أَحْ - أَثْ",
+            "transliteration": "Af - Aḥ - Ath",
+            "label": "Continuous soft breath flow (Hams)",
+            "sound": "Af - Ah - Ath"
+          },
+          {
+            "arabic": "أَبْ - أَدْ - أَجْ",
+            "transliteration": "Ab - Ad - Aj",
+            "label": "Imprisoned breath with vocal resonance (Jahr)",
+            "sound": "Ab - Ad - Aj"
+          },
+          {
+            "arabic": "الْكَوْثَرَ",
+            "transliteration": "Al-Kawthar",
+            "label": "Kāf (ك) and Thā' (ث) showing clear Hams",
+            "sound": "Al-Kaw-thar"
+          }
+        ],
+        "practice": "Hold your palm before your lips and pronounce \"أَسْ\" (feel the breath stream) vs \"أَزْ\" (feel the vibration without escaping breath).",
+        "challenge": {
+          "type": "multiple-choice",
+          "question": "Which classical phrase unites all 10 letters of Al-Hams (breath flow)?",
+          "options": [
+            "فَحَثَّهُ شَخْصٌ سَكَتَ (Fa-ḥath-thahu shakhṣun sakat)",
+            "أَجِدْ قَطٍ بَكَتْ (Ajid qaṭin bakat)",
+            "خُصَّ ضَغْطٍ قِظْ (Khuṣṣa ḍaghṭin qiẓ)",
+            "قُطْبُ جَدٍّ (Quṭbu jaddin)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The 10 letters of Hams are united in \"فَحَثَّهُ شَخْصٌ سَكَتَ\" (Fā', Ḥā', Thā', Hā', Shīn, Khā', Ṣād, Sīn, Kāf, Tā')."
+        }
+      },
+      {
+        "id": "tajweed-ch2-l2",
+        "aliases": [
+          "tajweed-sifaat-sound-flow"
+        ],
+        "number": 2,
+        "title": "Sound Flow Attributes: Shiddah, Rakhawah & Bayniyyah (الشدة والرخاوة والبينية)",
+        "subtitle": "Explosive blockage, moderate flow, and continuous sound acoustics",
+        "readingTime": "6 min",
+        "arabic": "الشِّدَّةُ وَالرَّخَاوَةُ وَالْبَيْنِيَّةُ",
+        "transliteration": "Ash-Shiddah wa Ar-Rakhāwah",
+        "makhraj": "Acoustic characteristic governing sound blockage vs. sound continuation.",
+        "sound": "Shiddah (أجد قط بكت) • Bayniyyah (لن عمر) • Rakhawah (16 letters)",
+        "videoLesson": {
+          "videoId": "LeWwxpm_Lzw",
+          "title": "THAT's why Qalqalah exists | Sifaat Lesson 2 | Arabic101",
+          "channel": "Arabic 101",
+          "shortTitle": "Lesson 2: Sound Flow & Qalqalah"
+        },
+        "explanation": "While Hams and Jahr govern **breath flow (نَفَس)**, this category governs **sound continuation (صَوْت)**. When a letter is pronounced with Sukoon, does the audible sound freeze instantly, flow continuously, or take a balanced middle path?\n\n### 1. Ash-Shiddah (الشِّدَّةُ — Explosive Blockage / Trapped Sound)\n- **Definition:** The complete cessation and imprisonment of sound behind the articulation point due to total physical closure.\n- **The 8 Letters of Shiddah:** Mnemonic: **`أَجِدْ قَطٍ بَكَتْ`** (*Ajid qaṭin bakat* — Hamzah, Jīm, Dāl, Qāf, Ṭā', Bā', Kāf, Tā').\n- **The Mechanical Problem of Shiddah:** Because the sound is completely locked inside, releasing the letter comfortably requires an acoustic mechanism:\n  - For **`ق ، ط ، ب ، ج ، د`**: Sound is released via **Qalqalah (echoing bounce)**!\n  - For **`ك ، ت`**: Sound blockage is released via **Hams (whispered puff of air)**!\n\n### 2. At-Tawassuṭ / Al-Bayniyyah (التَّوَسُّطُ / الْبَيْنِيَّةُ — Moderate Flow)\n- **Definition:** A moderate, intermediate sound flow between complete blockage and full continuation.\n- **The 5 Letters of Bayniyyah:** Mnemonic: **`لِنْ عُمَرْ`** (*Lin ‘Umar* — Lām, Nūn, 'Ayn, Mīm, Rā').\n- **Acoustic Feel:** The primary articulation closes partially, while sound continues smoothly through an alternate route (e.g., Nūn and Mīm flow through the nose; Lām flows around the tongue sides; 'Ayn flows through partial epiglottis narrowing).\n\n### 3. Ar-Rakhāwah (الرَّخَاوَةُ — Continuous Flow / Sustained Sound)\n- **Definition:** The continuous, unimpeded running of sound through the Makhraj without obstruction.\n- **Letters:** The remaining **16 consonants** (e.g., Sīn, Shīn, Ṣād, Dhāl, Thā', Fā', Khā', etc.).\n- **Timing:** On Sukoon, Rakhāwah letters naturally endure slightly longer in duration than Shiddah letters (`الرَّحْمَٰنِ`, `يَسْتَبْشِرُونَ`).",
+        "keyPoints": [
+          "Sound flow has 3 tiers: Shiddah (8 letters), Bayniyyah (5 letters), Rakhāwah (16 letters).",
+          "Shiddah (أَجِدْ قَطٍ بَكَتْ) completely traps sound, necessitating Qalqalah (ق، ط، ب، ج، د) or Hams (ك، ت).",
+          "Bayniyyah (لِنْ عُمَرْ) exhibits moderate flow via secondary acoustic channels.",
+          "Rakhāwah letters sustain sound continuation naturally on Sukoon."
+        ],
+        "examples": [
+          {
+            "arabic": "أَجِدْ قَطٍ بَكَتْ",
+            "transliteration": "Ajid qaṭin bakat",
+            "label": "The 8 letters of Shiddah (trapped sound)",
+            "sound": "A-jid qa-tin ba-kat"
+          },
+          {
+            "arabic": "لِنْ عُمَرْ",
+            "transliteration": "Lin ‘Umar",
+            "label": "The 5 letters of Bayniyyah (intermediate flow)",
+            "sound": "Lin U-mar"
+          },
+          {
+            "arabic": "يَجْعَلُونَ",
+            "transliteration": "Yaj'alūn",
+            "label": "Jīm (Shiddah + Qalqalah) vs 'Ayn (Bayniyyah)",
+            "sound": "Yaj-a-loon"
+          },
+          {
+            "arabic": "يَسْتَبْشِرُونَ",
+            "transliteration": "Yastabshirūn",
+            "label": "Sīn (Rakhāwah sound flow) vs Bā' (Shiddah)",
+            "sound": "Yas-tab-shi-roon"
+          }
+        ],
+        "practice": "Pronounce \"أَسْ\" (Rakhāwah: sound sustains as long as you breathe) vs \"أَبْ\" (Shiddah: sound abruptly stops until released).",
+        "challenge": {
+          "type": "multiple-choice",
+          "question": "Why does Qalqalah (the echoing release) exist for the letters ق، ط، ب، ج، د?",
+          "options": [
+            "Because their sound is completely trapped by Shiddah and requires an echoing release to be heard comfortably",
+            "Because they are all throat letters",
+            "Because they can never take a Sukoon in recitation",
+            "Because they only occur at the end of verses"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The letters of Qalb/Qalqalah (قطب جد) possess both Jahr (trapped breath) and Shiddah (trapped sound). The echoing bounce releases the trapped pressure without adding an artificial vowel."
+        }
+      },
+      {
+        "id": "tajweed-ch2-l3",
+        "aliases": [
+          "tajweed-sifaat-l4"
+        ],
+        "number": 3,
+        "title": "Tongue Elevation: Isti'la vs. Istifal & Itbaq vs. Infitah (الاستعلاء والإستفال • الإطباق والانفتاح)",
+        "subtitle": "Heaviness (Tafkhim), lightness (Tarqiq), and palatal adhesion",
+        "readingTime": "6 min",
+        "arabic": "الاِسْتِعْلاَءُ وَالاِسْتِفَالُ • الإِطْبَاقُ وَالاِنْفِتَاحُ",
+        "transliteration": "Al-Isti'lā' wa Al-Iṭbāq",
+        "makhraj": "Elevation of back/dorsum of tongue toward roof of mouth.",
+        "sound": "7 Heavy Letters (خص ضغط قظ) • 4 Maximum Adhesion (ص، ض، ط، ظ)",
+        "videoLesson": {
+          "videoId": "QIxzLs1qGik",
+          "title": "A Characteristic that can CHANGE the meaning if not done properly | Lesson 3 | Arabic101",
+          "channel": "Arabic 101",
+          "shortTitle": "Part 1: Isti'la vs. Istifal"
+        },
+        "additionalVideos": [
+          {
+            "videoId": "I1BEoHQzK8E",
+            "title": "Why some HEAVY letters should be HEAVIER than others | Lesson 4 | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Part 2: Itbaq vs. Infitah"
+          }
+        ],
+        "explanation": "These two pairs of opposites dictate the **weight, resonance, and acoustic fullness** of Arabic consonants, determining whether a letter is **Heavy (Mufakhkham / مَفَخَّم)** or **Light (Muraqqaq / مُرَقَّق)**:\n\n### 1. Al-Isti‘lā’ vs. Al-Istifāl (Back of Tongue Elevation)\n- **Al-Isti‘lā’ (الِاسْتِعْلَاءُ — Elevation / Heaviness):**\n  - **Definition:** The elevation of the posterior root/back of the tongue toward the soft palate when articulating the letter, channeling acoustic reverberation upward into the mouth roof.\n  - **The 7 Letters of Isti‘lā’:** United in: **`خُصَّ ضَغْطٍ قِظْ`** (*Khuṣṣa ḍaghṭin qiẓ* — Khā', Ṣād, Ḍād, Ghayn, Ṭā', Qāf, Ẓā').\n  - **Rule:** All 7 are **permanently heavy (Tafkhīm — تَفْخِيم)** in all states!\n- **Al-Istifāl (الِاسْتِفَالُ — Lowering / Lightness):**\n  - **Definition:** The lowering of the back of the tongue flat to the floor of the mouth.\n  - **Letters:** The remaining **21 consonants**. Permanently light (*Tarqīq*), except for contextual exceptions (Alif, Lām in 'Allāh', and Rā').\n\n### 2. Al-Iṭbāq vs. Al-Infitāḥ (Palatal Adhesion / Compression)\n- **Al-Iṭbāq (الإِطْبَاقُ — Palatal Compression / Extreme Heaviness):**\n  - **Definition:** The adhesion or close cupping of the major blade/dorsum of the tongue along the roof of the mouth, trapping and compressing acoustic energy.\n  - **The 4 Letters of Iṭbāq:** **`ص ، ض ، ط ، ظ`**.\n  - **Rule:** These 4 are the **heaviest, strongest consonants in the entire Arabic language**. Even with a Kasrah, they retain pronounced heaviness (e.g., `طِينٍ`, `ضِيزَىٰ`).\n- **Al-Infitāḥ (الانْفِتَاحُ — Separation / Openness):**\n  - **Definition:** The opening and separation of the tongue away from the roof of the mouth.\n  - **Letters:** The remaining **24 consonants** (including the three non-Iṭbāq Isti‘lā’ letters: `ق ، غ ، خ`).",
+        "keyPoints": [
+          "Isti‘lā’ (خُصَّ ضَغْطٍ قِظْ) elevates the back of the tongue, creating permanent heaviness (Tafkhīm).",
+          "Istifāl lowers the tongue back, producing light consonants (Tarqīq).",
+          "Iṭbāq (ص، ض، ط، ظ) adds extreme roof adhesion, making these 4 the heaviest in Arabic.",
+          "The non-Iṭbāq heavy letters (ق، غ، خ) have slightly reduced heaviness when voweled with Kasrah."
+        ],
+        "examples": [
+          {
+            "arabic": "خُصَّ ضَغْطٍ قِظْ",
+            "transliteration": "Khuṣṣa ḍaghṭin qiẓ",
+            "label": "The 7 permanently heavy letters of Isti‘lā’",
+            "sound": "Khus-sa dagh-tin qiz"
+          },
+          {
+            "arabic": "صِرَاطَ",
+            "transliteration": "Ṣirāṭ",
+            "label": "Ṣād and Ṭā' showing supreme Iṭbāq heaviness",
+            "sound": "Si-raat"
+          },
+          {
+            "arabic": "قِيلَ",
+            "transliteration": "Qīla",
+            "label": "Qāf with Kasrah (Isti‘lā’ with Infitāḥ)",
+            "sound": "Qee-la"
+          },
+          {
+            "arabic": "تَابَ / طَابَ",
+            "transliteration": "Tāba / Ṭāba",
+            "label": "Light Istifāl Tā' vs Heavy Iṭbāq Ṭā'",
+            "sound": "Taa-ba vs Taa-ba"
+          }
+        ],
+        "practice": "Contrast the light Tā' in \"تَابَ\" with the deeply compressed heavy Ṭā' in \"طَابَ\". Do not allow your lips to round for Ṭā'; the heaviness comes strictly from tongue adhesion.",
+        "challenge": {
+          "type": "multiple-choice",
+          "question": "Which 4 letters possess both Isti‘lā’ (elevation) and Iṭbāq (palatal compression), making them the strongest heavy letters in Arabic?",
+          "options": [
+            "Ṣād (ص), Ḍād (ض), Ṭā' (ط), and Ẓā' (ظ)",
+            "Qāf (ق), Kāf (ك), Lām (ل), and Mīm (م)",
+            "Khā' (خ), Ghayn (غ), Qāf (ق), and Hā' (هـ)",
+            "Alif (ا), Wāw (و), Yā' (ي), and Nūn (ن)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The 4 letters of Iṭbāq are Ṣād (ص), Ḍād (ض), Ṭā' (ط), and Ẓā' (ظ). They combine tongue-back elevation with blade-to-roof compression."
+        }
+      },
+      {
+        "id": "tajweed-ch2-l4",
+        "aliases": [
+          "tajweed-sifaat-l5",
+          "tajweed-sifaat-l6",
+          "tajweed-sifaat-l7"
+        ],
+        "number": 4,
+        "title": "Fluency Attributes (Idhlaq & Ismat) & Non-Opposite Characteristics (الصفات التي لا ضد لها)",
+        "subtitle": "Qalqalah, Safir, Leen, Inhiraf, Takrir, Tafashshi, Istitalah, Ghunnah",
+        "readingTime": "7 min",
+        "arabic": "الإِذْلاَقُ وَالإِصْمَاتُ • الصِّفَاتُ الَّتِي لاَ ضِدَّ لَهَا",
+        "transliteration": "Al-Idhlāq wa Aṣ-Ṣifāt allatī lā ḍidda lahā",
+        "makhraj": "Fluency plus unique individual letter acoustic phenomena.",
+        "sound": "Idhlaq (فر من لب) • 8 Non-Opposites (Qalqalah, Safir, Leen, Inhiraf, Takrir, Tafashshi, Istitalah, Ghunnah)",
+        "videoLesson": {
+          "videoId": "zy4GVrl3H94",
+          "title": "These traits WILL affect your pronunciation | Lesson 5 | Arabic101",
+          "channel": "Arabic 101",
+          "shortTitle": "Lesson 4: Non-Opposite Sifat"
+        },
+        "explanation": "In this lesson, we study the final pair of opposites (Al-Idhlāq vs. Al-Iṣmāt) and the **8 individual Sifāt without opposites (صِفَاتٌ لاَ ضِدَّ لَهَا)** that give specific Arabic letters their unmistakable personality:\n\n### 1. Al-Idhlāq vs. Al-Iṣmāt (Fluency & Ease)\n- **Al-Idhlāq (الإِذْلاَقُ — Fluency / Edge Articulation):**\n  - **Definition:** Articulation speed and lightness because the letter stems from the edge (*Dhalq*) of the tongue or lips.\n  - **Letters:** **`فَرَّ مِنْ لُبٍّ`** (*Farra min lubb* — Fā', Rā', Mīm, Nūn, Lām, Bā').\n- **Al-Iṣmāt (الإِصْمَاتُ — Solidity / Restraint):**\n  - **Definition:** Heavy, stable articulation requiring greater muscular effort. Remaining letters.\n\n---\n\n### 2. The 8 Sifāt Without Opposites (الصِّفَاتُ الَّتِي لاَ ضِدَّ لَهَا)\n1. **Al-Qalqalah (الْقَلْقَلَةُ — The Echoing Bounce):**\n   - **Letters:** **`قُطْبُ جَدٍّ`** (*Quṭbu Jadd* — ق ، ط ، ب ، ج ، د) when Sakinah.\n   - Sudden disturbance and release of the trapped articulation point producing a resonant echo.\n2. **Aṣ-Ṣafīr (الصَّفِيرُ — The Sibilant Whistle):**\n   - **Letters:** **`ص ، ز ، س`**. Sharp metallic whistling air passing over lower incisors.\n3. **Al-Līn (اللِّينُ — Softness / Ease):**\n   - **Letters:** Unvoweled **Wāw (وْ)** and **Yā' (يْ)** preceded by a Fat-hah (`خَوْفٍ`, `بَيْتٍ`).\n4. **Al-Inḥirāf (الانْحِرَافُ — Sound Deflection):**\n   - **Letters:** **`ل`** (sound deflects around tongue sides) and **`ر`** (sound drifts through tongue tip aperture).\n5. **At-Takrīr (التَّكْرِيرُ — Controlled Trill):**\n   - **Letter:** **`ر`** alone. A natural vibration of the tongue tip. **Tajweed Rule:** We must *control and hide* excessive rolling, limiting it to a single tap!\n6. **At-Tafashshī (التَّفَشِّي — Breath Diffusion):**\n   - **Letter:** **`ش`** alone. Wide dispersion of exhaled breath throughout the entire oral cavity.\n7. **Al-Istīṭālah (الاسْتِطَالَةُ — Molar Prolongation):**\n   - **Letter:** **`ض`** alone. Prolongation of sound and pressure along the lateral molar edge.\n8. **Al-Ghunnah (الْغُنَّةُ — Nasal Resonance):**\n   - **Letters:** **`ن`** and **`م`**. Intrinsic acoustic humming from the Khayshum.",
+        "keyPoints": [
+          "Idhlāq (فَرَّ مِنْ لُبٍّ) represents letters articulated easily from the edges of the lips and tongue.",
+          "Qalqalah (قُطْبُ جَدٍّ) echoes trapped pressure when Sakinah.",
+          "Ṣafīr creates whistle on ص، ز، س; Līn softens unvoweled Wāw and Yā' after Fat-hah.",
+          "Takrīr belongs to Rā' (must be controlled); Tafashshī belongs to Shīn; Istīṭālah belongs to Ḍād."
+        ],
+        "examples": [
+          {
+            "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+            "transliteration": "Qul Huwa Allāhu Aḥad",
+            "label": "Qalqalah Kubra on Dāl Sakinah at stop",
+            "sound": "Qul hu-wal-laa-hu a-had"
+          },
+          {
+            "arabic": "خَوْفٍ / بَيْتٍ",
+            "transliteration": "Khawf / Bayt",
+            "label": "Līn on Wāw and Yā' after Fat-hah",
+            "sound": "Khawf / Bayt"
+          },
+          {
+            "arabic": "الصَّابِرِينَ",
+            "transliteration": "Aṣ-Ṣābirīn",
+            "label": "Ṣafīr (whistle) + Isti‘lā’ on Ṣād",
+            "sound": "As-Saa-bi-reen"
+          },
+          {
+            "arabic": "اشْتَرَوْا",
+            "transliteration": "Ishtaraw",
+            "label": "Tafashshī breath spreading on Shīn",
+            "sound": "Ish-ta-raw"
+          }
+        ],
+        "practice": "Recite \"الْفَلَقِ\" and \"الْمَسَدِ\". Notice the crisp Qalqalah bounce on Qāf and Dāl at the end of each verse.",
+        "challenge": {
+          "type": "multiple-choice",
+          "question": "Which unique characteristic without an opposite belongs exclusively to the letter Ḍād (ض)?",
+          "options": [
+            "Al-Istīṭālah (sound prolongation along the lateral molars)",
+            "At-Tafashshī (breath diffusion)",
+            "At-Takrīr (tongue tip trill)",
+            "Aṣ-Ṣafīr (sibilant whistle)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Al-Istīṭālah (الاستطالة) is the exclusive characteristic of Ḍād (ض), extending sound and contact along the lateral tongue edge."
+        }
+      },
+      {
+        "id": "tajweed-ch2-l5",
+        "aliases": [
+          "tajweed-ch2-dhad",
+          "tajweed-sifaat-dhad"
+        ],
+        "number": 5,
+        "title": "Mastering the Letter Ḍād (ض): Articulation & Exclusive Characteristics (إتقان مخرج وصفات حرف الضاد)",
+        "subtitle": "The Seven Steps, lateral tongue edge dynamics, and Al-Istitalah",
+        "readingTime": "7 min",
+        "arabic": "حَرْفُ الضَّادِ • الْمَخْرَجُ وَالاِسْتِطَالَةُ",
+        "transliteration": "Harf aḍ-Ḍād: Al-Makhraj wa Al-Istīṭālah",
+        "makhraj": "One or both lateral edges of the tongue (Ḥāffat al-Lisān) pressed firmly against the upper molars.",
+        "sound": "Elongated voiced fricative with zero plosive burst: أَضْ - اضْطُرَّ - الضَّالِّينَ",
+        "videoLesson": {
+          "videoId": "Nz7BUoOpcXA",
+          "title": "Follow these SEVEN STEPS to pronounce ض correctly | Arabic101",
+          "channel": "Arabic 101",
+          "shortTitle": "Lesson 5: Pronouncing Ḍād (ض)"
+        },
+        "explanation": "The Arabic language is traditionally honored as **\"Lughat aḍ-Ḍād\" (لُغَةُ الضَّادِ — The Language of Ḍād)** because the classical Arabic consonant **Ḍād (ض)** is considered one of the most acoustically unique and phonetically demanding sounds across all human languages.\n\n### 1. The Physical Makhraj of Ḍād\n- **Anatomical Point:** Articulated from **one or both lateral sides/edges of the tongue (حَافَةُ اللِّسَانِ — Ḥāffat al-Lisān)** pressing against the inner gum line of the **upper molars (الأَضْرَاسُ العُلْيَا — Al-Aḍrās al-‘Ulyā)**.\n- **Directional Options:**\n  - Left lateral edge against the left upper molars (the most common and easiest execution).\n  - Right lateral edge against the right upper molars.\n  - Both lateral edges simultaneously against both sides of the upper molars (the most demanding classical recitation).\n- **Crucial Tongue Tip Note:** The tip of the tongue gently rests against the upper gums near the front incisors without exerting physical pressure or creating a plosive blockage.\n\n---\n\n### 2. The 6 Inherent Sifāt of Ḍād\nEvery pristine Ḍād possesses a unique acoustic fingerprint combining 6 permanent attributes:\n1. **Al-Jahr (الْجَهْرُ — Vocal Clarity):** Retention of breath; vocal cords vibrate strongly with zero whispered leakage.\n2. **Ar-Rakhāwah (الرَّخَاوَةُ — Continuous Flow of Sound):** The sound flows smoothly along the molars. **It does NOT stop abruptly like Dāl (د)!**\n3. **Al-Isti‘lā’ (الاِسْتِعْلَاءُ — Elevation / Heaviness):** The posterior root/back of the tongue elevates toward the soft palate, creating full-mouth acoustic resonance (**Tafkhīm — تَفْخِيم**).\n4. **Al-Iṭbāq (الإِطْبَاقُ — Palatal Compression):** The blade and surface of the tongue adhere deeply to the roof of the mouth, compressing acoustic resonance.\n5. **Al-Iṣmāt (الإِصْمَاتُ — Solidity):** Articulated with muscular stability and control.\n6. **Al-Istīṭālah (الاِسْتِطَالَةُ — The Lengthening Trait):** **Exclusive to Ḍād!** Under compressed breath pressure, the lateral contact of the tongue glides smoothly forward from the molars toward the premolars and canines, elongating the sound before release.\n\n---\n\n### 3. The Seven Steps to Pronounce Ḍād Correctly (Arabic 101)\n1. **Position Lateral Edges:** Raise and place the side(s) of your tongue firmly against the upper molars.\n2. **Relax the Tongue Tip:** Ensure your tongue tip rests lightly and does not press hard against your front teeth.\n3. **Elevate the Back (Isti‘lā’):** Lift the back of your tongue toward the soft palate for heavy resonance.\n4. **Compress the Palate (Iṭbāq):** Flatten the dorsum of your tongue toward the roof of your mouth.\n5. **Engage Trapped Breath (Jahr) & Running Voice (Rakhāwah):** Vocalize while allowing the acoustic air pressure to build without an explosive burst.\n6. **Glide Forward with Istīṭālah:** Allow the tongue contact to extend forward along the molars toward the canines under internal air pressure.\n7. **Smooth Release Without Echo:** Release cleanly into the next vowel or letter. **Never allow an echoing bounce (NO Qalqalah on Ḍād!).**\n\n---\n\n### 4. Avoiding Critical Recitation Mistakes\n- **Mistake 1: Substituting Ẓā' (ظ) for Ḍād (ض):**\n  - **Ẓā' (ظ):** Formed by the **tip** of the tongue protruding slightly between the top front incisors.\n  - **Ḍād (ض):** Formed from the **lateral edges** against the upper **molars**!\n  - Confusing them alters Qur'anic meaning: `أَنْقَضَ ظَهْرَكَ` (*burdened your back* — 94:3) vs. invalid substitution!\n- **Mistake 2: Pronouncing Ḍād like a heavy Dāl (د مفخمة):**\n  - Dāl has *Shiddah* (plosive stoppage with an explosive pop). Ḍād has *Rakhāwah* (continuous running sound).\n- **Mistake 3: Adding Qalqalah (Echo):**\n  - Ḍād is not a letter of `قُطْبُ جَدٍّ`. Maintain continuous soft pressure until the next letter begins.",
+        "keyPoints": [
+          "Ḍād originates from the lateral tongue edge (Ḥāffat al-Lisān) against the upper molars.",
+          "It possesses 6 permanent Sifāt: Jahr, Rakhāwah, Isti‘lā’, Iṭbāq, Iṣmāt, and the exclusive Istīṭālah.",
+          "Istīṭālah is the forward sliding expansion of sound and contact along the upper teeth under air pressure.",
+          "Never confuse Ḍād (lateral molars) with Ẓā' (tongue tip to front incisors), and never apply Qalqalah."
+        ],
+        "examples": [
+          {
+            "arabic": "وَلَا الضَّالِّينَ",
+            "transliteration": "Wa-laḍ-ḍāllīn",
+            "label": "Surah Al-Fatihah 1:7 (Prolonged Isti‘lā’ + Iṭbāq with Shaddah)",
+            "sound": "Wa-lad-daal-leen"
+          },
+          {
+            "arabic": "فَمَنِ اضْطُرَّ",
+            "transliteration": "Famani-ḍṭurra",
+            "label": "Surah Al-Baqarah 2:173 (Sakin Ḍād sliding smoothly into Ṭā')",
+            "sound": "Fa-mani-dtur-ra"
+          },
+          {
+            "arabic": "أَنْقَضَ ظَهْرَكَ",
+            "transliteration": "Anqaḍa ẓahrak",
+            "label": "Surah Al-Sharh 94:3 (Direct contrast: lateral Ḍād followed by incisor Ẓā')",
+            "sound": "An-qa-da zah-rak"
+          },
+          {
+            "arabic": "يَضْرِبُونَ",
+            "transliteration": "Yaḍribūn",
+            "label": "Surah Al-Anfal 8:50 (Continuous Rakhāwah without Qalqalah)",
+            "sound": "Yad-ri-boon"
+          }
+        ],
+        "practice": "Pronounce \"أَضْ\" by pressing the lateral edge of your tongue against your left upper molars. Maintain air pressure and feel the tongue glide forward slightly (Istīṭālah). Verify that your tongue tip does NOT strike your front teeth like a Dāl, and do NOT produce an echoing bounce (Qalqalah).",
+        "challenge": {
+          "type": "multiple-choice",
+          "question": "What is the exclusive characteristic (Sifah) of the letter Ḍād (ض), and how does it physically manifest?",
+          "options": [
+            "Al-Istīṭālah (الاستطالة): the forward sliding extension of sound and lateral tongue contact along the upper molars",
+            "Al-Qalqalah (القلقلة): an explosive echoing bounce produced at the tip of the tongue",
+            "Al-Hams (الهمس): a whispered release of breath escaping through the lips",
+            "At-Takrīr (التكرير): a trilling vibration of the tongue tip against the front palate"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Al-Istīṭālah (الاستطالة) is exclusive to Ḍād (ض). It is the acoustic and physical extension of sound as the lateral edge of the tongue slides along the upper molars under breath pressure."
+        }
+      },
+      {
+        "id": "tajweed-ch2-l6",
+        "aliases": [
+          "tajweed-ch2-l5-review",
+          "tajweed-ch2-synthesis",
+          "tajweed-sifaat-l8",
+          "tajweed-sifaat-l9"
+        ],
+        "number": 6,
+        "title": "Sifat Al-Huruf Synthesis & Comprehensive Mastery Challenge (مراجعة صفات الحروف واختبار الإتقان)",
+        "subtitle": "Complete letter analysis, contrast drills for shared Makharij, and chapter quiz",
+        "readingTime": "8 min",
+        "arabic": "تَرْكِيبُ الصِّفَاتِ وَاخْتِبَارُ الإِتْقَانِ",
+        "transliteration": "Tarkīb aṣ-Ṣifāt",
+        "makhraj": "Synthesizing all permanent characteristics for complete letter profiles.",
+        "sound": "Full Characteristic Profile Analysis & Practice",
+        "videoLesson": null,
+        "explanation": "Now that you have mastered all pairs of opposites, unique traits, and the specialized articulation of Ḍād (ض), how do we evaluate any Arabic letter?\n\n### The Universal Formula: Every Letter Has 5 to 7 Sifāt\nEvery Arabic letter **must possess exactly one attribute from each of the 5 opposite pairs**:\n1. Breath: **Hams** OR **Jahr**?\n2. Sound: **Shiddah**, **Bayniyyah**, OR **Rakhāwah**?\n3. Elevation: **Isti‘lā’** OR **Istifāl**?\n4. Adhesion: **Iṭbāq** OR **Infitāḥ**?\n5. Fluency: **Idhlāq** OR **Iṣmāt**?\n*(Total baseline: 5 attributes)*\n\nThen, check if the letter possesses **1 or 2 attributes from the non-opposite group** (Qalqalah, Ṣafīr, Līn, Inḥirāf, Takrīr, Tafashshī, Istīṭālah, Ghunnah).\n\n---\n\n### Complete Case Study: Breaking Down 4 Letters\n1. **The Letter Ṭā' (ط) — Strongest Consonant in Arabic (6 Sifāt):**\n   - Jahr (trapped breath) + Shiddah (trapped sound) + Isti‘lā’ (elevated back) + Iṭbāq (roof compression) + Iṣmāt (solidity) + **Qalqalah** (echo on Sukoon).\n2. **The Letter Tā' (ت) — Sibling Sharing Ṭā's Makhraj (5 Sifāt):**\n   - **Hams** (whispered breath!) + Shiddah (trapped sound) + **Istifāl** (flat lowered tongue!) + **Infitāḥ** (open palate!) + Iṣmāt.\n   - *Notice:* Tā' and Ṭā' share the exact same physical Makhraj, but they are polar opposites in elevation, palatal compression, and breath!\n3. **The Letter Ṣād (ص) (6 Sifāt):**\n   - Hams + Rakhāwah + Isti‘lā’ + Iṭbāq + Iṣmāt + **Ṣafīr** (whistle).\n4. **The Letter Sīn (س) (6 Sifāt):**\n   - Hams + Rakhāwah + **Istifāl** (light!) + **Infitāḥ** (open!) + Iṣmāt + **Ṣafīr** (whistle).\n   - *Notice:* Sīn and Ṣād share the same whistle, but Ṣād is elevated and compressed into heavy fullness!",
+        "keyPoints": [
+          "Every Arabic consonant possesses between 5 and 7 permanent Sifāt.",
+          "5 traits come from the opposite pairs; 0 to 2 traits come from the non-opposite list.",
+          "Ṭā' (ط) is the strongest consonant in Arabic, possessing 6 powerful attributes.",
+          "Sifāt prevent confusion between identical Makhraj pairs (ت/ط, س/ص, ذ/ظ)."
+        ],
+        "examples": [
+          {
+            "arabic": "ط (6 صفات)",
+            "transliteration": "Ṭā' Profile",
+            "label": "Jahr + Shiddah + Isti‘lā’ + Iṭbāq + Iṣmāt + Qalqalah",
+            "sound": "Taa"
+          },
+          {
+            "arabic": "ت (5 صفات)",
+            "transliteration": "Tā' Profile",
+            "label": "Hams + Shiddah + Istifāl + Infitāḥ + Iṣmāt",
+            "sound": "Taa"
+          },
+          {
+            "arabic": "ص (6 صفات)",
+            "transliteration": "Ṣād Profile",
+            "label": "Hams + Rakhāwah + Isti‘lā’ + Iṭbāq + Iṣmāt + Ṣafīr",
+            "sound": "Saad"
+          },
+          {
+            "arabic": "س (6 صفات)",
+            "transliteration": "Sīn Profile",
+            "label": "Hams + Rakhāwah + Istifāl + Infitāḥ + Iṣmāt + Ṣafīr",
+            "sound": "Seen"
+          }
+        ],
+        "practice": "Pick the letter Qāf (ق) and identify its complete 6 Sifāt profile (Jahr, Shiddah, Isti‘lā’, Infitāḥ, Iṣmāt, Qalqalah).",
+        "challenge": {
+          "type": "multiple-choice",
+          "question": "How many permanent characteristics (Sifāt) does every Arabic letter possess at minimum?",
+          "options": [
+            "At least 5 permanent characteristics (one from each of the 5 opposite pairs)",
+            "Exactly 2 characteristics",
+            "At least 10 characteristics",
+            "Characteristics only exist when the letter has a Shaddah"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Every Arabic letter possesses at minimum 5 permanent Sifāt because it must choose exactly one trait from each of the 5 pairs of opposites."
+        }
+      }
+    ],
+    "quiz": {
+      "id": "quiz-tajweed-ch2",
+      "title": "Chapter 2 Mastery Quiz: Sifat Al-Huruf",
+      "questions": [
+        {
+          "question": "What is the primary function of Sifat in Tajweed?",
+          "options": [
+            "To determine how a sound behaves and distinguish letters that share the same Makhraj",
+            "To count the number of verses in a Surah",
+            "To identify the translation of Arabic words",
+            "To mark the end of a Qur'anic Juz"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Which of the following is the 10-letter mnemonic for Al-Hams (whispered breath flow)?",
+          "options": [
+            "فَحَثَّهُ شَخْصٌ سَكَتَ",
+            "أَجِدْ قَطٍ بَكَتْ",
+            "لِنْ عُمَرْ",
+            "خُصَّ ضَغْطٍ قِظْ"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Why does Qalqalah occur on the letters of قُطْبُ جَدٍّ when they carry a Sukoon?",
+          "options": [
+            "Because both breath and sound are completely trapped by Jahr and Shiddah",
+            "Because they are throat letters",
+            "Because they are pronounced exclusively with the lips",
+            "Because they are silent vowels"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Which 4 letters combine tongue elevation (Isti'la) with roof compression (Itbaq), making them the heaviest consonants in Arabic?",
+          "options": [
+            "ص ، ض ، ط ، ظ",
+            "ق ، ك ، ل ، م",
+            "خ ، غ ، ق ، ح",
+            "ء ، هـ ، ع ، ح"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Which unique characteristic belongs exclusively to the letter Ḍād (ض)?",
+          "options": [
+            "Al-Istīṭālah (prolongation along lateral molars)",
+            "At-Tafashshī (breath diffusion)",
+            "At-Takrīr (tongue tip trill)",
+            "Aṣ-Ṣafīr (sibilant whistle)"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Every Arabic consonant possesses at minimum how many permanent characteristics?",
+          "options": [
+            "5 characteristics (one from each of the 5 opposite pairs)",
+            "2 characteristics",
+            "8 characteristics",
+            "Only 1 characteristic"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "slug": "intro-letters",
+    "isFoundational": true
   },
+  "archivedLessons": [
+    {
+      "id": "lesson-10",
+      "number": 9,
+      "title": "Rectifying Tajweed Violations & Common Mistakes (تنبيهات وأخطاء شائعة في التجويد)",
+      "subtitle": "Diagnosing and fixing letter substitutions, phonetic distortions, timing errors, and breath issues",
+      "readingTime": "18 min",
+      "videoLesson": {
+        "title": "Tajweed Common Mistakes & How to Correct Them",
+        "channel": "Arabic 101",
+        "duration": "19:05",
+        "videoId": "zWZCtEtrkE8",
+        "watchUrl": "https://www.youtube.com/watch?v=zWZCtEtrkE8",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/zWZCtEtrkE8",
+        "url": "https://www.youtube-nocookie.com/embed/zWZCtEtrkE8",
+        "alternativeSource": "https://quran.com",
+        "sourceName": "Quran.com — Error Correction & Recitation Refinement",
+        "badge": "Verified Reference Video"
+      },
+      "summary": "Identify and eliminate the 5 most frequent pronunciation mistakes made by non-native Arabic learners.",
+      "smallLessons": [
+        {
+          "id": "tajweed-ch10-l1",
+          "number": 1,
+          "title": "Mistake 1: Letter Substitutions",
+          "subtitle": "Fixing ض vs ظ , ح vs هـ , and س vs ث",
+          "readingTime": "3 min",
+          "explanation": "The most damaging mistake is letter substitution (Lahn Jali). Common traps: 1) Confusing deep 'ح' with English breathy 'هـ' (e.g. 'الحمد' vs 'الهمد'). 2) Confusing side-tongue 'ض' with tongue-tip 'ظ' or 'د'. 3) Confusing dental 'س' with soft 'ث'. Always check dot placement and anchor your tongue in the correct Makhraj.",
+          "keyPoints": [
+            "ح (Mid-throat) is NOT هـ (Deep throat).",
+            "ض (Side tongue against molars) is NOT ظ (Tip of tongue between teeth).",
+            "س (Whistling S) is NOT ث (Soft Th).",
+            "Letter substitutions change sacred word meanings."
+          ],
+          "audio": {
+            "arabicText": "الْحَمْدُ (Correct) vs الْهَمْدُ (Wrong) - ضَلَّ (Correct) vs ظَلَّ (Wrong)",
+            "phonetic": "Al-Hamdu vs Al-Hamdu | Dalla vs Zhalla",
+            "description": "Listen to the sharp audio contrast between easily confused letters."
+          },
+          "examples": [
+            {
+              "arabic": "قَلْب (Heart) vs كَلْب (Dog)",
+              "label": "Qaf vs Kaf",
+              "sound": "Qalb (Heart with Qaf) vs Kalb (Dog with Kaf) - essential distinction!"
+            }
+          ],
+          "practice": "Pronounce: 'حَسَن' (Ha - pure throat) vs 'هَدَف' (Ha - deep air).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the difference between 'قَلْب' (Qalb) and 'كَلْب' (Kalb)?",
+            "options": [
+              "They mean the exact same thing",
+              "'Qalb' (with Qaf) means Heart; 'Kalb' (with Kaf) means Dog",
+              "They are different dialects of the same word",
+              "One is past tense, one is present tense"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Substituting Qaf for Kaf turns 'Heart' (قَلْب) into 'Dog' (كَلْب), highlighting why Tajweed is so essential."
+          }
+        },
+        {
+          "id": "tajweed-ch10-l2",
+          "number": 2,
+          "title": "Mistake 2: Inconsistent Vowel Durations",
+          "subtitle": "Overstretching short vowels or clipping Madd",
+          "readingTime": "3 min",
+          "explanation": "Short vowels (Fat-hah, Kasrah, Dammah) must take exactly 1 count. A frequent beginner mistake is dragging a short vowel so long that it accidentally turns into a full 2-count Madd letter (e.g. turning 'كَتَبَ' 'kataba' into 'كَتَابَا' 'kataabaa'). Conversely, do not rush Madd letters down to 1 count.",
+          "keyPoints": [
+            "Short Vowel = Exactly 1 count (quick, crisp).",
+            "Long Vowel (Madd) = Exactly 2 counts (twice the duration).",
+            "Do not stretch Fat-hah on suffixes (e.g. 'أَنْعَمْتَ' is 'ta', not 'taa')."
+          ],
+          "audio": {
+            "arabicText": "كَتَبَ (1-1-1) vs كَاتَبَ (2-1-1) vs كِتَاب (1-2)",
+            "phonetic": "Kataba vs Kaataba vs Kitaab",
+            "description": "Listen to exact 1-count vs 2-count vowel timing."
+          },
+          "examples": [
+            {
+              "arabic": "خَلَقَكَ",
+              "label": "All 1 count",
+              "sound": "Kha-la-qa-ka (do not drag any vowel!)"
+            }
+          ],
+          "practice": "Recite 'خَلَقَكَ فَسَوَّاكَ' keeping 'خَلَقَكَ' brisk (1 count each) and 'سَوَّاكَ' elongated (2 counts on Waa).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What error occurs when a reciter drags a short Fat-hah vowel too long?",
+            "options": [
+              "It turns into an unwanted Madd Alif letter (altering the word structure)",
+              "It becomes a Qalqalah",
+              "It becomes an Izhar",
+              "It produces a Ghunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Overstretching a 1-count short vowel accidentally creates an extra Madd letter, changing the word."
+          }
+        },
+        {
+          "id": "tajweed-ch10-l3",
+          "number": 3,
+          "title": "Mistake 3: Dropping or Rushing Ghunnah",
+          "subtitle": "Giving Nun and Meem Mushaddadah their full 2 counts",
+          "readingTime": "3 min",
+          "explanation": "When Nun or Meem carries a Shaddah (نّ , مّ), or in rules of Idgham/Ikhfa, the Ghunnah MUST be sustained in the nasal cavity for a full 2 counts. Rushing past it as a normal 1-count consonant strips the recitation of its required Tajweed beauty.",
+          "keyPoints": [
+            "Always hold 2 full counts on نّ and مّ.",
+            "Hold 2 counts on Idgham Bi Ghunnah (مَن يَقُولُ).",
+            "Hold 2 counts on Ikhfa (كُنتُمْ).",
+            "Do not rush the nasal resonance."
+          ],
+          "audio": {
+            "arabicText": "إِنَّ الإِنسَانَ - عَمَّ يَتَسَاءَلُونَ",
+            "phonetic": "Inna-l-Insaana | 'Amma yatasaa'aloon",
+            "description": "Listen to the rich, patient 2-count Ghunnah on Inna and 'Amma."
+          },
+          "examples": [
+            {
+              "arabic": "إِنَّ",
+              "label": "Full Ghunnah",
+              "sound": "Inn---a (patient 2 counts)"
+            },
+            {
+              "arabic": "عَمَّ",
+              "label": "Full Ghunnah",
+              "sound": "'Ammm---a (patient 2 counts)"
+            }
+          ],
+          "practice": "Recite Surah An-Nas verse 1: 'قُلْ أَعُوذُ بِرَبِّ النَّاسِ' holding 2 counts on 'النَّاسِ'.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the required holding time for Ghunnah on a Nun with Shaddah (نّ)?",
+            "options": [
+              "Zero counts (read instantly)",
+              "2 counts (Harakataan)",
+              "6 counts",
+              "10 counts"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Ghunnah on Nun/Meem with Shaddah is always held for 2 counts."
+          }
+        },
+        {
+          "id": "tajweed-ch10-l4",
+          "number": 4,
+          "title": "Mistake 4: Adding Unwanted Vowels to Qalqalah",
+          "subtitle": "Keeping the bounce pure without adding 'a' or 'e'",
+          "readingTime": "3 min",
+          "explanation": "When executing Qalqalah on (ق ط ب ج د), some learners mistakenly add a miniature Fat-hah or Kasrah to the bounce (e.g. saying 'Ab-a' instead of 'Ab'). Qalqalah is a pure physical echo release of trapped air—it must never sound like an extra syllable!",
+          "keyPoints": [
+            "Qalqalah is a clean rebound, NOT an extra vowel.",
+            "Do NOT say 'Ahada' when stopping on 'أَحَدْ'—say 'Ahad' with crisp bounce.",
+            "Keep the vocal cords relaxed during the release."
+          ],
+          "audio": {
+            "arabicText": "قُلْ هُوَ اللَّهُ أَحَدْ (Correct pure bounce) vs أَحَدَ (Incorrect vowel addition)",
+            "phonetic": "Ahad (clean) vs Ahada (incorrect)",
+            "description": "Listen to the difference between a pure Qalqalah bounce and a corrupted vowel bounce."
+          },
+          "examples": [
+            {
+              "arabic": "لَمْ يَلِدْ",
+              "label": "Pure Dal Qalqalah",
+              "sound": "Lam yalid (clean bounce, not yali-da!)"
+            }
+          ],
+          "practice": "Recite 'لَمْ يَلِدْ وَلَمْ يُولَدْ' ensuring neither Dal adds an extra 'a' sound.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the common mistake to avoid when pronouncing Qalqalah?",
+            "options": [
+              "Pronouncing it too softly",
+              "Adding an extra vowel sound (like 'a' or 'e') to the bounce",
+              "Holding it for 6 counts",
+              "Reciting with smiling lips"
+            ],
+            "correctAnswer": 1,
+            "explanation": "The most common error is adding an unwanted vowel (e.g. 'Ahad-a'), which corrupts the silent Sukoon."
+          }
+        },
+        {
+          "id": "tajweed-ch10-l5",
+          "number": 5,
+          "title": "Chapter 10 Review & Self-Correction Checklist",
+          "subtitle": "A 5-point checklist for clean recitation",
+          "readingTime": "3 min",
+          "explanation": "Use this 5-point self-correction checklist during daily practice: 1) Are my letters coming from their exact Makhraj? 2) Are heavy letters heavy and light letters light? 3) Are short vowels 1 count and Madd vowels 2/4/6 counts? 4) Am I holding Ghunnah for 2 counts? 5) Are my Qalqalah bounces clean?",
+          "keyPoints": [
+            "1. Accurate Makharij (no letter swaps).",
+            "2. Consistent Tafkhim & Tarqiq.",
+            "3. Precise vowel & Madd timing.",
+            "4. Patient 2-count Ghunnah.",
+            "5. Pure Qalqalah echo."
+          ],
+          "audio": {
+            "arabicText": "فَإِذَا فَرَغْتَ فَانصَبْ - وَإِلَىٰ رَبِّكَ فَارْغَب",
+            "phonetic": "Surah Ash-Sharh verses 7-8",
+            "description": "Listen to Surah Ash-Sharh applying the complete 5-point checklist."
+          },
+          "examples": [
+            {
+              "arabic": "فَانصَبْ",
+              "label": "Ikhfa + Qalqalah",
+              "sound": "Fa-n-sab (Ikhfa on Noon, heavy Sad, Qalqalah on Ba)"
+            }
+          ],
+          "practice": "Recite Surah Ash-Sharh checking off all 5 items on your recitation checklist.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which of the following represents the correct self-correction habit in daily Tajweed practice?",
+            "options": [
+              "Reciting as fast as possible to build speed",
+              "Checking articulation, heaviness/lightness, vowel counts, Ghunnah, and clean Qalqalah",
+              "Skipping difficult verses",
+              "Only focusing on Tajweed during Ramadan"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Regularly auditing your Makharij, Tafkhim/Tarqiq, Madd counts, Ghunnah, and Qalqalah ensures lifelong recitation mastery."
+          }
+        }
+      ],
+      "aliases": [
+        "lesson-10",
+        "tajweed-ch10",
+        "tajweed-ch10-violations",
+        "rectifying-tajweed-violations"
+      ],
+      "archivedAt": "2026-11-13",
+      "archivedReason": "Curriculum streamlined to 10 active chapters focusing on core Tajweed rules and applied practice"
+    },
+    {
+      "id": "lesson-intro-alphabet",
+      "number": 0,
+      "title": "Foundations: Introduction to Arabic Letters (The 28 Consonants)",
+      "subtitle": "The 28 Foundational Consonants, Letter Shapes, Dot Distinctions, and Harakat",
+      "readingTime": "45 min",
+      "aliases": [
+        "intro-letters",
+        "alphabet-foundations",
+        "foundational-alphabet",
+        "lesson-alphabet"
+      ],
+      "videoLesson": {
+        "videoId": "ZwgM-1M_J7o",
+        "title": "EASIEST 'Hams' Explanation | Sifaat Al-huruf Lesson 1 | Arabic101",
+        "channel": "Arabic 101"
+      },
+      "summary": "Master the science of Sifat Al-Huruf: opposite pairs, non-opposite attributes, the Seven Steps to pronouncing Ḍād (ض), and comprehensive letter profiling.",
+      "smallLessons": [
+        {
+          "id": "tajweed-ch2-l1",
+          "aliases": [
+            "tajweed-sifaat-l1",
+            "tajweed-sifaat-l2",
+            "tajweed-sifaat-l3"
+          ],
+          "number": 1,
+          "title": "Introduction to Sifat & The Breath Attributes (Hams & Jahr — الهمس والجهر)",
+          "subtitle": "Why letters need characteristics and how breath flow distinguishes them",
+          "readingTime": "6 min",
+          "arabic": "الْهَمْسُ وَالْجَهْرُ",
+          "transliteration": "Al-Hams wa Al-Jahr",
+          "makhraj": "Acoustic characteristic governing continuous breath vs. trapped breath.",
+          "sound": "Hams (فحثه شخص سكت) vs. Jahr (Remaining 18 letters)",
+          "videoLesson": {
+            "videoId": "ZwgM-1M_J7o",
+            "title": "EASIEST 'Hams' Explanation | Sifaat Al-huruf Lesson 1 | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Lesson 1: Hams & Jahr"
+          },
+          "explanation": "While Makharij (مَخَارِج) identifies *where* a letter is born in the vocal tract, **Sifāt (صِفَات — Characteristics)** governs *how* the sound behaves when released — its acoustic texture, breath flow, vocal pitch, and muscular tension.\n\n### Why Sifāt Are Indispensable\nTwo or more letters frequently share the exact same physical Makhraj (e.g., `ت` and `ط`, or `س` and `ص`). Without Sifāt, they would sound identical. Sifāt is the acoustic fingerprint that distinguishes every letter.\n\n### Permanent (Lāzimah) vs. Conditional (‘Āriḍah) Sifāt\n- **Permanent Attributes (صِفَاتٌ لاَزِمَةٌ):** Inherent traits never leaving the letter (e.g., Hams, Shiddah, Qalqalah).\n- **Conditional Attributes (صِفَاتٌ عَارِضَةٌ):** Contextual rules occurring only under specific grammatical environments (e.g., Ghunnah timing, Tafkhim of Lām in 'Allāh').\n\n### The First Pair of Opposites: Breath Flow (الجَرَيَانُ النَّفَسِي)\n1. **Al-Hams (الْهَمْسُ — Whispering / Breath Flow):**\n   - **Definition:** The continuation of exhaled breath through the vocal tract when articulating the letter due to weak reliance on the Makhraj.\n   - **The 10 Letters of Hams:** United in the famous classical mnemonic: **`فَحَثَّهُ شَخْصٌ سَكَتَ`** (*Fa-ḥath-thahu shakh-sun sakat* — Fā', Ḥā', Thā', Hā', Shīn, Khā', Ṣād, Sīn, Kāf, Tā').\n   - **The Hand Test:** Hold the palm of your hand 2 inches in front of your mouth and pronounce `أَفْ`, `أَسْ`, `أَكْ`, `أَتْ`. You will feel a warm puff of air striking your hand.\n\n2. **Al-Jahr (الْجَهْرُ — Vocal Resonance / Trapped Breath):**\n   - **Definition:** The imprisonment of breath flow due to strong reliance on the Makhraj and full vocal cord vibration.\n   - **Letters:** The remaining **18 letters** (e.g., Bā', Jīm, Dāl, 'Ayn, etc.). Little to no exhaled breath escapes.",
+          "keyPoints": [
+            "Makhraj is where the letter forms; Sifah is how the letter sounds and behaves.",
+            "Sifāt distinguish letters that share identical articulation points (e.g. ت vs ط).",
+            "Hams (الهمس) means continuous breath flow across 10 letters: فَحَثَّهُ شَخْصٌ سَكَتَ.",
+            "Jahr (الجهر) means trapped breath flow across the remaining 18 voiced consonants."
+          ],
+          "examples": [
+            {
+              "arabic": "فَحَثَّهُ شَخْصٌ سَكَتَ",
+              "transliteration": "Fa-ḥath-thahu shakh-sun sakat",
+              "label": "Mnemonic containing all 10 letters of Hams",
+              "sound": "Fa-hath-thahu shakh-sun sa-kat"
+            },
+            {
+              "arabic": "أَفْ - أَحْ - أَثْ",
+              "transliteration": "Af - Aḥ - Ath",
+              "label": "Continuous soft breath flow (Hams)",
+              "sound": "Af - Ah - Ath"
+            },
+            {
+              "arabic": "أَبْ - أَدْ - أَجْ",
+              "transliteration": "Ab - Ad - Aj",
+              "label": "Imprisoned breath with vocal resonance (Jahr)",
+              "sound": "Ab - Ad - Aj"
+            },
+            {
+              "arabic": "الْكَوْثَرَ",
+              "transliteration": "Al-Kawthar",
+              "label": "Kāf (ك) and Thā' (ث) showing clear Hams",
+              "sound": "Al-Kaw-thar"
+            }
+          ],
+          "practice": "Hold your palm before your lips and pronounce \"أَسْ\" (feel the breath stream) vs \"أَزْ\" (feel the vibration without escaping breath).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which classical phrase unites all 10 letters of Al-Hams (breath flow)?",
+            "options": [
+              "فَحَثَّهُ شَخْصٌ سَكَتَ (Fa-ḥath-thahu shakhṣun sakat)",
+              "أَجِدْ قَطٍ بَكَتْ (Ajid qaṭin bakat)",
+              "خُصَّ ضَغْطٍ قِظْ (Khuṣṣa ḍaghṭin qiẓ)",
+              "قُطْبُ جَدٍّ (Quṭbu jaddin)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The 10 letters of Hams are united in \"فَحَثَّهُ شَخْصٌ سَكَتَ\" (Fā', Ḥā', Thā', Hā', Shīn, Khā', Ṣād, Sīn, Kāf, Tā')."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l2",
+          "aliases": [
+            "tajweed-sifaat-sound-flow"
+          ],
+          "number": 2,
+          "title": "Sound Flow Attributes: Shiddah, Rakhawah & Bayniyyah (الشدة والرخاوة والبينية)",
+          "subtitle": "Explosive blockage, moderate flow, and continuous sound acoustics",
+          "readingTime": "6 min",
+          "arabic": "الشِّدَّةُ وَالرَّخَاوَةُ وَالْبَيْنِيَّةُ",
+          "transliteration": "Ash-Shiddah wa Ar-Rakhāwah",
+          "makhraj": "Acoustic characteristic governing sound blockage vs. sound continuation.",
+          "sound": "Shiddah (أجد قط بكت) • Bayniyyah (لن عمر) • Rakhawah (16 letters)",
+          "videoLesson": {
+            "videoId": "LeWwxpm_Lzw",
+            "title": "THAT's why Qalqalah exists | Sifaat Lesson 2 | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Lesson 2: Sound Flow & Qalqalah"
+          },
+          "explanation": "While Hams and Jahr govern **breath flow (نَفَس)**, this category governs **sound continuation (صَوْت)**. When a letter is pronounced with Sukoon, does the audible sound freeze instantly, flow continuously, or take a balanced middle path?\n\n### 1. Ash-Shiddah (الشِّدَّةُ — Explosive Blockage / Trapped Sound)\n- **Definition:** The complete cessation and imprisonment of sound behind the articulation point due to total physical closure.\n- **The 8 Letters of Shiddah:** Mnemonic: **`أَجِدْ قَطٍ بَكَتْ`** (*Ajid qaṭin bakat* — Hamzah, Jīm, Dāl, Qāf, Ṭā', Bā', Kāf, Tā').\n- **The Mechanical Problem of Shiddah:** Because the sound is completely locked inside, releasing the letter comfortably requires an acoustic mechanism:\n  - For **`ق ، ط ، ب ، ج ، د`**: Sound is released via **Qalqalah (echoing bounce)**!\n  - For **`ك ، ت`**: Sound blockage is released via **Hams (whispered puff of air)**!\n\n### 2. At-Tawassuṭ / Al-Bayniyyah (التَّوَسُّطُ / الْبَيْنِيَّةُ — Moderate Flow)\n- **Definition:** A moderate, intermediate sound flow between complete blockage and full continuation.\n- **The 5 Letters of Bayniyyah:** Mnemonic: **`لِنْ عُمَرْ`** (*Lin ‘Umar* — Lām, Nūn, 'Ayn, Mīm, Rā').\n- **Acoustic Feel:** The primary articulation closes partially, while sound continues smoothly through an alternate route (e.g., Nūn and Mīm flow through the nose; Lām flows around the tongue sides; 'Ayn flows through partial epiglottis narrowing).\n\n### 3. Ar-Rakhāwah (الرَّخَاوَةُ — Continuous Flow / Sustained Sound)\n- **Definition:** The continuous, unimpeded running of sound through the Makhraj without obstruction.\n- **Letters:** The remaining **16 consonants** (e.g., Sīn, Shīn, Ṣād, Dhāl, Thā', Fā', Khā', etc.).\n- **Timing:** On Sukoon, Rakhāwah letters naturally endure slightly longer in duration than Shiddah letters (`الرَّحْمَٰنِ`, `يَسْتَبْشِرُونَ`).",
+          "keyPoints": [
+            "Sound flow has 3 tiers: Shiddah (8 letters), Bayniyyah (5 letters), Rakhāwah (16 letters).",
+            "Shiddah (أَجِدْ قَطٍ بَكَتْ) completely traps sound, necessitating Qalqalah (ق، ط، ب، ج، د) or Hams (ك، ت).",
+            "Bayniyyah (لِنْ عُمَرْ) exhibits moderate flow via secondary acoustic channels.",
+            "Rakhāwah letters sustain sound continuation naturally on Sukoon."
+          ],
+          "examples": [
+            {
+              "arabic": "أَجِدْ قَطٍ بَكَتْ",
+              "transliteration": "Ajid qaṭin bakat",
+              "label": "The 8 letters of Shiddah (trapped sound)",
+              "sound": "A-jid qa-tin ba-kat"
+            },
+            {
+              "arabic": "لِنْ عُمَرْ",
+              "transliteration": "Lin ‘Umar",
+              "label": "The 5 letters of Bayniyyah (intermediate flow)",
+              "sound": "Lin U-mar"
+            },
+            {
+              "arabic": "يَجْعَلُونَ",
+              "transliteration": "Yaj'alūn",
+              "label": "Jīm (Shiddah + Qalqalah) vs 'Ayn (Bayniyyah)",
+              "sound": "Yaj-a-loon"
+            },
+            {
+              "arabic": "يَسْتَبْشِرُونَ",
+              "transliteration": "Yastabshirūn",
+              "label": "Sīn (Rakhāwah sound flow) vs Bā' (Shiddah)",
+              "sound": "Yas-tab-shi-roon"
+            }
+          ],
+          "practice": "Pronounce \"أَسْ\" (Rakhāwah: sound sustains as long as you breathe) vs \"أَبْ\" (Shiddah: sound abruptly stops until released).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Why does Qalqalah (the echoing release) exist for the letters ق، ط، ب، ج، د?",
+            "options": [
+              "Because their sound is completely trapped by Shiddah and requires an echoing release to be heard comfortably",
+              "Because they are all throat letters",
+              "Because they can never take a Sukoon in recitation",
+              "Because they only occur at the end of verses"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The letters of Qalb/Qalqalah (قطب جد) possess both Jahr (trapped breath) and Shiddah (trapped sound). The echoing bounce releases the trapped pressure without adding an artificial vowel."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l3",
+          "aliases": [
+            "tajweed-sifaat-l4"
+          ],
+          "number": 3,
+          "title": "Tongue Elevation: Isti'la vs. Istifal & Itbaq vs. Infitah (الاستعلاء والإستفال • الإطباق والانفتاح)",
+          "subtitle": "Heaviness (Tafkhim), lightness (Tarqiq), and palatal adhesion",
+          "readingTime": "6 min",
+          "arabic": "الاِسْتِعْلاَءُ وَالاِسْتِفَالُ • الإِطْبَاقُ وَالاِنْفِتَاحُ",
+          "transliteration": "Al-Isti'lā' wa Al-Iṭbāq",
+          "makhraj": "Elevation of back/dorsum of tongue toward roof of mouth.",
+          "sound": "7 Heavy Letters (خص ضغط قظ) • 4 Maximum Adhesion (ص، ض، ط، ظ)",
+          "videoLesson": {
+            "videoId": "QIxzLs1qGik",
+            "title": "A Characteristic that can CHANGE the meaning if not done properly | Lesson 3 | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Part 1: Isti'la vs. Istifal"
+          },
+          "additionalVideos": [
+            {
+              "videoId": "I1BEoHQzK8E",
+              "title": "Why some HEAVY letters should be HEAVIER than others | Lesson 4 | Arabic101",
+              "channel": "Arabic 101",
+              "shortTitle": "Part 2: Itbaq vs. Infitah"
+            }
+          ],
+          "explanation": "These two pairs of opposites dictate the **weight, resonance, and acoustic fullness** of Arabic consonants, determining whether a letter is **Heavy (Mufakhkham / مَفَخَّم)** or **Light (Muraqqaq / مُرَقَّق)**:\n\n### 1. Al-Isti‘lā’ vs. Al-Istifāl (Back of Tongue Elevation)\n- **Al-Isti‘lā’ (الِاسْتِعْلَاءُ — Elevation / Heaviness):**\n  - **Definition:** The elevation of the posterior root/back of the tongue toward the soft palate when articulating the letter, channeling acoustic reverberation upward into the mouth roof.\n  - **The 7 Letters of Isti‘lā’:** United in: **`خُصَّ ضَغْطٍ قِظْ`** (*Khuṣṣa ḍaghṭin qiẓ* — Khā', Ṣād, Ḍād, Ghayn, Ṭā', Qāf, Ẓā').\n  - **Rule:** All 7 are **permanently heavy (Tafkhīm — تَفْخِيم)** in all states!\n- **Al-Istifāl (الِاسْتِفَالُ — Lowering / Lightness):**\n  - **Definition:** The lowering of the back of the tongue flat to the floor of the mouth.\n  - **Letters:** The remaining **21 consonants**. Permanently light (*Tarqīq*), except for contextual exceptions (Alif, Lām in 'Allāh', and Rā').\n\n### 2. Al-Iṭbāq vs. Al-Infitāḥ (Palatal Adhesion / Compression)\n- **Al-Iṭbāq (الإِطْبَاقُ — Palatal Compression / Extreme Heaviness):**\n  - **Definition:** The adhesion or close cupping of the major blade/dorsum of the tongue along the roof of the mouth, trapping and compressing acoustic energy.\n  - **The 4 Letters of Iṭbāq:** **`ص ، ض ، ط ، ظ`**.\n  - **Rule:** These 4 are the **heaviest, strongest consonants in the entire Arabic language**. Even with a Kasrah, they retain pronounced heaviness (e.g., `طِينٍ`, `ضِيزَىٰ`).\n- **Al-Infitāḥ (الانْفِتَاحُ — Separation / Openness):**\n  - **Definition:** The opening and separation of the tongue away from the roof of the mouth.\n  - **Letters:** The remaining **24 consonants** (including the three non-Iṭbāq Isti‘lā’ letters: `ق ، غ ، خ`).",
+          "keyPoints": [
+            "Isti‘lā’ (خُصَّ ضَغْطٍ قِظْ) elevates the back of the tongue, creating permanent heaviness (Tafkhīm).",
+            "Istifāl lowers the tongue back, producing light consonants (Tarqīq).",
+            "Iṭbāq (ص، ض، ط، ظ) adds extreme roof adhesion, making these 4 the heaviest in Arabic.",
+            "The non-Iṭbāq heavy letters (ق، غ، خ) have slightly reduced heaviness when voweled with Kasrah."
+          ],
+          "examples": [
+            {
+              "arabic": "خُصَّ ضَغْطٍ قِظْ",
+              "transliteration": "Khuṣṣa ḍaghṭin qiẓ",
+              "label": "The 7 permanently heavy letters of Isti‘lā’",
+              "sound": "Khus-sa dagh-tin qiz"
+            },
+            {
+              "arabic": "صِرَاطَ",
+              "transliteration": "Ṣirāṭ",
+              "label": "Ṣād and Ṭā' showing supreme Iṭbāq heaviness",
+              "sound": "Si-raat"
+            },
+            {
+              "arabic": "قِيلَ",
+              "transliteration": "Qīla",
+              "label": "Qāf with Kasrah (Isti‘lā’ with Infitāḥ)",
+              "sound": "Qee-la"
+            },
+            {
+              "arabic": "تَابَ / طَابَ",
+              "transliteration": "Tāba / Ṭāba",
+              "label": "Light Istifāl Tā' vs Heavy Iṭbāq Ṭā'",
+              "sound": "Taa-ba vs Taa-ba"
+            }
+          ],
+          "practice": "Contrast the light Tā' in \"تَابَ\" with the deeply compressed heavy Ṭā' in \"طَابَ\". Do not allow your lips to round for Ṭā'; the heaviness comes strictly from tongue adhesion.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which 4 letters possess both Isti‘lā’ (elevation) and Iṭbāq (palatal compression), making them the strongest heavy letters in Arabic?",
+            "options": [
+              "Ṣād (ص), Ḍād (ض), Ṭā' (ط), and Ẓā' (ظ)",
+              "Qāf (ق), Kāf (ك), Lām (ل), and Mīm (م)",
+              "Khā' (خ), Ghayn (غ), Qāf (ق), and Hā' (هـ)",
+              "Alif (ا), Wāw (و), Yā' (ي), and Nūn (ن)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The 4 letters of Iṭbāq are Ṣād (ص), Ḍād (ض), Ṭā' (ط), and Ẓā' (ظ). They combine tongue-back elevation with blade-to-roof compression."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l4",
+          "aliases": [
+            "tajweed-sifaat-l5",
+            "tajweed-sifaat-l6",
+            "tajweed-sifaat-l7"
+          ],
+          "number": 4,
+          "title": "Fluency Attributes (Idhlaq & Ismat) & Non-Opposite Characteristics (الصفات التي لا ضد لها)",
+          "subtitle": "Qalqalah, Safir, Leen, Inhiraf, Takrir, Tafashshi, Istitalah, Ghunnah",
+          "readingTime": "7 min",
+          "arabic": "الإِذْلاَقُ وَالإِصْمَاتُ • الصِّفَاتُ الَّتِي لاَ ضِدَّ لَهَا",
+          "transliteration": "Al-Idhlāq wa Aṣ-Ṣifāt allatī lā ḍidda lahā",
+          "makhraj": "Fluency plus unique individual letter acoustic phenomena.",
+          "sound": "Idhlaq (فر من لب) • 8 Non-Opposites (Qalqalah, Safir, Leen, Inhiraf, Takrir, Tafashshi, Istitalah, Ghunnah)",
+          "videoLesson": {
+            "videoId": "zy4GVrl3H94",
+            "title": "These traits WILL affect your pronunciation | Lesson 5 | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Lesson 4: Non-Opposite Sifat"
+          },
+          "explanation": "In this lesson, we study the final pair of opposites (Al-Idhlāq vs. Al-Iṣmāt) and the **8 individual Sifāt without opposites (صِفَاتٌ لاَ ضِدَّ لَهَا)** that give specific Arabic letters their unmistakable personality:\n\n### 1. Al-Idhlāq vs. Al-Iṣmāt (Fluency & Ease)\n- **Al-Idhlāq (الإِذْلاَقُ — Fluency / Edge Articulation):**\n  - **Definition:** Articulation speed and lightness because the letter stems from the edge (*Dhalq*) of the tongue or lips.\n  - **Letters:** **`فَرَّ مِنْ لُبٍّ`** (*Farra min lubb* — Fā', Rā', Mīm, Nūn, Lām, Bā').\n- **Al-Iṣmāt (الإِصْمَاتُ — Solidity / Restraint):**\n  - **Definition:** Heavy, stable articulation requiring greater muscular effort. Remaining letters.\n\n---\n\n### 2. The 8 Sifāt Without Opposites (الصِّفَاتُ الَّتِي لاَ ضِدَّ لَهَا)\n1. **Al-Qalqalah (الْقَلْقَلَةُ — The Echoing Bounce):**\n   - **Letters:** **`قُطْبُ جَدٍّ`** (*Quṭbu Jadd* — ق ، ط ، ب ، ج ، د) when Sakinah.\n   - Sudden disturbance and release of the trapped articulation point producing a resonant echo.\n2. **Aṣ-Ṣafīr (الصَّفِيرُ — The Sibilant Whistle):**\n   - **Letters:** **`ص ، ز ، س`**. Sharp metallic whistling air passing over lower incisors.\n3. **Al-Līn (اللِّينُ — Softness / Ease):**\n   - **Letters:** Unvoweled **Wāw (وْ)** and **Yā' (يْ)** preceded by a Fat-hah (`خَوْفٍ`, `بَيْتٍ`).\n4. **Al-Inḥirāf (الانْحِرَافُ — Sound Deflection):**\n   - **Letters:** **`ل`** (sound deflects around tongue sides) and **`ر`** (sound drifts through tongue tip aperture).\n5. **At-Takrīr (التَّكْرِيرُ — Controlled Trill):**\n   - **Letter:** **`ر`** alone. A natural vibration of the tongue tip. **Tajweed Rule:** We must *control and hide* excessive rolling, limiting it to a single tap!\n6. **At-Tafashshī (التَّفَشِّي — Breath Diffusion):**\n   - **Letter:** **`ش`** alone. Wide dispersion of exhaled breath throughout the entire oral cavity.\n7. **Al-Istīṭālah (الاسْتِطَالَةُ — Molar Prolongation):**\n   - **Letter:** **`ض`** alone. Prolongation of sound and pressure along the lateral molar edge.\n8. **Al-Ghunnah (الْغُنَّةُ — Nasal Resonance):**\n   - **Letters:** **`ن`** and **`م`**. Intrinsic acoustic humming from the Khayshum.",
+          "keyPoints": [
+            "Idhlāq (فَرَّ مِنْ لُبٍّ) represents letters articulated easily from the edges of the lips and tongue.",
+            "Qalqalah (قُطْبُ جَدٍّ) echoes trapped pressure when Sakinah.",
+            "Ṣafīr creates whistle on ص، ز، س; Līn softens unvoweled Wāw and Yā' after Fat-hah.",
+            "Takrīr belongs to Rā' (must be controlled); Tafashshī belongs to Shīn; Istīṭālah belongs to Ḍād."
+          ],
+          "examples": [
+            {
+              "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+              "transliteration": "Qul Huwa Allāhu Aḥad",
+              "label": "Qalqalah Kubra on Dāl Sakinah at stop",
+              "sound": "Qul hu-wal-laa-hu a-had"
+            },
+            {
+              "arabic": "خَوْفٍ / بَيْتٍ",
+              "transliteration": "Khawf / Bayt",
+              "label": "Līn on Wāw and Yā' after Fat-hah",
+              "sound": "Khawf / Bayt"
+            },
+            {
+              "arabic": "الصَّابِرِينَ",
+              "transliteration": "Aṣ-Ṣābirīn",
+              "label": "Ṣafīr (whistle) + Isti‘lā’ on Ṣād",
+              "sound": "As-Saa-bi-reen"
+            },
+            {
+              "arabic": "اشْتَرَوْا",
+              "transliteration": "Ishtaraw",
+              "label": "Tafashshī breath spreading on Shīn",
+              "sound": "Ish-ta-raw"
+            }
+          ],
+          "practice": "Recite \"الْفَلَقِ\" and \"الْمَسَدِ\". Notice the crisp Qalqalah bounce on Qāf and Dāl at the end of each verse.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which unique characteristic without an opposite belongs exclusively to the letter Ḍād (ض)?",
+            "options": [
+              "Al-Istīṭālah (sound prolongation along the lateral molars)",
+              "At-Tafashshī (breath diffusion)",
+              "At-Takrīr (tongue tip trill)",
+              "Aṣ-Ṣafīr (sibilant whistle)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Al-Istīṭālah (الاستطالة) is the exclusive characteristic of Ḍād (ض), extending sound and contact along the lateral tongue edge."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l5",
+          "aliases": [
+            "tajweed-ch2-dhad",
+            "tajweed-sifaat-dhad"
+          ],
+          "number": 5,
+          "title": "Mastering the Letter Ḍād (ض): Articulation & Exclusive Characteristics (إتقان مخرج وصفات حرف الضاد)",
+          "subtitle": "The Seven Steps, lateral tongue edge dynamics, and Al-Istitalah",
+          "readingTime": "7 min",
+          "arabic": "حَرْفُ الضَّادِ • الْمَخْرَجُ وَالاِسْتِطَالَةُ",
+          "transliteration": "Harf aḍ-Ḍād: Al-Makhraj wa Al-Istīṭālah",
+          "makhraj": "One or both lateral edges of the tongue (Ḥāffat al-Lisān) pressed firmly against the upper molars.",
+          "sound": "Elongated voiced fricative with zero plosive burst: أَضْ - اضْطُرَّ - الضَّالِّينَ",
+          "videoLesson": {
+            "videoId": "Nz7BUoOpcXA",
+            "title": "Follow these SEVEN STEPS to pronounce ض correctly | Arabic101",
+            "channel": "Arabic 101",
+            "shortTitle": "Lesson 5: Pronouncing Ḍād (ض)"
+          },
+          "explanation": "The Arabic language is traditionally honored as **\"Lughat aḍ-Ḍād\" (لُغَةُ الضَّادِ — The Language of Ḍād)** because the classical Arabic consonant **Ḍād (ض)** is considered one of the most acoustically unique and phonetically demanding sounds across all human languages.\n\n### 1. The Physical Makhraj of Ḍād\n- **Anatomical Point:** Articulated from **one or both lateral sides/edges of the tongue (حَافَةُ اللِّسَانِ — Ḥāffat al-Lisān)** pressing against the inner gum line of the **upper molars (الأَضْرَاسُ العُلْيَا — Al-Aḍrās al-‘Ulyā)**.\n- **Directional Options:**\n  - Left lateral edge against the left upper molars (the most common and easiest execution).\n  - Right lateral edge against the right upper molars.\n  - Both lateral edges simultaneously against both sides of the upper molars (the most demanding classical recitation).\n- **Crucial Tongue Tip Note:** The tip of the tongue gently rests against the upper gums near the front incisors without exerting physical pressure or creating a plosive blockage.\n\n---\n\n### 2. The 6 Inherent Sifāt of Ḍād\nEvery pristine Ḍād possesses a unique acoustic fingerprint combining 6 permanent attributes:\n1. **Al-Jahr (الْجَهْرُ — Vocal Clarity):** Retention of breath; vocal cords vibrate strongly with zero whispered leakage.\n2. **Ar-Rakhāwah (الرَّخَاوَةُ — Continuous Flow of Sound):** The sound flows smoothly along the molars. **It does NOT stop abruptly like Dāl (د)!**\n3. **Al-Isti‘lā’ (الاِسْتِعْلَاءُ — Elevation / Heaviness):** The posterior root/back of the tongue elevates toward the soft palate, creating full-mouth acoustic resonance (**Tafkhīm — تَفْخِيم**).\n4. **Al-Iṭbāq (الإِطْبَاقُ — Palatal Compression):** The blade and surface of the tongue adhere deeply to the roof of the mouth, compressing acoustic resonance.\n5. **Al-Iṣmāt (الإِصْمَاتُ — Solidity):** Articulated with muscular stability and control.\n6. **Al-Istīṭālah (الاِسْتِطَالَةُ — The Lengthening Trait):** **Exclusive to Ḍād!** Under compressed breath pressure, the lateral contact of the tongue glides smoothly forward from the molars toward the premolars and canines, elongating the sound before release.\n\n---\n\n### 3. The Seven Steps to Pronounce Ḍād Correctly (Arabic 101)\n1. **Position Lateral Edges:** Raise and place the side(s) of your tongue firmly against the upper molars.\n2. **Relax the Tongue Tip:** Ensure your tongue tip rests lightly and does not press hard against your front teeth.\n3. **Elevate the Back (Isti‘lā’):** Lift the back of your tongue toward the soft palate for heavy resonance.\n4. **Compress the Palate (Iṭbāq):** Flatten the dorsum of your tongue toward the roof of your mouth.\n5. **Engage Trapped Breath (Jahr) & Running Voice (Rakhāwah):** Vocalize while allowing the acoustic air pressure to build without an explosive burst.\n6. **Glide Forward with Istīṭālah:** Allow the tongue contact to extend forward along the molars toward the canines under internal air pressure.\n7. **Smooth Release Without Echo:** Release cleanly into the next vowel or letter. **Never allow an echoing bounce (NO Qalqalah on Ḍād!).**\n\n---\n\n### 4. Avoiding Critical Recitation Mistakes\n- **Mistake 1: Substituting Ẓā' (ظ) for Ḍād (ض):**\n  - **Ẓā' (ظ):** Formed by the **tip** of the tongue protruding slightly between the top front incisors.\n  - **Ḍād (ض):** Formed from the **lateral edges** against the upper **molars**!\n  - Confusing them alters Qur'anic meaning: `أَنْقَضَ ظَهْرَكَ` (*burdened your back* — 94:3) vs. invalid substitution!\n- **Mistake 2: Pronouncing Ḍād like a heavy Dāl (د مفخمة):**\n  - Dāl has *Shiddah* (plosive stoppage with an explosive pop). Ḍād has *Rakhāwah* (continuous running sound).\n- **Mistake 3: Adding Qalqalah (Echo):**\n  - Ḍād is not a letter of `قُطْبُ جَدٍّ`. Maintain continuous soft pressure until the next letter begins.",
+          "keyPoints": [
+            "Ḍād originates from the lateral tongue edge (Ḥāffat al-Lisān) against the upper molars.",
+            "It possesses 6 permanent Sifāt: Jahr, Rakhāwah, Isti‘lā’, Iṭbāq, Iṣmāt, and the exclusive Istīṭālah.",
+            "Istīṭālah is the forward sliding expansion of sound and contact along the upper teeth under air pressure.",
+            "Never confuse Ḍād (lateral molars) with Ẓā' (tongue tip to front incisors), and never apply Qalqalah."
+          ],
+          "examples": [
+            {
+              "arabic": "وَلَا الضَّالِّينَ",
+              "transliteration": "Wa-laḍ-ḍāllīn",
+              "label": "Surah Al-Fatihah 1:7 (Prolonged Isti‘lā’ + Iṭbāq with Shaddah)",
+              "sound": "Wa-lad-daal-leen"
+            },
+            {
+              "arabic": "فَمَنِ اضْطُرَّ",
+              "transliteration": "Famani-ḍṭurra",
+              "label": "Surah Al-Baqarah 2:173 (Sakin Ḍād sliding smoothly into Ṭā')",
+              "sound": "Fa-mani-dtur-ra"
+            },
+            {
+              "arabic": "أَنْقَضَ ظَهْرَكَ",
+              "transliteration": "Anqaḍa ẓahrak",
+              "label": "Surah Al-Sharh 94:3 (Direct contrast: lateral Ḍād followed by incisor Ẓā')",
+              "sound": "An-qa-da zah-rak"
+            },
+            {
+              "arabic": "يَضْرِبُونَ",
+              "transliteration": "Yaḍribūn",
+              "label": "Surah Al-Anfal 8:50 (Continuous Rakhāwah without Qalqalah)",
+              "sound": "Yad-ri-boon"
+            }
+          ],
+          "practice": "Pronounce \"أَضْ\" by pressing the lateral edge of your tongue against your left upper molars. Maintain air pressure and feel the tongue glide forward slightly (Istīṭālah). Verify that your tongue tip does NOT strike your front teeth like a Dāl, and do NOT produce an echoing bounce (Qalqalah).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the exclusive characteristic (Sifah) of the letter Ḍād (ض), and how does it physically manifest?",
+            "options": [
+              "Al-Istīṭālah (الاستطالة): the forward sliding extension of sound and lateral tongue contact along the upper molars",
+              "Al-Qalqalah (القلقلة): an explosive echoing bounce produced at the tip of the tongue",
+              "Al-Hams (الهمس): a whispered release of breath escaping through the lips",
+              "At-Takrīr (التكرير): a trilling vibration of the tongue tip against the front palate"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Al-Istīṭālah (الاستطالة) is exclusive to Ḍād (ض). It is the acoustic and physical extension of sound as the lateral edge of the tongue slides along the upper molars under breath pressure."
+          }
+        },
+        {
+          "id": "tajweed-ch2-l6",
+          "aliases": [
+            "tajweed-ch2-l5-review",
+            "tajweed-ch2-synthesis",
+            "tajweed-sifaat-l8",
+            "tajweed-sifaat-l9"
+          ],
+          "number": 6,
+          "title": "Sifat Al-Huruf Synthesis & Comprehensive Mastery Challenge (مراجعة صفات الحروف واختبار الإتقان)",
+          "subtitle": "Complete letter analysis, contrast drills for shared Makharij, and chapter quiz",
+          "readingTime": "8 min",
+          "arabic": "تَرْكِيبُ الصِّفَاتِ وَاخْتِبَارُ الإِتْقَانِ",
+          "transliteration": "Tarkīb aṣ-Ṣifāt",
+          "makhraj": "Synthesizing all permanent characteristics for complete letter profiles.",
+          "sound": "Full Characteristic Profile Analysis & Practice",
+          "videoLesson": null,
+          "explanation": "Now that you have mastered all pairs of opposites, unique traits, and the specialized articulation of Ḍād (ض), how do we evaluate any Arabic letter?\n\n### The Universal Formula: Every Letter Has 5 to 7 Sifāt\nEvery Arabic letter **must possess exactly one attribute from each of the 5 opposite pairs**:\n1. Breath: **Hams** OR **Jahr**?\n2. Sound: **Shiddah**, **Bayniyyah**, OR **Rakhāwah**?\n3. Elevation: **Isti‘lā’** OR **Istifāl**?\n4. Adhesion: **Iṭbāq** OR **Infitāḥ**?\n5. Fluency: **Idhlāq** OR **Iṣmāt**?\n*(Total baseline: 5 attributes)*\n\nThen, check if the letter possesses **1 or 2 attributes from the non-opposite group** (Qalqalah, Ṣafīr, Līn, Inḥirāf, Takrīr, Tafashshī, Istīṭālah, Ghunnah).\n\n---\n\n### Complete Case Study: Breaking Down 4 Letters\n1. **The Letter Ṭā' (ط) — Strongest Consonant in Arabic (6 Sifāt):**\n   - Jahr (trapped breath) + Shiddah (trapped sound) + Isti‘lā’ (elevated back) + Iṭbāq (roof compression) + Iṣmāt (solidity) + **Qalqalah** (echo on Sukoon).\n2. **The Letter Tā' (ت) — Sibling Sharing Ṭā's Makhraj (5 Sifāt):**\n   - **Hams** (whispered breath!) + Shiddah (trapped sound) + **Istifāl** (flat lowered tongue!) + **Infitāḥ** (open palate!) + Iṣmāt.\n   - *Notice:* Tā' and Ṭā' share the exact same physical Makhraj, but they are polar opposites in elevation, palatal compression, and breath!\n3. **The Letter Ṣād (ص) (6 Sifāt):**\n   - Hams + Rakhāwah + Isti‘lā’ + Iṭbāq + Iṣmāt + **Ṣafīr** (whistle).\n4. **The Letter Sīn (س) (6 Sifāt):**\n   - Hams + Rakhāwah + **Istifāl** (light!) + **Infitāḥ** (open!) + Iṣmāt + **Ṣafīr** (whistle).\n   - *Notice:* Sīn and Ṣād share the same whistle, but Ṣād is elevated and compressed into heavy fullness!",
+          "keyPoints": [
+            "Every Arabic consonant possesses between 5 and 7 permanent Sifāt.",
+            "5 traits come from the opposite pairs; 0 to 2 traits come from the non-opposite list.",
+            "Ṭā' (ط) is the strongest consonant in Arabic, possessing 6 powerful attributes.",
+            "Sifāt prevent confusion between identical Makhraj pairs (ت/ط, س/ص, ذ/ظ)."
+          ],
+          "examples": [
+            {
+              "arabic": "ط (6 صفات)",
+              "transliteration": "Ṭā' Profile",
+              "label": "Jahr + Shiddah + Isti‘lā’ + Iṭbāq + Iṣmāt + Qalqalah",
+              "sound": "Taa"
+            },
+            {
+              "arabic": "ت (5 صفات)",
+              "transliteration": "Tā' Profile",
+              "label": "Hams + Shiddah + Istifāl + Infitāḥ + Iṣmāt",
+              "sound": "Taa"
+            },
+            {
+              "arabic": "ص (6 صفات)",
+              "transliteration": "Ṣād Profile",
+              "label": "Hams + Rakhāwah + Isti‘lā’ + Iṭbāq + Iṣmāt + Ṣafīr",
+              "sound": "Saad"
+            },
+            {
+              "arabic": "س (6 صفات)",
+              "transliteration": "Sīn Profile",
+              "label": "Hams + Rakhāwah + Istifāl + Infitāḥ + Iṣmāt + Ṣafīr",
+              "sound": "Seen"
+            }
+          ],
+          "practice": "Pick the letter Qāf (ق) and identify its complete 6 Sifāt profile (Jahr, Shiddah, Isti‘lā’, Infitāḥ, Iṣmāt, Qalqalah).",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "How many permanent characteristics (Sifāt) does every Arabic letter possess at minimum?",
+            "options": [
+              "At least 5 permanent characteristics (one from each of the 5 opposite pairs)",
+              "Exactly 2 characteristics",
+              "At least 10 characteristics",
+              "Characteristics only exist when the letter has a Shaddah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Every Arabic letter possesses at minimum 5 permanent Sifāt because it must choose exactly one trait from each of the 5 pairs of opposites."
+          }
+        }
+      ],
+      "quiz": {
+        "id": "quiz-tajweed-ch2",
+        "title": "Chapter 2 Mastery Quiz: Sifat Al-Huruf",
+        "questions": [
+          {
+            "question": "What is the primary function of Sifat in Tajweed?",
+            "options": [
+              "To determine how a sound behaves and distinguish letters that share the same Makhraj",
+              "To count the number of verses in a Surah",
+              "To identify the translation of Arabic words",
+              "To mark the end of a Qur'anic Juz"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Which of the following is the 10-letter mnemonic for Al-Hams (whispered breath flow)?",
+            "options": [
+              "فَحَثَّهُ شَخْصٌ سَكَتَ",
+              "أَجِدْ قَطٍ بَكَتْ",
+              "لِنْ عُمَرْ",
+              "خُصَّ ضَغْطٍ قِظْ"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Why does Qalqalah occur on the letters of قُطْبُ جَدٍّ when they carry a Sukoon?",
+            "options": [
+              "Because both breath and sound are completely trapped by Jahr and Shiddah",
+              "Because they are throat letters",
+              "Because they are pronounced exclusively with the lips",
+              "Because they are silent vowels"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Which 4 letters combine tongue elevation (Isti'la) with roof compression (Itbaq), making them the heaviest consonants in Arabic?",
+            "options": [
+              "ص ، ض ، ط ، ظ",
+              "ق ، ك ، ل ، م",
+              "خ ، غ ، ق ، ح",
+              "ء ، هـ ، ع ، ح"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Which unique characteristic belongs exclusively to the letter Ḍād (ض)?",
+            "options": [
+              "Al-Istīṭālah (prolongation along lateral molars)",
+              "At-Tafashshī (breath diffusion)",
+              "At-Takrīr (tongue tip trill)",
+              "Aṣ-Ṣafīr (sibilant whistle)"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Every Arabic consonant possesses at minimum how many permanent characteristics?",
+            "options": [
+              "5 characteristics (one from each of the 5 opposite pairs)",
+              "2 characteristics",
+              "8 characteristics",
+              "Only 1 characteristic"
+            ],
+            "correctAnswer": 0
+          }
+        ]
+      },
+      "slug": "intro-letters",
+      "isFoundational": true
+    },
+    {
+      "id": "tajweed-ch2-synthesis",
+      "number": 6,
+      "title": "Sifat Al-Huruf Synthesis & Comprehensive Mastery Challenge (مراجعة صفات الحروف واختبار الإتقان)",
+      "subtitle": "Synthesis & Letter Profiling (Archived Reference)",
+      "readingTime": "10 min",
+      "isArchived": true,
+      "aliases": [
+        "tajweed-ch2-l5-review",
+        "tajweed-ch2-synthesis",
+        "sifaat-synthesis-mastery",
+        "tajweed-sifaat-l8",
+        "tajweed-sifaat-l9"
+      ]
+    },
+    {
+      "id": "lesson-3",
+      "number": 3,
+      "title": "Core Rules & Principles of Tajweed (أصول وقواعد التجويد)",
+      "subtitle": "Why Tajweed matters, spiritual etiquette, and avoiding clear and hidden recitation errors (Lahn)",
+      "readingTime": "15 min",
+      "videoLesson": {
+        "title": "Basic Tajweed Principles & Beautiful Recitation",
+        "channel": "Arabic 101",
+        "duration": "16:15",
+        "videoId": "5hcc7xpUKnM",
+        "watchUrl": "https://www.youtube.com/watch?v=5hcc7xpUKnM",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/5hcc7xpUKnM",
+        "url": "https://www.youtube-nocookie.com/embed/5hcc7xpUKnM",
+        "alternativeSource": "https://quran.com",
+        "sourceName": "Quran.com — Tajweed Foundations",
+        "badge": "Verified Reference Video"
+      },
+      "summary": "Understand the definition of Tajweed, its spiritual obligations, and the difference between major (Jali) and minor (Khafi) recitation errors.",
+      "smallLessons": [
+        {
+          "id": "tajweed-ch3-l1",
+          "number": 1,
+          "title": "What Is Tajweed?",
+          "subtitle": "Linguistic and technical definition",
+          "readingTime": "3 min",
+          "explanation": "Linguistically, 'Tajweed' (تَجْوِيد) means to beautify, improve, and make something better. In Islamic terminology, Tajweed is the science of reciting the Holy Qur'an by giving every letter its exact point of articulation (Makhraj) and its rightful permanent and temporary characteristics (Sifat), without exaggeration or deficiency.",
+          "keyPoints": [
+            "Linguistic meaning: Beautification and perfection.",
+            "Technical meaning: Giving each letter its correct Makhraj and Sifat.",
+            "Revealed by Allah and transmitted continuously from Prophet Muhammad ﷺ.",
+            "Goal: Reciting the Qur'an exactly as it was revealed."
+          ],
+          "audio": {
+            "arabicText": "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا",
+            "phonetic": "Wa rattili-l-Qur'ana tarteela",
+            "description": "And recite the Qur'an with measured, beautiful recitation (Surah Al-Muzzammil 73:4)."
+          },
+          "examples": [
+            {
+              "arabic": "تَرْتِيل",
+              "label": "Tarteel",
+              "sound": "Measured, calm, melodious, rule-compliant recitation"
+            }
+          ],
+          "practice": "Reflect on Surah Al-Muzzammil verse 4: 'And recite the Qur'an with measured recitation.'",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the technical definition of Tajweed in Qur'anic recitation?",
+            "options": [
+              "Translating Arabic words into another language",
+              "Giving every Arabic letter its rightful articulation point and characteristics",
+              "Memorizing the entire Qur'an without reading",
+              "Writing verses in decorative calligraphy"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Tajweed is the science of giving every single letter its precise articulation point and characteristics."
+          }
+        },
+        {
+          "id": "tajweed-ch3-l2",
+          "number": 2,
+          "title": "Major vs Minor Mistakes (Lahn Jali vs Lahn Khafi)",
+          "subtitle": "Categorizing errors and their legal rulings",
+          "readingTime": "4 min",
+          "explanation": "Mistakes in recitation are classified into two categories: 1) Lahn Jali (Obvious/Major Mistake): Changing a letter for another (e.g. pronouncing ت as ط) or changing a vowel (e.g. changing Fat-hah to Dammah), which can alter the divine meaning. This is forbidden (Haram) to commit intentionally. 2) Lahn Khafi (Hidden/Minor Mistake): Imperfections in fine Tajweed rules like shortening Madd or not holding Ghunnah long enough. This is disliked (Makruh) and should be corrected through practice.",
+          "keyPoints": [
+            "Lahn Jali (Major): Changing letters or vowels; alters meaning; strictly forbidden.",
+            "Lahn Khafi (Minor): Sub-optimal timing of Ghunnah or Madd; disliked.",
+            "Beginners must prioritize eliminating Lahn Jali first."
+          ],
+          "audio": {
+            "arabicText": "أَنْعَمْتَ عَلَيْهِمْ",
+            "phonetic": "An'amta 'alayhim (Correct: with Fat-hah on Ta)",
+            "description": "Listen to the correct pronunciation of 'An'amta' in Surah Al-Fatihah."
+          },
+          "examples": [
+            {
+              "arabic": "أَنْعَمْتَ vs أَنْعَمْتُ",
+              "label": "Lahn Jali Example",
+              "sound": "'An'amta' (You bestowed) vs 'An'amtu' (I bestowed - changes meaning completely!)"
+            }
+          ],
+          "practice": "Recite 'أَنْعَمْتَ عَلَيْهِمْ' ensuring the 'تَ' ends with a crisp Fat-hah ('ta', not 'tu').",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What type of recitation mistake is it when someone changes a letter or a vowel mark (e.g. Fat-hah to Dammah)?",
+            "options": [
+              "Lahn Khafi (Minor mistake)",
+              "Lahn Jali (Major obvious mistake)",
+              "Idgham",
+              "Qalqalah"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Changing a letter or vowel is Lahn Jali (Major Mistake) because it can corrupt the theological meaning of the verse."
+          }
+        },
+        {
+          "id": "tajweed-ch3-l3",
+          "number": 3,
+          "title": "Etiquette of Qur'anic Recitation",
+          "subtitle": "Spiritual readiness, Isti'adhah, and Basmalah",
+          "readingTime": "3 min",
+          "explanation": "Before beginning recitation, a learner should observe the sacred etiquette: 1) Be in a state of physical purity (Wudu). 2) Recite in a clean, quiet environment. 3) Seek refuge in Allah from Satan by reciting Isti'adhah (أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ). 4) Begin in the name of Allah with Basmalah (بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ).",
+          "keyPoints": [
+            "Physical cleanliness and Wudu before touching the Mushaf.",
+            "Isti'adhah: Seeking protection from distraction before starting.",
+            "Basmalah: Commencing every Surah (except Surah At-Tawbah).",
+            "Reciting with contemplation (Tadabbur) and humility."
+          ],
+          "audio": {
+            "arabicText": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+            "phonetic": "A'oodhu billahi mina-sh-Shaytani-r-Rajeem",
+            "description": "Listen to the classical Isti'adhah formula."
+          },
+          "examples": [
+            {
+              "arabic": "أَعُوذُ بِاللَّهِ",
+              "label": "Isti'adhah",
+              "sound": "A'oodhu billahi..."
+            }
+          ],
+          "practice": "Recite the Isti'adhah followed immediately by the Basmalah with calm focus.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "Which Surah in the Holy Qur'an is recited without the opening Basmalah?",
+            "options": [
+              "Surah Al-Fatihah",
+              "Surah Al-Baqarah",
+              "Surah At-Tawbah (Surah 9)",
+              "Surah Al-Ikhlas"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Surah At-Tawbah (Surah 9) is the only Surah in the Holy Qur'an that does not start with Basmalah."
+          }
+        },
+        {
+          "id": "tajweed-ch3-l4",
+          "number": 4,
+          "title": "Chapter 3 Review & Foundations Checkpoint",
+          "subtitle": "Summary of principles, rules, and recitation etiquette",
+          "readingTime": "3 min",
+          "explanation": "Tajweed combines heart, mind, and physical vocal precision. Having grounded yourself in the definition, importance, error avoidance, and recitation etiquette, you are fully prepared to dive into the core acoustic rules starting with Noon Sakinah and Tanween.",
+          "keyPoints": [
+            "Tajweed beautifies recitation and safeguards the sacred text.",
+            "Always eliminate letter and vowel substitutions first.",
+            "Keep an attentive ear and repeat after qualified reciters."
+          ],
+          "audio": {
+            "arabicText": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "phonetic": "Bismillahi-r-Rahmani-r-Rahim",
+            "description": "Listen to the Basmalah recited with measured Tajweed."
+          },
+          "examples": [
+            {
+              "arabic": "رَتِّلْ",
+              "label": "Command",
+              "sound": "Recite with slow, melodious measurement"
+            }
+          ],
+          "practice": "Recite the opening verses of Surah Al-Fatihah applying calm, deliberate pronunciation.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "What is the primary spiritual and practical goal of studying Tajweed?",
+            "options": [
+              "To recite the Qur'an as fast as possible",
+              "To recite the Qur'an accurately and beautifully as it was revealed",
+              "To learn grammar rules only",
+              "To change the pronunciation of old words"
+            ],
+            "correctAnswer": 1,
+            "explanation": "The ultimate purpose of Tajweed is to recite the Qur'an accurately and beautifully exactly as it was revealed to Prophet Muhammad ﷺ."
+          }
+        }
+      ],
+      "aliases": [
+        "lesson-3",
+        "tajweed-ch3-old",
+        "tajweed-core-rules",
+        "core-rules-and-principles"
+      ],
+      "isArchived": true
+    },
+    {
+      "id": "tajweed-ch2-combined-l8",
+      "title": "Breath Spreading, Nasal Resonance & Mastering Ḍād: At-Tafashshi, Al-Ghunnah & Al-Istitalah (التفشي • الغنة • الاستطالة وحرف الضاد) (Archived)",
+      "chapterId": "lesson-2",
+      "isArchived": true,
+      "aliases": [
+        "tajweed-sifaat-tafashshi-ghunnah-istitalah",
+        "tajweed-ch2-l8-combined"
+      ],
+      "archivedDate": "2026-11-13",
+      "originalLessonData": {
+        "id": "tajweed-ch2-l8",
+        "aliases": [
+          "tajweed-ch2-dhad",
+          "tajweed-sifaat-dhad"
+        ],
+        "number": 8,
+        "title": "Breath Spreading, Nasal Resonance & Mastering Ḍād: At-Tafashshi, Al-Ghunnah & Al-Istitalah (التفشي • الغنة • الاستطالة وحرف الضاد)",
+        "subtitle": "Air dispersion in Shin, intrinsic nasal timbre in Nun/Meem, and the Seven Steps for Dhad",
+        "readingTime": "8 min",
+        "arabic": "التَّفَشِّي • الْغُنَّةُ • الاسْتِطَالَةُ وَحَرْفُ الضَّادِ",
+        "transliteration": "At-Tafashshī, Al-Ghunnah wa Al-Istīṭālah",
+        "makhraj": "Middle tongue (Shin), nasal cavity (Ghunnah), and lateral molars (Dhad).",
+        "sound": "Tafashshi (اشْتَرَوْا) • Ghunnah (إِنَّ / ثُمَّ) • Istitalah (وَلَا الضَّالِّينَ)",
+        "videoLesson": {
+          "videoId": "Nz7BUoOpcXA",
+          "title": "Follow these SEVEN STEPS to pronounce ض correctly | Arabic101",
+          "channel": "Arabic 101",
+          "shortTitle": "Lesson 8: The Seven Steps for Ḍād"
+        },
+        "explanation": "In this concluding lesson of Sifat Al-Huruf, we complete the non-opposite characteristics by mastering **At-Tafashshī (التفشي)**, **Al-Ghunnah (الغنة)**, and the crown characteristic **Al-Istīṭālah (الاستطالة)** along with the definitive pronunciation of **Ḍād (ض)**.\n\n### 1. At-Tafashshī (التَّفَشِّي — Breath Diffusion & Spreading)\n- **Linguistic Meaning:** Spreading, blossoming, or dispersing widely.\n- **Tajweed Definition:** The wide dispersal and spreading of exhaled acoustic breath across the palate and oral cavity between the middle of the tongue and the mouth roof.\n- **The Sole Letter of Tafashshī:** **`ش`** (Shīn) alone.\n- **Recitation Execution:** When pronouncing `شْ` (such as in `اشْتَرَوْا` or `الشَّمْسُ`), the reciter allows air to billow across the upper teeth and palate, creating a rich acoustic whisper.\n\n---\n\n### 2. Al-Ghunnah (الْغُنَّةُ — Inherent Nasal Resonance)\n- **Linguistic Meaning:** A resonant, musical sound.\n- **Tajweed Definition:** An intrinsic, melodic acoustic timbre produced exclusively within the hollow passage of the nasal cavity (*Al-Khayshūm*).\n- **The 2 Letters of Ghunnah:** **`ن`** (Nūn) and **`م`** (Mīm).\n- **Essential Rule:** Ghunnah is an intrinsic, permanent Sifah built into the body (*Dhat*) of Nūn and Mīm in all states, reaching maximum prolonged duration when carrying a Shaddah (`إِنَّ`, `ثُمَّ`) or during Idghām and Ikhfā'.\n\n---\n\n### 3. Al-Istīṭālah (الاسْتِطَالَةُ) & Mastering the Letter Ḍād (ض)\nThe letter **Ḍād (ض)** is the supreme symbol of the Arabic language (*Lughat aḍ-Ḍād*):\n- **Physical Makhraj:** Articulated from **one or both lateral sides/edges of the tongue (حَافَةُ اللِّسَانِ — Ḥāffat al-Lisān)** pressing firmly against the inner gum line of the **upper molars (الأَضْرَاسُ العُلْيَا — Al-Aḍrās al-‘Ulyā)**.\n- **The 6 Sifāt of Ḍād:**\n  1. *Al-Jahr (الجهر)*: Clear voice, no whispered breath.\n  2. *Ar-Rakhāwah (الرخاوة)*: Continuous running sound (NEVER stops like Dāl!).\n  3. *Al-Isti‘lā’ (الاستعلاء)*: Elevated tongue back creating permanent heaviness (*Tafkhīm*).\n  4. *Al-Iṭbāq (الإطباق)*: Deep palatal compression against the roof of the mouth.\n  5. *Al-Iṣmāt (الإصمات)*: Muscular firmness.\n  6. *Al-Istīṭālah (الاستطالة)*: **Exclusive to Ḍād!** The forward sliding elongation of sound and lateral contact from the molars to the canines under compressed breath pressure.\n\n---\n\n### 4. The Seven Steps to Pronounce Ḍād Correctly (Arabic 101)\n1. **Position Lateral Edges:** Place the side(s) of your tongue firmly against the upper molars.\n2. **Relax the Tongue Tip:** Keep your tongue tip resting lightly without pressing the front teeth.\n3. **Elevate the Back (Isti‘lā’):** Lift the tongue back toward the soft palate for heavy resonance.\n4. **Compress the Palate (Iṭbāq):** Adhere the dorsum of your tongue toward the roof.\n5. **Engage Breath Trapping & Running Sound:** Allow pressure to build without an explosive burst.\n6. **Glide Forward with Istīṭālah:** Allow the tongue contact to extend forward along the molars.\n7. **Smooth Release Without Echo:** Release cleanly into the next vowel with **zero Qalqalah bounce!**\n\n---\n\n### 5. Critical Pitfall: Eliminating Confusion with Ẓā' (ظ)\n- **Ẓā' (ظ):** Formed by the **tip** of the tongue touching the top front incisors.\n- **Ḍād (ض):** Formed from the **lateral edges** against the upper **molars**!\n- Confusing them alters Qur'anic meaning: `أَنْقَضَ ظَهْرَكَ` (*burdened your back* — 94:3) must never be pronounced with a tip-contact sound.",
+        "keyPoints": [
+          "At-Tafashshī belongs to Shīn (ش), spreading air widely across the palate.",
+          "Al-Ghunnah is the inherent nasal timbre residing in Nūn (ن) and Mīm (م).",
+          "Al-Istīṭālah is the exclusive elongation of Ḍād (ض) as contact glides along the molars.",
+          "Never confuse Ḍād (lateral molars) with Ẓā' (tongue tip to front incisors), and never apply Qalqalah to Ḍād."
+        ],
+        "examples": [
+          {
+            "arabic": "وَلَا الضَّالِّينَ",
+            "transliteration": "Wa-laḍ-ḍāllīn",
+            "label": "Surah Al-Fatihah 1:7 (Prolonged Isti‘lā’ + Iṭbāq with Shaddah on Ḍād)",
+            "sound": "Wa-lad-daal-leen"
+          },
+          {
+            "arabic": "اشْتَرَوْا",
+            "transliteration": "Ishtaraw",
+            "label": "At-Tafashshī air dispersal across the palate on Shīn Sakinah",
+            "sound": "Ish-ta-raw"
+          },
+          {
+            "arabic": "إِنَّ اللَّهَ مَعَنَا",
+            "transliteration": "Inna Allāha ma‘anā",
+            "label": "Al-Ghunnah maximum nasal resonance on Nūn with Shaddah",
+            "sound": "In-nal-laa-ha ma-a-naa"
+          },
+          {
+            "arabic": "أَنْقَضَ ظَهْرَكَ",
+            "transliteration": "Anqaḍa ẓahrak",
+            "label": "Surah Al-Sharh 94:3 (Direct contrast: lateral Ḍād followed by incisor Ẓā')",
+            "sound": "An-qa-da zah-rak"
+          }
+        ],
+        "practice": "Recite \"وَلَا الضَّالِّينَ\". Press the lateral edges of your tongue against your upper molars, feel the forward glide of Istīṭālah, and transition smoothly into the Madd without bouncing.",
+        "challenge": {
+          "type": "multiple-choice",
+          "question": "Which of the following correctly pairs each letter with its exclusive non-opposite characteristic?",
+          "options": [
+            "Shīn (Tafashshī), Nūn/Mīm (Ghunnah), and Ḍād (Istīṭālah)",
+            "Qāf (Takrīr), Lām (Ṣafīr), and Dāl (Leen)",
+            "Bā' (Tafashshī), Rā' (Ghunnah), and Ṭā' (Istīṭālah)",
+            "Alif (Qalqalah), Wāw (Takrīr), and Yā' (Inḥirāf)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "At-Tafashshī belongs to Shīn (ش), Al-Ghunnah belongs to Nūn and Mīm, and Al-Istīṭālah belongs exclusively to Ḍād (ض)."
+        }
+      }
+    },
+    {
+      "id": "tajweed-ch12-l1",
+      "number": 1,
+      "title": "Makharij Mastery Evaluation",
+      "subtitle": "Checkpoint on all 5 vocal zones",
+      "readingTime": "4 min",
+      "explanation": "This checkpoint tests your knowledge of the 5 articulation zones: Al-Jawf (open cavity), Al-Halq (throat), Al-Lisan (tongue), Ash-Shafatan (lips), and Al-Khayshum (nasal cavity).",
+      "keyPoints": [
+        "Know the exact origin of all 28 letters.",
+        "Understand the 3 throat levels and 4 lip letters.",
+        "Identify Ghunnah and Madd origins."
+      ],
+      "audio": {
+        "arabicText": "أَبْ أَتْ أَثْ أَجْ أَحْ أَخْ أَدْ أَذْ أَرْ أَزْ أَسْ أَشْ أَصْ أَضْ أَطْ أَظْ أَعْ أَغْ أَفْ أَقْ أَكْ أَلْ أَمْ أَنْ أَهْ أَوْ أَيْ",
+        "phonetic": "The complete 28 Makharij checkpoints",
+        "description": "Listen to the complete 28 letter Makharij reference."
+      },
+      "examples": [
+        {
+          "arabic": "ع vs ح",
+          "label": "Mid-throat",
+          "sound": "Middle of throat letters"
+        }
+      ],
+      "practice": "Review the 5 general Makharij zones before taking the challenge.",
+      "challenge": {
+        "type": "multiple-choice",
+        "question": "From where does the letter 'Ghayn' (غ) articulate?",
+        "options": [
+          "Deepest part of the throat near vocal cords",
+          "Closest part of the throat near the back of the mouth (Adnal-Halq)",
+          "The tip of the tongue",
+          "Both lips closed"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ghayn (غ) originates from the closest top part of the throat (Adnal-Halq)."
+      }
+    },
+    {
+      "id": "tajweed-ch12-l2",
+      "number": 2,
+      "title": "Noon Sakinah & Tanween Comprehensive Test",
+      "subtitle": "Classifying Izhar, Idgham, Iqlab, and Ikhfa",
+      "readingTime": "4 min",
+      "explanation": "Test your mastery of classifying all 28 letters under Noon Sakinah and Tanween: 6 for Izhar, 6 for Idgham, 1 for Iqlab, and 15 for Ikhfa.",
+      "keyPoints": [
+        "Izhar = 6 (ء هـ ع ح غ خ)",
+        "Idgham = 6 (ي ر م ل و ن)",
+        "Iqlab = 1 (ب)",
+        "Ikhfa = 15 remaining"
+      ],
+      "audio": {
+        "arabicText": "مَنْ آمَنَ - مَن يَقُولُ - مِـن بَعْدِ - مِن قَبْلُ",
+        "phonetic": "Izhar, Idgham, Iqlab, Ikhfa",
+        "description": "Listen to the 4 rules demonstrated side by side."
+      },
+      "examples": [
+        {
+          "arabic": "مَن يَقُولُ",
+          "label": "Idgham",
+          "sound": "May-yaqoolu"
+        }
+      ],
+      "practice": "Categorize: 'مِنْ خَوْفٍ' (Izhar), 'مِـن بَعْدِ' (Iqlab), 'مَن يَعْمَلْ' (Idgham), 'كُنتُمْ' (Ikhfa).",
+      "challenge": {
+        "type": "multiple-choice",
+        "question": "In the phrase 'مِنْ خَوْفٍ', which rule applies?",
+        "options": [
+          "Idgham with Ghunnah",
+          "Izhar Halqi (Clear Noon before Kha)",
+          "Iqlab",
+          "Ikhfa"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'مِنْ خَوْفٍ' is Izhar Halqi because Noon Sakinah is followed by the throat letter Kha (خ)."
+      }
+    },
+    {
+      "id": "tajweed-ch12-l3",
+      "number": 3,
+      "title": "Meem Sakinah & Qalqalah Assessment",
+      "subtitle": "Testing labial rules and echoing bounces",
+      "readingTime": "4 min",
+      "explanation": "Review Meem Sakinah (Ikhfa Shafawi before Ba, Idgham Shafawi before Meem, Izhar Shafawi before all 26 other letters) and Qalqalah (ق ط ب ج د - Minor in mid-words, Major at stops).",
+      "keyPoints": [
+        "Meem + Ba = Ikhfa Shafawi.",
+        "Meem + Meem = Idgham Shafawi.",
+        "Qalqalah = ق ط ب ج د.",
+        "Minor = mid-word; Major = verse stop."
+      ],
+      "audio": {
+        "arabicText": "تَرْمِيهِم بِحِجَارَةٍ - لَهُم مَّا يَشَاءُونَ - قُلْ هُوَ اللَّهُ أَحَدْ",
+        "phonetic": "Ikhfa Shafawi, Idgham Shafawi, Qalqalah Kubra",
+        "description": "Listen to Meem rules and Qalqalah in combination."
+      },
+      "examples": [
+        {
+          "arabic": "تَرْمِيهِم بِحِجَارَةٍ",
+          "label": "Ikhfa Shafawi",
+          "sound": "Tarmeehimmm-bi-hijarah"
+        }
+      ],
+      "practice": "Recite 'أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ' identifying all Meem and Qalqalah rules.",
+      "challenge": {
+        "type": "multiple-choice",
+        "question": "Which rule applies in 'لَهُم مَّغْفِرَةٌ'?",
+        "options": [
+          "Izhar Shafawi",
+          "Idgham Shafawi (Merging two Meems with 2-count Ghunnah)",
+          "Qalqalah",
+          "Madd Lazim"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Meem Sakinah followed by another Meem is Idgham Shafawi with a 2-count Ghunnah."
+      }
+    },
+    {
+      "id": "tajweed-ch12-l4",
+      "number": 4,
+      "title": "Madd Timing & Tafkhim/Tarqiq Assessment",
+      "subtitle": "Evaluating counts (2, 4/5, 6) and heavy/light rules",
+      "readingTime": "4 min",
+      "explanation": "Review elongation rules (Asli 2 counts, Muttasil/Munfasil 4-5 counts, Lazim 6 counts) and heavy letters (خ ص ض غ ط ق ظ, Name of Allah, and Ra rules).",
+      "keyPoints": [
+        "Madd Asli = 2 counts; Lazim = 6 counts.",
+        "7 Always Heavy: خ ص ض غ ط ق ظ.",
+        "Name of Allah: Heavy after Fat-hah/Dammah; Light after Kasrah.",
+        "Ra: Heavy with Fat-hah/Dammah; Light with Kasrah."
+      ],
+      "audio": {
+        "arabicText": "قَالَ - جَاءَ - الضَّالِّينَ - بِسْمِ اللَّهِ - شَهِدَ اللَّهُ",
+        "phonetic": "Madd and Heaviness Reference",
+        "description": "Listen to the complete spectrum of Madd counts and heaviness."
+      },
+      "examples": [
+        {
+          "arabic": "الضَّالِّينَ",
+          "label": "Madd Lazim (6)",
+          "sound": "6 counts + Shaddah"
+        }
+      ],
+      "practice": "Recite 'إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ' applying 4 counts on 'Innaaa' and heavy Ra on 'Al-Kawthar'.",
+      "challenge": {
+        "type": "multiple-choice",
+        "question": "In the word 'جَاءَ' (Jaaa'a), what type of Madd occurs and what is its count duration?",
+        "options": [
+          "Madd Asli (2 counts)",
+          "Madd Muttasil in a single word (4 to 5 counts)",
+          "Madd Lazim (6 counts)",
+          "Madd 'Iwad (1 count)"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'جَاءَ' is Madd Muttasil (Madd letter and Hamzah in the same word), taking 4 to 5 counts."
+      }
+    },
+    {
+      "id": "tajweed-ch12-l5",
+      "number": 5,
+      "title": "Complete Capstone Recitation Review",
+      "subtitle": "Synthesizing all 12 chapters into fluent recitation",
+      "readingTime": "5 min",
+      "explanation": "You have journeyed from the Arabic alphabet and Makharij to Noon & Meem rules, Madd elongation, Tafkhim/Tarqiq, and Waqf stops. Recite Surah Al-Fatihah, Surah Al-Ikhlas, and Surah Al-Falaq as your comprehensive capstone practical presentation.",
+      "keyPoints": [
+        "Complete Tajweed synthesis achieved.",
+        "Recite with confidence, humility, and beauty.",
+        "Maintain daily recitation habits to keep your Tajweed sharp."
+      ],
+      "audio": {
+        "arabicText": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ... وَلَا الضَّالِّينَ",
+        "phonetic": "Complete Surah Al-Fatihah Master Recitation",
+        "description": "Listen to the complete Surah Al-Fatihah recited to perfection."
+      },
+      "examples": [
+        {
+          "arabic": "تَمَّ بِحَمْدِ اللَّهِ",
+          "label": "Completion",
+          "sound": "Completed by the Grace of Allah"
+        }
+      ],
+      "practice": "Recite Surah Al-Fatihah from memory observing every single rule you have learned.",
+      "challenge": {
+        "type": "multiple-choice",
+        "question": "What is the best way to maintain and deepen your Tajweed mastery after completing this course?",
+        "options": [
+          "Never practice again",
+          "Recite the Holy Qur'an daily with conscious Tajweed application and continue listening to master reciters",
+          "Only read translations",
+          "Memorize without applying pronunciation rules"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Daily deliberate recitation applying Tajweed rules and listening to master reciters cements lifelong mastery."
+      }
+    },
+    {
+      "id": "tajweed-ch12-l6",
+      "number": 6,
+      "title": "Course Completion & Milestone Achievement",
+      "subtitle": "Claim your official FAHMRISE Verified Certificate of Completion",
+      "readingTime": "3 min",
+      "explanation": "Mabruk! Congratulations! You have successfully completed all 13 chapters and 68 small lessons of Ahkam Al-Tajweed (أحكام التجويد). You are now eligible to claim your official, verifiable FAHMRISE Certificate of Completion in Ahkam Al-Tajweed with Distinction. Understand. Learn. Rise.",
+      "keyPoints": [
+        "100% Course Milestones Completed ✓",
+        "Makharij, Noon, Meem, Madd, Tafkhim, and Waqf Mastered ✓",
+        "Official FAHMRISE Credential Available to Claim."
+      ],
+      "audio": {
+        "arabicText": "الْحَمْدُ لِلَّهِ الَّذِي بِنِعْمَتِهِ تَتِمُّ الصَّالِحَاتُ",
+        "phonetic": "Al-hamdu lillahi-lladhi bi-ni'matihi tatimmu-s-saalihaat",
+        "description": "All praise is due to Allah, by Whose grace all good deeds are completed."
+      },
+      "examples": [
+        {
+          "arabic": "شَهَادَةُ التَّخَرُّجِ",
+          "label": "Verified Credential",
+          "sound": "Certificate of Completion"
+        }
+      ],
+      "practice": "Enter your full name in the certificate generator to receive your official verified credential.",
+      "challenge": {
+        "type": "multiple-choice",
+        "question": "What is the motto and tagline of FAHMRISE?",
+        "options": [
+          "Read. Memorize. Repeat.",
+          "Understand. Learn. Rise.",
+          "Code. Deploy. Scale.",
+          "Study. Pass. Forget."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The motto of FAHMRISE is: 'Understand. Learn. Rise.'"
+      }
+    }
+  ]
+},
   {
     "id": "hadith-essentials",
     "aliases": [
@@ -25436,7 +27879,7 @@ export const CoursesDB = {
     if (targetId.includes('frontend') || targetId.includes('react') || targetId.includes('typescript') || targetId.includes('nextjs')) {
       return coursesData.find(c => c.id === 'frontend-developer-zero-to-job-ready');
     }
-    if (targetId.includes('tajweed') || targetId.includes('hijaa')) {
+    if (targetId.includes('tajweed') || targetId.includes('tajweued') || targetId.includes('ahkam') || targetId.includes('hijaa')) {
       return coursesData.find(c => c.id === 'quran-tajweed-from-zero');
     }
     if (targetId.includes('hadith')) {

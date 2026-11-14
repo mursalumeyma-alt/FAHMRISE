@@ -253,7 +253,7 @@ async function fetchLearnerCourse(courseId) {
     featured: false,
     relatedCourse: {
       id: 'quran-tajweed-from-zero',
-      title: 'Ahkam Al-Tajweed (أحكام التجويد)',
+      title: 'AHKAMU AL TAJWEUED',
       path: '/courses/quran-tajweed-from-zero'
     },
     content: [

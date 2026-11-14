@@ -11,66 +11,154 @@ import {
   RefreshCw,
   Globe2,
   ShieldCheck,
-  AlertCircle
+  AlertCircle,
+  HelpCircle,
+  Search
 } from 'lucide-react';
 
 /**
- * Robustly extracts an 11-character YouTube video ID from any videoLesson object or URL string.
+ * Robustly extracts an 11-character YouTube video ID from any videoLesson object, URL string, or ID.
+ * Supports:
+ * - Direct 11-char ID
+ * - youtube.com/watch?v=ID (standard & mobile)
+ * - youtu.be/ID
+ * - youtube.com/embed/ID & youtube-nocookie.com/embed/ID
+ * - youtube.com/shorts/ID
+ * - youtube.com/live/ID
+ * - youtube.com/v/ID
+ * - URLs with multiple parameters before or after v=
  */
-function extractYouTubeVideoId(videoLesson) {
+export function extractYouTubeVideoId(videoLesson) {
   if (!videoLesson) return null;
 
-  // If videoLesson is a string (URL or direct ID)
+  // 1. If videoLesson is a string (direct ID or URL)
   if (typeof videoLesson === 'string') {
     const raw = videoLesson.trim();
     if (/^[a-zA-Z0-9_-]{11}$/.test(raw)) return raw;
-    const match = raw.match(/(?:youtube(?:-nocookie)?\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/i);
-    return match ? match[1] : null;
+    return extractIdFromUrl(raw);
   }
 
-  // If explicit videoId is provided
-  if (videoLesson.videoId && typeof videoLesson.videoId === 'string') {
-    const trimmed = videoLesson.videoId.trim();
+  // 2. Check direct ID properties
+  const directId = videoLesson.videoId || videoLesson.id || videoLesson.video_id || videoLesson.youtubeId;
+  if (directId && typeof directId === 'string') {
+    const trimmed = directId.trim();
     if (/^[a-zA-Z0-9_-]{11}$/.test(trimmed)) return trimmed;
+    const fromDirect = extractIdFromUrl(trimmed);
+    if (fromDirect) return fromDirect;
   }
 
-  // Check possible URL properties
-  const urlCandidate = videoLesson.embedUrl || videoLesson.url || videoLesson.watchUrl || '';
+  // 3. Check possible URL properties
+  const urlCandidate = videoLesson.watchUrl || videoLesson.embedUrl || videoLesson.url || videoLesson.src || videoLesson.link || '';
   if (urlCandidate && typeof urlCandidate === 'string') {
-    const match = urlCandidate.match(/(?:youtube(?:-nocookie)?\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/i);
-    if (match) return match[1];
+    const fromUrl = extractIdFromUrl(urlCandidate.trim());
+    if (fromUrl) return fromUrl;
   }
 
   return null;
 }
 
-// English learning video IDs - strictly prohibited as fallbacks for Arabic, Kiswahili or other non-English language courses
-const ENGLISH_ONLY_VIDEO_IDS = new Set([
+/**
+ * Extracts 11-character YouTube video ID from any valid YouTube URL format.
+ */
+function extractIdFromUrl(url) {
+  if (!url || typeof url !== 'string') return null;
+  const clean = url.trim();
+
+  // Pattern covers: watch?v=, embed/, v/, shorts/, live/, youtu.be/
+  const patterns = [
+    /(?:youtube(?:-nocookie)?\.com\/(?:watch\?(?:.*&)?v=|(?:embed|v|shorts|live)\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/i,
+    /[?&]v=([a-zA-Z0-9_-]{11})/i
+  ];
+
+  for (const regex of patterns) {
+    const match = clean.match(regex);
+    if (match && match[1] && match[1].length === 11) {
+      return match[1];
+    }
+  }
+
+  if (/^[a-zA-Z0-9_-]{11}$/.test(clean)) {
+    return clean;
+  }
+
+  return null;
+}
+
+/**
+ * Extracts start time in seconds from video object or URL.
+ */
+function extractStartTime(videoLesson) {
+  if (!videoLesson) return null;
+  if (typeof videoLesson.start === 'number') return videoLesson.start;
+  if (typeof videoLesson.start === 'string' && /^\d+$/.test(videoLesson.start)) {
+    return parseInt(videoLesson.start, 10);
+  }
+
+  const urlCandidate = typeof videoLesson === 'string' 
+    ? videoLesson 
+    : (videoLesson.watchUrl || videoLesson.url || videoLesson.embedUrl || '');
+
+  if (urlCandidate && typeof urlCandidate === 'string') {
+    const match = urlCandidate.match(/[?&](?:t|start)=([0-9hm]+s?)/i);
+    if (match && match[1]) {
+      const raw = match[1].replace(/s$/i, '');
+      if (/^\d+$/.test(raw)) return parseInt(raw, 10);
+      let seconds = 0;
+      const h = raw.match(/(\d+)h/i);
+      const m = raw.match(/(\d+)m/i);
+      const s = raw.match(/(\d+)s?/i);
+      if (h) seconds += parseInt(h[1], 10) * 3600;
+      if (m) seconds += parseInt(m[1], 10) * 60;
+      if (s && !h && !m) seconds += parseInt(s[1], 10);
+      return seconds > 0 ? seconds : null;
+    }
+  }
+
+  return null;
+}
+
+// Strictly English language-learning IDs (ESL grammar drills) that must not leak into native Arabic/Swahili language-acquisition courses
+const ENGLISH_ESL_ONLY_IDS = new Set([
   'RWLaMgeD8gU', 'juKd26qkNAw', 'iZnjTX_NHBQ', 'JOt10vhUtYE', 'I1Gt-4Qahdk', 'VxjFEj0dx18'
 ]);
 
+/**
+ * Protects language learning courses (like Arabic Language from zero) from unrelated ESL English grammar drills,
+ * while ensuring Islamic Studies and Tajweed courses (which teach in English) are NEVER blocked.
+ */
 function isMismatchedLanguageVideo(videoLesson, courseId, courseLanguage) {
   if (!videoLesson) return true;
   if (videoLesson.isUserProvided) return false;
+
   const courseKey = String(courseId || courseLanguage || '').toLowerCase();
-  const isTargetArabic = courseKey.includes('arabic') || videoLesson.language === 'arabic';
-  const isTargetSwahili = courseKey.includes('swahili') || courseKey.includes('kiswahili') || videoLesson.language === 'swahili';
+  
+  // NEVER block Tajweed, Quran, Islamic studies, Hadith, Tafsir courses - they teach in English!
+  const isIslamicStudiesCourse = courseKey.includes('tajweed') || 
+                                 courseKey.includes('quran') || 
+                                 courseKey.includes('hadith') || 
+                                 courseKey.includes('tafsir') || 
+                                 courseKey.includes('salah') || 
+                                 courseKey.includes('aqeedah') || 
+                                 courseKey.includes('manners');
+  if (isIslamicStudiesCourse) {
+    return false;
+  }
+
+  const isTargetArabic = courseKey.includes('arabic-language') || courseKey.includes('arabic-from-zero');
+  const isTargetSwahili = courseKey.includes('swahili') || courseKey.includes('kiswahili');
 
   const extractedId = extractYouTubeVideoId(videoLesson);
 
   if (isTargetArabic || isTargetSwahili) {
-    // English video ID passed to Arabic or Swahili lesson
-    if (extractedId && ENGLISH_ONLY_VIDEO_IDS.has(extractedId)) {
+    if (extractedId && ENGLISH_ESL_ONLY_IDS.has(extractedId)) {
       return true;
     }
-    // Channel is EnglishClass101
     const channel = String(videoLesson.channel || '').toLowerCase();
-    if (channel.includes('englishclass101') || (channel.includes('english') && !channel.includes('arabic') && !channel.includes('swahili'))) {
+    if (channel.includes('englishclass101')) {
       return true;
     }
-    // Title explicitly says English without mentioning Arabic or Swahili
     const title = String(videoLesson.title || '').toLowerCase();
-    if (title.includes('english alphabet') || title.includes('learn english') || (title.includes('english') && !title.includes('arabic') && !title.includes('swahili'))) {
+    if (title.includes('learn english vocabulary') || title.includes('english listening practice')) {
       return true;
     }
   }
@@ -109,26 +197,41 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
     return extractYouTubeVideoId(activeVideo);
   }, [activeVideo, isLanguageMismatched]);
 
-  // Derive genuine watch URL and embed URL safely
+  // Extract start time in seconds
+  const startTime = useMemo(() => {
+    return extractStartTime(activeVideo);
+  }, [activeVideo]);
+
+  // Derive YouTube embed URL safely with all standard playback parameters
   const embedUrl = useMemo(() => {
     if (!videoId || isLanguageMismatched) return null;
-    let url = `https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1&enablejsapi=1`;
-    if (activeVideo?.start) {
-      url += `&start=${activeVideo.start}`;
+    
+    // Base privacy-enhanced embed endpoint
+    let url = `https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1&playsinline=1`;
+    
+    // Add origin parameter if running in a browser environment to eliminate postMessage cross-origin warnings
+    if (typeof window !== 'undefined' && window.location?.origin) {
+      url += `&origin=${encodeURIComponent(window.location.origin)}`;
     }
-    return url;
-  }, [videoId, isLanguageMismatched, activeVideo]);
 
+    if (startTime) {
+      url += `&start=${startTime}`;
+    }
+
+    return url;
+  }, [videoId, isLanguageMismatched, startTime]);
+
+  // Derive genuine watch URL for fallback link
   const watchUrl = useMemo(() => {
     if (isLanguageMismatched) return null;
     if (videoId) {
-      if (activeVideo?.start) {
-        return `https://www.youtube.com/watch?v=${videoId}&t=${activeVideo.start}s`;
+      if (startTime) {
+        return `https://www.youtube.com/watch?v=${videoId}&t=${startTime}s`;
       }
       return `https://www.youtube.com/watch?v=${videoId}`;
     }
     return activeVideo?.watchUrl || activeVideo?.url || null;
-  }, [videoId, activeVideo, isLanguageMismatched]);
+  }, [videoId, activeVideo, isLanguageMismatched, startTime]);
 
   // Reset states whenever a new video or lesson is loaded
   useEffect(() => {
@@ -143,8 +246,10 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
     setRetryKey(prev => prev + 1);
   };
 
+  const videoTitle = activeVideo.title || videoLesson.title || 'Lesson Video Lecture';
+
   return (
-    <div className="my-6 p-5 sm:p-6 rounded-3xl bg-slate-900/95 border border-slate-800 shadow-2xl space-y-4 transition-all">
+    <div className="my-6 p-4 sm:p-6 rounded-3xl bg-slate-900/95 border border-slate-800 shadow-2xl space-y-4 transition-all">
       
       {/* Multi-Reference Topic Switcher Tabs */}
       {references && (
@@ -156,12 +261,12 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
             </span>
             <span className="text-[11px] text-slate-400">Select topic to switch lecture</span>
           </div>
-          <div className="flex items-center gap-2 overflow-x-auto pb-1 pt-0.5">
+          <div className="flex items-center gap-2 overflow-x-auto pb-1 pt-0.5 custom-scrollbar">
             {references.map((ref, rIdx) => {
               const isSelected = rIdx === selectedRefIndex;
               return (
                 <button
-                  key={ref.id || rIdx}
+                  key={ref.id || ref.videoId || rIdx}
                   data-ref-tab={ref.id || rIdx}
                   onClick={() => {
                     setSelectedRefIndex(rIdx);
@@ -173,7 +278,7 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
                       : 'bg-slate-800/80 text-slate-400 hover:text-slate-200 border border-slate-700/60'
                   }`}
                 >
-                  <span>{ref.tabLabel || ref.title}</span>
+                  <span>{ref.tabLabel || ref.shortTitle || ref.title}</span>
                   {isSelected && <span className="w-1.5 h-1.5 rounded-full bg-teal-400" />}
                 </button>
               );
@@ -207,7 +312,7 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
                 );
               }
               const isVerified = (activeVideo.badge === 'Verified Reference Video' || activeVideo.badge === 'Verified' || activeVideo.status === 'Verified') && activeVideo.badge !== 'Needs Review' && activeVideo.status !== 'Needs Review';
-              if (isVerified) {
+              if (isVerified || activeVideo.channel) {
                 return (
                   <span className="inline-flex items-center gap-1.5 text-emerald-400 font-bold text-xs uppercase tracking-wider bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 rounded-full">
                     <ShieldCheck className="w-3.5 h-3.5" />
@@ -218,7 +323,7 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
               return (
                 <span className="inline-flex items-center gap-1.5 text-amber-400 font-bold text-xs uppercase tracking-wider bg-amber-500/10 border border-amber-500/20 px-2.5 py-0.5 rounded-full">
                   <AlertCircle className="w-3.5 h-3.5" />
-                  <span>Needs Review</span>
+                  <span>Topic Reference</span>
                 </span>
               );
             })()}
@@ -239,8 +344,8 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
             )}
           </div>
 
-          <h4 className="text-sm sm:text-base font-bold text-white pt-0.5">
-            {activeVideo.title || 'Lesson Video Lecture'}
+          <h4 className="text-sm sm:text-base font-bold text-white pt-0.5 leading-snug">
+            {videoTitle}
           </h4>
 
           {activeVideo.topic && (
@@ -252,10 +357,10 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
         </div>
 
         {/* Action Buttons: Watch on YouTube, Transcript & Controls */}
-        <div className="flex items-center gap-2 flex-shrink-0 pt-1 sm:pt-0">
+        <div className="flex flex-wrap items-center gap-2 flex-shrink-0 pt-1 sm:pt-0">
           <button
             onClick={handleRetry}
-            className="p-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors cursor-pointer"
+            className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors cursor-pointer"
             title="Reload Video Player"
             aria-label="Reload Video Player"
           >
@@ -265,7 +370,7 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
           {activeVideo.transcript && (
             <button
               onClick={() => setShowTranscript(!showTranscript)}
-              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-semibold transition-all cursor-pointer ${
+              className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-xl border text-xs font-semibold transition-all cursor-pointer ${
                 showTranscript
                   ? 'bg-teal-500/20 text-teal-200 border-teal-500/40'
                   : 'bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-700'
@@ -282,7 +387,7 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
               href={watchUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-red-600/20 hover:bg-red-600/30 text-red-300 hover:text-red-200 border border-red-500/30 text-xs font-semibold transition-all cursor-pointer"
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-red-600/20 hover:bg-red-600/30 text-red-300 hover:text-red-200 border border-red-500/30 text-xs font-semibold transition-all cursor-pointer shadow-sm"
               title="Watch lecture directly on YouTube in a new tab"
             >
               <ExternalLink className="w-3.5 h-3.5" />
@@ -292,7 +397,7 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
 
           <button
             onClick={() => setIsPlayerVisible(!isPlayerVisible)}
-            className="p-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors cursor-pointer"
+            className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors cursor-pointer"
             title={isPlayerVisible ? "Hide Video Player" : "Show Video Player"}
             aria-label={isPlayerVisible ? "Hide Video Player" : "Show Video Player"}
           >
@@ -301,49 +406,83 @@ export default function LessonVideoPlayer({ videoLesson, courseId, courseLanguag
         </div>
       </div>
 
-      {/* Video Embed Player */}
+      {/* Video Embed Player Container */}
       {isPlayerVisible && (
         <div className="space-y-3 animate-in fade-in duration-200">
           <div className="relative aspect-video rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shadow-inner group">
             {embedUrl ? (
               <iframe
                 key={`${videoId}-${retryKey}`}
-                src={`${embedUrl}&vkey=${retryKey}`}
-                title={activeVideo.title || videoLesson.title || 'Lesson Video'}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-full border-0"
+                src={embedUrl}
+                title={videoTitle}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen={true}
+                referrerPolicy="strict-origin-when-cross-origin"
+                loading="lazy"
+                className="w-full h-full border-0 absolute inset-0"
               />
             ) : (
-              /* Clean Video Unavailable Banner */
-              <div className="w-full h-full min-h-[220px] flex flex-col items-center justify-center p-6 text-center space-y-3 bg-slate-950">
+              /* Clean Video Unavailable / Fallback Banner */
+              <div className="w-full h-full min-h-[220px] flex flex-col items-center justify-center p-6 text-center space-y-3.5 bg-slate-950">
                 <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-amber-400 flex items-center justify-center">
                   <Play className="w-6 h-6 ml-0.5 opacity-60" />
                 </div>
-                <div className="space-y-1">
+                <div className="space-y-1.5 max-w-md mx-auto">
                   <p className="text-sm font-bold text-white">
-                    {activeVideo.unavailableTitle || (isLanguageMismatched ? 'Video Unavailable for This Language' : 'Video Reference Currently Unavailable')}
+                    {activeVideo.unavailableTitle || (isLanguageMismatched ? 'Video Unavailable for This Language' : 'Video Reference In Preparation')}
                   </p>
-                  <p className="text-xs text-slate-400 max-w-md mx-auto">
+                  <p className="text-xs text-slate-400 leading-relaxed font-normal">
                     {activeVideo.unavailableMessage || (isLanguageMismatched
                       ? 'This lesson requires dedicated native audio and does not use an unverified fallback video. Structured lesson notes, vocabulary, and interactive exercises are provided below.'
-                      : 'A verified reference video for this topic is currently being reviewed and prepared. The complete written lesson, interactive exercises, and study notes below are fully self-contained.')}
+                      : 'A dedicated video lecture for this topic is currently being reviewed. The complete written lesson, interactive exercises, and recitation guidance below are fully self-contained.')}
                   </p>
                 </div>
-                {watchUrl && !isLanguageMismatched && !activeVideo.isUnavailable && (
+
+                {watchUrl && !isLanguageMismatched && !activeVideo.isUnavailable ? (
                   <a
                     href={watchUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 rounded-xl bg-red-600 hover:bg-red-500 text-white text-xs font-bold transition-all flex items-center gap-1.5 shadow-md"
+                    className="px-4 py-2.5 rounded-xl bg-red-600 hover:bg-red-500 text-white text-xs font-bold transition-all flex items-center gap-1.5 shadow-md active:scale-95"
                   >
                     <ExternalLink className="w-3.5 h-3.5" />
-                    <span>Watch Video Lecture</span>
+                    <span>Watch Lecture on YouTube</span>
+                  </a>
+                ) : (
+                  <a
+                    href={`https://www.youtube.com/results?search_query=${encodeURIComponent(`${videoTitle} Tajweed`)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition-all flex items-center gap-1.5 border border-slate-700 active:scale-95"
+                  >
+                    <Search className="w-3.5 h-3.5 text-teal-400" />
+                    <span>Search Related Videos on YouTube</span>
                   </a>
                 )}
               </div>
             )}
           </div>
+
+          {/* Prominent Fallback Action Bar: Resolves any potential iframe blocking or embedding restrictions */}
+          {embedUrl && watchUrl && (
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 p-3 sm:p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800 text-xs text-slate-300">
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 shrink-0" />
+                <span className="text-slate-300">
+                  Having trouble playing in-browser? Video embedding restricted or slow?
+                </span>
+              </div>
+              <a
+                href={watchUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-xl bg-red-600/20 hover:bg-red-600/30 text-red-300 hover:text-red-200 border border-red-500/30 font-semibold transition-all shrink-0 active:scale-95"
+              >
+                <ExternalLink className="w-3.5 h-3.5" />
+                <span>Watch Directly on YouTube</span>
+              </a>
+            </div>
+          )}
 
           {/* Self-contained Lesson & Resource Note */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-3.5 rounded-2xl bg-slate-950/80 border border-slate-800/80 text-xs text-slate-300">

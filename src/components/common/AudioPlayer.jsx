@@ -8,9 +8,10 @@ import { playPronunciation, stopAllAudio, getAudioUrlForText } from '../../utils
  * Features:
  * - Singleton audio control (no overlapping sounds)
  * - Authentic audio playback with high-fidelity Arabic streams
- * - Slow-motion learning toggle (0.8x speed for Tajweed precision)
+ * - Slow-motion learning toggle (0.75x speed for Tajweed precision)
  * - Large accessible touch targets (min 48px)
- * - Ultra-large Arabic typography support with Amiri font & no clipping
+ * - Balanced, non-overflowing Arabic typography with Amiri font & no diacritic clipping
+ * - Vertical layout: Arabic Qur'an text centered, audio controls placed neatly underneath
  */
 export default function AudioPlayer({
   arabicText,
@@ -19,7 +20,7 @@ export default function AudioPlayer({
   soundCue,
   label = 'Listen Pronunciation',
   compact = false,
-  size = 'normal', // 'large' (72-96px), 'comparison' (36-48px), 'normal' (28-36px), 'compact'
+  size = 'normal', // 'large', 'comparison', 'normal', 'compact'
   slowOption = true,
   makhrajDetails = null
 }) {
@@ -124,134 +125,147 @@ export default function AudioPlayer({
     );
   }
 
-  // Large Hero Card / Articulation Box mode
-  const isLargeLetter = size === 'large' || (arabicText && arabicText.length <= 4 && !arabicText.includes(' '));
-  const isComparisonSize = size === 'comparison';
+  // Dynamic Arabic Typography Sizing based on character length
+  const trimmedText = (arabicText || '').trim();
+  const textLength = trimmedText.length;
+  const isSingleLetter = textLength > 0 && textLength <= 3 && !trimmedText.includes(' ');
+  const isShortWord = textLength > 3 && textLength <= 10 && !trimmedText.includes(' ');
+  const isMediumPhrase = textLength > 10 && textLength <= 30;
+  const isLongPassage = textLength > 30;
+
+  let fontSizeClass = 'text-2xl sm:text-3xl md:text-4xl';
+  if (isSingleLetter) {
+    fontSizeClass = 'text-4xl sm:text-5xl md:text-6xl';
+  } else if (isShortWord) {
+    fontSizeClass = 'text-3xl sm:text-4xl md:text-5xl';
+  } else if (isMediumPhrase) {
+    fontSizeClass = 'text-2xl sm:text-3xl md:text-4xl';
+  } else if (isLongPassage) {
+    fontSizeClass = 'text-xl sm:text-2xl md:text-3xl';
+  }
 
   return (
-    <div className="p-6 sm:p-8 rounded-3xl bg-slate-900/95 border border-teal-800/40 shadow-2xl my-6 backdrop-blur-sm">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-        {/* Left Side: Large Arabic Display & Labels */}
-        <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left w-full md:w-auto">
-          {arabicText && (
-            <div className="shrink-0 flex flex-col items-center justify-center p-4 min-w-[120px] rounded-2xl bg-slate-950/80 border border-teal-900/60 shadow-inner">
-              <span
-                className={`font-serif text-teal-200 font-bold select-none leading-[1.6] py-2 px-3 tracking-normal ${
-                  isLargeLetter
-                    ? 'text-6xl sm:text-7xl lg:text-8xl'
-                    : isComparisonSize
-                    ? 'text-4xl sm:text-5xl'
-                    : 'text-3xl sm:text-4xl'
-                }`}
-                style={{ fontFamily: "'Amiri', 'Scheherazade New', serif" }}
-                dir="rtl"
-              >
-                {arabicText}
-              </span>
-              <span className="text-[11px] text-teal-400/80 font-mono mt-1 font-semibold uppercase tracking-wider">
-                {arabicText.length <= 4 ? 'Arabic Letter' : 'Qur\'an Text'}
-              </span>
-            </div>
+    <div className="p-5 sm:p-7 md:p-8 rounded-3xl bg-slate-900/95 border border-teal-800/40 shadow-2xl my-6 backdrop-blur-sm transition-all">
+      {/* 1. Header Information & Metadata */}
+      <div className="flex flex-col items-center text-center mb-4 space-y-2">
+        <div className="flex flex-wrap items-center justify-center gap-2">
+          <span className="text-xs font-bold uppercase tracking-wider text-teal-400 flex items-center gap-1.5 bg-teal-950/60 px-3 py-1 rounded-lg border border-teal-800/40">
+            <Sparkles className="w-3.5 h-3.5" /> {label}
+          </span>
+
+          {isPlaying && (
+            <span className="inline-flex items-center gap-1.5 text-xs text-emerald-400 font-semibold px-2.5 py-0.5 rounded-full bg-emerald-950/60 border border-emerald-800/50 animate-pulse">
+              <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+              Active Audio Stream
+            </span>
           )}
 
-          <div className="space-y-2 flex-1">
-            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-teal-400 flex items-center gap-1.5 bg-teal-950/60 px-3 py-1 rounded-lg border border-teal-800/40">
-                <Sparkles className="w-3.5 h-3.5" /> {label}
-              </span>
-
-              {isPlaying && (
-                <span className="inline-flex items-center gap-1.5 text-xs text-emerald-400 font-semibold px-2.5 py-0.5 rounded-full bg-emerald-950/60 border border-emerald-800/50 animate-pulse">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
-                  Active Audio Stream
-                </span>
-              )}
-
-              {hasError && (
-                <span className="text-xs text-amber-400 bg-amber-950/50 px-2 py-0.5 rounded border border-amber-800/50">
-                  Audio streaming retry ready
-                </span>
-              )}
-            </div>
-
-            {transliteration && (
-              <h3 className="text-xl sm:text-2xl font-bold text-white tracking-wide">
-                {transliteration}
-              </h3>
-            )}
-
-            {soundCue && (
-              <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-medium">
-                {soundCue}
-              </p>
-            )}
-
-            {makhrajDetails && (
-              <div className="mt-2 text-xs text-teal-300 bg-slate-950/60 p-2.5 rounded-xl border border-slate-800 font-medium">
-                📍 <strong className="text-white">Articulation Point:</strong> {makhrajDetails}
-              </div>
-            )}
-          </div>
+          {hasError && (
+            <span className="text-xs text-amber-400 bg-amber-950/50 px-2 py-0.5 rounded border border-amber-800/50">
+              Audio stream retry ready
+            </span>
+          )}
         </div>
 
-        {/* Right Side: Audio Controls (Min 48px Touch Targets) */}
-        <div className="flex flex-wrap items-center justify-center gap-3 w-full md:w-auto shrink-0 pt-4 md:pt-0 border-t md:border-t-0 border-slate-800">
-          {/* Main Play / Pause Button */}
+        {transliteration && (
+          <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white tracking-wide">
+            {transliteration}
+          </h3>
+        )}
+
+        {soundCue && (
+          <p className="text-xs sm:text-sm md:text-base text-slate-300 leading-relaxed font-medium max-w-2xl px-2">
+            {soundCue}
+          </p>
+        )}
+      </div>
+
+      {/* 2. Arabic Qur'an Text Section - Centered, Responsive & Non-Overflowing */}
+      {arabicText && (
+        <div className="w-full my-3 p-5 sm:p-7 md:p-8 rounded-2xl bg-slate-950/85 border border-teal-900/60 shadow-inner flex flex-col items-center justify-center text-center overflow-hidden">
+          <div className="w-full flex items-center justify-center px-2 sm:px-4">
+            <span
+              className={`font-serif text-teal-200 font-bold select-none tracking-normal text-center break-words max-w-full leading-[2.0] sm:leading-[2.3] py-2 px-3 ${fontSizeClass}`}
+              style={{
+                fontFamily: "'Amiri', 'Scheherazade New', 'Traditional Arabic', serif",
+                wordBreak: 'break-word',
+                overflowWrap: 'break-word'
+              }}
+              dir="rtl"
+            >
+              {arabicText}
+            </span>
+          </div>
+          <span className="text-[11px] text-teal-400/80 font-mono mt-3 font-semibold uppercase tracking-wider bg-teal-950/50 px-3 py-1 rounded-full border border-teal-800/40">
+            {isSingleLetter ? 'Arabic Letter' : "Qur'an Text"}
+          </span>
+        </div>
+      )}
+
+      {/* 3. Articulation Point Details (if present) */}
+      {makhrajDetails && (
+        <div className="my-3 text-xs sm:text-sm text-teal-300 bg-slate-950/60 p-3 rounded-xl border border-slate-800 font-medium text-center max-w-2xl mx-auto">
+          📍 <strong className="text-white">Articulation Point:</strong> {makhrajDetails}
+        </div>
+      )}
+
+      {/* 4. Audio Controls - Placed BELOW the Arabic text in one neat row */}
+      <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 w-full pt-4 mt-3 border-t border-slate-800/80">
+        {/* Main Play / Pause Button */}
+        <button
+          onClick={handlePlay}
+          type="button"
+          className={`min-h-[48px] sm:min-h-[52px] min-w-[140px] sm:min-w-[160px] px-5 sm:px-6 py-3 rounded-2xl flex items-center justify-center gap-2.5 font-bold text-xs sm:text-sm transition-all shadow-xl active:scale-95 ${
+            isPlaying
+              ? 'bg-emerald-500 hover:bg-emerald-400 text-slate-950 ring-4 ring-emerald-500/30'
+              : 'bg-teal-500 hover:bg-teal-400 text-slate-950 shadow-teal-500/20 hover:shadow-teal-500/40'
+          }`}
+        >
+          {isLoading ? (
+            <>
+              <Loader2 className="w-4 h-4 sm:w-5 sm:h-5 animate-spin" />
+              <span>Loading Audio...</span>
+            </>
+          ) : isPlaying ? (
+            <>
+              <Pause className="w-4 h-4 sm:w-5 sm:h-5 fill-current" />
+              <span>Pause</span>
+            </>
+          ) : (
+            <>
+              <Play className="w-4 h-4 sm:w-5 sm:h-5 fill-current ml-0.5" />
+              <span>Play Sound</span>
+            </>
+          )}
+        </button>
+
+        {/* Replay Button */}
+        <button
+          onClick={handleReplay}
+          type="button"
+          title="Replay pronunciation from start"
+          className="min-h-[48px] sm:min-h-[52px] min-w-[48px] sm:min-w-[52px] px-4 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 flex items-center justify-center gap-1.5 text-xs font-semibold active:scale-95 transition-all"
+        >
+          <RotateCcw className="w-4 h-4 text-teal-400" />
+          <span>Replay</span>
+        </button>
+
+        {/* Precision Slow-Motion Toggle */}
+        {slowOption && (
           <button
-            onClick={handlePlay}
+            onClick={toggleSpeed}
             type="button"
-            className={`min-h-[52px] min-w-[140px] px-6 py-3.5 rounded-2xl flex items-center justify-center gap-2.5 font-bold text-sm transition-all shadow-xl active:scale-95 ${
-              isPlaying
-                ? 'bg-emerald-500 hover:bg-emerald-400 text-slate-950 ring-4 ring-emerald-500/30'
-                : 'bg-teal-500 hover:bg-teal-400 text-slate-950 shadow-teal-500/20 hover:shadow-teal-500/40'
+            title="Toggle slow 0.75x speed for Tajweed precision"
+            className={`min-h-[48px] sm:min-h-[52px] px-4 py-3 rounded-2xl border flex items-center justify-center gap-1.5 text-xs font-semibold active:scale-95 transition-all ${
+              isSlow
+                ? 'bg-amber-500/20 text-amber-300 border-amber-500/50 ring-2 ring-amber-500/30'
+                : 'bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-700'
             }`}
           >
-            {isLoading ? (
-              <>
-                <Loader2 className="w-5 h-5 animate-spin" />
-                <span>Loading Audio...</span>
-              </>
-            ) : isPlaying ? (
-              <>
-                <Pause className="w-5 h-5 fill-current" />
-                <span>Pause</span>
-              </>
-            ) : (
-              <>
-                <Play className="w-5 h-5 fill-current ml-0.5" />
-                <span>Play Sound</span>
-              </>
-            )}
+            <Gauge className="w-4 h-4 text-amber-400" />
+            <span>{isSlow ? '0.75x Slow' : '1.0x Normal'}</span>
           </button>
-
-          {/* Replay Button */}
-          <button
-            onClick={handleReplay}
-            type="button"
-            title="Replay pronunciation from start"
-            className="min-h-[52px] min-w-[52px] px-4 py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 flex items-center justify-center gap-1.5 text-xs font-semibold active:scale-95 transition-all"
-          >
-            <RotateCcw className="w-4 h-4 text-teal-400" />
-            <span className="hidden sm:inline">Replay</span>
-          </button>
-
-          {/* Precision Slow-Motion Toggle */}
-          {slowOption && (
-            <button
-              onClick={toggleSpeed}
-              type="button"
-              title="Toggle slow 0.75x speed for Tajweed precision"
-              className={`min-h-[52px] px-4 py-3 rounded-2xl border flex items-center justify-center gap-1.5 text-xs font-semibold active:scale-95 transition-all ${
-                isSlow
-                  ? 'bg-amber-500/20 text-amber-300 border-amber-500/50 ring-2 ring-amber-500/30'
-                  : 'bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-700'
-              }`}
-            >
-              <Gauge className="w-4 h-4 text-amber-400" />
-              <span>{isSlow ? '0.75x Slow' : '1.0x Normal'}</span>
-            </button>
-          )}
-        </div>
+        )}
       </div>
     </div>
   );

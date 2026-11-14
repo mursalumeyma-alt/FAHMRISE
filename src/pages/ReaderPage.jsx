@@ -45,6 +45,7 @@ import LessonQuiz from '../components/practice/LessonQuiz';
 import LessonNotes from '../components/notes/LessonNotes';
 import LetterShapeVisualizer from '../components/arabic/LetterShapeVisualizer';
 import LessonVideoPlayer from '../components/video/LessonVideoPlayer';
+import FinalExamInterface from '../components/exam/FinalExamInterface';
 
 // Inline markdown formatting helper (bold, code, italics)
 function renderInlineMarkdown(text) {
@@ -74,17 +75,30 @@ function renderInlineMarkdown(text) {
 
   return tokens.map((token, i) => {
     if (token.type === 'bold') {
-      return <strong key={i} className="font-bold text-white">{token.content}</strong>;
+      const hasArabic = /[\u0600-\u06FF]/.test(token.content);
+      if (hasArabic) {
+        return (
+          <span key={i} className="font-serif text-teal-200 font-normal px-1 inline-block" dir="rtl">
+            {token.content}
+          </span>
+        );
+      }
+      // If content is unusually long (whole multi-clause sentences or paragraphs > 80 chars), render with normal weight
+      if (token.content.length > 80) {
+        return <span key={i} className="font-normal text-slate-200">{token.content}</span>;
+      }
+      return <span key={i} className="font-semibold text-slate-100">{token.content}</span>;
     }
     if (token.type === 'code') {
+      const isArabic = /[\u0600-\u06FF]/.test(token.content);
       return (
-        <code key={i} className="px-1.5 py-0.5 rounded bg-slate-900 border border-slate-800 text-emerald-300 font-mono text-xs">
+        <code key={i} className={`px-1.5 py-0.5 rounded bg-slate-900 border border-slate-800 text-teal-300 font-normal ${isArabic ? 'font-serif text-sm px-2' : 'font-mono text-xs'}`} dir={isArabic ? 'rtl' : undefined}>
           {token.content}
         </code>
       );
     }
     if (token.type === 'italic') {
-      return <em key={i} className="italic text-slate-200">{token.content}</em>;
+      return <em key={i} className="italic text-slate-300 font-normal">{token.content}</em>;
     }
     return token.content;
   });
@@ -97,7 +111,7 @@ function renderMarkdownBlock(paragraph, pIdx, copySnippet, copiedIndex) {
   if (trimmed.startsWith('```')) {
     const lines = trimmed.replace(/```[a-z0-9_-]*/g, '').trim();
     return (
-      <div key={pIdx} className="relative my-5 rounded-2xl bg-slate-900 border border-slate-800 p-4 font-mono text-xs sm:text-sm text-emerald-400 overflow-x-auto shadow-inner">
+      <div key={pIdx} className="relative my-4 rounded-2xl bg-slate-900 border border-slate-800 p-4 font-mono text-xs sm:text-sm text-teal-300 overflow-x-auto shadow-inner">
         <button
           onClick={() => copySnippet(lines, pIdx)}
           className="absolute right-3 top-3 p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-[10px] flex items-center gap-1 transition-all"
@@ -105,37 +119,37 @@ function renderMarkdownBlock(paragraph, pIdx, copySnippet, copiedIndex) {
           {copiedIndex === pIdx ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
           <span>{copiedIndex === pIdx ? 'Copied' : 'Copy'}</span>
         </button>
-        <pre className="whitespace-pre">{lines}</pre>
+        <pre className="whitespace-pre font-normal">{lines}</pre>
       </div>
     );
   }
 
-  // Headings
+  // Section Headings (approx 20px, font-weight 600)
   if (trimmed.startsWith('#### ')) {
     return (
-      <h4 key={pIdx} className="text-base sm:text-lg font-bold text-teal-300 mt-6 mb-2">
+      <h4 key={pIdx} className="text-[15px] sm:text-[17px] font-semibold text-teal-300 mt-5 mb-2">
         {renderInlineMarkdown(trimmed.replace('#### ', ''))}
       </h4>
     );
   }
   if (trimmed.startsWith('### ')) {
     return (
-      <h3 key={pIdx} className="text-lg sm:text-xl font-extrabold text-white mt-8 mb-3 flex items-center gap-2">
-        <span className="w-2 h-5 bg-emerald-500 rounded-full inline-block shrink-0"></span>
+      <h3 key={pIdx} className="text-lg sm:text-[20px] font-semibold text-white mt-6 mb-2.5 flex items-center gap-2">
+        <span className="w-1.5 h-4 bg-teal-400 rounded-full inline-block shrink-0"></span>
         <span>{renderInlineMarkdown(trimmed.replace('### ', ''))}</span>
       </h3>
     );
   }
   if (trimmed.startsWith('## ')) {
     return (
-      <h2 key={pIdx} className="text-xl sm:text-2xl font-black text-white mt-9 mb-4">
+      <h2 key={pIdx} className="text-xl sm:text-[22px] font-semibold text-white mt-7 mb-3">
         {renderInlineMarkdown(trimmed.replace('## ', ''))}
       </h2>
     );
   }
   if (trimmed.startsWith('# ')) {
     return (
-      <h1 key={pIdx} className="text-2xl sm:text-3xl font-black text-white mt-10 mb-4">
+      <h1 key={pIdx} className="text-xl sm:text-[24px] font-semibold text-white mt-8 mb-4">
         {renderInlineMarkdown(trimmed.replace('# ', ''))}
       </h1>
     );
@@ -143,21 +157,21 @@ function renderMarkdownBlock(paragraph, pIdx, copySnippet, copiedIndex) {
 
   // Horizontal Divider
   if (trimmed === '---' || trimmed === '***') {
-    return <hr key={pIdx} className="border-slate-800 my-8" />;
+    return <hr key={pIdx} className="border-slate-800 my-6" />;
   }
 
   // Blockquote / Tip / Important Callout
   if (trimmed.startsWith('> ')) {
     const quoteText = trimmed.split('\n').map(l => l.replace(/^>\s?/, '')).join('\n');
     return (
-      <div key={pIdx} className="my-6 p-5 sm:p-6 rounded-2xl bg-emerald-950/25 border-l-4 border-emerald-500 border-y border-r border-slate-800 shadow-md">
+      <div key={pIdx} className="my-5 p-4 sm:p-5 rounded-2xl bg-teal-950/20 border-l-4 border-teal-500 border-y border-r border-slate-800 shadow-sm">
         <div className="flex items-start gap-3">
-          <div className="p-1 rounded-lg bg-emerald-500/20 text-emerald-400 mt-0.5 shrink-0">
+          <div className="p-1 rounded-lg bg-teal-500/20 text-teal-400 mt-0.5 shrink-0">
             <Lightbulb className="w-4 h-4" />
           </div>
-          <div className="text-sm sm:text-base text-slate-200 leading-relaxed space-y-1">
+          <div className="text-[15px] sm:text-[16px] text-slate-200 leading-[1.7] space-y-1 font-normal">
             {quoteText.split('\n').map((qLine, qIdx) => (
-              <p key={qIdx}>{renderInlineMarkdown(qLine)}</p>
+              <p key={qIdx} className="font-normal">{renderInlineMarkdown(qLine)}</p>
             ))}
           </div>
         </div>
@@ -172,9 +186,9 @@ function renderMarkdownBlock(paragraph, pIdx, copySnippet, copiedIndex) {
       const headerRow = lines[0].split('|').map(c => c.trim()).filter(Boolean);
       const dataRows = lines.slice(2).map(r => r.split('|').map(c => c.trim()).filter(Boolean));
       return (
-        <div key={pIdx} className="my-6 overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/60 shadow-lg">
-          <table className="w-full text-left text-xs sm:text-sm text-slate-300">
-            <thead className="bg-slate-900 border-b border-slate-800 text-slate-200 font-bold uppercase tracking-wider text-[11px]">
+        <div key={pIdx} className="my-5 overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/60 shadow-lg">
+          <table className="w-full text-left text-xs sm:text-[14px] text-slate-300 font-normal">
+            <thead className="bg-slate-900 border-b border-slate-800 text-slate-200 font-semibold uppercase tracking-wider text-[11px]">
               <tr>
                 {headerRow.map((h, hIdx) => (
                   <th key={hIdx} className="px-4 py-3 sm:px-5 sm:py-3.5">
@@ -183,11 +197,11 @@ function renderMarkdownBlock(paragraph, pIdx, copySnippet, copiedIndex) {
                 ))}
               </tr>
             </thead>
-            <tbody className="divide-y border-slate-800/60">
+            <tbody className="divide-y border-slate-800/60 font-normal">
               {dataRows.map((row, rIdx) => (
                 <tr key={rIdx} className="hover:bg-slate-800/30 transition-colors">
                   {row.map((cell, cIdx) => (
-                    <td key={cIdx} className="px-4 py-3 sm:px-5 sm:py-3.5">
+                    <td key={cIdx} className="px-4 py-3 sm:px-5 sm:py-3.5 font-normal">
                       {renderInlineMarkdown(cell)}
                     </td>
                   ))}
@@ -200,36 +214,37 @@ function renderMarkdownBlock(paragraph, pIdx, copySnippet, copiedIndex) {
     }
   }
 
-  // Unordered or Ordered List
+  // Unordered List (16px on desktop, 400 regular weight, leading 1.7)
   const lines = trimmed.split('\n');
   const isUnordered = lines.every(l => l.trim().startsWith('- ') || l.trim().startsWith('* '));
   if (isUnordered && lines.length > 0) {
     return (
-      <ul key={pIdx} className="my-4 space-y-2 text-sm sm:text-base text-slate-300 pl-2">
+      <ul key={pIdx} className="my-3 space-y-2 text-[15px] sm:text-[15.5px] lg:text-[16px] text-slate-200 pl-2 font-normal leading-[1.7]">
         {lines.map((l, lIdx) => (
-          <li key={lIdx} className="flex items-start gap-2.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 mt-2.5 shrink-0" />
-            <span className="leading-relaxed">{renderInlineMarkdown(l.trim().replace(/^[-*]\s+/, ''))}</span>
+          <li key={lIdx} className="flex items-start gap-2.5 font-normal">
+            <span className="w-1.5 h-1.5 rounded-full bg-teal-400 mt-2 shrink-0" />
+            <span className="leading-[1.7] font-normal">{renderInlineMarkdown(l.trim().replace(/^[-*]\s+/, ''))}</span>
           </li>
         ))}
       </ul>
     );
   }
 
+  // Ordered List (16px on desktop, 400 regular weight, leading 1.7)
   const isOrdered = lines.every(l => /^\d+\.\s+/.test(l.trim()));
   if (isOrdered && lines.length > 0) {
     return (
-      <ol key={pIdx} className="my-4 space-y-2.5 text-sm sm:text-base text-slate-300 pl-1">
+      <ol key={pIdx} className="my-3 space-y-2 text-[15px] sm:text-[15.5px] lg:text-[16px] text-slate-200 pl-1 font-normal leading-[1.7]">
         {lines.map((l, lIdx) => {
           const match = l.trim().match(/^(\d+)\.\s+(.*)/);
           const num = match ? match[1] : String(lIdx + 1);
           const text = match ? match[2] : l.trim();
           return (
-            <li key={lIdx} className="flex items-start gap-3">
-              <span className="w-6 h-6 rounded-full bg-slate-900 border border-slate-800 text-emerald-400 text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
+            <li key={lIdx} className="flex items-start gap-2.5 font-normal">
+              <span className="w-5 h-5 rounded-full bg-slate-800/90 border border-slate-700/80 text-teal-300 text-xs font-medium flex items-center justify-center shrink-0 mt-0.5">
                 {num}
               </span>
-              <span className="leading-relaxed">{renderInlineMarkdown(text)}</span>
+              <span className="leading-[1.7] font-normal">{renderInlineMarkdown(text)}</span>
             </li>
           );
         })}
@@ -237,11 +252,11 @@ function renderMarkdownBlock(paragraph, pIdx, copySnippet, copiedIndex) {
     );
   }
 
-  // Regular paragraph with multi-line preservation
+  // Regular paragraph with multi-line preservation (16px on desktop, 400 regular weight, leading 1.7)
   return (
-    <div key={pIdx} className="text-slate-300 text-sm sm:text-base leading-relaxed space-y-2">
+    <div key={pIdx} className="text-slate-200 text-[15px] sm:text-[15.5px] lg:text-[16px] font-normal leading-[1.7] space-y-2 my-2.5">
       {lines.map((line, lIdx) => (
-        <p key={lIdx}>{renderInlineMarkdown(line)}</p>
+        <p key={lIdx} className="leading-[1.7] font-normal">{renderInlineMarkdown(line)}</p>
       ))}
     </div>
   );
@@ -254,7 +269,7 @@ function ArabicOrthographyGuide({ guide }) {
     <div className="my-8 p-6 sm:p-8 rounded-3xl bg-slate-900/95 border border-teal-500/40 shadow-2xl space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-slate-800">
         <div>
-          <h3 className="text-xl sm:text-2xl font-black text-white flex items-center gap-2.5">
+          <h3 className="text-lg sm:text-[20px] font-semibold text-white flex items-center gap-2.5">
             <Layers className="w-6 h-6 text-teal-400" />
             <span>The 28 Letters of the Arabic Alphabet</span>
           </h3>
@@ -313,7 +328,7 @@ function ArabicOrthographyGuide({ guide }) {
 
       {/* The 6 Non-Connecting Letters Rule & 2-Shape Clarification */}
       <div className="p-5 sm:p-6 rounded-2xl bg-amber-950/30 border border-amber-500/40 space-y-3">
-        <h4 className="text-sm sm:text-base font-bold text-amber-300 flex items-center gap-2">
+        <h4 className="text-[15px] sm:text-[17px] font-semibold text-amber-300 flex items-center gap-2">
           <Info className="w-4 h-4 text-amber-400" />
           <span>The 6 Non-Connecting Letters (حروف القطع) — Only 2 Functional Shapes</span>
         </h4>
@@ -326,28 +341,28 @@ function ArabicOrthographyGuide({ guide }) {
         {/* Real-word Alif Non-Connection Examples */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-1">
           <div className="p-3 bg-slate-950/80 rounded-xl border border-amber-500/30">
-            <span className="text-xs font-mono text-amber-400 font-bold block mb-1">1. Initial Alif</span>
+            <span className="text-xs font-mono text-amber-400 font-semibold block mb-1">1. Initial Alif</span>
             <div className="font-serif text-2xl text-white font-bold mb-1" dir="rtl">أَمَل / أُمّ</div>
             <p className="text-[11px] text-slate-300 leading-normal">
               Alif refuses to connect forward; Mīm begins in initial form (<span className="font-serif text-sm">مـ</span>).
             </p>
           </div>
           <div className="p-3 bg-slate-950/80 rounded-xl border border-amber-500/30">
-            <span className="text-xs font-mono text-amber-400 font-bold block mb-1">2. Medial Forward Break</span>
+            <span className="text-xs font-mono text-amber-400 font-semibold block mb-1">2. Medial Forward Break</span>
             <div className="font-serif text-2xl text-white font-bold mb-1" dir="rtl">بَاب</div>
             <p className="text-[11px] text-slate-300 leading-normal">
               Bā' joins into Alif (<span className="font-serif text-sm">با</span>), but Alif stops connection, leaving second Bā' isolated (<span className="font-serif text-sm">ب</span>).
             </p>
           </div>
           <div className="p-3 bg-slate-950/80 rounded-xl border border-amber-500/30">
-            <span className="text-xs font-mono text-amber-400 font-bold block mb-1">3. Successive Non-Connectors</span>
+            <span className="text-xs font-mono text-amber-400 font-semibold block mb-1">3. Successive Non-Connectors</span>
             <div className="font-serif text-2xl text-white font-bold mb-1" dir="rtl">دَار</div>
             <p className="text-[11px] text-slate-300 leading-normal">
               Dāl, Alif, and Rā' are all non-connectors; none can join forward, so all 3 stand side-by-side unjoined.
             </p>
           </div>
           <div className="p-3 bg-slate-950/80 rounded-xl border border-amber-500/30">
-            <span className="text-xs font-mono text-amber-400 font-bold block mb-1">4. Word-Internal Alif</span>
+            <span className="text-xs font-mono text-amber-400 font-semibold block mb-1">4. Word-Internal Alif</span>
             <div className="font-serif text-2xl text-white font-bold mb-1" dir="rtl">كِتَاب</div>
             <p className="text-[11px] text-slate-300 leading-normal">
               Tā' connects into Alif (<span className="font-serif text-sm">ـتا</span>); Alif terminates connection before final Bā' (<span className="font-serif text-sm">ب</span>).
@@ -358,7 +373,7 @@ function ArabicOrthographyGuide({ guide }) {
 
       {/* Difference Between Alif and Hamzah */}
       <div className="p-5 sm:p-6 rounded-2xl bg-teal-950/40 border border-teal-500/40 space-y-2.5">
-        <h4 className="text-sm sm:text-base font-bold text-teal-300 flex items-center gap-2">
+        <h4 className="text-[15px] sm:text-[17px] font-semibold text-teal-300 flex items-center gap-2">
           <CheckCircle2 className="w-4 h-4 text-teal-400" />
           <span>Difference Between Alif (ا) and Hamzah (ء)</span>
         </h4>
@@ -479,7 +494,7 @@ export default function ReaderPage() {
       targetBookId = 'islamic-aqeedah-from-zero';
     } else if (raw === 'islamic-manners-and-duas' || raw === 'manners-and-duas' || raw === 'islamic-manners' || raw === 'daily-duas' || raw === 'adab-and-duas' || raw === 'akhlaq-and-duas' || raw === 'adab' || raw === 'akhlaq' || raw === 'duas') {
       targetBookId = 'islamic-manners-and-duas';
-    } else if (raw === 'quran-tajweed-from-zero' || raw === 'tajweed-from-zero' || raw === 'tajweed' || raw === 'quran-recitation' || raw === 'quran-recitation-and-tajweed' || raw === 'huruf-al-hijaa') {
+    } else if (raw === 'quran-tajweed-from-zero' || raw === 'ahkamu-al-tajweued' || raw === 'ahkamu-al-tajweed' || raw === 'ahkam-al-tajweed' || raw === 'ahkam-tajweed' || raw === 'tajweed-from-zero' || raw === 'tajweed' || raw === 'quran-recitation' || raw === 'quran-recitation-and-tajweed' || raw === 'huruf-al-hijaa') {
       targetBookId = 'quran-tajweed-from-zero';
     }
     // 2. Check if params.bookId is a single standalone lesson ID (e.g. /reader/data-1 or /reader/pbi-3)
@@ -557,9 +572,14 @@ export default function ReaderPage() {
   const [savingProgress, setSavingProgress] = useState(false);
   const [renewing, setRenewing] = useState(false);
   const [copiedIndex, setCopiedIndex] = useState(null);
+  const [activeVideoOverride, setActiveVideoOverride] = useState(null);
 
   const activeSub = isSubscriptionActive();
   const isEnrolled = isEnrolledIn(targetBookId);
+
+  useEffect(() => {
+    setActiveVideoOverride(null);
+  }, [currentLesson?.id, currentSmallLessonIndex]);
 
   useEffect(() => {
     async function loadData() {
@@ -581,29 +601,40 @@ export default function ReaderPage() {
           activeLessonId = 'data-1';
         }
 
-        try {
-          const lessonData = await api.books.getLesson(targetBookId, activeLessonId);
-          setCurrentLesson(lessonData.lesson);
-          setPrevLesson(lessonData.prevLesson);
-          setNextLesson(lessonData.nextLesson);
-          setIsLocked(isTeacherReviewer ? false : Boolean(lessonData.isLocked));
-          setLockReason(lessonData.lockReason);
-
-          if (lessonData.lesson?.id) {
-            setOpenChapters(prev => ({ ...prev, [lessonData.lesson.id]: true }));
+        if ((activeLessonId === 'intro-letters' || activeLessonId === 'lesson-intro-alphabet') && loadedCourse?.foundationalAlphabet) {
+          setCurrentLesson(loadedCourse.foundationalAlphabet);
+          setPrevLesson(null);
+          setNextLesson(loadedCourse.lessons?.[0] ? { id: loadedCourse.lessons[0].id, title: loadedCourse.lessons[0].title } : null);
+          setIsLocked(false);
+          setLockReason(null);
+          if (loadedCourse.foundationalAlphabet.id) {
+            setOpenChapters(prev => ({ ...prev, [loadedCourse.foundationalAlphabet.id]: true }));
           }
-        } catch (lessonErr) {
-          console.warn('Failed to load specific lesson, attempting fallback to chapter 1:', lessonErr);
-          if (loadedCourse?.lessons?.length > 0) {
-            const firstLesson = loadedCourse.lessons[0];
-            const fallbackLessonData = await api.books.getLesson(targetBookId, firstLesson.id);
-            setCurrentLesson(fallbackLessonData.lesson);
-            setPrevLesson(fallbackLessonData.prevLesson);
-            setNextLesson(fallbackLessonData.nextLesson);
-            setIsLocked(isTeacherReviewer ? false : Boolean(fallbackLessonData.isLocked));
-            setLockReason(fallbackLessonData.lockReason);
-            if (firstLesson.id) {
-              setOpenChapters(prev => ({ ...prev, [firstLesson.id]: true }));
+        } else {
+          try {
+            const lessonData = await api.books.getLesson(targetBookId, activeLessonId);
+            setCurrentLesson(lessonData.lesson);
+            setPrevLesson(lessonData.prevLesson);
+            setNextLesson(lessonData.nextLesson);
+            setIsLocked(isTeacherReviewer ? false : Boolean(lessonData.isLocked));
+            setLockReason(lessonData.lockReason);
+
+            if (lessonData.lesson?.id) {
+              setOpenChapters(prev => ({ ...prev, [lessonData.lesson.id]: true }));
+            }
+          } catch (lessonErr) {
+            console.warn('Failed to load specific lesson, attempting fallback to chapter 1:', lessonErr);
+            if (loadedCourse?.lessons?.length > 0) {
+              const firstLesson = loadedCourse.lessons[0];
+              const fallbackLessonData = await api.books.getLesson(targetBookId, firstLesson.id);
+              setCurrentLesson(fallbackLessonData.lesson);
+              setPrevLesson(fallbackLessonData.prevLesson);
+              setNextLesson(fallbackLessonData.nextLesson);
+              setIsLocked(isTeacherReviewer ? false : Boolean(fallbackLessonData.isLocked));
+              setLockReason(fallbackLessonData.lockReason);
+              if (firstLesson.id) {
+                setOpenChapters(prev => ({ ...prev, [firstLesson.id]: true }));
+              }
             }
           }
         }
@@ -611,7 +642,7 @@ export default function ReaderPage() {
         // Check if small lesson param was passed in URL query
         const smallParam = searchParams.get('sl');
         if (smallParam && currentLesson?.smallLessons) {
-          const idx = currentLesson.smallLessons.findIndex(sl => sl.id === smallParam);
+          const idx = currentLesson.smallLessons.findIndex(sl => sl.id === smallParam || (Array.isArray(sl.aliases) && sl.aliases.includes(smallParam)));
           if (idx >= 0) {
             setCurrentSmallLessonIndex(idx);
           } else {
@@ -638,6 +669,7 @@ export default function ReaderPage() {
   // Handle small lesson parameter synchronization
   const handleSelectSmallLesson = (index) => {
     setCurrentSmallLessonIndex(index);
+    setActiveVideoOverride(null);
     const sl = currentLesson?.smallLessons?.[index];
     if (sl) {
       setSearchParams({ sl: sl.id });
@@ -647,6 +679,25 @@ export default function ReaderPage() {
 
   const hasSmallLessons = currentLesson?.smallLessons && currentLesson.smallLessons.length > 0;
   const activeSmallLesson = hasSmallLessons ? currentLesson.smallLessons[currentSmallLessonIndex] : null;
+
+  const allLessonVideos = useMemo(() => {
+    if (!activeSmallLesson) {
+      return currentLesson?.videoLesson ? [currentLesson.videoLesson] : [];
+    }
+    const list = [];
+    if (activeSmallLesson.videoLesson) {
+      list.push({ ...activeSmallLesson.videoLesson, isPrimary: true });
+    }
+    if (Array.isArray(activeSmallLesson.additionalVideos)) {
+      activeSmallLesson.additionalVideos.forEach(v => list.push(v));
+    }
+    if (list.length === 0 && currentLesson?.videoLesson) {
+      list.push(currentLesson.videoLesson);
+    }
+    return list;
+  }, [activeSmallLesson, currentLesson]);
+
+  const currentActiveVideo = activeVideoOverride || (allLessonVideos.length > 0 ? allLessonVideos[0] : null);
 
   const isCurrentSmallDone = useMemo(() => {
     if (!currentLesson) return false;
@@ -812,7 +863,7 @@ export default function ReaderPage() {
         </div>
       </div>
 
-      <div className="flex-1 flex max-w-7xl w-full mx-auto">
+      <div className="flex-1 flex max-w-7xl w-full mx-auto min-w-0">
         
         {/* Left Sidebar Drawer (Structured Syllabus Accordion) */}
         <aside
@@ -838,6 +889,25 @@ export default function ReaderPage() {
           </div>
 
           <div className="mt-4 space-y-2 max-h-[calc(100vh-190px)] overflow-y-auto pr-1 custom-scrollbar">
+            {course.foundationalAlphabet && (
+              <div
+                onClick={() => {
+                  navigate(`/reader/${targetBookId}/intro-letters`);
+                  setSidebarOpen(false);
+                }}
+                className={`p-3 rounded-xl border text-xs font-semibold flex items-center justify-between cursor-pointer transition-all ${
+                  currentLesson?.id === course.foundationalAlphabet.id || currentLesson?.slug === 'intro-letters'
+                    ? 'bg-emerald-950/40 text-emerald-300 border-emerald-500/40'
+                    : 'bg-slate-900/40 text-slate-400 hover:text-slate-200 hover:bg-slate-900 border-slate-800'
+                }`}
+              >
+                <div className="flex items-center gap-2 truncate pr-2">
+                  <BookMarked className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                  <span className="truncate">{course.foundationalAlphabet.title || 'Foundations: Arabic Letters'}</span>
+                </div>
+                <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 shrink-0">Reference</span>
+              </div>
+            )}
             {(course.lessons || []).map((ch, chIdx) => {
               const isCurrentChapter = ch.id === currentLesson.id;
               const isDone = isLessonCompleted(ch.id);
@@ -926,7 +996,7 @@ export default function ReaderPage() {
         </aside>
 
         {/* Main Content Area */}
-        <main className="flex-1 px-4 sm:px-8 lg:px-12 py-8 max-w-4xl space-y-8">
+        <main className="flex-1 px-4 sm:px-8 lg:px-12 py-8 max-w-4xl w-full min-w-0 space-y-8">
           
           {isLocked && !isTeacherReviewer ? (
             /* LOCKED LESSON PROMPT */
@@ -1004,7 +1074,7 @@ export default function ReaderPage() {
                       <span>{activeSmallLesson.readingTime || '5 min'}</span>
                     </div>
 
-                    <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight">
+                    <h1 className="text-xl sm:text-2xl lg:text-[24px] font-semibold text-white tracking-tight leading-snug">
                       {activeSmallLesson.title}
                     </h1>
 
@@ -1038,14 +1108,42 @@ export default function ReaderPage() {
                     </div>
                   </div>
 
-                  {/* Resilient Video Lesson Player for Chapter */}
-                  {currentLesson.videoLesson && (
-                    <LessonVideoPlayer 
-                      key={`${targetBookId}-${currentLesson.id}`}
-                      videoLesson={currentLesson.videoLesson} 
-                      courseId={targetBookId}
-                      courseLanguage={null}
-                    />
+                  {/* Resilient Video Lesson Player for Chapter & Small Lessons */}
+                  {currentActiveVideo && (
+                    <div className="my-4">
+                      {allLessonVideos.length > 1 && (
+                        <div className="flex flex-wrap items-center gap-1.5 mb-2.5 bg-slate-900/60 p-2.5 rounded-xl border border-slate-800/80">
+                          <span className="text-[11px] font-semibold text-teal-400 mr-1 flex items-center gap-1">
+                            <Video className="w-3.5 h-3.5" />
+                            Lesson Videos:
+                          </span>
+                          {allLessonVideos.map((vid, vIdx) => {
+                            const isSelected = (currentActiveVideo.videoId || currentActiveVideo.id) === (vid.videoId || vid.id);
+                            return (
+                              <button
+                                key={vid.videoId || vid.id || vIdx}
+                                type="button"
+                                onClick={() => setActiveVideoOverride(vid)}
+                                className={`px-2.5 py-1 text-xs rounded-lg transition-all flex items-center gap-1.5 ${
+                                  isSelected
+                                    ? 'bg-teal-500/20 text-teal-300 border border-teal-500/40 font-semibold shadow-sm'
+                                    : 'bg-slate-950/70 text-slate-400 hover:text-slate-200 border border-slate-800'
+                                }`}
+                              >
+                                <Play className={`w-3 h-3 ${isSelected ? 'text-teal-400 fill-teal-400' : 'text-slate-500'}`} />
+                                <span>{vid.shortTitle || vid.title}</span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
+                      <LessonVideoPlayer 
+                        key={`${targetBookId}-${currentLesson.id}-${activeSmallLesson?.id || 'main'}-${currentActiveVideo.videoId || currentActiveVideo.id || 'default'}`}
+                        videoLesson={currentActiveVideo} 
+                        courseId={targetBookId}
+                        courseLanguage={null}
+                      />
+                    </div>
                   )}
 
                   {/* Audio Pronunciation (Tajweed & Phonetics) */}
@@ -1061,50 +1159,13 @@ export default function ReaderPage() {
                   )}
 
                   {/* Main Explanation Markdown Content */}
-                  <div className="space-y-6 text-base sm:text-lg lg:text-xl text-slate-200 leading-[1.85] font-normal">
+                  <div className="fahmrise-lesson-body reader-content space-y-4 text-[15px] sm:text-[15.5px] lg:text-[16px] text-slate-200 leading-[1.7] font-normal">
                     {activeSmallLesson.explanation ? (
-                      activeSmallLesson.explanation.split('\n\n').map((paragraph, pIdx) => {
-                        if (paragraph.startsWith('```')) {
-                          const lines = paragraph.replace(/```[a-z]*/g, '').trim();
-                          return (
-                            <div key={pIdx} className="relative my-5 rounded-2xl bg-slate-900 border border-slate-800 p-5 font-mono text-sm text-teal-300 overflow-x-auto">
-                              <button
-                                onClick={() => copySnippet(lines, pIdx)}
-                                className="absolute right-3 top-3 p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs flex items-center gap-1.5 transition-colors"
-                              >
-                                {copiedIndex === pIdx ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
-                                <span>{copiedIndex === pIdx ? 'Copied' : 'Copy'}</span>
-                              </button>
-                              <pre>{lines}</pre>
-                            </div>
-                          );
-                        }
-
-                        if (paragraph.startsWith('### ')) {
-                          return (
-                            <h3 key={pIdx} className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-white mt-8 mb-3 flex items-center gap-2.5">
-                              <span className="w-2 h-5 bg-teal-400 rounded-full inline-block shrink-0"></span>
-                              <span>{paragraph.replace('### ', '')}</span>
-                            </h3>
-                          );
-                        }
-
-                        if (paragraph.startsWith('#### ')) {
-                          return (
-                            <h4 key={pIdx} className="text-lg sm:text-xl font-bold text-teal-300 mt-6 mb-2">
-                              {paragraph.replace('#### ', '')}
-                            </h4>
-                          );
-                        }
-
-                        return (
-                          <p key={pIdx} className="text-slate-200 leading-[1.85]">
-                            {paragraph}
-                          </p>
-                        );
-                      })
+                      activeSmallLesson.explanation
+                        .split('\n\n')
+                        .map((paragraph, pIdx) => renderMarkdownBlock(paragraph, pIdx, copySnippet, copiedIndex))
                     ) : (
-                      <p className="text-slate-400">Lesson explanation rendering.</p>
+                      <p className="text-slate-400 font-normal">Lesson explanation rendering.</p>
                     )}
                   </div>
 
@@ -1128,13 +1189,13 @@ export default function ReaderPage() {
                         <div className="w-8 h-8 rounded-lg bg-teal-500/20 flex items-center justify-center text-teal-400">
                           <Lightbulb className="w-5 h-5" />
                         </div>
-                        <h4 className="text-sm sm:text-base font-bold uppercase tracking-wider text-teal-300">
+                        <h4 className="text-xs sm:text-[13px] font-semibold uppercase tracking-wider text-teal-300">
                           Key Articulation & Recitation Takeaways
                         </h4>
                       </div>
                       <ul className="space-y-3">
                         {activeSmallLesson.keyPoints.map((point, ptIdx) => (
-                          <li key={ptIdx} className="flex items-start gap-3 text-sm sm:text-base text-slate-100 leading-relaxed">
+                          <li key={ptIdx} className="flex items-start gap-2.5 text-[15px] sm:text-[16px] text-slate-200 leading-[1.7] font-normal">
                             <span className="w-2 h-2 rounded-full bg-teal-400 mt-2 shrink-0"></span>
                             <span>{point}</span>
                           </li>
@@ -1146,14 +1207,14 @@ export default function ReaderPage() {
                   {/* Examples & Letter Comparisons Section */}
                   {activeSmallLesson.examples && activeSmallLesson.examples.length > 0 && (
                     <div className="space-y-5">
-                      <h4 className="text-base sm:text-lg font-extrabold uppercase tracking-wider text-slate-200 flex items-center gap-2.5">
+                      <h4 className="text-sm sm:text-[16px] font-semibold uppercase tracking-wider text-slate-200 flex items-center gap-2">
                         <Sparkles className="w-5 h-5 text-teal-400" /> Examples & Letter Comparisons
                       </h4>
                       <div className="grid gap-4">
                         {activeSmallLesson.examples.map((ex, exIdx) => (
                           <div key={exIdx} className="p-5 sm:p-6 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-md">
                             {ex.title && (
-                              <p className="text-sm font-bold text-teal-300 mb-2">{ex.title}</p>
+                              <p className="text-sm font-semibold text-teal-300 mb-2">{ex.title}</p>
                             )}
                             {ex.code && (
                               <div className="my-2 p-4 bg-slate-950 rounded-xl font-mono text-xs sm:text-sm text-emerald-300 overflow-x-auto border border-slate-800">
@@ -1164,19 +1225,19 @@ export default function ReaderPage() {
                               <div className="my-3 flex flex-col sm:flex-row items-center justify-between gap-4 p-4 sm:p-5 bg-slate-950 rounded-2xl border border-slate-800">
                                 <div className="text-center sm:text-left">
                                   <span
-                                    className="text-3xl sm:text-4xl lg:text-5xl font-serif text-teal-200 font-bold block leading-[1.7] py-2 px-1"
+                                    className="text-2xl sm:text-3xl lg:text-4xl font-serif text-teal-200 font-bold block leading-[1.9] py-2 px-1 break-words"
                                     style={{ fontFamily: "'Amiri', 'Scheherazade New', serif" }}
                                     dir="rtl"
                                   >
                                     {ex.arabic}
                                   </span>
-                                  {ex.label && <p className="text-xs sm:text-sm font-mono text-slate-400 mt-1">{ex.label}</p>}
+                                  {ex.label && <p className="text-xs sm:text-[14px] font-normal text-slate-400 mt-1">{ex.label}</p>}
                                 </div>
                                 <AudioPlayer compact arabicText={ex.arabic} transliteration={ex.label} soundCue={ex.sound} />
                               </div>
                             )}
                             {ex.description && (
-                              <p className="text-xs sm:text-sm text-slate-300 mt-2 leading-relaxed">{ex.description}</p>
+                              <p className="text-xs sm:text-[15px] text-slate-300 mt-2 leading-[1.7] font-normal">{ex.description}</p>
                             )}
                           </div>
                         ))}
@@ -1187,17 +1248,34 @@ export default function ReaderPage() {
                   {/* Practice Activity */}
                   {activeSmallLesson.practice && (
                     <div className="p-6 sm:p-7 rounded-3xl bg-slate-900/95 border border-slate-800 shadow-lg">
-                      <h4 className="text-sm sm:text-base font-bold uppercase tracking-wider text-teal-400 mb-3 flex items-center gap-2.5">
+                      <h4 className="text-xs sm:text-[13px] font-semibold uppercase tracking-wider text-teal-400 mb-2.5 flex items-center gap-2">
                         <Code2 className="w-5 h-5" /> Practical Articulation Drill
                       </h4>
-                      <p className="text-sm sm:text-base text-slate-100 leading-relaxed font-medium">
+                      <p className="text-[15px] sm:text-[16px] text-slate-200 leading-[1.7] font-normal">
                         {activeSmallLesson.practice}
                       </p>
                     </div>
                   )}
 
+                  {/* Comprehensive Multi-Question Quiz Assessment */}
+                  {activeSmallLesson.quiz && (
+                    <LessonQuiz
+                      quiz={activeSmallLesson.quiz}
+                      bookId={targetBookId}
+                      lessonId={activeSmallLesson.id}
+                      onComplete={() => {
+                        markLessonComplete(
+                          currentLesson.id,
+                          targetBookId,
+                          currentLesson.id,
+                          activeSmallLesson.id
+                        );
+                      }}
+                    />
+                  )}
+
                   {/* Interactive Challenge */}
-                  {activeSmallLesson.challenge && (
+                  {activeSmallLesson.challenge && !activeSmallLesson.quiz && (
                     <LessonChallenge
                       challenge={activeSmallLesson.challenge}
                       isCompleted={isCurrentSmallDone}
@@ -1273,6 +1351,19 @@ export default function ReaderPage() {
                     </div>
                   </div>
                 </div>
+              ) : (currentLesson?.isFinalExam || currentLesson?.isExam || currentLesson?.id === 'lesson-12') ? (
+                /* DEDICATED FINAL TAJWEED EXAMINATION & CERTIFICATION INTERFACE */
+                <FinalExamInterface
+                  course={course}
+                  currentLesson={currentLesson}
+                  user={user}
+                  onComplete={() => {
+                    if (user && markLessonComplete) {
+                      markLessonComplete(currentLesson.id, targetBookId);
+                    }
+                  }}
+                  isCompleted={isChapterFullyDone}
+                />
               ) : (
                 /* STANDARD LESSON MODE (e.g. HTML From Zero) */
                 <>
@@ -1283,10 +1374,10 @@ export default function ReaderPage() {
                       <span>•</span>
                       <span>{currentLesson.readingTime || '12 min'}</span>
                     </div>
-                    <h1 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
+                    <h1 className="text-xl sm:text-2xl lg:text-[24px] font-semibold text-white tracking-tight leading-snug">
                       {currentLesson.title}
                     </h1>
-                    <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
+                    <p className="text-[15px] sm:text-[16px] text-slate-300 leading-[1.7] font-normal">
                       {currentLesson.subtitle || currentLesson.summary}
                     </p>
                   </div>
@@ -1294,15 +1385,15 @@ export default function ReaderPage() {
                   {/* Learning Objectives Box (if available) */}
                   {currentLesson.objectives && currentLesson.objectives.length > 0 && (
                     <div className="p-5 sm:p-6 rounded-3xl bg-teal-950/20 border border-teal-500/30 shadow-lg">
-                      <div className="flex items-center gap-2 mb-3 text-teal-400 font-bold text-xs sm:text-sm uppercase tracking-wider">
+                      <div className="flex items-center gap-2 mb-3 text-teal-400 font-semibold text-xs sm:text-[13px] uppercase tracking-wider">
                         <Sparkles className="w-4 h-4" />
                         <span>Module Learning Objectives</span>
                       </div>
-                      <ul className="grid sm:grid-cols-2 gap-2.5 text-xs sm:text-sm text-slate-200">
+                      <ul className="grid sm:grid-cols-2 gap-2.5 text-[14px] sm:text-[15px] text-slate-200 font-normal leading-[1.7]">
                         {currentLesson.objectives.map((obj, oIdx) => (
-                          <li key={oIdx} className="flex items-start gap-2.5">
+                          <li key={oIdx} className="flex items-start gap-2.5 font-normal">
                             <span className="w-1.5 h-1.5 rounded-full bg-teal-400 mt-2 shrink-0" />
-                            <span className="leading-relaxed">{obj}</span>
+                            <span className="leading-[1.7] font-normal">{obj}</span>
                           </li>
                         ))}
                       </ul>
@@ -1335,11 +1426,11 @@ export default function ReaderPage() {
 
                       {/* English Translation */}
                       <div className="pt-3 border-t border-slate-800/80">
-                        <p className="text-sm sm:text-base text-slate-200 leading-relaxed italic">
+                        <p className="text-[15px] sm:text-[16px] text-slate-200 leading-[1.7] italic font-normal">
                           "{currentLesson.verifiedHadith.translation}"
                         </p>
                         {currentLesson.verifiedHadith.reference && (
-                          <p className="text-xs font-bold text-teal-400 mt-2 font-mono">
+                          <p className="text-xs sm:text-[13px] font-normal text-teal-400 mt-2 font-mono">
                             📜 Source: {currentLesson.verifiedHadith.reference}
                           </p>
                         )}
@@ -1382,7 +1473,7 @@ export default function ReaderPage() {
                   )}
 
                   {/* Lesson Body Rendered Markdown */}
-                  <div className="prose prose-invert max-w-none text-slate-300 space-y-6 text-sm sm:text-base leading-relaxed">
+                  <div className="fahmrise-lesson-body reader-content max-w-none text-slate-200 space-y-4 text-[15px] sm:text-[15.5px] lg:text-[16px] leading-[1.7] font-normal">
                     {currentLesson.content ? (
                       currentLesson.content
                         .split('\n\n')
@@ -1408,11 +1499,11 @@ export default function ReaderPage() {
                   {currentLesson.vocabulary && currentLesson.vocabulary.length > 0 && (
                     <div className="space-y-4 pt-4">
                       <div className="flex items-center justify-between">
-                        <h3 className="text-base sm:text-lg font-bold uppercase tracking-wider text-slate-200 flex items-center gap-2">
+                        <h3 className="text-lg sm:text-[20px] font-semibold text-slate-200 flex items-center gap-2">
                           <Sparkles className="w-4 h-4 text-teal-400" />
                           <span>Chapter Vocabulary Bank</span>
                         </h3>
-                        <span className="text-xs text-teal-400 font-medium bg-teal-500/10 px-2.5 py-1 rounded-full border border-teal-500/20">
+                        <span className="text-xs sm:text-[13px] text-teal-400 font-normal bg-teal-500/10 px-2.5 py-1 rounded-full border border-teal-500/20">
                           {currentLesson.vocabulary.length} Key Terms
                         </span>
                       </div>
@@ -1421,20 +1512,20 @@ export default function ReaderPage() {
                         {currentLesson.vocabulary.map((item, vIdx) => (
                           <div key={vIdx} className="p-4 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-teal-500/30 transition-all shadow-sm space-y-1.5">
                             <div className="flex items-baseline justify-between gap-2">
-                              <span className="text-sm sm:text-base font-bold text-white">
+                              <span className="text-[15px] sm:text-[16px] font-semibold text-white">
                                 {item.word}
                               </span>
                               {item.phonetic && (
-                                <span className="text-xs font-mono text-teal-300 bg-slate-950 px-2 py-0.5 rounded border border-slate-800">
+                                <span className="text-xs sm:text-[13px] font-mono text-teal-300 bg-slate-950 px-2 py-0.5 rounded border border-slate-800 font-normal">
                                   {item.phonetic}
                                 </span>
                               )}
                             </div>
-                            <p className="text-xs sm:text-sm text-emerald-300 font-medium">
+                            <p className="text-xs sm:text-[14px] text-emerald-300 font-normal">
                               {item.translation}
                             </p>
                             {item.example && (
-                              <p className="text-xs text-slate-400 italic pt-1 border-t border-slate-850">
+                              <p className="text-xs sm:text-[14px] text-slate-400 italic pt-1 border-t border-slate-850 font-normal leading-[1.6]">
                                 "{item.example}"
                               </p>
                             )}
@@ -1447,7 +1538,7 @@ export default function ReaderPage() {
                   {/* Language Examples & Conversational Models (if available) */}
                   {currentLesson.examples && currentLesson.examples.length > 0 && (
                     <div className="space-y-4 pt-4">
-                      <h3 className="text-base sm:text-lg font-bold uppercase tracking-wider text-slate-200 flex items-center gap-2">
+                      <h3 className="text-lg sm:text-[20px] font-semibold text-slate-200 flex items-center gap-2">
                         <BookOpen className="w-4 h-4 text-teal-400" />
                         <span>Example Sentences & Practical Models</span>
                       </h3>
@@ -1455,15 +1546,15 @@ export default function ReaderPage() {
                       <div className="space-y-3">
                         {currentLesson.examples.map((ex, exIdx) => (
                           <div key={exIdx} className="p-4 sm:p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-2">
-                            <p className="text-sm sm:text-base font-semibold text-white leading-relaxed">
+                            <p className="text-[15px] sm:text-[16px] font-normal text-white leading-[1.7]">
                               {ex.original || ex.arabic || ex.text}
                             </p>
-                            <p className="text-xs sm:text-sm text-teal-300 font-medium">
+                            <p className="text-xs sm:text-[14px] text-teal-300 font-normal">
                               {ex.translation || ex.trans}
                             </p>
                             {ex.note && (
-                              <p className="text-xs text-slate-400 border-t border-slate-850 pt-1.5 flex items-center gap-1.5">
-                                <span className="text-teal-400 font-bold">💡 Note:</span>
+                              <p className="text-xs sm:text-[14px] text-slate-400 border-t border-slate-850 pt-1.5 flex items-center gap-1.5 font-normal">
+                                <span className="text-teal-400 font-medium">💡 Note:</span>
                                 <span>{ex.note}</span>
                               </p>
                             )}
@@ -1476,15 +1567,15 @@ export default function ReaderPage() {
                   {/* Key Takeaways & Core Rules (if available) */}
                   {currentLesson.keyPoints && currentLesson.keyPoints.length > 0 && (
                     <div className="p-6 sm:p-7 rounded-3xl bg-teal-950/20 border border-teal-500/30 shadow-lg space-y-3">
-                      <div className="flex items-center gap-2 text-teal-400 font-bold text-xs sm:text-sm uppercase tracking-wider">
+                      <div className="flex items-center gap-2 text-teal-400 font-semibold text-xs sm:text-[13px] uppercase tracking-wider">
                         <Lightbulb className="w-4 h-4" />
                         <span>Key Chapter Takeaways & Rules</span>
                       </div>
-                      <ul className="space-y-2 text-xs sm:text-sm text-slate-200">
+                      <ul className="space-y-2 text-[14px] sm:text-[15px] text-slate-200 font-normal">
                         {currentLesson.keyPoints.map((pt, ptIdx) => (
-                          <li key={ptIdx} className="flex items-start gap-2.5">
+                          <li key={ptIdx} className="flex items-start gap-2.5 font-normal">
                             <span className="w-1.5 h-1.5 rounded-full bg-teal-400 mt-2 shrink-0" />
-                            <span className="leading-relaxed">{pt}</span>
+                            <span className="leading-[1.7] font-normal">{pt}</span>
                           </li>
                         ))}
                       </ul>
@@ -1494,15 +1585,15 @@ export default function ReaderPage() {
                   {/* Key Vocabulary / Terminology Grid (if available) */}
                   {currentLesson.keyTerms && currentLesson.keyTerms.length > 0 && (
                     <div className="space-y-4 pt-4">
-                      <h3 className="text-base sm:text-lg font-bold uppercase tracking-wider text-slate-200 flex items-center gap-2">
+                      <h3 className="text-lg sm:text-[20px] font-semibold text-slate-200 flex items-center gap-2">
                         <Lightbulb className="w-4 h-4 text-teal-400" />
                         <span>Essential Terminology & Key Vocabulary</span>
                       </h3>
                       <div className="grid sm:grid-cols-2 gap-3">
                         {currentLesson.keyTerms.map((item, ktIdx) => (
                           <div key={ktIdx} className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-sm space-y-1">
-                            <p className="text-xs sm:text-sm font-bold text-teal-300">{item.term}</p>
-                            <p className="text-xs text-slate-300 leading-relaxed">{item.meaning}</p>
+                            <p className="text-[14px] sm:text-[15px] font-semibold text-teal-300">{item.term}</p>
+                            <p className="text-xs sm:text-[14px] text-slate-300 leading-[1.7] font-normal">{item.meaning}</p>
                           </div>
                         ))}
                       </div>
@@ -1512,11 +1603,11 @@ export default function ReaderPage() {
                   {/* Practical Application & Action Checklist (if available) */}
                   {currentLesson.practicalApplication && (
                     <div className="p-6 rounded-3xl bg-emerald-950/25 border border-emerald-500/30 shadow-md space-y-2">
-                      <div className="flex items-center gap-2 text-emerald-400 font-bold text-xs sm:text-sm uppercase tracking-wider">
+                      <div className="flex items-center gap-2 text-emerald-400 font-semibold text-xs sm:text-[13px] uppercase tracking-wider">
                         <CheckCircle className="w-4 h-4" />
                         <span>Daily Sunnah & Practical Application</span>
                       </div>
-                      <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">
+                      <p className="text-[14px] sm:text-[15px] text-slate-200 leading-[1.7] font-normal">
                         {currentLesson.practicalApplication}
                       </p>
                     </div>
@@ -1525,17 +1616,17 @@ export default function ReaderPage() {
                   {/* Reflection & Critical Inquiries (if available) */}
                   {currentLesson.reflectionQuestions && currentLesson.reflectionQuestions.length > 0 && (
                     <div className="p-6 rounded-3xl bg-slate-900/90 border border-slate-850 shadow-md space-y-3">
-                      <div className="flex items-center gap-2 text-teal-300 font-bold text-xs sm:text-sm uppercase tracking-wider">
+                      <div className="flex items-center gap-2 text-teal-300 font-semibold text-xs sm:text-[13px] uppercase tracking-wider">
                         <HelpCircle className="w-4 h-4 text-teal-400" />
                         <span>Reflective Inquiry & Contemplation</span>
                       </div>
-                      <ul className="space-y-2 text-xs sm:text-sm text-slate-200">
+                      <ul className="space-y-2 text-[14px] sm:text-[15px] text-slate-200 font-normal">
                         {currentLesson.reflectionQuestions.map((q, qIdx) => (
-                          <li key={qIdx} className="flex items-start gap-2.5">
-                            <span className="w-5 h-5 rounded-full bg-slate-800 text-teal-300 text-[10px] font-bold flex items-center justify-center shrink-0 mt-0.5">
+                          <li key={qIdx} className="flex items-start gap-2.5 font-normal">
+                            <span className="w-5 h-5 rounded-full bg-slate-800 text-teal-300 text-[10px] font-medium flex items-center justify-center shrink-0 mt-0.5">
                               {qIdx + 1}
                             </span>
-                            <span className="leading-relaxed">{q}</span>
+                            <span className="leading-[1.7] font-normal">{q}</span>
                           </li>
                         ))}
                       </ul>

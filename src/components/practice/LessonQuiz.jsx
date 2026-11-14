@@ -149,7 +149,7 @@ export default function LessonQuiz({ quiz, bookId, lessonId, onComplete }) {
                 <span className="w-6 h-6 rounded-full bg-slate-900 border border-slate-800 text-teal-400 text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
                   {qIdx + 1}
                 </span>
-                <h4 className="text-base sm:text-lg font-bold text-slate-100 leading-snug">
+                <h4 className="text-[15px] sm:text-[17px] font-semibold text-slate-100 leading-snug">
                   {q.question}
                 </h4>
               </div>

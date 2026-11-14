@@ -541,6 +541,10 @@ export const api = {
       return handleResponse(res);
     },
 
+    async claim(courseId, learnerName = '') {
+      return this.claimCertificate(courseId, learnerName);
+    },
+
     async verifyCertificate(certificateId) {
       const res = await fetch(`${API_BASE}/certificates/verify/${certificateId}`);
       return handleResponse(res);

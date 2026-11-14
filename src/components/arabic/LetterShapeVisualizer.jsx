@@ -120,7 +120,7 @@ export default function LetterShapeVisualizer({ customShapes = null, customNote 
               <Layers className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="text-lg sm:text-xl font-extrabold text-white tracking-wide">
+              <h3 className="text-lg sm:text-[20px] font-semibold text-white tracking-tight">
                 Interactive Arabic Letter Shapes Visualizer
               </h3>
               <p className="text-xs sm:text-sm text-teal-400 font-medium mt-0.5">
@@ -275,7 +275,7 @@ export default function LetterShapeVisualizer({ customShapes = null, customNote 
               </span>
             </div>
 
-            <h4 className="text-xl sm:text-2xl font-black text-white tracking-tight">
+            <h4 className="text-lg sm:text-[20px] font-semibold text-white tracking-tight">
               The Shape Style: How Arabic Letters Connect
             </h4>
 
