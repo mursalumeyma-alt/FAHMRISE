@@ -13545,7 +13545,7 @@ export const coursesData = [
       "videoLesson": {
         "videoId": "ZwgM-1M_J7o",
         "title": "EASIEST 'Hams' Explanation | Sifaat Al-huruf Lesson 1 | Arabic101",
-        "channel": "Arabic 101"
+        "channel": "Kalemat Alquran"
       },
       "summary": "Master the complete science of Sifat Al-Huruf across 10 dedicated lessons: all 5 opposing pairs (Hams/Jahr, Shiddah/Rakhawah/Bayniyyah, Isti'la/Istifal, Itbaq/Infitah, Idhlaq/Ismat) and all 8 non-opposite characteristics (Qalqalah, Safir, Leen, Inhiraf, Takrir, Tafashshi, Ghunnah, and Istitalah & the Seven Steps for Ḍād).",
       "smallLessons": [
@@ -14639,47 +14639,79 @@ export const coursesData = [
       "summary": "Master the 3 rules governing unvoweled silent Meem (مْ): Labial Concealment, Merging, and Clarity.",
       "smallLessons": [
         {
-          "id": "tajweed-ch5-l1",
+          "id": "tajweed-ch5-l4",
           "number": 1,
-          "title": "Introduction to Meem Sakinah",
-          "subtitle": "The unvoweled Meem and its 3 rules",
+          "title": "Rule 1: Izhar Shafawi (Labial Clarity)",
+          "subtitle": "Clear Meem before the remaining 26 letters",
           "readingTime": "3 min",
-          "explanation": "Meem Sakinah (مْ) is a Meem with a Sukoon (free of vowels). It has only 3 simple rules: 1) Ikhfa Shafawi (before Ba ب), 2) Idgham Shafawi (before another Meem م), 3) Izhar Shafawi (before all other 26 letters). The word 'Shafawi' means 'of the lips' because Meem is articulated from the lips.",
+          "explanation": "When Meem Sakinah (مْ) is followed by any of the remaining 26 Arabic letters (everything except Ba and Meem), the Meem is pronounced clearly without holding extra Ghunnah. Be especially careful when Meem is followed by Waw (و) or Fa (ف) not to hide the Meem due to their shared lip Makhraj!",
           "keyPoints": [
-            "Meem Sakinah (مْ) = Silent Meem without vowel.",
-            "Only 3 rules: Ikhfa Shafawi, Idgham Shafawi, Izhar Shafawi.",
-            "Named 'Shafawi' because the Makhraj is Ash-Shafatan (the lips)."
+            "26 letters trigger Izhar Shafawi.",
+            "Pronounce Meem clearly with no extra delay.",
+            "Special caution before Waw (و) and Fa (ف): Keep Meem distinct!"
           ],
           "audio": {
-            "arabicText": "عَلَيْهِمْ - تَرْمِيهِم بِحِجَارَةٍ - لَهُم مَّا يَشَاءُونَ",
-            "phonetic": "Alayhim | Tarmeehim bi-hijarah | Lahum-maa yashaa'oon",
-            "description": "Listen to Meem Sakinah across its 3 rules."
+            "arabicText": "عَلَيْهِمْ غَيْرِ - أَنعَمْتَ عَلَيْهِمْ - لَمْ يَلِدْ",
+            "phonetic": "Alayhim ghayri | An'amta 'alayhim | Lam yalid",
+            "description": "Listen to clear, crisp Izhar Shafawi across verses."
           },
           "examples": [
             {
-              "arabic": "أَلَمْ تَرَ",
+              "arabic": "أَنْعَمْتَ عَلَيْهِمْ",
               "label": "Izhar Shafawi",
-              "sound": "Alam tara (clear Meem before Ta)"
+              "sound": "Clean Meem before 'Ayn and at verse end"
+            },
+            {
+              "arabic": "عَلَيْهِمْ وَلَا",
+              "label": "Caution before Waw",
+              "sound": "Alayhim wa-la (do not blend Meem into Waw!)"
             }
           ],
-          "practice": "Inspect how many Meem Sakinahs appear in Surah Al-Fil.",
+          "practice": "Recite 'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ' ensuring both Meems are clear.",
           "challenge": {
             "type": "multiple-choice",
-            "question": "How many rules govern Meem Sakinah (silent Meem)?",
+            "question": "Why must reciters take extra care to pronounce Izhar Shafawi clearly before Waw (و) and Fa (ف)?",
             "options": [
-              "2 rules",
-              "3 rules (Ikhfa Shafawi, Idgham Shafawi, Izhar Shafawi)",
-              "4 rules",
-              "6 rules"
+              "Because they are heavy letters",
+              "Because Waw and Fa share the lip Makhraj with Meem, making accidental hiding common",
+              "Because they require Qalqalah",
+              "Because they are throat letters"
             ],
             "correctAnswer": 1,
-            "explanation": "Meem Sakinah has 3 rules: Ikhfa Shafawi, Idgham Shafawi, and Izhar Shafawi."
-          }
+            "explanation": "Because Meem, Waw, and Fa all originate from the lips, reciters must consciously prevent accidental concealment (Ikhfa)."
+          },
+          "videoLesson": {
+            "videoId": "_YvAxTj6FEo",
+            "title": "The BEST 30-day Program for Tajweed - DAY 16 | Arabic101",
+            "shortTitle": "Rule 1: Izhar Shafawi (Arabic 101)",
+            "channel": "Arabic 101",
+            "duration": "9:28",
+            "watchUrl": "https://www.youtube.com/watch?v=_YvAxTj6FEo",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/_YvAxTj6FEo",
+            "url": "https://www.youtube-nocookie.com/embed/_YvAxTj6FEo",
+            "thumbnail": "https://img.youtube.com/vi/_YvAxTj6FEo/hqdefault.jpg",
+            "badge": "Verified Dedicated Video"
+          },
+          "additionalVideos": [
+            {
+              "videoId": "sbYE5wmNiAk",
+              "title": "Rules of Meem Sakinah (Ikhfa, Idgham & Izhar Shafawi)",
+              "shortTitle": "Chapter Overview (Arabic Guru)",
+              "channel": "Yusuf Ashraf - Arabic Guru",
+              "duration": "11:50",
+              "watchUrl": "https://www.youtube.com/watch?v=sbYE5wmNiAk",
+              "embedUrl": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
+              "url": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
+              "alternativeSource": "https://quran.com",
+              "sourceName": "Quran.com — Rules of Meem Sakinah",
+              "badge": "Chapter Reference Video"
+            }
+          ]
         },
         {
           "id": "tajweed-ch5-l2",
           "number": 2,
-          "title": "Rule 1: Ikhfa Shafawi (Labial Concealment)",
+          "title": "Rule 2: Ikhfa Shafawi (Labial Concealment)",
           "subtitle": "Concealing Meem Sakinah before the letter Bā (ب) with a two-count Ghunnah",
           "readingTime": "5 min",
           "explanation": "In this lesson, we study the first rule of Meem Sakinah (أحكام الميم الساكنة): Al-Ikhfā' Ash-Shafawī (الإخفاء الشفوي — Labial Concealment).\n\n### 1. Definition and Linguistic Meaning of Ikhfa Shafawi\n\nLinguistically, the Arabic word Ikhfā' (إِخْفَاء) means concealment, hiding, or covering. The word Shafawī (شَفَوِيّ) means labial, derived from Ash-Shafatayn (الشَّفَتَان — the two lips), because both the letter Meem (م) and the letter Bā (ب) articulate from the lips.\n\nIn the science of Tajweed, Ikhfa Shafawi is defined as:\n\nPronouncing a Meem Sakinah (مْ) that is followed immediately by the letter Bā (ب) in a state between clarity (Iẓhār) and complete merging (Idghām), while retaining a complete nasal resonance (Ghunnah) held for two counts.\n\nUnlike the rules of Noon Sakinah, which apply both within a single word and between two words, Ikhfa Shafawi occurs only between two separate words, where the first word ends with Meem Sakinah and the following word begins with Bā.\n\n### 2. The Articulation Mechanism: How to Pronounce Ikhfa Shafawi\n\nTo perform Ikhfa Shafawi correctly, follow this step-by-step physical articulation:\n\n1. Bring the two lips gently together with light, relaxed contact (تَلَامُس خَفِيف). Avoid pressing the lips tightly shut with heavy muscular force.\n2. Maintain the lips in this gentle closure while directing the voice upward into the nasal cavity (الخَيْشُوم).\n3. Hold the nasal Ghunnah smoothly for exactly two counts (حَرَكَتَان).\n4. Release the gentle lip contact cleanly and directly into the following letter Bā (ب) with its respective vowel.\n\nDuring this process, two critical pitfalls must be avoided:\n\n- Do not leave an exaggerated wide gap between the lips, as the lips must naturally meet.\n- Do not clamp the lips down forcefully, as excessive pressure produces a hard, clipped sound that eliminates concealment.\n\n### 3. Step-by-Step Qur'anic Application: تَرْمِيهِمْ بِحِجَارَةٍ\n\nConsider the premier Qur'anic example found in Surah Al-Fīl (105:4):\n\n**تَرْمِيهِمْ بِحِجَارَةٍ** (*Tarmīhim bi-ḥijārah* — \"Striking them with stones\")\n\nHere, the word **تَرْمِيهِمْ** ends with an unvoweled Meem Sakinah (مْ), and the next word **بِحِجَارَةٍ** begins with the letter Bā (ب).\n\nStep-by-step recitation breakdown:\n\n1. Recite the syllables: *tar - mī - him*.\n2. As your lips meet at the end of the Meem, do not snap them shut or pronounce a sharp, clear Meem.\n3. Keep the lips softly meeting while sustaining the warm nasal hum: *tarmīhimmm...* for two counts.\n4. Part the lips into the letter Bā with its Kasrah: *...bi-ḥijārah*.\n\nAdditional Qur'anic examples of this rule include:\n\n- **فَاحْكُمْ بَيْنَهُمْ** (*Faḥkum baynahum* — Surah Al-Mā'idah 5:48)\n- **يَعْتَصِمْ بِاللَّهِ** (*Ya‘taṣim billāh* — Surah Āli ‘Imrān 3:101)\n- **وَمَا هُمْ بِمُؤْمِنِينَ** (*Wa mā hum bi-mu'minīn* — Surah Al-Baqarah 2:8)\n\n### 4. Common Recitation Mistakes and How to Correct Them\n\nReciters frequently make four common errors when practicing Ikhfa Shafawi:\n\n1. Excessive Lip Clamping: Pressing the lips together tightly with heavy force. This blocks the air passage and turns the sound into a strained, harsh Meem. *Correction:* Allow the lips to touch lightly without squeezing.\n2. Opening an Artificial Gap (Furjah): Intentionally keeping the lips parted so they never touch. *Correction:* The lips must make natural contact; concealment lies in the softness of the closure and the prominent Ghunnah.\n3. Truncating the Ghunnah: Cutting the nasal sound short after one count instead of giving it the full two counts. *Correction:* Give the Ghunnah its full two-count duration before pronouncing Bā.\n4. Complete Idgham Merging: Merging the Meem completely into Bā so it sounds like a doubled Bā (*tarmīhib-biḥijārah*). *Correction:* Maintain the distinct acoustic identity of the nasal Meem.\n\n### 5. Comparative Overview: The Three Rules of Meem Sakinah\n\nTo master Meem Sakinah, observe how Ikhfa Shafawi fits within the three comprehensive rules:\n\n1. Al-Ikhfā' Ash-Shafawī (الإخفاء الشفوي): Applies to 1 letter: Bā (ب). The Meem is concealed with a 2-count Ghunnah with gentle lip contact.\n2. Al-Idghām Ash-Shafawī (الإدغام الشفوي): Applies to 1 letter: Meem (م). The first Meem merges completely into the second Meem with a 2-count Ghunnah and full lip closure (also called Idgham Mithlayn Saghir).\n3. Al-Iẓhār Ash-Shafawī (الإظهار الشفوي): Applies to the remaining 26 letters. The Meem is pronounced clearly from the lips without extra Ghunnah. Reciters must take extra caution before Wāw (و) and Fā' (ف) to avoid accidental concealment.",
@@ -14740,7 +14772,7 @@ export const coursesData = [
           "videoLesson": {
             "videoId": "7o4Amtw_QFU",
             "title": "The BEST 30-day Program for Tajweed - DAY 18 | Arabic101",
-            "shortTitle": "Rule 1: Ikhfa Shafawi (Arabic 101)",
+            "shortTitle": "Rule 2: Ikhfa Shafawi (Arabic 101)",
             "channel": "Arabic 101",
             "duration": "7:38",
             "watchUrl": "https://www.youtube.com/watch?v=7o4Amtw_QFU",
@@ -14768,7 +14800,7 @@ export const coursesData = [
         {
           "id": "tajweed-ch5-l3",
           "number": 3,
-          "title": "Rule 2: Idgham Shafawi (Labial Merging)",
+          "title": "Rule 3: Idgham Shafawi (Labial Merging)",
           "subtitle": "Merging Meem into another Meem (م)",
           "readingTime": "3 min",
           "explanation": "When Meem Sakinah (مْ) is followed by another voweled Meem (م), the first Meem merges completely into the second, forming a single Meem with Shaddah (مّ) and a 2-count Ghunnah.",
@@ -14805,7 +14837,7 @@ export const coursesData = [
           "videoLesson": {
             "videoId": "9Pl_waWlo1k",
             "title": "The BEST 30-day Program for Tajweed - DAY 17 | Arabic101",
-            "shortTitle": "Rule 2: Idgham Shafawi (Arabic 101)",
+            "shortTitle": "Rule 3: Idgham Shafawi (Arabic 101)",
             "channel": "Arabic 101",
             "duration": "7:28",
             "watchUrl": "https://www.youtube.com/watch?v=9Pl_waWlo1k",
@@ -14831,78 +14863,8 @@ export const coursesData = [
           ]
         },
         {
-          "id": "tajweed-ch5-l4",
-          "number": 4,
-          "title": "Rule 3: Izhar Shafawi (Labial Clarity)",
-          "subtitle": "Clear Meem before the remaining 26 letters",
-          "readingTime": "3 min",
-          "explanation": "When Meem Sakinah (مْ) is followed by any of the remaining 26 Arabic letters (everything except Ba and Meem), the Meem is pronounced clearly without holding extra Ghunnah. Be especially careful when Meem is followed by Waw (و) or Fa (ف) not to hide the Meem due to their shared lip Makhraj!",
-          "keyPoints": [
-            "26 letters trigger Izhar Shafawi.",
-            "Pronounce Meem clearly with no extra delay.",
-            "Special caution before Waw (و) and Fa (ف): Keep Meem distinct!"
-          ],
-          "audio": {
-            "arabicText": "عَلَيْهِمْ غَيْرِ - أَنعَمْتَ عَلَيْهِمْ - لَمْ يَلِدْ",
-            "phonetic": "Alayhim ghayri | An'amta 'alayhim | Lam yalid",
-            "description": "Listen to clear, crisp Izhar Shafawi across verses."
-          },
-          "examples": [
-            {
-              "arabic": "أَنْعَمْتَ عَلَيْهِمْ",
-              "label": "Izhar Shafawi",
-              "sound": "Clean Meem before 'Ayn and at verse end"
-            },
-            {
-              "arabic": "عَلَيْهِمْ وَلَا",
-              "label": "Caution before Waw",
-              "sound": "Alayhim wa-la (do not blend Meem into Waw!)"
-            }
-          ],
-          "practice": "Recite 'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ' ensuring both Meems are clear.",
-          "challenge": {
-            "type": "multiple-choice",
-            "question": "Why must reciters take extra care to pronounce Izhar Shafawi clearly before Waw (و) and Fa (ف)?",
-            "options": [
-              "Because they are heavy letters",
-              "Because Waw and Fa share the lip Makhraj with Meem, making accidental hiding common",
-              "Because they require Qalqalah",
-              "Because they are throat letters"
-            ],
-            "correctAnswer": 1,
-            "explanation": "Because Meem, Waw, and Fa all originate from the lips, reciters must consciously prevent accidental concealment (Ikhfa)."
-          },
-          "videoLesson": {
-            "videoId": "_YvAxTj6FEo",
-            "title": "The BEST 30-day Program for Tajweed - DAY 16 | Arabic101",
-            "shortTitle": "Rule 3: Izhar Shafawi (Arabic 101)",
-            "channel": "Arabic 101",
-            "duration": "9:28",
-            "watchUrl": "https://www.youtube.com/watch?v=_YvAxTj6FEo",
-            "embedUrl": "https://www.youtube-nocookie.com/embed/_YvAxTj6FEo",
-            "url": "https://www.youtube-nocookie.com/embed/_YvAxTj6FEo",
-            "thumbnail": "https://img.youtube.com/vi/_YvAxTj6FEo/hqdefault.jpg",
-            "badge": "Verified Dedicated Video"
-          },
-          "additionalVideos": [
-            {
-              "videoId": "sbYE5wmNiAk",
-              "title": "Rules of Meem Sakinah (Ikhfa, Idgham & Izhar Shafawi)",
-              "shortTitle": "Chapter Overview (Arabic Guru)",
-              "channel": "Yusuf Ashraf - Arabic Guru",
-              "duration": "11:50",
-              "watchUrl": "https://www.youtube.com/watch?v=sbYE5wmNiAk",
-              "embedUrl": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
-              "url": "https://www.youtube-nocookie.com/embed/sbYE5wmNiAk",
-              "alternativeSource": "https://quran.com",
-              "sourceName": "Quran.com — Rules of Meem Sakinah",
-              "badge": "Chapter Reference Video"
-            }
-          ]
-        },
-        {
           "id": "tajweed-ch5-l5",
-          "number": 5,
+          "number": 4,
           "title": "Chapter 4 Review & Meem Sakinah Challenge",
           "subtitle": "Summary and mastery of the three Shafawi rules.",
           "readingTime": "8 min",
@@ -15595,15 +15557,15 @@ export const coursesData = [
       "subtitle": "The 7 heavy letters (خ ص ض غ ط ق ظ) and conditioned rules for Ra and Lam of Jalalah",
       "readingTime": "20 min",
       "videoLesson": {
-        "title": "Heavy & Light Letters (Tafkhim & Tarqiq)",
-        "channel": "Arabic 101",
-        "duration": "15:10",
-        "videoId": "A0lHGbe0K-M",
-        "watchUrl": "https://www.youtube.com/watch?v=A0lHGbe0K-M",
-        "embedUrl": "https://www.youtube-nocookie.com/embed/A0lHGbe0K-M",
-        "url": "https://www.youtube-nocookie.com/embed/A0lHGbe0K-M",
+        "title": "Tafkheem & Tarqeeq in the Qur’an – Full Compilation with Focus on Raa",
+        "channel": "QTA .. Ahmad Noor",
+        "duration": "24:25",
+        "videoId": "eE-Rm0dSdFw",
+        "watchUrl": "https://www.youtube.com/watch?v=eE-Rm0dSdFw",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+        "url": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
         "alternativeSource": "https://quran.com",
-        "sourceName": "Quran.com — Tafkhim & Tarqiq Guide",
+        "sourceName": "Learn to Recite the Quran — Tafkheem & Tarqeeq Master Compilation",
         "badge": "Verified Reference Video"
       },
       "summary": "Understand mouth posture, full-mouth elevation (Tafkhim), flat-mouth softness (Tarqiq), and the conditions for Ra and the Name of Allah.",
@@ -15614,6 +15576,18 @@ export const coursesData = [
           "title": "What Are Tafkhim and Tarqiq?",
           "subtitle": "Full-mouth heaviness vs flat-mouth lightness",
           "readingTime": "3 min",
+          "videoLesson": {
+            "title": "Tafkheem & Tarqeeq in the Qur’an – Full Compilation with Focus on Raa",
+            "channel": "QTA .. Ahmad Noor",
+            "duration": "24:25",
+            "videoId": "eE-Rm0dSdFw",
+            "watchUrl": "https://www.youtube.com/watch?v=eE-Rm0dSdFw",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Learn to Recite the Quran — Tafkheem & Tarqeeq Master Compilation",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "Tafkhim (تَفْخِيم) means 'to make heavy or thick'—the back of the tongue elevates towards the roof of the mouth, filling the oral cavity with an echo (sounding like 'O' rather than 'A'). Tarqiq (تَرْقِيق) means 'to make light or thin'—the tongue stays relaxed/flat, producing a bright, smiling 'A' sound.",
           "keyPoints": [
             "Tafkhim = Heavy, full-mouth sound (elevated back of tongue).",
@@ -15658,6 +15632,18 @@ export const coursesData = [
           "title": "The 7 Always-Heavy Letters",
           "subtitle": "Khussa Daghtin Qiz (خُصَّ ضَغْطٍ قِظْ)",
           "readingTime": "3 min",
+          "videoLesson": {
+            "title": "Tafkheem & Tarqeeq in the Qur’an – Full Compilation with Focus on Raa",
+            "channel": "QTA .. Ahmad Noor",
+            "duration": "24:25",
+            "videoId": "eE-Rm0dSdFw",
+            "watchUrl": "https://www.youtube.com/watch?v=eE-Rm0dSdFw",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Learn to Recite the Quran — Tafkheem & Tarqeeq Master Compilation",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "There are 7 letters that are ALWAYS heavy (Tafkhim) regardless of their vowel mark. They are grouped in the mnemonic: خُصَّ ضَغْطٍ قِظْ (Kha, Sad, Dad, Ghayn, Ta, Qaf, Zha: خ , ص , ض , غ , ط , ق , ظ). Among these, the 4 strongest are the 'Istila + Itbaq' letters: ص , ض , ط , ظ.",
           "keyPoints": [
             "The 7 heavy letters: خ , ص , ض , غ , ط , ق , ظ.",
@@ -15702,6 +15688,18 @@ export const coursesData = [
           "title": "The Special Rule for Letter Alif (ا)",
           "subtitle": "Following the heaviness or lightness of the preceding letter",
           "readingTime": "3 min",
+          "videoLesson": {
+            "title": "Tafkheem & Tarqeeq in the Qur’an – Full Compilation with Focus on Raa",
+            "channel": "QTA .. Ahmad Noor",
+            "duration": "24:25",
+            "videoId": "eE-Rm0dSdFw",
+            "watchUrl": "https://www.youtube.com/watch?v=eE-Rm0dSdFw",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Learn to Recite the Quran — Tafkheem & Tarqeeq Master Compilation",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "The letter Alif (ا) has no independent heaviness or lightness of its own. It acts like an acoustic mirror: if the letter before it is heavy, the Alif is heavy (e.g. قَالَ 'Qaa-la'); if the letter before it is light, the Alif is light (e.g. كَانَ 'Kaa-na').",
           "keyPoints": [
             "Alif follows the preceding letter.",
@@ -15745,6 +15743,18 @@ export const coursesData = [
           "title": "The Name of Allah (Lafz al-Jalalah)",
           "subtitle": "When the Lam in 'Allah' is heavy vs light",
           "readingTime": "3 min",
+          "videoLesson": {
+            "title": "Tafkheem & Tarqeeq in the Qur’an – Full Compilation with Focus on Raa",
+            "channel": "QTA .. Ahmad Noor",
+            "duration": "24:25",
+            "videoId": "eE-Rm0dSdFw",
+            "watchUrl": "https://www.youtube.com/watch?v=eE-Rm0dSdFw",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Learn to Recite the Quran — Tafkheem & Tarqeeq Master Compilation",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "Normally, the letter Lam (ل) is light. However, in the Name of Allah (اللَّه / اللَّهُمَّ), the Lam has a special rule: 1) Heavy Lam: If preceded by Fat-hah (َ) or Dammah (ُ) (e.g. قُلْ هُوَ اللَّهُ , شَهِدَ اللَّهُ). 2) Light Lam: If preceded by Kasrah (ِ) (e.g. بِسْمِ اللَّهِ , قُلِ اللَّهُمَّ).",
           "keyPoints": [
             "After Fat-hah -> Heavy Lam (قَالَ اللَّهُ 'Qaalallahu').",
@@ -15788,6 +15798,18 @@ export const coursesData = [
           "title": "The Rules of Letter Ra (ر)",
           "subtitle": "When Ra is heavy vs when Ra is light",
           "readingTime": "4 min",
+          "videoLesson": {
+            "title": "Tafkheem & Tarqeeq in the Qur’an – Full Compilation with Focus on Raa",
+            "channel": "QTA .. Ahmad Noor",
+            "duration": "24:25",
+            "videoId": "eE-Rm0dSdFw",
+            "watchUrl": "https://www.youtube.com/watch?v=eE-Rm0dSdFw",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Learn to Recite the Quran — Tafkheem & Tarqeeq Master Compilation",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "The letter Ra (ر) alternates between heavy and light: 1) Heavy Ra (Tafkhim): When Ra has Fat-hah (رَ), Dammah (رُ), or Sukoon preceded by Fat-hah/Dammah (e.g. رَبَّنَا , قُرْآن , مَرْيَم). 2) Light Ra (Tarqiq): When Ra has Kasrah (رِ) or Sukoon preceded by an original Kasrah (e.g. رِزْقًا , فِرْعَوْن).",
           "keyPoints": [
             "Heavy Ra: With Fat-hah (رَ), Dammah (رُ), or Sukoon after Fat-hah/Dammah.",
@@ -15832,6 +15854,18 @@ export const coursesData = [
           "title": "Chapter 8 Review & Heaviness Mastery Challenge",
           "subtitle": "Summary of Tafkhim and Tarqiq across all letters",
           "readingTime": "3 min",
+          "videoLesson": {
+            "title": "Tafkheem & Tarqeeq in the Qur’an – Full Compilation with Focus on Raa",
+            "channel": "QTA .. Ahmad Noor",
+            "duration": "24:25",
+            "videoId": "eE-Rm0dSdFw",
+            "watchUrl": "https://www.youtube.com/watch?v=eE-Rm0dSdFw",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/eE-Rm0dSdFw?rel=0&modestbranding=1&playsinline=1",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Learn to Recite the Quran — Tafkheem & Tarqeeq Master Compilation",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "Mastering Tafkhim and Tarqiq gives your recitation its dignified, authoritative Arabic beauty. Keep the 7 letters (خ ص ض غ ط ق ظ) heavy, control the Name of Allah based on preceding vowel, and apply Ra rules with precision.",
           "keyPoints": [
             "Always Heavy: خ ص ض غ ط ق ظ (Khussa Daghtin Qiz).",
@@ -15897,6 +15931,18 @@ export const coursesData = [
           "title": "Meaning & Importance of Waqf",
           "subtitle": "Safeguarding meaning through proper pausing",
           "readingTime": "3 min",
+          "videoLesson": {
+            "title": "One Pause Can Flip the Meaning: The 4 Types of Optional Waqf | Lesson 3 | Arabic101",
+            "channel": "Arabic 101",
+            "duration": "12:57",
+            "videoId": "KIwOl-djFJE",
+            "watchUrl": "https://www.youtube.com/watch?v=KIwOl-djFJE",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/KIwOl-djFJE",
+            "url": "https://www.youtube-nocookie.com/embed/KIwOl-djFJE",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Arabic 101 — Rules of Waqf & Stopping Signs",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "Waqf (وَقْف) means 'to stop or pause' recitation by cutting off the voice at the end of a word for the duration of taking a natural breath, with the intention of continuing recitation. Ali ibn Abi Talib (RA) said: 'Tajweed is the correct articulation of letters and the knowledge of stopping points (Waqf).'",
           "keyPoints": [
             "Waqf = Stopping on a word while taking a natural breath.",
@@ -15941,6 +15987,18 @@ export const coursesData = [
           "title": "Qur'anic Stop Signs & Symbols",
           "subtitle": "مـ , قلى , صلى , ج , لا explained",
           "readingTime": "4 min",
+          "videoLesson": {
+            "title": "What do the symbols in Quran mean? - Arabic 101",
+            "channel": "Arabic 101",
+            "duration": "6:38",
+            "videoId": "meQsEM3V2m8",
+            "watchUrl": "https://www.youtube.com/watch?v=meQsEM3V2m8",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/meQsEM3V2m8?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/meQsEM3V2m8?rel=0&modestbranding=1&playsinline=1",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Arabic 101 — Quranic Stop Signs & Symbols",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "The Mushaf contains standardized symbol marks above words: 1) (مـ) Mandatory Stop (Waqf Lazim): Must stop to avoid corrupting meaning. 2) (قلى) Better to Stop (Al-Waqfu Awla). 3) (ج) Permissible Stop (Waqf Ja'iz): Equal to stop or continue. 4) (صلى) Better to Continue (Al-Waslu Awla). 5) (لا) Do Not Stop (Waqf Mamnu'): Do not stop here mid-sentence!",
           "keyPoints": [
             "(مـ): Compulsory Stop (Waqf Lazim).",
@@ -15986,6 +16044,18 @@ export const coursesData = [
           "title": "Resuming Recitation (Ibtida)",
           "subtitle": "Starting properly after taking a breath",
           "readingTime": "3 min",
+          "videoLesson": {
+            "title": "What Are The Rules of Waqf Wal Ibtida? | Sh. Ashiq Rahman",
+            "channel": "Tarteel AI",
+            "duration": "22:31",
+            "videoId": "XIf0h3uX6OU",
+            "watchUrl": "https://www.youtube.com/watch?v=XIf0h3uX6OU",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/XIf0h3uX6OU?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/XIf0h3uX6OU?rel=0&modestbranding=1&playsinline=1",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Tarteel AI — What Are The Rules of Waqf Wal Ibtida?",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "When you run out of breath and stop mid-verse, you cannot simply start from any random next word. You must resume (Ibtida) from a word that forms a complete, correct meaning—often by backing up 1 or 2 words to make the sentence grammatically whole.",
           "keyPoints": [
             "Good Start (Ibtida Hasan): Starting from a meaningful sentence.",
@@ -16001,7 +16071,7 @@ export const coursesData = [
             {
               "arabic": "إِنَّ اللَّهَ لَا يَسْتَحْيِي",
               "label": "Caution",
-              "sound": "Never stop on 'La yastahyi' (Allah does not shy away) without completing 'an yadriba mathalan'!"
+              "sound": "Avoid deliberately stopping after لَا يَسْتَحْيِي (La yastahyi), because أَنْ يَضْرِبَ مَثَلًا (an yadriba mathalan) completes the meaning. If you must stop because you run out of breath, resume from an appropriate earlier phrase to preserve the meaning."
             }
           ],
           "practice": "Practice pausing on 'رَبَّنَا تَقَبَّلْ مِنَّا' and resuming with 'إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ'.",
@@ -16024,6 +16094,18 @@ export const coursesData = [
           "title": "The Female 'Ta' Stop (Ta Marbootah ة)",
           "subtitle": "Converting Ta Marbootah into Ha (هـ)",
           "readingTime": "3 min",
+          "videoLesson": {
+            "title": "The difference between ت - ـة - ـه in Arabic - Explained with Quranic examples",
+            "channel": "Arabic 101",
+            "duration": "11:01",
+            "videoId": "RH3WFHesAHw",
+            "watchUrl": "https://www.youtube.com/watch?v=RH3WFHesAHw",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/RH3WFHesAHw?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/RH3WFHesAHw?rel=0&modestbranding=1&playsinline=1",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Arabic 101 — The Female Ta Stop (Ta Marbootah)",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "When stopping on a word ending in Ta Marbootah (ة / ـة), it is ALWAYS pronounced as a silent Ha with Sukoon (هْ), regardless of whether it has Fat-hah, Kasrah, Dammah, or Tanween! (e.g. الْجَنَّةُ -> الْجَنَّهْ 'Al-Jannah', الصَّلَاةَ -> الصَّلَاهْ 'As-Salah').",
           "keyPoints": [
             "Ta Marbootah (ة / ـة) turns into Ha (هْ) upon stopping.",
@@ -16067,6 +16149,18 @@ export const coursesData = [
           "title": "Chapter 9 Review & Stopping Challenge",
           "subtitle": "Mastering stopping and starting across Surah Al-Qadr",
           "readingTime": "3 min",
+          "videoLesson": {
+            "title": "Waqf Rules in Quran | How to Stop Correctly While Reciting",
+            "channel": "Alfurqan Academy",
+            "duration": "10:54",
+            "videoId": "069M3ktEBKA",
+            "watchUrl": "https://www.youtube.com/watch?v=069M3ktEBKA",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/069M3ktEBKA?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/069M3ktEBKA?rel=0&modestbranding=1&playsinline=1",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Alfurqan Academy — Comprehensive Waqf Rules & Applied Recitation",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "Waqf is the punctuation of the Qur'an. Master converting vowels to Sukoon, Tanween Fat-hah to Madd 'Iwad (Alif), Ta Marbootah to Ha, and respect the Mushaf stop signs.",
           "keyPoints": [
             "Vowels -> Sukoon at stops.",
@@ -16111,162 +16205,223 @@ export const coursesData = [
       "id": "lesson-11",
       "number": 9,
       "title": "Applied Tajweed Practice (تطبيق أحكام التجويد عملياً)",
-      "subtitle": "Verse-by-verse rule application across Surah Al-Fatihah, Al-Ikhlas, and Al-Falaq",
-      "readingTime": "20 min",
+      "subtitle": "Practical Surah Recitation Sessions: Al-Fatihah, Al-Ikhlas, Al-Falaq, An-Nas & Ayah al-Kursi",
+      "readingTime": "25 min",
       "videoLesson": {
-        "title": "Practice 95% of Tajweed Rules with ONE SINGLE Aya",
-        "channel": "Arabic 101",
-        "duration": "21:30",
-        "videoId": "BfsRbY3F7IE",
-        "watchUrl": "https://www.youtube.com/watch?v=BfsRbY3F7IE",
-        "embedUrl": "https://www.youtube-nocookie.com/embed/BfsRbY3F7IE",
-        "url": "https://www.youtube-nocookie.com/embed/BfsRbY3F7IE",
-        "alternativeSource": "https://quran.com",
-        "sourceName": "Quran.com — Guided Verses Recitation",
+        "title": "#1 Learn Surat Al-Fatiha with Correct Tajweed",
+        "channel": "TajweedInstitute-معهد التجويد",
+        "duration": "10:50",
+        "videoId": "ws2aXg0tcUM",
+        "watchUrl": "https://www.youtube.com/watch?v=ws2aXg0tcUM",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/ws2aXg0tcUM?rel=0&modestbranding=1&playsinline=1",
+        "url": "https://www.youtube-nocookie.com/embed/ws2aXg0tcUM?rel=0&modestbranding=1&playsinline=1",
         "badge": "Verified Reference Video"
       },
-      "summary": "Apply every Tajweed rule learned so far to complete Surahs with slow, measured audio guidance.",
+      "summary": "Apply every Tajweed rule learned so far to complete Surahs and sacred verses through dedicated listen-and-repeat practice sessions guided by Sheikh Ra'ed.",
       "smallLessons": [
         {
           "id": "tajweed-ch11-l1",
           "number": 1,
-          "title": "Surah Al-Fatihah: Verses 1 to 4",
-          "subtitle": "Basmalah, Ar-Rahman, and Malik",
-          "readingTime": "4 min",
-          "explanation": "Surah Al-Fatihah is the greatest chapter in the Qur'an and an essential pillar of daily Salah. Let us analyze verses 1-4: 1) بِسْمِ اللَّهِ (Light Lam in Allah). 2) الرَّحْمَٰنِ الرَّحِيمِ (Heavy Ra, clear mid-throat Ha, Madd 'Arid at stop). 3) الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (Clear Ha, heavy Ra, 2-count Madd). 4) مَالِكِ يَوْمِ الدِّينِ (2-count Madd on Ma, crisp Kasrah on li-ki).",
-          "keyPoints": [
-            "Verse 1: Basmalah with light Lam.",
-            "Verse 2: Clear 'ح' in Al-Hamdu.",
-            "Verse 3: Heavy 'ر' in Ar-Rahman & Ar-Raheem.",
-            "Verse 4: 2 counts on 'Maa' in Maliki."
-          ],
-          "audio": {
-            "arabicText": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ (١) الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (٢) الرَّحْمَٰنِ الرَّحِيمِ (٣) مَالِكِ يَوْمِ الدِّينِ (٤)",
-            "phonetic": "Surah Al-Fatihah Verses 1-4",
-            "description": "Listen to the slow, measured recitation of verses 1-4."
+          "title": "Practical Recitation: Surah Al-Fatihah (The Opening)",
+          "subtitle": "Complete 7-verse recitation practice with Sheikh Ra'ed",
+          "readingTime": "5 min",
+          "videoLesson": {
+            "title": "#1 Learn Surat Al-Fatiha with Correct Tajweed",
+            "channel": "TajweedInstitute-معهد التجويد",
+            "duration": "10:50",
+            "videoId": "ws2aXg0tcUM",
+            "watchUrl": "https://www.youtube.com/watch?v=ws2aXg0tcUM",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/ws2aXg0tcUM?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/ws2aXg0tcUM?rel=0&modestbranding=1&playsinline=1",
+            "badge": "Verified Reference Video"
           },
-          "examples": [
-            {
-              "arabic": "الْحَمْدُ لِلَّهِ",
-              "label": "Makhraj focus",
-              "sound": "Al-Hamdu lillah (pure throat Ha)"
-            }
-          ],
-          "practice": "Recite verses 1-4 three times slowly, matching the audio teacher's timing.",
-          "challenge": {
-            "type": "multiple-choice",
-            "question": "In verse 2 'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ', from which Makhraj does the letter 'ح' originate?",
-            "options": [
-              "Deepest throat (near vocal cords)",
-              "Middle of the throat (Wasatal-Halq)",
-              "The lips",
-              "The nasal cavity"
-            ],
-            "correctAnswer": 1,
-            "explanation": "The letter Ha (ح) originates from the middle of the throat (Wasatal-Halq)."
-          }
-        },
-        {
-          "id": "tajweed-ch11-l2",
-          "number": 2,
-          "title": "Surah Al-Fatihah: Verses 5 to 7",
-          "subtitle": "Iyyaka na'budu through to the compulsory 6-count Madd Lazim",
-          "readingTime": "4 min",
-          "explanation": "Verses 5-7: 5) إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (Shaddah on Ya, crisp 'Ayn). 6) اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (Deep Ha in Ihdina, heavy Sad and Ta in As-Siraat, light Ta in Al-Mustaqeem). 7) صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ (Izhar on An'amta, clear Meem before Ghayr, heavy Dad, and compulsory 6-count Madd Lazim on Ad-Daaalleen!).",
+          "explanation": "Surah Al-Fatihah is the greatest chapter of the Qur'an and a required pillar of every Salah. In this practical session, master: 1) Pure throat 'ح' in الْحَمْدُ and الرَّحْمَٰنِ (avoiding breathy 'هـ'). 2) Heavy 'ر' in الرَّحْمَٰنِ الرَّحِيمِ. 3) Crisp Kasrah on مَالِكِ. 4) Shaddah emphasis on إِيَّاكَ. 5) Heavy 'ص' and 'ط' in الصِّرَاطَ vs light 'ت' in الْمُسْتَقِيمَ. 6) The compulsory 6-count Madd Lazim Kalimi Muthaqqal (مد لازم كلمي مثقل) on وَلَا الضَّالِّينَ.",
           "keyPoints": [
-            "Verse 5: Shaddah pressure on 'Iyyaka'.",
-            "Verse 6: Heavy ص and ط vs light مستقيم.",
-            "Verse 7: Izhar on أَنْعَمْتَ, heavy ض, and full 6 counts on الضَّالِّينَ."
+            "Basmalah: Light Lam in Bismillah, heavy Ra in Ar-Rahman.",
+            "Makhraj: Pure middle-throat 'ح' in Al-Hamdu.",
+            "Madd Lazim: Compulsory 6 full counts on 'وَلَا الضَّالِّينَ'.",
+            "Tarteel: Steady breath pacing without clipping vowel endings."
           ],
           "audio": {
-            "arabicText": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (٥) اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (٦) صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ (٧)",
-            "phonetic": "Surah Al-Fatihah Verses 5-7",
-            "description": "Listen to the powerful conclusion of Surah Al-Fatihah with 6-count Madd Lazim."
+            "arabicText": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ (١) الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (٢) الرَّحْمَٰنِ الرَّحِيمِ (٣) مَالِكِ يَوْمِ الدِّينِ (٤) إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (٥) اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (٦) صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ (٧)",
+            "phonetic": "Complete Surah Al-Fatihah (Verses 1-7)",
+            "description": "Listen to the slow, measured verse-by-verse recitation of Surah Al-Fatihah."
           },
           "examples": [
             {
               "arabic": "وَلَا الضَّالِّينَ",
               "label": "Madd Lazim",
-              "sound": "Wa la-d-Daaalleen (6 full counts + Shaddah on Lam)"
+              "sound": "Wa lad-Daaaal-leen (6 mandatory counts)"
+            },
+            {
+              "arabic": "الْحَمْدُ لِلَّهِ",
+              "label": "Makhraj Halqi",
+              "sound": "Al-Hamdu lillah (pure throat Ha)"
             }
           ],
-          "practice": "Recite verse 7, holding 'الضَّالِّينَ' for 6 full counts before completing with 'leen'.",
+          "practice": "Listen to Sheikh Ra'ed in the video lecture. Recite verses 1-7 verse-by-verse, holding the 6-count Madd Lazim on 'وَلَا الضَّالِّينَ' before concluding with Ameen.",
           "challenge": {
             "type": "multiple-choice",
-            "question": "What is the mandatory count duration for 'الضَّالِّينَ' at the end of Surah Al-Fatihah?",
+            "question": "How many counts must the vowel in 'وَلَا الضَّالِّينَ' (Madd Lazim Kalimi Muthaqqal) be elongated for during recitation?",
             "options": [
               "2 counts",
               "4 counts",
-              "6 counts (Madd Lazim)",
-              "1 count"
+              "6 mandatory counts",
+              "Optional 2 to 4 counts"
             ],
             "correctAnswer": 2,
-            "explanation": "'الضَّالِّينَ' is a Madd Lazim and must be elongated for a full 6 counts."
+            "explanation": "Madd Lazim Kalimi Muthaqqal (Compulsory Heavy Word Madd) must be held for exactly 6 counts by unanimous consensus of all classical Qira'at."
+          }
+        },
+        {
+          "id": "tajweed-ch11-l2",
+          "number": 2,
+          "title": "Practical Recitation: Surah Al-Ikhlas (Purity of Faith)",
+          "subtitle": "Qalqalah Kubra mastery across all four verses",
+          "readingTime": "4 min",
+          "videoLesson": {
+            "title": "#4 Learn Surat Al-Ikhlas with Correct Tajweed",
+            "channel": "TajweedInstitute-معهد التجويد",
+            "duration": "6:18",
+            "videoId": "7qlans0toAI",
+            "watchUrl": "https://www.youtube.com/watch?v=7qlans0toAI",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/7qlans0toAI?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/7qlans0toAI?rel=0&modestbranding=1&playsinline=1",
+            "badge": "Verified Reference Video"
+          },
+          "explanation": "Surah Al-Ikhlas equals one-third of the Qur'an in theological weight. In this practical recitation session, master: 1) Deep-throat Qaf in قُلْ. 2) Heavy Lam in اللَّهُ after Dammah. 3) Pronunciation of heavy Sad and Dal in الصَّمَدُ. 4) The resonant Qalqalah Kubra on ending Dal (د) when pausing at every single verse: أَحَدْ, الصَّمَدْ, يُولَدْ, أَحَدْ. 5) Izhar Shafawi in لَمْ يَلِدْ. 6) Idgham Bila Ghunnah in يَكُن لَّهُ. 7) Clear Izhar Halqi in كُفُوًا أَحَدٌ.",
+          "keyPoints": [
+            "Qalqalah Kubra: Crisp echoing bounce on ending Dal (د) at every pause.",
+            "Heavy Lam: Tafkhim on Allah (اللَّهُ) following Dammah.",
+            "Idgham Bila Ghunnah: Complete merger in 'يَكُن لَّهُ' without nasal hum.",
+            "Izhar Halqi: Clear Tanween before Hamzah in 'كُفُوًا أَحَدٌ'."
+          ],
+          "audio": {
+            "arabicText": "قُلْ هُوَ اللَّهُ أَحَدٌ (١) اللَّهُ الصَّمَدُ (٢) لَمْ يَلِدْ وَلَمْ يُولَدْ (٣) وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ (٤)",
+            "phonetic": "Complete Surah Al-Ikhlas (Verses 1-4)",
+            "description": "Listen to the sharp Qalqalah Kubra on the letter Dal at the end of every verse."
+          },
+          "examples": [
+            {
+              "arabic": "أَحَدٌ ۚ أَحَدْ",
+              "label": "Qalqalah Kubra",
+              "sound": "Ahad (crisp echoing bounce on Dal)"
+            },
+            {
+              "arabic": "وَلَمْ يَكُن لَّهُ",
+              "label": "Idgham Bila Ghunnah",
+              "sound": "Wa lam yakul-lahu (seamless transition into Lam)"
+            }
+          ],
+          "practice": "Listen to Sheikh Ra'ed demonstrate the sharp echoing bounce (Qalqalah Kubra) on Dal. Recite each verse twice, ensuring no extra vowel sound is added to the Dal.",
+          "challenge": {
+            "type": "multiple-choice",
+            "question": "When pausing at the end of verse 1 'قُلْ هُوَ اللَّهُ أَحَدْ', what Tajweed rule is applied to the final letter Dal?",
+            "options": [
+              "Ikhfa Haqiqi",
+              "Qalqalah Kubra (Major Echoing Bounce)",
+              "Idgham with Ghunnah",
+              "Madd 'Arid li-Sukun only"
+            ],
+            "correctAnswer": 1,
+            "explanation": "When stopping on a Qalqalah letter (such as Dal in أَحَدْ), it becomes Sakin due to Waqf, triggering a pronounced Qalqalah Kubra."
           }
         },
         {
           "id": "tajweed-ch11-l3",
           "number": 3,
-          "title": "Surah Al-Ikhlas & Al-Falaq Masterclass",
-          "subtitle": "Mastering Qalqalah and Noon rules across short Surahs",
+          "title": "Practical Recitation: Surah Al-Falaq (The Daybreak)",
+          "subtitle": "Qalqalah on stopping, Ghunnah, and seeking divine refuge",
           "readingTime": "4 min",
-          "explanation": "Surah Al-Ikhlas (Purity of Faith) and Surah Al-Falaq (The Daybreak) provide the ultimate practice for Qalqalah (ق ط ب ج د) and Noon rules: 1) Al-Ikhlas features 5 major Qalqalah endings on Dal (أَحَدْ , الصَّمَدْ , يَلِدْ , يُولَدْ , أَحَدْ). 2) Al-Falaq features Ikhfa (مِن شَرِّ) and 5 major Qalqalah stops on Qaf, Ba, and Dal (الْفَلَقْ , خَلَقْ , وَقَبْ , الْعُقَدْ , حَسَدْ).",
+          "videoLesson": {
+            "title": "#3 Learn Surat Al-Falaq with Correct Tajweed",
+            "channel": "TajweedInstitute-معهد التجويد",
+            "duration": "9:33",
+            "videoId": "su_mIFFlNNg",
+            "watchUrl": "https://www.youtube.com/watch?v=su_mIFFlNNg",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/su_mIFFlNNg?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/su_mIFFlNNg?rel=0&modestbranding=1&playsinline=1",
+            "badge": "Verified Reference Video"
+          },
+          "explanation": "Surah Al-Falaq is the first of the two refuge chapters (Al-Mu'awwidhatayn). In this practical session, master: 1) Qalqalah Kubra across three distinct letters when pausing: Qaf (ق) in الْفَلَقِ and خَلَقَ, Ba (ب) in وَقَبَ, and Dal (د) in الْعُقَدِ and حَسَدَ. 2) Ikhfa Haqiqi on Nun Sakinah before Shin in مِن شَرِّ with a 2-count light nasal Ghunnah. 3) Izhar Halqi on Tanween before Hamzah in غَاسِقٍ إِذَا and حَاسِدٍ إِذَا. 4) The rich 2-count Ghunnah on Nun with Shaddah (نّ) in النَّفَّاثَاتِ.",
           "keyPoints": [
-            "Al-Ikhlas: 5 crisp Qalqalah Kubra stops on letter Dal.",
-            "Al-Falaq: Ikhfa on 'مِن شَرِّ' + 5 Qalqalah endings.",
-            "Do not rush the pauses at verse ends."
+            "Qalqalah Variety: Practice echoing bounce on Qaf (ق), Ba (ب), and Dal (د).",
+            "Ghunnah Mushaddadah: 2-count nasal resonance on 'النَّفَّاثَاتِ'.",
+            "Ikhfa Haqiqi: Light nasal concealment in 'مِن شَرِّ'.",
+            "Izhar Halqi: Clear Tanween without Ghunnah in 'غَاسِقٍ إِذَا'."
           ],
           "audio": {
-            "arabicText": "قُلْ هُوَ اللَّهُ أَحَدٌ (١) اللَّهُ الصَّمَدُ (٢) لَمْ يَلِدْ وَلَمْ يُولَدْ (٣) وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ (٤)",
-            "phonetic": "Complete Surah Al-Ikhlas",
-            "description": "Listen to Surah Al-Ikhlas recited with pristine Qalqalah."
+            "arabicText": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ (١) مِن شَرِّ مَا خَلَقَ (٢) وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ (٣) وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ (٤) وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ (٥)",
+            "phonetic": "Complete Surah Al-Falaq (Verses 1-5)",
+            "description": "Listen to the recitation of Surah Al-Falaq with Qalqalah on verses 1-5."
           },
           "examples": [
             {
-              "arabic": "مِن شَرِّ",
-              "label": "Ikhfa",
-              "sound": "Min-sharri (light 2-count nasal concealment before Shin)"
+              "arabic": "الْفَلَقِ ۚ الْفَلَقْ",
+              "label": "Qalqalah on Qaf",
+              "sound": "Al-Falaq (heavy resonant bounce)"
+            },
+            {
+              "arabic": "النَّفَّاثَاتِ",
+              "label": "Ghunnah Mushaddadah",
+              "sound": "An-Naffaa-thaat (2-count nasal hum on Nun)"
             }
           ],
-          "practice": "Recite Surah Al-Ikhlas and Surah Al-Falaq back to back with perfect Tajweed.",
+          "practice": "Recite with the video lesson verse by verse. Pay special attention to the alternating stopping letters: Qaf (verses 1 & 2), Ba (verse 3), and Dal (verses 4 & 5), making sure each receives an authentic echoing bounce.",
           "challenge": {
             "type": "multiple-choice",
-            "question": "What Tajweed rule is applied in 'مِن شَرِّ' (Min sharri)?",
+            "question": "In verse 4 'وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ', what Tajweed rule applies to the letter Nun in 'النَّفَّاثَاتِ'?",
             "options": [
-              "Izhar Halqi",
-              "Idgham",
-              "Ikhfa (Concealing Noon before Shin with 2-count Ghunnah)",
-              "Madd Lazim"
+              "Qalqalah Sughra",
+              "Ghunnah of 2 counts on Nun Mushaddadah (نّ)",
+              "Idgham Bila Ghunnah",
+              "Izhar Halqi"
             ],
-            "correctAnswer": 2,
-            "explanation": "'مِن شَرِّ' is Ikhfa because Noon Sakinah is followed by the letter Shin (ش)."
+            "correctAnswer": 1,
+            "explanation": "Whenever Nun has a Shaddah (نّ), it requires a mandatory 2-count nasal humming resonance (Ghunnah Mushaddadah)."
           }
         },
         {
           "id": "tajweed-ch11-l4",
           "number": 4,
-          "title": "Surah An-Nas & Ayah al-Kursi Highlights",
-          "subtitle": "Ghunnah resonance and sacred verse recitation",
+          "title": "Practical Recitation: Surah An-Nas (Mankind)",
+          "subtitle": "Continuous Ghunnah resonance and Sifat Al-Huruf",
           "readingTime": "4 min",
-          "explanation": "1) Surah An-Nas showcases the continuous 2-count Ghunnah on Nun with Shaddah (النَّاسِ) across all 6 verses. 2) Ayah al-Kursi (Surah Al-Baqarah 2:255) brings together Madd Asli, Madd Munfasil, Idgham, and heavy Lam in the Name of Allah.",
+          "videoLesson": {
+            "title": "#2 Learn Surat Al-Nass with Correct Tajweed",
+            "channel": "TajweedInstitute-معهد التجويد",
+            "duration": "9:54",
+            "videoId": "77zmD6yDA7k",
+            "watchUrl": "https://www.youtube.com/watch?v=77zmD6yDA7k",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/77zmD6yDA7k?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/77zmD6yDA7k?rel=0&modestbranding=1&playsinline=1",
+            "badge": "Verified Reference Video"
+          },
+          "explanation": "Surah An-Nas completes the Qur'an with profound protection against internal whispering. In this practical session, master: 1) The continuous 2-count Ghunnah on Nun with Shaddah (نّ) in النَّاسِ repeated across all six verses. 2) The distinct Sifat of the letter Sin (س): Hams (gentle whisper of breath) and Safir (whistling acoustic quality). 3) Clear articulation of Thal (ذ) in أَعُوذُ and الَّذِي from the tip of the tongue. 4) Ikhfa Haqiqi in مِن شَرِّ. 5) Consistent stopping on Madd 'Arid li-Sukun on النَّاسِ without adding an artificial bounce to the Sin.",
           "keyPoints": [
-            "Surah An-Nas: 6 verses of beautiful 2-count Ghunnah on النَّاسِ.",
-            "Ayah al-Kursi: The greatest verse in the Qur'an.",
-            "Maintain breath control and steady pace (Tarteel)."
+            "Continuous Ghunnah: Hold 2 full counts on 'النَّاسِ' across every verse.",
+            "Letter Sin (س): Crisp Safir (whistling) and Hams (air flow) without heaviness.",
+            "Letter Thal (ذ): Pronounce tip of tongue against upper front teeth.",
+            "Stopping: Smooth Madd 'Arid li-Sukun (2, 4, or 6 counts) on 'An-Naas'."
           ],
           "audio": {
             "arabicText": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ (١) مَلِكِ النَّاسِ (٢) إِلَٰهِ النَّاسِ (٣) مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ (٤) الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ (٥) مِنَ الْجِنَّةِ وَالنَّاسِ (٦)",
-            "phonetic": "Complete Surah An-Nas",
-            "description": "Listen to Surah An-Nas with rich 2-count Ghunnah on every verse."
+            "phonetic": "Complete Surah An-Nas (Verses 1-6)",
+            "description": "Listen to Surah An-Nas with continuous 2-count Ghunnah on every verse."
           },
           "examples": [
             {
               "arabic": "النَّاسِ",
-              "label": "Ghunnah",
+              "label": "Ghunnah on Nun",
               "sound": "An-Naaas (2-count nasal hum on Nun)"
+            },
+            {
+              "arabic": "الْوَسْوَاسِ",
+              "label": "Safir & Hams on Sin",
+              "sound": "Al-Waswaas (whistling acoustic flow)"
             }
           ],
-          "practice": "Recite Surah An-Nas holding the Ghunnah on 'النَّاسِ' for 2 full counts in every verse.",
+          "practice": "Follow Sheikh Ra'ed in the video practice. Emphasize the nasal Ghunnah on 'النَّاسِ' in every verse while keeping the whistling flow of the letter 'س' smooth and natural.",
           "challenge": {
             "type": "multiple-choice",
             "question": "What rule is repeated throughout all 6 verses of Surah An-Nas on the word 'النَّاسِ'?",
@@ -16277,45 +16432,61 @@ export const coursesData = [
               "Iqlab"
             ],
             "correctAnswer": 1,
-            "explanation": "The word 'النَّاسِ' contains a Nun with Shaddah (نّ) requiring a 2-count Ghunnah in every verse."
+            "explanation": "The word 'النَّاسِ' contains a Nun with Shaddah (نّ) requiring a continuous 2-count Ghunnah across every single verse of Surah An-Nas."
           }
         },
         {
           "id": "tajweed-ch11-l5",
           "number": 5,
-          "title": "Chapter 11 Review & Recitation Fluency Check",
-          "subtitle": "Consolidating your recitation into prayer (Salah)",
-          "readingTime": "4 min",
-          "explanation": "Reciting with Tajweed during daily Salah transforms prayer from a routine into a deeply moving, spiritually elevated experience. When your tongue articulates every letter with precision, your heart connects directly with the divine speech.",
+          "title": "Practical Recitation: Ayah al-Kursi (The Verse of the Throne)",
+          "subtitle": "Breath control, Madd timing, and sacred verse recitation",
+          "readingTime": "5 min",
+          "videoLesson": {
+            "title": "Learn Ayat Al-Kursi (2:255) with Correct Tajweed",
+            "channel": "TajweedInstitute-معهد التجويد",
+            "duration": "11:15",
+            "videoId": "ZWjiJwGviA8",
+            "watchUrl": "https://www.youtube.com/watch?v=ZWjiJwGviA8",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/ZWjiJwGviA8?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/ZWjiJwGviA8?rel=0&modestbranding=1&playsinline=1",
+            "badge": "Verified Reference Video"
+          },
+          "explanation": "Ayah al-Kursi (Surah Al-Baqarah 2:255) is the greatest verse in the Qur'an. In this capstone practical session, master: 1) Tafkhim on the Lam of Allah (اللَّهُ). 2) Proper breath management at natural Waqf pause markers (ج, ۗ, ۚ, ۖ). 3) Madd Munfasil (4-5 counts) in لَا إِلَٰهَ and Madd Muttasil in بِمَا شَاءَ. 4) Idgham with Ghunnah in سِنَةٌ وَلَا نَوْمٌ. 5) Ikhfa Haqiqi in مَن ذَا and عِندَهُ with light 2-count nasal resonance. 6) Heavy vs light letters: heavy Kha in خَلْفَهُمْ, heavy Sad and Dhad in وَالْأَرْضَ, and heavy Zha in الْعَظِيمُ.",
           "keyPoints": [
-            "Apply Tajweed in daily Salah (Fatihah + short Surah).",
-            "Recite at a calm, measured pace (Tarteel).",
-            "Listen regularly to master reciters (e.g. Al-Husary, Al-Minshawi) to maintain pristine ear training."
+            "Lam Tafkhim: Heavy majestic pronunciation on 'اللَّهُ'.",
+            "Madd Elongation: 4-5 counts on Madd Munfasil and Muttasil ('بِمَا شَاءَ').",
+            "Idgham with Ghunnah: 2-count nasal humming in 'سِنَةٌ وَلَا نَوْمٌ'.",
+            "Waqf & Tarteel: Pause cleanly at designated Waqf markers without mid-word breath."
           ],
           "audio": {
-            "arabicText": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
-            "phonetic": "Opening of Ayah al-Kursi",
-            "description": "Listen to the majestic opening of Ayah al-Kursi."
+            "arabicText": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ (٢٥٥)",
+            "phonetic": "Complete Ayah al-Kursi (Surah Al-Baqarah 2:255)",
+            "description": "Listen to the recitation of Ayah al-Kursi with slow, measured Tajweed timing."
           },
           "examples": [
             {
-              "arabic": "الْحَيُّ الْقَيُّومُ",
-              "label": "Shaddah & Stop",
-              "sound": "Al-Hayyu-l-Qayyoom"
+              "arabic": "سِنَةٌ وَلَا نَوْمٌ",
+              "label": "Idgham bi Ghunnah",
+              "sound": "Sinatuw-wa laa nawm (2-count nasal merger)"
+            },
+            {
+              "arabic": "إِلَّا بِمَا شَاءَ",
+              "label": "Madd Muttasil",
+              "sound": "Illaa bimaa shaaaa' (4-5 counts on Shaa')"
             }
           ],
-          "practice": "Recite the opening of Ayah al-Kursi with deep reverence and precision.",
+          "practice": "Recite with Sheikh Ra'ed segment by segment. Stop at each natural Waqf marker without gasping for breath mid-word, maintaining the 4-5 counts on Madd Munfasil and Muttasil.",
           "challenge": {
             "type": "multiple-choice",
-            "question": "What is the recommended style of recitation for daily study and prayer?",
+            "question": "In Ayah al-Kursi, what Tajweed rule occurs in 'سِنَةٌ وَلَا نَوْمٌ' where Tanween meets the letter Waw (و)?",
             "options": [
-              "Rushing quickly without pausing",
-              "Tarteel (measured, calm, beautiful recitation with Tajweed)",
-              "Reciting silently without moving the tongue or lips",
-              "Skipping vowel endings"
+              "Izhar Halqi",
+              "Idgham with Ghunnah (2 counts)",
+              "Qalqalah Sughra",
+              "Iqlab"
             ],
             "correctAnswer": 1,
-            "explanation": "Tarteel (measured, calm recitation observing all Tajweed rules) is the prescribed divine method."
+            "explanation": "When Tanween is followed by Waw (و), which is one of the Yanmoo (ينمو) letters, it merges with an audible 2-count nasal humming (Idgham bi Ghunnah)."
           }
         }
       ],
