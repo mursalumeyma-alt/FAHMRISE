@@ -15087,6 +15087,19 @@ export const coursesData = [
           "title": "What Is Madd and Its Letters?",
           "subtitle": "The 3 letters of elongation",
           "readingTime": "3 min",
+          "videoLesson": {
+            "title": "What Is Madd in Tajweed? Easy Quran Lesson for Beginners | Madd Asli & Madd Far'i Explained",
+            "channel": "Taleem Ul islam online institute",
+            "duration": "8:25",
+            "start": 383,
+            "videoId": "atLqMS5DaxE",
+            "watchUrl": "https://www.youtube.com/watch?v=atLqMS5DaxE&t=383s",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/atLqMS5DaxE?rel=0&modestbranding=1&playsinline=1&start=383",
+            "url": "https://www.youtube-nocookie.com/embed/atLqMS5DaxE?rel=0&modestbranding=1&playsinline=1&start=383",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Taleem Ul Islam — What Is Madd & Letters",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "Madd (مَدّ) literally means 'to lengthen or elongate'. In Tajweed, it refers to stretching the sound of a vowel letter. The 3 Madd letters are: 1) Alif (ا) preceded by Fat-hah (ـَـا), 2) Waw Sakinah (وْ) preceded by Dammah (ـُـو), 3) Ya Sakinah (يْ) preceded by Kasrah (ـِـي). All three are combined in the Qur'anic word: نُوحِيهَا (Nu-hee-ha).",
           "keyPoints": [
             "Madd = Elongating the sound of a long vowel.",
@@ -15136,6 +15149,18 @@ export const coursesData = [
           "title": "Natural Madd (Madd Asli / Tabee'i)",
           "subtitle": "The 2-count standard elongation",
           "readingTime": "3 min",
+          "videoLesson": {
+            "title": "The Golden Rules of \"Madd\": Natural (Taba'ee) & Connected (Muttasil) Explained in 5 Mins!",
+            "channel": "Tajweed with Ahmed",
+            "duration": "4:01",
+            "videoId": "sDp35IpZ54M",
+            "watchUrl": "https://www.youtube.com/watch?v=sDp35IpZ54M",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/sDp35IpZ54M?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/sDp35IpZ54M?rel=0&modestbranding=1&playsinline=1",
+            "alternativeSource": "https://quran.com",
+            "sourceName": "Tajweed with Ahmed — Natural Madd (Madd Asli)",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "Madd Asli (Natural Madd) occurs when a Madd letter appears WITHOUT being followed by a Hamzah (ء) or a Sukoon (ْ). It must be elongated for exactly 2 counts (Harakataan)—neither rushed (which drops the letter) nor overstretched.",
           "keyPoints": [
             "No Hamzah or Sukoon after the Madd letter.",
@@ -15218,6 +15243,18 @@ export const coursesData = [
           "title": "Secondary Madd Due to Sukoon & Madd Lazim",
           "subtitle": "Madd 'Arid li-Sukoon (2/4/6 counts) and Madd Lazim (6 counts)",
           "readingTime": "4 min",
+          "videoLesson": {
+            "title": "[13]Al Madd al Aared (Temporary Madd)- Tajweed in English",
+            "channel": "قرّاء الكتب",
+            "duration": "2:30",
+            "videoId": "UF7ODVh-pt4",
+            "watchUrl": "https://www.youtube.com/watch?v=UF7ODVh-pt4",
+            "embedUrl": "https://www.youtube-nocookie.com/embed/UF7ODVh-pt4?rel=0&modestbranding=1&playsinline=1",
+            "url": "https://www.youtube-nocookie.com/embed/UF7ODVh-pt4?rel=0&modestbranding=1&playsinline=1",
+            "alternativeSource": "https://www.youtube.com/watch?v=DKNCIujQOHA",
+            "sourceName": "Companion Video: [15] Madd Lazim (6 counts)",
+            "badge": "Verified Reference Video"
+          },
           "explanation": "When a Madd letter is followed by a Sukoon: 1) Madd 'Arid li-s-Sukoon (Temporary Stop): When stopping at verse ends, the last letter gets a temporary Sukoon (e.g. الرَّحِيمِ -> الرَّحِيمْ). You may hold it for 2, 4, or 6 counts. 2) Madd Lazim (Compulsory): When a permanent Sukoon or Shaddah follows a Madd letter in a word or Quranic opening letter (e.g. الضَّالِّينَ , الٓمٓ). Must be held for a full 6 counts!",
           "keyPoints": [
             "Madd 'Arid li-Sukoon: Stopping at verse end (2, 4, or 6 counts).",
