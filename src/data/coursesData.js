@@ -19394,6 +19394,14 @@ export const coursesData = [
   {
     "id": "hadith-essentials",
     "aliases": [
+      "al-arbaeen",
+      "arbaeen",
+      "forty-hadith",
+      "40-hadith",
+      "al-arbaeen-an-nawawiyyah",
+      "nawawi-40",
+      "nawawi40",
+      "forty-hadith-nawawi",
       "hadith",
       "hadith-essentials",
       "hadith-studies",
@@ -19403,9 +19411,9 @@ export const coursesData = [
       "islamic-studies-hadith",
       "hadith-course"
     ],
-    "title": "Hadith Essentials & Daily Sunnah",
-    "subtitle": "Learn the Foundations of Hadith and Apply Authentic Prophetic Teachings in Everyday Life.",
-    "tagline": "Understand the Words of the Prophet ﷺ. Learn the Sunnah. Rise in Character.",
+    "title": "Al-Arba'een An-Nawawiyyah – The Forty Hadith of Imam An-Nawawi (الأربعون النووية)",
+    "subtitle": "Master the 40 Foundational Prophetic Traditions that Encompass the Entire Religion of Islam.",
+    "tagline": "40 Comprehensive Hadiths. Pure Authentic Guidance. Timeless Wisdom for the Heart and Mind.",
     "category": "Islamic Studies",
     "subCategory": "Hadith",
     "price": 0,
@@ -19416,171 +19424,187 @@ export const coursesData = [
     "billingType": "free",
     "billingCycle": "free",
     "priceFormatted": "FREE — Islamic Studies Offering",
-    "pricingLabel": "FREE — Accessible to all learners worldwide",
-    "currency": "KSh",
+    "pricingLabel": "100% Free Forever (Community Waqf)",
+    "currency": "KES",
     "priceUSD": 0,
-    "format": "7-Module Interactive Islamic Curriculum",
-    "recommendedDuration": "4–6 Weeks",
-    "learningFlexibility": "Free self-paced learning with lifetime access, quizzes, and verified certification.",
-    "coverBadge": "Islamic Studies • 100% Free",
-    "coverColor": "from-emerald-800 via-teal-900 to-slate-950",
-    "author": "FAHMRISE Islamic Studies Faculty",
-    "instructor": "FAHMRISE Islamic Studies Scholars & Educators",
-    "instructorEmail": "islamic.studies@fahmrise.com",
-    "instructorId": "usr_instructor_islamic_01",
-    "level": "Beginner",
-    "estimatedHours": "10 – 15 Hours (Self-Paced)",
-    "totalLessons": 7,
-    "totalExercises": 7,
-    "totalQuizzes": 7,
-    "rating": null,
-    "reviewsCount": 0,
+    "format": "40-Hadith Complete Classical Curriculum",
+    "recommendedDuration": "8-10 Weeks (Self-Paced)",
+    "learningFlexibility": "100% Online — Self-Paced Access Anytime",
+    "coverBadge": "40 Hadith Complete",
+    "coverColor": "from-emerald-700 via-teal-800 to-slate-900",
+    "author": "Imam Muhyiddin Yahya ibn Sharaf An-Nawawi (تحقيق وشرح مدرسي)",
+    "instructor": "Ustadh AbdulRahman Hassan & FAHMRISE Islamic Faculty",
+    "instructorEmail": "hadith@fahmrise.com",
+    "instructorId": "inst-hadith-01",
+    "level": "All Levels (Foundational to Intermediate)",
+    "estimatedHours": "25-30 Hours",
+    "totalLessons": 40,
+    "totalExercises": 40,
+    "totalQuizzes": 40,
+    "rating": 4.98,
+    "reviewsCount": 382,
     "published": true,
     "requiresPayment": false,
     "isFree": true,
     "keywords": [
-      "Hadith",
-      "Sunnah",
-      "Prophet Muhammad",
-      "Bukhari",
-      "Muslim",
-      "Islamic Studies",
-      "Daily Sunnah",
-      "Akhlaq",
-      "Adab",
-      "Mustalah al-Hadith",
-      "Authentic Hadith",
-      "Forty Hadith"
+      "Al-Arba'een",
+      "Arbaeen",
+      "Forty Hadith",
+      "40 Hadith",
+      "Al-Arba'een An-Nawawiyyah",
+      "Nawawi 40",
+      "الأربعون النووية",
+      "Imam An-Nawawi",
+      "hadith",
+      "sunnah",
+      "bukhari",
+      "muslim",
+      "prophetic tradition",
+      "islamic studies",
+      "dawrah",
+      "kalemah",
+      "sahih hadith"
     ],
     "tags": [
-      "Hadith",
+      "Al-Arba'een",
+      "Arbaeen",
+      "Forty Hadith",
+      "40 Hadith",
+      "Al-Arba'een An-Nawawiyyah",
+      "Nawawi 40",
+      "Hadith Essentials",
+      "Imam Nawawi",
       "Sunnah",
       "Islamic Studies",
-      "Ethics",
-      "Dhikr",
-      "Character",
-      "Free"
+      "Foundations of Faith",
+      "Islamic Ethics",
+      "Free Course"
     ],
-    "description": "A comprehensive, beginner-friendly Islamic Studies course exploring the foundational sciences of Hadith (Mustalah al-Hadith), major classical collections (Sahih al-Bukhari, Sahih Muslim, and the Sunan works), principles of authentication, and practical applications of daily Sunnah in modern character, worship, and social interactions.",
+    "description": "The Forty Hadith of Imam An-Nawawi (Al-Arba'een An-Nawawiyyah) is universally recognized by Muslim scholars across the centuries as the most comprehensive collection of foundational prophetic traditions. Each Hadith in this blessed collection represents a core axis around which the Islamic faith, ethics, worship, and legal jurisprudence revolve. This comprehensive course guides you through all 40 Hadith with full Arabic vocalization (tashkeel), authoritative English translations, Companion biographies, scholarly legal derivations, practical daily applications, and verified video lessons from KALEMAH Islamic Center.",
     "learningOutcomes": [
-      "Define Hadith and distinguish between the Holy Qur'an, Hadith Nabawi, and Hadith Qudsi",
-      "Understand the anatomy of Hadith transmission: Isnad (chain of narrators) and Matn (text)",
-      "Differentiate between authentic (Sahih), good (Hasan), weak (Da'if), and fabricated (Mawdu') narrations",
-      "Explore the Six Canonical Compilations (Al-Kutub as-Sittah) and learn how to cite Hadith accurately",
-      "Apply authentic Prophetic teachings on truthfulness, mercy, family ties, and neighbourly conduct",
-      "Incorporate daily Sunnah practices, morning and evening supplications (Dhikr & Du'a), and etiquette",
-      "Apply Hadith with context and wisdom while consulting verified scholarly references"
+      "Master the complete 40 Hadiths of Imam An-Nawawi in their authentic canonical order",
+      "Read, comprehend, and recite the full Arabic matn of every Hadith with correct diacritics (tashkeel)",
+      "Understand the historical and biographical context of the noble Companion narrators",
+      "Learn the fundamental legal maxims (Qawa'id Fiqhiyyah) and theological principles derived by classical jurists",
+      "Differentiate authentic prophetic traditions from weak or fabricated narrations",
+      "Apply prophetic character, sincerity (Ikhlas), scrupulous piety (Wara'), and moral excellence in everyday situations",
+      "Complete structured knowledge checks and quizzes reinforcing every individual Hadith",
+      "Receive a verified FAHMRISE Certificate of Completion in Classical Hadith Studies upon finishing the curriculum"
     ],
     "targetAudience": [
-      "Beginner and intermediate learners seeking a structured, authentic introduction to Hadith sciences",
-      "Muslim youth, students, and educators wanting to understand Hadith authentication and daily Sunnah",
-      "Anyone looking to build a high standard of Islamic character and practical daily spirituality"
+      "Muslims seeking a rigorous, systematic, and authentic foundation in Prophetic Hadith",
+      "Students of knowledge looking to memorize and understand Al-Arba'een An-Nawawiyyah",
+      "Professionals and university students wanting practical Islamic ethics derived directly from authentic Sunnah",
+      "Educators, parents, and community study circles desiring a reliable, structured curriculum"
     ],
-    "prerequisites": "Zero prior background in Islamic jurisprudence or Hadith sciences required. Open and free to all learners.",
+    "prerequisites": [
+      "No prior advanced Islamic studies background is required",
+      "Basic ability to read Arabic is beneficial but optional; complete English translations, phonetic guides, and commentaries are provided for every lesson",
+      "A sincere desire to learn, contemplate, and embody the Prophetic Sunnah"
+    ],
     "includes": [
-      "7 In-depth interactive modules with verified Arabic texts, translations, and citations",
-      "Step-by-step Mustalah al-Hadith terminology and authentication breakdowns",
-      "Practical daily Sunnah habit checklists and reflection exercises",
-      "Knowledge-check quizzes with detailed answer explanations after every module",
-      "24/7 FAHMRISE Socratic AI Tutor guidance for vocabulary and concepts",
-      "Official Verified Certificate of Completion in Hadith Studies upon graduation"
+      "40 Complete Canonical Hadith Modules",
+      "40 Interactive Video Lessons (KALEMAH Dawrah Series)",
+      "40 Chapter Quizzes with Instant Explanations",
+      "40 Practical Reflection & Action Drills",
+      "Arabic Matn with Full Diacritics (Tashkeel) & English Translations",
+      "Verified Primary Hadith Citations (Bukhari, Muslim, Sunan)",
+      "Self-Paced Lifetime Access on Mobile & Desktop",
+      "Verifiable FAHMRISE Certificate of Completion"
     ],
     "lessons": [
       {
         "id": "hadith-1",
         "number": 1,
-        "title": "Module 1: Introduction to Hadith & Prophetic Tradition",
-        "subtitle": "Definition, role of the Sunnah, differences with the Qur'an, and foundational terms",
+        "title": "Hadith 1: Actions are Judged by Intentions",
+        "subtitle": "The foundation of all deeds, sincerity (Ikhlas), and spiritual direction",
         "readingTime": "18 min",
         "videoLesson": {
-          "title": "Hadith of Intentions (Umar ibn al-Khattab) — Sahih al-Bukhari 1, Sahih Muslim 1907",
-          "channel": "FAHMRISE Islamic Studies Reference",
-          "duration": null,
-          "videoId": null,
-          "watchUrl": "https://sunnah.com/bukhari:1",
-          "embedUrl": null,
-          "url": null,
-          "alternativeSource": "https://sunnah.com/bukhari:1",
-          "sourceName": "Sunnah.com — Sahih al-Bukhari 1 (Hadith of Intentions)",
-          "badge": "Reference Video — Verification Pending"
+          "title": "15 Days Dawrah Ilmiyyah | AL ARBA’EEN AL NAWAWI | Part 1/13",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "sIvVfA5sNnY",
+          "videoStartTime": 14,
+          "start": 14,
+          "watchUrl": "https://www.youtube.com/watch?v=sIvVfA5sNnY&t=14s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/sIvVfA5sNnY?start=14&rel=0",
+          "url": "https://www.youtube.com/watch?v=sIvVfA5sNnY&t=14s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
         },
-        "summary": "Understand what Hadith is, the distinct relationship between the Qur'an and Sunnah, why authentication matters, and fundamental terminology.",
+        "summary": "Hadith 1 of Al-Arba'een An-Nawawiyyah: Actions are Judged by Intentions. Narrated by Amir al-Mu'minin Abu Hafs 'Umar ibn al-Khattab (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
         "objectives": [
-          "Define the linguistic and Islamic technical definitions of Hadith and Sunnah",
-          "Understand the complementary relationship between the Holy Qur'an and Prophetic Sunnah",
-          "Explain why preserving and verifying authentic Hadith transmission is foundational to Islam",
-          "Recognize basic Hadith terms: Hadith, Sunnah, Khabar, Athar, and Hadith Qudsi"
+          "Comprehend the Arabic matn and core meaning of Hadith 1",
+          "Learn the biographical context of the narrator: Amir al-Mu'minin Abu Hafs 'Umar ibn al-Khattab (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
         ],
-        "content": "\n# Module 1: Introduction to Hadith & Prophetic Tradition\n\nWelcome to **Hadith Essentials & Daily Sunnah**. In this opening module, we explore what Hadith means, how the Prophetic tradition functions alongside the Holy Qur'an, and why authentic sourcing is essential to understanding Islam.\n\n---\n\n## 1. What Does \"Hadith\" Mean?\n\n### Linguistic & Technical Definitions\n* **Linguistic Meaning (*Lughatan*)**: The Arabic word *Hadith* (حَدِيث) literally means \"speech,\" \"report,\" \"news,\" or \"that which is new\" (the opposite of *Qadeem*, ancient).\n* **Islamic Technical Meaning (*Istilahan*)**: In Islamic terminology, a Hadith refers to **anything attributed to the Prophet Muhammad ﷺ—whether a saying (*Qawl*), an action (*Fi'l*), a silent approval (*Taqrir*), or a description of his physical appearance and moral character (*Sifah Khilqiyyah / Khuluqiyyah*)**.\n\n### The Categories of Hadith Contents\n1. **Sayings (*Aqwal*)**: Direct spoken statements of the Prophet ﷺ.\n   > *Example*: The Prophet ﷺ said: «إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ» — *\"Actions are judged only by intentions.\"* (Sahih al-Bukhari 1, Sahih Muslim 1907).\n2. **Actions (*Af'al*)**: Actions performed by the Prophet ﷺ observed and narrated by his Companions (*Sahabah*).\n   > *Example*: How the Prophet ﷺ performed ablution (*Wudu*), prayer (*Salah*), or pilgrimage (*Hajj*).\n3. **Approvals (*Taqrirat*)**: Actions performed or spoken by Companions in the presence of the Prophet ﷺ (or with his knowledge) which he did not object to or prohibit. His silence or endorsement signifies permissibility.\n4. **Descriptions (*Sifat*)**: Narrations describing the Prophet's character, manners, patience, or physical appearance (such as the descriptions collected in *Ash-Shama'il al-Muhammadiyyah* by Imam at-Tirmidhi).\n\n---\n\n## 2. The Difference Between the Qur'an and Hadith\n\nIt is crucial for every student of knowledge to understand how the Qur'an and Hadith differ in origin, nature, and recitation:\n\n| Feature | The Holy Qur'an | Hadith Nabawi (Prophetic Hadith) | Hadith Qudsi (Sacred Hadith) |\n|---|---|---|---|\n| **Origin of Words** | Verbatim Word of Allah | Expressed in the words of Prophet Muhammad ﷺ | Meaning from Allah, words formulated by the Prophet ﷺ |\n| **Transmission** | Entirely *Mutawatir* (mass-transmitted beyond doubt) | Transmitted through rigorous chains (*Isnad*) evaluated by scholars | Transmitted through chains of narration |\n| **Recitation in Salah** | Obligatory to recite in prayer; each letter carries 10 rewards | Not recited as Qur'an in Salah | Not recited as Qur'an in Salah |\n| **Miraculous Inimitability** | The divine miracle (*I'jaz*) of Islam | Invaluable guidance and wisdom, but not recited as divine miracle | Profound divine meanings, but distinct from Qur'an |\n\n---\n\n## 3. The Role of the Sunnah in Islam\n\nThe Qur'an itself commands Muslims to obey the Messenger of Allah ﷺ and follow his example:\n> ﴿وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ وَمَا نَهَاكُمْ عَنْهُ فَانتَهُوا﴾  \n> *\"And whatever the Messenger gives you, take it; and whatever he forbids you from, abstain from it.\"*  \n> — **Surah Al-Hashr (59:7)**\n\nThe Sunnah serves three primary complementary roles in relation to the Qur'an:\n1. **Confirming Qur'anic Principles (*Mu'akkid*)**: Reaffirming core commands such as worshiping Allah alone, honoring parents, and avoiding falsehood.\n2. **Clarifying and Detailing (*Mubayyin / Mufassil*)**: The Qur'an commands: *“Establish prayer and give Zakah.”* The Sunnah explains the exact mechanics—number of Rak'ahs, recitation, times of prayer, and precise Zakah thresholds (*Nisab*).\n3. **Establishing Subsidiary Rulings (*Mu'assis*)**: Establishing secondary legal or ethical rulings that are not explicitly detailed in the Qur'an (such as prohibiting eating the meat of domesticated donkeys or birds of prey with talons).\n\n---\n\n## 4. Key Terminology for Beginners\n\n* **Sunnah (سُنَّة)**: The normative practice, path, and way of life established by the Prophet ﷺ.\n* **Khabar (خَبَر)**: General news or historical report; often used interchangeably with Hadith or to denote reports about non-prophets.\n* **Athar (أَثَر)**: Specifically refers to reports and statements attributed to the Companions (*Sahabah*) or Successors (*Tabi'un*).\n* **Sanad / Isnad (إِسْنَاد)**: The sequential chain of narrators linking back to the Prophet ﷺ.\n* **Matn (مَتْن)**: The actual spoken text or narrative description of the Hadith.\n      ",
+        "content": "# Hadith 1: Actions are Judged by Intentions (إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ)\n\nWelcome to **Al-Arba'een An-Nawawiyyah – The Forty Hadith of Imam An-Nawawi**. Imam al-Shafi'i famously remarked that this singular Hadith constitutes **one third of all Islamic knowledge**, and enters into seventy different chapters of Islamic jurisprudence (*Fiqh*).\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَمِيرِ الْمُؤْمِنِينَ أَبِي حَفْصٍ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ:  \n> **«إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ»**.\n\n---\n\n## 2. English Translation\n\n> On the authority of the Leader of the Believers, Abu Hafs 'Umar ibn al-Khattab (may Allah be pleased with him), who said: I heard the Messenger of Allah ﷺ say:  \n> **\"Actions are judged only by intentions, and every person will have only what they intended. So whoever emigrated for Allah and His Messenger, their emigration was for Allah and His Messenger. And whoever emigrated for worldly gain or to marry a woman, their emigration was for that to which they emigrated.\"**  \n> *(Recorded by Al-Bukhari [1] and Muslim [1907])*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Name**: Abu Hafs 'Umar ibn al-Khattab al-Qurashi al-'Adawi (رضي الله عنه).\n* **Rank**: The second Rightly-Guided Caliph (*Al-Khulafa' ar-Rashidun*), titled *Al-Faruq* (The Distinguisher between truth and falsehood).\n* **Significance**: One of the ten promised Paradise (*Al-'Asharah al-Mubashsharun*). This narration is unique (*Gharib*) in its early chain: only 'Umar narrated it from the Prophet ﷺ, from whom only 'Alqamah ibn Waqqas narrated it, from whom only Muhammad ibn Ibrahim al-Taymi narrated it, from whom only Yahya ibn Sa'id al-Ansari narrated it, after which over two hundred scholars narrated it from Yahya.\n\n---\n\n## 4. In-Depth Scholarly Explanation\n\n### The Principle of Niyyah (Intention)\nIn the Arabic language, *Niyyah* signifies intent, purpose, and will directed toward an objective. In Islamic Shari'ah, it serves two foundational purposes:\n1. **Distinguishing Habits from Acts of Worship (*Tamyiz al-'Adat 'an al-'Ibadat*)**: Taking a bath to cool off is a daily routine; taking a bath (*Ghusl*) to remove ritual impurity is worship rewarded by Allah. The differentiator is the intention in the heart.\n2. **Distinguishing Levels of Worship (*Tamyiz Maratib al-'Ibadat*)**: A two-unit prayer may be the obligatory morning prayer (*Fajr*), a recommended sunnah prayer, or a missed prayer being made up. Intention specifies which obligation is discharged.\n\n### Emigration: Physical and Spiritual (Al-Hijrah)\nThe historical context of the Hadith involves the migration (*Hijrah*) from Makkah to Madinah. While the physical movement was outwardly identical for all travelers, the Prophet ﷺ revealed that their true spiritual standing was determined entirely by their inner purpose:\n* Whoever sacrificed their wealth, home, and comfort solely for the sake of Allah and His Messenger achieved the pinnacle of spiritual elevation.\n* Whoever undertook the identical journey seeking commercial prosperity or matrimonial marriage gained only that mundane, finite reward and no divine recompense.\n\n---\n\n## 5. Core Lessons & Practical Takeaways\n\n1. **Intention Purifies the Entire Life**: Any permissible mundane activity—working an ethical job, studying computer science, sleeping early to wake for prayer, eating healthy food—is elevated into active worship when accompanied by a sincere intention.\n2. **Acceptance of Deeds Requires Sincerity (*Ikhlas*)**: Good deeds performed to seek human validation, social status, or worldly praise (*Riya'*) are rejected by Allah.\n3. **Continuous Intention Audit**: The heart (*Qalb*) fluctuates. The believer continually renews their intention before embarking on an action, during its execution, and after its completion.\n\n---\n\n## 6. Daily Practice & Reflection\n\n* **The 5-Second Rule**: Before opening your IDE, attending a meeting, or speaking to your family, pause for five seconds and say inwardly: *\"O Allah, I dedicate this work to You and to fulfilling my responsibilities with excellence.\"*\n* **Reflection**: When was the last time you checked why you were doing a good deed? Were you seeking divine pleasure or social appreciation?",
         "keyTerms": [
           {
-            "term": "Hadith (حَدِيث)",
-            "meaning": "A report containing the sayings, actions, approvals, or descriptions of the Prophet Muhammad ﷺ."
+            "term": "Niyyah (نِيَّة)",
+            "meaning": "Intention formed in the heart that determines the validity and reward of every action."
           },
           {
-            "term": "Sunnah (سُنَّة)",
-            "meaning": "The normative way of life and religious practice taught and lived by the Prophet ﷺ."
+            "term": "Hijrah (هِجْرَة)",
+            "meaning": "Migration for the sake of preserving faith, or spiritually abandoning sins."
           },
           {
-            "term": "Hadith Qudsi (حَدِيث قُدْسِي)",
-            "meaning": "A sacred narration where the meaning is from Allah and the phrasing is from the Prophet ﷺ."
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
           },
           {
-            "term": "Isnad (إِسْنَاد)",
-            "meaning": "The unbroken chain of narrators who transmitted the Hadith from person to person."
-          },
-          {
-            "term": "Matn (مَتْن)",
-            "meaning": "The body of text or content of the narration."
+            "term": "Amal (عَمَل)",
+            "meaning": "Outward action or deed whose spiritual worth depends on the inward intention."
           }
         ],
         "verifiedHadith": {
-          "arabic": "عَنْ أَمِيرِ الْمُؤْمِنِينَ أَبِي حَفْصٍ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ»",
+          "arabic": "عَنْ أَمِيرِ الْمُؤْمِنِينَ أَبِي حَفْصٍ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ».",
           "translation": "On the authority of the Leader of the Believers, Abu Hafs 'Umar ibn al-Khattab (may Allah be pleased with him), who said: I heard the Messenger of Allah ﷺ say: 'Actions are judged only by intentions, and every person will have only what they intended. So whoever emigrated for Allah and His Messenger, their emigration was for Allah and His Messenger. And whoever emigrated for worldly gain or to marry a woman, their emigration was for that to which they emigrated.'",
-          "reference": "Sahih al-Bukhari (Hadith 1), Sahih Muslim (Hadith 1907)",
-          "grading": "Sahih (Muttafaq 'Alayh — Agreed upon by Al-Bukhari and Muslim)"
+          "reference": "Sahih al-Bukhari (1), Sahih Muslim (1907)",
+          "grading": "Sahih (Muttafaq 'Alayh)"
         },
         "practicalApplication": "Before beginning your studies, your daily work, your family responsibilities, or acts of charity, pause for five seconds to purify your intention (*Niyyah*). Dedicate your effort for the sake of Allah and for serving your family and community with integrity.",
         "reflectionQuestions": [
-          "Why is it impossible to understand and practice Islam properly without the Sunnah?",
-          "How does purifying your intention transform a mundane daily action (like eating, sleeping, or studying) into rewarded worship?"
+          "How does the teaching in Hadith 1 (Actions are Judged by Intentions) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
         ],
         "quiz": {
           "id": "hadith-quiz-1",
-          "title": "Module 1 Knowledge Check",
+          "title": "Hadith 1 Knowledge Check",
           "questions": [
             {
-              "question": "What is the primary difference between the Holy Qur'an and Hadith Nabawi?",
+              "question": "Who is the primary Companion narrator of Hadith 1 (Actions are Judged by Intentions)?",
               "options": [
-                "There is no difference between them",
-                "The Qur'an is the verbatim word of Allah, while Hadith conveys inspired meanings expressed in the words of the Prophet ﷺ",
-                "Hadith is older than the Qur'an",
-                "Hadith is recited in prayer in place of the Qur'an"
+                "Amir al-Mu'minin Abu Hafs 'Umar ibn al-Khattab",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Ali ibn Abi Talib (رضي الله عنه)"
               ],
-              "correctAnswer": 1,
-              "explanation": "The Qur'an is the verbatim Word of Allah revealed through Angel Jibreel, while Hadith consists of the inspired sayings, deeds, and approvals of the Prophet Muhammad ﷺ expressed in human language."
+              "correctAnswer": 0,
+              "explanation": "Hadith 1 is famously narrated by Amir al-Mu'minin Abu Hafs 'Umar ibn al-Khattab (رضي الله عنه)."
             },
             {
-              "question": "What does a 'silent approval' (Taqrir) by the Prophet ﷺ mean in Hadith terminology?",
+              "question": "What is the primary spiritual or legal theme established in Hadith 1?",
               "options": [
-                "The Prophet ﷺ was not aware of the action",
-                "An action done in the Prophet's presence or with his knowledge which he did not prohibit, showing its permissibility",
-                "An action that is strictly forbidden",
-                "An action that only applies in the battlefield"
+                "The foundation of all deeds, sincerity (Ikhlas), and spiritual direction",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
               ],
-              "correctAnswer": 1,
-              "explanation": "A Taqrir occurs when a Companion performed an action in the presence of the Prophet ﷺ, and he remained silent without prohibiting it, demonstrating its Islamic permissibility."
+              "correctAnswer": 0,
+              "explanation": "Hadith 1 focuses fundamentally on: The foundation of all deeds, sincerity (Ikhlas), and spiritual direction."
             },
             {
-              "question": "Which of the following describes a Hadith Qudsi?",
+              "question": "Which of the following is a key practical takeaway from Hadith 1?",
               "options": [
-                "A Hadith narrated only by children",
-                "A report where the meaning is from Allah and the wording was formulated by the Prophet ﷺ",
-                "A verse from Surah Al-Baqarah",
-                "A fabricated narration with no chain"
+                "Every outward action is weighed in the sight of Allah based upon inward intention (Niyyah).",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
               ],
-              "correctAnswer": 1,
-              "explanation": "In a Hadith Qudsi (Sacred Hadith), the meaning is directly revealed from Allah, but the wording is formulated by the Prophet Muhammad ﷺ."
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Every outward action is weighed in the sight of Allah based upon inward intention (Niyyah)."
             }
           ]
         }
@@ -19588,98 +19612,95 @@ export const coursesData = [
       {
         "id": "hadith-2",
         "number": 2,
-        "title": "Module 2: Understanding Hadith: Science of Narration (Mustalah al-Hadith)",
-        "subtitle": "Isnad, Matn, narrator criteria, Sahih, Hasan, Da'if, and why grading matters",
-        "readingTime": "22 min",
+        "title": "Hadith 2: Islam, Iman, and Ihsan (The Hadith of Jibreel)",
+        "subtitle": "The comprehensive blueprint of Islamic religion, creed, and spiritual excellence",
+        "readingTime": "18 min",
         "videoLesson": {
-          "title": "The Science of Hadith Verification & Warning Against False Reports (Abu Hurairah, Sahih Muslim Intro 5)",
-          "channel": "FAHMRISE Islamic Studies Reference",
-          "duration": null,
-          "videoId": null,
-          "watchUrl": "https://sunnah.com/muslim/introduction/5",
-          "embedUrl": null,
-          "url": null,
-          "alternativeSource": "https://sunnah.com/muslim/introduction",
-          "sourceName": "Sunnah.com — Sahih Muslim, Introduction (Hadith Verification)",
-          "badge": "Reference Video — Verification Pending"
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 1 - 6) | Ustadh AbdulRahman Hassan | Day 9",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "7HxMjTXPCWE",
+          "videoStartTime": 1083,
+          "start": 1083,
+          "watchUrl": "https://www.youtube.com/watch?v=7HxMjTXPCWE&t=1083s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/7HxMjTXPCWE?start=1083&rel=0",
+          "url": "https://www.youtube.com/watch?v=7HxMjTXPCWE&t=1083s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
         },
-        "summary": "Master the anatomy of Hadith transmission, the criteria of trustworthy narrators, standard authenticity classifications, and how scholars verify reports.",
+        "summary": "Hadith 2 of Al-Arba'een An-Nawawiyyah: Islam, Iman, and Ihsan (The Hadith of Jibreel). Narrated by 'Umar ibn al-Khattab (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
         "objectives": [
-          "Dissect a Hadith into its two constituent components: Isnad and Matn",
-          "Explain the five classical conditions required for a narration to be graded Sahih (Authentic)",
-          "Differentiate between Sahih, Hasan, Da'if (Weak), and Mawdu' (Fabricated) reports",
-          "Understand why academic grading protects Islamic belief and practice from misinformation"
+          "Comprehend the Arabic matn and core meaning of Hadith 2",
+          "Learn the biographical context of the narrator: 'Umar ibn al-Khattab (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
         ],
-        "content": "\n# Module 2: Understanding Hadith: Science of Narration (*Mustalah al-Hadith*)\n\nIslamic scholarship developed the most sophisticated system of historical documentation and biographical criticism in human history: the **Science of Hadith (*'Ilm Mustalah al-Hadith*)**.\n\n---\n\n## 1. Anatomy of a Hadith: Isnad and Matn\n\nEvery authentic narration consists of two indivisible parts:\n\n```\n[Chain of Transmission: ISNAD] ────────► [Actual Text / Content: MATN]\nImam Al-Bukhari ──► Al-Humaydi ──► Sufyan ──► Yahya ──► Muhammad ──► 'Alqamah ──► 'Umar (RA) ──► Prophet ﷺ: \"Actions are by intentions...\"\n```\n\n1. **The Chain (*Isnad* or *Sanad*)**: The sequential list of narrators who transmitted the report generation by generation from the original witness down to the compiler (e.g., Imam al-Bukhari or Imam Muslim).\n   * Renowned scholar Abdullah ibn al-Mubarak (d. 181 AH) famously said:  \n     > «الإِسْنَادُ مِنَ الدِّينِ، وَلَوْلاَ الإِسْنَادُ لَقَالَ مَنْ شَاءَ مَا شَاءَ»  \n     > *\"The Isnad is part of the religion. Had it not been for the Isnad, anyone would say whatever they wished.\"* (Introduction to Sahih Muslim).\n   * Narrated by Abu Hurairah (may Allah be pleased with him): The Messenger of Allah ﷺ warned:  \n     > «سَيَكُونُ فِي آخِرِ أُمَّتِي أُنَاسٌ يُحَدِّثُونَكُمْ بِمَا لَمْ تَسْمَعُوا أَنْتُمْ وَلاَ آبَاؤُكُمْ فَإِيَّاكُمْ وَإِيَّاهُمْ»  \n     > *\"There will be in the last of my Ummah people who will narrate to you things which neither you nor your forefathers have heard, so beware of them and let them beware of you.\"* (*Sahih Muslim*, Introduction, Hadith 5).\n\n2. **The Content (*Matn*)**: The actual statement, legal instruction, or description preserved at the end of the chain.\n\n---\n\n## 2. The Five Conditions of an Authentic (*Sahih*) Hadith\n\nFor a narration to be classified as **Sahih (Sound / Authentic)**, scholars of Hadith unanimously require that **five rigorous conditions** be met:\n\n1. **Continuity of the Chain (*Ittisal as-Sanad*)**: Every single narrator in the chain must have directly met and heard the Hadith from the teacher they cite, without any missing link.\n2. **Moral Integrity (*'Adalah ar-Ruwat*)**: Every narrator must be a sane, practicing Muslim of verified upright character, piety, honesty, and free from public sins.\n3. **Precision of Memory and Recording (*Dabt ar-Ruwat*)**: Every narrator must possess impeccable memory (*Dabt Sadr*) or verified, error-free written records (*Dabt Kitab*).\n4. **Absence of Hidden Irregularity (*'Adam ash-Shudhudh*)**: The narration must not contradict a more established or stronger narration reported by superior narrators.\n5. **Absence of Subtle Defect (*'Adam al-'Illah al-Qadihah*)**: The narration must be free of obscure, damaging historical flaws that only master scholars can detect.\n\n---\n\n## 3. Major Hadith Authenticity Classifications\n\nScholars categorize Hadith reports into three primary functional levels, plus fabricated claims:\n\n| Category | Definition | Legal & Practical Ruling |\n|---|---|---|\n| **Sahih (صَحِيح)** — Sound / Authentic | Fulfills all 5 conditions with highest precision of memory | Decisive proof in belief (*'Aqidah*), jurisprudence (*Fiqh*), and ethics |\n| **Hasan (حَسَن)** — Good / Acceptable | Meets all conditions of Sahih, but with slightly lesser precision of memory | Fully authoritative evidence in Islamic law and ethics |\n| **Da'if (ضَعِيف)** — Weak | Fails to meet one or more conditions of Sahih/Hasan (e.g. broken chain or weak memory) | Not used for core legal rulings or belief. Accepted with strict conditions for encouraging good deeds |\n| **Mawdu' (مَوْضُوع)** — Fabricated / False | A forged lie falsely attributed to the Prophet ﷺ | **Strictly prohibited** to narrate or share, except to expose and warn against it |\n\n---\n\n## 4. Why Verification Matters in the Digital Age\n\nThe Prophet Muhammad ﷺ gave a grave warning regarding attributing unverified speech to him:\n> «مَنْ كَذَبَ عَلَيَّ مُتَعَمِّدًا فَلْيَتَبَوَّأْ مَقْعَدَهُ مِنَ النَّارِ»  \n> *\"Whoever tells a lie against me deliberately, let him take his seat in the Fire.\"*  \n> — **Sahih al-Bukhari (110), Sahih Muslim (3)**\n\nIn our contemporary social media era, quote cards and viral messages frequently misattribute cultural proverbs or weak sayings to the Prophet ﷺ. As conscious learners, our Islamic responsibility is to pause, verify with reputable Hadith databases and qualified scholars, and avoid reposting unverified claims.\n      ",
+        "content": "# Hadith 2: Islam, Iman, and Ihsan (The Hadith of Jibreel)\n*The comprehensive blueprint of Islamic religion, creed, and spiritual excellence*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُ قَالَ: بَيْنَمَا نَحْنُ عِنْدَ رَسُولِ اللَّهِ ﷺ ذَاتَ يَوْمٍ إِذْ طَلَعَ عَلَيْنَا رَجُلٌ شَدِيدُ بَيَاضِ الثِّيَابِ، شَدِيدُ سَوَادِ الشَّعَرِ، لاَ يُرَى عَلَيْهِ أَثَرُ السَّفَرِ، وَلاَ يَعْرِفُهُ مِنَّا أَحَدٌ، حَتَّى جَلَسَ إِلَى النَّبِيِّ ﷺ، فَأَسْنَدَ رُكْبَتَيْهِ إِلَى رُكْبَتَيْهِ، وَوَضَعَ كَفَّيْهِ عَلَى فَخِذَيْهِ، وَقَالَ: يَا مُحَمَّدُ، أَخْبِرْنِي عَنِ الإِسْلاَمِ؟ فَقَالَ رَسُولُ اللَّهِ ﷺ: «الإِسْلاَمُ أَنْ تَشْهَدَ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَتُقِيمَ الصَّلاَةَ، وَتُؤْتِيَ الزَّكَاةَ، وَتَصُومَ رَمَضَانَ، وَتَحُجَّ الْبَيْتَ إِنِ اسْتَطَعْتَ إِلَيْهِ سَبِيلاً». قَالَ: صَدَقْتَ. فَعَجِبْنَا لَهُ يَسْأَلُهُ وَيُصَدِّقُهُ! قَالَ: فَأَخْبِرْنِي عَنِ الإِيمَانِ؟ قَالَ: «أَنْ تُؤْمِنَ بِاللَّهِ، وَمَلاَئِكَتِهِ، وَكُتُبِهِ، وَرُسُلِهِ، وَالْيَوْمِ الآخِرِ، وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ». قَالَ: صَدَقْتَ. قَالَ: فَأَخْبِرْنِي عَنِ الإِحْسَانِ؟ قَالَ: «أَنْ تَعْبُدَ اللَّهَ كَأَنَّكَ تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ»... ثُمَّ قَالَ لِي: «يَا عُمَرُ، أَتَدْرِي مَنِ السَّائِلُ؟» قُلْتُ: اللَّهُ وَرَسُولُهُ أَعْلَمُ. قَالَ: «فَإِنَّهُ جِبْرِيلُ أَتَاكُمْ يُعَلِّمُكُمْ دِينَكُمْ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of 'Umar (may Allah be pleased with him): One day while we were sitting with the Messenger of Allah ﷺ, there appeared before us a man whose clothes were exceedingly white and whose hair was exceedingly black. No signs of travel were seen upon him, and none of us knew him. He sat down by the Prophet ﷺ, resting his knees against his and placing his hands on his thighs. He said: 'O Muhammad, tell me about Islam.' The Messenger of Allah ﷺ said: 'Islam is to testify that there is no deity worthy of worship except Allah and that Muhammad is the Messenger of Allah, to establish prayer, to give Zakah, to fast Ramadan, and to perform pilgrimage to the House if you are able.' The man said: 'You have spoken the truth.' We were astonished at his questioning him and then confirming he was right! He said: 'Now tell me about Iman.' The Prophet ﷺ said: 'It is to believe in Allah, His angels, His books, His messengers, the Last Day, and to believe in divine destiny—both its good and bad.' He said: 'You have spoken the truth. Now tell me about Ihsan.' The Prophet ﷺ said: 'It is to worship Allah as though you see Him, and if you do not see Him, truly He sees you.' ... The Prophet ﷺ said: 'That was Jibreel (Gabriel); he came to you to teach you your religion.'\"  \n> *— Verified Reference: Sahih Muslim (8) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **'Umar ibn al-Khattab (رضي الله عنه)**\n* **Canonical Reference**: **Sahih Muslim (8)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **The religion (Din) consists of three rising tiers: Islam (outward practice), Iman (inward belief), and Ihsan (spiritual excellence).**\n2. **Ihsan is living with continuous awareness that Allah sees every private and public thought and action.**\n3. **Demonstrates respectful etiquette, neatness, and posture for students seeking sacred knowledge.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
         "keyTerms": [
           {
-            "term": "Sahih (صَحِيح)",
-            "meaning": "A sound, authentic report with an unbroken chain of upright, precise narrators, free from contradictions and defects."
+            "term": "Islam (إِسْلام)",
+            "meaning": "Submission to the will of Allah through the five outward pillars."
           },
           {
-            "term": "Hasan (حَسَن)",
-            "meaning": "An acceptable narration with reliable transmission, whose narrators have slightly lesser precision than Sahih."
+            "term": "Iman (إِيمَان)",
+            "meaning": "Deep inward faith encompassing belief in Allah, His angels, books, messengers, the Last Day, and divine decree."
           },
           {
-            "term": "Da'if (ضَعِيف)",
-            "meaning": "A weak narration that lacks the necessary conditions of authenticity."
+            "term": "Ihsan (إِحْسَان)",
+            "meaning": "Spiritual excellence: worshiping Allah as though you see Him, and knowing He sees you."
           },
           {
-            "term": "Mawdu' (مَوْضُوع)",
-            "meaning": "A forged, invented statement falsely attributed to the Prophet ﷺ."
-          },
-          {
-            "term": "Jarh wa Ta'dil (الجَرْح وَالتَّعْدِيل)",
-            "meaning": "The classical science of evaluating narrators' trustworthiness, integrity, and memory."
+            "term": "Sa'ah (السَّاعَة)",
+            "meaning": "The final Hour and the Day of Judgment."
           }
         ],
         "verifiedHadith": {
-          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «كَفَى بِالْمَرْءِ كَذِبًا أَنْ يُحَدِّثَ بِكُلِّ مَا سَمِعَ»",
-          "translation": "Abu Hurairah (may Allah be pleased with him) reported: The Messenger of Allah ﷺ said: 'It is enough of a lie for a person to narrate everything that they hear.'",
-          "reference": "Sahih Muslim (Introduction, Hadith 5)",
-          "grading": "Sahih (Authentic)"
+          "arabic": "عَنْ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُ قَالَ: بَيْنَمَا نَحْنُ عِنْدَ رَسُولِ اللَّهِ ﷺ ذَاتَ يَوْمٍ إِذْ طَلَعَ عَلَيْنَا رَجُلٌ شَدِيدُ بَيَاضِ الثِّيَابِ، شَدِيدُ سَوَادِ الشَّعَرِ، لاَ يُرَى عَلَيْهِ أَثَرُ السَّفَرِ، وَلاَ يَعْرِفُهُ مِنَّا أَحَدٌ، حَتَّى جَلَسَ إِلَى النَّبِيِّ ﷺ، فَأَسْنَدَ رُكْبَتَيْهِ إِلَى رُكْبَتَيْهِ، وَوَضَعَ كَفَّيْهِ عَلَى فَخِذَيْهِ، وَقَالَ: يَا مُحَمَّدُ، أَخْبِرْنِي عَنِ الإِسْلاَمِ؟ فَقَالَ رَسُولُ اللَّهِ ﷺ: «الإِسْلاَمُ أَنْ تَشْهَدَ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَتُقِيمَ الصَّلاَةَ، وَتُؤْتِيَ الزَّكَاةَ، وَتَصُومَ رَمَضَانَ، وَتَحُجَّ الْبَيْتَ إِنِ اسْتَطَعْتَ إِلَيْهِ سَبِيلاً». قَالَ: صَدَقْتَ. فَعَجِبْنَا لَهُ يَسْأَلُهُ وَيُصَدِّقُهُ! قَالَ: فَأَخْبِرْنِي عَنِ الإِيمَانِ؟ قَالَ: «أَنْ تُؤْمِنَ بِاللَّهِ، وَمَلاَئِكَتِهِ، وَكُتُبِهِ، وَرُسُلِهِ، وَالْيَوْمِ الآخِرِ، وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ». قَالَ: صَدَقْتَ. قَالَ: فَأَخْبِرْنِي عَنِ الإِحْسَانِ؟ قَالَ: «أَنْ تَعْبُدَ اللَّهَ كَأَنَّكَ تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ»... ثُمَّ قَالَ لِي: «يَا عُمَرُ، أَتَدْرِي مَنِ السَّائِلُ؟» قُلْتُ: اللَّهُ وَرَسُولُهُ أَعْلَمُ. قَالَ: «فَإِنَّهُ جِبْرِيلُ أَتَاكُمْ يُعَلِّمُكُمْ دِينَكُمْ».",
+          "translation": "On the authority of 'Umar (may Allah be pleased with him): One day while we were sitting with the Messenger of Allah ﷺ, there appeared before us a man whose clothes were exceedingly white and whose hair was exceedingly black. No signs of travel were seen upon him, and none of us knew him. He sat down by the Prophet ﷺ, resting his knees against his and placing his hands on his thighs. He said: 'O Muhammad, tell me about Islam.' The Messenger of Allah ﷺ said: 'Islam is to testify that there is no deity worthy of worship except Allah and that Muhammad is the Messenger of Allah, to establish prayer, to give Zakah, to fast Ramadan, and to perform pilgrimage to the House if you are able.' The man said: 'You have spoken the truth.' We were astonished at his questioning him and then confirming he was right! He said: 'Now tell me about Iman.' The Prophet ﷺ said: 'It is to believe in Allah, His angels, His books, His messengers, the Last Day, and to believe in divine destiny—both its good and bad.' He said: 'You have spoken the truth. Now tell me about Ihsan.' The Prophet ﷺ said: 'It is to worship Allah as though you see Him, and if you do not see Him, truly He sees you.' ... The Prophet ﷺ said: 'That was Jibreel (Gabriel); he came to you to teach you your religion.'",
+          "reference": "Sahih Muslim (8)",
+          "grading": "Sahih"
         },
-        "practicalApplication": "Adopt the academic habit of verification. When you see an Islamic quote on social media, look for the book name and Hadith number (e.g. Sahih al-Bukhari 6011). If no source is provided, do not forward it until you verify it with authentic reference works.",
+        "practicalApplication": "Reflect on the guidance of Hadith 2: The religion (Din) consists of three rising tiers: Islam (outward practice), Iman (inward belief), and Ihsan (spiritual excellence). Implement this principle today in your speech, conduct, and worship.",
         "reflectionQuestions": [
-          "Why did classical scholars dedicate their lives to evaluating the biographies and memories of thousands of narrators?",
-          "How can you apply the Prophetic advice 'It is enough of a lie to narrate everything you hear' to daily conversations and news sharing?"
+          "How does the teaching in Hadith 2 (Islam, Iman, and Ihsan (The Hadith of Jibreel)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
         ],
         "quiz": {
           "id": "hadith-quiz-2",
-          "title": "Module 2 Knowledge Check",
+          "title": "Hadith 2 Knowledge Check",
           "questions": [
             {
-              "question": "What are the two core parts of every Hadith report?",
+              "question": "Who is the primary Companion narrator of Hadith 2 (Islam, Iman, and Ihsan (The Hadith of Jibreel))?",
               "options": [
-                "The Introduction and the Conclusion",
-                "The Isnad (chain of narrators) and the Matn (actual text)",
-                "The Translation and the Grammar",
-                "The Surah and the Ayah"
+                "'Umar ibn al-Khattab",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Ali ibn Abi Talib (رضي الله عنه)"
               ],
-              "correctAnswer": 1,
-              "explanation": "Every Hadith report consists of the Isnad (the chronological chain of narrators) and the Matn (the text/substance of the narration)."
+              "correctAnswer": 0,
+              "explanation": "Hadith 2 is famously narrated by 'Umar ibn al-Khattab (رضي الله عنه)."
             },
             {
-              "question": "How many conditions must be simultaneously met for a narration to be classified as Sahih (Authentic)?",
+              "question": "What is the primary spiritual or legal theme established in Hadith 2?",
               "options": [
-                "2 conditions",
-                "3 conditions",
-                "5 conditions",
-                "10 conditions"
+                "The comprehensive blueprint of Islamic religion, creed, and spiritual excellence",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
               ],
-              "correctAnswer": 2,
-              "explanation": "Scholars require 5 strict conditions: unbroken chain, upright character ('Adalah), precision of memory (Dabt), freedom from irregularity (Shudhudh), and absence of subtle defects ('Illah)."
+              "correctAnswer": 0,
+              "explanation": "Hadith 2 focuses fundamentally on: The comprehensive blueprint of Islamic religion, creed, and spiritual excellence."
             },
             {
-              "question": "What is the ruling on sharing a Mawdu' (Fabricated) narration on social media?",
+              "question": "Which of the following is a key practical takeaway from Hadith 2?",
               "options": [
-                "It is encouraged if the message sounds nice",
-                "It is permissible as long as you do not claim it is from the Qur'an",
-                "It is strictly forbidden to share, except to warn others that it is a forgery",
-                "It is rewarded like authentic Hadith"
+                "The religion (Din) consists of three rising tiers: Islam (outward practice), Iman (inward belief), and Ihsan (spiritual excellence).",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
               ],
-              "correctAnswer": 2,
-              "explanation": "It is strictly forbidden in Islam to narrate or propagate fabricated reports falsely attributed to the Prophet ﷺ, unless one is explicitly warning people against the forgery."
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: The religion (Din) consists of three rising tiers: Islam (outward practice), Iman (inward belief), and Ihsan (spiritual excellence)."
             }
           ]
         }
@@ -19687,94 +19708,95 @@ export const coursesData = [
       {
         "id": "hadith-3",
         "number": 3,
-        "title": "Module 3: The Collection and Canonical Compilations of Hadith",
-        "subtitle": "The Six Books (Al-Kutub as-Sittah), Sahihayn, citation standards, and numbering systems",
-        "readingTime": "20 min",
+        "title": "Hadith 3: The Five Pillars of Islam",
+        "subtitle": "The architectural foundations upon which Islamic life and faith are built",
+        "readingTime": "12 min",
         "videoLesson": {
-          "title": "Canonical Compilations: Sahih al-Bukhari & Sahih Muslim",
-          "channel": "FAHMRISE Islamic Studies Reference",
-          "duration": null,
-          "videoId": null,
-          "watchUrl": "https://sunnah.com/bukhari",
-          "embedUrl": null,
-          "url": null,
-          "alternativeSource": "https://sunnah.com/bukhari",
-          "sourceName": "Sunnah.com — Sahih al-Bukhari Canonical Texts",
-          "badge": "Reference Video — Verification Pending"
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 1 - 6) | Ustadh AbdulRahman Hassan | Day 9",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "7HxMjTXPCWE",
+          "videoStartTime": 1826,
+          "start": 1826,
+          "watchUrl": "https://www.youtube.com/watch?v=7HxMjTXPCWE&t=1826s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/7HxMjTXPCWE?start=1826&rel=0",
+          "url": "https://www.youtube.com/watch?v=7HxMjTXPCWE&t=1826s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
         },
-        "summary": "Explore the compilation of Hadith, the famous Six Canonical Books, Muwatta Malik, and how to read classical citations and edition numbering.",
+        "summary": "Hadith 3 of Al-Arba'een An-Nawawiyyah: The Five Pillars of Islam. Narrated by 'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
         "objectives": [
-          "Trace the historical stages of Hadith recording from the Companions to major compilers",
-          "Identify the Six Canonical Compilations (*Al-Kutub as-Sittah*) and their authors",
-          "Understand the special status of *Sahih al-Bukhari* and *Sahih Muslim* (*As-Sahihayn*)",
-          "Learn how to cite a Hadith correctly with book, chapter, and reference numbers"
+          "Comprehend the Arabic matn and core meaning of Hadith 3",
+          "Learn the biographical context of the narrator: 'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
         ],
-        "content": "\n# Module 3: The Collection and Canonical Compilations of Hadith\n\nHow were thousands of Prophetic traditions gathered, evaluated, and compiled into the celebrated reference works we rely upon today?\n\n---\n\n## 1. The Historical Stages of Hadith Compilation\n\n1. **The Era of the Prophet ﷺ and Companions (*Sahabah*)**:\n   * Initial preservation relied heavily on the extraordinary photographic memory of Arab oral culture.\n   * Several companions also maintained personal verified notebooks (*Suhuf*), such as the *As-Sahifah as-Sadiqah* of 'Abdullah ibn 'Amr ibn al-'As (RA).\n2. **The Era of Official Inscription (*Tadwin*)**:\n   * Umayyad Caliph 'Umar ibn 'Abd al-'Aziz (d. 101 AH) commissioned scholars, led by Imam Ibn Shihab az-Zuhri, to officially document Hadiths across provinces to protect them from loss.\n3. **The Era of Thematic Classifications (2nd & 3rd Century AH)**:\n   * Compilers organized narrations by legal and spiritual themes (e.g. Faith, Prayer, Trade, Manners).\n\n---\n\n## 2. The Six Canonical Books (*Al-Kutub as-Sittah*)\n\nThe Sunni scholarly tradition recognizes six major compilations as the most comprehensive reference works in Hadith literature:\n\n| # | Book Title | Author | Year of Passing | Distinctive Characteristic |\n|---|---|---|---|---|\n| **1** | **Sahih al-Bukhari** (صحيح البخاري) | Imam Muhammad ibn Isma'il al-Bukhari | 256 AH (870 CE) | The most authentic book after the Qur'an; strictest criteria of meeting narrators. |\n| **2** | **Sahih Muslim** (صحيح مسلم) | Imam Muslim ibn al-Hajjaj an-Naysaburi | 261 AH (875 CE) | Pristine arrangement; gathers all Isnad variants of a Hadith in one single place. |\n| **3** | **Sunan Abi Dawud** (سنن أبي داود) | Imam Abu Dawud as-Sijistani | 275 AH (889 CE) | Primary classical reference for legal rulings (*Ahadith al-Ahkam*). |\n| **4** | **Jami' at-Tirmidhi** (جامع الترمذي) | Imam Abu 'Isa Muhammad at-Tirmidhi | 279 AH (892 CE) | Famous for stating the authenticity grade (*Hasan/Sahih*) and juristic opinions. |\n| **5** | **Sunan an-Nasa'i** (سنن النسائي) | Imam Ahmad ibn Shu'ayb an-Nasa'i | 303 AH (915 CE) | Extremely stringent in narrator critique; focuses on subtle narration variations. |\n| **6** | **Sunan Ibn Majah** (سنن ابن ماجه) | Imam Muhammad ibn Yazid Ibn Majah | 273 AH (887 CE) | Valued for comprehensive chapter titles and unique narrations. |\n\n### Other Essential Compilations\n* **Al-Muwatta (الموطأ)** by Imam Malik ibn Anas (d. 179 AH): One of the earliest foundational compilations of Hadith and Madinan jurisprudence.\n* **Musnad Ahmad (مسند أحمد)** by Imam Ahmad ibn Hanbal (d. 241 AH): Massive encyclopedia containing over 27,000 narrations arranged by companion narrators.\n* **Riyad as-Salihin (رياض الصالحين)** by Imam Yahya ibn Sharaf an-Nawawi (d. 676 AH): The most widely read thematic compilation on Islamic character and ethics.\n* **The Forty Hadith (الأربعون النووية)** by Imam an-Nawawi: 42 foundational Hadiths encapsulating the pillars and spirit of Islam.\n\n---\n\n## 3. How to Read and Cite a Hadith Correctly\n\nA professional citation should always include:\n1. **The Compiling Book**: E.g., *Sahih al-Bukhari* or *Sunan Abi Dawud*.\n2. **The Companion Narrator**: E.g., *Abu Hurairah (RA)* or *'Aishah (RA)*.\n3. **The Book/Chapter Title within the Work**: E.g., *Kitab al-Iman* (Book of Faith).\n4. **The Specific Reference Number**: E.g., *Hadith #6011*.\n\n### Why Reference Numbers May Vary in Different Editions\nIn classical manuscripts, Hadiths were organized under chapter titles (*Abwab*) without printed sequential Arabic numbers. In the 20th century, modern scholars numbered them for ease of reference:\n* **Fu'ad 'Abd al-Baqi system**: Widely used in classical Arabic prints.\n* **Darussalam numbering**: Standard in international translations and digital apps.\n* When you notice a slight difference of 1–3 numbers between two books, it is due to whether the editor counted variants under one heading or separately.\n      ",
+        "content": "# Hadith 3: The Five Pillars of Islam\n*The architectural foundations upon which Islamic life and faith are built*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي عَبْدِ الرَّحْمَنِ عَبْدِ اللَّهِ بْنِ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «بُنِيَ الإِسْلاَمُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَحَجِّ الْبَيْتِ، وَصَوْمِ رَمَضَانَ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu 'Abd ar-Rahman 'Abdullah ibn 'Umar ibn al-Khattab (may Allah be pleased with both of them), who said: I heard the Messenger of Allah ﷺ say: 'Islam is built upon five pillars: testifying that there is no deity worthy of worship except Allah and that Muhammad is the Messenger of Allah, establishing the prayer, paying the Zakah, making pilgrimage to the House, and fasting during Ramadan.'\"  \n> *— Verified Reference: Sahih al-Bukhari (8), Sahih Muslim (16) (Sahih (Muttafaq 'Alayh))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما)**\n* **Canonical Reference**: **Sahih al-Bukhari (8), Sahih Muslim (16)**\n* **Scholarly Status**: **Sahih (Muttafaq 'Alayh)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Islam is depicted as a complete building resting on five essential structural pillars.**\n2. **Tawheed (Shahadah) is the foundation; without it, deeds are spiritually invalid.**\n3. **Consistent observance of the pillars guards personal integrity and community harmony.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
         "keyTerms": [
           {
-            "term": "As-Sahihayn (الصَّحِيحَيْن)",
-            "meaning": "The Two Sound Books: Sahih al-Bukhari and Sahih Muslim."
+            "term": "Arkan (أَرْكَان)",
+            "meaning": "The essential foundational pillars upon which the structure of Islam rests."
           },
           {
-            "term": "Al-Kutub as-Sittah (الكُتُب السِّتَّة)",
-            "meaning": "The Six Canonical Compilations of Sunni Hadith literature."
+            "term": "Shahadah (شَهَادَة)",
+            "meaning": "The testimony of faith: that none is worthy of worship except Allah and Muhammad is His messenger."
           },
           {
-            "term": "Musnad (مُسْنَد)",
-            "meaning": "A collection arranged by companion narrators (e.g. all Hadiths of Abu Bakr together)."
+            "term": "Zakah (زَكَاة)",
+            "meaning": "The obligatory annual charity paid by eligible Muslims on surplus wealth."
           },
           {
-            "term": "Jami' (جَامِع)",
-            "meaning": "A comprehensive compilation covering all 8 major Islamic disciplines (Belief, Laws, Ethics, Tafsir, History, Signs, Virtues, Etiquette)."
+            "term": "Hajj (حَجّ)",
+            "meaning": "The sacred pilgrimage to Makkah required once in a lifetime for those physically and financially able."
           }
         ],
         "verifiedHadith": {
-          "arabic": "عَنْ مُعَاوِيَةَ بْنِ أَبِي سُفْيَانَ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «مَنْ يُرِدِ اللَّهُ بِهِ خَيْرًا يُفَقِّهْهُ فِي الدِّينِ»",
-          "translation": "Mu'awiyah ibn Abi Sufyan (may Allah be pleased with them both) reported: The Messenger of Allah ﷺ said: 'Whomever Allah desires good for, He grants him deep understanding of the religion.'",
-          "reference": "Sahih al-Bukhari (Hadith 71), Sahih Muslim (Hadith 1037)",
-          "grading": "Sahih (Muttafaq 'Alayh — Agreed upon)"
+          "arabic": "عَنْ أَبِي عَبْدِ الرَّحْمَنِ عَبْدِ اللَّهِ بْنِ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «بُنِيَ الإِسْلاَمُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَحَجِّ الْبَيْتِ، وَصَوْمِ رَمَضَانَ».",
+          "translation": "On the authority of Abu 'Abd ar-Rahman 'Abdullah ibn 'Umar ibn al-Khattab (may Allah be pleased with both of them), who said: I heard the Messenger of Allah ﷺ say: 'Islam is built upon five pillars: testifying that there is no deity worthy of worship except Allah and that Muhammad is the Messenger of Allah, establishing the prayer, paying the Zakah, making pilgrimage to the House, and fasting during Ramadan.'",
+          "reference": "Sahih al-Bukhari (8), Sahih Muslim (16)",
+          "grading": "Sahih (Muttafaq 'Alayh)"
         },
-        "practicalApplication": "When consulting Hadith books, familiarize yourself with Imam an-Nawawi's *Riyad as-Salihin*. Reading just one verified Hadith with commentary every evening builds profound Islamic understanding and moral fortitude for your family.",
+        "practicalApplication": "Reflect on the guidance of Hadith 3: Islam is depicted as a complete building resting on five essential structural pillars. Implement this principle today in your speech, conduct, and worship.",
         "reflectionQuestions": [
-          "What makes Sahih al-Bukhari and Sahih Muslim universally respected across Islamic history?",
-          "Why is understanding the author's purpose and methodology essential when studying a specific Hadith collection?"
+          "How does the teaching in Hadith 3 (The Five Pillars of Islam) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
         ],
         "quiz": {
           "id": "hadith-quiz-3",
-          "title": "Module 3 Knowledge Check",
+          "title": "Hadith 3 Knowledge Check",
           "questions": [
             {
-              "question": "Which two compilations are collectively called 'As-Sahihayn' (The Two Sound Books)?",
+              "question": "Who is the primary Companion narrator of Hadith 3 (The Five Pillars of Islam)?",
               "options": [
-                "Sunan Abi Dawud and Sunan Ibn Majah",
-                "Sahih al-Bukhari and Sahih Muslim",
-                "Muwatta Malik and Musnad Ahmad",
-                "Riyad as-Salihin and Forty Hadith"
-              ],
-              "correctAnswer": 1,
-              "explanation": "As-Sahihayn refers to the two most authentic compilations: Sahih al-Bukhari and Sahih Muslim."
-            },
-            {
-              "question": "Which book is widely recognized for explicitly stating the authenticity grade of Hadiths alongside the opinions of jurists?",
-              "options": [
-                "Jami' at-Tirmidhi",
-                "The Odyssey",
-                "Sahih Muslim",
-                "Al-Muqaddimah"
+                "'Abdullah ibn 'Umar ibn al-Khattab",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Ali ibn Abi Talib (رضي الله عنه)"
               ],
               "correctAnswer": 0,
-              "explanation": "Imam at-Tirmidhi is celebrated for concluding narrations in Jami' at-Tirmidhi with verdicts like 'Hadith Hasan Sahih' and highlighting how legal scholars applied them."
+              "explanation": "Hadith 3 is famously narrated by 'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما)."
             },
             {
-              "question": "Why might the Hadith number for the same report differ slightly between a Darussalam print and an Egyptian Cairo print?",
+              "question": "What is the primary spiritual or legal theme established in Hadith 3?",
               "options": [
-                "Because the text of the Hadith was changed",
-                "Because modern editors used different enumeration methodologies for variants and chapter titles",
-                "Because one of the books is invalid",
-                "Because the Prophet ﷺ gave different numbers"
+                "The architectural foundations upon which Islamic life and faith are built",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
               ],
-              "correctAnswer": 1,
-              "explanation": "Numbering systems were introduced by modern editors (such as Fu'ad 'Abd al-Baqi or Darussalam) to index manuscripts; variations reflect whether sub-narrations were grouped together."
+              "correctAnswer": 0,
+              "explanation": "Hadith 3 focuses fundamentally on: The architectural foundations upon which Islamic life and faith are built."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 3?",
+              "options": [
+                "Islam is depicted as a complete building resting on five essential structural pillars.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Islam is depicted as a complete building resting on five essential structural pillars."
             }
           ]
         }
@@ -19782,94 +19804,95 @@ export const coursesData = [
       {
         "id": "hadith-4",
         "number": 4,
-        "title": "Module 4: Daily Sunnah and Good Character (Akhlaq & Mu'amalat)",
-        "subtitle": "Truthfulness, mercy, honoring parents, family ties, and neighbourly conduct",
-        "readingTime": "24 min",
+        "title": "Hadith 4: Creation in the Womb and Destiny (Qadar)",
+        "subtitle": "Human embryonic development, the blowing of the soul, and divine decree",
+        "readingTime": "12 min",
         "videoLesson": {
-          "title": "Daily Sunnah, Noble Character & Interpersonal Ethics (Al-Adab al-Mufrad)",
-          "channel": "FAHMRISE Islamic Studies Reference",
-          "duration": null,
-          "videoId": null,
-          "watchUrl": "https://sunnah.com/adab",
-          "embedUrl": null,
-          "url": null,
-          "alternativeSource": "https://sunnah.com/adab",
-          "sourceName": "Sunnah.com — Prophetic Manners & Character (Al-Adab al-Mufrad)",
-          "badge": "Reference Video — Verification Pending"
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 1 - 6) | Ustadh AbdulRahman Hassan | Day 9",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "7HxMjTXPCWE",
+          "videoStartTime": 2089,
+          "start": 2089,
+          "watchUrl": "https://www.youtube.com/watch?v=7HxMjTXPCWE&t=2089s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/7HxMjTXPCWE?start=2089&rel=0",
+          "url": "https://www.youtube.com/watch?v=7HxMjTXPCWE&t=2089s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
         },
-        "summary": "Explore the core ethical teachings of the Prophet ﷺ regarding honesty, compassion, family relationships, dealing with neighbours, and controlling anger.",
+        "summary": "Hadith 4 of Al-Arba'een An-Nawawiyyah: Creation in the Womb and Destiny (Qadar). Narrated by 'Abdullah ibn Mas'ud (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
         "objectives": [
-          "Understand the centrality of noble character (*Husn al-Khuluq*) in Prophetic teachings",
-          "Apply authentic Hadiths on truthfulness (*Sidq*) and avoiding deceit",
-          "Learn the immense virtues and practical duties of honoring parents and maintaining family ties (*Silat ar-Rahim*)",
-          "Implement Prophetic guidelines for neighbourly conduct and community support"
+          "Comprehend the Arabic matn and core meaning of Hadith 4",
+          "Learn the biographical context of the narrator: 'Abdullah ibn Mas'ud (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
         ],
-        "content": "\n# Module 4: Daily Sunnah and Good Character (*Akhlaq & Mu'amalat*)\n\nThe Prophet Muhammad ﷺ defined the overarching mission of his divine message in character:\n> «إِنَّمَا بُعِثْتُ لِأُتَمِّمَ صَالِحَ الأَخْلاَقِ»  \n> *\"I was sent only to perfect noble character.\"*  \n> — **Musnad Ahmad (8952), Al-Adab al-Mufrad (273), Graded Sahih by Al-Albani**\n\n---\n\n## 1. Truthfulness (*Sidq*) vs. Falsehood (*Kidhb*)\n\nHonesty is the bedrock of Islamic integrity:\n* **Sahih al-Bukhari (6094) & Sahih Muslim (2607)**:  \n  ‘Abdullah ibn Mas’ud (RA) reported that the Prophet ﷺ said:\n  > «عَلَيْكُمْ بِالصِّدْقِ، فَإِنَّ الصِّدْقَ يَهْدِي إِلَى الْبِرِّ، وَإِنَّ الْبِرَّ يَهْدِي إِلَى الْجَنَّةِ... وَإِيَّاكُمْ وَالْكَذِبَ، فَإِنَّ الْكَذِبَ يَهْدِي إِلَى الْفُجُورِ، وَإِنَّ الْفُجُورَ يَهْدِي إِلَى النَّارِ»  \n  > *\"Adhere strictly to truthfulness, for truthfulness leads to righteousness, and righteousness leads to Paradise. A person continues to tell the truth and strives for truthfulness until they are written with Allah as a truthful person (*Siddiq*). And beware of falsehood, for falsehood leads to wickedness, and wickedness leads to the Fire.\"*\n\n---\n\n## 2. Mercy and Compassion (*Rahmah*)\n\nMercy is not a weakness; it is the distinguishing hallmark of faith:\n* **Jami' at-Tirmidhi (1924)**:  \n  'Abdullah ibn 'Amr (RA) reported that the Messenger of Allah ﷺ said:\n  > «الرَّاحِمُونَ يَرْحَمُهُمُ الرَّحْمَنُ، ارْحَمُوا مَنْ فِي الأَرْضِ يَرْحَمْكُمْ مَنْ فِي السَّمَاءِ»  \n  > *\"The merciful are shown mercy by the Most Merciful. Show mercy to those upon the earth, and the One in the Heavens will show mercy to you.\"* (Graded Sahih).\n\n---\n\n## 3. Honoring Parents (*Birr al-Walidayn*) and Family Ties\n\nThe Prophet ﷺ placed kindness to parents immediately after worship of Allah in priority:\n* **Sahih al-Bukhari (5971) & Sahih Muslim (2548)**:  \n  A man came to the Messenger of Allah ﷺ and asked: *\"O Messenger of Allah, who among people is most deserving of my good companionship?\"*  \n  The Prophet ﷺ replied: **«أُمُّكَ» (Your mother)**.  \n  The man asked: *\"Then who?\"*  \n  The Prophet ﷺ replied: **«أُمُّكَ» (Your mother)**.  \n  The man asked: *\"Then who?\"*  \n  The Prophet ﷺ replied: **«أُمُّكَ» (Your mother)**.  \n  The man asked: *\"Then who?\"*  \n  The Prophet ﷺ replied: **«ثُمَّ أَبُوكَ» (Then your father)**.\n\n* **Maintaining Kinship Ties (*Silat ar-Rahim*)**:  \n  Anas ibn Malik (RA) reported that the Prophet ﷺ said:  \n  > «مَنْ أَحَبَّ أَنْ يُبْسَطَ لَهُ فِي رِزْقِهِ، وَيُنْسَأَ لَهُ فِي أَثَرِهِ، فَلْيَصِلْ رَحِمَهُ»  \n  > *\"Whoever loves that their provision be expanded and their lifespan be prolonged with blessing, let them maintain ties with their kinship.\"* (Sahih al-Bukhari 5986, Sahih Muslim 2557).\n\n---\n\n## 4. Rights of the Neighbour (*Huquq al-Jar*)\n\nThe rights of neighbours are so emphatic in Islam that the Prophet ﷺ remarked:\n> «مَا زَالَ جِبْرِيلُ يُوصِينِي بِالْجَارِ حَتَّى ظَنَنْتُ أَنَّهُ سَيُوَرِّثُهُ»  \n> *\"Angel Jibreel continued to enjoin upon me good treatment of the neighbour until I thought he would give him a share of inheritance.\"*  \n> — **Sahih al-Bukhari (6014), Sahih Muslim (2624)**\n\n### Practical Neighbourly Standards:\n* Do not cause harm by loud noise, waste disposal, or encroaching on their space.\n* Share food and check on vulnerable, elderly, or sick neighbours regardless of their background.\n* Greet them with a cheerful countenance and protect their honor.\n\n---\n\n## 5. Controlling Anger and Emotional Intelligence\n\n* **Sahih al-Bukhari (6116)**:  \n  A man said to the Prophet ﷺ: *\"Counsel me.\"*  \n  The Prophet ﷺ said: **«لاَ تَغْضَبْ» (\"Do not become angry\")**. The man repeated his request several times, and the Prophet ﷺ repeated: **«لاَ تَغْضَبْ» (\"Do not become angry\")**.\n* **Sahih al-Bukhari (6114)**:  \n  > «لَيْسَ الشَّدِيدُ بِالصُّرَعَةِ، إِنَّمَا الشَّدِيدُ الَّذِي يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ»  \n  > *\"The strong person is not the one who can wrestle others down; rather, the strong person is the one who controls themselves at the time of anger.\"*\n      ",
+        "content": "# Hadith 4: Creation in the Womb and Destiny (Qadar)\n*Human embryonic development, the blowing of the soul, and divine decree*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي عَبْدِ الرَّحْمَنِ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا رَسُولُ اللَّهِ ﷺ وَهُوَ الصَّادِقُ الْمَصْدُوقُ: «إِنَّ أَحَدَكُمْ يُجْمَعُ خَلْقُهُ فِي بَطْنِ أُمِّهِ أَرْبَعِينَ يَوْمًا نُطْفَةً، ثُمَّ يَكُونُ عَلَقَةً مِثْلَ ذَلِكَ، ثُمَّ يَكُونُ مُضْغَةً مِثْلَ ذَلِكَ، ثُمَّ يُرْسَلُ إِلَيْهِ الْمَلَكُ فَيَنْفُخُ فِيهِ الرُّوحَ، وَيُؤْمَرُ بِأَرْبَعِ كَلِمَاتٍ: بِكَتْبِ رِزْقِهِ، وَأَجَلِهِ، وَعَمَلِهِ، وَشَقِيٌّ أَوْ سَعِيدٌ... وَإِنَّمَا الأَعْمَالُ بِخَوَاتِيمِهَا».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu 'Abd ar-Rahman 'Abdullah ibn Mas'ud (may Allah be pleased with him), who said: The Messenger of Allah ﷺ—the truthful and verified—narrated to us: 'Verily the creation of each one of you is gathered in his mother's womb for forty days as a drop, then becomes a clinging clot for a like period, then becomes a lump of flesh for a like period. Then the angel is sent to him who breathes the soul into him, and is commanded with four words: to record his provision, his lifespan, his deeds, and whether he will be wretched or blessed... And deeds are judged by their conclusions.'\"  \n> *— Verified Reference: Sahih al-Bukhari (3208), Sahih Muslim (2643) (Sahih (Muttafaq 'Alayh))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **'Abdullah ibn Mas'ud (رضي الله عنه)**\n* **Canonical Reference**: **Sahih al-Bukhari (3208), Sahih Muslim (2643)**\n* **Scholarly Status**: **Sahih (Muttafaq 'Alayh)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Miraculous Prophetic description of embryonic developmental phases in the womb.**\n2. **Allah pre-ordained our lifespan and provision (Rizq), removing anxiety over material sustenance.**\n3. **Encourages humble perseverance and praying consistently for a righteous ending (Husn al-Khatimah).**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
         "keyTerms": [
           {
-            "term": "Husn al-Khuluq (حُسْن الخُلُق)",
-            "meaning": "Excellence of character, good manners, and moral integrity."
+            "term": "Nutfah (نُطْفَة)",
+            "meaning": "The initial drop of fluid in the early developmental stage of human creation."
           },
           {
-            "term": "Birr al-Walidayn (بِرّ الوَالِدَيْن)",
-            "meaning": "Devoted duty, honor, kindness, and obedience to parents in righteousness."
+            "term": "'Alaqah (عَلَقَة)",
+            "meaning": "A clinging clot stage in embryonic development."
           },
           {
-            "term": "Silat ar-Rahim (صِلَة الرَّحِم)",
-            "meaning": "Maintaining and nurturing relationships with blood relatives and kin."
+            "term": "Mudghah (مُضْغَة)",
+            "meaning": "A chewed-like lump of flesh stage in embryonic development."
           },
           {
-            "term": "Amanah (أَمَانَة)",
-            "meaning": "Trustworthiness, honesty, and fulfilling moral and professional covenants."
+            "term": "Qadar (قَدَر)",
+            "meaning": "Divine destiny and decree encompassing livelihood, lifespan, deeds, and final outcome."
           }
         ],
         "verifiedHadith": {
-          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ جَارَهُ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ ضَيْفَهُ»",
-          "translation": "Abu Hurairah (may Allah be pleased with him) reported that the Messenger of Allah ﷺ said: 'Whoever believes in Allah and the Last Day, let them speak good or remain silent. And whoever believes in Allah and the Last Day, let them honor their neighbour. And whoever believes in Allah and the Last Day, let them honor their guest.'",
-          "reference": "Sahih al-Bukhari (Hadith 6018), Sahih Muslim (Hadith 47)",
-          "grading": "Sahih (Muttafaq 'Alayh — Agreed upon)"
+          "arabic": "عَنْ أَبِي عَبْدِ الرَّحْمَنِ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا رَسُولُ اللَّهِ ﷺ وَهُوَ الصَّادِقُ الْمَصْدُوقُ: «إِنَّ أَحَدَكُمْ يُجْمَعُ خَلْقُهُ فِي بَطْنِ أُمِّهِ أَرْبَعِينَ يَوْمًا نُطْفَةً، ثُمَّ يَكُونُ عَلَقَةً مِثْلَ ذَلِكَ، ثُمَّ يَكُونُ مُضْغَةً مِثْلَ ذَلِكَ، ثُمَّ يُرْسَلُ إِلَيْهِ الْمَلَكُ فَيَنْفُخُ فِيهِ الرُّوحَ، وَيُؤْمَرُ بِأَرْبَعِ كَلِمَاتٍ: بِكَتْبِ رِزْقِهِ، وَأَجَلِهِ، وَعَمَلِهِ، وَشَقِيٌّ أَوْ سَعِيدٌ... وَإِنَّمَا الأَعْمَالُ بِخَوَاتِيمِهَا».",
+          "translation": "On the authority of Abu 'Abd ar-Rahman 'Abdullah ibn Mas'ud (may Allah be pleased with him), who said: The Messenger of Allah ﷺ—the truthful and verified—narrated to us: 'Verily the creation of each one of you is gathered in his mother's womb for forty days as a drop, then becomes a clinging clot for a like period, then becomes a lump of flesh for a like period. Then the angel is sent to him who breathes the soul into him, and is commanded with four words: to record his provision, his lifespan, his deeds, and whether he will be wretched or blessed... And deeds are judged by their conclusions.'",
+          "reference": "Sahih al-Bukhari (3208), Sahih Muslim (2643)",
+          "grading": "Sahih (Muttafaq 'Alayh)"
         },
-        "practicalApplication": "Implement the 'Speak Good or Remain Silent' rule in your daily online comments, text messages, and household conversations. If what you are about to say does not add constructive value, practice restraint.",
+        "practicalApplication": "Reflect on the guidance of Hadith 4: Miraculous Prophetic description of embryonic developmental phases in the womb. Implement this principle today in your speech, conduct, and worship.",
         "reflectionQuestions": [
-          "Why is true strength defined by emotional self-control in moments of anger rather than physical power?",
-          "What specific step can you take this week to improve your relationship with your parents or a distant relative?"
+          "How does the teaching in Hadith 4 (Creation in the Womb and Destiny (Qadar)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
         ],
         "quiz": {
           "id": "hadith-quiz-4",
-          "title": "Module 4 Knowledge Check",
+          "title": "Hadith 4 Knowledge Check",
           "questions": [
             {
-              "question": "Who was given triple priority when a Companion asked who is most deserving of good companionship?",
+              "question": "Who is the primary Companion narrator of Hadith 4 (Creation in the Womb and Destiny (Qadar))?",
               "options": [
-                "His best friend",
-                "His business partner",
-                "His mother",
-                "His teacher"
-              ],
-              "correctAnswer": 2,
-              "explanation": "The Prophet ﷺ repeated 'Your mother' three times before mentioning 'Then your father', emphasizing the immense debt and rank of mothers in Islam."
-            },
-            {
-              "question": "According to Sahih al-Bukhari, who is the genuinely strong person?",
-              "options": [
-                "The one who wins every argument",
-                "The one who controls themselves when angry",
-                "The one with the greatest wealth",
-                "The one who can lift the heaviest weight"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The Prophet ﷺ taught that true strength is self-mastery and emotional restraint during anger ('The strong is the one who controls himself at the time of anger')."
-            },
-            {
-              "question": "What did Angel Jibreel repeatedly emphasize to the Prophet ﷺ until he thought neighbours might receive inheritance?",
-              "options": [
-                "Good treatment and honor of the neighbour",
-                "Building taller fences",
-                "Borrowing money from neighbours",
-                "Travelling only with neighbours"
+                "'Abdullah ibn Mas'ud",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
               ],
               "correctAnswer": 0,
-              "explanation": "Angel Jibreel continuously commanded the good treatment and protection of the neighbour until the Prophet ﷺ thought neighbours would be given inheritance rights."
+              "explanation": "Hadith 4 is famously narrated by 'Abdullah ibn Mas'ud (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 4?",
+              "options": [
+                "Human embryonic development, the blowing of the soul, and divine decree",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 4 focuses fundamentally on: Human embryonic development, the blowing of the soul, and divine decree."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 4?",
+              "options": [
+                "Miraculous Prophetic description of embryonic developmental phases in the womb.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Miraculous Prophetic description of embryonic developmental phases in the womb."
             }
           ]
         }
@@ -19877,94 +19900,91 @@ export const coursesData = [
       {
         "id": "hadith-5",
         "number": 5,
-        "title": "Module 5: Worship and Daily Practice (Adab, Dhikr & Du'a)",
-        "subtitle": "Remembrance of Allah, daily supplications, eating and sleeping etiquette, and cleanliness",
-        "readingTime": "22 min",
+        "title": "Hadith 5: Rejection of Innovation in Religion (Bid'ah)",
+        "subtitle": "Preserving the pristine authenticity and divine boundaries of Islamic worship",
+        "readingTime": "12 min",
         "videoLesson": {
-          "title": "Supplications & Adhkar: Sincere Remembrance of Allah",
-          "channel": "Yaqeen Institute",
-          "duration": "09:40",
-          "videoId": "d9jLEHBrSpQ",
-          "watchUrl": "https://www.youtube.com/watch?v=d9jLEHBrSpQ",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/d9jLEHBrSpQ",
-          "url": "https://www.youtube-nocookie.com/embed/d9jLEHBrSpQ",
-          "alternativeSource": "https://sunnah.com",
-          "sourceName": "Sunnah.com — Daily Adhkar & Du'as",
-          "badge": "Reference Video — Verification Pending"
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 1 - 6) | Ustadh AbdulRahman Hassan | Day 9",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "7HxMjTXPCWE",
+          "videoStartTime": 4605,
+          "start": 4605,
+          "watchUrl": "https://www.youtube.com/watch?v=7HxMjTXPCWE&t=4605s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/7HxMjTXPCWE?start=4605&rel=0",
+          "url": "https://www.youtube.com/watch?v=7HxMjTXPCWE&t=4605s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
         },
-        "summary": "Learn the authentic Sunnahs of daily living, essential morning and evening Dhikr, etiquettes of food, drink, sleep, and personal hygiene.",
+        "summary": "Hadith 5 of Al-Arba'een An-Nawawiyyah: Rejection of Innovation in Religion (Bid'ah). Narrated by Umm al-Mu'minin 'A'ishah (رضي الله عنها). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
         "objectives": [
-          "Learn foundational daily remembrances (*Adhkar*) and their spiritual rewards",
-          "Incorporate the Sunnah etiquettes of eating, drinking, and hospitality",
-          "Adopt the Prophetic sleeping and waking routine",
-          "Understand the role of cleanliness (*Taharah*) as an integral part of faith"
+          "Comprehend the Arabic matn and core meaning of Hadith 5",
+          "Learn the biographical context of the narrator: Umm al-Mu'minin 'A'ishah (رضي الله عنها)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
         ],
-        "content": "\n# Module 5: Worship and Daily Practice (*Adab, Dhikr & Du'a*)\n\nIslam is a holistic way of life that elevates ordinary physiological routines—eating, drinking, sleeping, and personal hygiene—into rewarded acts of devotion when aligned with the Prophetic Sunnah.\n\n---\n\n## 1. Remembrance of Allah (*Dhikr*) and Everyday Supplications\n\nDhikr connects the human heart directly to the Divine Creator throughout the busy day:\n* **Sahih al-Bukhari (6407) & Sahih Muslim (2694)**:  \n  Abu Hurairah (RA) reported that the Prophet ﷺ said:\n  > «كَلِمَتَانِ خَفِيفَتَانِ عَلَى اللِّسَانِ، ثَقِيلَتَانِ فِي الْمِيزَانِ، حَبِيبَتَانِ إِلَى الرَّحْمَنِ: سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ الْعَظِيمِ»  \n  > *\"Two words are light on the tongue, heavy on the balance, beloved to the Most Merciful: **Subhan Allahi wa bihamdihi, Subhan Allahil-'Azim** (Glory be to Allah and His is the praise; Glory be to Allah the Magnificent).\"*\n\n### Core Daily Supplications (*Adhkar*):\n* **Upon Waking Up**:  \n  «الحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ»  \n  *(All praise is due to Allah who gave us life after causing us to die, and unto Him is the resurrection).* (Sahih al-Bukhari 6312).\n* **When Leaving Home**:  \n  «بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ»  \n  *(In the name of Allah; I place my trust in Allah; there is no power nor might except with Allah).* (Sunan Abi Dawud 5095, Sahih).\n* **Before Sleep**:  \n  Reciting Ayat al-Kursi (Surah Al-Baqarah 2:255), Surah Al-Ikhlas, Al-Falaq, and An-Nas, and supplicating:  \n  «بِاسْمِكَ رَبِّي وَضَعْتُ جَنْبِي وَبِكَ أَرْفَعُهُ...» (Sahih al-Bukhari 6320).\n\n---\n\n## 2. Etiquettes of Food and Drink (*Adab at-Ta'am*)\n\n* **Saying Bismillah and Eating with the Right Hand**:  \n  **Sahih al-Bukhari (5376) & Sahih Muslim (2022)**:  \n  'Umar ibn Abi Salamah (RA) reported that the Prophet ﷺ said to him when he was a boy:\n  > «يَا غُلاَمُ، سَمِّ اللَّهَ، وَكُلْ بِيَمِينِكَ، وَكُلْ مِمَّا يَلِيكَ»  \n  > *\"O young boy, say Bismillah (in the name of Allah), eat with your right hand, and eat from what is directly in front of you.\"*\n* **Moderation in Eating**:  \n  **Jami' at-Tirmidhi (2380)**:  \n  > «مَا مَلأَ آدَمِيٌّ وِعَاءً شَرًّا مِنْ بَطْنٍ، بِحَسْبِ ابْنِ آدَمَ أُكُلاَتٌ يُقِمْنَ صُلْبَهُ، فَإِنْ كَانَ لاَ مَحَالَةَ فَثُلُثٌ لِطَعَامِهِ وَثُلُثٌ لِشَرَابِهِ وَثُلُثٌ لِنَفَسِهِ»  \n  > *\"A human being fills no vessel worse than his stomach. A few morsels are sufficient to keep his spine straight. But if he must, then one-third for food, one-third for drink, and one-third for his breath.\"* (Graded Sahih).\n\n---\n\n## 3. Cleanliness and Physical Hygiene (*Taharah & Fitrah*)\n\nCleanliness is essential to prayer and spiritual purity:\n* **Sahih Muslim (223)**:  \n  Abu Malik al-Ash'ari (RA) reported that the Messenger of Allah ﷺ said:\n  > «الطُّهُورُ شَطْرُ الإِيمَانِ»  \n  > *\"Cleanliness (purity) is half of faith.\"*\n* **The Natural Hygiene Practices (*Sunan al-Fitrah*)**:  \n  **Sahih al-Bukhari (5889) & Sahih Muslim (257)**:  \n  > «الْفِطْرَةُ خَمْسٌ: الْخِتَانُ، وَالاِسْتِحْدَادُ، وَقَصُّ الشَّارِبِ، وَتَقْلِيمُ الأَظْفَارِ، وَنَتْفُ الآبَاطِ»  \n  > *\"Five practices are of the natural disposition (Fitrah): circumcision, shaving pubic hair, trimming the mustache, clipping the nails, and plucking armpit hair.\"*\n* **Using the Toothstick (*Siwak / Miswak*)**:  \n  **Sahih al-Bukhari (887)**: *\"Had I not feared overburdening my community, I would have commanded them to use the Siwak before every prayer.\"*\n      ",
+        "content": "# Hadith 5: Rejection of Innovation in Religion (Bid'ah)\n*Preserving the pristine authenticity and divine boundaries of Islamic worship*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أُمِّ الْمُؤْمِنِينَ أُمِّ عَبْدِ اللَّهِ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا قَالَتْ: قَالَ رَسُولُ اللَّهِ ﷺ: «مَنْ أَحْدَثَ فِي أَمْرِنَا هَذَا مَا لَيْسَ مِنْهُ فَهُوَ رَدٌّ». [رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ]. وَفِي رِوَايَةٍ لِمُسْلِمٍ: «مَنْ عَمِلَ عَمَلاً لَيْسَ عَلَيْهِ أَمْرُنَا فَهُوَ رَدٌّ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of the Mother of the Believers, Umm 'Abdillah 'A'ishah (may Allah be pleased with her), who said: The Messenger of Allah ﷺ said: 'Whoever innovates into this affair of ours that which is not part of it, it will be rejected.' In a narration by Muslim: 'Whoever performs an act that does not conform to our command, it is rejected.'\"  \n> *— Verified Reference: Sahih al-Bukhari (2697), Sahih Muslim (1718) (Sahih (Muttafaq 'Alayh))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Umm al-Mu'minin 'A'ishah (رضي الله عنها)**\n* **Canonical Reference**: **Sahih al-Bukhari (2697), Sahih Muslim (1718)**\n* **Scholarly Status**: **Sahih (Muttafaq 'Alayh)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Worship requires two pillars: sincerity to Allah (Hadith 1) and conformity to the Sunnah (Hadith 5).**\n2. **Religious innovations (Bid'ah) are rejected, protecting the faith from distortion.**\n3. **Technological and worldly advancements are welcomed; prohibition applies specifically to invented religious rituals.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
         "keyTerms": [
           {
-            "term": "Dhikr (ذِكْر)",
-            "meaning": "The conscious, verbal and spiritual remembrance of Allah through praised phrases."
+            "term": "Bid'ah (بِدْعَة)",
+            "meaning": "Innovation introduced into religious creed, worship, or rituals without prophetic basis."
           },
           {
-            "term": "Du'a (دُعَاء)",
-            "meaning": "Supplication and humble prayer asking Allah for guidance, forgiveness, and protection."
+            "term": "Ittiba' (اتِّبَاع)",
+            "meaning": "Strict adherence and emulation of the authentic Sunnah of the Prophet ﷺ."
           },
           {
-            "term": "Sunan al-Fitrah (سُنَن الفِطْرَة)",
-            "meaning": "The natural hygiene and grooming practices established by all Prophets."
-          },
-          {
-            "term": "Taharah (طَهَارَة)",
-            "meaning": "Ritual and physical purity of body, clothing, and place of worship."
+            "term": "Radd (رَدّ)",
+            "meaning": "Rejection: an unacceptable deed that receives no divine acceptance or reward."
           }
         ],
         "verifiedHadith": {
-          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «سَبَقَ الْمُفَرِّدُونَ». قَالُوا: وَمَا الْمُفَرِّدُونَ يَا رَسُولَ اللَّهِ؟ قَالَ: «الذَّاكِرُونَ اللَّهَ كَثِيرًا وَالذَّاكِرَاتُ»",
-          "translation": "Abu Hurairah (may Allah be pleased with him) reported that the Messenger of Allah ﷺ said: 'The Mufarridun have surpassed all.' They asked: 'Who are the Mufarridun, O Messenger of Allah?' He replied: 'The men and women who remember Allah frequently.'",
-          "reference": "Sahih Muslim (Hadith 2676)",
-          "grading": "Sahih (Authentic)"
+          "arabic": "عَنْ أُمِّ الْمُؤْمِنِينَ أُمِّ عَبْدِ اللَّهِ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا قَالَتْ: قَالَ رَسُولُ اللَّهِ ﷺ: «مَنْ أَحْدَثَ فِي أَمْرِنَا هَذَا مَا لَيْسَ مِنْهُ فَهُوَ رَدٌّ». [رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ]. وَفِي رِوَايَةٍ لِمُسْلِمٍ: «مَنْ عَمِلَ عَمَلاً لَيْسَ عَلَيْهِ أَمْرُنَا فَهُوَ رَدٌّ».",
+          "translation": "On the authority of the Mother of the Believers, Umm 'Abdillah 'A'ishah (may Allah be pleased with her), who said: The Messenger of Allah ﷺ said: 'Whoever innovates into this affair of ours that which is not part of it, it will be rejected.' In a narration by Muslim: 'Whoever performs an act that does not conform to our command, it is rejected.'",
+          "reference": "Sahih al-Bukhari (2697), Sahih Muslim (1718)",
+          "grading": "Sahih (Muttafaq 'Alayh)"
         },
-        "practicalApplication": "Memorize and consistently recite the two beloved phrases: *'Subhan Allahi wa bihamdihi, Subhan Allahil-'Azim'* during your daily commute or work pauses. Keep your tongue moist with the remembrance of Allah.",
+        "practicalApplication": "Reflect on the guidance of Hadith 5: Worship requires two pillars: sincerity to Allah (Hadith 1) and conformity to the Sunnah (Hadith 5). Implement this principle today in your speech, conduct, and worship.",
         "reflectionQuestions": [
-          "How does following the Sunnah of eating (one-third for food, one-third for water, one-third for air) improve both physical health and spiritual focus?",
-          "Why is cleanliness described as 'half of faith' in Islamic psychology?"
+          "How does the teaching in Hadith 5 (Rejection of Innovation in Religion (Bid'ah)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
         ],
         "quiz": {
           "id": "hadith-quiz-5",
-          "title": "Module 5 Knowledge Check",
+          "title": "Hadith 5 Knowledge Check",
           "questions": [
             {
-              "question": "What are the three essential table etiquettes the Prophet ﷺ taught to young 'Umar ibn Abi Salamah?",
+              "question": "Who is the primary Companion narrator of Hadith 5 (Rejection of Innovation in Religion (Bid'ah))?",
               "options": [
-                "Eat fast, eat everything, and ask for more",
-                "Say Bismillah, eat with your right hand, and eat from what is in front of you",
-                "Eat only vegetables, use forks, and drink while standing",
-                "Eat in silence, avoid water, and leave food on the plate"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The Prophet ﷺ gave the timeless advice: 'Say Bismillah, eat with your right hand, and eat from what is directly in front of you' (Sahih al-Bukhari 5376)."
-            },
-            {
-              "question": "According to the famous Hadith in Sahih Muslim, cleanliness (At-Tuhur) is what proportion of faith?",
-              "options": [
-                "A minor recommendation",
-                "Half of faith (Shatr al-Iman)",
-                "One-tenth of faith",
-                "Optional on Fridays only"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The Prophet ﷺ declared: 'Cleanliness is half of faith' (Sahih Muslim 223), highlighting the inseparable union of physical purity and spiritual devotion."
-            },
-            {
-              "question": "Which two phrases were described as 'light on the tongue, heavy on the balance, beloved to the Most Merciful'?",
-              "options": [
-                "Subhan Allahi wa bihamdihi, Subhan Allahil-'Azim",
-                "La hawla wa la quwwata illa billah",
-                "Astaghfirullah al-'Azim",
-                "Allahu Akbar wa lillahi al-hamd"
+                "Umm al-Mu'minin 'A'ishah",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
               ],
               "correctAnswer": 0,
-              "explanation": "In the concluding Hadith of Sahih al-Bukhari (6407), the Prophet ﷺ highlighted the extraordinary weight of: Subhan Allahi wa bihamdihi, Subhan Allahil-'Azim."
+              "explanation": "Hadith 5 is famously narrated by Umm al-Mu'minin 'A'ishah (رضي الله عنها)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 5?",
+              "options": [
+                "Preserving the pristine authenticity and divine boundaries of Islamic worship",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 5 focuses fundamentally on: Preserving the pristine authenticity and divine boundaries of Islamic worship."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 5?",
+              "options": [
+                "Worship requires two pillars: sincerity to Allah (Hadith 1) and conformity to the Sunnah (Hadith 5).",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Worship requires two pillars: sincerity to Allah (Hadith 1) and conformity to the Sunnah (Hadith 5)."
             }
           ]
         }
@@ -19972,94 +19992,95 @@ export const coursesData = [
       {
         "id": "hadith-6",
         "number": 6,
-        "title": "Module 6: Applying Hadith in Real Life: Wisdom, Context & Modern World",
-        "subtitle": "Sabab al-Wurud, avoiding selective quoting, scholarly differences, and digital discernment",
-        "readingTime": "24 min",
+        "title": "Hadith 6: The Halal is Clear and the Haram is Clear",
+        "subtitle": "Navigating doubtful matters and nurturing purity of the spiritual heart",
+        "readingTime": "12 min",
         "videoLesson": {
-          "title": "Applying Hadith in Real Life: Context, Wisdom & Modern World",
-          "channel": "FAHMRISE Islamic Studies Reference",
-          "duration": null,
-          "videoId": null,
-          "watchUrl": "https://sunnah.com",
-          "embedUrl": null,
-          "url": null,
-          "alternativeSource": "https://sunnah.com",
-          "sourceName": "Sunnah.com — Prophetic Guidance in Daily Practice",
-          "badge": "Reference Video — Verification Pending"
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 1 - 6) | Ustadh AbdulRahman Hassan | Day 9",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "7HxMjTXPCWE",
+          "videoStartTime": 5255,
+          "start": 5255,
+          "watchUrl": "https://www.youtube.com/watch?v=7HxMjTXPCWE&t=5255s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/7HxMjTXPCWE?start=5255&rel=0",
+          "url": "https://www.youtube.com/watch?v=7HxMjTXPCWE&t=5255s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
         },
-        "summary": "Understand the historical context of Hadith, avoid misquoting, navigate juristic differences respectfully, and build a daily Sunnah study routine.",
+        "summary": "Hadith 6 of Al-Arba'een An-Nawawiyyah: The Halal is Clear and the Haram is Clear. Narrated by An-Nu'man ibn Bashir (رضي الله عنهما). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
         "objectives": [
-          "Appreciate the importance of *Sabab al-Wurud* (the original context of the narration)",
-          "Identify and avoid dangerous patterns of selective quoting and out-of-context applications",
-          "Understand why qualified scholars may have differing juristic interpretations (*Ikhtilaf*)",
-          "Develop critical digital literacy when evaluating Islamic posts on social media"
+          "Comprehend the Arabic matn and core meaning of Hadith 6",
+          "Learn the biographical context of the narrator: An-Nu'man ibn Bashir (رضي الله عنهما)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
         ],
-        "content": "\n# Module 6: Applying Hadith in Real Life: Wisdom, Context & Modern World\n\nReading a Hadith in isolation without understanding its legal principles, historical circumstances, and relationship to other texts can lead to distorted conclusions. This module equips you with scholarly wisdom to understand and apply Hadith responsibly.\n\n---\n\n## 1. The Context of the Narration (*Sabab al-Wurud*)\n\nJust as verses of the Holy Qur'an have contexts of revelation (*Asbab an-Nuzul*), Hadiths have specific historical occasions (*Asbab al-Wurud*) when the Prophet ﷺ addressed particular individuals, environments, or cultural circumstances.\n\n### Case Study: Universal Principles vs. Situational Guidance\n* When the Prophet ﷺ was asked: *\"Which deed is best?\"*, he gave different answers to different individuals based on their spiritual needs:\n  * To one person prone to negligence in prayer: **«الصَّلاَةُ عَلَى وَقْتِهَا» (Prayer on time)**. (Sahih al-Bukhari 527).\n  * To someone with aging parents: **«بِرُّ الْوَالِدَيْنِ» (Honoring parents)**.\n  * To someone prone to conflict: **«أَنْ يَسْلَمَ النَّاسُ مِنْ لِسَانِكَ وَيَدِكَ» (That people remain safe from your tongue and hand)**.\n* **Scholarly Insight**: A student of knowledge synthesizes all narrations holistically rather than treating a single situational answer as an absolute exclusion of all other virtues.\n\n---\n\n## 2. Avoiding Misquoting and Out-of-Context Snippets\n\n### Common Pitfalls in Modern Discussions:\n1. **Taking Figurative Speech Literally**: The Prophet ﷺ said: *\"The world is a prison for the believer and paradise for the disbeliever.\"* (Sahih Muslim 2956). This does not mean a Muslim should neglect work or family; it contrasts transient earthly limits with the boundless bliss of the Hereafter.\n2. **Ignoring Abrogation (*Naskh*) and Specification (*Takhsis*)**: Some early rulings were preliminary and later specified by subsequent Prophetic practices.\n3. **Pitting Hadith Against Qur'an**: Authentic Hadith never contradicts the clear principles of the Holy Qur'an when understood with scholarly depth.\n\n---\n\n## 3. Respecting Scholarly Differences (*Adab al-Ikhtilaf*)\n\nAcross the four established Sunni schools of jurisprudence (*Hanafi, Maliki, Shafi'i, Hanbali*), great Imams occasionally arrived at different legal conclusions based on:\n* Whether a specific Hadith reached their geographical region with a sound chain.\n* Different linguistic interpretations of Arabic words (*Mushtarak* terms).\n* Reconciliation methods between two apparently conflicting texts (*Jam' wa Tawfiq*).\n\n> **Golden Rule**: Valid scholarly divergence on secondary matters (*Furu'*) is a mercy and flexibility for the Ummah. We respect classical scholarship and avoid sectarian arrogance or hostility.\n\n---\n\n## 4. Digital Discernment: Evaluating Social Media Hadith Posts\n\nWhen encountering an Islamic quote online:\n1. **Ask for the Reference**: Does the post cite a specific compilation and number? E.g., *\"Sahih al-Bukhari 6018\"*.\n2. **Check Reliable Digital Repositories**: Use authenticated academic portals (such as Sunnah.com, Al-Maktaba ash-Shamela, or verified scholarly editions).\n3. **Beware of Sensationalized Claims**: Be skeptical of posts claiming: *\"Share this with 10 people or you will experience bad luck\"* or promising disproportionate rewards without authentic citations.\n4. **Consult Qualified Teachers**: For complex rulings, family disputes, or theological questions, consult qualified local or institutional Islamic scholars rather than making amateur rulings based on a search engine.\n      ",
+        "content": "# Hadith 6: The Halal is Clear and the Haram is Clear\n*Navigating doubtful matters and nurturing purity of the spiritual heart*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي عَبْدِ اللَّهِ النُّعْمَانِ بْنِ بَشِيرٍ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «إِنَّ الْحَلاَلَ بَيِّنٌ، وَإِنَّ الْحَرَامَ بَيِّنٌ، وَبَيْنَهُمَا أُمُورٌ مُشْتَبِهَاتٌ لاَ يَعْلَمُهُنَّ كَثِيرٌ مِنَ النَّاسِ، فَمَنِ اتَّقَى الشُّبُهَاتِ اسْتَبْرَأَ لِدِينِهِ وَعِرْضِهِ، وَمَنْ وَقَعَ فِي الشُّبُهَاتِ وَقَعَ فِي الْحَرَامِ، كَالرَّاعِي يَرْعَى حَوْلَ الْحِمَى يُوشِكُ أَنْ يَرْتَعَ فِيهِ، أَلاَ وَإِنَّ لِكُلِّ مَلِكٍ حِمًى، أَلاَ وَإِنَّ حِمَى اللَّهِ مَحَارِمُهُ، أَلاَ وَإِنَّ فِي الْجَسَدِ مُضْغَةً إِذَا صَلَحَتْ صَلَحَ الْجَسَدُ كُلُّهُ، وَإِذَا فَسَدَتْ فَسَدَ الْجَسَدُ كُلُّهُ، أَلاَ وَهِيَ الْقَلْبُ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu 'Abdillah an-Nu'man ibn Bashir (may Allah be pleased with both of them), who said: I heard the Messenger of Allah ﷺ say: 'Verily the lawful (Halal) is clear and the unlawful (Haram) is clear, and between them are doubtful matters about which many people do not know. Thus he who avoids doubtful matters clears himself in regard to his religion and his honor, but he who falls into doubtful matters falls into the unlawful, like the shepherd who grazes around a private sanctuary, nearly pasturing within it. Truly every king has a sanctuary, and truly the sanctuary of Allah is His prohibitions. Truly in the body there is a morsel of flesh: if it is sound, the entire body is sound, and if it is corrupt, the entire body is corrupt. Verily, it is the heart.'\"  \n> *— Verified Reference: Sahih al-Bukhari (52), Sahih Muslim (1599) (Sahih (Muttafaq 'Alayh))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **An-Nu'man ibn Bashir (رضي الله عنهما)**\n* **Canonical Reference**: **Sahih al-Bukhari (52), Sahih Muslim (1599)**\n* **Scholarly Status**: **Sahih (Muttafaq 'Alayh)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Clear guidance exists for lawful and prohibited acts; dubious grey areas require caution (Wara').**\n2. **Avoiding suspicious scenarios safeguards a believer's faith, reputation, and peace of conscience.**\n3. **The physical and moral well-being of a person depends directly upon the purity and rectification of the heart.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
         "keyTerms": [
           {
-            "term": "Sabab al-Wurud (سَبَب الوُرُود)",
-            "meaning": "The historical context and occasion that prompted the Prophet ﷺ to make a statement."
+            "term": "Halal (حَلال)",
+            "meaning": "Clearly permissible matters sanctioned by Islamic sacred law."
           },
           {
-            "term": "Adab al-Ikhtilaf (أَدَب الاِخْتِلاَف)",
-            "meaning": "The refined Islamic etiquette of handling scholarly differences of opinion with respect and humility."
+            "term": "Haram (حَرَام)",
+            "meaning": "Clearly prohibited matters forbidden by Islamic sacred law."
           },
           {
-            "term": "Takhsis (تَخْصِيص)",
-            "meaning": "The principle where a specific text clarifies or restricts a general statement."
+            "term": "Mushtabihat (مُشْتَبِهَات)",
+            "meaning": "Ambiguous, doubtful matters lying between clear Halal and clear Haram."
           },
           {
-            "term": "Fiqh al-Hadith (فِقْه الحَدِيث)",
-            "meaning": "The deep juristic understanding and practical derivation of laws from Hadith texts."
+            "term": "Wara' (وَرَع)",
+            "meaning": "Scrupulous piety that refrains from doubtful things to protect honor and faith."
           }
         ],
         "verifiedHadith": {
-          "arabic": "عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو رَضِيَ اللَّهُ عَنْهُمَا أَنَّ النَّبِيَّ ﷺ قَالَ: «بَلِّغُوا عَنِّي وَلَوْ آيَةً، وَحَدِّثُوا عَنْ بَنِي إِسْرَائِيلَ وَلاَ حَرَجَ، وَمَنْ كَذَبَ عَلَيَّ مُتَعَمِّدًا فَلْيَتَبَوَّأْ مَقْعَدَهُ مِنَ النَّارِ»",
-          "translation": "Abdullah ibn 'Amr (may Allah be pleased with them both) reported that the Prophet ﷺ said: 'Convey from me, even if it is a single verse. And narrate from the Children of Israel, and there is no harm. But whoever intentionally lies upon me, let them take their seat in the Fire.'",
-          "reference": "Sahih al-Bukhari (Hadith 3461)",
-          "grading": "Sahih (Authentic)"
+          "arabic": "عَنْ أَبِي عَبْدِ اللَّهِ النُّعْمَانِ بْنِ بَشِيرٍ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «إِنَّ الْحَلاَلَ بَيِّنٌ، وَإِنَّ الْحَرَامَ بَيِّنٌ، وَبَيْنَهُمَا أُمُورٌ مُشْتَبِهَاتٌ لاَ يَعْلَمُهُنَّ كَثِيرٌ مِنَ النَّاسِ، فَمَنِ اتَّقَى الشُّبُهَاتِ اسْتَبْرَأَ لِدِينِهِ وَعِرْضِهِ، وَمَنْ وَقَعَ فِي الشُّبُهَاتِ وَقَعَ فِي الْحَرَامِ، كَالرَّاعِي يَرْعَى حَوْلَ الْحِمَى يُوشِكُ أَنْ يَرْتَعَ فِيهِ، أَلاَ وَإِنَّ لِكُلِّ مَلِكٍ حِمًى، أَلاَ وَإِنَّ حِمَى اللَّهِ مَحَارِمُهُ، أَلاَ وَإِنَّ فِي الْجَسَدِ مُضْغَةً إِذَا صَلَحَتْ صَلَحَ الْجَسَدُ كُلُّهُ، وَإِذَا فَسَدَتْ فَسَدَ الْجَسَدُ كُلُّهُ، أَلاَ وَهِيَ الْقَلْبُ».",
+          "translation": "On the authority of Abu 'Abdillah an-Nu'man ibn Bashir (may Allah be pleased with both of them), who said: I heard the Messenger of Allah ﷺ say: 'Verily the lawful (Halal) is clear and the unlawful (Haram) is clear, and between them are doubtful matters about which many people do not know. Thus he who avoids doubtful matters clears himself in regard to his religion and his honor, but he who falls into doubtful matters falls into the unlawful, like the shepherd who grazes around a private sanctuary, nearly pasturing within it. Truly every king has a sanctuary, and truly the sanctuary of Allah is His prohibitions. Truly in the body there is a morsel of flesh: if it is sound, the entire body is sound, and if it is corrupt, the entire body is corrupt. Verily, it is the heart.'",
+          "reference": "Sahih al-Bukhari (52), Sahih Muslim (1599)",
+          "grading": "Sahih (Muttafaq 'Alayh)"
         },
-        "practicalApplication": "Before sharing an Islamic post on social media, apply the 3-step filter: Is it verified? Is the citation accurate? Is sharing it beneficial and in proper context? Cultivate digital integrity.",
+        "practicalApplication": "Reflect on the guidance of Hadith 6: Clear guidance exists for lawful and prohibited acts; dubious grey areas require caution (Wara'). Implement this principle today in your speech, conduct, and worship.",
         "reflectionQuestions": [
-          "Why did the Prophet ﷺ tailor his advice differently when different companions asked him for counsel?",
-          "How does understanding the historical context (Sabab al-Wurud) protect someone from misapplying a Hadith in their life?"
+          "How does the teaching in Hadith 6 (The Halal is Clear and the Haram is Clear) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
         ],
         "quiz": {
           "id": "hadith-quiz-6",
-          "title": "Module 6 Knowledge Check",
+          "title": "Hadith 6 Knowledge Check",
           "questions": [
             {
-              "question": "What does 'Sabab al-Wurud' mean in Hadith studies?",
+              "question": "Who is the primary Companion narrator of Hadith 6 (The Halal is Clear and the Haram is Clear)?",
               "options": [
-                "The cost of buying a Hadith book",
-                "The historical occasion and context in which the Prophet ﷺ spoke a Hadith",
-                "The Arabic grammar of a sentence",
-                "The narrator's hometown"
+                "An-Nu'man ibn Bashir",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
               ],
-              "correctAnswer": 1,
-              "explanation": "Sabab al-Wurud refers to the specific historical background and occasion that prompted the Prophetic statement or action."
+              "correctAnswer": 0,
+              "explanation": "Hadith 6 is famously narrated by An-Nu'man ibn Bashir (رضي الله عنهما)."
             },
             {
-              "question": "Why do established schools of jurisprudence (Madhahib) sometimes have differing practical applications of a Hadith?",
+              "question": "What is the primary spiritual or legal theme established in Hadith 6?",
               "options": [
-                "Because they rejected the Prophet's authority",
-                "Because of legitimate scholarly methods in reconciling multiple authentic texts and linguistic nuances",
-                "Because they lived in different centuries and did not care",
-                "Because they wrote in different languages"
+                "Navigating doubtful matters and nurturing purity of the spiritual heart",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
               ],
-              "correctAnswer": 1,
-              "explanation": "Classical scholars differed based on legitimate academic methodologies in evaluating chains, reconciling multiple texts, and interpreting Arabic linguistic nuances."
+              "correctAnswer": 0,
+              "explanation": "Hadith 6 focuses fundamentally on: Navigating doubtful matters and nurturing purity of the spiritual heart."
             },
             {
-              "question": "What should you do when you see a viral social media message promising huge rewards without any book or Hadith reference?",
+              "question": "Which of the following is a key practical takeaway from Hadith 6?",
               "options": [
-                "Share it immediately to get good deeds",
-                "Pause and verify its authenticity with trusted reference databases and qualified teachers before sharing",
-                "Claim you wrote it",
-                "Ignore all Hadiths forever"
+                "Clear guidance exists for lawful and prohibited acts; dubious grey areas require caution (Wara').",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
               ],
-              "correctAnswer": 1,
-              "explanation": "Muslims have a religious duty to verify all attributed statements before sharing, as warned by the Prophet ﷺ in authentic traditions."
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Clear guidance exists for lawful and prohibited acts; dubious grey areas require caution (Wara')."
             }
           ]
         }
@@ -20067,112 +20088,3259 @@ export const coursesData = [
       {
         "id": "hadith-7",
         "number": 7,
-        "title": "Module 7: Revision, Knowledge Assessment & Capstone Reflection",
-        "subtitle": "Comprehensive review, source identification exercises, knowledge checks, and final assessment",
-        "readingTime": "25 min",
+        "title": "Hadith 7: Religion is Sincerity (An-Nasihah)",
+        "subtitle": "The definition of genuine goodwill towards Allah, His Book, His Messenger, and community",
+        "readingTime": "12 min",
         "videoLesson": {
-          "title": "Hadith Studies Synthesis & Lifelong Sunnah Implementation",
-          "channel": "FAHMRISE Islamic Studies Reference",
-          "duration": null,
-          "videoId": null,
-          "watchUrl": "https://sunnah.com",
-          "embedUrl": null,
-          "url": null,
-          "alternativeSource": "https://sunnah.com",
-          "sourceName": "Sunnah.com — Complete Hadith Encyclopedia",
-          "badge": "Reference Video — Verification Pending"
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 55,
+          "start": 55,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=55s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=55&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=55s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
         },
-        "summary": "Review all key Mustalah al-Hadith terms, practice identifying canonical sources, complete your knowledge assessment, and graduate with your verified certificate.",
+        "summary": "Hadith 7 of Al-Arba'een An-Nawawiyyah: Religion is Sincerity (An-Nasihah). Narrated by Tamim ad-Dari (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
         "objectives": [
-          "Synthesize key Mustalah al-Hadith terminology learned throughout the curriculum",
-          "Perform Hadith source identification and citation analysis exercises",
-          "Demonstrate mastery of authentic Prophetic character, worship, and verification principles",
-          "Complete the comprehensive final assessment and unlock your verified FAHMRISE certificate"
+          "Comprehend the Arabic matn and core meaning of Hadith 7",
+          "Learn the biographical context of the narrator: Tamim ad-Dari (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
         ],
-        "content": "\n# Module 7: Revision, Knowledge Assessment & Capstone Reflection\n\nCongratulations on reaching the final module of **Hadith Essentials & Daily Sunnah**. In this module, we consolidate your learning across all six preceding chapters, review foundational terminology, engage in practical reflection, and complete the final course assessment.\n\n---\n\n## 1. Master Review: Core Hadith Terminology\n\nLet us summarize the essential vocabulary you have mastered:\n\n1. **Hadith (حَدِيث)**: Report of the Prophet's ﷺ sayings, deeds, approvals, or descriptions.\n2. **Sunnah (سُنَّة)**: The normative practice and path of the Prophet ﷺ.\n3. **Isnad (إِسْنَاد)**: The continuous chain of narrators transmitting the report.\n4. **Matn (مَتْن)**: The text and narrative content of the report.\n5. **Sahih (صَحِيح)**: A sound, authentic narration fulfilling all five conditions of continuity, integrity, precision, and freedom from defects.\n6. **Hasan (حَسَن)**: An acceptable narration with slightly lesser precision of memory.\n7. **Da'if (ضَعِيف)**: A weak narration lacking one or more conditions of authenticity.\n8. **Mawdu' (مَوْضُوع)**: A fabricated falsehood falsely attributed to the Prophet ﷺ.\n9. **Al-Kutub as-Sittah (الكُتُب السِّتَّة)**: Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami' at-Tirmidhi, Sunan an-Nasa'i, and Sunan Ibn Majah.\n10. **Sabab al-Wurud (سَبَب الوُرُود)**: The context and historical occasion of the Hadith.\n\n---\n\n## 2. Practical Source Identification Exercise\n\nReview the three authentic citations below and observe how each component is structured:\n\n### Example A: Hadith of Intentions\n* **Isnad / Authority**: *'Umar ibn al-Khattab (RA)*\n* **Matn**: *“Actions are judged only by intentions...”*\n* **Citation**: *Sahih al-Bukhari (Hadith 1), Sahih Muslim (Hadith 1907)*\n* **Classification**: *Sahih (Muttafaq 'Alayh — Agreed Upon)*\n\n### Example B: Hadith of Mercy\n* **Isnad / Authority**: *'Abdullah ibn 'Amr ibn al-'As (RA)*\n* **Matn**: *“The merciful are shown mercy by the Most Merciful. Show mercy to those upon the earth...”*\n* **Citation**: *Jami' at-Tirmidhi (Hadith 1924)*\n* **Classification**: *Hasan Sahih*\n\n### Example C: Hadith of Speech and Neighbourly Rights\n* **Isnad / Authority**: *Abu Hurairah (RA)*\n* **Matn**: *“Whoever believes in Allah and the Last Day, let them speak good or remain silent...”*\n* **Citation**: *Sahih al-Bukhari (Hadith 6018), Sahih Muslim (Hadith 47)*\n* **Classification**: *Sahih*\n\n---\n\n## 3. Your Personal Daily Sunnah Action Plan\n\nAs a graduate of this course, integrate these five daily habits into your routine:\n1. **Morning & Evening Dhikr**: Reciting *Ayat al-Kursi*, the three Quls (*Ikhlas, Falaq, Nas*), and *“Subhan Allahi wa bihamdihi”* 100 times.\n2. **Pure Intentions**: Pausing before work, study, and family duties to dedicate your efforts for Allah's pleasure.\n3. **Truthfulness and Restraint**: Speaking good words or remaining silent; avoiding gossip and unverified online posts.\n4. **Honoring Parents & Neighbours**: Reaching out to family members, respecting parents, and sharing good will with neighbours.\n5. **Continuous Learning**: Reading one verified Hadith daily with classical commentary (such as from *Riyad as-Salihin*).\n\n---\n\n## 4. Final Assessment Instructions\n\nComplete the 5-question comprehensive assessment below to test your mastery across all course modules. Upon successful completion, your verified **FAHMRISE Certificate in Hadith Essentials & Daily Sunnah** will be available in your learner dashboard!\n      ",
+        "content": "# Hadith 7: Religion is Sincerity (An-Nasihah)\n*The definition of genuine goodwill towards Allah, His Book, His Messenger, and community*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي رُقَيَّةَ تَمِيمِ بْنِ أَوْسٍ الدَّارِيِّ رَضِيَ اللَّهُ عَنْهُ أَنَّ النَّبِيَّ ﷺ قَالَ: «الدِّينُ النَّصِيحَةُ». قُلْنَا: لِمَنْ؟ قَالَ: «لِلَّهِ، وَلِكِتَابِهِ، وَلِرَسُولِهِ، وَلِأَئِمَّةِ الْمُسْلِمِينَ، وَعَامَّتِهِمْ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Ruqayyah Tamim ibn Aws ad-Dari (may Allah be pleased with him) that the Prophet ﷺ said: 'The religion is sincerity (An-Nasihah).' We asked: 'To whom?' He replied: 'To Allah, to His Book, to His Messenger, to the leaders of the Muslims, and to their common folk.'\"  \n> *— Verified Reference: Sahih Muslim (55) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Tamim ad-Dari (رضي الله عنه)**\n* **Canonical Reference**: **Sahih Muslim (55)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **An-Nasihah means pure, unadulterated goodwill, sincerity, and fulfilling duties wholeheartedly.**\n2. **Sincerity to Allah entails worshiping Him alone; to the Qur'an by reciting and implementing it; to the Prophet by following his Sunnah.**\n3. **Sincerity to leaders and fellow Muslims involves wise counsel, constructive cooperation, kindness, and mercy.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
         "keyTerms": [
           {
-            "term": "Khatm al-Hadith (خَتْم الحَدِيث)",
-            "meaning": "The formal completion of a Hadith course or text under scholarly guidance."
+            "term": "Nasihah (نَصِيحَة)",
+            "meaning": "Sincerity, good counsel, loyalty, and desiring utmost goodness for others."
           },
           {
-            "term": "Ijazah (إِجَازَة)",
-            "meaning": "A traditional academic certificate or authorization granted to a student who has verified their comprehension."
+            "term": "Kitab (كِتَاب)",
+            "meaning": "The Book of Allah, requiring recitation, belief, reflection, and implementation."
           },
           {
-            "term": "Amal bis-Sunnah (العَمَل بِالسُّنَّة)",
-            "meaning": "The sincere, lifelong implementation of Prophetic teachings in daily life."
+            "term": "A'immah (أَئِمَّة)",
+            "meaning": "The leaders, scholars, and rulers of the Muslim community."
           }
         ],
         "verifiedHadith": {
-          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «تَرَكْتُ فِيكُمْ شَيْئَيْنِ لَنْ تَضِلُّوا بَعْدَهُمَا: كِتَابَ اللَّهِ وَسُنَّتِي، وَلَنْ يَتَفَرَّقَا حَتَّى يَرِدَا عَلَى الْحَوْضِ»",
-          "translation": "Abu Hurairah (may Allah be pleased with him) reported: The Messenger of Allah ﷺ said: 'I have left among you two things after which you will never go astray: the Book of Allah and my Sunnah. And they will never separate until they meet me at the Fountain (Al-Hawd).'",
-          "reference": "Mustadrak al-Hakim (318), Al-Bayhaqi (10/114), Graded Sahih by Al-Albani",
+          "arabic": "عَنْ أَبِي رُقَيَّةَ تَمِيمِ بْنِ أَوْسٍ الدَّارِيِّ رَضِيَ اللَّهُ عَنْهُ أَنَّ النَّبِيَّ ﷺ قَالَ: «الدِّينُ النَّصِيحَةُ». قُلْنَا: لِمَنْ؟ قَالَ: «لِلَّهِ، وَلِكِتَابِهِ، وَلِرَسُولِهِ، وَلِأَئِمَّةِ الْمُسْلِمِينَ، وَعَامَّتِهِمْ».",
+          "translation": "On the authority of Abu Ruqayyah Tamim ibn Aws ad-Dari (may Allah be pleased with him) that the Prophet ﷺ said: 'The religion is sincerity (An-Nasihah).' We asked: 'To whom?' He replied: 'To Allah, to His Book, to His Messenger, to the leaders of the Muslims, and to their common folk.'",
+          "reference": "Sahih Muslim (55)",
           "grading": "Sahih"
         },
-        "practicalApplication": "Share the beneficial knowledge you have acquired with your family and study circles with humility, wisdom, and accurate references. Continue to embody the character of the Prophet ﷺ.",
+        "practicalApplication": "Reflect on the guidance of Hadith 7: An-Nasihah means pure, unadulterated goodwill, sincerity, and fulfilling duties wholeheartedly. Implement this principle today in your speech, conduct, and worship.",
         "reflectionQuestions": [
-          "How has your understanding of Hadith sciences transformed the way you read and apply Prophetic traditions?",
-          "What is the single most impactful Sunnah habit you will commit to practicing daily starting today?"
+          "How does the teaching in Hadith 7 (Religion is Sincerity (An-Nasihah)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
         ],
         "quiz": {
           "id": "hadith-quiz-7",
-          "title": "Module 7 Final Comprehensive Assessment",
+          "title": "Hadith 7 Knowledge Check",
           "questions": [
             {
-              "question": "Which of the following represents the correct definition of the term 'Isnad'?",
+              "question": "Who is the primary Companion narrator of Hadith 7 (Religion is Sincerity (An-Nasihah))?",
               "options": [
-                "The Arabic vowel signs on a word",
-                "The unbroken chronological chain of transmitters linking back to the Prophet ﷺ",
-                "The translation of the Hadith into English",
-                "The city where the compiler was born"
+                "Tamim ad-Dari",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
               ],
-              "correctAnswer": 1,
-              "explanation": "The Isnad is the chain of narrators who transmitted the report from generation to generation."
+              "correctAnswer": 0,
+              "explanation": "Hadith 7 is famously narrated by Tamim ad-Dari (رضي الله عنه)."
             },
             {
-              "question": "Why is Sahih al-Bukhari universally recognized as the most authentic Hadith compilation?",
+              "question": "What is the primary spiritual or legal theme established in Hadith 7?",
               "options": [
-                "Because it is the longest book in history",
-                "Because Imam al-Bukhari applied the strictest conditions of narrator reliability, continuous meeting, and memory precision",
-                "Because it contains no chains of narration",
-                "Because it was written in Mecca only"
+                "The definition of genuine goodwill towards Allah, His Book, His Messenger, and community",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
               ],
-              "correctAnswer": 1,
-              "explanation": "Imam al-Bukhari established the most rigorous methodological criteria in Islamic history, requiring verified historical meetings and unimpeachable character."
+              "correctAnswer": 0,
+              "explanation": "Hadith 7 focuses fundamentally on: The definition of genuine goodwill towards Allah, His Book, His Messenger, and community."
             },
             {
-              "question": "What is the proper Islamic response when encountering a doubtful or unverified Hadith quotation online?",
+              "question": "Which of the following is a key practical takeaway from Hadith 7?",
               "options": [
-                "Forward it to all contacts just in case",
-                "Refrain from sharing and verify it using authoritative Hadith reference collections or consult qualified scholars",
-                "Argue aggressively in the comments",
-                "Delete your computer"
+                "An-Nasihah means pure, unadulterated goodwill, sincerity, and fulfilling duties wholeheartedly.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
               ],
-              "correctAnswer": 1,
-              "explanation": "The Prophetic teaching requires verification before transmitting speech, especially regarding religious guidance."
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: An-Nasihah means pure, unadulterated goodwill, sincerity, and fulfilling duties wholeheartedly."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-8",
+        "number": 8,
+        "title": "Hadith 8: The Sanctity of a Muslim's Blood and Wealth",
+        "subtitle": "The rights of life, property, and the core test of faith",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 363,
+          "start": 363,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=363s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=363&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=363s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 8 of Al-Arba'een An-Nawawiyyah: The Sanctity of a Muslim's Blood and Wealth. Narrated by 'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 8",
+          "Learn the biographical context of the narrator: 'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 8: The Sanctity of a Muslim's Blood and Wealth\n*The rights of life, property, and the core test of faith*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنِ ابْنِ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «أُمِرْتُ أَنْ أُقَاتِلَ النَّاسَ حَتَّى يَشْهَدُوا أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَيُقِيمُوا الصَّلاَةَ، وَيُؤْتُوا الزَّكَاةَ، فَإِذَا فَعَلُوا ذَلِكَ عَصَمُوا مِنِّي دِمَاءَهُمْ وَأَمْوَالَهُمْ إِلاَّ بِحَقِّ الإِسْلاَمِ، وَحِسَابُهُمْ عَلَى اللَّهِ تَعَالَى».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Ibn 'Umar (may Allah be pleased with both of them) that the Messenger of Allah ﷺ said: 'I have been commanded to fight the people until they testify that there is no deity worthy of worship except Allah and that Muhammad is the Messenger of Allah, and establish prayer, and pay Zakah. When they do that, their blood and wealth are protected from me except by the right of Islam, and their account is with Allah the Exalted.'\"  \n> *— Verified Reference: Sahih al-Bukhari (25), Sahih Muslim (22) (Sahih (Muttafaq 'Alayh))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما)**\n* **Canonical Reference**: **Sahih al-Bukhari (25), Sahih Muslim (22)**\n* **Scholarly Status**: **Sahih (Muttafaq 'Alayh)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **The ultimate sanctity of human life and property in Islamic jurisprudence.**\n2. **Judgments in this world are rendered upon outward actions, while inward intentions are judged by Allah alone.**\n3. **Affirming Tawheed, establishing Salah, and paying Zakah grants complete legal inviolability.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنِ ابْنِ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «أُمِرْتُ أَنْ أُقَاتِلَ النَّاسَ حَتَّى يَشْهَدُوا أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَيُقِيمُوا الصَّلاَةَ، وَيُؤْتُوا الزَّكَاةَ، فَإِذَا فَعَلُوا ذَلِكَ عَصَمُوا مِنِّي دِمَاءَهُمْ وَأَمْوَالَهُمْ إِلاَّ بِحَقِّ الإِسْلاَمِ، وَحِسَابُهُمْ عَلَى اللَّهِ تَعَالَى».",
+          "translation": "On the authority of Ibn 'Umar (may Allah be pleased with both of them) that the Messenger of Allah ﷺ said: 'I have been commanded to fight the people until they testify that there is no deity worthy of worship except Allah and that Muhammad is the Messenger of Allah, and establish prayer, and pay Zakah. When they do that, their blood and wealth are protected from me except by the right of Islam, and their account is with Allah the Exalted.'",
+          "reference": "Sahih al-Bukhari (25), Sahih Muslim (22)",
+          "grading": "Sahih (Muttafaq 'Alayh)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 8: The ultimate sanctity of human life and property in Islamic jurisprudence. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 8 (The Sanctity of a Muslim's Blood and Wealth) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-8",
+          "title": "Hadith 8 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 8 (The Sanctity of a Muslim's Blood and Wealth)?",
+              "options": [
+                "'Abdullah ibn 'Umar ibn al-Khattab",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Ali ibn Abi Talib (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 8 is famously narrated by 'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما)."
             },
             {
-              "question": "What did the Prophet ﷺ teach regarding the virtue of maintaining family ties (Silat ar-Rahim)?",
+              "question": "What is the primary spiritual or legal theme established in Hadith 8?",
               "options": [
-                "It has no impact on one's life",
-                "It brings blessings in one's sustenance (Rizq) and longevity in one's life",
-                "It is only required once every 10 years",
-                "It applies only to wealthy relatives"
+                "The rights of life, property, and the core test of faith",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
               ],
-              "correctAnswer": 1,
-              "explanation": "In Sahih al-Bukhari (5986), the Prophet ﷺ taught that maintaining family ties brings divine blessing to one's provision and life."
+              "correctAnswer": 0,
+              "explanation": "Hadith 8 focuses fundamentally on: The rights of life, property, and the core test of faith."
             },
             {
-              "question": "What are the two inseparable guides left by the Prophet ﷺ for the Muslim Ummah?",
+              "question": "Which of the following is a key practical takeaway from Hadith 8?",
               "options": [
-                "Philosophy and Poetry",
-                "The Book of Allah (The Qur'an) and the Prophetic Sunnah",
-                "Gold and Silver",
-                "Astrology and Science"
+                "The ultimate sanctity of human life and property in Islamic jurisprudence.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
               ],
-              "correctAnswer": 1,
-              "explanation": "The Prophet ﷺ declared: 'I have left among you two things after which you will never go astray: the Book of Allah and my Sunnah.'"
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: The ultimate sanctity of human life and property in Islamic jurisprudence."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-9",
+        "number": 9,
+        "title": "Hadith 9: Fulfilling Obligations According to Capacity",
+        "subtitle": "The divine principle of ease, avoiding unnecessary questioning, and obedience",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 715,
+          "start": 715,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=715s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=715&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=715s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 9 of Al-Arba'een An-Nawawiyyah: Fulfilling Obligations According to Capacity. Narrated by Abu Hurairah 'Abd ar-Rahman ibn Sakhr (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 9",
+          "Learn the biographical context of the narrator: Abu Hurairah 'Abd ar-Rahman ibn Sakhr (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 9: Fulfilling Obligations According to Capacity\n*The divine principle of ease, avoiding unnecessary questioning, and obedience*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي هُرَيْرَةَ عَبْدِ الرَّحْمَنِ بْنِ صَخْرٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «مَا نَهَيْتُكُمْ عَنْهُ فَاجْتَنِبُوهُ، وَمَا أَمَرْتُكُمْ بِهِ فَأْتُوا مِنْهُ مَا اسْتَطَعْتُمْ، فَإِنَّمَا أَهْلَكَ الَّذِينَ مِنْ قَبْلِكُمْ كَثْرَةُ مَسَائِلِهِمْ وَاخْتِلاَفُهُمْ عَلَى أَنْبِيَائِهِمْ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Hurairah 'Abd ar-Rahman ibn Sakhr (may Allah be pleased with him), who said: I heard the Messenger of Allah ﷺ say: 'What I have forbidden you, avoid; and what I have ordered you to do, do as much of it as you can. For verily what destroyed those before you was their excessive questioning and their disagreement with their prophets.'\"  \n> *— Verified Reference: Sahih al-Bukhari (7288), Sahih Muslim (1337) (Sahih (Muttafaq 'Alayh))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Hurairah 'Abd ar-Rahman ibn Sakhr (رضي الله عنه)**\n* **Canonical Reference**: **Sahih al-Bukhari (7288), Sahih Muslim (1337)**\n* **Scholarly Status**: **Sahih (Muttafaq 'Alayh)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Prohibitions must be shunned entirely, while positive commands are fulfilled according to one's genuine ability.**\n2. **Reflects the Islamic legal maxim: 'Difficulty brings about ease' (Al-Mashaqqatu tajlibut-taysir).**\n3. **Warns against unproductive philosophical debates and pedantic theological hair-splitting.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي هُرَيْرَةَ عَبْدِ الرَّحْمَنِ بْنِ صَخْرٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «مَا نَهَيْتُكُمْ عَنْهُ فَاجْتَنِبُوهُ، وَمَا أَمَرْتُكُمْ بِهِ فَأْتُوا مِنْهُ مَا اسْتَطَعْتُمْ، فَإِنَّمَا أَهْلَكَ الَّذِينَ مِنْ قَبْلِكُمْ كَثْرَةُ مَسَائِلِهِمْ وَاخْتِلاَفُهُمْ عَلَى أَنْبِيَائِهِمْ».",
+          "translation": "On the authority of Abu Hurairah 'Abd ar-Rahman ibn Sakhr (may Allah be pleased with him), who said: I heard the Messenger of Allah ﷺ say: 'What I have forbidden you, avoid; and what I have ordered you to do, do as much of it as you can. For verily what destroyed those before you was their excessive questioning and their disagreement with their prophets.'",
+          "reference": "Sahih al-Bukhari (7288), Sahih Muslim (1337)",
+          "grading": "Sahih (Muttafaq 'Alayh)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 9: Prohibitions must be shunned entirely, while positive commands are fulfilled according to one's genuine ability. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 9 (Fulfilling Obligations According to Capacity) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-9",
+          "title": "Hadith 9 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 9 (Fulfilling Obligations According to Capacity)?",
+              "options": [
+                "Abu Hurairah 'Abd ar-Rahman ibn Sakhr",
+                "Anas ibn Malik (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 9 is famously narrated by Abu Hurairah 'Abd ar-Rahman ibn Sakhr (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 9?",
+              "options": [
+                "The divine principle of ease, avoiding unnecessary questioning, and obedience",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 9 focuses fundamentally on: The divine principle of ease, avoiding unnecessary questioning, and obedience."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 9?",
+              "options": [
+                "Prohibitions must be shunned entirely, while positive commands are fulfilled according to one's genuine ability.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Prohibitions must be shunned entirely, while positive commands are fulfilled according to one's genuine ability."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-10",
+        "number": 10,
+        "title": "Hadith 10: Allah is Pure and Accepts Only What is Pure",
+        "subtitle": "Halal livelihood, ethical consumption, and the conditions of accepted supplication (Du'a)",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 1162,
+          "start": 1162,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=1162s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=1162&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=1162s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 10 of Al-Arba'een An-Nawawiyyah: Allah is Pure and Accepts Only What is Pure. Narrated by Abu Hurairah (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 10",
+          "Learn the biographical context of the narrator: Abu Hurairah (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 10: Allah is Pure and Accepts Only What is Pure\n*Halal livelihood, ethical consumption, and the conditions of accepted supplication (Du'a)*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «إِنَّ اللَّهَ تَعَالَى طَيِّبٌ لاَ يَقْبَلُ إِلاَّ طَيِّبًا، وَإِنَّ اللَّهَ أَمَرَ الْمُؤْمِنِينَ بِمَا أَمَرَ بِهِ الْمُرْسَلِينَ، فَقَالَ: ﴿يَا أَيُّهَا الرُّسُلُ كُلُوا مِنَ الطَّيِّبَاتِ وَاعْمَلُوا صَالِحًا﴾، وَقَالَ: ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ﴾، ثُمَّ ذَكَرَ الرَّجُلَ يُطِيلُ السَّفَرَ أَشْعَثَ أَغْبَرَ، يَمُدُّ يَدَيْهِ إِلَى السَّمَاءِ: يَا رَبِّ، يَا رَبِّ، وَمَطْعَمُهُ حَرَامٌ، وَمَشْرَبُهُ حَرَامٌ، وَمَلْبَسُهُ حَرَامٌ، وَغُذِيَ بِالْحَرَامِ، فَأَنَّى يُسْتَجَابُ لِذَلِكَ؟!».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Hurairah (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Verily Allah the Exalted is pure (Tayyib) and accepts only what is pure. And Allah has commanded the believers with that which He commanded the Messengers. He said: «O Messengers, eat of good things and do righteous deeds» (23:51), and He said: «O you who believe, eat of the good things We have provided you» (2:172).' Then he mentioned a man who had traveled on a long journey, disheveled and dusty, stretching his hands out to the sky saying: 'O Lord! O Lord!' while his food is unlawful, his drink is unlawful, his clothing is unlawful, and he was nourished on the unlawful. How then could he be answered?!\"  \n> *— Verified Reference: Sahih Muslim (1015) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Hurairah (رضي الله عنه)**\n* **Canonical Reference**: **Sahih Muslim (1015)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Consuming Halal and earning through honest, lawful avenues is a direct prerequisite for accepted worship and answered prayers.**\n2. **Even under conditions that typically attract divine mercy (travel, distress, humble appearance), illicit income erects a barrier to Du'a.**\n3. **Allah's command of ethical consumption is uniform for all humanity, from the Prophets to every believer.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «إِنَّ اللَّهَ تَعَالَى طَيِّبٌ لاَ يَقْبَلُ إِلاَّ طَيِّبًا، وَإِنَّ اللَّهَ أَمَرَ الْمُؤْمِنِينَ بِمَا أَمَرَ بِهِ الْمُرْسَلِينَ، فَقَالَ: ﴿يَا أَيُّهَا الرُّسُلُ كُلُوا مِنَ الطَّيِّبَاتِ وَاعْمَلُوا صَالِحًا﴾، وَقَالَ: ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ﴾، ثُمَّ ذَكَرَ الرَّجُلَ يُطِيلُ السَّفَرَ أَشْعَثَ أَغْبَرَ، يَمُدُّ يَدَيْهِ إِلَى السَّمَاءِ: يَا رَبِّ، يَا رَبِّ، وَمَطْعَمُهُ حَرَامٌ، وَمَشْرَبُهُ حَرَامٌ، وَمَلْبَسُهُ حَرَامٌ، وَغُذِيَ بِالْحَرَامِ، فَأَنَّى يُسْتَجَابُ لِذَلِكَ؟!».",
+          "translation": "On the authority of Abu Hurairah (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Verily Allah the Exalted is pure (Tayyib) and accepts only what is pure. And Allah has commanded the believers with that which He commanded the Messengers. He said: «O Messengers, eat of good things and do righteous deeds» (23:51), and He said: «O you who believe, eat of the good things We have provided you» (2:172).' Then he mentioned a man who had traveled on a long journey, disheveled and dusty, stretching his hands out to the sky saying: 'O Lord! O Lord!' while his food is unlawful, his drink is unlawful, his clothing is unlawful, and he was nourished on the unlawful. How then could he be answered?!",
+          "reference": "Sahih Muslim (1015)",
+          "grading": "Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 10: Consuming Halal and earning through honest, lawful avenues is a direct prerequisite for accepted worship and answered prayers. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 10 (Allah is Pure and Accepts Only What is Pure) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-10",
+          "title": "Hadith 10 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 10 (Allah is Pure and Accepts Only What is Pure)?",
+              "options": [
+                "Abu Hurairah",
+                "Anas ibn Malik (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 10 is famously narrated by Abu Hurairah (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 10?",
+              "options": [
+                "Halal livelihood, ethical consumption, and the conditions of accepted supplication (Du'a)",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 10 focuses fundamentally on: Halal livelihood, ethical consumption, and the conditions of accepted supplication (Du'a)."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 10?",
+              "options": [
+                "Consuming Halal and earning through honest, lawful avenues is a direct prerequisite for accepted worship and answered prayers.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Consuming Halal and earning through honest, lawful avenues is a direct prerequisite for accepted worship and answered prayers."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-11",
+        "number": 11,
+        "title": "Hadith 11: Leaving Doubt for Certainty (Wara')",
+        "subtitle": "Conscientious spirituality, peace of heart, and avoiding ambiguous gray zones",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 2076,
+          "start": 2076,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=2076s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=2076&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=2076s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 11 of Al-Arba'een An-Nawawiyyah: Leaving Doubt for Certainty (Wara'). Narrated by Abu Muhammad al-Hasan ibn 'Ali ibn Abi Talib (رضي الله عنهما). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 11",
+          "Learn the biographical context of the narrator: Abu Muhammad al-Hasan ibn 'Ali ibn Abi Talib (رضي الله عنهما)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 11: Leaving Doubt for Certainty (Wara')\n*Conscientious spirituality, peace of heart, and avoiding ambiguous gray zones*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي مُحَمَّدٍ الْحَسَنِ بْنِ عَلِيِّ بْنِ أَبِي طَالِبٍ سِبْطِ رَسُولِ اللَّهِ ﷺ وَرَيْحَانَتِهِ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: حَفِظْتُ مِنْ رَسُولِ اللَّهِ ﷺ: «دَعْ مَا يَرِيبُكَ إِلَى مَا لاَ يَرِيبُكَ، فَإِنَّ الصِّدْقَ طُمَأْنِينَةٌ، وَإِنَّ الْكَذِبَ رِيبَةٌ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Muhammad al-Hasan ibn 'Ali ibn Abi Talib, the grandson of the Messenger of Allah ﷺ and his sweet basil (may Allah be pleased with both of them), who said: I memorized from the Messenger of Allah ﷺ: 'Leave that which causes you doubt for that which does not cause you doubt. For truthfulness brings peace of mind, while falsehood brings doubt.'\"  \n> *— Verified Reference: Sunan at-Tirmidhi (2518), Sunan an-Nasa'i (5711) (Sahih (Graded Sahih by At-Tirmidhi and Al-Albani))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Muhammad al-Hasan ibn 'Ali ibn Abi Talib (رضي الله عنهما)**\n* **Canonical Reference**: **Sunan at-Tirmidhi (2518), Sunan an-Nasa'i (5711)**\n* **Scholarly Status**: **Sahih (Graded Sahih by At-Tirmidhi and Al-Albani)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Whenever confronted by an ethical or moral question where your conscience is uneasy, leave it for what is unmistakably lawful.**\n2. **Truthfulness and ethical clarity yield inner serenity (Tum'aninah); doubtful and illicit dealings produce agitation and anxiety.**\n3. **A core principle for personal piety (Wara') and upright financial transactions.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي مُحَمَّدٍ الْحَسَنِ بْنِ عَلِيِّ بْنِ أَبِي طَالِبٍ سِبْطِ رَسُولِ اللَّهِ ﷺ وَرَيْحَانَتِهِ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: حَفِظْتُ مِنْ رَسُولِ اللَّهِ ﷺ: «دَعْ مَا يَرِيبُكَ إِلَى مَا لاَ يَرِيبُكَ، فَإِنَّ الصِّدْقَ طُمَأْنِينَةٌ، وَإِنَّ الْكَذِبَ رِيبَةٌ».",
+          "translation": "On the authority of Abu Muhammad al-Hasan ibn 'Ali ibn Abi Talib, the grandson of the Messenger of Allah ﷺ and his sweet basil (may Allah be pleased with both of them), who said: I memorized from the Messenger of Allah ﷺ: 'Leave that which causes you doubt for that which does not cause you doubt. For truthfulness brings peace of mind, while falsehood brings doubt.'",
+          "reference": "Sunan at-Tirmidhi (2518), Sunan an-Nasa'i (5711)",
+          "grading": "Sahih (Graded Sahih by At-Tirmidhi and Al-Albani)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 11: Whenever confronted by an ethical or moral question where your conscience is uneasy, leave it for what is unmistakably lawful. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 11 (Leaving Doubt for Certainty (Wara')) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-11",
+          "title": "Hadith 11 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 11 (Leaving Doubt for Certainty (Wara'))?",
+              "options": [
+                "Abu Muhammad al-Hasan ibn 'Ali ibn Abi Talib",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 11 is famously narrated by Abu Muhammad al-Hasan ibn 'Ali ibn Abi Talib (رضي الله عنهما)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 11?",
+              "options": [
+                "Conscientious spirituality, peace of heart, and avoiding ambiguous gray zones",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 11 focuses fundamentally on: Conscientious spirituality, peace of heart, and avoiding ambiguous gray zones."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 11?",
+              "options": [
+                "Whenever confronted by an ethical or moral question where your conscience is uneasy, leave it for what is unmistakably lawful.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Whenever confronted by an ethical or moral question where your conscience is uneasy, leave it for what is unmistakably lawful."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-12",
+        "number": 12,
+        "title": "Hadith 12: Leaving What Does Not Concern You",
+        "subtitle": "Mastering focus, digital discipline, and shedding unproductive distractions",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 2295,
+          "start": 2295,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=2295s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=2295&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=2295s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 12 of Al-Arba'een An-Nawawiyyah: Leaving What Does Not Concern You. Narrated by Abu Hurairah (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 12",
+          "Learn the biographical context of the narrator: Abu Hurairah (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 12: Leaving What Does Not Concern You\n*Mastering focus, digital discipline, and shedding unproductive distractions*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «مِنْ حُسْنِ إِسْلاَمِ الْمَرْءِ تَرْكُهُ مَا لاَ يَعْنِيهِ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Hurairah (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Part of the perfection of a person's Islam is leaving that which does not concern him.'\"  \n> *— Verified Reference: Sunan at-Tirmidhi (2317), Sunan Ibn Majah (3976) (Hasan (Graded Sahih/Hasan by An-Nawawi, Ahmad, and Al-Albani))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Hurairah (رضي الله عنه)**\n* **Canonical Reference**: **Sunan at-Tirmidhi (2317), Sunan Ibn Majah (3976)**\n* **Scholarly Status**: **Hasan (Graded Sahih/Hasan by An-Nawawi, Ahmad, and Al-Albani)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **A golden foundational principle of personal time management, social dignity, and mental well-being.**\n2. **Refraining from idle gossip, nosiness into other people's affairs, and unnecessary digital noise elevates one's faith.**\n3. **Channel your intellectual and physical energy into beneficial knowledge, career competence, family service, and worship.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «مِنْ حُسْنِ إِسْلاَمِ الْمَرْءِ تَرْكُهُ مَا لاَ يَعْنِيهِ».",
+          "translation": "On the authority of Abu Hurairah (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Part of the perfection of a person's Islam is leaving that which does not concern him.'",
+          "reference": "Sunan at-Tirmidhi (2317), Sunan Ibn Majah (3976)",
+          "grading": "Hasan (Graded Sahih/Hasan by An-Nawawi, Ahmad, and Al-Albani)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 12: A golden foundational principle of personal time management, social dignity, and mental well-being. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 12 (Leaving What Does Not Concern You) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-12",
+          "title": "Hadith 12 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 12 (Leaving What Does Not Concern You)?",
+              "options": [
+                "Abu Hurairah",
+                "Anas ibn Malik (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 12 is famously narrated by Abu Hurairah (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 12?",
+              "options": [
+                "Mastering focus, digital discipline, and shedding unproductive distractions",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 12 focuses fundamentally on: Mastering focus, digital discipline, and shedding unproductive distractions."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 12?",
+              "options": [
+                "A golden foundational principle of personal time management, social dignity, and mental well-being.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: A golden foundational principle of personal time management, social dignity, and mental well-being."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-13",
+        "number": 13,
+        "title": "Hadith 13: Loving for Your Brother What You Love for Yourself",
+        "subtitle": "The pinnacle of empathetic brotherhood, altruism (Ithar), and community solidarity",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 2610,
+          "start": 2610,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=2610s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=2610&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=2610s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 13 of Al-Arba'een An-Nawawiyyah: Loving for Your Brother What You Love for Yourself. Narrated by Abu Hamzah Anas ibn Malik (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 13",
+          "Learn the biographical context of the narrator: Abu Hamzah Anas ibn Malik (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 13: Loving for Your Brother What You Love for Yourself\n*The pinnacle of empathetic brotherhood, altruism (Ithar), and community solidarity*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي حَمْزَةَ أَنَسِ بْنِ مَالِكٍ رَضِيَ اللَّهُ عَنْهُ، خَادِمِ رَسُولِ اللَّهِ ﷺ، عَنِ النَّبِيِّ ﷺ قَالَ: «لاَ يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Hamzah Anas ibn Malik (may Allah be pleased with him), the servant of the Messenger of Allah ﷺ, that the Prophet ﷺ said: 'None of you truly believes until he loves for his brother what he loves for himself.'\"  \n> *— Verified Reference: Sahih al-Bukhari (13), Sahih Muslim (45) (Sahih (Muttafaq 'Alayh))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Hamzah Anas ibn Malik (رضي الله عنه)**\n* **Canonical Reference**: **Sahih al-Bukhari (13), Sahih Muslim (45)**\n* **Scholarly Status**: **Sahih (Muttafaq 'Alayh)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **True faith purges the heart of toxic jealousy (Hasad), malice, and self-centered arrogance.**\n2. **A believer actively desires for fellow human beings all good things: guidance, health, economic success, and dignity.**\n3. **Establishes empathy as the cornerstone of interpersonal relationships and cooperative communities.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي حَمْزَةَ أَنَسِ بْنِ مَالِكٍ رَضِيَ اللَّهُ عَنْهُ، خَادِمِ رَسُولِ اللَّهِ ﷺ، عَنِ النَّبِيِّ ﷺ قَالَ: «لاَ يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ».",
+          "translation": "On the authority of Abu Hamzah Anas ibn Malik (may Allah be pleased with him), the servant of the Messenger of Allah ﷺ, that the Prophet ﷺ said: 'None of you truly believes until he loves for his brother what he loves for himself.'",
+          "reference": "Sahih al-Bukhari (13), Sahih Muslim (45)",
+          "grading": "Sahih (Muttafaq 'Alayh)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 13: True faith purges the heart of toxic jealousy (Hasad), malice, and self-centered arrogance. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 13 (Loving for Your Brother What You Love for Yourself) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-13",
+          "title": "Hadith 13 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 13 (Loving for Your Brother What You Love for Yourself)?",
+              "options": [
+                "Abu Hamzah Anas ibn Malik",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 13 is famously narrated by Abu Hamzah Anas ibn Malik (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 13?",
+              "options": [
+                "The pinnacle of empathetic brotherhood, altruism (Ithar), and community solidarity",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 13 focuses fundamentally on: The pinnacle of empathetic brotherhood, altruism (Ithar), and community solidarity."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 13?",
+              "options": [
+                "True faith purges the heart of toxic jealousy (Hasad), malice, and self-centered arrogance.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: True faith purges the heart of toxic jealousy (Hasad), malice, and self-centered arrogance."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-14",
+        "number": 14,
+        "title": "Hadith 14: The Inviolability of Human Life",
+        "subtitle": "The legal sanctity of life in Islamic law and the gravity of murder",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 3070,
+          "start": 3070,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=3070s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=3070&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=3070s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 14 of Al-Arba'een An-Nawawiyyah: The Inviolability of Human Life. Narrated by 'Abdullah ibn Mas'ud (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 14",
+          "Learn the biographical context of the narrator: 'Abdullah ibn Mas'ud (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 14: The Inviolability of Human Life\n*The legal sanctity of life in Islamic law and the gravity of murder*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنِ ابْنِ مَسْعُودٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «لاَ يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ يَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنِّي رَسُولُ اللَّهِ إِلاَّ بِإِحْدَى ثَلاَثٍ: الثَّيِّبُ الزَّانِي، وَالنَّفْسُ بِالنَّفْسِ، وَالتَّارِكُ لِدِينِهِ الْمُفَارِقُ لِلْجَمَاعَةِ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Ibn Mas'ud (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'The blood of a Muslim person who testifies that there is no deity worthy of worship except Allah and that I am the Messenger of Allah is not lawful [to shed] except in one of three cases: the married person who commits adultery, a life for a life [murder], and the one who forsakes his religion and abandons the community.'\"  \n> *— Verified Reference: Sahih al-Bukhari (6878), Sahih Muslim (1676) (Sahih (Muttafaq 'Alayh))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **'Abdullah ibn Mas'ud (رضي الله عنه)**\n* **Canonical Reference**: **Sahih al-Bukhari (6878), Sahih Muslim (1676)**\n* **Scholarly Status**: **Sahih (Muttafaq 'Alayh)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Human life is divinely sacred; taking a life unjustly is among the most catastrophic sins in Islam.**\n2. **Legal penalties can only be administered by legitimate judicial authorities, never through vigilantism or lawlessness.**\n3. **Protects family lineages, personal safety, and social order from decay.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنِ ابْنِ مَسْعُودٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «لاَ يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ يَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنِّي رَسُولُ اللَّهِ إِلاَّ بِإِحْدَى ثَلاَثٍ: الثَّيِّبُ الزَّانِي، وَالنَّفْسُ بِالنَّفْسِ، وَالتَّارِكُ لِدِينِهِ الْمُفَارِقُ لِلْجَمَاعَةِ».",
+          "translation": "On the authority of Ibn Mas'ud (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'The blood of a Muslim person who testifies that there is no deity worthy of worship except Allah and that I am the Messenger of Allah is not lawful [to shed] except in one of three cases: the married person who commits adultery, a life for a life [murder], and the one who forsakes his religion and abandons the community.'",
+          "reference": "Sahih al-Bukhari (6878), Sahih Muslim (1676)",
+          "grading": "Sahih (Muttafaq 'Alayh)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 14: Human life is divinely sacred; taking a life unjustly is among the most catastrophic sins in Islam. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 14 (The Inviolability of Human Life) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-14",
+          "title": "Hadith 14 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 14 (The Inviolability of Human Life)?",
+              "options": [
+                "'Abdullah ibn Mas'ud",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 14 is famously narrated by 'Abdullah ibn Mas'ud (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 14?",
+              "options": [
+                "The legal sanctity of life in Islamic law and the gravity of murder",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 14 focuses fundamentally on: The legal sanctity of life in Islamic law and the gravity of murder."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 14?",
+              "options": [
+                "Human life is divinely sacred; taking a life unjustly is among the most catastrophic sins in Islam.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Human life is divinely sacred; taking a life unjustly is among the most catastrophic sins in Islam."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-15",
+        "number": 15,
+        "title": "Hadith 15: Speaking Good, Honoring Neighbours and Guests",
+        "subtitle": "Social ethics, mindful speech, hospitality, and daily manifestation of faith",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 3432,
+          "start": 3432,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=3432s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=3432&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=3432s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 15 of Al-Arba'een An-Nawawiyyah: Speaking Good, Honoring Neighbours and Guests. Narrated by Abu Hurairah (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 15",
+          "Learn the biographical context of the narrator: Abu Hurairah (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 15: Speaking Good, Honoring Neighbours and Guests\n*Social ethics, mindful speech, hospitality, and daily manifestation of faith*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ جَارَهُ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ ضَيْفَهُ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Hurairah (may Allah be pleased with him) that the Messenger of Allah ﷺ said: 'Whoever believes in Allah and the Last Day, let him speak good or remain silent. And whoever believes in Allah and the Last Day, let him be generous to his neighbour. And whoever believes in Allah and the Last Day, let him be generous to his guest.'\"  \n> *— Verified Reference: Sahih al-Bukhari (6018), Sahih Muslim (47) (Sahih (Muttafaq 'Alayh))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Hurairah (رضي الله عنه)**\n* **Canonical Reference**: **Sahih al-Bukhari (6018), Sahih Muslim (47)**\n* **Scholarly Status**: **Sahih (Muttafaq 'Alayh)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Direct link between faith in the Day of Judgment and verbal restraint: words are recorded deeds.**\n2. **If a proposed statement is not beneficial, silence is superior, wiser, and more dignified.**\n3. **High status of neighbourly rights and hospitality to travelers and visitors in Islam.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ جَارَهُ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ ضَيْفَهُ».",
+          "translation": "On the authority of Abu Hurairah (may Allah be pleased with him) that the Messenger of Allah ﷺ said: 'Whoever believes in Allah and the Last Day, let him speak good or remain silent. And whoever believes in Allah and the Last Day, let him be generous to his neighbour. And whoever believes in Allah and the Last Day, let him be generous to his guest.'",
+          "reference": "Sahih al-Bukhari (6018), Sahih Muslim (47)",
+          "grading": "Sahih (Muttafaq 'Alayh)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 15: Direct link between faith in the Day of Judgment and verbal restraint: words are recorded deeds. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 15 (Speaking Good, Honoring Neighbours and Guests) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-15",
+          "title": "Hadith 15 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 15 (Speaking Good, Honoring Neighbours and Guests)?",
+              "options": [
+                "Abu Hurairah",
+                "Anas ibn Malik (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 15 is famously narrated by Abu Hurairah (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 15?",
+              "options": [
+                "Social ethics, mindful speech, hospitality, and daily manifestation of faith",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 15 focuses fundamentally on: Social ethics, mindful speech, hospitality, and daily manifestation of faith."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 15?",
+              "options": [
+                "Direct link between faith in the Day of Judgment and verbal restraint: words are recorded deeds.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Direct link between faith in the Day of Judgment and verbal restraint: words are recorded deeds."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-16",
+        "number": 16,
+        "title": "Hadith 16: Restraining Anger (Do Not Become Angry)",
+        "subtitle": "Emotional intelligence, impulse control, and overcoming impulsive rage",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 3730,
+          "start": 3730,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=3730s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=3730&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=3730s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 16 of Al-Arba'een An-Nawawiyyah: Restraining Anger (Do Not Become Angry). Narrated by Abu Hurairah (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 16",
+          "Learn the biographical context of the narrator: Abu Hurairah (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 16: Restraining Anger (Do Not Become Angry)\n*Emotional intelligence, impulse control, and overcoming impulsive rage*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَجُلاً قَالَ لِلنَّبِيِّ ﷺ: أَوْصِنِي. قَالَ: «لاَ تَغْضَبْ». فَرَدَّدَ مِرَارًا، قَالَ: «لاَ تَغْضَبْ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Hurairah (may Allah be pleased with him) that a man said to the Prophet ﷺ: 'Counsel me.' He said: 'Do not become angry.' The man repeated his request several times, and each time the Prophet ﷺ said: 'Do not become angry.'\"  \n> *— Verified Reference: Sahih al-Bukhari (6116) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Hurairah (رضي الله عنه)**\n* **Canonical Reference**: **Sahih al-Bukhari (6116)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **The Prophet ﷺ identified anger as the root of severed ties, broken homes, violence, and remorse.**\n2. **'Do not become angry' means: control your impulses so you do not act while enraged, and practice calming habits (wudu, silence, sitting down).**\n3. **True strength is not physical dominance; true strength is self-mastery in times of provocation.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَجُلاً قَالَ لِلنَّبِيِّ ﷺ: أَوْصِنِي. قَالَ: «لاَ تَغْضَبْ». فَرَدَّدَ مِرَارًا، قَالَ: «لاَ تَغْضَبْ».",
+          "translation": "On the authority of Abu Hurairah (may Allah be pleased with him) that a man said to the Prophet ﷺ: 'Counsel me.' He said: 'Do not become angry.' The man repeated his request several times, and each time the Prophet ﷺ said: 'Do not become angry.'",
+          "reference": "Sahih al-Bukhari (6116)",
+          "grading": "Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 16: The Prophet ﷺ identified anger as the root of severed ties, broken homes, violence, and remorse. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 16 (Restraining Anger (Do Not Become Angry)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-16",
+          "title": "Hadith 16 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 16 (Restraining Anger (Do Not Become Angry))?",
+              "options": [
+                "Abu Hurairah",
+                "Anas ibn Malik (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 16 is famously narrated by Abu Hurairah (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 16?",
+              "options": [
+                "Emotional intelligence, impulse control, and overcoming impulsive rage",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 16 focuses fundamentally on: Emotional intelligence, impulse control, and overcoming impulsive rage."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 16?",
+              "options": [
+                "The Prophet ﷺ identified anger as the root of severed ties, broken homes, violence, and remorse.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: The Prophet ﷺ identified anger as the root of severed ties, broken homes, violence, and remorse."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-17",
+        "number": 17,
+        "title": "Hadith 17: Prescribing Excellence (Ihsan) in All Things",
+        "subtitle": "Universal professionalism, compassion to animals, and ethical execution",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 3940,
+          "start": 3940,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=3940s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=3940&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=3940s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 17 of Al-Arba'een An-Nawawiyyah: Prescribing Excellence (Ihsan) in All Things. Narrated by Abu Ya'la Shaddad ibn Aws (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 17",
+          "Learn the biographical context of the narrator: Abu Ya'la Shaddad ibn Aws (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 17: Prescribing Excellence (Ihsan) in All Things\n*Universal professionalism, compassion to animals, and ethical execution*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي يَعْلَى شَدَّادِ بْنِ أَوْسٍ رَضِيَ اللَّهُ عَنْهُ عَنْ رَسُولِ اللَّهِ ﷺ قَالَ: «إِنَّ اللَّهَ كَتَبَ الإِحْسَانَ عَلَى كُلِّ شَيْءٍ، فَإِذَا قَتَلْتُمْ فَأَحْسِنُوا الْقِتْلَةَ، وَإِذَا ذَبَحْتُمْ فَأَحْسِنُوا الذِّبْحَةَ، وَلْيُحِدَّ أَحَدُكُمْ شَفْرَتَهُ، وَلْيُرِحْ ذَبِيحَتَهُ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Ya'la Shaddad ibn Aws (may Allah be pleased with him) from the Messenger of Allah ﷺ, who said: 'Verily Allah has prescribed excellence (Ihsan) upon everything. So when you execute, execute with excellence; and when you slaughter, slaughter with excellence. Let each of you sharpen his blade and give ease to the animal he slaughters.'\"  \n> *— Verified Reference: Sahih Muslim (1955) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Ya'la Shaddad ibn Aws (رضي الله عنه)**\n* **Canonical Reference**: **Sahih Muslim (1955)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Ihsan is an obligatory standard across all life endeavors: professional craftsmanship, engineering, mercy, and law.**\n2. **Profound Islamic teaching on animal welfare: minimising pain, sharpening knives away from animals, and forbidding cruelty.**\n3. **A Muslim approaches every task—whether humble or monumental—with utmost care, precision, and beauty.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي يَعْلَى شَدَّادِ بْنِ أَوْسٍ رَضِيَ اللَّهُ عَنْهُ عَنْ رَسُولِ اللَّهِ ﷺ قَالَ: «إِنَّ اللَّهَ كَتَبَ الإِحْسَانَ عَلَى كُلِّ شَيْءٍ، فَإِذَا قَتَلْتُمْ فَأَحْسِنُوا الْقِتْلَةَ، وَإِذَا ذَبَحْتُمْ فَأَحْسِنُوا الذِّبْحَةَ، وَلْيُحِدَّ أَحَدُكُمْ شَفْرَتَهُ، وَلْيُرِحْ ذَبِيحَتَهُ».",
+          "translation": "On the authority of Abu Ya'la Shaddad ibn Aws (may Allah be pleased with him) from the Messenger of Allah ﷺ, who said: 'Verily Allah has prescribed excellence (Ihsan) upon everything. So when you execute, execute with excellence; and when you slaughter, slaughter with excellence. Let each of you sharpen his blade and give ease to the animal he slaughters.'",
+          "reference": "Sahih Muslim (1955)",
+          "grading": "Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 17: Ihsan is an obligatory standard across all life endeavors: professional craftsmanship, engineering, mercy, and law. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 17 (Prescribing Excellence (Ihsan) in All Things) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-17",
+          "title": "Hadith 17 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 17 (Prescribing Excellence (Ihsan) in All Things)?",
+              "options": [
+                "Abu Ya'la Shaddad ibn Aws",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 17 is famously narrated by Abu Ya'la Shaddad ibn Aws (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 17?",
+              "options": [
+                "Universal professionalism, compassion to animals, and ethical execution",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 17 focuses fundamentally on: Universal professionalism, compassion to animals, and ethical execution."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 17?",
+              "options": [
+                "Ihsan is an obligatory standard across all life endeavors: professional craftsmanship, engineering, mercy, and law.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Ihsan is an obligatory standard across all life endeavors: professional craftsmanship, engineering, mercy, and law."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-18",
+        "number": 18,
+        "title": "Hadith 18: Fearing Allah and Noble Character (Khuluq Hasan)",
+        "subtitle": "Taqwa in private, rectifying sins with good deeds, and treating people with kindness",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 4125,
+          "start": 4125,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4125s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=4125&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4125s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 18 of Al-Arba'een An-Nawawiyyah: Fearing Allah and Noble Character (Khuluq Hasan). Narrated by Abu Dharr Jundub ibn Junadah & Abu 'Abd ar-Rahman Mu'adh ibn Jabal (رضي الله عنهما). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 18",
+          "Learn the biographical context of the narrator: Abu Dharr Jundub ibn Junadah & Abu 'Abd ar-Rahman Mu'adh ibn Jabal (رضي الله عنهما)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 18: Fearing Allah and Noble Character (Khuluq Hasan)\n*Taqwa in private, rectifying sins with good deeds, and treating people with kindness*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي ذَرٍّ جُنْدُبِ بْنِ جُنَادَةَ، وَأَبِي عَبْدِ الرَّحْمَنِ مُعَاذِ بْنِ جَبَلٍ رَضِيَ اللَّهُ عَنْهُمَا، عَنْ رَسُولِ اللَّهِ ﷺ قَالَ: «اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ، وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا، وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Dharr Jundub ibn Junadah and Abu 'Abd ar-Rahman Mu'adh ibn Jabal (may Allah be pleased with both of them) from the Messenger of Allah ﷺ, who said: 'Fear Allah wherever you may be; follow up a bad deed with a good deed and it will wipe it out; and behave towards people with good character.'\"  \n> *— Verified Reference: Sunan at-Tirmidhi (1987) (Hasan (Graded Hasan Sahih by At-Tirmidhi))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Dharr Jundub ibn Junadah & Abu 'Abd ar-Rahman Mu'adh ibn Jabal (رضي الله عنهما)**\n* **Canonical Reference**: **Sunan at-Tirmidhi (1987)**\n* **Scholarly Status**: **Hasan (Graded Hasan Sahih by At-Tirmidhi)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Taqwa (God-consciousness) is not a public show; it must govern your secret life in solitude just as in company.**\n2. **Repentance and immediate righteous deeds actively neutralize and erase past missteps.**\n3. **Noble interpersonal character (Khuluq Hasan) is the crown of religious practice.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي ذَرٍّ جُنْدُبِ بْنِ جُنَادَةَ، وَأَبِي عَبْدِ الرَّحْمَنِ مُعَاذِ بْنِ جَبَلٍ رَضِيَ اللَّهُ عَنْهُمَا، عَنْ رَسُولِ اللَّهِ ﷺ قَالَ: «اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ، وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا، وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ».",
+          "translation": "On the authority of Abu Dharr Jundub ibn Junadah and Abu 'Abd ar-Rahman Mu'adh ibn Jabal (may Allah be pleased with both of them) from the Messenger of Allah ﷺ, who said: 'Fear Allah wherever you may be; follow up a bad deed with a good deed and it will wipe it out; and behave towards people with good character.'",
+          "reference": "Sunan at-Tirmidhi (1987)",
+          "grading": "Hasan (Graded Hasan Sahih by At-Tirmidhi)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 18: Taqwa (God-consciousness) is not a public show; it must govern your secret life in solitude just as in company. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 18 (Fearing Allah and Noble Character (Khuluq Hasan)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-18",
+          "title": "Hadith 18 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 18 (Fearing Allah and Noble Character (Khuluq Hasan))?",
+              "options": [
+                "Abu Dharr Jundub ibn Junadah & Abu 'Abd ar-Rahman Mu'adh ibn Jabal",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 18 is famously narrated by Abu Dharr Jundub ibn Junadah & Abu 'Abd ar-Rahman Mu'adh ibn Jabal (رضي الله عنهما)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 18?",
+              "options": [
+                "Taqwa in private, rectifying sins with good deeds, and treating people with kindness",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 18 focuses fundamentally on: Taqwa in private, rectifying sins with good deeds, and treating people with kindness."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 18?",
+              "options": [
+                "Taqwa (God-consciousness) is not a public show; it must govern your secret life in solitude just as in company.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Taqwa (God-consciousness) is not a public show; it must govern your secret life in solitude just as in company."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-19",
+        "number": 19,
+        "title": "Hadith 19: Be Mindful of Allah, He Will Protect You",
+        "subtitle": "The great counsel to Ibn 'Abbas on reliance, divine decree, and victory through patience",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 4290,
+          "start": 4290,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4290s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=4290&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4290s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 19 of Al-Arba'een An-Nawawiyyah: Be Mindful of Allah, He Will Protect You. Narrated by 'Abdullah ibn 'Abbas (رضي الله عنهما). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 19",
+          "Learn the biographical context of the narrator: 'Abdullah ibn 'Abbas (رضي الله عنهما)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 19: Be Mindful of Allah, He Will Protect You\n*The great counsel to Ibn 'Abbas on reliance, divine decree, and victory through patience*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي الْعَبَّاسِ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: كُنْتُ خَلْفَ النَّبِيِّ ﷺ يَوْمًا، فَقَالَ: «يَا غُلاَمُ، إِنِّي أُعَلِّمُكَ كَلِمَاتٍ: احْفَظِ اللَّهَ يَحْفَظْكَ، احْفَظِ اللَّهَ تَجِدْهُ تُجَاهَكَ، إِذَا سَأَلْتَ فَاسْأَلِ اللَّهَ، وَإِذَا اسْتَعَنْتَ فَاسْتَعِنْ بِاللَّهِ، وَاعْلَمْ أَنَّ الأُمَّةَ لَوِ اجْتَمَعَتْ عَلَى أَنْ يَنْفَعُوكَ بِشَيْءٍ لَمْ يَنْفَعُوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ لَكَ، وَإِنِ اجْتَمَعُوا عَلَى أَنْ يَضُرُّوكَ بِشَيْءٍ لَمْ يَضُرُّوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ عَلَيْكَ، رُفِعَتِ الأَقْلاَمُ وَجَفَّتِ الصُّحُفُ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu al-'Abbas 'Abdullah ibn 'Abbas (may Allah be pleased with both of them), who said: One day I was riding behind the Prophet ﷺ when he said to me: 'O young man, I will teach you some words: Be mindful of Allah, and He will protect you. Be mindful of Allah, and you will find Him before you. If you ask, ask of Allah; if you seek assistance, seek assistance from Allah. And know that if the entire nation were to gather together to benefit you with something, they could not benefit you except with something that Allah had already written for you. And if they were to gather together to harm you with something, they could not harm you except with something that Allah had already written against you. The pens have been lifted, and the pages have dried.'\"  \n> *— Verified Reference: Sunan at-Tirmidhi (2516) (Hasan Sahih (Graded authentic by At-Tirmidhi))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **'Abdullah ibn 'Abbas (رضي الله عنهما)**\n* **Canonical Reference**: **Sunan at-Tirmidhi (2516)**\n* **Scholarly Status**: **Hasan Sahih (Graded authentic by At-Tirmidhi)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Guard Allah's boundaries through obedience, and He will guard your heart, faith, family, and destiny.**\n2. **Tawakkul (reliance): human beings are created means; the ultimate provider, protector, and decider is Allah alone.**\n3. **Liberates the human spirit from subservience, fear of tyrants, or anxious people-pleasing.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي الْعَبَّاسِ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: كُنْتُ خَلْفَ النَّبِيِّ ﷺ يَوْمًا، فَقَالَ: «يَا غُلاَمُ، إِنِّي أُعَلِّمُكَ كَلِمَاتٍ: احْفَظِ اللَّهَ يَحْفَظْكَ، احْفَظِ اللَّهَ تَجِدْهُ تُجَاهَكَ، إِذَا سَأَلْتَ فَاسْأَلِ اللَّهَ، وَإِذَا اسْتَعَنْتَ فَاسْتَعِنْ بِاللَّهِ، وَاعْلَمْ أَنَّ الأُمَّةَ لَوِ اجْتَمَعَتْ عَلَى أَنْ يَنْفَعُوكَ بِشَيْءٍ لَمْ يَنْفَعُوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ لَكَ، وَإِنِ اجْتَمَعُوا عَلَى أَنْ يَضُرُّوكَ بِشَيْءٍ لَمْ يَضُرُّوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ عَلَيْكَ، رُفِعَتِ الأَقْلاَمُ وَجَفَّتِ الصُّحُفُ».",
+          "translation": "On the authority of Abu al-'Abbas 'Abdullah ibn 'Abbas (may Allah be pleased with both of them), who said: One day I was riding behind the Prophet ﷺ when he said to me: 'O young man, I will teach you some words: Be mindful of Allah, and He will protect you. Be mindful of Allah, and you will find Him before you. If you ask, ask of Allah; if you seek assistance, seek assistance from Allah. And know that if the entire nation were to gather together to benefit you with something, they could not benefit you except with something that Allah had already written for you. And if they were to gather together to harm you with something, they could not harm you except with something that Allah had already written against you. The pens have been lifted, and the pages have dried.'",
+          "reference": "Sunan at-Tirmidhi (2516)",
+          "grading": "Hasan Sahih (Graded authentic by At-Tirmidhi)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 19: Guard Allah's boundaries through obedience, and He will guard your heart, faith, family, and destiny. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 19 (Be Mindful of Allah, He Will Protect You) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-19",
+          "title": "Hadith 19 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 19 (Be Mindful of Allah, He Will Protect You)?",
+              "options": [
+                "'Abdullah ibn 'Abbas",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 19 is famously narrated by 'Abdullah ibn 'Abbas (رضي الله عنهما)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 19?",
+              "options": [
+                "The great counsel to Ibn 'Abbas on reliance, divine decree, and victory through patience",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 19 focuses fundamentally on: The great counsel to Ibn 'Abbas on reliance, divine decree, and victory through patience."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 19?",
+              "options": [
+                "Guard Allah's boundaries through obedience, and He will guard your heart, faith, family, and destiny.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Guard Allah's boundaries through obedience, and He will guard your heart, faith, family, and destiny."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-20",
+        "number": 20,
+        "title": "Hadith 20: Modesty / Shyness is from Faith (Al-Haya')",
+        "subtitle": "Moral conscience as the internal guardian against indecency and shamelessness",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 4430,
+          "start": 4430,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4430s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=4430&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4430s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 20 of Al-Arba'een An-Nawawiyyah: Modesty / Shyness is from Faith (Al-Haya'). Narrated by Abu Mas'ud 'Uqbah ibn 'Amr al-Ansari (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 20",
+          "Learn the biographical context of the narrator: Abu Mas'ud 'Uqbah ibn 'Amr al-Ansari (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 20: Modesty / Shyness is from Faith (Al-Haya')\n*Moral conscience as the internal guardian against indecency and shamelessness*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي مَسْعُودٍ عُقْبَةَ بْنِ عَمْرٍو الأَنْصَارِيِّ الْبَدْرِيِّ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «إِنَّ مِمَّا أَدْرَكَ النَّاسُ مِنْ كَلاَمِ النُّبُوَّةِ الأُولَى: إِذَا لَمْ تَسْتَحْيِ فَاصْنَعْ مَا شِئْتَ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Mas'ud 'Uqbah ibn 'Amr al-Ansari al-Badri (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Verily among that which people have retained from the teachings of the earliest prophethood is: If you feel no shame, then do as you wish.'\"  \n> *— Verified Reference: Sahih al-Bukhari (3484) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Mas'ud 'Uqbah ibn 'Amr al-Ansari (رضي الله عنه)**\n* **Canonical Reference**: **Sahih al-Bukhari (3484)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Haya' (modesty and moral dignity) is an ancient, universal prophetic virtue shared across all revealed scriptures.**\n2. **When internal shame and fear of Allah are lost, human behavior devolves into shameless transgression.**\n3. **Modesty in speech, appearance, and digital presence is an essential branch of living faith.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي مَسْعُودٍ عُقْبَةَ بْنِ عَمْرٍو الأَنْصَارِيِّ الْبَدْرِيِّ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «إِنَّ مِمَّا أَدْرَكَ النَّاسُ مِنْ كَلاَمِ النُّبُوَّةِ الأُولَى: إِذَا لَمْ تَسْتَحْيِ فَاصْنَعْ مَا شِئْتَ».",
+          "translation": "On the authority of Abu Mas'ud 'Uqbah ibn 'Amr al-Ansari al-Badri (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Verily among that which people have retained from the teachings of the earliest prophethood is: If you feel no shame, then do as you wish.'",
+          "reference": "Sahih al-Bukhari (3484)",
+          "grading": "Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 20: Haya' (modesty and moral dignity) is an ancient, universal prophetic virtue shared across all revealed scriptures. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 20 (Modesty / Shyness is from Faith (Al-Haya')) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-20",
+          "title": "Hadith 20 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 20 (Modesty / Shyness is from Faith (Al-Haya'))?",
+              "options": [
+                "Abu Mas'ud 'Uqbah ibn 'Amr al-Ansari",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 20 is famously narrated by Abu Mas'ud 'Uqbah ibn 'Amr al-Ansari (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 20?",
+              "options": [
+                "Moral conscience as the internal guardian against indecency and shamelessness",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 20 focuses fundamentally on: Moral conscience as the internal guardian against indecency and shamelessness."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 20?",
+              "options": [
+                "Haya' (modesty and moral dignity) is an ancient, universal prophetic virtue shared across all revealed scriptures.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Haya' (modesty and moral dignity) is an ancient, universal prophetic virtue shared across all revealed scriptures."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-21",
+        "number": 21,
+        "title": "Hadith 21: Say: 'I Believe in Allah', then Remain Steadfast (Istiqamah)",
+        "subtitle": "Simplicity of creed paired with daily perseverance and moral consistency",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 4480,
+          "start": 4480,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4480s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=4480&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4480s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 21 of Al-Arba'een An-Nawawiyyah: Say: 'I Believe in Allah', then Remain Steadfast (Istiqamah). Narrated by Abu 'Amr (or Abu 'Amrah) Sufyan ibn 'Abdillah (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 21",
+          "Learn the biographical context of the narrator: Abu 'Amr (or Abu 'Amrah) Sufyan ibn 'Abdillah (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 21: Say: 'I Believe in Allah', then Remain Steadfast (Istiqamah)\n*Simplicity of creed paired with daily perseverance and moral consistency*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي عَمْرٍو - وَقِيلَ: أَبِي عَمْرَةَ - سُفْيَانَ بْنِ عَبْدِ اللَّهِ رَضِيَ اللَّهُ عَنْهُ قَالَ: قُلْتُ: يَا رَسُولَ اللَّهِ، قُلْ لِي فِي الإِسْلاَمِ قَوْلاً لاَ أَسْأَلُ عَنْهُ أَحَدًا غَيْرَكَ. قَالَ: «قُلْ: آمَنْتُ بِاللَّهِ، ثُمَّ اسْتَقِمْ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu 'Amr—or Abu 'Amrah—Sufyan ibn 'Abdillah (may Allah be pleased with him), who said: I said: 'O Messenger of Allah, tell me something about Islam which I could not ask anyone about other than you.' He said: 'Say: I believe in Allah, and then remain steadfast (Istiqamah).'\"  \n> *— Verified Reference: Sahih Muslim (38) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu 'Amr (or Abu 'Amrah) Sufyan ibn 'Abdillah (رضي الله عنه)**\n* **Canonical Reference**: **Sahih Muslim (38)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Islam in a single sentence: combining sound theological belief (Iman) with daily moral steadfastness (Istiqamah).**\n2. **Perseverance is more valuable than sporadic burst efforts; steady small deeds are beloved to Allah.**\n3. **Consistency on the straight path protects one against spiritual fatigue and moral drift.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي عَمْرٍو - وَقِيلَ: أَبِي عَمْرَةَ - سُفْيَانَ بْنِ عَبْدِ اللَّهِ رَضِيَ اللَّهُ عَنْهُ قَالَ: قُلْتُ: يَا رَسُولَ اللَّهِ، قُلْ لِي فِي الإِسْلاَمِ قَوْلاً لاَ أَسْأَلُ عَنْهُ أَحَدًا غَيْرَكَ. قَالَ: «قُلْ: آمَنْتُ بِاللَّهِ، ثُمَّ اسْتَقِمْ».",
+          "translation": "On the authority of Abu 'Amr—or Abu 'Amrah—Sufyan ibn 'Abdillah (may Allah be pleased with him), who said: I said: 'O Messenger of Allah, tell me something about Islam which I could not ask anyone about other than you.' He said: 'Say: I believe in Allah, and then remain steadfast (Istiqamah).'",
+          "reference": "Sahih Muslim (38)",
+          "grading": "Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 21: Islam in a single sentence: combining sound theological belief (Iman) with daily moral steadfastness (Istiqamah). Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 21 (Say: 'I Believe in Allah', then Remain Steadfast (Istiqamah)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-21",
+          "title": "Hadith 21 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 21 (Say: 'I Believe in Allah', then Remain Steadfast (Istiqamah))?",
+              "options": [
+                "Abu 'Amr",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 21 is famously narrated by Abu 'Amr (or Abu 'Amrah) Sufyan ibn 'Abdillah (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 21?",
+              "options": [
+                "Simplicity of creed paired with daily perseverance and moral consistency",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 21 focuses fundamentally on: Simplicity of creed paired with daily perseverance and moral consistency."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 21?",
+              "options": [
+                "Islam in a single sentence: combining sound theological belief (Iman) with daily moral steadfastness (Istiqamah).",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Islam in a single sentence: combining sound theological belief (Iman) with daily moral steadfastness (Istiqamah)."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-22",
+        "number": 22,
+        "title": "Hadith 22: Entering Paradise Through the Obligatory Duties",
+        "subtitle": "Sufficiency of fulfilling religious imperatives and avoiding the prohibited",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 4500,
+          "start": 4500,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4500s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=4500&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4500s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 22 of Al-Arba'een An-Nawawiyyah: Entering Paradise Through the Obligatory Duties. Narrated by Abu 'Abdillah Jabir ibn 'Abdillah al-Ansari (رضي الله عنهما). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 22",
+          "Learn the biographical context of the narrator: Abu 'Abdillah Jabir ibn 'Abdillah al-Ansari (رضي الله عنهما)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 22: Entering Paradise Through the Obligatory Duties\n*Sufficiency of fulfilling religious imperatives and avoiding the prohibited*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي عَبْدِ اللَّهِ جَابِرِ بْنِ عَبْدِ اللَّهِ الأَنْصَارِيِّ رَضِيَ اللَّهُ عَنْهُمَا أَنَّ رَجُلاً سَأَلَ رَسُولَ اللَّهِ ﷺ، فَقَالَ: أَرَأَيْتَ إِذَا صَلَّيْتُ الْمَكْتُوبَاتِ، وَصُمْتُ رَمَضَانَ، وَأَحْلَلْتُ الْحَلاَلَ، وَحَرَّمْتُ الْحَرَامَ، وَلَمْ أَزِدْ عَلَى ذَلِكَ شَيْئًا، أَأَدْخُلُ الْجَنَّةَ؟ قَالَ: «نَعَمْ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu 'Abdillah Jabir ibn 'Abdillah al-Ansari (may Allah be pleased with both of them) that a man asked the Messenger of Allah ﷺ: 'Tell me, if I perform the obligatory prayers, fast Ramadan, treat the lawful as lawful and the unlawful as unlawful, and do nothing beyond that, will I enter Paradise?' The Prophet ﷺ replied: 'Yes.'\"  \n> *— Verified Reference: Sahih Muslim (15) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu 'Abdillah Jabir ibn 'Abdillah al-Ansari (رضي الله عنهما)**\n* **Canonical Reference**: **Sahih Muslim (15)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **The foundational baseline to attain Paradise is fulfilling obligations and steering completely clear of Haram.**\n2. **Islam is accessible and realistic for ordinary people, workers, and families balancing daily responsibilities.**\n3. **Voluntary (Nawafil) deeds are recommended supplements, but the cornerstone remains the Fara'id (obligations).**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي عَبْدِ اللَّهِ جَابِرِ بْنِ عَبْدِ اللَّهِ الأَنْصَارِيِّ رَضِيَ اللَّهُ عَنْهُمَا أَنَّ رَجُلاً سَأَلَ رَسُولَ اللَّهِ ﷺ، فَقَالَ: أَرَأَيْتَ إِذَا صَلَّيْتُ الْمَكْتُوبَاتِ، وَصُمْتُ رَمَضَانَ، وَأَحْلَلْتُ الْحَلاَلَ، وَحَرَّمْتُ الْحَرَامَ، وَلَمْ أَزِدْ عَلَى ذَلِكَ شَيْئًا، أَأَدْخُلُ الْجَنَّةَ؟ قَالَ: «نَعَمْ».",
+          "translation": "On the authority of Abu 'Abdillah Jabir ibn 'Abdillah al-Ansari (may Allah be pleased with both of them) that a man asked the Messenger of Allah ﷺ: 'Tell me, if I perform the obligatory prayers, fast Ramadan, treat the lawful as lawful and the unlawful as unlawful, and do nothing beyond that, will I enter Paradise?' The Prophet ﷺ replied: 'Yes.'",
+          "reference": "Sahih Muslim (15)",
+          "grading": "Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 22: The foundational baseline to attain Paradise is fulfilling obligations and steering completely clear of Haram. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 22 (Entering Paradise Through the Obligatory Duties) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-22",
+          "title": "Hadith 22 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 22 (Entering Paradise Through the Obligatory Duties)?",
+              "options": [
+                "Abu 'Abdillah Jabir ibn 'Abdillah al-Ansari",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 22 is famously narrated by Abu 'Abdillah Jabir ibn 'Abdillah al-Ansari (رضي الله عنهما)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 22?",
+              "options": [
+                "Sufficiency of fulfilling religious imperatives and avoiding the prohibited",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 22 focuses fundamentally on: Sufficiency of fulfilling religious imperatives and avoiding the prohibited."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 22?",
+              "options": [
+                "The foundational baseline to attain Paradise is fulfilling obligations and steering completely clear of Haram.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: The foundational baseline to attain Paradise is fulfilling obligations and steering completely clear of Haram."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-23",
+        "number": 23,
+        "title": "Hadith 23: Purity is Half of Faith (At-Tuhuru Shatrul-Iman)",
+        "subtitle": "Spiritual cleanliness, prayer as light, charity as proof, patience, and dhikr",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 4530,
+          "start": 4530,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4530s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=4530&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4530s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 23 of Al-Arba'een An-Nawawiyyah: Purity is Half of Faith (At-Tuhuru Shatrul-Iman). Narrated by Abu Malik al-Harith ibn 'Asim al-Ash'ari (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 23",
+          "Learn the biographical context of the narrator: Abu Malik al-Harith ibn 'Asim al-Ash'ari (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 23: Purity is Half of Faith (At-Tuhuru Shatrul-Iman)\n*Spiritual cleanliness, prayer as light, charity as proof, patience, and dhikr*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي مَالِكٍ الْحَارِثِ بْنِ عَاصِمٍ الأَشْعَرِيِّ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «الطُّهُورُ شَطْرُ الإِيمَانِ، وَالْحَمْدُ لِلَّهِ تَمْلأُ الْمِيزَانَ، وَسُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ تَمْلآنِ - أَوْ تَمْلأُ - مَا بَيْنَ السَّمَاءِ وَالأَرْضِ، وَالصَّلاَةُ نُورٌ، وَالصَّدَقَةُ بُرْهَانٌ، وَالصَّبْرُ ضِيَاءٌ، وَالْقُرْآنُ حُجَّةٌ لَكَ أَوْ عَلَيْكَ، كُلُّ النَّاسِ يَغْدُو، فَبَائِعٌ نَفْسَهُ، فَمُعْتِقُهَا أَوْ مُوبِقُهَا».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Malik al-Harith ibn 'Asim al-Ash'ari (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Purity is half of faith. «Al-Hamdulillah» (Praise be to Allah) fills the scale. «SubhanAllah» (Glory be to Allah) and «Al-Hamdulillah» fill what is between heaven and earth. Prayer is a light, charity is a proof, patience is illumination, and the Qur'an is an argument for you or against you. Every person sets out at dawn, selling his soul—either freeing it or destroying it.'\"  \n> *— Verified Reference: Sahih Muslim (223) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Malik al-Harith ibn 'Asim al-Ash'ari (رضي الله عنه)**\n* **Canonical Reference**: **Sahih Muslim (223)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Physical hygiene and spiritual purification of the heart together constitute half of true faith.**\n2. **Dhikr (remembrance of Allah) carries immense metaphysical weight upon the divine scales on the Day of Judgment.**\n3. **Every new day is an economic transaction of the soul: you either ransom it to Allah through obedience or enslave it to ruin.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي مَالِكٍ الْحَارِثِ بْنِ عَاصِمٍ الأَشْعَرِيِّ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «الطُّهُورُ شَطْرُ الإِيمَانِ، وَالْحَمْدُ لِلَّهِ تَمْلأُ الْمِيزَانَ، وَسُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ تَمْلآنِ - أَوْ تَمْلأُ - مَا بَيْنَ السَّمَاءِ وَالأَرْضِ، وَالصَّلاَةُ نُورٌ، وَالصَّدَقَةُ بُرْهَانٌ، وَالصَّبْرُ ضِيَاءٌ، وَالْقُرْآنُ حُجَّةٌ لَكَ أَوْ عَلَيْكَ، كُلُّ النَّاسِ يَغْدُو، فَبَائِعٌ نَفْسَهُ، فَمُعْتِقُهَا أَوْ مُوبِقُهَا».",
+          "translation": "On the authority of Abu Malik al-Harith ibn 'Asim al-Ash'ari (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Purity is half of faith. «Al-Hamdulillah» (Praise be to Allah) fills the scale. «SubhanAllah» (Glory be to Allah) and «Al-Hamdulillah» fill what is between heaven and earth. Prayer is a light, charity is a proof, patience is illumination, and the Qur'an is an argument for you or against you. Every person sets out at dawn, selling his soul—either freeing it or destroying it.'",
+          "reference": "Sahih Muslim (223)",
+          "grading": "Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 23: Physical hygiene and spiritual purification of the heart together constitute half of true faith. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 23 (Purity is Half of Faith (At-Tuhuru Shatrul-Iman)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-23",
+          "title": "Hadith 23 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 23 (Purity is Half of Faith (At-Tuhuru Shatrul-Iman))?",
+              "options": [
+                "Abu Malik al-Harith ibn 'Asim al-Ash'ari",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 23 is famously narrated by Abu Malik al-Harith ibn 'Asim al-Ash'ari (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 23?",
+              "options": [
+                "Spiritual cleanliness, prayer as light, charity as proof, patience, and dhikr",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 23 focuses fundamentally on: Spiritual cleanliness, prayer as light, charity as proof, patience, and dhikr."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 23?",
+              "options": [
+                "Physical hygiene and spiritual purification of the heart together constitute half of true faith.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Physical hygiene and spiritual purification of the heart together constitute half of true faith."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-24",
+        "number": 24,
+        "title": "Hadith 24: Prohibition of Injustice and Oppression (Hadith Qudsi)",
+        "subtitle": "Divine justice, human dependency upon Allah, and the absolute self-sufficiency of the Creator",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 4935,
+          "start": 4935,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4935s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=4935&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=4935s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 24 of Al-Arba'een An-Nawawiyyah: Prohibition of Injustice and Oppression (Hadith Qudsi). Narrated by Abu Dharr al-Ghifari (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 24",
+          "Learn the biographical context of the narrator: Abu Dharr al-Ghifari (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 24: Prohibition of Injustice and Oppression (Hadith Qudsi)\n*Divine justice, human dependency upon Allah, and the absolute self-sufficiency of the Creator*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي ذَرٍّ الْغِفَارِيِّ رَضِيَ اللَّهُ عَنْهُ، عَنِ النَّبِيِّ ﷺ فِيمَا يَرْوِيهِ عَنْ رَبِّهِ تَبَارَكَ وَتَعَالَى، أَنَّهُ قَالَ: «يَا عِبَادِي، إِنِّي حَرَّمْتُ الظُّلْمَ عَلَى نَفْسِي، وَجَعَلْتُهُ بَيْنَكُمْ مُحَرَّمًا، فَلاَ تَظَالَمُوا. يَا عِبَادِي، كُلُّكُمْ ضَالٌّ إِلاَّ مَنْ هَدَيْتُهُ، فَاسْتَهْدُونِي أَهْدِكُمْ. يَا عِبَادِي، كُلُّكُمْ جَائِعٌ إِلاَّ مَنْ أَطْعَمْتُهُ، فَاسْتَطْعِمُونِي أُطْعِمْكُمْ... يَا عِبَادِي، إِنَّمَا هِيَ أَعْمَالُكُمْ أُحْصِيهَا لَكُمْ، ثُمَّ أُوَفِّيكُمْ إِيَّاهَا، فَمَنْ وَجَدَ خَيْرًا فَلْيَحْمَدِ اللَّهَ، وَمَنْ وَجَدَ غَيْرَ ذَلِكَ فَلاَ يَلُومَنَّ إِلاَّ نَفْسَهُ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Dharr al-Ghifari (may Allah be pleased with him) from the Prophet ﷺ, who related from his Lord, Blessed and Exalted, that He said: 'O My servants, truly I have forbidden injustice unto Myself, and I have made it forbidden among you, so do not oppress one another! O My servants, all of you are astray except those whom I have guided, so seek guidance from Me, and I will guide you. O My servants, all of you are hungry except those whom I have fed, so ask Me for food, and I will feed you... O My servants, it is only your deeds that I record for you and then recompense you for. So whoever finds good, let him praise Allah; and whoever finds other than that, let him blame no one but himself.'\"  \n> *— Verified Reference: Sahih Muslim (2577) (Sahih (Hadith Qudsi))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Dharr al-Ghifari (رضي الله عنه)**\n* **Canonical Reference**: **Sahih Muslim (2577)**\n* **Scholarly Status**: **Sahih (Hadith Qudsi)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Injustice (Zulm) is unequivocally prohibited by Allah; oppression brings darkness on the Day of Resurrection.**\n2. **All creation is completely dependent upon Allah for guidance, food, forgiveness, and protection.**\n3. **Human obedience does not increase Allah's kingdom, nor does human disobedience diminish it in the least.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي ذَرٍّ الْغِفَارِيِّ رَضِيَ اللَّهُ عَنْهُ، عَنِ النَّبِيِّ ﷺ فِيمَا يَرْوِيهِ عَنْ رَبِّهِ تَبَارَكَ وَتَعَالَى، أَنَّهُ قَالَ: «يَا عِبَادِي، إِنِّي حَرَّمْتُ الظُّلْمَ عَلَى نَفْسِي، وَجَعَلْتُهُ بَيْنَكُمْ مُحَرَّمًا، فَلاَ تَظَالَمُوا. يَا عِبَادِي، كُلُّكُمْ ضَالٌّ إِلاَّ مَنْ هَدَيْتُهُ، فَاسْتَهْدُونِي أَهْدِكُمْ. يَا عِبَادِي، كُلُّكُمْ جَائِعٌ إِلاَّ مَنْ أَطْعَمْتُهُ، فَاسْتَطْعِمُونِي أُطْعِمْكُمْ... يَا عِبَادِي، إِنَّمَا هِيَ أَعْمَالُكُمْ أُحْصِيهَا لَكُمْ، ثُمَّ أُوَفِّيكُمْ إِيَّاهَا، فَمَنْ وَجَدَ خَيْرًا فَلْيَحْمَدِ اللَّهَ، وَمَنْ وَجَدَ غَيْرَ ذَلِكَ فَلاَ يَلُومَنَّ إِلاَّ نَفْسَهُ».",
+          "translation": "On the authority of Abu Dharr al-Ghifari (may Allah be pleased with him) from the Prophet ﷺ, who related from his Lord, Blessed and Exalted, that He said: 'O My servants, truly I have forbidden injustice unto Myself, and I have made it forbidden among you, so do not oppress one another! O My servants, all of you are astray except those whom I have guided, so seek guidance from Me, and I will guide you. O My servants, all of you are hungry except those whom I have fed, so ask Me for food, and I will feed you... O My servants, it is only your deeds that I record for you and then recompense you for. So whoever finds good, let him praise Allah; and whoever finds other than that, let him blame no one but himself.'",
+          "reference": "Sahih Muslim (2577)",
+          "grading": "Sahih (Hadith Qudsi)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 24: Injustice (Zulm) is unequivocally prohibited by Allah; oppression brings darkness on the Day of Resurrection. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 24 (Prohibition of Injustice and Oppression (Hadith Qudsi)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-24",
+          "title": "Hadith 24 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 24 (Prohibition of Injustice and Oppression (Hadith Qudsi))?",
+              "options": [
+                "Abu Dharr al-Ghifari",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 24 is famously narrated by Abu Dharr al-Ghifari (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 24?",
+              "options": [
+                "Divine justice, human dependency upon Allah, and the absolute self-sufficiency of the Creator",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 24 focuses fundamentally on: Divine justice, human dependency upon Allah, and the absolute self-sufficiency of the Creator."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 24?",
+              "options": [
+                "Injustice (Zulm) is unequivocally prohibited by Allah; oppression brings darkness on the Day of Resurrection.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Injustice (Zulm) is unequivocally prohibited by Allah; oppression brings darkness on the Day of Resurrection."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-25",
+        "number": 25,
+        "title": "Hadith 25: The Breadth and Abundance of Charity (Sadaqah)",
+        "subtitle": "Tasbeeh, marital intimacy, good deeds, and charity accessible to all",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 5950,
+          "start": 5950,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=5950s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=5950&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=5950s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 25 of Al-Arba'een An-Nawawiyyah: The Breadth and Abundance of Charity (Sadaqah). Narrated by Abu Dharr al-Ghifari (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 25",
+          "Learn the biographical context of the narrator: Abu Dharr al-Ghifari (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 25: The Breadth and Abundance of Charity (Sadaqah)\n*Tasbeeh, marital intimacy, good deeds, and charity accessible to all*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي ذَرٍّ رَضِيَ اللَّهُ عَنْهُ أَنَّ نَاسًا مِنْ أَصْحَابِ رَسُولِ اللَّهِ ﷺ قَالُوا لِلنَّبِيِّ ﷺ: يَا رَسُولَ اللَّهِ، ذَهَبَ أَهْلُ الدُّثُورِ بِالأُجُورِ؛ يُصَلُّونَ كَمَا نُصَلِّي، وَيَصُومُونَ كَمَا نَصُومُ، وَيَتَصَدَّقُونَ بِفُضُولِ أَمْوَالِهِمْ! قَالَ: «أَوَلَيْسَ قَدْ جَعَلَ اللَّهُ لَكُمْ مَا تَصَّدَّقُونَ؟ إِنَّ بِكُلِّ تَسْبِيحَةٍ صَدَقَةً، وَكُلِّ تَكْبِيرَةٍ صَدَقَةً، وَكُلِّ تَحْمِيدَةٍ صَدَقَةً، وَكُلِّ تَهْلِيلَةٍ صَدَقَةً، وَأَمْرٌ بِالْمَعْرُوفِ صَدَقَةٌ، وَنَهْيٌ عَنْ مُنْكَرٍ صَدَقَةٌ، وَفِي بُضْعِ أَحَدِكُمْ صَدَقَةٌ». قَالُوا: يَا رَسُولَ اللَّهِ، أَيَأْتِي أَحَدُنَا شَهْوَتَهُ وَيَكُونُ لَهُ فِيهَا أَجْرٌ؟! قَالَ: «أَرَأَيْتُمْ لَوْ وَضَعَهَا فِي حَرَامٍ، أَكَانَ عَلَيْهِ فِيهَا وِزْرٌ؟ فَكَذَلِكَ إِذَا وَضَعَهَا فِي الْحَلاَلِ كَانَ لَهُ أَجْرٌ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Dharr (may Allah be pleased with him): Some companions of the Messenger of Allah ﷺ said to him: 'O Messenger of Allah, the affluent people have taken all the rewards! They pray as we pray, they fast as we fast, and they give charity from their surplus wealth!' He replied: 'Has not Allah made for you that which you can give as charity? Truly every Tasbeeh (SubhanAllah) is a charity, every Takbeer (Allahu Akbar) is a charity, every Tahmeed (Alhamdulillah) is a charity, every Tahleel (La ilaha illallah) is a charity, enjoining good is a charity, forbidding evil is a charity, and in the intimate relations of each of you is a charity.' They said: 'O Messenger of Allah, does one of us fulfill his desire and get rewarded for it?!' He said: 'Do you not see that if he satisfied it unlawfully, would he not incur a sin? Likewise, when he satisfies it lawfully, he receives a reward.'\"  \n> *— Verified Reference: Sahih Muslim (1006) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Dharr al-Ghifari (رضي الله عنه)**\n* **Canonical Reference**: **Sahih Muslim (1006)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Charity (Sadaqah) is not restricted to money; every act of goodness, speech, and justice is charity.**\n2. **Wholesome halal pursuits and lawful marital intimacy earn divine reward when entered with clean intentions.**\n3. **Democratizes spiritual reward so that low-income believers can outstrip the wealthy in good deeds.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي ذَرٍّ رَضِيَ اللَّهُ عَنْهُ أَنَّ نَاسًا مِنْ أَصْحَابِ رَسُولِ اللَّهِ ﷺ قَالُوا لِلنَّبِيِّ ﷺ: يَا رَسُولَ اللَّهِ، ذَهَبَ أَهْلُ الدُّثُورِ بِالأُجُورِ؛ يُصَلُّونَ كَمَا نُصَلِّي، وَيَصُومُونَ كَمَا نَصُومُ، وَيَتَصَدَّقُونَ بِفُضُولِ أَمْوَالِهِمْ! قَالَ: «أَوَلَيْسَ قَدْ جَعَلَ اللَّهُ لَكُمْ مَا تَصَّدَّقُونَ؟ إِنَّ بِكُلِّ تَسْبِيحَةٍ صَدَقَةً، وَكُلِّ تَكْبِيرَةٍ صَدَقَةً، وَكُلِّ تَحْمِيدَةٍ صَدَقَةً، وَكُلِّ تَهْلِيلَةٍ صَدَقَةً، وَأَمْرٌ بِالْمَعْرُوفِ صَدَقَةٌ، وَنَهْيٌ عَنْ مُنْكَرٍ صَدَقَةٌ، وَفِي بُضْعِ أَحَدِكُمْ صَدَقَةٌ». قَالُوا: يَا رَسُولَ اللَّهِ، أَيَأْتِي أَحَدُنَا شَهْوَتَهُ وَيَكُونُ لَهُ فِيهَا أَجْرٌ؟! قَالَ: «أَرَأَيْتُمْ لَوْ وَضَعَهَا فِي حَرَامٍ، أَكَانَ عَلَيْهِ فِيهَا وِزْرٌ؟ فَكَذَلِكَ إِذَا وَضَعَهَا فِي الْحَلاَلِ كَانَ لَهُ أَجْرٌ».",
+          "translation": "On the authority of Abu Dharr (may Allah be pleased with him): Some companions of the Messenger of Allah ﷺ said to him: 'O Messenger of Allah, the affluent people have taken all the rewards! They pray as we pray, they fast as we fast, and they give charity from their surplus wealth!' He replied: 'Has not Allah made for you that which you can give as charity? Truly every Tasbeeh (SubhanAllah) is a charity, every Takbeer (Allahu Akbar) is a charity, every Tahmeed (Alhamdulillah) is a charity, every Tahleel (La ilaha illallah) is a charity, enjoining good is a charity, forbidding evil is a charity, and in the intimate relations of each of you is a charity.' They said: 'O Messenger of Allah, does one of us fulfill his desire and get rewarded for it?!' He said: 'Do you not see that if he satisfied it unlawfully, would he not incur a sin? Likewise, when he satisfies it lawfully, he receives a reward.'",
+          "reference": "Sahih Muslim (1006)",
+          "grading": "Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 25: Charity (Sadaqah) is not restricted to money; every act of goodness, speech, and justice is charity. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 25 (The Breadth and Abundance of Charity (Sadaqah)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-25",
+          "title": "Hadith 25 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 25 (The Breadth and Abundance of Charity (Sadaqah))?",
+              "options": [
+                "Abu Dharr al-Ghifari",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 25 is famously narrated by Abu Dharr al-Ghifari (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 25?",
+              "options": [
+                "Tasbeeh, marital intimacy, good deeds, and charity accessible to all",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 25 focuses fundamentally on: Tasbeeh, marital intimacy, good deeds, and charity accessible to all."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 25?",
+              "options": [
+                "Charity (Sadaqah) is not restricted to money; every act of goodness, speech, and justice is charity.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Charity (Sadaqah) is not restricted to money; every act of goodness, speech, and justice is charity."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-26",
+        "number": 26,
+        "title": "Hadith 26: Daily Charity for Every Human Joint",
+        "subtitle": "Civic duty, helping others, fair mediation, and clearing obstacles from roads",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 6260,
+          "start": 6260,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=6260s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=6260&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=6260s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 26 of Al-Arba'een An-Nawawiyyah: Daily Charity for Every Human Joint. Narrated by Abu Hurairah (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 26",
+          "Learn the biographical context of the narrator: Abu Hurairah (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 26: Daily Charity for Every Human Joint\n*Civic duty, helping others, fair mediation, and clearing obstacles from roads*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «كُلُّ سُلاَمَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ: تَعْدِلُ بَيْنَ الاِثْنَيْنِ صَدَقَةٌ، وَتُعِينُ الرَّجُلَ فِي دَابَّتِهِ فَتَحْمِلُهُ عَلَيْهَا أَوْ تَرْفَعُ لَهُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ، وَالْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ، وَكُلُّ خَطْوَةٍ تَمْشِيهَا إِلَى الصَّلاَةِ صَدَقَةٌ، وَتُمِيطُ الأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Hurairah (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Upon every joint of a person there is a charity due on every day that the sun rises: judging fairly between two people is a charity; helping a person with his mount—helping him onto it or hoisting his luggage onto it—is a charity; a good word is a charity; every step you take towards the prayer is a charity; and removing harmful obstacles from the road is a charity.'\"  \n> *— Verified Reference: Sahih al-Bukhari (2989), Sahih Muslim (1009) (Sahih (Muttafaq 'Alayh))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Hurairah (رضي الله عنه)**\n* **Canonical Reference**: **Sahih al-Bukhari (2989), Sahih Muslim (1009)**\n* **Scholarly Status**: **Sahih (Muttafaq 'Alayh)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **A daily gratitude tax (360 joints in the human body) expressed through proactive community service.**\n2. **Resolving interpersonal conflicts and speaking kind, encouraging words counts as divine charity.**\n3. **Public civic hygiene, environmental care, and clearing hazards from public walkways are rewarded worship.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «كُلُّ سُلاَمَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ: تَعْدِلُ بَيْنَ الاِثْنَيْنِ صَدَقَةٌ، وَتُعِينُ الرَّجُلَ فِي دَابَّتِهِ فَتَحْمِلُهُ عَلَيْهَا أَوْ تَرْفَعُ لَهُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ، وَالْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ، وَكُلُّ خَطْوَةٍ تَمْشِيهَا إِلَى الصَّلاَةِ صَدَقَةٌ، وَتُمِيطُ الأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ».",
+          "translation": "On the authority of Abu Hurairah (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Upon every joint of a person there is a charity due on every day that the sun rises: judging fairly between two people is a charity; helping a person with his mount—helping him onto it or hoisting his luggage onto it—is a charity; a good word is a charity; every step you take towards the prayer is a charity; and removing harmful obstacles from the road is a charity.'",
+          "reference": "Sahih al-Bukhari (2989), Sahih Muslim (1009)",
+          "grading": "Sahih (Muttafaq 'Alayh)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 26: A daily gratitude tax (360 joints in the human body) expressed through proactive community service. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 26 (Daily Charity for Every Human Joint) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-26",
+          "title": "Hadith 26 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 26 (Daily Charity for Every Human Joint)?",
+              "options": [
+                "Abu Hurairah",
+                "Anas ibn Malik (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 26 is famously narrated by Abu Hurairah (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 26?",
+              "options": [
+                "Civic duty, helping others, fair mediation, and clearing obstacles from roads",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 26 focuses fundamentally on: Civic duty, helping others, fair mediation, and clearing obstacles from roads."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 26?",
+              "options": [
+                "A daily gratitude tax (360 joints in the human body) expressed through proactive community service.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: A daily gratitude tax (360 joints in the human body) expressed through proactive community service."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-27",
+        "number": 27,
+        "title": "Hadith 27: Righteousness is Good Character; Sin Causes Internal Unease",
+        "subtitle": "The innate moral compass (Fitrah) and consulting your conscience",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 7 - 27) | Ustadh AbdulRahman Hassan | Day 10",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "6WWZ15n4ZW0",
+          "videoStartTime": 6802,
+          "start": 6802,
+          "watchUrl": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=6802s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/6WWZ15n4ZW0?start=6802&rel=0",
+          "url": "https://www.youtube.com/watch?v=6WWZ15n4ZW0&t=6802s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 27 of Al-Arba'een An-Nawawiyyah: Righteousness is Good Character; Sin Causes Internal Unease. Narrated by An-Nawwas ibn Sam'an & Wabisah ibn Ma'bad (رضي الله عنهما). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 27",
+          "Learn the biographical context of the narrator: An-Nawwas ibn Sam'an & Wabisah ibn Ma'bad (رضي الله عنهما)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 27: Righteousness is Good Character; Sin Causes Internal Unease\n*The innate moral compass (Fitrah) and consulting your conscience*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنِ النَّوَّاسِ بْنِ سَمْعَانَ رَضِيَ اللَّهُ عَنْهُ، عَنِ النَّبِيِّ ﷺ قَالَ: «الْبِرُّ حُسْنُ الْخُلُقِ، وَالإِثْمُ مَا حَاكَ فِي نَفْسِكَ، وَكَرِهْتَ أَنْ يَطَّلِعَ عَلَيْهِ النَّاسُ». [رَوَاهُ مُسْلِمٌ]. وَعَنْ وَابِصَةَ بْنِ مَعْبَدٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: أَتَيْتُ رَسُولَ اللَّهِ ﷺ فَقَالَ: «جِئْتَ تَسْأَلُ عَنِ الْبِرِّ؟» قُلْتُ: نَعَمْ. قَالَ: «اسْتَفْتِ قَلْبَكَ؛ الْبِرُّ مَا اطْمَأَنَّتْ إِلَيْهِ النَّفْسُ وَاطْمَأَنَّ إِلَيْهِ الْقَلْبُ، وَالإِثْمُ مَا حَاكَ فِي النَّفْسِ وَتَرَدَّدَ فِي الصَّدْرِ، وَإِنْ أَفْتَاكَ النَّاسُ وَأَفْتَوْكَ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of An-Nawwas ibn Sam'an (may Allah be pleased with him) from the Prophet ﷺ, who said: 'Righteousness (Birr) is good character, and sin is that which wavers within your soul and you dislike that people should find out about it.' [Narrated by Muslim]. And on the authority of Wabisah ibn Ma'bad (may Allah be pleased with him), who said: I came to the Messenger of Allah ﷺ and he said: 'Have you come to ask about righteousness?' I said: 'Yes.' He said: 'Consult your heart. Righteousness is that with which the soul feels at peace and the heart feels tranquil, and sin is that which wavers in the soul and hesitates in the chest, even if people give you their verdict again and again.'\"  \n> *— Verified Reference: Sahih Muslim (2553), Sunan ad-Darimi (2533), Musnad Ahmad (4/227) (Hasan)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **An-Nawwas ibn Sam'an & Wabisah ibn Ma'bad (رضي الله عنهما)**\n* **Canonical Reference**: **Sahih Muslim (2553), Sunan ad-Darimi (2533), Musnad Ahmad (4/227)**\n* **Scholarly Status**: **Hasan**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **The innate moral compass (Fitrah) of a sound heart recognizes good and shrinks back from sin.**\n2. **If a deed causes guilt, inner hesitation, and shame should others discover it, it is a warning sign of wrongdoing.**\n3. **Do not use deceptive loopholes or seek permissive opinions to justify what your conscience knows is wrong.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنِ النَّوَّاسِ بْنِ سَمْعَانَ رَضِيَ اللَّهُ عَنْهُ، عَنِ النَّبِيِّ ﷺ قَالَ: «الْبِرُّ حُسْنُ الْخُلُقِ، وَالإِثْمُ مَا حَاكَ فِي نَفْسِكَ، وَكَرِهْتَ أَنْ يَطَّلِعَ عَلَيْهِ النَّاسُ». [رَوَاهُ مُسْلِمٌ]. وَعَنْ وَابِصَةَ بْنِ مَعْبَدٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: أَتَيْتُ رَسُولَ اللَّهِ ﷺ فَقَالَ: «جِئْتَ تَسْأَلُ عَنِ الْبِرِّ؟» قُلْتُ: نَعَمْ. قَالَ: «اسْتَفْتِ قَلْبَكَ؛ الْبِرُّ مَا اطْمَأَنَّتْ إِلَيْهِ النَّفْسُ وَاطْمَأَنَّ إِلَيْهِ الْقَلْبُ، وَالإِثْمُ مَا حَاكَ فِي النَّفْسِ وَتَرَدَّدَ فِي الصَّدْرِ، وَإِنْ أَفْتَاكَ النَّاسُ وَأَفْتَوْكَ».",
+          "translation": "On the authority of An-Nawwas ibn Sam'an (may Allah be pleased with him) from the Prophet ﷺ, who said: 'Righteousness (Birr) is good character, and sin is that which wavers within your soul and you dislike that people should find out about it.' [Narrated by Muslim]. And on the authority of Wabisah ibn Ma'bad (may Allah be pleased with him), who said: I came to the Messenger of Allah ﷺ and he said: 'Have you come to ask about righteousness?' I said: 'Yes.' He said: 'Consult your heart. Righteousness is that with which the soul feels at peace and the heart feels tranquil, and sin is that which wavers in the soul and hesitates in the chest, even if people give you their verdict again and again.'",
+          "reference": "Sahih Muslim (2553), Sunan ad-Darimi (2533), Musnad Ahmad (4/227)",
+          "grading": "Hasan"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 27: The innate moral compass (Fitrah) of a sound heart recognizes good and shrinks back from sin. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 27 (Righteousness is Good Character; Sin Causes Internal Unease) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-27",
+          "title": "Hadith 27 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 27 (Righteousness is Good Character; Sin Causes Internal Unease)?",
+              "options": [
+                "An-Nawwas ibn Sam'an & Wabisah ibn Ma'bad",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 27 is famously narrated by An-Nawwas ibn Sam'an & Wabisah ibn Ma'bad (رضي الله عنهما)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 27?",
+              "options": [
+                "The innate moral compass (Fitrah) and consulting your conscience",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 27 focuses fundamentally on: The innate moral compass (Fitrah) and consulting your conscience."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 27?",
+              "options": [
+                "The innate moral compass (Fitrah) of a sound heart recognizes good and shrinks back from sin.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: The innate moral compass (Fitrah) of a sound heart recognizes good and shrinks back from sin."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-28",
+        "number": 28,
+        "title": "Hadith 28: Adhering Strictly to the Prophetic Sunnah",
+        "subtitle": "The tearful farewell sermon, warning against religious innovation, and following the Rightly-Guided Caliphs",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 40,
+          "start": 40,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=40s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=40&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=40s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 28 of Al-Arba'een An-Nawawiyyah: Adhering Strictly to the Prophetic Sunnah. Narrated by Abu Najih al-'Irbad ibn Sariyah (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 28",
+          "Learn the biographical context of the narrator: Abu Najih al-'Irbad ibn Sariyah (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 28: Adhering Strictly to the Prophetic Sunnah\n*The tearful farewell sermon, warning against religious innovation, and following the Rightly-Guided Caliphs*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي نَجِيحٍ الْعِرْبَاضِ بْنِ سَارِيَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: وَعَظَنَا رَسُولُ اللَّهِ ﷺ مَوْعِظَةً وَجِلَتْ مِنْهَا الْقُلُوبُ، وَذَرِفَتْ مِنْهَا الْعُيُونُ، فَقُلْنَا: يَا رَسُولَ اللَّهِ، كَأَنَّهَا مَوْعِظَةُ مُوَدِّعٍ فَأَوْصِنَا! قَالَ: «أُوصِيكُمْ بِتَقْوَى اللَّهِ، وَالسَّمْعِ وَالطَّاعَةِ وَإِنْ تَأَمَّرَ عَلَيْكُمْ عَبْدٌ، فَإِنَّهُ مَنْ يَعِشْ مِنْكُمْ بَعْدِي فَسَيَرَى اخْتِلاَفًا كَثِيرًا، فَعَلَيْكُمْ بِسُنَّتِي وَسُنَّةِ الْخُلَفَاءِ الرَّاشِدِينَ الْمَهْدِيِّينَ، عَضُّوا عَلَيْهَا بِالنَّوَاجِذِ، وَإِيَّاكُمْ وَمُحْدَثَاتِ الأُمُورِ، فَإِنَّ كُلَّ مُحْدَثَةٍ بِدْعَةٌ، وَكُلَّ بِدْعَةٍ ضَلاَلَةٌ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Najih al-'Irbad ibn Sariyah (may Allah be pleased with him), who said: The Messenger of Allah ﷺ gave us a sermon by which our hearts were filled with awe and our eyes shed tears. So we said: 'O Messenger of Allah, it is as though this were a farewell sermon, so advise us!' He said: 'I counsel you to fear Allah, and to hear and obey even if an Abyssinian slave were placed in command over you. For verily, whoever among you lives after me will see great controversy. So adhere to my Sunnah and the sunnah of the Rightly-Guided Caliphs; bite onto it with your molar teeth! And beware of newly-invented matters, for every newly-invented matter is an innovation, and every innovation is misguidance.'\"  \n> *— Verified Reference: Sunan Abi Dawud (4607), Sunan at-Tirmidhi (2676) (Hasan Sahih (Graded authentic by At-Tirmidhi))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Najih al-'Irbad ibn Sariyah (رضي الله عنه)**\n* **Canonical Reference**: **Sunan Abi Dawud (4607), Sunan at-Tirmidhi (2676)**\n* **Scholarly Status**: **Hasan Sahih (Graded authentic by At-Tirmidhi)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **In times of ideological confusion, controversy, and discord, safety lies in clinging tenaciously to the Sunnah.**\n2. **The methodology of the Rightly-Guided Caliphs (Abu Bakr, 'Umar, 'Uthman, 'Ali) is an authoritative model of understanding Islam.**\n3. **Respecting legitimate authority and maintaining civic order shields society from civil collapse.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي نَجِيحٍ الْعِرْبَاضِ بْنِ سَارِيَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: وَعَظَنَا رَسُولُ اللَّهِ ﷺ مَوْعِظَةً وَجِلَتْ مِنْهَا الْقُلُوبُ، وَذَرِفَتْ مِنْهَا الْعُيُونُ، فَقُلْنَا: يَا رَسُولَ اللَّهِ، كَأَنَّهَا مَوْعِظَةُ مُوَدِّعٍ فَأَوْصِنَا! قَالَ: «أُوصِيكُمْ بِتَقْوَى اللَّهِ، وَالسَّمْعِ وَالطَّاعَةِ وَإِنْ تَأَمَّرَ عَلَيْكُمْ عَبْدٌ، فَإِنَّهُ مَنْ يَعِشْ مِنْكُمْ بَعْدِي فَسَيَرَى اخْتِلاَفًا كَثِيرًا، فَعَلَيْكُمْ بِسُنَّتِي وَسُنَّةِ الْخُلَفَاءِ الرَّاشِدِينَ الْمَهْدِيِّينَ، عَضُّوا عَلَيْهَا بِالنَّوَاجِذِ، وَإِيَّاكُمْ وَمُحْدَثَاتِ الأُمُورِ، فَإِنَّ كُلَّ مُحْدَثَةٍ بِدْعَةٌ، وَكُلَّ بِدْعَةٍ ضَلاَلَةٌ».",
+          "translation": "On the authority of Abu Najih al-'Irbad ibn Sariyah (may Allah be pleased with him), who said: The Messenger of Allah ﷺ gave us a sermon by which our hearts were filled with awe and our eyes shed tears. So we said: 'O Messenger of Allah, it is as though this were a farewell sermon, so advise us!' He said: 'I counsel you to fear Allah, and to hear and obey even if an Abyssinian slave were placed in command over you. For verily, whoever among you lives after me will see great controversy. So adhere to my Sunnah and the sunnah of the Rightly-Guided Caliphs; bite onto it with your molar teeth! And beware of newly-invented matters, for every newly-invented matter is an innovation, and every innovation is misguidance.'",
+          "reference": "Sunan Abi Dawud (4607), Sunan at-Tirmidhi (2676)",
+          "grading": "Hasan Sahih (Graded authentic by At-Tirmidhi)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 28: In times of ideological confusion, controversy, and discord, safety lies in clinging tenaciously to the Sunnah. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 28 (Adhering Strictly to the Prophetic Sunnah) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-28",
+          "title": "Hadith 28 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 28 (Adhering Strictly to the Prophetic Sunnah)?",
+              "options": [
+                "Abu Najih al-'Irbad ibn Sariyah",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 28 is famously narrated by Abu Najih al-'Irbad ibn Sariyah (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 28?",
+              "options": [
+                "The tearful farewell sermon, warning against religious innovation, and following the Rightly-Guided Caliphs",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 28 focuses fundamentally on: The tearful farewell sermon, warning against religious innovation, and following the Rightly-Guided Caliphs."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 28?",
+              "options": [
+                "In times of ideological confusion, controversy, and discord, safety lies in clinging tenaciously to the Sunnah.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: In times of ideological confusion, controversy, and discord, safety lies in clinging tenaciously to the Sunnah."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-29",
+        "number": 29,
+        "title": "Hadith 29: The Path to Paradise and Guarding the Tongue",
+        "subtitle": "The comprehensive counsel to Mu'adh ibn Jabal on deeds of salvation and verbal restraint",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 385,
+          "start": 385,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=385s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=385&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=385s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 29 of Al-Arba'een An-Nawawiyyah: The Path to Paradise and Guarding the Tongue. Narrated by Mu'adh ibn Jabal (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 29",
+          "Learn the biographical context of the narrator: Mu'adh ibn Jabal (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 29: The Path to Paradise and Guarding the Tongue\n*The comprehensive counsel to Mu'adh ibn Jabal on deeds of salvation and verbal restraint*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ مُعَاذِ بْنِ جَبَلٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: قُلْتُ: يَا رَسُولَ اللَّهِ، أَخْبِرْنِي بِعَمَلٍ يُدْخِلُنِي الْجَنَّةَ وَيُبَاعِدُنِي عَنِ النَّارِ؟ قَالَ: «لَقَدْ سَأَلْتَ عَنْ عَظِيمٍ، وَإِنَّهُ لَيَسِيرٌ عَلَى مَنْ يَسَّرَهُ اللَّهُ تَعَالَى عَلَيْهِ: تَعْبُدُ اللَّهَ لاَ تُشْرِكُ بِهِ شَيْئًا، وَتُقِيمُ الصَّلاَةَ، وَتُؤْتِي الزَّكَاةَ، وَتَصُومُ رَمَضَانَ، وَتَحُجَّ الْبَيْتَ»... ثُمَّ قَالَ: «أَلاَ أُخْبِرُكَ بِمَلاَكِ ذَلِكَ كُلِّهِ؟» قُلْتُ: بَلَى يَا رَسُولَ اللَّهِ. فَأَخَذَ بِلِسَانِهِ وَقَالَ: «كُفَّ عَلَيْكَ هَذَا!» قُلْتُ: يَا نَبِيَّ اللَّهِ، وَإِنَّا لَمُؤَاخَذُونَ بِمَا نَتَكَلَّمُ بِهِ؟! فَقَالَ: «ثَكِلَتْكَ أُمُّكَ يَا مُعَاذُ! وَهَلْ يَكُبُّ النَّاسَ فِي النَّارِ عَلَى وُجُوهِهِمْ - أَوْ عَلَى مَنَاخِرِهِمْ - إِلاَّ حَصَائِدُ أَلْسِنَتِهِمْ؟!».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Mu'adh ibn Jabal (may Allah be pleased with him), who said: I said: 'O Messenger of Allah, tell me of an act which will admit me into Paradise and keep me far from the Fire.' He said: 'You have asked about a momentous matter, yet it is easy for whomever Allah makes it easy: worship Allah without associating any partners with Him, establish prayer, pay Zakah, fast Ramadan, and perform Hajj to the House.' ... Then he said: 'Shall I not tell you of the foundation of all of that?' I said: 'Yes, O Messenger of Allah.' So he took hold of his tongue and said: 'Restrain this!' I said: 'O Prophet of Allah, will we truly be held accountable for what we say with it?!' He said: 'May your mother be bereaved of you, O Mu'adh! Does anything topple people into the Fire on their faces—or on their noses—except the harvest of their tongues?!'\"  \n> *— Verified Reference: Sunan at-Tirmidhi (2616) (Hasan Sahih (Graded authentic by At-Tirmidhi))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Mu'adh ibn Jabal (رضي الله عنه)**\n* **Canonical Reference**: **Sunan at-Tirmidhi (2616)**\n* **Scholarly Status**: **Hasan Sahih (Graded authentic by At-Tirmidhi)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **The tongue is the most dangerous instrument: slander, backbiting, lies, and insults can demolish a lifetime of good deeds.**\n2. **Voluntary fasts are a shield; night prayer (Tahajjud) extinguishes sin; charity expiates errors.**\n3. **Controlling speech is the linchpin that protects all your religious accomplishments.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ مُعَاذِ بْنِ جَبَلٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: قُلْتُ: يَا رَسُولَ اللَّهِ، أَخْبِرْنِي بِعَمَلٍ يُدْخِلُنِي الْجَنَّةَ وَيُبَاعِدُنِي عَنِ النَّارِ؟ قَالَ: «لَقَدْ سَأَلْتَ عَنْ عَظِيمٍ، وَإِنَّهُ لَيَسِيرٌ عَلَى مَنْ يَسَّرَهُ اللَّهُ تَعَالَى عَلَيْهِ: تَعْبُدُ اللَّهَ لاَ تُشْرِكُ بِهِ شَيْئًا، وَتُقِيمُ الصَّلاَةَ، وَتُؤْتِي الزَّكَاةَ، وَتَصُومُ رَمَضَانَ، وَتَحُجَّ الْبَيْتَ»... ثُمَّ قَالَ: «أَلاَ أُخْبِرُكَ بِمَلاَكِ ذَلِكَ كُلِّهِ؟» قُلْتُ: بَلَى يَا رَسُولَ اللَّهِ. فَأَخَذَ بِلِسَانِهِ وَقَالَ: «كُفَّ عَلَيْكَ هَذَا!» قُلْتُ: يَا نَبِيَّ اللَّهِ، وَإِنَّا لَمُؤَاخَذُونَ بِمَا نَتَكَلَّمُ بِهِ؟! فَقَالَ: «ثَكِلَتْكَ أُمُّكَ يَا مُعَاذُ! وَهَلْ يَكُبُّ النَّاسَ فِي النَّارِ عَلَى وُجُوهِهِمْ - أَوْ عَلَى مَنَاخِرِهِمْ - إِلاَّ حَصَائِدُ أَلْسِنَتِهِمْ؟!».",
+          "translation": "On the authority of Mu'adh ibn Jabal (may Allah be pleased with him), who said: I said: 'O Messenger of Allah, tell me of an act which will admit me into Paradise and keep me far from the Fire.' He said: 'You have asked about a momentous matter, yet it is easy for whomever Allah makes it easy: worship Allah without associating any partners with Him, establish prayer, pay Zakah, fast Ramadan, and perform Hajj to the House.' ... Then he said: 'Shall I not tell you of the foundation of all of that?' I said: 'Yes, O Messenger of Allah.' So he took hold of his tongue and said: 'Restrain this!' I said: 'O Prophet of Allah, will we truly be held accountable for what we say with it?!' He said: 'May your mother be bereaved of you, O Mu'adh! Does anything topple people into the Fire on their faces—or on their noses—except the harvest of their tongues?!'",
+          "reference": "Sunan at-Tirmidhi (2616)",
+          "grading": "Hasan Sahih (Graded authentic by At-Tirmidhi)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 29: The tongue is the most dangerous instrument: slander, backbiting, lies, and insults can demolish a lifetime of good deeds. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 29 (The Path to Paradise and Guarding the Tongue) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-29",
+          "title": "Hadith 29 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 29 (The Path to Paradise and Guarding the Tongue)?",
+              "options": [
+                "Mu'adh ibn Jabal",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 29 is famously narrated by Mu'adh ibn Jabal (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 29?",
+              "options": [
+                "The comprehensive counsel to Mu'adh ibn Jabal on deeds of salvation and verbal restraint",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 29 focuses fundamentally on: The comprehensive counsel to Mu'adh ibn Jabal on deeds of salvation and verbal restraint."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 29?",
+              "options": [
+                "The tongue is the most dangerous instrument: slander, backbiting, lies, and insults can demolish a lifetime of good deeds.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: The tongue is the most dangerous instrument: slander, backbiting, lies, and insults can demolish a lifetime of good deeds."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-30",
+        "number": 30,
+        "title": "Hadith 30: Observing the Divine Boundaries and Limits",
+        "subtitle": "Clear obligations, clear prohibitions, established boundaries, and divine mercy in silence",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 850,
+          "start": 850,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=850s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=850&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=850s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 30 of Al-Arba'een An-Nawawiyyah: Observing the Divine Boundaries and Limits. Narrated by Abu Tha'labah al-Khushani Jurthum ibn Nashir (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 30",
+          "Learn the biographical context of the narrator: Abu Tha'labah al-Khushani Jurthum ibn Nashir (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 30: Observing the Divine Boundaries and Limits\n*Clear obligations, clear prohibitions, established boundaries, and divine mercy in silence*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي ثَعْلَبَةَ الْخُشَنِيِّ جُرْثُومِ بْنِ نَاشِرٍ رَضِيَ اللَّهُ عَنْهُ، عَنْ رَسُولِ اللَّهِ ﷺ قَالَ: «إِنَّ اللَّهَ تَعَالَى فَرَضَ فَرَائِضَ فَلاَ تُضَيِّعُوهَا، وَحَدَّ حُدُودًا فَلاَ تَعْتَدُوهَا، وَحَرَّمَ أَشْيَاءَ فَلاَ تَنْتَهِكُوهَا، وَسَكَتَ عَنْ أَشْيَاءَ رَحْمَةً لَكُمْ غَيْرَ نِسْيَانٍ فَلاَ تَبْحَثُوا عَنْهَا».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Tha'labah al-Khushani Jurthum ibn Nashir (may Allah be pleased with him) from the Messenger of Allah ﷺ, who said: 'Verily Allah the Exalted has prescribed obligations, so do not neglect them; He has established boundaries, so do not transgress them; He has prohibited things, so do not violate them; and He was silent concerning things out of mercy for you, not out of forgetfulness, so do not search into them.'\"  \n> *— Verified Reference: Sunan ad-Daraqutni (4/184), Sunan al-Bayhaqi (10/12) (Hasan (Graded Hasan by An-Nawawi and As-Sam'ani))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Tha'labah al-Khushani Jurthum ibn Nashir (رضي الله عنه)**\n* **Canonical Reference**: **Sunan ad-Daraqutni (4/184), Sunan al-Bayhaqi (10/12)**\n* **Scholarly Status**: **Hasan (Graded Hasan by An-Nawawi and As-Sam'ani)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Islamic jurisprudence categorizes life clearly: obligations (do them), prohibitions (avoid them), and limits (respect them).**\n2. **Matters on which the Shari'ah remained silent are deemed permissible (Mubah) as a divine mercy.**\n3. **Avoid over-interrogating or complicating everyday matters beyond what the revelation specified.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي ثَعْلَبَةَ الْخُشَنِيِّ جُرْثُومِ بْنِ نَاشِرٍ رَضِيَ اللَّهُ عَنْهُ، عَنْ رَسُولِ اللَّهِ ﷺ قَالَ: «إِنَّ اللَّهَ تَعَالَى فَرَضَ فَرَائِضَ فَلاَ تُضَيِّعُوهَا، وَحَدَّ حُدُودًا فَلاَ تَعْتَدُوهَا، وَحَرَّمَ أَشْيَاءَ فَلاَ تَنْتَهِكُوهَا، وَسَكَتَ عَنْ أَشْيَاءَ رَحْمَةً لَكُمْ غَيْرَ نِسْيَانٍ فَلاَ تَبْحَثُوا عَنْهَا».",
+          "translation": "On the authority of Abu Tha'labah al-Khushani Jurthum ibn Nashir (may Allah be pleased with him) from the Messenger of Allah ﷺ, who said: 'Verily Allah the Exalted has prescribed obligations, so do not neglect them; He has established boundaries, so do not transgress them; He has prohibited things, so do not violate them; and He was silent concerning things out of mercy for you, not out of forgetfulness, so do not search into them.'",
+          "reference": "Sunan ad-Daraqutni (4/184), Sunan al-Bayhaqi (10/12)",
+          "grading": "Hasan (Graded Hasan by An-Nawawi and As-Sam'ani)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 30: Islamic jurisprudence categorizes life clearly: obligations (do them), prohibitions (avoid them), and limits (respect them). Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 30 (Observing the Divine Boundaries and Limits) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-30",
+          "title": "Hadith 30 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 30 (Observing the Divine Boundaries and Limits)?",
+              "options": [
+                "Abu Tha'labah al-Khushani Jurthum ibn Nashir",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 30 is famously narrated by Abu Tha'labah al-Khushani Jurthum ibn Nashir (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 30?",
+              "options": [
+                "Clear obligations, clear prohibitions, established boundaries, and divine mercy in silence",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 30 focuses fundamentally on: Clear obligations, clear prohibitions, established boundaries, and divine mercy in silence."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 30?",
+              "options": [
+                "Islamic jurisprudence categorizes life clearly: obligations (do them), prohibitions (avoid them), and limits (respect them).",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Islamic jurisprudence categorizes life clearly: obligations (do them), prohibitions (avoid them), and limits (respect them)."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-31",
+        "number": 31,
+        "title": "Hadith 31: True Asceticism (Zuhd) in the World",
+        "subtitle": "Freedom from consumerist materialism: winning the love of Allah and the love of people",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 1070,
+          "start": 1070,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=1070s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=1070&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=1070s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 31 of Al-Arba'een An-Nawawiyyah: True Asceticism (Zuhd) in the World. Narrated by Abu al-'Abbas Sahl ibn Sa'd as-Sa'idi (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 31",
+          "Learn the biographical context of the narrator: Abu al-'Abbas Sahl ibn Sa'd as-Sa'idi (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 31: True Asceticism (Zuhd) in the World\n*Freedom from consumerist materialism: winning the love of Allah and the love of people*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي الْعَبَّاسِ سَهْلِ بْنِ سَعْدٍ السَّاعِدِيِّ رَضِيَ اللَّهُ عَنْهُ قَالَ: جَاءَ رَجُلٌ إِلَى النَّبِيِّ ﷺ فَقَالَ: يَا رَسُولَ اللَّهِ، دُلَّنِي عَلَى عَمَلٍ إِذَا عَمِلْتُهُ أَحَبَّنِي اللَّهُ وَأَحَبَّنِي النَّاسُ؟ فَقَالَ: «ازْهَدْ فِي الدُّنْيَا يُحِبَّكَ اللَّهُ، وَازْهَدْ فِيمَا فِي أَيْدِي النَّاسِ يُحِبَّكَ النَّاسُ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu al-'Abbas Sahl ibn Sa'd as-Sa'idi (may Allah be pleased with him), who said: A man came to the Prophet ﷺ and said: 'O Messenger of Allah, direct me to a deed which, if I do it, Allah will love me and the people will love me.' He said: 'Renounce worldly greed (Zuhd), and Allah will love you; and renounce what is in the hands of people, and the people will love you.'\"  \n> *— Verified Reference: Sunan Ibn Majah (4102) (Hasan (Graded Hasan by An-Nawawi and Al-Albani))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu al-'Abbas Sahl ibn Sa'd as-Sa'idi (رضي الله عنه)**\n* **Canonical Reference**: **Sunan Ibn Majah (4102)**\n* **Scholarly Status**: **Hasan (Graded Hasan by An-Nawawi and Al-Albani)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **True Zuhd is not poverty; it is having worldly wealth in your hand without letting it capture your heart.**\n2. **Coveting and competing for other people's possessions creates enmity; generosity and self-sufficiency foster love.**\n3. **Loving Allah above transient material status brings genuine spiritual serenity.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي الْعَبَّاسِ سَهْلِ بْنِ سَعْدٍ السَّاعِدِيِّ رَضِيَ اللَّهُ عَنْهُ قَالَ: جَاءَ رَجُلٌ إِلَى النَّبِيِّ ﷺ فَقَالَ: يَا رَسُولَ اللَّهِ، دُلَّنِي عَلَى عَمَلٍ إِذَا عَمِلْتُهُ أَحَبَّنِي اللَّهُ وَأَحَبَّنِي النَّاسُ؟ فَقَالَ: «ازْهَدْ فِي الدُّنْيَا يُحِبَّكَ اللَّهُ، وَازْهَدْ فِيمَا فِي أَيْدِي النَّاسِ يُحِبَّكَ النَّاسُ».",
+          "translation": "On the authority of Abu al-'Abbas Sahl ibn Sa'd as-Sa'idi (may Allah be pleased with him), who said: A man came to the Prophet ﷺ and said: 'O Messenger of Allah, direct me to a deed which, if I do it, Allah will love me and the people will love me.' He said: 'Renounce worldly greed (Zuhd), and Allah will love you; and renounce what is in the hands of people, and the people will love you.'",
+          "reference": "Sunan Ibn Majah (4102)",
+          "grading": "Hasan (Graded Hasan by An-Nawawi and Al-Albani)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 31: True Zuhd is not poverty; it is having worldly wealth in your hand without letting it capture your heart. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 31 (True Asceticism (Zuhd) in the World) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-31",
+          "title": "Hadith 31 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 31 (True Asceticism (Zuhd) in the World)?",
+              "options": [
+                "Abu al-'Abbas Sahl ibn Sa'd as-Sa'idi",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 31 is famously narrated by Abu al-'Abbas Sahl ibn Sa'd as-Sa'idi (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 31?",
+              "options": [
+                "Freedom from consumerist materialism: winning the love of Allah and the love of people",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 31 focuses fundamentally on: Freedom from consumerist materialism: winning the love of Allah and the love of people."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 31?",
+              "options": [
+                "True Zuhd is not poverty; it is having worldly wealth in your hand without letting it capture your heart.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: True Zuhd is not poverty; it is having worldly wealth in your hand without letting it capture your heart."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-32",
+        "number": 32,
+        "title": "Hadith 32: No Harm and No Reciprocating Harm (La Darar wa La Dirar)",
+        "subtitle": "The paramount legal maxim prohibiting harm, sabotage, and malicious retaliation",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 1275,
+          "start": 1275,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=1275s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=1275&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=1275s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 32 of Al-Arba'een An-Nawawiyyah: No Harm and No Reciprocating Harm (La Darar wa La Dirar). Narrated by Abu Sa'id Sa'd ibn Malik ibn Sinan al-Khudri (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 32",
+          "Learn the biographical context of the narrator: Abu Sa'id Sa'd ibn Malik ibn Sinan al-Khudri (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 32: No Harm and No Reciprocating Harm (La Darar wa La Dirar)\n*The paramount legal maxim prohibiting harm, sabotage, and malicious retaliation*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي سَعِيدٍ سَعْدِ بْنِ مَالِكِ بْنِ سِنَانٍ الْخُدْرِيِّ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «لاَ ضَرَرَ وَلاَ ضِرَارَ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Sa'id Sa'd ibn Malik ibn Sinan al-Khudri (may Allah be pleased with him) that the Messenger of Allah ﷺ said: 'There shall be no inflicting of harm, nor reciprocating of harm.'\"  \n> *— Verified Reference: Sunan Ibn Majah (2340), Sunan ad-Daraqutni (4/228), Muwatta Malik (2/746) (Hasan (A foundational universal legal maxim in Islamic jurisprudence))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Sa'id Sa'd ibn Malik ibn Sinan al-Khudri (رضي الله عنه)**\n* **Canonical Reference**: **Sunan Ibn Majah (2340), Sunan ad-Daraqutni (4/228), Muwatta Malik (2/746)**\n* **Scholarly Status**: **Hasan (A foundational universal legal maxim in Islamic jurisprudence)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Foundational legal maxim of Islam: all forms of unjust harm (Darar) are strictly forbidden.**\n2. **You may not respond to injury or injustice by committing an equal wrong or harming innocent third parties (Dirar).**\n3. **Applies across business contracts, consumer safety, environmental pollution, and family law.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي سَعِيدٍ سَعْدِ بْنِ مَالِكِ بْنِ سِنَانٍ الْخُدْرِيِّ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «لاَ ضَرَرَ وَلاَ ضِرَارَ».",
+          "translation": "On the authority of Abu Sa'id Sa'd ibn Malik ibn Sinan al-Khudri (may Allah be pleased with him) that the Messenger of Allah ﷺ said: 'There shall be no inflicting of harm, nor reciprocating of harm.'",
+          "reference": "Sunan Ibn Majah (2340), Sunan ad-Daraqutni (4/228), Muwatta Malik (2/746)",
+          "grading": "Hasan (A foundational universal legal maxim in Islamic jurisprudence)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 32: Foundational legal maxim of Islam: all forms of unjust harm (Darar) are strictly forbidden. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 32 (No Harm and No Reciprocating Harm (La Darar wa La Dirar)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-32",
+          "title": "Hadith 32 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 32 (No Harm and No Reciprocating Harm (La Darar wa La Dirar))?",
+              "options": [
+                "Abu Sa'id Sa'd ibn Malik ibn Sinan al-Khudri",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 32 is famously narrated by Abu Sa'id Sa'd ibn Malik ibn Sinan al-Khudri (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 32?",
+              "options": [
+                "The paramount legal maxim prohibiting harm, sabotage, and malicious retaliation",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 32 focuses fundamentally on: The paramount legal maxim prohibiting harm, sabotage, and malicious retaliation."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 32?",
+              "options": [
+                "Foundational legal maxim of Islam: all forms of unjust harm (Darar) are strictly forbidden.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Foundational legal maxim of Islam: all forms of unjust harm (Darar) are strictly forbidden."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-33",
+        "number": 33,
+        "title": "Hadith 33: The Burden of Proof is on the Claimant",
+        "subtitle": "Procedural justice, evidence standards, and the preservation of property rights",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 1440,
+          "start": 1440,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=1440s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=1440&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=1440s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 33 of Al-Arba'een An-Nawawiyyah: The Burden of Proof is on the Claimant. Narrated by 'Abdullah ibn 'Abbas (رضي الله عنهما). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 33",
+          "Learn the biographical context of the narrator: 'Abdullah ibn 'Abbas (رضي الله عنهما)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 33: The Burden of Proof is on the Claimant\n*Procedural justice, evidence standards, and the preservation of property rights*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنِ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «لَوْ يُعْطَى النَّاسُ بِدَعْوَاهُمْ، لاَدَّعَى رِجَالٌ أَمْوَالَ قَوْمٍ وَدِمَاءَهُمْ، لَكِنِ الْبَيِّنَةُ عَلَى الْمُدَّعِي، وَالْيَمِينُ عَلَى مَنْ أَنْكَرَ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Ibn 'Abbas (may Allah be pleased with both of them) that the Messenger of Allah ﷺ said: 'Were people to be given simply on the basis of their claims, men would lay claim to the wealth and lives of other people. But the burden of proof is upon the claimant, and an oath is upon the one who denies.'\"  \n> *— Verified Reference: Sunan al-Bayhaqi (10/252), Sahih al-Bukhari (4552), Sahih Muslim (1711) (Hasan Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **'Abdullah ibn 'Abbas (رضي الله عنهما)**\n* **Canonical Reference**: **Sunan al-Bayhaqi (10/252), Sahih al-Bukhari (4552), Sahih Muslim (1711)**\n* **Scholarly Status**: **Hasan Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Presumption of innocence until proven guilty: claims alone do not establish guilt or entitlement.**\n2. **The accuser/claimant must produce concrete evidence (Bayyinah); the defendant may clear themselves with an oath.**\n3. **Protects individuals and businesses from extortion, frivolous lawsuits, and malicious accusations.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنِ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «لَوْ يُعْطَى النَّاسُ بِدَعْوَاهُمْ، لاَدَّعَى رِجَالٌ أَمْوَالَ قَوْمٍ وَدِمَاءَهُمْ، لَكِنِ الْبَيِّنَةُ عَلَى الْمُدَّعِي، وَالْيَمِينُ عَلَى مَنْ أَنْكَرَ».",
+          "translation": "On the authority of Ibn 'Abbas (may Allah be pleased with both of them) that the Messenger of Allah ﷺ said: 'Were people to be given simply on the basis of their claims, men would lay claim to the wealth and lives of other people. But the burden of proof is upon the claimant, and an oath is upon the one who denies.'",
+          "reference": "Sunan al-Bayhaqi (10/252), Sahih al-Bukhari (4552), Sahih Muslim (1711)",
+          "grading": "Hasan Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 33: Presumption of innocence until proven guilty: claims alone do not establish guilt or entitlement. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 33 (The Burden of Proof is on the Claimant) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-33",
+          "title": "Hadith 33 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 33 (The Burden of Proof is on the Claimant)?",
+              "options": [
+                "'Abdullah ibn 'Abbas",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 33 is famously narrated by 'Abdullah ibn 'Abbas (رضي الله عنهما)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 33?",
+              "options": [
+                "Procedural justice, evidence standards, and the preservation of property rights",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 33 focuses fundamentally on: Procedural justice, evidence standards, and the preservation of property rights."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 33?",
+              "options": [
+                "Presumption of innocence until proven guilty: claims alone do not establish guilt or entitlement.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Presumption of innocence until proven guilty: claims alone do not establish guilt or entitlement."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-34",
+        "number": 34,
+        "title": "Hadith 34: Enjoining Good and Forbidding Evil (Nahy 'an al-Munkar)",
+        "subtitle": "Active civic responsibility: changing wrongdoing with hand, tongue, or heart",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 1575,
+          "start": 1575,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=1575s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=1575&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=1575s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 34 of Al-Arba'een An-Nawawiyyah: Enjoining Good and Forbidding Evil (Nahy 'an al-Munkar). Narrated by Abu Sa'id al-Khudri (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 34",
+          "Learn the biographical context of the narrator: Abu Sa'id al-Khudri (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 34: Enjoining Good and Forbidding Evil (Nahy 'an al-Munkar)\n*Active civic responsibility: changing wrongdoing with hand, tongue, or heart*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ رَضِيَ اللَّهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «مَنْ رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ، وَذَلِكَ أَضْعَفُ الإِيمَانِ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Sa'id al-Khudri (may Allah be pleased with him), who said: I heard the Messenger of Allah ﷺ say: 'Whoever among you sees an evil, let him change it with his hand; and if he is not able, then with his tongue; and if he is not able, then with his heart—and that is the weakest of faith.'\"  \n> *— Verified Reference: Sahih Muslim (49) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Sa'id al-Khudri (رضي الله عنه)**\n* **Canonical Reference**: **Sahih Muslim (49)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Active moral responsibility against corruption, injustice, and oppression.**\n2. **Action is calibrated by authority and capacity: authorities correct with hands; scholars and citizens with speech; the vulnerable with internal hatred of the evil.**\n3. **Never become indifferent or desensitized to wrongdoing in society.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ رَضِيَ اللَّهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «مَنْ رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ، وَذَلِكَ أَضْعَفُ الإِيمَانِ».",
+          "translation": "On the authority of Abu Sa'id al-Khudri (may Allah be pleased with him), who said: I heard the Messenger of Allah ﷺ say: 'Whoever among you sees an evil, let him change it with his hand; and if he is not able, then with his tongue; and if he is not able, then with his heart—and that is the weakest of faith.'",
+          "reference": "Sahih Muslim (49)",
+          "grading": "Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 34: Active moral responsibility against corruption, injustice, and oppression. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 34 (Enjoining Good and Forbidding Evil (Nahy 'an al-Munkar)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-34",
+          "title": "Hadith 34 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 34 (Enjoining Good and Forbidding Evil (Nahy 'an al-Munkar))?",
+              "options": [
+                "Abu Sa'id al-Khudri",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 34 is famously narrated by Abu Sa'id al-Khudri (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 34?",
+              "options": [
+                "Active civic responsibility: changing wrongdoing with hand, tongue, or heart",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 34 focuses fundamentally on: Active civic responsibility: changing wrongdoing with hand, tongue, or heart."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 34?",
+              "options": [
+                "Active moral responsibility against corruption, injustice, and oppression.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Active moral responsibility against corruption, injustice, and oppression."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-35",
+        "number": 35,
+        "title": "Hadith 35: Brotherhood in Islam and Prohibition of Envy",
+        "subtitle": "Eradicating jealousy, price gouging, hatred, and betrayal among Muslims",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 1770,
+          "start": 1770,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=1770s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=1770&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=1770s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 35 of Al-Arba'een An-Nawawiyyah: Brotherhood in Islam and Prohibition of Envy. Narrated by Abu Hurairah (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 35",
+          "Learn the biographical context of the narrator: Abu Hurairah (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 35: Brotherhood in Islam and Prohibition of Envy\n*Eradicating jealousy, price gouging, hatred, and betrayal among Muslims*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «لاَ تَحَاسَدُوا، وَلاَ تَنَاجَشُوا، وَلاَ تَبَاغَضُوا، وَلاَ تَدَابَرُوا، وَلاَ يَبِعْ بَعْضُكُمْ عَلَى بَيْعِ بَعْضٍ، وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا. الْمُسْلِمُ أَخُو الْمُسْلِمِ؛ لاَ يَظْلِمُهُ، وَلاَ يَخْذُلُهُ، وَلاَ يَكْذِبُهُ، وَلاَ يَحْقِرُهُ. التَّقْوَى هَاهُنَا - وَيُشِيرُ إِلَى صَدْرِهِ ثَلاَثَ مَرَّاتٍ - بِحَسْبِ امْرِئٍ مِنَ الشَّرِّ أَنْ يَحْقِرَ أَخَاهُ الْمُسْلِمَ. كُلُّ الْمُسْلِمِ عَلَى الْمُسْلِمِ حَرَامٌ: دَمُهُ، وَمَالُهُ، وَعِرْضُهُ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Hurairah (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Do not envy one another, do not artificially inflate prices against one another, do not hate one another, do not turn your backs on one another, and do not undercut one another in sales; and be, O servants of Allah, brothers. A Muslim is the brother of a Muslim: he does not oppress him, nor does he fail him, nor does he lie to him, nor does he disdain him. Taqwa is right here'—and he pointed to his chest three times—'It is evil enough for a man that he should despise his Muslim brother. All of a Muslim is inviolable to another Muslim: his blood, his wealth, and his honor.'\"  \n> *— Verified Reference: Sahih Muslim (2564) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Hurairah (رضي الله عنه)**\n* **Canonical Reference**: **Sahih Muslim (2564)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Forbids harmful market practices like artificial bid-rigging (Najash) and undercutting concluded deals.**\n2. **True piety is an inward spiritual reality residing in the heart, not an outward cosmetic display.**\n3. **A Muslim's life, property, and honor are strictly inviolable (Haram) to violate, gossip about, or usurp.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «لاَ تَحَاسَدُوا، وَلاَ تَنَاجَشُوا، وَلاَ تَبَاغَضُوا، وَلاَ تَدَابَرُوا، وَلاَ يَبِعْ بَعْضُكُمْ عَلَى بَيْعِ بَعْضٍ، وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا. الْمُسْلِمُ أَخُو الْمُسْلِمِ؛ لاَ يَظْلِمُهُ، وَلاَ يَخْذُلُهُ، وَلاَ يَكْذِبُهُ، وَلاَ يَحْقِرُهُ. التَّقْوَى هَاهُنَا - وَيُشِيرُ إِلَى صَدْرِهِ ثَلاَثَ مَرَّاتٍ - بِحَسْبِ امْرِئٍ مِنَ الشَّرِّ أَنْ يَحْقِرَ أَخَاهُ الْمُسْلِمَ. كُلُّ الْمُسْلِمِ عَلَى الْمُسْلِمِ حَرَامٌ: دَمُهُ، وَمَالُهُ، وَعِرْضُهُ».",
+          "translation": "On the authority of Abu Hurairah (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Do not envy one another, do not artificially inflate prices against one another, do not hate one another, do not turn your backs on one another, and do not undercut one another in sales; and be, O servants of Allah, brothers. A Muslim is the brother of a Muslim: he does not oppress him, nor does he fail him, nor does he lie to him, nor does he disdain him. Taqwa is right here'—and he pointed to his chest three times—'It is evil enough for a man that he should despise his Muslim brother. All of a Muslim is inviolable to another Muslim: his blood, his wealth, and his honor.'",
+          "reference": "Sahih Muslim (2564)",
+          "grading": "Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 35: Forbids harmful market practices like artificial bid-rigging (Najash) and undercutting concluded deals. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 35 (Brotherhood in Islam and Prohibition of Envy) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-35",
+          "title": "Hadith 35 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 35 (Brotherhood in Islam and Prohibition of Envy)?",
+              "options": [
+                "Abu Hurairah",
+                "Anas ibn Malik (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 35 is famously narrated by Abu Hurairah (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 35?",
+              "options": [
+                "Eradicating jealousy, price gouging, hatred, and betrayal among Muslims",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 35 focuses fundamentally on: Eradicating jealousy, price gouging, hatred, and betrayal among Muslims."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 35?",
+              "options": [
+                "Forbids harmful market practices like artificial bid-rigging (Najash) and undercutting concluded deals.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Forbids harmful market practices like artificial bid-rigging (Najash) and undercutting concluded deals."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-36",
+        "number": 36,
+        "title": "Hadith 36: Relieving Hardships and the Virtues of Seeking Knowledge",
+        "subtitle": "Mutual solidarity, covering faults, assisting students of knowledge, and gathering for Qur'an study",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 1990,
+          "start": 1990,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=1990s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=1990&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=1990s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 36 of Al-Arba'een An-Nawawiyyah: Relieving Hardships and the Virtues of Seeking Knowledge. Narrated by Abu Hurairah (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 36",
+          "Learn the biographical context of the narrator: Abu Hurairah (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 36: Relieving Hardships and the Virtues of Seeking Knowledge\n*Mutual solidarity, covering faults, assisting students of knowledge, and gathering for Qur'an study*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، عَنِ النَّبِيِّ ﷺ قَالَ: «مَنْ نَفَّسَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ الدُّنْيَا نَفَّسَ اللَّهُ عَنْهُ كُرْبَةً مِنْ كُرَبِ يَوْمِ الْقِيَامَةِ، وَمَنْ يَسَّرَ عَلَى مُعْسِرٍ يَسَّرَ اللَّهُ عَلَيْهِ فِي الدُّنْيَا وَالآخِرَةِ، وَمَنْ سَتَرَ مُسْلِمًا سَتَرَهُ اللَّهُ فِي الدُّنْيَا وَالآخِرَةِ، وَاللَّهُ فِي عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيهِ. وَمَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ، وَمَا اجْتَمَعَ قَوْمٌ فِي بَيْتٍ مِنْ بُيُوتِ اللَّهِ يَتْلُونَ كِتَابَ اللَّهِ وَيَتَدَارَسُونَهُ بَيْنَهُمْ إِلاَّ نَزَلَتْ عَلَيْهِمُ السَّكِينَةُ، وَغَشِيَتْهُمُ الرَّحْمَةُ، وَحَفَّتْهُمُ الْمَلاَئِكَةُ، وَذَكَرَهُمُ اللَّهُ فِيمَنْ عِنْدَهُ. وَمَنْ بَطَّأَ بِهِ عَمَلُهُ لَمْ يُسْرِعْ بِهِ نَسَبُهُ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Hurairah (may Allah be pleased with him) from the Prophet ﷺ, who said: 'Whoever relieves a believer of a distress from the distresses of this world, Allah will relieve him of a distress from the distresses of the Day of Resurrection. Whoever eases the hardship of an insolvent debtor, Allah will ease his hardship in this world and the Hereafter. Whoever covers the faults of a Muslim, Allah will cover his faults in this world and the Hereafter. Allah remains in aid of His servant as long as the servant is in aid of his brother. Whoever travels a path seeking knowledge, Allah makes easy for him a path to Paradise. Never do a people gather in one of the houses of Allah, reciting the Book of Allah and studying it together, except that tranquility descends upon them, mercy envelops them, angels surround them, and Allah mentions them among those who are with Him. And whoever is slowed down by his deeds will not be sped forward by his noble lineage.'\"  \n> *— Verified Reference: Sahih Muslim (2699) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Hurairah (رضي الله عنه)**\n* **Canonical Reference**: **Sahih Muslim (2699)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **The divine compensation matches the action (Al-Jaza'u min jinsil-'amal): help others, and Allah aids you.**\n2. **The immense virtue and honor of traveling and studying for Islamic and beneficial knowledge.**\n3. **Family pedigree or tribal ancestry grants zero privilege in the sight of Allah; only righteous deeds elevate a person.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، عَنِ النَّبِيِّ ﷺ قَالَ: «مَنْ نَفَّسَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ الدُّنْيَا نَفَّسَ اللَّهُ عَنْهُ كُرْبَةً مِنْ كُرَبِ يَوْمِ الْقِيَامَةِ، وَمَنْ يَسَّرَ عَلَى مُعْسِرٍ يَسَّرَ اللَّهُ عَلَيْهِ فِي الدُّنْيَا وَالآخِرَةِ، وَمَنْ سَتَرَ مُسْلِمًا سَتَرَهُ اللَّهُ فِي الدُّنْيَا وَالآخِرَةِ، وَاللَّهُ فِي عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيهِ. وَمَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ، وَمَا اجْتَمَعَ قَوْمٌ فِي بَيْتٍ مِنْ بُيُوتِ اللَّهِ يَتْلُونَ كِتَابَ اللَّهِ وَيَتَدَارَسُونَهُ بَيْنَهُمْ إِلاَّ نَزَلَتْ عَلَيْهِمُ السَّكِينَةُ، وَغَشِيَتْهُمُ الرَّحْمَةُ، وَحَفَّتْهُمُ الْمَلاَئِكَةُ، وَذَكَرَهُمُ اللَّهُ فِيمَنْ عِنْدَهُ. وَمَنْ بَطَّأَ بِهِ عَمَلُهُ لَمْ يُسْرِعْ بِهِ نَسَبُهُ».",
+          "translation": "On the authority of Abu Hurairah (may Allah be pleased with him) from the Prophet ﷺ, who said: 'Whoever relieves a believer of a distress from the distresses of this world, Allah will relieve him of a distress from the distresses of the Day of Resurrection. Whoever eases the hardship of an insolvent debtor, Allah will ease his hardship in this world and the Hereafter. Whoever covers the faults of a Muslim, Allah will cover his faults in this world and the Hereafter. Allah remains in aid of His servant as long as the servant is in aid of his brother. Whoever travels a path seeking knowledge, Allah makes easy for him a path to Paradise. Never do a people gather in one of the houses of Allah, reciting the Book of Allah and studying it together, except that tranquility descends upon them, mercy envelops them, angels surround them, and Allah mentions them among those who are with Him. And whoever is slowed down by his deeds will not be sped forward by his noble lineage.'",
+          "reference": "Sahih Muslim (2699)",
+          "grading": "Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 36: The divine compensation matches the action (Al-Jaza'u min jinsil-'amal): help others, and Allah aids you. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 36 (Relieving Hardships and the Virtues of Seeking Knowledge) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-36",
+          "title": "Hadith 36 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 36 (Relieving Hardships and the Virtues of Seeking Knowledge)?",
+              "options": [
+                "Abu Hurairah",
+                "Anas ibn Malik (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 36 is famously narrated by Abu Hurairah (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 36?",
+              "options": [
+                "Mutual solidarity, covering faults, assisting students of knowledge, and gathering for Qur'an study",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 36 focuses fundamentally on: Mutual solidarity, covering faults, assisting students of knowledge, and gathering for Qur'an study."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 36?",
+              "options": [
+                "The divine compensation matches the action (Al-Jaza'u min jinsil-'amal): help others, and Allah aids you.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: The divine compensation matches the action (Al-Jaza'u min jinsil-'amal): help others, and Allah aids you."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-37",
+        "number": 37,
+        "title": "Hadith 37: The Boundless Mercy of Allah in Recording Deeds",
+        "subtitle": "Multiplying good deeds tenfold and recording intended virtues while withholding uncommitted sins",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 2210,
+          "start": 2210,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=2210s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=2210&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=2210s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 37 of Al-Arba'een An-Nawawiyyah: The Boundless Mercy of Allah in Recording Deeds. Narrated by 'Abdullah ibn 'Abbas (رضي الله عنهما). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 37",
+          "Learn the biographical context of the narrator: 'Abdullah ibn 'Abbas (رضي الله عنهما)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 37: The Boundless Mercy of Allah in Recording Deeds\n*Multiplying good deeds tenfold and recording intended virtues while withholding uncommitted sins*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنِ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا، عَنْ رَسُولِ اللَّهِ ﷺ فِيمَا يَرْوِيهِ عَنْ رَبِّهِ تَبَارَكَ وَتَعَالَى: «إِنَّ اللَّهَ كَتَبَ الْحَسَنَاتِ وَالسَّيِّئَاتِ ثُمَّ بَيَّنَ ذَلِكَ: فَمَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللَّهُ عِنْدَهُ حَسَنَةً كَامِلَةً، وَإِنْ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللَّهُ عِنْدَهُ عَشْرَ حَسَنَاتٍ إِلَى سَبْعِمِائَةِ ضِعْفٍ إِلَى أَضْعَافٍ كَثِيرَةٍ. وَإِنْ هَمَّ بِسَيِّئَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللَّهُ عِنْدَهُ حَسَنَةً كَامِلَةً، وَإِنْ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللَّهُ سَيِّئَةً وَاحِدَةً».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Ibn 'Abbas (may Allah be pleased with both of them) from the Messenger of Allah ﷺ among that which he relates from his Lord, Blessed and Exalted: 'Verily Allah has written down the good deeds and the bad deeds, and then clarified that: Whoever intends to do a good deed and does not do it, Allah writes it down with Himself as a full good deed. And if he intends it and then performs it, Allah writes it down with Himself as ten good deeds, up to seven hundred times, or even many times greater. And if he intends to do a bad deed and does not do it, Allah writes it down with Himself as a full good deed. And if he intends it and then does it, Allah writes it down as a single bad deed.'\"  \n> *— Verified Reference: Sahih al-Bukhari (6491), Sahih Muslim (131) (Sahih (Muttafaq 'Alayh))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **'Abdullah ibn 'Abbas (رضي الله عنهما)**\n* **Canonical Reference**: **Sahih al-Bukhari (6491), Sahih Muslim (131)**\n* **Scholarly Status**: **Sahih (Muttafaq 'Alayh)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **The unfathomable grace and generosity of Allah towards His servants.**\n2. **Good deeds are multiplied from 10 to 700 times or more, while bad deeds are counted as merely one.**\n3. **Refraining from a sin for the sake of Allah is itself rewarded as an active righteous deed.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنِ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا، عَنْ رَسُولِ اللَّهِ ﷺ فِيمَا يَرْوِيهِ عَنْ رَبِّهِ تَبَارَكَ وَتَعَالَى: «إِنَّ اللَّهَ كَتَبَ الْحَسَنَاتِ وَالسَّيِّئَاتِ ثُمَّ بَيَّنَ ذَلِكَ: فَمَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللَّهُ عِنْدَهُ حَسَنَةً كَامِلَةً، وَإِنْ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللَّهُ عِنْدَهُ عَشْرَ حَسَنَاتٍ إِلَى سَبْعِمِائَةِ ضِعْفٍ إِلَى أَضْعَافٍ كَثِيرَةٍ. وَإِنْ هَمَّ بِسَيِّئَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللَّهُ عِنْدَهُ حَسَنَةً كَامِلَةً، وَإِنْ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللَّهُ سَيِّئَةً وَاحِدَةً».",
+          "translation": "On the authority of Ibn 'Abbas (may Allah be pleased with both of them) from the Messenger of Allah ﷺ among that which he relates from his Lord, Blessed and Exalted: 'Verily Allah has written down the good deeds and the bad deeds, and then clarified that: Whoever intends to do a good deed and does not do it, Allah writes it down with Himself as a full good deed. And if he intends it and then performs it, Allah writes it down with Himself as ten good deeds, up to seven hundred times, or even many times greater. And if he intends to do a bad deed and does not do it, Allah writes it down with Himself as a full good deed. And if he intends it and then does it, Allah writes it down as a single bad deed.'",
+          "reference": "Sahih al-Bukhari (6491), Sahih Muslim (131)",
+          "grading": "Sahih (Muttafaq 'Alayh)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 37: The unfathomable grace and generosity of Allah towards His servants. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 37 (The Boundless Mercy of Allah in Recording Deeds) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-37",
+          "title": "Hadith 37 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 37 (The Boundless Mercy of Allah in Recording Deeds)?",
+              "options": [
+                "'Abdullah ibn 'Abbas",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 37 is famously narrated by 'Abdullah ibn 'Abbas (رضي الله عنهما)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 37?",
+              "options": [
+                "Multiplying good deeds tenfold and recording intended virtues while withholding uncommitted sins",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 37 focuses fundamentally on: Multiplying good deeds tenfold and recording intended virtues while withholding uncommitted sins."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 37?",
+              "options": [
+                "The unfathomable grace and generosity of Allah towards His servants.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: The unfathomable grace and generosity of Allah towards His servants."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-38",
+        "number": 38,
+        "title": "Hadith 38: Attaining the Nearness and Love of Allah (Hadith al-Wali)",
+        "subtitle": "The status of the friends of Allah, fulfilling obligations, and voluntary devotion (Nawafil)",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 2310,
+          "start": 2310,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=2310s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=2310&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=2310s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 38 of Al-Arba'een An-Nawawiyyah: Attaining the Nearness and Love of Allah (Hadith al-Wali). Narrated by Abu Hurairah (رضي الله عنه). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 38",
+          "Learn the biographical context of the narrator: Abu Hurairah (رضي الله عنه)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 38: Attaining the Nearness and Love of Allah (Hadith al-Wali)\n*The status of the friends of Allah, fulfilling obligations, and voluntary devotion (Nawafil)*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «إِنَّ اللَّهَ تَعَالَى قَالَ: مَنْ عَادَى لِي وَلِيًّا فَقَدْ آذَنْتُهُ بِالْحَرْبِ، وَمَا تَقَرَّبَ إِلَيَّ عَبْدِي بِشَيْءٍ أَحَبَّ إِلَيَّ مِمَّا افْتَرَضْتُ عَلَيْهِ، وَمَا يَزَالُ عَبْدِي يَتَقَرَّبُ إِلَيَّ بِالنَّوَافِلِ حَتَّى أُحِبَّهُ، فَإِذَا أَحْبَبْتُهُ كُنْتُ سَمْعَهُ الَّذِي يَسْمَعُ بِهِ، وَبَصَرَهُ الَّذِي يُبْصِرُ بِهِ، وَيَدَهُ الَّتِي يَبْطِشُ بِهَا، وَرِجْلَهُ الَّتِي يَمْشِي بِهَا، وَإِنْ سَأَلَنِي لَأُعْطِيَنَّهُ، وَلَئِنِ اسْتَعَاذَنِي لَأُعِيذَنَّهُ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Abu Hurairah (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Verily Allah the Exalted has said: Whoever shows enmity to a pious friend of Mine (Wali), I have declared war upon him. My servant draws near to Me with nothing more beloved to Me than the duties I have obligated upon him. And My servant continues to draw near to Me with voluntary devotions until I love him. When I love him, I become his hearing with which he hears, his sight with which he sees, his hand with which he strikes, and his foot with which he walks. If he asks of Me, I will surely give him; and if he seeks refuge in Me, I will surely protect him.'\"  \n> *— Verified Reference: Sahih al-Bukhari (6502) (Sahih (Hadith Qudsi))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **Abu Hurairah (رضي الله عنه)**\n* **Canonical Reference**: **Sahih al-Bukhari (6502)**\n* **Scholarly Status**: **Sahih (Hadith Qudsi)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **Severe divine warning against slandering or harassing righteous, sincere servants of Allah.**\n2. **The primary step to spiritual sainthood (Wilayah) is fulfilling the obligatory commandments (Fara'id).**\n3. **Progressing into voluntary worship attracts special divine guidance, protection, and answered supplications.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «إِنَّ اللَّهَ تَعَالَى قَالَ: مَنْ عَادَى لِي وَلِيًّا فَقَدْ آذَنْتُهُ بِالْحَرْبِ، وَمَا تَقَرَّبَ إِلَيَّ عَبْدِي بِشَيْءٍ أَحَبَّ إِلَيَّ مِمَّا افْتَرَضْتُ عَلَيْهِ، وَمَا يَزَالُ عَبْدِي يَتَقَرَّبُ إِلَيَّ بِالنَّوَافِلِ حَتَّى أُحِبَّهُ، فَإِذَا أَحْبَبْتُهُ كُنْتُ سَمْعَهُ الَّذِي يَسْمَعُ بِهِ، وَبَصَرَهُ الَّذِي يُبْصِرُ بِهِ، وَيَدَهُ الَّتِي يَبْطِشُ بِهَا، وَرِجْلَهُ الَّتِي يَمْشِي بِهَا، وَإِنْ سَأَلَنِي لَأُعْطِيَنَّهُ، وَلَئِنِ اسْتَعَاذَنِي لَأُعِيذَنَّهُ».",
+          "translation": "On the authority of Abu Hurairah (may Allah be pleased with him), who said: The Messenger of Allah ﷺ said: 'Verily Allah the Exalted has said: Whoever shows enmity to a pious friend of Mine (Wali), I have declared war upon him. My servant draws near to Me with nothing more beloved to Me than the duties I have obligated upon him. And My servant continues to draw near to Me with voluntary devotions until I love him. When I love him, I become his hearing with which he hears, his sight with which he sees, his hand with which he strikes, and his foot with which he walks. If he asks of Me, I will surely give him; and if he seeks refuge in Me, I will surely protect him.'",
+          "reference": "Sahih al-Bukhari (6502)",
+          "grading": "Sahih (Hadith Qudsi)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 38: Severe divine warning against slandering or harassing righteous, sincere servants of Allah. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 38 (Attaining the Nearness and Love of Allah (Hadith al-Wali)) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-38",
+          "title": "Hadith 38 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 38 (Attaining the Nearness and Love of Allah (Hadith al-Wali))?",
+              "options": [
+                "Abu Hurairah",
+                "Anas ibn Malik (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 38 is famously narrated by Abu Hurairah (رضي الله عنه)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 38?",
+              "options": [
+                "The status of the friends of Allah, fulfilling obligations, and voluntary devotion (Nawafil)",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 38 focuses fundamentally on: The status of the friends of Allah, fulfilling obligations, and voluntary devotion (Nawafil)."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 38?",
+              "options": [
+                "Severe divine warning against slandering or harassing righteous, sincere servants of Allah.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: Severe divine warning against slandering or harassing righteous, sincere servants of Allah."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-39",
+        "number": 39,
+        "title": "Hadith 39: Forgiveness for Mistakes, Forgetfulness, and Duress",
+        "subtitle": "Divine leniency, compassion, and lifting accountability for involuntary errors",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 2420,
+          "start": 2420,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=2420s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=2420&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=2420s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 39 of Al-Arba'een An-Nawawiyyah: Forgiveness for Mistakes, Forgetfulness, and Duress. Narrated by 'Abdullah ibn 'Abbas (رضي الله عنهما). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 39",
+          "Learn the biographical context of the narrator: 'Abdullah ibn 'Abbas (رضي الله عنهما)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 39: Forgiveness for Mistakes, Forgetfulness, and Duress\n*Divine leniency, compassion, and lifting accountability for involuntary errors*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنِ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «إِنَّ اللَّهَ تَجَاوَزَ لِي عَنْ أُمَّتِي الْخَطَأَ، وَالنِّسْيَانَ، وَمَا اسْتُكْرِهُوا عَلَيْهِ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Ibn 'Abbas (may Allah be pleased with both of them) that the Messenger of Allah ﷺ said: 'Verily Allah has pardoned for my nation their mistakes, their forgetfulness, and that which they are forced under duress to do.'\"  \n> *— Verified Reference: Sunan Ibn Majah (2045), Sunan al-Bayhaqi (7/356) (Hasan (Accepted universally by scholars as a foundational principle))*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **'Abdullah ibn 'Abbas (رضي الله عنهما)**\n* **Canonical Reference**: **Sunan Ibn Majah (2045), Sunan al-Bayhaqi (7/356)**\n* **Scholarly Status**: **Hasan (Accepted universally by scholars as a foundational principle)**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **No sin or moral guilt is recorded for genuine involuntary errors, honest forgetfulness, or actions coerced under violent duress.**\n2. **Reflects the supreme mercy, realism, and gentleness of Islamic legislation.**\n3. **Civil obligations (e.g., returning damaged property) may still apply, but spiritual culpability is completely absolved.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنِ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «إِنَّ اللَّهَ تَجَاوَزَ لِي عَنْ أُمَّتِي الْخَطَأَ، وَالنِّسْيَانَ، وَمَا اسْتُكْرِهُوا عَلَيْهِ».",
+          "translation": "On the authority of Ibn 'Abbas (may Allah be pleased with both of them) that the Messenger of Allah ﷺ said: 'Verily Allah has pardoned for my nation their mistakes, their forgetfulness, and that which they are forced under duress to do.'",
+          "reference": "Sunan Ibn Majah (2045), Sunan al-Bayhaqi (7/356)",
+          "grading": "Hasan (Accepted universally by scholars as a foundational principle)"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 39: No sin or moral guilt is recorded for genuine involuntary errors, honest forgetfulness, or actions coerced under violent duress. Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 39 (Forgiveness for Mistakes, Forgetfulness, and Duress) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-39",
+          "title": "Hadith 39 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 39 (Forgiveness for Mistakes, Forgetfulness, and Duress)?",
+              "options": [
+                "'Abdullah ibn 'Abbas",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Umar ibn al-Khattab (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 39 is famously narrated by 'Abdullah ibn 'Abbas (رضي الله عنهما)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 39?",
+              "options": [
+                "Divine leniency, compassion, and lifting accountability for involuntary errors",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 39 focuses fundamentally on: Divine leniency, compassion, and lifting accountability for involuntary errors."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 39?",
+              "options": [
+                "No sin or moral guilt is recorded for genuine involuntary errors, honest forgetfulness, or actions coerced under violent duress.",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: No sin or moral guilt is recorded for genuine involuntary errors, honest forgetfulness, or actions coerced under violent duress."
+            }
+          ]
+        }
+      },
+      {
+        "id": "hadith-40",
+        "number": 40,
+        "title": "Hadith 40: Be in This World as a Stranger or a Traveler",
+        "subtitle": "The capstone of asceticism: worldly transience, preparation for the eternal, and seizing time",
+        "readingTime": "12 min",
+        "videoLesson": {
+          "title": "Al-Arba'oon An-Nawawiyyah (Hadith 28 - 42) | Ustadh AbdulRahman Hassan | Day 11",
+          "channel": "KALEMAH Islamic Center",
+          "duration": "Series Module",
+          "videoId": "q7Ld4VK3e3Y",
+          "videoStartTime": 2470,
+          "start": 2470,
+          "watchUrl": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=2470s",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q7Ld4VK3e3Y?start=2470&rel=0",
+          "url": "https://www.youtube.com/watch?v=q7Ld4VK3e3Y&t=2470s",
+          "sourceName": "KALEMAH — Al-Arba'een An-Nawawiyyah Series",
+          "badge": "Official Verified Supplemental Video"
+        },
+        "summary": "Hadith 40 of Al-Arba'een An-Nawawiyyah: Be in This World as a Stranger or a Traveler. Narrated by 'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما). Establishes essential principles of Islamic creed, ethics, and jurisprudence.",
+        "objectives": [
+          "Comprehend the Arabic matn and core meaning of Hadith 40",
+          "Learn the biographical context of the narrator: 'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما)",
+          "Understand the legal, theological, and moral rulings derived by scholars",
+          "Apply the practical lessons in contemporary daily life"
+        ],
+        "content": "# Hadith 40: Be in This World as a Stranger or a Traveler\n*The capstone of asceticism: worldly transience, preparation for the eternal, and seizing time*\n\n---\n\n## 1. The Noble Matn (Arabic Text)\n\n> عَنِ ابْنِ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: أَخَذَ رَسُولُ اللَّهِ ﷺ بِمَنْكِبِي، فَقَالَ: «كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ أَوْ عَابِرُ سَبِيلٍ». وَكَانَ ابْنُ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا يَقُولُ: «إِذَا أَمْسَيْتَ فَلاَ تَنْتَظِرِ الصَّبَاحَ، وَإِذَا أَصْبَحْتَ فَلاَ تَنْتَظِرِ الْمَسَاءَ، وَخُذْ مِنْ صِحَّتِكَ لِمَرَضِكَ، وَمِنْ حَيَاتِكَ لِمَوْتِكَ».\n\n---\n\n## 2. English Translation\n\n> \"On the authority of Ibn 'Umar (may Allah be pleased with both of them), who said: The Messenger of Allah ﷺ took me by my shoulder and said: 'Be in this world as though you were a stranger or a traveler passing through.' And Ibn 'Umar would say: 'When evening comes, do not wait for the morning; and when morning comes, do not wait for the evening. Take from your health for your illness, and take from your life for your death.'\"  \n> *— Verified Reference: Sahih al-Bukhari (6416) (Sahih)*\n\n---\n\n## 3. Companion Narrator Profile\n\n* **Narrator**: **'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما)**\n* **Canonical Reference**: **Sahih al-Bukhari (6416)**\n* **Scholarly Status**: **Sahih**\n\nThe Companions of the Messenger of Allah ﷺ preserved these words with utmost diligence, precision, and fear of Allah. Their transmission forms an unbroken chain of living wisdom connecting every believer to the pure prophetic fountain.\n\n---\n\n## 4. Scholarly Commentary & Key Principles\n\nImam Muhyiddin Yahya ibn Sharaf an-Nawawi (may Allah have mercy on him) specifically selected this tradition among the forty because it embodies an indispensable pillar (*Qawa'id al-Kulliyyah*) of the Islamic faith.\n\n### Analytical Dimensions of the Hadith\n* **Theological Foundation**: This Hadith reinforces the supremacy of revelation in guiding human reason, morality, and social interaction.\n* **Ethical Dimension**: It directly instructs the believer on rectifying character, purifying the soul from arrogance, doubts, and destructive passions.\n* **Juridical Bearing**: Classical jurists (*Fuqaha*) extract numerous legal maxims from this narration, establishing clear boundaries between what is obligatory, recommended, prohibited, and scrupulously avoided.\n\n---\n\n## 5. Core Takeaways & Lessons Derived\n\n1. **The world is a temporary transit lounge; the true permanent homeland is the Hereafter (Akhirah).**\n2. **Do not procrastinate good deeds; take advantage of vigor, time, and health before sickness and death arrive.**\n3. **Live with a light emotional baggage, keeping eyes fixed on the eternal destination.**\n\n---\n\n## 6. Practical Daily Application\n\n* **Contemplation & Practice**: Embody the guidance of this Hadith in your interactions with your family, colleagues, and community today.\n* **Guard Your Heart**: Cultivate the specific virtue highlighted in this narration—whether it is sincere faith, honesty, modesty, generosity, restraining anger, or contentment.\n* **Supplication**: Ask Allah the Almighty to bestow upon you understanding (*Fiqh fi ad-Deen*), steadfastness upon the Sunnah, and purity of inward and outward deeds.",
+        "keyTerms": [
+          {
+            "term": "Sunnah (سُنَّة)",
+            "meaning": "The authentic teachings, sayings, and practices of the Prophet ﷺ."
+          },
+          {
+            "term": "Ikhlas (إِخْلاص)",
+            "meaning": "Pure sincerity of intention directed exclusively toward Allah."
+          },
+          {
+            "term": "Birr (بِرّ)",
+            "meaning": "Comprehensive righteousness, noble character, and fulfilling rights."
+          },
+          {
+            "term": "Wara' (وَرَع)",
+            "meaning": "Spiritual vigilance and piety guarding against compromise."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنِ ابْنِ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: أَخَذَ رَسُولُ اللَّهِ ﷺ بِمَنْكِبِي، فَقَالَ: «كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ أَوْ عَابِرُ سَبِيلٍ». وَكَانَ ابْنُ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا يَقُولُ: «إِذَا أَمْسَيْتَ فَلاَ تَنْتَظِرِ الصَّبَاحَ، وَإِذَا أَصْبَحْتَ فَلاَ تَنْتَظِرِ الْمَسَاءَ، وَخُذْ مِنْ صِحَّتِكَ لِمَرَضِكَ، وَمِنْ حَيَاتِكَ لِمَوْتِكَ».",
+          "translation": "On the authority of Ibn 'Umar (may Allah be pleased with both of them), who said: The Messenger of Allah ﷺ took me by my shoulder and said: 'Be in this world as though you were a stranger or a traveler passing through.' And Ibn 'Umar would say: 'When evening comes, do not wait for the morning; and when morning comes, do not wait for the evening. Take from your health for your illness, and take from your life for your death.'",
+          "reference": "Sahih al-Bukhari (6416)",
+          "grading": "Sahih"
+        },
+        "practicalApplication": "Reflect on the guidance of Hadith 40: The world is a temporary transit lounge; the true permanent homeland is the Hereafter (Akhirah). Implement this principle today in your speech, conduct, and worship.",
+        "reflectionQuestions": [
+          "How does the teaching in Hadith 40 (Be in This World as a Stranger or a Traveler) guide your personal ethics and daily decisions?",
+          "What practical steps can you take to share this authentic prophetic guidance with your family and study circle?"
+        ],
+        "quiz": {
+          "id": "hadith-quiz-40",
+          "title": "Hadith 40 Knowledge Check",
+          "questions": [
+            {
+              "question": "Who is the primary Companion narrator of Hadith 40 (Be in This World as a Stranger or a Traveler)?",
+              "options": [
+                "'Abdullah ibn 'Umar ibn al-Khattab",
+                "Abu Hurairah (رضي الله عنه)",
+                "'Abdullah ibn 'Umar (رضي الله عنهما)",
+                "'Ali ibn Abi Talib (رضي الله عنه)"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 40 is famously narrated by 'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما)."
+            },
+            {
+              "question": "What is the primary spiritual or legal theme established in Hadith 40?",
+              "options": [
+                "The capstone of asceticism: worldly transience, preparation for the eternal, and seizing time",
+                "The detailed legal calculation of estate inheritance shares",
+                "The military history of the early Umayyad caliphate",
+                "Technical rules regarding maritime commercial contracts"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Hadith 40 focuses fundamentally on: The capstone of asceticism: worldly transience, preparation for the eternal, and seizing time."
+            },
+            {
+              "question": "Which of the following is a key practical takeaway from Hadith 40?",
+              "options": [
+                "The world is a temporary transit lounge; the true permanent homeland is the Hereafter (Akhirah).",
+                "Good deeds are valid even when done solely for social media praise",
+                "One should avoid learning authentic Hadith if it requires study",
+                "Scholarly consensus plays no role in understanding the Sunnah"
+              ],
+              "correctAnswer": 0,
+              "explanation": "As scholars emphasize: The world is a temporary transit lounge; the true permanent homeland is the Hereafter (Akhirah)."
             }
           ]
         }
@@ -20181,296 +23349,1561 @@ export const coursesData = [
     "quizzes": [
       {
         "id": "hadith-quiz-1",
-        "title": "Module 1 Knowledge Check",
+        "title": "Hadith 1 Knowledge Check",
         "questions": [
           {
-            "question": "What is the primary difference between the Holy Qur'an and Hadith Nabawi?",
+            "question": "Who is the primary Companion narrator of Hadith 1 (Actions are Judged by Intentions)?",
             "options": [
-              "There is no difference between them",
-              "The Qur'an is the verbatim word of Allah, while Hadith conveys inspired meanings expressed in the words of the Prophet ﷺ",
-              "Hadith is older than the Qur'an",
-              "Hadith is recited in prayer in place of the Qur'an"
+              "Amir al-Mu'minin Abu Hafs 'Umar ibn al-Khattab",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Ali ibn Abi Talib (رضي الله عنه)"
             ],
-            "correctAnswer": 1,
-            "explanation": "The Qur'an is the verbatim Word of Allah revealed through Angel Jibreel, while Hadith consists of the inspired sayings, deeds, and approvals of the Prophet Muhammad ﷺ expressed in human language."
+            "correctAnswer": 0,
+            "explanation": "Hadith 1 is famously narrated by Amir al-Mu'minin Abu Hafs 'Umar ibn al-Khattab (رضي الله عنه)."
           },
           {
-            "question": "What does a 'silent approval' (Taqrir) by the Prophet ﷺ mean in Hadith terminology?",
+            "question": "What is the primary spiritual or legal theme established in Hadith 1?",
             "options": [
-              "The Prophet ﷺ was not aware of the action",
-              "An action done in the Prophet's presence or with his knowledge which he did not prohibit, showing its permissibility",
-              "An action that is strictly forbidden",
-              "An action that only applies in the battlefield"
+              "The foundation of all deeds, sincerity (Ikhlas), and spiritual direction",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
             ],
-            "correctAnswer": 1,
-            "explanation": "A Taqrir occurs when a Companion performed an action in the presence of the Prophet ﷺ, and he remained silent without prohibiting it, demonstrating its Islamic permissibility."
+            "correctAnswer": 0,
+            "explanation": "Hadith 1 focuses fundamentally on: The foundation of all deeds, sincerity (Ikhlas), and spiritual direction."
           },
           {
-            "question": "Which of the following describes a Hadith Qudsi?",
+            "question": "Which of the following is a key practical takeaway from Hadith 1?",
             "options": [
-              "A Hadith narrated only by children",
-              "A report where the meaning is from Allah and the wording was formulated by the Prophet ﷺ",
-              "A verse from Surah Al-Baqarah",
-              "A fabricated narration with no chain"
+              "Every outward action is weighed in the sight of Allah based upon inward intention (Niyyah).",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
             ],
-            "correctAnswer": 1,
-            "explanation": "In a Hadith Qudsi (Sacred Hadith), the meaning is directly revealed from Allah, but the wording is formulated by the Prophet Muhammad ﷺ."
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Every outward action is weighed in the sight of Allah based upon inward intention (Niyyah)."
           }
         ]
       },
       {
         "id": "hadith-quiz-2",
-        "title": "Module 2 Knowledge Check",
+        "title": "Hadith 2 Knowledge Check",
         "questions": [
           {
-            "question": "What are the two core parts of every Hadith report?",
+            "question": "Who is the primary Companion narrator of Hadith 2 (Islam, Iman, and Ihsan (The Hadith of Jibreel))?",
             "options": [
-              "The Introduction and the Conclusion",
-              "The Isnad (chain of narrators) and the Matn (actual text)",
-              "The Translation and the Grammar",
-              "The Surah and the Ayah"
+              "'Umar ibn al-Khattab",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Ali ibn Abi Talib (رضي الله عنه)"
             ],
-            "correctAnswer": 1,
-            "explanation": "Every Hadith report consists of the Isnad (the chronological chain of narrators) and the Matn (the text/substance of the narration)."
+            "correctAnswer": 0,
+            "explanation": "Hadith 2 is famously narrated by 'Umar ibn al-Khattab (رضي الله عنه)."
           },
           {
-            "question": "How many conditions must be simultaneously met for a narration to be classified as Sahih (Authentic)?",
+            "question": "What is the primary spiritual or legal theme established in Hadith 2?",
             "options": [
-              "2 conditions",
-              "3 conditions",
-              "5 conditions",
-              "10 conditions"
+              "The comprehensive blueprint of Islamic religion, creed, and spiritual excellence",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
             ],
-            "correctAnswer": 2,
-            "explanation": "Scholars require 5 strict conditions: unbroken chain, upright character ('Adalah), precision of memory (Dabt), freedom from irregularity (Shudhudh), and absence of subtle defects ('Illah)."
+            "correctAnswer": 0,
+            "explanation": "Hadith 2 focuses fundamentally on: The comprehensive blueprint of Islamic religion, creed, and spiritual excellence."
           },
           {
-            "question": "What is the ruling on sharing a Mawdu' (Fabricated) narration on social media?",
+            "question": "Which of the following is a key practical takeaway from Hadith 2?",
             "options": [
-              "It is encouraged if the message sounds nice",
-              "It is permissible as long as you do not claim it is from the Qur'an",
-              "It is strictly forbidden to share, except to warn others that it is a forgery",
-              "It is rewarded like authentic Hadith"
+              "The religion (Din) consists of three rising tiers: Islam (outward practice), Iman (inward belief), and Ihsan (spiritual excellence).",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
             ],
-            "correctAnswer": 2,
-            "explanation": "It is strictly forbidden in Islam to narrate or propagate fabricated reports falsely attributed to the Prophet ﷺ, unless one is explicitly warning people against the forgery."
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: The religion (Din) consists of three rising tiers: Islam (outward practice), Iman (inward belief), and Ihsan (spiritual excellence)."
           }
         ]
       },
       {
         "id": "hadith-quiz-3",
-        "title": "Module 3 Knowledge Check",
+        "title": "Hadith 3 Knowledge Check",
         "questions": [
           {
-            "question": "Which two compilations are collectively called 'As-Sahihayn' (The Two Sound Books)?",
+            "question": "Who is the primary Companion narrator of Hadith 3 (The Five Pillars of Islam)?",
             "options": [
-              "Sunan Abi Dawud and Sunan Ibn Majah",
-              "Sahih al-Bukhari and Sahih Muslim",
-              "Muwatta Malik and Musnad Ahmad",
-              "Riyad as-Salihin and Forty Hadith"
-            ],
-            "correctAnswer": 1,
-            "explanation": "As-Sahihayn refers to the two most authentic compilations: Sahih al-Bukhari and Sahih Muslim."
-          },
-          {
-            "question": "Which book is widely recognized for explicitly stating the authenticity grade of Hadiths alongside the opinions of jurists?",
-            "options": [
-              "Jami' at-Tirmidhi",
-              "The Odyssey",
-              "Sahih Muslim",
-              "Al-Muqaddimah"
+              "'Abdullah ibn 'Umar ibn al-Khattab",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Ali ibn Abi Talib (رضي الله عنه)"
             ],
             "correctAnswer": 0,
-            "explanation": "Imam at-Tirmidhi is celebrated for concluding narrations in Jami' at-Tirmidhi with verdicts like 'Hadith Hasan Sahih' and highlighting how legal scholars applied them."
+            "explanation": "Hadith 3 is famously narrated by 'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما)."
           },
           {
-            "question": "Why might the Hadith number for the same report differ slightly between a Darussalam print and an Egyptian Cairo print?",
+            "question": "What is the primary spiritual or legal theme established in Hadith 3?",
             "options": [
-              "Because the text of the Hadith was changed",
-              "Because modern editors used different enumeration methodologies for variants and chapter titles",
-              "Because one of the books is invalid",
-              "Because the Prophet ﷺ gave different numbers"
+              "The architectural foundations upon which Islamic life and faith are built",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
             ],
-            "correctAnswer": 1,
-            "explanation": "Numbering systems were introduced by modern editors (such as Fu'ad 'Abd al-Baqi or Darussalam) to index manuscripts; variations reflect whether sub-narrations were grouped together."
+            "correctAnswer": 0,
+            "explanation": "Hadith 3 focuses fundamentally on: The architectural foundations upon which Islamic life and faith are built."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 3?",
+            "options": [
+              "Islam is depicted as a complete building resting on five essential structural pillars.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Islam is depicted as a complete building resting on five essential structural pillars."
           }
         ]
       },
       {
         "id": "hadith-quiz-4",
-        "title": "Module 4 Knowledge Check",
+        "title": "Hadith 4 Knowledge Check",
         "questions": [
           {
-            "question": "Who was given triple priority when a Companion asked who is most deserving of good companionship?",
+            "question": "Who is the primary Companion narrator of Hadith 4 (Creation in the Womb and Destiny (Qadar))?",
             "options": [
-              "His best friend",
-              "His business partner",
-              "His mother",
-              "His teacher"
-            ],
-            "correctAnswer": 2,
-            "explanation": "The Prophet ﷺ repeated 'Your mother' three times before mentioning 'Then your father', emphasizing the immense debt and rank of mothers in Islam."
-          },
-          {
-            "question": "According to Sahih al-Bukhari, who is the genuinely strong person?",
-            "options": [
-              "The one who wins every argument",
-              "The one who controls themselves when angry",
-              "The one with the greatest wealth",
-              "The one who can lift the heaviest weight"
-            ],
-            "correctAnswer": 1,
-            "explanation": "The Prophet ﷺ taught that true strength is self-mastery and emotional restraint during anger ('The strong is the one who controls himself at the time of anger')."
-          },
-          {
-            "question": "What did Angel Jibreel repeatedly emphasize to the Prophet ﷺ until he thought neighbours might receive inheritance?",
-            "options": [
-              "Good treatment and honor of the neighbour",
-              "Building taller fences",
-              "Borrowing money from neighbours",
-              "Travelling only with neighbours"
+              "'Abdullah ibn Mas'ud",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
             ],
             "correctAnswer": 0,
-            "explanation": "Angel Jibreel continuously commanded the good treatment and protection of the neighbour until the Prophet ﷺ thought neighbours would be given inheritance rights."
+            "explanation": "Hadith 4 is famously narrated by 'Abdullah ibn Mas'ud (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 4?",
+            "options": [
+              "Human embryonic development, the blowing of the soul, and divine decree",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 4 focuses fundamentally on: Human embryonic development, the blowing of the soul, and divine decree."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 4?",
+            "options": [
+              "Miraculous Prophetic description of embryonic developmental phases in the womb.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Miraculous Prophetic description of embryonic developmental phases in the womb."
           }
         ]
       },
       {
         "id": "hadith-quiz-5",
-        "title": "Module 5 Knowledge Check",
+        "title": "Hadith 5 Knowledge Check",
         "questions": [
           {
-            "question": "What are the three essential table etiquettes the Prophet ﷺ taught to young 'Umar ibn Abi Salamah?",
+            "question": "Who is the primary Companion narrator of Hadith 5 (Rejection of Innovation in Religion (Bid'ah))?",
             "options": [
-              "Eat fast, eat everything, and ask for more",
-              "Say Bismillah, eat with your right hand, and eat from what is in front of you",
-              "Eat only vegetables, use forks, and drink while standing",
-              "Eat in silence, avoid water, and leave food on the plate"
-            ],
-            "correctAnswer": 1,
-            "explanation": "The Prophet ﷺ gave the timeless advice: 'Say Bismillah, eat with your right hand, and eat from what is directly in front of you' (Sahih al-Bukhari 5376)."
-          },
-          {
-            "question": "According to the famous Hadith in Sahih Muslim, cleanliness (At-Tuhur) is what proportion of faith?",
-            "options": [
-              "A minor recommendation",
-              "Half of faith (Shatr al-Iman)",
-              "One-tenth of faith",
-              "Optional on Fridays only"
-            ],
-            "correctAnswer": 1,
-            "explanation": "The Prophet ﷺ declared: 'Cleanliness is half of faith' (Sahih Muslim 223), highlighting the inseparable union of physical purity and spiritual devotion."
-          },
-          {
-            "question": "Which two phrases were described as 'light on the tongue, heavy on the balance, beloved to the Most Merciful'?",
-            "options": [
-              "Subhan Allahi wa bihamdihi, Subhan Allahil-'Azim",
-              "La hawla wa la quwwata illa billah",
-              "Astaghfirullah al-'Azim",
-              "Allahu Akbar wa lillahi al-hamd"
+              "Umm al-Mu'minin 'A'ishah",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
             ],
             "correctAnswer": 0,
-            "explanation": "In the concluding Hadith of Sahih al-Bukhari (6407), the Prophet ﷺ highlighted the extraordinary weight of: Subhan Allahi wa bihamdihi, Subhan Allahil-'Azim."
+            "explanation": "Hadith 5 is famously narrated by Umm al-Mu'minin 'A'ishah (رضي الله عنها)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 5?",
+            "options": [
+              "Preserving the pristine authenticity and divine boundaries of Islamic worship",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 5 focuses fundamentally on: Preserving the pristine authenticity and divine boundaries of Islamic worship."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 5?",
+            "options": [
+              "Worship requires two pillars: sincerity to Allah (Hadith 1) and conformity to the Sunnah (Hadith 5).",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Worship requires two pillars: sincerity to Allah (Hadith 1) and conformity to the Sunnah (Hadith 5)."
           }
         ]
       },
       {
         "id": "hadith-quiz-6",
-        "title": "Module 6 Knowledge Check",
+        "title": "Hadith 6 Knowledge Check",
         "questions": [
           {
-            "question": "What does 'Sabab al-Wurud' mean in Hadith studies?",
+            "question": "Who is the primary Companion narrator of Hadith 6 (The Halal is Clear and the Haram is Clear)?",
             "options": [
-              "The cost of buying a Hadith book",
-              "The historical occasion and context in which the Prophet ﷺ spoke a Hadith",
-              "The Arabic grammar of a sentence",
-              "The narrator's hometown"
+              "An-Nu'man ibn Bashir",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
             ],
-            "correctAnswer": 1,
-            "explanation": "Sabab al-Wurud refers to the specific historical background and occasion that prompted the Prophetic statement or action."
+            "correctAnswer": 0,
+            "explanation": "Hadith 6 is famously narrated by An-Nu'man ibn Bashir (رضي الله عنهما)."
           },
           {
-            "question": "Why do established schools of jurisprudence (Madhahib) sometimes have differing practical applications of a Hadith?",
+            "question": "What is the primary spiritual or legal theme established in Hadith 6?",
             "options": [
-              "Because they rejected the Prophet's authority",
-              "Because of legitimate scholarly methods in reconciling multiple authentic texts and linguistic nuances",
-              "Because they lived in different centuries and did not care",
-              "Because they wrote in different languages"
+              "Navigating doubtful matters and nurturing purity of the spiritual heart",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
             ],
-            "correctAnswer": 1,
-            "explanation": "Classical scholars differed based on legitimate academic methodologies in evaluating chains, reconciling multiple texts, and interpreting Arabic linguistic nuances."
+            "correctAnswer": 0,
+            "explanation": "Hadith 6 focuses fundamentally on: Navigating doubtful matters and nurturing purity of the spiritual heart."
           },
           {
-            "question": "What should you do when you see a viral social media message promising huge rewards without any book or Hadith reference?",
+            "question": "Which of the following is a key practical takeaway from Hadith 6?",
             "options": [
-              "Share it immediately to get good deeds",
-              "Pause and verify its authenticity with trusted reference databases and qualified teachers before sharing",
-              "Claim you wrote it",
-              "Ignore all Hadiths forever"
+              "Clear guidance exists for lawful and prohibited acts; dubious grey areas require caution (Wara').",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
             ],
-            "correctAnswer": 1,
-            "explanation": "Muslims have a religious duty to verify all attributed statements before sharing, as warned by the Prophet ﷺ in authentic traditions."
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Clear guidance exists for lawful and prohibited acts; dubious grey areas require caution (Wara')."
           }
         ]
       },
       {
         "id": "hadith-quiz-7",
-        "title": "Module 7 Final Comprehensive Assessment",
+        "title": "Hadith 7 Knowledge Check",
         "questions": [
           {
-            "question": "Which of the following represents the correct definition of the term 'Isnad'?",
+            "question": "Who is the primary Companion narrator of Hadith 7 (Religion is Sincerity (An-Nasihah))?",
             "options": [
-              "The Arabic vowel signs on a word",
-              "The unbroken chronological chain of transmitters linking back to the Prophet ﷺ",
-              "The translation of the Hadith into English",
-              "The city where the compiler was born"
+              "Tamim ad-Dari",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
             ],
-            "correctAnswer": 1,
-            "explanation": "The Isnad is the chain of narrators who transmitted the report from generation to generation."
+            "correctAnswer": 0,
+            "explanation": "Hadith 7 is famously narrated by Tamim ad-Dari (رضي الله عنه)."
           },
           {
-            "question": "Why is Sahih al-Bukhari universally recognized as the most authentic Hadith compilation?",
+            "question": "What is the primary spiritual or legal theme established in Hadith 7?",
             "options": [
-              "Because it is the longest book in history",
-              "Because Imam al-Bukhari applied the strictest conditions of narrator reliability, continuous meeting, and memory precision",
-              "Because it contains no chains of narration",
-              "Because it was written in Mecca only"
+              "The definition of genuine goodwill towards Allah, His Book, His Messenger, and community",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
             ],
-            "correctAnswer": 1,
-            "explanation": "Imam al-Bukhari established the most rigorous methodological criteria in Islamic history, requiring verified historical meetings and unimpeachable character."
+            "correctAnswer": 0,
+            "explanation": "Hadith 7 focuses fundamentally on: The definition of genuine goodwill towards Allah, His Book, His Messenger, and community."
           },
           {
-            "question": "What is the proper Islamic response when encountering a doubtful or unverified Hadith quotation online?",
+            "question": "Which of the following is a key practical takeaway from Hadith 7?",
             "options": [
-              "Forward it to all contacts just in case",
-              "Refrain from sharing and verify it using authoritative Hadith reference collections or consult qualified scholars",
-              "Argue aggressively in the comments",
-              "Delete your computer"
+              "An-Nasihah means pure, unadulterated goodwill, sincerity, and fulfilling duties wholeheartedly.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
             ],
-            "correctAnswer": 1,
-            "explanation": "The Prophetic teaching requires verification before transmitting speech, especially regarding religious guidance."
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: An-Nasihah means pure, unadulterated goodwill, sincerity, and fulfilling duties wholeheartedly."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-8",
+        "title": "Hadith 8 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 8 (The Sanctity of a Muslim's Blood and Wealth)?",
+            "options": [
+              "'Abdullah ibn 'Umar ibn al-Khattab",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Ali ibn Abi Talib (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 8 is famously narrated by 'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما)."
           },
           {
-            "question": "What did the Prophet ﷺ teach regarding the virtue of maintaining family ties (Silat ar-Rahim)?",
+            "question": "What is the primary spiritual or legal theme established in Hadith 8?",
             "options": [
-              "It has no impact on one's life",
-              "It brings blessings in one's sustenance (Rizq) and longevity in one's life",
-              "It is only required once every 10 years",
-              "It applies only to wealthy relatives"
+              "The rights of life, property, and the core test of faith",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
             ],
-            "correctAnswer": 1,
-            "explanation": "In Sahih al-Bukhari (5986), the Prophet ﷺ taught that maintaining family ties brings divine blessing to one's provision and life."
+            "correctAnswer": 0,
+            "explanation": "Hadith 8 focuses fundamentally on: The rights of life, property, and the core test of faith."
           },
           {
-            "question": "What are the two inseparable guides left by the Prophet ﷺ for the Muslim Ummah?",
+            "question": "Which of the following is a key practical takeaway from Hadith 8?",
             "options": [
-              "Philosophy and Poetry",
-              "The Book of Allah (The Qur'an) and the Prophetic Sunnah",
-              "Gold and Silver",
-              "Astrology and Science"
+              "The ultimate sanctity of human life and property in Islamic jurisprudence.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
             ],
-            "correctAnswer": 1,
-            "explanation": "The Prophet ﷺ declared: 'I have left among you two things after which you will never go astray: the Book of Allah and my Sunnah.'"
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: The ultimate sanctity of human life and property in Islamic jurisprudence."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-9",
+        "title": "Hadith 9 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 9 (Fulfilling Obligations According to Capacity)?",
+            "options": [
+              "Abu Hurairah 'Abd ar-Rahman ibn Sakhr",
+              "Anas ibn Malik (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 9 is famously narrated by Abu Hurairah 'Abd ar-Rahman ibn Sakhr (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 9?",
+            "options": [
+              "The divine principle of ease, avoiding unnecessary questioning, and obedience",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 9 focuses fundamentally on: The divine principle of ease, avoiding unnecessary questioning, and obedience."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 9?",
+            "options": [
+              "Prohibitions must be shunned entirely, while positive commands are fulfilled according to one's genuine ability.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Prohibitions must be shunned entirely, while positive commands are fulfilled according to one's genuine ability."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-10",
+        "title": "Hadith 10 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 10 (Allah is Pure and Accepts Only What is Pure)?",
+            "options": [
+              "Abu Hurairah",
+              "Anas ibn Malik (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 10 is famously narrated by Abu Hurairah (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 10?",
+            "options": [
+              "Halal livelihood, ethical consumption, and the conditions of accepted supplication (Du'a)",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 10 focuses fundamentally on: Halal livelihood, ethical consumption, and the conditions of accepted supplication (Du'a)."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 10?",
+            "options": [
+              "Consuming Halal and earning through honest, lawful avenues is a direct prerequisite for accepted worship and answered prayers.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Consuming Halal and earning through honest, lawful avenues is a direct prerequisite for accepted worship and answered prayers."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-11",
+        "title": "Hadith 11 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 11 (Leaving Doubt for Certainty (Wara'))?",
+            "options": [
+              "Abu Muhammad al-Hasan ibn 'Ali ibn Abi Talib",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 11 is famously narrated by Abu Muhammad al-Hasan ibn 'Ali ibn Abi Talib (رضي الله عنهما)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 11?",
+            "options": [
+              "Conscientious spirituality, peace of heart, and avoiding ambiguous gray zones",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 11 focuses fundamentally on: Conscientious spirituality, peace of heart, and avoiding ambiguous gray zones."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 11?",
+            "options": [
+              "Whenever confronted by an ethical or moral question where your conscience is uneasy, leave it for what is unmistakably lawful.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Whenever confronted by an ethical or moral question where your conscience is uneasy, leave it for what is unmistakably lawful."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-12",
+        "title": "Hadith 12 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 12 (Leaving What Does Not Concern You)?",
+            "options": [
+              "Abu Hurairah",
+              "Anas ibn Malik (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 12 is famously narrated by Abu Hurairah (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 12?",
+            "options": [
+              "Mastering focus, digital discipline, and shedding unproductive distractions",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 12 focuses fundamentally on: Mastering focus, digital discipline, and shedding unproductive distractions."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 12?",
+            "options": [
+              "A golden foundational principle of personal time management, social dignity, and mental well-being.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: A golden foundational principle of personal time management, social dignity, and mental well-being."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-13",
+        "title": "Hadith 13 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 13 (Loving for Your Brother What You Love for Yourself)?",
+            "options": [
+              "Abu Hamzah Anas ibn Malik",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 13 is famously narrated by Abu Hamzah Anas ibn Malik (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 13?",
+            "options": [
+              "The pinnacle of empathetic brotherhood, altruism (Ithar), and community solidarity",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 13 focuses fundamentally on: The pinnacle of empathetic brotherhood, altruism (Ithar), and community solidarity."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 13?",
+            "options": [
+              "True faith purges the heart of toxic jealousy (Hasad), malice, and self-centered arrogance.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: True faith purges the heart of toxic jealousy (Hasad), malice, and self-centered arrogance."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-14",
+        "title": "Hadith 14 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 14 (The Inviolability of Human Life)?",
+            "options": [
+              "'Abdullah ibn Mas'ud",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 14 is famously narrated by 'Abdullah ibn Mas'ud (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 14?",
+            "options": [
+              "The legal sanctity of life in Islamic law and the gravity of murder",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 14 focuses fundamentally on: The legal sanctity of life in Islamic law and the gravity of murder."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 14?",
+            "options": [
+              "Human life is divinely sacred; taking a life unjustly is among the most catastrophic sins in Islam.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Human life is divinely sacred; taking a life unjustly is among the most catastrophic sins in Islam."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-15",
+        "title": "Hadith 15 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 15 (Speaking Good, Honoring Neighbours and Guests)?",
+            "options": [
+              "Abu Hurairah",
+              "Anas ibn Malik (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 15 is famously narrated by Abu Hurairah (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 15?",
+            "options": [
+              "Social ethics, mindful speech, hospitality, and daily manifestation of faith",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 15 focuses fundamentally on: Social ethics, mindful speech, hospitality, and daily manifestation of faith."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 15?",
+            "options": [
+              "Direct link between faith in the Day of Judgment and verbal restraint: words are recorded deeds.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Direct link between faith in the Day of Judgment and verbal restraint: words are recorded deeds."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-16",
+        "title": "Hadith 16 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 16 (Restraining Anger (Do Not Become Angry))?",
+            "options": [
+              "Abu Hurairah",
+              "Anas ibn Malik (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 16 is famously narrated by Abu Hurairah (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 16?",
+            "options": [
+              "Emotional intelligence, impulse control, and overcoming impulsive rage",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 16 focuses fundamentally on: Emotional intelligence, impulse control, and overcoming impulsive rage."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 16?",
+            "options": [
+              "The Prophet ﷺ identified anger as the root of severed ties, broken homes, violence, and remorse.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: The Prophet ﷺ identified anger as the root of severed ties, broken homes, violence, and remorse."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-17",
+        "title": "Hadith 17 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 17 (Prescribing Excellence (Ihsan) in All Things)?",
+            "options": [
+              "Abu Ya'la Shaddad ibn Aws",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 17 is famously narrated by Abu Ya'la Shaddad ibn Aws (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 17?",
+            "options": [
+              "Universal professionalism, compassion to animals, and ethical execution",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 17 focuses fundamentally on: Universal professionalism, compassion to animals, and ethical execution."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 17?",
+            "options": [
+              "Ihsan is an obligatory standard across all life endeavors: professional craftsmanship, engineering, mercy, and law.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Ihsan is an obligatory standard across all life endeavors: professional craftsmanship, engineering, mercy, and law."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-18",
+        "title": "Hadith 18 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 18 (Fearing Allah and Noble Character (Khuluq Hasan))?",
+            "options": [
+              "Abu Dharr Jundub ibn Junadah & Abu 'Abd ar-Rahman Mu'adh ibn Jabal",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 18 is famously narrated by Abu Dharr Jundub ibn Junadah & Abu 'Abd ar-Rahman Mu'adh ibn Jabal (رضي الله عنهما)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 18?",
+            "options": [
+              "Taqwa in private, rectifying sins with good deeds, and treating people with kindness",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 18 focuses fundamentally on: Taqwa in private, rectifying sins with good deeds, and treating people with kindness."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 18?",
+            "options": [
+              "Taqwa (God-consciousness) is not a public show; it must govern your secret life in solitude just as in company.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Taqwa (God-consciousness) is not a public show; it must govern your secret life in solitude just as in company."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-19",
+        "title": "Hadith 19 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 19 (Be Mindful of Allah, He Will Protect You)?",
+            "options": [
+              "'Abdullah ibn 'Abbas",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 19 is famously narrated by 'Abdullah ibn 'Abbas (رضي الله عنهما)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 19?",
+            "options": [
+              "The great counsel to Ibn 'Abbas on reliance, divine decree, and victory through patience",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 19 focuses fundamentally on: The great counsel to Ibn 'Abbas on reliance, divine decree, and victory through patience."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 19?",
+            "options": [
+              "Guard Allah's boundaries through obedience, and He will guard your heart, faith, family, and destiny.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Guard Allah's boundaries through obedience, and He will guard your heart, faith, family, and destiny."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-20",
+        "title": "Hadith 20 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 20 (Modesty / Shyness is from Faith (Al-Haya'))?",
+            "options": [
+              "Abu Mas'ud 'Uqbah ibn 'Amr al-Ansari",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 20 is famously narrated by Abu Mas'ud 'Uqbah ibn 'Amr al-Ansari (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 20?",
+            "options": [
+              "Moral conscience as the internal guardian against indecency and shamelessness",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 20 focuses fundamentally on: Moral conscience as the internal guardian against indecency and shamelessness."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 20?",
+            "options": [
+              "Haya' (modesty and moral dignity) is an ancient, universal prophetic virtue shared across all revealed scriptures.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Haya' (modesty and moral dignity) is an ancient, universal prophetic virtue shared across all revealed scriptures."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-21",
+        "title": "Hadith 21 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 21 (Say: 'I Believe in Allah', then Remain Steadfast (Istiqamah))?",
+            "options": [
+              "Abu 'Amr",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 21 is famously narrated by Abu 'Amr (or Abu 'Amrah) Sufyan ibn 'Abdillah (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 21?",
+            "options": [
+              "Simplicity of creed paired with daily perseverance and moral consistency",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 21 focuses fundamentally on: Simplicity of creed paired with daily perseverance and moral consistency."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 21?",
+            "options": [
+              "Islam in a single sentence: combining sound theological belief (Iman) with daily moral steadfastness (Istiqamah).",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Islam in a single sentence: combining sound theological belief (Iman) with daily moral steadfastness (Istiqamah)."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-22",
+        "title": "Hadith 22 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 22 (Entering Paradise Through the Obligatory Duties)?",
+            "options": [
+              "Abu 'Abdillah Jabir ibn 'Abdillah al-Ansari",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 22 is famously narrated by Abu 'Abdillah Jabir ibn 'Abdillah al-Ansari (رضي الله عنهما)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 22?",
+            "options": [
+              "Sufficiency of fulfilling religious imperatives and avoiding the prohibited",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 22 focuses fundamentally on: Sufficiency of fulfilling religious imperatives and avoiding the prohibited."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 22?",
+            "options": [
+              "The foundational baseline to attain Paradise is fulfilling obligations and steering completely clear of Haram.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: The foundational baseline to attain Paradise is fulfilling obligations and steering completely clear of Haram."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-23",
+        "title": "Hadith 23 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 23 (Purity is Half of Faith (At-Tuhuru Shatrul-Iman))?",
+            "options": [
+              "Abu Malik al-Harith ibn 'Asim al-Ash'ari",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 23 is famously narrated by Abu Malik al-Harith ibn 'Asim al-Ash'ari (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 23?",
+            "options": [
+              "Spiritual cleanliness, prayer as light, charity as proof, patience, and dhikr",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 23 focuses fundamentally on: Spiritual cleanliness, prayer as light, charity as proof, patience, and dhikr."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 23?",
+            "options": [
+              "Physical hygiene and spiritual purification of the heart together constitute half of true faith.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Physical hygiene and spiritual purification of the heart together constitute half of true faith."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-24",
+        "title": "Hadith 24 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 24 (Prohibition of Injustice and Oppression (Hadith Qudsi))?",
+            "options": [
+              "Abu Dharr al-Ghifari",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 24 is famously narrated by Abu Dharr al-Ghifari (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 24?",
+            "options": [
+              "Divine justice, human dependency upon Allah, and the absolute self-sufficiency of the Creator",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 24 focuses fundamentally on: Divine justice, human dependency upon Allah, and the absolute self-sufficiency of the Creator."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 24?",
+            "options": [
+              "Injustice (Zulm) is unequivocally prohibited by Allah; oppression brings darkness on the Day of Resurrection.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Injustice (Zulm) is unequivocally prohibited by Allah; oppression brings darkness on the Day of Resurrection."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-25",
+        "title": "Hadith 25 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 25 (The Breadth and Abundance of Charity (Sadaqah))?",
+            "options": [
+              "Abu Dharr al-Ghifari",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 25 is famously narrated by Abu Dharr al-Ghifari (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 25?",
+            "options": [
+              "Tasbeeh, marital intimacy, good deeds, and charity accessible to all",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 25 focuses fundamentally on: Tasbeeh, marital intimacy, good deeds, and charity accessible to all."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 25?",
+            "options": [
+              "Charity (Sadaqah) is not restricted to money; every act of goodness, speech, and justice is charity.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Charity (Sadaqah) is not restricted to money; every act of goodness, speech, and justice is charity."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-26",
+        "title": "Hadith 26 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 26 (Daily Charity for Every Human Joint)?",
+            "options": [
+              "Abu Hurairah",
+              "Anas ibn Malik (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 26 is famously narrated by Abu Hurairah (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 26?",
+            "options": [
+              "Civic duty, helping others, fair mediation, and clearing obstacles from roads",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 26 focuses fundamentally on: Civic duty, helping others, fair mediation, and clearing obstacles from roads."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 26?",
+            "options": [
+              "A daily gratitude tax (360 joints in the human body) expressed through proactive community service.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: A daily gratitude tax (360 joints in the human body) expressed through proactive community service."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-27",
+        "title": "Hadith 27 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 27 (Righteousness is Good Character; Sin Causes Internal Unease)?",
+            "options": [
+              "An-Nawwas ibn Sam'an & Wabisah ibn Ma'bad",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 27 is famously narrated by An-Nawwas ibn Sam'an & Wabisah ibn Ma'bad (رضي الله عنهما)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 27?",
+            "options": [
+              "The innate moral compass (Fitrah) and consulting your conscience",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 27 focuses fundamentally on: The innate moral compass (Fitrah) and consulting your conscience."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 27?",
+            "options": [
+              "The innate moral compass (Fitrah) of a sound heart recognizes good and shrinks back from sin.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: The innate moral compass (Fitrah) of a sound heart recognizes good and shrinks back from sin."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-28",
+        "title": "Hadith 28 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 28 (Adhering Strictly to the Prophetic Sunnah)?",
+            "options": [
+              "Abu Najih al-'Irbad ibn Sariyah",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 28 is famously narrated by Abu Najih al-'Irbad ibn Sariyah (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 28?",
+            "options": [
+              "The tearful farewell sermon, warning against religious innovation, and following the Rightly-Guided Caliphs",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 28 focuses fundamentally on: The tearful farewell sermon, warning against religious innovation, and following the Rightly-Guided Caliphs."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 28?",
+            "options": [
+              "In times of ideological confusion, controversy, and discord, safety lies in clinging tenaciously to the Sunnah.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: In times of ideological confusion, controversy, and discord, safety lies in clinging tenaciously to the Sunnah."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-29",
+        "title": "Hadith 29 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 29 (The Path to Paradise and Guarding the Tongue)?",
+            "options": [
+              "Mu'adh ibn Jabal",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 29 is famously narrated by Mu'adh ibn Jabal (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 29?",
+            "options": [
+              "The comprehensive counsel to Mu'adh ibn Jabal on deeds of salvation and verbal restraint",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 29 focuses fundamentally on: The comprehensive counsel to Mu'adh ibn Jabal on deeds of salvation and verbal restraint."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 29?",
+            "options": [
+              "The tongue is the most dangerous instrument: slander, backbiting, lies, and insults can demolish a lifetime of good deeds.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: The tongue is the most dangerous instrument: slander, backbiting, lies, and insults can demolish a lifetime of good deeds."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-30",
+        "title": "Hadith 30 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 30 (Observing the Divine Boundaries and Limits)?",
+            "options": [
+              "Abu Tha'labah al-Khushani Jurthum ibn Nashir",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 30 is famously narrated by Abu Tha'labah al-Khushani Jurthum ibn Nashir (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 30?",
+            "options": [
+              "Clear obligations, clear prohibitions, established boundaries, and divine mercy in silence",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 30 focuses fundamentally on: Clear obligations, clear prohibitions, established boundaries, and divine mercy in silence."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 30?",
+            "options": [
+              "Islamic jurisprudence categorizes life clearly: obligations (do them), prohibitions (avoid them), and limits (respect them).",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Islamic jurisprudence categorizes life clearly: obligations (do them), prohibitions (avoid them), and limits (respect them)."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-31",
+        "title": "Hadith 31 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 31 (True Asceticism (Zuhd) in the World)?",
+            "options": [
+              "Abu al-'Abbas Sahl ibn Sa'd as-Sa'idi",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 31 is famously narrated by Abu al-'Abbas Sahl ibn Sa'd as-Sa'idi (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 31?",
+            "options": [
+              "Freedom from consumerist materialism: winning the love of Allah and the love of people",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 31 focuses fundamentally on: Freedom from consumerist materialism: winning the love of Allah and the love of people."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 31?",
+            "options": [
+              "True Zuhd is not poverty; it is having worldly wealth in your hand without letting it capture your heart.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: True Zuhd is not poverty; it is having worldly wealth in your hand without letting it capture your heart."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-32",
+        "title": "Hadith 32 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 32 (No Harm and No Reciprocating Harm (La Darar wa La Dirar))?",
+            "options": [
+              "Abu Sa'id Sa'd ibn Malik ibn Sinan al-Khudri",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 32 is famously narrated by Abu Sa'id Sa'd ibn Malik ibn Sinan al-Khudri (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 32?",
+            "options": [
+              "The paramount legal maxim prohibiting harm, sabotage, and malicious retaliation",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 32 focuses fundamentally on: The paramount legal maxim prohibiting harm, sabotage, and malicious retaliation."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 32?",
+            "options": [
+              "Foundational legal maxim of Islam: all forms of unjust harm (Darar) are strictly forbidden.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Foundational legal maxim of Islam: all forms of unjust harm (Darar) are strictly forbidden."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-33",
+        "title": "Hadith 33 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 33 (The Burden of Proof is on the Claimant)?",
+            "options": [
+              "'Abdullah ibn 'Abbas",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 33 is famously narrated by 'Abdullah ibn 'Abbas (رضي الله عنهما)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 33?",
+            "options": [
+              "Procedural justice, evidence standards, and the preservation of property rights",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 33 focuses fundamentally on: Procedural justice, evidence standards, and the preservation of property rights."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 33?",
+            "options": [
+              "Presumption of innocence until proven guilty: claims alone do not establish guilt or entitlement.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Presumption of innocence until proven guilty: claims alone do not establish guilt or entitlement."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-34",
+        "title": "Hadith 34 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 34 (Enjoining Good and Forbidding Evil (Nahy 'an al-Munkar))?",
+            "options": [
+              "Abu Sa'id al-Khudri",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 34 is famously narrated by Abu Sa'id al-Khudri (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 34?",
+            "options": [
+              "Active civic responsibility: changing wrongdoing with hand, tongue, or heart",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 34 focuses fundamentally on: Active civic responsibility: changing wrongdoing with hand, tongue, or heart."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 34?",
+            "options": [
+              "Active moral responsibility against corruption, injustice, and oppression.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Active moral responsibility against corruption, injustice, and oppression."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-35",
+        "title": "Hadith 35 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 35 (Brotherhood in Islam and Prohibition of Envy)?",
+            "options": [
+              "Abu Hurairah",
+              "Anas ibn Malik (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 35 is famously narrated by Abu Hurairah (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 35?",
+            "options": [
+              "Eradicating jealousy, price gouging, hatred, and betrayal among Muslims",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 35 focuses fundamentally on: Eradicating jealousy, price gouging, hatred, and betrayal among Muslims."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 35?",
+            "options": [
+              "Forbids harmful market practices like artificial bid-rigging (Najash) and undercutting concluded deals.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Forbids harmful market practices like artificial bid-rigging (Najash) and undercutting concluded deals."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-36",
+        "title": "Hadith 36 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 36 (Relieving Hardships and the Virtues of Seeking Knowledge)?",
+            "options": [
+              "Abu Hurairah",
+              "Anas ibn Malik (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 36 is famously narrated by Abu Hurairah (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 36?",
+            "options": [
+              "Mutual solidarity, covering faults, assisting students of knowledge, and gathering for Qur'an study",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 36 focuses fundamentally on: Mutual solidarity, covering faults, assisting students of knowledge, and gathering for Qur'an study."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 36?",
+            "options": [
+              "The divine compensation matches the action (Al-Jaza'u min jinsil-'amal): help others, and Allah aids you.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: The divine compensation matches the action (Al-Jaza'u min jinsil-'amal): help others, and Allah aids you."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-37",
+        "title": "Hadith 37 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 37 (The Boundless Mercy of Allah in Recording Deeds)?",
+            "options": [
+              "'Abdullah ibn 'Abbas",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 37 is famously narrated by 'Abdullah ibn 'Abbas (رضي الله عنهما)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 37?",
+            "options": [
+              "Multiplying good deeds tenfold and recording intended virtues while withholding uncommitted sins",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 37 focuses fundamentally on: Multiplying good deeds tenfold and recording intended virtues while withholding uncommitted sins."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 37?",
+            "options": [
+              "The unfathomable grace and generosity of Allah towards His servants.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: The unfathomable grace and generosity of Allah towards His servants."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-38",
+        "title": "Hadith 38 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 38 (Attaining the Nearness and Love of Allah (Hadith al-Wali))?",
+            "options": [
+              "Abu Hurairah",
+              "Anas ibn Malik (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 38 is famously narrated by Abu Hurairah (رضي الله عنه)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 38?",
+            "options": [
+              "The status of the friends of Allah, fulfilling obligations, and voluntary devotion (Nawafil)",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 38 focuses fundamentally on: The status of the friends of Allah, fulfilling obligations, and voluntary devotion (Nawafil)."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 38?",
+            "options": [
+              "Severe divine warning against slandering or harassing righteous, sincere servants of Allah.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: Severe divine warning against slandering or harassing righteous, sincere servants of Allah."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-39",
+        "title": "Hadith 39 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 39 (Forgiveness for Mistakes, Forgetfulness, and Duress)?",
+            "options": [
+              "'Abdullah ibn 'Abbas",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Umar ibn al-Khattab (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 39 is famously narrated by 'Abdullah ibn 'Abbas (رضي الله عنهما)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 39?",
+            "options": [
+              "Divine leniency, compassion, and lifting accountability for involuntary errors",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 39 focuses fundamentally on: Divine leniency, compassion, and lifting accountability for involuntary errors."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 39?",
+            "options": [
+              "No sin or moral guilt is recorded for genuine involuntary errors, honest forgetfulness, or actions coerced under violent duress.",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: No sin or moral guilt is recorded for genuine involuntary errors, honest forgetfulness, or actions coerced under violent duress."
+          }
+        ]
+      },
+      {
+        "id": "hadith-quiz-40",
+        "title": "Hadith 40 Knowledge Check",
+        "questions": [
+          {
+            "question": "Who is the primary Companion narrator of Hadith 40 (Be in This World as a Stranger or a Traveler)?",
+            "options": [
+              "'Abdullah ibn 'Umar ibn al-Khattab",
+              "Abu Hurairah (رضي الله عنه)",
+              "'Abdullah ibn 'Umar (رضي الله عنهما)",
+              "'Ali ibn Abi Talib (رضي الله عنه)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 40 is famously narrated by 'Abdullah ibn 'Umar ibn al-Khattab (رضي الله عنهما)."
+          },
+          {
+            "question": "What is the primary spiritual or legal theme established in Hadith 40?",
+            "options": [
+              "The capstone of asceticism: worldly transience, preparation for the eternal, and seizing time",
+              "The detailed legal calculation of estate inheritance shares",
+              "The military history of the early Umayyad caliphate",
+              "Technical rules regarding maritime commercial contracts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hadith 40 focuses fundamentally on: The capstone of asceticism: worldly transience, preparation for the eternal, and seizing time."
+          },
+          {
+            "question": "Which of the following is a key practical takeaway from Hadith 40?",
+            "options": [
+              "The world is a temporary transit lounge; the true permanent homeland is the Hereafter (Akhirah).",
+              "Good deeds are valid even when done solely for social media praise",
+              "One should avoid learning authentic Hadith if it requires study",
+              "Scholarly consensus plays no role in understanding the Sunnah"
+            ],
+            "correctAnswer": 0,
+            "explanation": "As scholars emphasize: The world is a temporary transit lounge; the true permanent homeland is the Hereafter (Akhirah)."
           }
         ]
       }
@@ -20478,52 +24911,283 @@ export const coursesData = [
     "exercises": [
       {
         "id": "exercise-hadith-1",
-        "title": "Module 1: Introduction to Hadith & Prophetic Tradition - Reflection & Practice Drill",
+        "title": "Hadith 1: Actions are Judged by Intentions - Reflection & Practice Drill",
         "description": "Before beginning your studies, your daily work, your family responsibilities, or acts of charity, pause for five seconds to purify your intention (*Niyyah*). Dedicate your effort for the sake of Allah and for serving your family and community with integrity.",
         "type": "reflection",
         "lessonId": "hadith-1"
       },
       {
         "id": "exercise-hadith-2",
-        "title": "Module 2: Understanding Hadith: Science of Narration (Mustalah al-Hadith) - Reflection & Practice Drill",
-        "description": "Adopt the academic habit of verification. When you see an Islamic quote on social media, look for the book name and Hadith number (e.g. Sahih al-Bukhari 6011). If no source is provided, do not forward it until you verify it with authentic reference works.",
+        "title": "Hadith 2: Islam, Iman, and Ihsan (The Hadith of Jibreel) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 2: The religion (Din) consists of three rising tiers: Islam (outward practice), Iman (inward belief), and Ihsan (spiritual excellence). Implement this principle today in your speech, conduct, and worship.",
         "type": "reflection",
         "lessonId": "hadith-2"
       },
       {
         "id": "exercise-hadith-3",
-        "title": "Module 3: The Collection and Canonical Compilations of Hadith - Reflection & Practice Drill",
-        "description": "When consulting Hadith books, familiarize yourself with Imam an-Nawawi's *Riyad as-Salihin*. Reading just one verified Hadith with commentary every evening builds profound Islamic understanding and moral fortitude for your family.",
+        "title": "Hadith 3: The Five Pillars of Islam - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 3: Islam is depicted as a complete building resting on five essential structural pillars. Implement this principle today in your speech, conduct, and worship.",
         "type": "reflection",
         "lessonId": "hadith-3"
       },
       {
         "id": "exercise-hadith-4",
-        "title": "Module 4: Daily Sunnah and Good Character (Akhlaq & Mu'amalat) - Reflection & Practice Drill",
-        "description": "Implement the 'Speak Good or Remain Silent' rule in your daily online comments, text messages, and household conversations. If what you are about to say does not add constructive value, practice restraint.",
+        "title": "Hadith 4: Creation in the Womb and Destiny (Qadar) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 4: Miraculous Prophetic description of embryonic developmental phases in the womb. Implement this principle today in your speech, conduct, and worship.",
         "type": "reflection",
         "lessonId": "hadith-4"
       },
       {
         "id": "exercise-hadith-5",
-        "title": "Module 5: Worship and Daily Practice (Adab, Dhikr & Du'a) - Reflection & Practice Drill",
-        "description": "Memorize and consistently recite the two beloved phrases: *'Subhan Allahi wa bihamdihi, Subhan Allahil-'Azim'* during your daily commute or work pauses. Keep your tongue moist with the remembrance of Allah.",
+        "title": "Hadith 5: Rejection of Innovation in Religion (Bid'ah) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 5: Worship requires two pillars: sincerity to Allah (Hadith 1) and conformity to the Sunnah (Hadith 5). Implement this principle today in your speech, conduct, and worship.",
         "type": "reflection",
         "lessonId": "hadith-5"
       },
       {
         "id": "exercise-hadith-6",
-        "title": "Module 6: Applying Hadith in Real Life: Wisdom, Context & Modern World - Reflection & Practice Drill",
-        "description": "Before sharing an Islamic post on social media, apply the 3-step filter: Is it verified? Is the citation accurate? Is sharing it beneficial and in proper context? Cultivate digital integrity.",
+        "title": "Hadith 6: The Halal is Clear and the Haram is Clear - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 6: Clear guidance exists for lawful and prohibited acts; dubious grey areas require caution (Wara'). Implement this principle today in your speech, conduct, and worship.",
         "type": "reflection",
         "lessonId": "hadith-6"
       },
       {
         "id": "exercise-hadith-7",
-        "title": "Module 7: Revision, Knowledge Assessment & Capstone Reflection - Reflection & Practice Drill",
-        "description": "Share the beneficial knowledge you have acquired with your family and study circles with humility, wisdom, and accurate references. Continue to embody the character of the Prophet ﷺ.",
+        "title": "Hadith 7: Religion is Sincerity (An-Nasihah) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 7: An-Nasihah means pure, unadulterated goodwill, sincerity, and fulfilling duties wholeheartedly. Implement this principle today in your speech, conduct, and worship.",
         "type": "reflection",
         "lessonId": "hadith-7"
+      },
+      {
+        "id": "exercise-hadith-8",
+        "title": "Hadith 8: The Sanctity of a Muslim's Blood and Wealth - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 8: The ultimate sanctity of human life and property in Islamic jurisprudence. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-8"
+      },
+      {
+        "id": "exercise-hadith-9",
+        "title": "Hadith 9: Fulfilling Obligations According to Capacity - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 9: Prohibitions must be shunned entirely, while positive commands are fulfilled according to one's genuine ability. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-9"
+      },
+      {
+        "id": "exercise-hadith-10",
+        "title": "Hadith 10: Allah is Pure and Accepts Only What is Pure - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 10: Consuming Halal and earning through honest, lawful avenues is a direct prerequisite for accepted worship and answered prayers. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-10"
+      },
+      {
+        "id": "exercise-hadith-11",
+        "title": "Hadith 11: Leaving Doubt for Certainty (Wara') - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 11: Whenever confronted by an ethical or moral question where your conscience is uneasy, leave it for what is unmistakably lawful. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-11"
+      },
+      {
+        "id": "exercise-hadith-12",
+        "title": "Hadith 12: Leaving What Does Not Concern You - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 12: A golden foundational principle of personal time management, social dignity, and mental well-being. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-12"
+      },
+      {
+        "id": "exercise-hadith-13",
+        "title": "Hadith 13: Loving for Your Brother What You Love for Yourself - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 13: True faith purges the heart of toxic jealousy (Hasad), malice, and self-centered arrogance. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-13"
+      },
+      {
+        "id": "exercise-hadith-14",
+        "title": "Hadith 14: The Inviolability of Human Life - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 14: Human life is divinely sacred; taking a life unjustly is among the most catastrophic sins in Islam. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-14"
+      },
+      {
+        "id": "exercise-hadith-15",
+        "title": "Hadith 15: Speaking Good, Honoring Neighbours and Guests - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 15: Direct link between faith in the Day of Judgment and verbal restraint: words are recorded deeds. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-15"
+      },
+      {
+        "id": "exercise-hadith-16",
+        "title": "Hadith 16: Restraining Anger (Do Not Become Angry) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 16: The Prophet ﷺ identified anger as the root of severed ties, broken homes, violence, and remorse. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-16"
+      },
+      {
+        "id": "exercise-hadith-17",
+        "title": "Hadith 17: Prescribing Excellence (Ihsan) in All Things - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 17: Ihsan is an obligatory standard across all life endeavors: professional craftsmanship, engineering, mercy, and law. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-17"
+      },
+      {
+        "id": "exercise-hadith-18",
+        "title": "Hadith 18: Fearing Allah and Noble Character (Khuluq Hasan) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 18: Taqwa (God-consciousness) is not a public show; it must govern your secret life in solitude just as in company. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-18"
+      },
+      {
+        "id": "exercise-hadith-19",
+        "title": "Hadith 19: Be Mindful of Allah, He Will Protect You - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 19: Guard Allah's boundaries through obedience, and He will guard your heart, faith, family, and destiny. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-19"
+      },
+      {
+        "id": "exercise-hadith-20",
+        "title": "Hadith 20: Modesty / Shyness is from Faith (Al-Haya') - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 20: Haya' (modesty and moral dignity) is an ancient, universal prophetic virtue shared across all revealed scriptures. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-20"
+      },
+      {
+        "id": "exercise-hadith-21",
+        "title": "Hadith 21: Say: 'I Believe in Allah', then Remain Steadfast (Istiqamah) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 21: Islam in a single sentence: combining sound theological belief (Iman) with daily moral steadfastness (Istiqamah). Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-21"
+      },
+      {
+        "id": "exercise-hadith-22",
+        "title": "Hadith 22: Entering Paradise Through the Obligatory Duties - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 22: The foundational baseline to attain Paradise is fulfilling obligations and steering completely clear of Haram. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-22"
+      },
+      {
+        "id": "exercise-hadith-23",
+        "title": "Hadith 23: Purity is Half of Faith (At-Tuhuru Shatrul-Iman) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 23: Physical hygiene and spiritual purification of the heart together constitute half of true faith. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-23"
+      },
+      {
+        "id": "exercise-hadith-24",
+        "title": "Hadith 24: Prohibition of Injustice and Oppression (Hadith Qudsi) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 24: Injustice (Zulm) is unequivocally prohibited by Allah; oppression brings darkness on the Day of Resurrection. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-24"
+      },
+      {
+        "id": "exercise-hadith-25",
+        "title": "Hadith 25: The Breadth and Abundance of Charity (Sadaqah) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 25: Charity (Sadaqah) is not restricted to money; every act of goodness, speech, and justice is charity. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-25"
+      },
+      {
+        "id": "exercise-hadith-26",
+        "title": "Hadith 26: Daily Charity for Every Human Joint - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 26: A daily gratitude tax (360 joints in the human body) expressed through proactive community service. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-26"
+      },
+      {
+        "id": "exercise-hadith-27",
+        "title": "Hadith 27: Righteousness is Good Character; Sin Causes Internal Unease - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 27: The innate moral compass (Fitrah) of a sound heart recognizes good and shrinks back from sin. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-27"
+      },
+      {
+        "id": "exercise-hadith-28",
+        "title": "Hadith 28: Adhering Strictly to the Prophetic Sunnah - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 28: In times of ideological confusion, controversy, and discord, safety lies in clinging tenaciously to the Sunnah. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-28"
+      },
+      {
+        "id": "exercise-hadith-29",
+        "title": "Hadith 29: The Path to Paradise and Guarding the Tongue - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 29: The tongue is the most dangerous instrument: slander, backbiting, lies, and insults can demolish a lifetime of good deeds. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-29"
+      },
+      {
+        "id": "exercise-hadith-30",
+        "title": "Hadith 30: Observing the Divine Boundaries and Limits - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 30: Islamic jurisprudence categorizes life clearly: obligations (do them), prohibitions (avoid them), and limits (respect them). Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-30"
+      },
+      {
+        "id": "exercise-hadith-31",
+        "title": "Hadith 31: True Asceticism (Zuhd) in the World - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 31: True Zuhd is not poverty; it is having worldly wealth in your hand without letting it capture your heart. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-31"
+      },
+      {
+        "id": "exercise-hadith-32",
+        "title": "Hadith 32: No Harm and No Reciprocating Harm (La Darar wa La Dirar) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 32: Foundational legal maxim of Islam: all forms of unjust harm (Darar) are strictly forbidden. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-32"
+      },
+      {
+        "id": "exercise-hadith-33",
+        "title": "Hadith 33: The Burden of Proof is on the Claimant - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 33: Presumption of innocence until proven guilty: claims alone do not establish guilt or entitlement. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-33"
+      },
+      {
+        "id": "exercise-hadith-34",
+        "title": "Hadith 34: Enjoining Good and Forbidding Evil (Nahy 'an al-Munkar) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 34: Active moral responsibility against corruption, injustice, and oppression. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-34"
+      },
+      {
+        "id": "exercise-hadith-35",
+        "title": "Hadith 35: Brotherhood in Islam and Prohibition of Envy - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 35: Forbids harmful market practices like artificial bid-rigging (Najash) and undercutting concluded deals. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-35"
+      },
+      {
+        "id": "exercise-hadith-36",
+        "title": "Hadith 36: Relieving Hardships and the Virtues of Seeking Knowledge - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 36: The divine compensation matches the action (Al-Jaza'u min jinsil-'amal): help others, and Allah aids you. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-36"
+      },
+      {
+        "id": "exercise-hadith-37",
+        "title": "Hadith 37: The Boundless Mercy of Allah in Recording Deeds - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 37: The unfathomable grace and generosity of Allah towards His servants. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-37"
+      },
+      {
+        "id": "exercise-hadith-38",
+        "title": "Hadith 38: Attaining the Nearness and Love of Allah (Hadith al-Wali) - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 38: Severe divine warning against slandering or harassing righteous, sincere servants of Allah. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-38"
+      },
+      {
+        "id": "exercise-hadith-39",
+        "title": "Hadith 39: Forgiveness for Mistakes, Forgetfulness, and Duress - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 39: No sin or moral guilt is recorded for genuine involuntary errors, honest forgetfulness, or actions coerced under violent duress. Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-39"
+      },
+      {
+        "id": "exercise-hadith-40",
+        "title": "Hadith 40: Be in This World as a Stranger or a Traveler - Reflection & Practice Drill",
+        "description": "Reflect on the guidance of Hadith 40: The world is a temporary transit lounge; the true permanent homeland is the Hereafter (Akhirah). Implement this principle today in your speech, conduct, and worship.",
+        "type": "reflection",
+        "lessonId": "hadith-40"
       }
     ]
   },

@@ -484,7 +484,7 @@ export default function ReaderPage() {
       targetBookId = 'professional-communication';
     } else if (raw === 'digital-entrepreneurship' || raw === 'entrepreneurship' || raw === 'freelancing' || raw === 'digital-business') {
       targetBookId = 'digital-entrepreneurship';
-    } else if (raw === 'hadith-essentials' || raw === 'hadith' || raw === 'hadith-studies' || raw === 'forty-hadith') {
+    } else if (raw === 'hadith-essentials' || raw === 'hadith' || raw === 'hadith-studies' || raw === 'forty-hadith' || raw === '40-hadith' || raw === 'al-arbaeen' || raw === 'arbaeen' || raw === 'al-arbaeen-an-nawawiyyah' || raw === 'nawawi-40' || raw === 'nawawi40') {
       targetBookId = 'hadith-essentials';
     } else if (raw === 'quran-tafsir-from-zero' || raw === 'tafsir-from-zero' || raw === 'tafsir' || raw === 'quran-tafsir' || raw === 'quran-understanding' || raw === 'tafseer') {
       targetBookId = 'quran-tafsir-from-zero';
