@@ -170,12 +170,6 @@ function CourseCardIllustration({ course }) {
           <div className="w-12 h-12 rounded-2xl bg-black/40 border border-[#D4A94F]/50 flex items-center justify-center text-[#D4A94F] shadow-lg">
             <BookMarked className="w-6 h-6 text-[#D4A94F]" />
           </div>
-          <span className="text-[11px] font-serif font-bold text-[#F1E8D8] tracking-widest uppercase">
-            Qur'anic &amp; Classical Sciences
-          </span>
-          <span className="text-[9px] font-bold px-2 py-0.5 rounded-full bg-[#D4A94F]/20 text-[#D4A94F] border border-[#D4A94F]/40">
-            100% Free • Open Access
-          </span>
         </div>
 
         <div className="absolute -bottom-6 -right-6 w-28 h-28 bg-[#D4A94F]/20 rounded-full blur-xl pointer-events-none" />
@@ -466,7 +460,7 @@ export default function BookCatalogPage() {
   // Filter Courses by Category and Search Query
   const filteredCourses = useMemo(() => {
     const matched = courses.filter((course) => {
-      if (course.hideFromCatalog) return false;
+      if (course.hideFromCatalog || course.id === 'arabic-language-learning') return false;
       return matchesCategory(course, selectedCategory) &&
              matchesSearch(course, searchQuery);
     });
@@ -495,7 +489,7 @@ export default function BookCatalogPage() {
 
   // Category counts calculation
   const getCategoryCount = (catId) => {
-    const visibleCourses = courses.filter(c => !c.hideFromCatalog);
+    const visibleCourses = courses.filter(c => !c.hideFromCatalog && c.id !== 'arabic-language-learning');
     if (catId === 'All') return new Set(visibleCourses.map(c => c.id)).size + (projects ? projects.length : 0);
     if (catId === 'Projects') return projects ? projects.length : 0;
     const matchingCourses = visibleCourses.filter(c => matchesCategory(c, catId));
@@ -738,16 +732,18 @@ export default function BookCatalogPage() {
 
                             {/* Overlay Badges */}
                             <div className="absolute top-3 left-3 right-3 flex items-center justify-between gap-2 pointer-events-none">
-                              <span className="text-[11px] font-bold px-3 py-1 rounded-full bg-black/60 text-white backdrop-blur-md border border-white/20 truncate max-w-[150px]">
-                                {course.category}
-                              </span>
+                              {course.category !== 'Islamic Studies' ? (
+                                <span className="text-[11px] font-bold px-3 py-1 rounded-full bg-black/60 text-white backdrop-blur-md border border-white/20 truncate max-w-[150px]">
+                                  {course.category}
+                                </span>
+                              ) : <div />}
 
                               {enrolled ? (
                                 <span className="text-[11px] font-bold px-3 py-1 rounded-full bg-emerald-600 text-white border border-emerald-400 shadow-sm flex items-center gap-1">
                                   <CheckCircle2 className="w-3 h-3 text-white" />
                                   <span>Enrolled</span>
                                 </span>
-                              ) : isFree ? (
+                              ) : course.category === 'Islamic Studies' ? null : isFree ? (
                                 <span className="text-[11px] font-bold px-3 py-1 rounded-full bg-[#173F38] text-[#D4A94F] border border-[#D4A94F]/40 shadow-sm">
                                   100% Free
                                 </span>
@@ -868,9 +864,11 @@ export default function BookCatalogPage() {
                         <div className="relative">
                           <CourseCardIllustration course={course} />
                           <div className="absolute top-3 left-3 right-3 flex items-center justify-between gap-2 pointer-events-none">
-                            <span className="text-[11px] font-bold px-3 py-1 rounded-full bg-black/60 text-white backdrop-blur-md border border-white/20">
-                              {course.category}
-                            </span>
+                            {course.category !== 'Islamic Studies' ? (
+                              <span className="text-[11px] font-bold px-3 py-1 rounded-full bg-black/60 text-white backdrop-blur-md border border-white/20">
+                                {course.category}
+                              </span>
+                            ) : <div />}
                             <span className="text-[11px] font-bold px-3 py-1 rounded-full bg-amber-500/90 text-white shadow-sm">
                               Coming Soon
                             </span>
