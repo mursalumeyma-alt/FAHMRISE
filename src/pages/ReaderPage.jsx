@@ -486,8 +486,6 @@ export default function ReaderPage() {
       targetBookId = 'digital-entrepreneurship';
     } else if (raw === 'hadith-essentials' || raw === 'hadith' || raw === 'hadith-studies' || raw === 'forty-hadith' || raw === '40-hadith' || raw === 'al-arbaeen' || raw === 'arbaeen' || raw === 'al-arbaeen-an-nawawiyyah' || raw === 'nawawi-40' || raw === 'nawawi40') {
       targetBookId = 'hadith-essentials';
-    } else if (raw === 'quran-tafsir-from-zero' || raw === 'tafsir-from-zero' || raw === 'tafsir' || raw === 'quran-tafsir' || raw === 'quran-understanding' || raw === 'tafseer') {
-      targetBookId = 'quran-tafsir-from-zero';
     } else if (raw === 'salah-from-zero' || raw === 'prayer-from-zero' || raw === 'salah' || raw === 'prayer' || raw === 'learn-salah' || raw === 'islamic-prayer' || raw === 'salat' || raw === 'namaz') {
       targetBookId = 'salah-from-zero';
     } else if (raw === 'islamic-aqeedah-from-zero' || raw === 'aqeedah-from-zero' || raw === 'aqeedah' || raw === 'islamic-creed' || raw === 'six-pillars-of-iman' || raw === 'tawheed-from-zero' || raw === 'iman' || raw === 'creed') {
@@ -530,9 +528,6 @@ export default function ReaderPage() {
       targetLessonId = raw;
     } else if (/^hadith-\d+$/i.test(raw)) {
       targetBookId = 'hadith-essentials';
-      targetLessonId = raw;
-    } else if (/^tafsir-\d+$/i.test(raw)) {
-      targetBookId = 'quran-tafsir-from-zero';
       targetLessonId = raw;
     } else if (/^salah-\d+$/i.test(raw) || /^prayer-\d+$/i.test(raw)) {
       targetBookId = 'salah-from-zero';
