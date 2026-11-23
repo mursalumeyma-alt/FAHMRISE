@@ -26293,7 +26293,7 @@ export const coursesData = [
       }
     ]
   },
-  {
+      {
     "id": "islamic-aqeedah-from-zero",
     "aliases": [
       "aqeedah-from-zero",
@@ -26322,7 +26322,7 @@ export const coursesData = [
     "pricingLabel": "FREE — Accessible to all learners worldwide",
     "currency": "KSh",
     "priceUSD": 0,
-    "format": "7-Module Interactive Islamic Curriculum",
+    "format": "8-Module Interactive Islamic Curriculum",
     "recommendedDuration": "4–6 Weeks",
     "learningFlexibility": "Free self-paced learning with lifetime access, quizzes, and verified certification.",
     "coverBadge": "Islamic Studies • 100% Free",
@@ -26333,9 +26333,9 @@ export const coursesData = [
     "instructorId": "usr_instructor_aqeedah_01",
     "level": "Beginner",
     "estimatedHours": "12 – 16 Hours (Self-Paced)",
-    "totalLessons": 7,
-    "totalExercises": 7,
-    "totalQuizzes": 7,
+    "totalLessons": 8,
+    "totalExercises": 8,
+    "totalQuizzes": 8,
     "rating": null,
     "reviewsCount": 0,
     "published": true,
@@ -26368,7 +26368,8 @@ export const coursesData = [
       "Understand the definition, sources, and importance of sound Islamic Aqeedah",
       "Master the Three Categories of Tawheed: Rububiyyah (Lordship), Uluhiyyah (Worship), and Asma' was-Sifat (Names & Attributes)",
       "Recognize and avoid Shirk (polytheism) in its major and minor manifestations",
-      "Understand belief in the Angels (Mala'ikah) and the revealed Divine Scriptures (Kutub)",
+      "Understand belief in the Angels (Al-Mala'ikah), their celestial nature, and divine cosmic roles",
+      "Understand belief in the Revealed Scriptures (Al-Kutub) and the miraculous preservation of the Noble Qur'an",
       "Affirm the qualities of the Prophets, the 25 Prophets named in the Qur'an, and Muhammad ﷺ as the Final Seal",
       "Navigate the stages of the Hereafter (Barzakh, Resurrection, Scales, Reckoning, Paradise and Hell)",
       "Grasp the four levels of Divine Decree (Al-Qadr) while maintaining human moral responsibility"
@@ -26380,7 +26381,7 @@ export const coursesData = [
     ],
     "prerequisites": "Zero prior background in theology required. Open and free to all learners worldwide.",
     "includes": [
-      "7 In-depth interactive modules with verified Qur'anic citations, authentic Hadith, and classical references",
+      "8 In-depth interactive modules with verified Qur'anic citations, authentic Hadith, and classical references",
       "Clear breakdowns of Tawheed, Divine Attributes, the Unseen, and Divine Decree",
       "Vocabulary glossaries, reflection inquiries, and end-of-module knowledge check quizzes",
       "24/7 FAHMRISE Socratic AI Tutor guidance",
@@ -26580,9 +26581,9 @@ export const coursesData = [
       {
         "id": "aqeedah-3",
         "number": 3,
-        "title": "Module 3: The Second & Third Pillars: Belief in the Angels (Mala'ikah) & Revealed Scriptures (Kutub)",
-        "subtitle": "Nature and roles of Angels, and the history of revealed scriptures leading to the preserved Qur'an",
-        "readingTime": "20 min",
+        "title": "Module 3: The Second Pillar: Belief in the Angels (Al-Mala'ikah)",
+        "subtitle": "Nature, attributes, and cosmic roles of the Mala'ikah created from light",
+        "readingTime": "18 min",
         "videoLesson": {
           "title": "Episode 2: Hold Your Pens | Angels in Your Presence",
           "channel": "Yaqeen Institute",
@@ -26591,18 +26592,18 @@ export const coursesData = [
           "watchUrl": "https://www.youtube.com/watch?v=swoO1nd2VKw",
           "embedUrl": "https://www.youtube-nocookie.com/embed/swoO1nd2VKw",
           "url": "https://www.youtube-nocookie.com/embed/swoO1nd2VKw",
-          "alternativeSource": "https://quran.com/2/285",
-          "sourceName": "Quran.com 2:285 — Belief in Angels & Revealed Scriptures",
+          "alternativeSource": "https://quran.com/66/6",
+          "sourceName": "Quran.com 66:6 — Surah At-Tahrim (The Angels of Allah)",
           "badge": "Reference Video — Verification Pending"
         },
-        "summary": "Understand the reality of the Angelic realm, their roles in cosmic and human affairs, and the divine scriptures sent throughout human history culminating in the final, preserved Qur'an.",
+        "summary": "Understand the reality of the Angelic realm, their creation from light, their flawless obedience to Allah, and their specific entrusted roles in cosmic and human affairs.",
         "objectives": [
           "Explain the origin, nature, and characteristics of the Angels (Mala'ikah) created from light",
           "Identify the major named Angels in the Qur'an and authentic Sunnah (Jibreel, Mika'il, Israfil, Malik, etc.) and their specific duties",
-          "Understand the necessity of divine scripture and the original scriptures sent to past prophets (Tawrat, Zabur, Injeel, Suhuf)",
-          "Explain why the Qur'an is the final, universal, and divinely preserved miracle for all time"
+          "Understand the role of Kiraman Katibin and Munkar & Nakir in human life and the afterlife",
+          "Cultivate modesty, accountability, and awe through continuous awareness of the angels"
         ],
-        "content": "\n# Module 3: The Second & Third Pillars: Belief in the Angels (Mala'ikah) & Revealed Scriptures (Kutub)\n\nIn this module, we explore the unseen realm of noble celestial beings and the divine Books sent to illuminate human history.\n\n---\n\n## 1. Belief in the Angels (*Al-Mala'ikah*)\n\nAngels are noble, unseen spiritual beings created by Allah from pure light (*Noor*). Unlike humans and jinn, angels possess **no desire or capacity to disobey Allah**; they execute divine commands with flawless obedience:\n\n> ﴿لَّا يَعْصُونَ اللَّهَ مَا أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ﴾  \n> *\"They do not disobey Allah in what He commands them but do what they are commanded.\"*  \n> — **Surah At-Tahrim (66:6)**\n\n### Major Angels Mentioned in Revelation and Their Entrusted Roles:\n1. **Jibreel (Gabriel) (عَلَيْهِ السَّلَام)**: The Archangel of Revelation, entrusted with delivering divine scripture to all Prophets.\n2. **Mika'il (Michael) (عَلَيْهِ السَّلَام)**: Entrusted with rainfall, vegetation, and natural sustenance.\n3. **Israfil (عَلَيْهِ السَّلَام)**: Entrusted with blowing the Trumpet (*As-Soor*) to signal the end of the world and the Resurrection.\n4. **Malak al-Mawt (The Angel of Death)**: Entrusted with taking the souls of human beings at their appointed time.\n5. **Malik (عَلَيْهِ السَّلَام)**: The guardian keeper of the Hellfire.\n6. **Kiraman Katibin (The Noble Scribes)**: The two angels on the right and left of every human, recording good and bad deeds (Surah Qaf 50:17-18).\n7. **Munkar and Nakir**: The two angels sent to question every deceased person in the intermediate realm of the grave (*Al-Barzakh*).\n\n---\n\n## 2. Belief in the Revealed Scriptures (*Al-Kutub*)\n\nBelief in the Books entails affirming that Allah revealed direct, literal speech to His Messengers as divine guidance, mercy, and law for humanity.\n\n### The Named Divine Scriptures:\n1. **Suhuf Ibrahim (The Scrolls of Abraham)**: Revealed to Prophet Ibrahim (AS).\n2. **At-Tawrat (The Torah)**: Revealed to Prophet Musa (Moses) (AS) containing guidance and light for the Children of Israel.\n3. **Az-Zabur (The Psalms)**: Revealed to Prophet Dawud (David) (AS).\n4. **Al-Injeel (The Gospel)**: Revealed to Prophet 'Isa (Jesus) (AS) confirming the Torah and providing spiritual rejuvenation.\n5. **Al-Qur'an al-Kareem (The Noble Qur'an)**: Revealed to Prophet Muhammad ﷺ as the final, universal, and immutable divine miracle.\n\n---\n\n## 3. The Uniqueness of the Holy Qur'an\n\nWhile past scriptures were entrusted to human custodians to preserve (and consequently suffered alterations and losses over centuries—Surah Al-Ma'idah 5:44), Allah Himself undertook the perpetual preservation of the Qur'an:\n\n> ﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾  \n> *\"Indeed, it is We who sent down the Qur'an and indeed, We will be its guardian.\"*  \n> — **Surah Al-Hijr (15:9)**\n\nThe Qur'an is **Muhaymin (Dominant and Guardian)** over all previous books (Surah Al-Ma'idah 5:48): confirming the original divine truths sent to past prophets while correcting human fabrications.\n      ",
+        "content": "\n# Module 3: The Second Pillar: Belief in the Angels (Al-Mala'ikah)\n\nIn this module, we explore the unseen realm of noble celestial beings who worship and serve Allah with flawless devotion.\n\n---\n\n## 1. What Are Angels (*Al-Mala'ikah*)?\n\nAngels are noble, unseen spiritual beings created by Allah from pure light (*Noor*). Unlike humans and jinn, angels possess **no desire or capacity to disobey Allah**; they execute divine commands with flawless obedience:\n\n> ﴿لَّا يَعْصُونَ اللَّهَ مَا أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ﴾  \n> *\"They do not disobey Allah in what He commands them but do what they are commanded.\"*  \n> — **Surah At-Tahrim (66:6)**\n\nAngels are immense in number; as the Prophet ﷺ described in Sahih al-Bukhari (3207), seventy thousand angels enter *Al-Bayt al-Ma'mur* (The Frequently Visited House in heaven) every single day, never to return again until the Day of Resurrection.\n\n---\n\n## 2. Major Named Angels and Their Entrusted Roles\n\n1. **Jibreel (Gabriel) (عَلَيْهِ السَّلَام)**: The Archangel of Revelation (*Ar-Rooh al-Ameen*), entrusted with delivering divine scripture to all Prophets.\n2. **Mika'il (Michael) (عَلَيْهِ السَّلَام)**: Entrusted with rainfall, vegetation, and natural sustenance across the earth.\n3. **Israfil (عَلَيْهِ السَّلَام)**: Entrusted with blowing the Trumpet (*As-Soor*) to signal the end of the world and the Resurrection.\n4. **Malak al-Mawt (The Angel of Death)**: Entrusted with taking the souls of human beings at their appointed time (Surah As-Sajdah 32:11).\n5. **Malik (عَلَيْهِ السَّلَام)**: The guardian keeper of the Hellfire (Surah Az-Zukhruf 43:77).\n6. **Kiraman Katibin (The Noble Scribes)**: The two honorable recording angels on the right and left of every human, recording good and bad deeds (Surah Qaf 50:17-18).\n7. **Munkar and Nakir**: The two angels sent to question every deceased person in the intermediate realm of the grave (*Al-Barzakh*).\n8. **Hamalat al-'Arsh (Bearers of the Throne)**: The magnificent angels who carry the Throne of Allah (Surah Ghafir 40:7).\n\n---\n\n## 3. The Spiritual Impact of Belief in the Angels\n\nBelief in the Angels is not mere theoretical knowledge; it shapes everyday character:\n* **Accountability & Modesty**: Knowing that Kiraman Katibin write down every spoken word inspires caution in speech, writing, and online interactions.\n* **Humility**: Realizing how mighty, pure creations worship Allah unceasingly cures human arrogance and pride.\n* **Solace**: Believers are never truly alone; angels pray for those who seek knowledge, visit the sick, and sit in circles of remembrance.\n  ",
         "keyTerms": [
           {
             "term": "Mala'ikah (مَلَائِكَة)",
@@ -26613,8 +26614,8 @@ export const coursesData = [
             "meaning": "The archangel of divine revelation who delivered the Qur'an to Prophet Muhammad ﷺ."
           },
           {
-            "term": "Muhaymin (مُهَيْمِن)",
-            "meaning": "The status of the Qur'an as a guardian, criterion, and confirmation over all preceding divine scriptures."
+            "term": "Kiraman Katibin (كِرَامًا كَاتِبِينَ)",
+            "meaning": "The honorable recording angels assigned to every human to document deeds."
           }
         ],
         "verifiedHadith": {
@@ -26625,12 +26626,12 @@ export const coursesData = [
         },
         "practicalApplication": "Be mindful of the Noble Scribes (Kiraman Katibin) accompanying you on your right and left. Strive to ensure that your record of deeds contains countless entries of charity, kindness, and remembrance of Allah every day.",
         "reflectionQuestions": [
-          "Why is the divine promise in Surah Al-Hijr (15:9) regarding the preservation of the Qur'an a unique historical reality that no other religious text possesses?",
-          "How does knowing that noble angels record every word you utter impact your daily speech and online interactions?"
+          "How does knowing that noble angels record every word you utter impact your daily speech and online interactions?",
+          "What does the flawless obedience of angels teach us about the greatness of Allah?"
         ],
         "quiz": {
           "id": "aqeedah-quiz-3",
-          "title": "Module 3 Knowledge Check: Angels & Scriptures",
+          "title": "Module 3 Knowledge Check: Belief in the Angels",
           "questions": [
             {
               "question": "From what substance were the Angels created, as affirmed in Sahih Muslim?",
@@ -26655,15 +26656,15 @@ export const coursesData = [
               "explanation": "Archangel Jibreel (AS) was divinely appointed as the emissary of divine revelation."
             },
             {
-              "question": "Why has the Noble Qur'an remained unchanged and preserved word-for-word for over 1,400 years?",
+              "question": "What is the primary function of the angels known as Kiraman Katibin (Surah Qaf 50:17-18)?",
               "options": [
-                "It was hidden away from humans",
-                "Allah the Almighty Himself guaranteed its preservation in Surah Al-Hijr (15:9)",
-                "It was only translated recently",
-                "No one read it"
+                "Bringing rain and sustenance",
+                "Recording the good and bad deeds of every human being",
+                "Guarding the gates of Paradise",
+                "Blowing the Trumpet"
               ],
               "correctAnswer": 1,
-              "explanation": "Allah Himself promised to guard and preserve the Qur'an from all corruption until the end of time."
+              "explanation": "Kiraman Katibin are the noble scribes on the right and left who faithfully record all human actions and speech."
             }
           ]
         }
@@ -26671,7 +26672,107 @@ export const coursesData = [
       {
         "id": "aqeedah-4",
         "number": 4,
-        "title": "Module 4: The Fourth Pillar: Belief in the Prophets & Messengers (Rusul)",
+        "title": "Module 4: The Third Pillar: Belief in the Revealed Scriptures (Al-Kutub)",
+        "subtitle": "Divine revelation across prophetic history, the named scriptures, the 4 foundations of belief, and the methodology regarding previous texts",
+        "readingTime": "22 min",
+        "videoLesson": {
+          "title": "The Preserved Word of Allah: Understanding the Divine Scriptures",
+          "channel": "Yaqeen Institute",
+          "duration": "11:45",
+          "videoId": "swoO1nd2VKw",
+          "watchUrl": "https://www.youtube.com/watch?v=swoO1nd2VKw",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/swoO1nd2VKw",
+          "url": "https://www.youtube-nocookie.com/embed/swoO1nd2VKw",
+          "alternativeSource": "https://quran.com/15/9",
+          "sourceName": "Quran.com 15:9 — Surah Al-Hijr (Divine Preservation of the Scripture)",
+          "badge": "Reference Video — Verification Pending"
+        },
+        "summary": "Explore the necessity of divine revelation, the named scriptures sent throughout human history, the four foundational pillars of belief in the Books, and the orthodox prophetic methodology (Mawqif al-Muslim) regarding previous texts culminating in the preserved Qur'an.",
+        "objectives": [
+          "Define the third pillar of Iman: belief in the Revealed Scriptures (Al-Kutub) as literal divine speech from Allah",
+          "Identify the named divine scriptures in the Qur'an (Tawrat, Zabur, Injeel, Suhuf, Qur'an) and affirm belief in all unnamed revelations",
+          "Master the Four Foundations of Belief in Revealed Scriptures (Arkan al-Iman bil-Kutub)",
+          "Apply the prophetic methodology (Sahih al-Bukhari 4485) and the 3-part criterion when encountering reports from previous scriptures (Mawqif al-Muslim)",
+          "Understand the concept of Tahrif (textual and interpretive alteration) and the unique perpetual preservation of the Holy Qur'an as Muhaymin"
+        ],
+        "content": "\n# Module 4: The Third Pillar: Belief in the Revealed Scriptures (Al-Kutub)\n\nBelief in the Books (*Al-Kutub*) is the third pillar of Iman. It entails the decisive conviction that Allah revealed literal divine speech (*Kalamullah*) to His Messengers as guidance, light, and mercy for humanity.\n\n---\n\n## 1. The Theological Necessity and Purpose of Revealed Guidance\n\nHuman intellect alone can deduce that a Creator exists, but human intellect can never independently discover how to worship the Creator, what moral laws to live by, or what detailed realities await the soul in the Hereafter. Divine scripture provides the objective roadmap that intellect requires to fulfill its purpose:\n\n> ﴿كَانَ النَّاسُ أُمَّةً وَاحِدَةً فَبَعَثَ اللَّهُ النَّبِيِّينَ مُبَشِّرِينَ وَمُنذِرِينَ وَأَنزَلَ مَعَهُمُ الْكِتَابَ بِالْحَقِّ لِيَحْكُمَ بَيْنَ النَّاسِ فِيمَا اخْتَلَفُوا فِيهِ﴾  \n> *\"Mankind was [of] one religion [before it parted]; then Allah sent the prophets as bringers of good tidings and warners and sent down with them the Scripture in truth to judge between the people in that wherein they differed.\"*  \n> — **Surah Al-Baqarah (2:213)**\n\nRevelation illuminates what human reason alone could never uncover, providing the ultimate divine standard for truth, justice, and spiritual purification.\n\n---\n\n## 2. The Four Foundations of Belief in Revealed Scriptures (*Arkan al-Iman bil-Kutub*)\n\nClassical Islamic theology outlines **four essential foundations** that comprise sound, complete belief in Allah's Revealed Scriptures:\n\n1. **Believing in Their Divine Origin**: Affirming that all genuine scriptures were truly sent down by Allah. They represent His literal speech (*Kalamullah*), not human compositions, philosophical reflections, or prophetic poetry. Allah spoke His words and communicated His divine guidance to His messengers.\n2. **Believing in the Named and Unnamed Scriptures**:\n   * *Specifically*: Believing in the scriptures explicitly identified by name in Islamic revelation:\n     - **Suhuf Ibrahim (The Scrolls of Abraham)**: Revealed to Prophet Ibrahim (AS) containing wisdom and moral counsel (Surah Al-A'la 87:18-19).\n     - **At-Tawrat (The Torah)**: Revealed to Prophet Musa (Moses) (AS) containing guidance, light, and legal statutes for the Children of Israel (Surah Al-Ma'idah 5:44).\n     - **Az-Zabur (The Psalms)**: Revealed to Prophet Dawud (David) (AS), consisting of praises, prayers, and spiritual hymns (Surah An-Nisa 4:163).\n     - **Al-Injeel (The Gospel)**: Revealed to Prophet 'Isa (Jesus) (AS) confirming the original Torah and providing spiritual rejuvenation (Surah Al-Ma'idah 5:46).\n     - **Al-Qur'an al-Kareem**: Revealed to Prophet Muhammad ﷺ through Angel Jibreel as the final, universal revelation for all humanity.\n   * *Generally*: Believing firmly that Allah revealed scriptures to earlier messengers whose specific names have not been mentioned to us in revelation. We affirm that every genuine messenger was supported by divine revelation.\n3. **Affirming What is Authentically Preserved of Their Original Revelation**: Affirming belief in the original, pristine truths revealed to the past prophets. Muslims recognize that while the original revelations were pure divine light, historical processes of human alteration (*Tahrif*) mean that present-day versions of earlier texts cannot be uncritically assumed to be the unaltered original Word of Allah.\n4. **Following the Final Revelation (The Noble Qur'an)**: Acting upon the commands, prohibitions, and guidance of the Qur'an as the final, unabrogated Book and the governing criterion for Muslims. The legislation of the Qur'an supersedes earlier religious laws where Allah has decreed adjustments, providing a complete, universal law for all mankind until the Day of Resurrection.\n\n---\n\n## 3. The Muslim's Methodology Regarding Previous Scriptures (*Mawqif al-Muslim*)\n\nHow should a Muslim approach narratives, historical reports, and religious statements found in the remnants of earlier scriptures (*Isra'iliyyat*)? \n\nThe Prophet Muhammad ﷺ laid down the golden academic and theological criterion in an authentic narration in Sahih al-Bukhari:\n\n> عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: كَانَ أَهْلُ الْكِتَابِ يَقْرَءُونَ التَّوْرَاةَ بِالْعِبْرَانِيَّةِ، وَيُفَسِّرُونَهَا بِالْعَرَبِيَّةِ لِأَهْلِ الإِسْلاَمِ، فَقَالَ رَسُولُ اللَّهِ ﷺ: «لاَ تُصَدِّقُوا أَهْلَ الْكِتَابِ وَلاَ تُكَذِّبُوهُمْ، وَقُولُوا: ﴿آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ إِلَيْنَا وَمَا أُنْزِلَ إِلَيْكُمْ﴾»  \n> *Abu Hurairah (RA) narrated: The People of the Scripture used to read the Torah in Hebrew and explain it in Arabic to the Muslims. So the Messenger of Allah ﷺ said: \"Do not believe the People of the Scripture nor disbelieve them, but say: 'We believe in Allah and what has been revealed to us and what has been revealed to you.'\"*  \n> — **Sahih al-Bukhari (Hadith 4485)**\n\nFrom this authentic prophetic guidance, scholars derived **The Three Principles of Evaluation**:\n\n1. **What Agrees with the Qur'an and Authentic Sunnah**: Accepted as true and confirmed, because divine revelation corroborates it (e.g., stories of monotheism, the historical existence of the Prophets, and core moral virtues).\n2. **What Contradicts the Qur'an and Authentic Sunnah**: Rejected as incorrect and recognized as the result of human alteration (*Tahrif*) or historical distortion (e.g., attributing major sins, injustice, or idolatry to noble Prophets, or claiming divinity for created beings).\n3. **What is Neither Confirmed nor Contradicted**: Held in suspense (*Tawaqquf*); we neither dogmatically affirm it as divine fact nor aggressively deny it without evidence, as it may be a surviving truth or a human addition. It cannot be used to establish Islamic dogma or legal rulings.\n\n### Understanding *Tahrif* Accurately and Respectfully\nIslam teaches that earlier scriptures were entrusted to human custodians for preservation (Surah Al-Ma'idah 5:44), but over centuries of translation, theological councils, and loss of original manuscripts, alterations occurred. *Tahrif* does not mean that every single statement in modern religious texts of prior traditions is false; rather, it means that the original revelation is no longer preserved in its pristine, word-for-word entirety, making the Qur'an necessary as the final, incorruptible standard.\n\n---\n\n## 4. The Uniqueness and Perpetual Preservation of the Holy Qur'an\n\nUnlike past scriptures, Allah Himself took direct responsibility for safeguarding the Qur'an from all alteration:\n\n> ﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾  \n> *\"Indeed, it is We who sent down the Qur'an and indeed, We will be its guardian.\"*  \n> — **Surah Al-Hijr (15:9)**\n\nThe Qur'an is characterized by two unique theological guarantees:\n1. **The Dual Preservation Lock**: Preserved simultaneously through mass oral memorization (*Hifz*) by millions across every generation and meticulous physical manuscript collation (*Rasm*).\n2. **Muhaymin (Guardian and Criterion)**: Surah Al-Ma'idah (5:48) defines the Qur'an as *Muhaymin* over all preceding revelations—confirming the enduring truths of monotheism sent to earlier prophets, judging between differences, and correcting subsequent human distortions.\n  ",
+        "keyTerms": [
+          {
+            "term": "Al-Kutub (الكُتُب)",
+            "meaning": "The revealed Books containing literal divine speech sent by Allah to His Messengers."
+          },
+          {
+            "term": "Wahy (وَحْي)",
+            "meaning": "Divine inspiration and revelation communicated from Allah to His chosen Prophets."
+          },
+          {
+            "term": "Muhaymin (مُهَيْمِن)",
+            "meaning": "The status of the Qur'an as a guardian, judge, and criterion over all preceding divine scriptures."
+          },
+          {
+            "term": "Tahrif (تَحْرِيف)",
+            "meaning": "The historical alteration, textual modification, or doctrinal distortion of earlier scriptures over centuries."
+          },
+          {
+            "term": "Mawqif al-Muslim (مَوْقِف المُسْلِم)",
+            "meaning": "The balanced prophetic methodology of evaluating reports from previous scriptures against the Qur'an and Sunnah."
+          }
+        ],
+        "verifiedHadith": {
+          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «لاَ تُصَدِّقُوا أَهْلَ الْكِتَابِ وَلاَ تُكَذِّبُوهُمْ، وَقُولُوا: ﴿آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ إِلَيْنَا وَمَا أُنْزِلَ إِلَيْكُمْ﴾»",
+          "translation": "On the authority of Abu Hurairah (may Allah be pleased with him): The Messenger of Allah ﷺ said: 'Do not believe the People of the Scripture nor disbelieve them, but say: «We believe in Allah and what has been revealed to us and what has been revealed to you».'",
+          "reference": "Sahih al-Bukhari (Hadith 4485)",
+          "grading": "Sahih (Authentic)"
+        },
+        "practicalApplication": "Apply the Qur'an as your ultimate criterion (Furqan) in life. When evaluating religious claims, historical stories, or moral philosophies, compare them against the clear teachings of the Qur'an and authentic Sunnah.",
+        "reflectionQuestions": [
+          "How does the prophetic rule in Sahih al-Bukhari 4485 demonstrate intellectual honesty and respect when evaluating previous scriptures?",
+          "Why is believing in the original revelations given to Moses and Jesus an essential pillar of every Muslim's faith?"
+        ],
+        "quiz": {
+          "id": "aqeedah-quiz-4",
+          "title": "Module 4 Knowledge Check: Revealed Scriptures",
+          "questions": [
+            {
+              "question": "What does the second foundation of belief in the Revealed Scriptures (Arkan al-Iman bil-Kutub) require of a Muslim?",
+              "options": [
+                "To believe only in the Qur'an and deny that Allah ever spoke to previous nations",
+                "To believe specifically in the named scriptures (Tawrat, Zabur, Injeel, Suhuf, Qur'an) and generally in all unnamed scriptures revealed to Allah's messengers",
+                "To accept all modern translations of ancient texts as 100% word-for-word identical to the originals",
+                "To follow the laws of all previous scriptures simultaneously"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Muslims believe specifically in the scriptures explicitly identified in revelation and generally in all genuine revelations sent to past messengers."
+            },
+            {
+              "question": "According to the prophetic methodology taught in Sahih al-Bukhari (4485), how should a Muslim treat reports from previous scriptures that are neither confirmed nor contradicted by the Qur'an and Sunnah?",
+              "options": [
+                "Adopt them immediately as mandatory Islamic laws",
+                "Hold them in suspense: neither dogmatically affirming them as divine fact nor aggressively denying them without evidence",
+                "Declare anyone who mentions them an apostate",
+                "Burn them without reading"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The Prophet ﷺ taught believers to neither believe nor disbelieve unverified reports from previous scriptures, maintaining balanced suspense (Tawaqquf)."
+            },
+            {
+              "question": "Why has the Noble Qur'an remained unaltered for over 1,400 years, and what is its status as 'Muhaymin' (Surah Al-Ma'idah 5:48)?",
+              "options": [
+                "It was kept secret in a mountain cave",
+                "Allah Himself guaranteed its perpetual preservation (Surah Al-Hijr 15:9), and it acts as a guardian, criterion, and confirmation over all preceding scriptures",
+                "It was only written down in modern times",
+                "It adopts all legal rulings of earlier nations without change"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Surah Al-Hijr (15:9) establishes divine protection, and Surah Al-Ma'idah (5:48) affirms the Qur'an as Muhaymin over previous revelations."
+            }
+          ]
+        }
+      },
+      {
+        "id": "aqeedah-5",
+        "number": 5,
+        "title": "Module 5: The Fourth Pillar: Belief in the Prophets & Messengers (Rusul)",
         "subtitle": "Qualities of the Prophets, 25 Prophets named in the Qur'an, and Muhammad ﷺ as the Final Seal",
         "readingTime": "20 min",
         "videoLesson": {
@@ -26693,7 +26794,7 @@ export const coursesData = [
           "Recognize the 25 Prophets explicitly mentioned by name in the Noble Qur'an",
           "Understand the doctrine of Khatam an-Nabiyyin (The Seal of the Prophets) and its theological finality"
         ],
-        "content": "\n# Module 4: The Fourth Pillar: Belief in the Prophets & Messengers (Rusul)\n\nBelief in the Messengers is the bridge between human beings and the divine will of their Creator.\n\n---\n\n## 1. What is a Prophet and a Messenger?\n\n* **Nabi (نَبِيّ - Prophet)**: A man chosen by Allah who receives divine revelation (*Wahy*) and is commanded to practice and convey guidance, typically confirming an existing divine law.\n* **Rasul (رَسُول - Messenger)**: A Prophet sent to a specific nation with a new scripture, law (*Shari'ah*), or major divine message.\n* *Rule*: Every Messenger (*Rasul*) is a Prophet (*Nabi*), but not every Prophet is a Messenger.\n\n---\n\n## 2. Essential Qualities of the Prophets\n\nAll Prophets chosen by Allah share sublime, exemplary characteristics:\n1. **Complete Truthfulness (*As-Sidq*)**: They never uttered falsehood or deceit in their entire lives.\n2. **Absolute Trustworthiness (*Al-Amanah*)**: They conveyed every single letter of the divine message without alteration or omission.\n3. **Infallibility in Conveying Revelation (*Al-'Ismah*)**: Protected by Allah from making errors in teaching the religion or committing major sins.\n4. **Sublime Moral Character (*Husn al-Khuluq*)**: They were the most patient, compassionate, and brave humans of their respective eras.\n5. **Human Nature (*Al-Bashariyyah*)**: They were fully human—eating, sleeping, marrying, facing trials, and experiencing mortality—possessing zero divine attributes of Godhood.\n\n---\n\n## 3. The 25 Prophets Mentioned in the Qur'an\n\nThe Qur'an explicitly mentions twenty-five noble Prophets by name:\n1. **Adam** (آدم)\n2. **Idris** (إدريس)\n3. **Nuh** (Noah) (نوح)\n4. **Hud** (هود)\n5. **Salih** (صالح)\n6. **Ibrahim** (Abraham) (إبراهيم)\n7. **Lut** (Lot) (لوط)\n8. **Isma'il** (Ishmael) (إسماعيل)\n9. **Ishaq** (Isaac) (إسحاق)\n10. **Ya'qub** (Jacob) (يعقوب)\n11. **Yusuf** (Joseph) (يوسف)\n12. **Ayyub** (Job) (أيوب)\n13. **Shu'ayb** (شعيب)\n14. **Musa** (Moses) (موسى)\n15. **Harun** (Aaron) (هارون)\n16. **Dhul-Kifl** (Ezekiel) (ذو الكفل)\n17. **Dawud** (David) (داود)\n18. **Sulayman** (Solomon) (سليمان)\n19. **Ilyas** (Elijah) (إلياس)\n20. **Al-Yasa'** (Elisha) (اليسع)\n21. **Yunus** (Jonah) (يونس)\n22. **Zakariyya** (Zechariah) (زكريا)\n23. **Yahya** (John the Baptist) (يحيى)\n24. **'Isa** (Jesus) (عيسى)\n25. **Muhammad** (محمد) (صَلَّى اللَّهُ عَلَيْهِمْ وَسَلَّمَ أَجْمَعِينَ).\n\nThe greatest among them are known as **Ulul-'Azm (The Messengers of Firm Resolve)**: Nuh, Ibrahim, Musa, 'Isa, and Muhammad (peace be upon them all).\n\n---\n\n## 4. Prophet Muhammad ﷺ: The Seal of the Prophets\n\nProphet Muhammad ﷺ holds a unique, universal status:\n1. **Sent to All Mankind and Jinn**: Whereas past prophets were sent specifically to their own local tribes, Muhammad ﷺ was sent as a universal mercy to all creation (Surah Al-Anbiya 21:107).\n2. **Khatam an-Nabiyyin (The Seal of the Prophets)**:\n   > ﴿مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ﴾  \n   > *\"Muhammad is not the father of [any] one of your men, but [he is] the Messenger of Allah and the Seal of the Prophets.\"*  \n   > — **Surah Al-Ahzab (33:40)**\n3. The Prophet ﷺ explicitly stated: *«لاَ نَبِيَّ بَعْدِي»* (*\"There is no Prophet after me\"* — Sahih al-Bukhari 3455).\n      ",
+        "content": "\n# Module 5: The Fourth Pillar: Belief in the Prophets & Messengers (Rusul)\n\nBelief in the Messengers is the bridge between human beings and the divine will of their Creator.\n\n---\n\n## 1. What is a Prophet and a Messenger?\n\n* **Nabi (نَبِيّ - Prophet)**: A man chosen by Allah who receives divine revelation (*Wahy*) and is commanded to practice and convey guidance, typically confirming an existing divine law.\n* **Rasul (رَسُول - Messenger)**: A Prophet sent to a specific nation with a new scripture, law (*Shari'ah*), or major divine message.\n* *Rule*: Every Messenger (*Rasul*) is a Prophet (*Nabi*), but not every Prophet is a Messenger.\n\n---\n\n## 2. Essential Qualities of the Prophets\n\nAll Prophets chosen by Allah share sublime, exemplary characteristics:\n1. **Complete Truthfulness (*As-Sidq*)**: They never uttered falsehood or deceit in their entire lives.\n2. **Absolute Trustworthiness (*Al-Amanah*)**: They conveyed every single letter of the divine message without alteration or omission.\n3. **Infallibility in Conveying Revelation (*Al-'Ismah*)**: Protected by Allah from making errors in teaching the religion or committing major sins.\n4. **Sublime Moral Character (*Husn al-Khuluq*)**: They were the most patient, compassionate, and brave humans of their respective eras.\n5. **Human Nature (*Al-Bashariyyah*)**: They were fully human—eating, sleeping, marrying, facing trials, and experiencing mortality—possessing zero divine attributes of Godhood.\n\n---\n\n## 3. The 25 Prophets Mentioned in the Qur'an\n\nThe Qur'an explicitly mentions twenty-five noble Prophets by name:\n1. **Adam** (آدم)\n2. **Idris** (إدريس)\n3. **Nuh** (Noah) (نوح)\n4. **Hud** (هود)\n5. **Salih** (صالح)\n6. **Ibrahim** (Abraham) (إبراهيم)\n7. **Lut** (Lot) (لوط)\n8. **Isma'il** (Ishmael) (إسماعيل)\n9. **Ishaq** (Isaac) (إسحاق)\n10. **Ya'qub** (Jacob) (يعقوب)\n11. **Yusuf** (Joseph) (يوسف)\n12. **Ayyub** (Job) (أيوب)\n13. **Shu'ayb** (شعيب)\n14. **Musa** (Moses) (موسى)\n15. **Harun** (Aaron) (هارون)\n16. **Dhul-Kifl** (Ezekiel) (ذو الكفل)\n17. **Dawud** (David) (داود)\n18. **Sulayman** (Solomon) (سليمان)\n19. **Ilyas** (Elijah) (إلياس)\n20. **Al-Yasa'** (Elisha) (اليسع)\n21. **Yunus** (Jonah) (يونس)\n22. **Zakariyya** (Zechariah) (زكريا)\n23. **Yahya** (John the Baptist) (يحيى)\n24. **'Isa** (Jesus) (عيسى)\n25. **Muhammad** (محمد) (صَلَّى اللَّهُ عَلَيْهِمْ وَسَلَّمَ أَجْمَعِينَ).\n\nThe greatest among them are known as **Ulul-'Azm (The Messengers of Firm Resolve)**: Nuh, Ibrahim, Musa, 'Isa, and Muhammad (peace be upon them all).\n\n---\n\n## 4. Prophet Muhammad ﷺ: The Seal of the Prophets\n\nProphet Muhammad ﷺ holds a unique, universal status:\n1. **Sent to All Mankind and Jinn**: Whereas past prophets were sent specifically to their own local tribes, Muhammad ﷺ was sent as a universal mercy to all creation (Surah Al-Anbiya 21:107).\n2. **Khatam an-Nabiyyin (The Seal of the Prophets)**:\n   > ﴿مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ﴾  \n   > *\"Muhammad is not the father of [any] one of your men, but [he is] the Messenger of Allah and the Seal of the Prophets.\"*  \n   > — **Surah Al-Ahzab (33:40)**\n3. The Prophet ﷺ explicitly stated: *«لاَ نَبِيَّ بَعْدِي»* (*\"There is no Prophet after me\"* — Sahih al-Bukhari 3455).\n      ",
         "keyTerms": [
           {
             "term": "Rusul (رُسُل)",
@@ -26720,8 +26821,8 @@ export const coursesData = [
           "What does the finality of Prophethood (Khatam an-Nabiyyin) mean for the preservation of religious truth for all future generations?"
         ],
         "quiz": {
-          "id": "aqeedah-quiz-4",
-          "title": "Module 4 Knowledge Check: Prophets & Messengers",
+          "id": "aqeedah-quiz-5",
+          "title": "Module 5 Knowledge Check: Prophets & Messengers",
           "questions": [
             {
               "question": "Who are the 'Ulul-'Azm' (The Five Messengers of Firm Resolve) in Islamic theology?",
@@ -26757,12 +26858,15 @@ export const coursesData = [
               "explanation": "All Prophets shared the identical core message of Pure Monotheism (Tawheed) and moral righteousness."
             }
           ]
-        }
+        },
+        "aliases": [
+          "aqeedah-4"
+        ]
       },
       {
-        "id": "aqeedah-5",
-        "number": 5,
-        "title": "Module 5: The Fifth Pillar: Belief in the Day of Judgment (Al-Yawm al-Akhir)",
+        "id": "aqeedah-6",
+        "number": 6,
+        "title": "Module 6: The Fifth Pillar: Belief in the Day of Judgment (Al-Yawm al-Akhir)",
         "subtitle": "The Barzakh, Resurrection, the Scales (Meezan), the Reckoning (Hisab), Sirat, Paradise, and Hell",
         "readingTime": "22 min",
         "videoLesson": {
@@ -26784,7 +26888,7 @@ export const coursesData = [
           "Describe the major events of the Day of Resurrection: The Scales (Meezan), Presentation of Deeds, and the Bridge (Sirat)",
           "Appreciate how belief in the Hereafter provides supreme justice, accountability, and purpose to earthly life"
         ],
-        "content": "\n# Module 5: The Fifth Pillar: Belief in the Day of Judgment (Al-Yawm al-Akhir)\n\nBelief in the Last Day transforms human life from a fleeting, meaningless biological existence into a purposeful, morally accountable journey toward eternity.\n\n---\n\n## 1. The Stages of the Journey to the Hereafter\n\n```\n[Earthly Life] ──► [Death] ──► [Al-Barzakh (Grave)] ──► [Trumpet Blown & Resurrection]\n                                                                  │\n[Eternal Jannah / Jahannam] ◄── [As-Sirat Bridge] ◄── [Hisab (Reckoning) & Meezan (Scales)]\n```\n\n### Stage 1: The Intermediate Realm (*Al-Barzakh*)\n* Immediately upon death, the soul enters *Al-Barzakh* (the barrier realm between this world and the Resurrection).\n* The deceased is visited by two angels, **Munkar and Nakir**, who ask the three foundational questions:\n  1. *Man Rabbuk?* (Who is your Lord?)\n  2. *Ma Deenuk?* (What is your religion?)\n  3. *Man Nabiyyuk?* (Who is your Prophet?)\n* The righteous soul answers with ease and experiences the peace and fragrance of Paradise in the grave, while the disobedient experience distress.\n\n### Stage 2: The Blowing of the Trumpet & Resurrection (*Al-Ba'th*)\n* Angel **Israfil** blows the Trumpet (*As-Soor*) twice:\n  * The first blast (*Nafkhat as-Sa'q*) causes all living creatures in the cosmos to die.\n  * The second blast (*Nafkhat al-Ba'th*) resurrects all human beings from their graves, standing bare before Allah.\n\n### Stage 3: The Gathering (*Al-Hashr*) & Standing\n* All of humanity from Adam to the last human are assembled on a vast, flat white plain on a Day whose length is equivalent to 50,000 years, under the shade of Allah's Throne.\n\n### Stage 4: The Presentation of Records & The Scales (*Al-Meezan*)\n* Every person receives their Book of Deeds (*Kitab al-A'mal*): the righteous in their right hand, and the wicked in their left hand or behind their back (Surah Al-Haqqah 69:19-25).\n* The Deeds are weighed on the literal **Scales (*Al-Meezan*)** of absolute divine justice:\n  > ﴿فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ • وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ﴾  \n  > *\"So whoever does an atom's weight of good will see it, and whoever does an atom's weight of evil will see it.\"*  \n  > — **Surah Az-Zalzalah (99:7-8)**\n\n### Stage 5: The Pool (*Al-Hawd*) & The Bridge (*As-Sirat*)\n* The Prophet's Pool (*Al-Hawd al-Mawrood*): Whoever drinks from it once will never thirst again.\n* The Bridge (*As-Sirat*): A bridge suspended over the Hellfire that every human must cross. Believers cross with varying speeds (like lightning, wind, or running) according to their deeds and light, leading into **Paradise (*Jannah*)**.\n\n---\n\n## 2. Jannah and Jahannam: The Eternal Realities\n\n* **Jannah (Paradise)**: The eternal abode of supreme bliss, light, and peace prepared for the believers:\n  > *«فِيهَا مَا لاَ عَيْنٌ رَأَتْ، وَلاَ أُذُنٌ سَمِعَتْ، وَلاَ خَطَرَ عَلَى قَلْبِ بَشَرٍ»*  \n  > *\"In it is what no eye has ever seen, no ear has ever heard, and no human heart has ever conceived.\"* (Sahih al-Bukhari 3244).\n  * The ultimate pinnacle reward of Jannah is gazing upon the Noble Countenance of Allah the Exalted (Surah Al-Qiyamah 75:22-23).\n* **Jahannam (Hellfire)**: The abode of divine justice, punishment, and agony prepared for tyrants, oppressors, and unrepentant disbelievers.\n      ",
+        "content": "\n# Module 6: The Fifth Pillar: Belief in the Day of Judgment (Al-Yawm al-Akhir)\n\nBelief in the Last Day transforms human life from a fleeting, meaningless biological existence into a purposeful, morally accountable journey toward eternity.\n\n---\n\n## 1. The Stages of the Journey to the Hereafter\n\n```\n[Earthly Life] ──► [Death] ──► [Al-Barzakh (Grave)] ──► [Trumpet Blown & Resurrection]\n                                                                  │\n[Eternal Jannah / Jahannam] ◄── [As-Sirat Bridge] ◄── [Hisab (Reckoning) & Meezan (Scales)]\n```\n\n### Stage 1: The Intermediate Realm (*Al-Barzakh*)\n* Immediately upon death, the soul enters *Al-Barzakh* (the barrier realm between this world and the Resurrection).\n* The deceased is visited by two angels, **Munkar and Nakir**, who ask the three foundational questions:\n  1. *Man Rabbuk?* (Who is your Lord?)\n  2. *Ma Deenuk?* (What is your religion?)\n  3. *Man Nabiyyuk?* (Who is your Prophet?)\n* The righteous soul answers with ease and experiences the peace and fragrance of Paradise in the grave, while the disobedient experience distress.\n\n### Stage 2: The Blowing of the Trumpet & Resurrection (*Al-Ba'th*)\n* Angel **Israfil** blows the Trumpet (*As-Soor*) twice:\n  * The first blast (*Nafkhat as-Sa'q*) causes all living creatures in the cosmos to die.\n  * The second blast (*Nafkhat al-Ba'th*) resurrects all human beings from their graves, standing bare before Allah.\n\n### Stage 3: The Gathering (*Al-Hashr*) & Standing\n* All of humanity from Adam to the last human are assembled on a vast, flat white plain on a Day whose length is equivalent to 50,000 years, under the shade of Allah's Throne.\n\n### Stage 4: The Presentation of Records & The Scales (*Al-Meezan*)\n* Every person receives their Book of Deeds (*Kitab al-A'mal*): the righteous in their right hand, and the wicked in their left hand or behind their back (Surah Al-Haqqah 69:19-25).\n* The Deeds are weighed on the literal **Scales (*Al-Meezan*)** of absolute divine justice:\n  > ﴿فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ • وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ﴾  \n  > *\"So whoever does an atom's weight of good will see it, and whoever does an atom's weight of evil will see it.\"*  \n  > — **Surah Az-Zalzalah (99:7-8)**\n\n### Stage 5: The Pool (*Al-Hawd*) & The Bridge (*As-Sirat*)\n* The Prophet's Pool (*Al-Hawd al-Mawrood*): Whoever drinks from it once will never thirst again.\n* The Bridge (*As-Sirat*): A bridge suspended over the Hellfire that every human must cross. Believers cross with varying speeds (like lightning, wind, or running) according to their deeds and light, leading into **Paradise (*Jannah*)**.\n\n---\n\n## 2. Jannah and Jahannam: The Eternal Realities\n\n* **Jannah (Paradise)**: The eternal abode of supreme bliss, light, and peace prepared for the believers:\n  > *«فِيهَا مَا لاَ عَيْنٌ رَأَتْ، وَلاَ أُذُنٌ سَمِعَتْ، وَلاَ خَطَرَ عَلَى قَلْبِ بَشَرٍ»*  \n  > *\"In it is what no eye has ever seen, no ear has ever heard, and no human heart has ever conceived.\"* (Sahih al-Bukhari 3244).\n  * The ultimate pinnacle reward of Jannah is gazing upon the Noble Countenance of Allah the Exalted (Surah Al-Qiyamah 75:22-23).\n* **Jahannam (Hellfire)**: The abode of divine justice, punishment, and agony prepared for tyrants, oppressors, and unrepentant disbelievers.\n      ",
         "keyTerms": [
           {
             "term": "Al-Barzakh (البَرْزَخ)",
@@ -26815,8 +26919,8 @@ export const coursesData = [
           "What are the three questions of the grave, and how does righteous living today ensure a steadfast answer on that day?"
         ],
         "quiz": {
-          "id": "aqeedah-quiz-5",
-          "title": "Module 5 Knowledge Check: The Last Day",
+          "id": "aqeedah-quiz-6",
+          "title": "Module 6 Knowledge Check: The Last Day",
           "questions": [
             {
               "question": "What are the three questions asked by angels Munkar and Nakir to every soul in the grave (Al-Barzakh)?",
@@ -26852,12 +26956,15 @@ export const coursesData = [
               "explanation": "Al-Meezan is the real, precise Scale upon which deeds, records, and the doer will be weighed with absolute justice."
             }
           ]
-        }
+        },
+        "aliases": [
+          "aqeedah-5"
+        ]
       },
       {
-        "id": "aqeedah-6",
-        "number": 6,
-        "title": "Module 6: The Sixth Pillar: Belief in Divine Decree & Predestination (Al-Qadr)",
+        "id": "aqeedah-7",
+        "number": 7,
+        "title": "Module 7: The Sixth Pillar: Belief in Divine Decree & Predestination (Al-Qadr)",
         "subtitle": "The four levels of Qadr ('Ilm, Kitabah, Mashi'ah, Khalq), human free will, moral responsibility, and Tawakkul",
         "readingTime": "22 min",
         "videoLesson": {
@@ -26879,7 +26986,7 @@ export const coursesData = [
           "Reconcile Allah's absolute sovereignty with human free will (*Ikhtiyar*) and accountability",
           "Distinguish between authentic reliance on Allah (*Tawakkul*) and passive fatalism (*Tawakul*)"
         ],
-        "content": "\n# Module 6: The Sixth Pillar: Belief in Divine Decree & Predestination (Al-Qadr)\n\nBelief in **Al-Qadr (Divine Decree)** provides the believer with supreme mental peace, resilience during adversity, and liberation from arrogance during success.\n\n---\n\n## 1. What is Al-Qadr?\n\n* **Linguistic Meaning**: Measurement, decree, determination, or precise proportion.\n* **Technical Islamic Meaning**: Believing that **Allah eternally knew, recorded, willed, and created everything that exists and occurs in the universe, in exact measure and perfect wisdom**.\n* **Primary Qur'anic Evidence**:\n  > ﴿إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ﴾  \n  > *\"Indeed, all things We created with predestination.\"*  \n  > — [Surah Al-Qamar (54:49)](https://quran.com/54/49)\n\n  > ﴿مَا أَصَابَ مِن مُّصِيبَةٍ فِي الْأَرْضِ وَلَا فِي أَنفُسِكُمْ إِلَّا فِي كِتَابٍ مِّن قَبْلِ أَن نَّبْرَأَهَا ۚ إِنَّ ذَٰلِكَ عَلَى اللَّهِ يَسِيرٌ﴾  \n  > *\"No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being — indeed that, for Allah, is easy.\"*  \n  > — [Surah Al-Hadid (57:22)](https://quran.com/57/22)\n\n---\n\n## 2. The Four Essential Levels of Qadr (*Maratib al-Qadr*)\n\nTo have sound belief in Al-Qadr, a Muslim must affirm all **four consecutive levels**:\n\n```\n1. AL-'ILM (Divine Knowledge) ──► 2. AL-KITABAH (Eternal Writing)\n                 │                                │\n                 ▼                                ▼\n3. AL-MASHI'AH (Divine Will)  ──► 4. AL-KHALQ (Divine Creation)\n```\n\n### 1. Al-'Ilm (All-Encompassing Knowledge)\n* Believing that Allah has eternal, perfect knowledge of everything—general and detailed, past, present, and future—before it occurs.\n* Allah knows what was, what will be, and what will not be (and if it were to be, how it would have been).\n\n### 2. Al-Kitabah (The Preserved Writing)\n* Believing that Allah recorded all the decrees of creation in the **Preserved Tablet (*Al-Lawh al-Mahfoodh*)** fifty thousand years before creating the heavens and earth.\n* The Prophet ﷺ said:\n  > *«كَتَبَ اللَّهُ مَقَادِيرَ الْخَلاَئِقِ قَبْلَ أَنْ يَخْلُقَ السَّمَاوَاتِ وَالأَرْضَ بِخَمْسِينَ أَلْفَ سَنَةٍ»*  \n  > *\"Allah recorded the decrees of all created things fifty thousand years before He created the heavens and the earth.\"* (Sahih Muslim 2653).\n\n### 3. Al-Mashi'ah (The Universal Divine Will)\n* Believing that whatever Allah wills happens (*Ma sha' Allahu kan*), and whatever He does not will never happens (*Wa ma lam yasha' lam yakun*).\n* Nothing exists or moves in the cosmos outside of His sovereign permission.\n\n### 4. Al-Khalq (The Creation of All Things)\n* Believing that Allah is the Sole Creator of all things, their attributes, and their actions:\n  > ﴿اللَّهُ خَالِقُ كُلِّ شَيْءٍ ۖ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ وَكِيلٌ﴾  \n  > *\"Allah is the Creator of all things, and He is, over all things, Disposer of affairs.\"*  \n  > — **Surah Az-Zumar (39:62)**\n\n---\n\n## 3. Reconciling Divine Decree with Human Free Will\n\nA common question arises: *“If Allah already wrote everything, why are humans held accountable?”*\n\n### The Orthodox Resolution:\n1. **Allah's Knowledge is Descriptive, Not Coercive**: Allah wrote what we would freely choose to do because His knowledge is infinite, not because He forced us against our will.\n2. **Humans Possess Real Choice (*Ikhtiyar*) and Ability (*Qudrah*)**: You consciously decided to read this lesson right now; no one forced you. When you choose good, you are rewarded; when you choose evil, you bear moral responsibility.\n3. **Difference Between Universal Will (*Iradah Kawniyyah*) and Legislative Will (*Iradah Shar'iyyah*)**:\n   * *Universal Will*: What Allah permits to happen in the universe (both good and bad events for a higher divine wisdom).\n   * *Legislative Will*: What Allah loves and commands (faith, justice, prayer, kindness).\n\n---\n\n## 4. The Psychological Fruits of Believing in Qadr\n\n1. **Unshakable Resilience in Hardship**: When tragedy strikes, a Muslim does not collapse into despair or say *\"If only I had done XYZ...\"* Instead, they say:\n   > **«قَدَرُ اللَّهِ وَمَا شَاءَ فَعَلَ»**  \n   > *Qaddarallahu wa ma sha'a fa'ala* (*\"It is the Decree of Allah, and whatever He willed, He has done\"* — Sahih Muslim 2664).\n2. **Freedom from Arrogance in Success**: When successful, you recognize that your intelligence, health, and wealth are divine gifts, not self-made supremacy.\n3. **True Tawakkul (Reliance) vs. Tawakul (Fatalism)**: Tying your camel and taking all practical means (*Asbab*), while relying completely on Allah for the outcome.\n      ",
+        "content": "\n# Module 7: The Sixth Pillar: Belief in Divine Decree & Predestination (Al-Qadr)\n\nBelief in **Al-Qadr (Divine Decree)** provides the believer with supreme mental peace, resilience during adversity, and liberation from arrogance during success.\n\n---\n\n## 1. What is Al-Qadr?\n\n* **Linguistic Meaning**: Measurement, decree, determination, or precise proportion.\n* **Technical Islamic Meaning**: Believing that **Allah eternally knew, recorded, willed, and created everything that exists and occurs in the universe, in exact measure and perfect wisdom**.\n* **Primary Qur'anic Evidence**:\n  > ﴿إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ﴾  \n  > *\"Indeed, all things We created with predestination.\"*  \n  > — [Surah Al-Qamar (54:49)](https://quran.com/54/49)\n\n  > ﴿مَا أَصَابَ مِن مُّصِيبَةٍ فِي الْأَرْضِ وَلَا فِي أَنفُسِكُمْ إِلَّا فِي كِتَابٍ مِّن قَبْلِ أَن نَّبْرَأَهَا ۚ إِنَّ ذَٰلِكَ عَلَى اللَّهِ يَسِيرٌ﴾  \n  > *\"No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being — indeed that, for Allah, is easy.\"*  \n  > — [Surah Al-Hadid (57:22)](https://quran.com/57/22)\n\n---\n\n## 2. The Four Essential Levels of Qadr (*Maratib al-Qadr*)\n\nTo have sound belief in Al-Qadr, a Muslim must affirm all **four consecutive levels**:\n\n```\n1. AL-'ILM (Divine Knowledge) ──► 2. AL-KITABAH (Eternal Writing)\n                 │                                │\n                 ▼                                ▼\n3. AL-MASHI'AH (Divine Will)  ──► 4. AL-KHALQ (Divine Creation)\n```\n\n### 1. Al-'Ilm (All-Encompassing Knowledge)\n* Believing that Allah has eternal, perfect knowledge of everything—general and detailed, past, present, and future—before it occurs.\n* Allah knows what was, what will be, and what will not be (and if it were to be, how it would have been).\n\n### 2. Al-Kitabah (The Preserved Writing)\n* Believing that Allah recorded all the decrees of creation in the **Preserved Tablet (*Al-Lawh al-Mahfoodh*)** fifty thousand years before creating the heavens and earth.\n* The Prophet ﷺ said:\n  > *«كَتَبَ اللَّهُ مَقَادِيرَ الْخَلاَئِقِ قَبْلَ أَنْ يَخْلُقَ السَّمَاوَاتِ وَالأَرْضَ بِخَمْسِينَ أَلْفَ سَنَةٍ»*  \n  > *\"Allah recorded the decrees of all created things fifty thousand years before He created the heavens and the earth.\"* (Sahih Muslim 2653).\n\n### 3. Al-Mashi'ah (The Universal Divine Will)\n* Believing that whatever Allah wills happens (*Ma sha' Allahu kan*), and whatever He does not will never happens (*Wa ma lam yasha' lam yakun*).\n* Nothing exists or moves in the cosmos outside of His sovereign permission.\n\n### 4. Al-Khalq (The Creation of All Things)\n* Believing that Allah is the Sole Creator of all things, their attributes, and their actions:\n  > ﴿اللَّهُ خَالِقُ كُلِّ شَيْءٍ ۖ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ وَكِيلٌ﴾  \n  > *\"Allah is the Creator of all things, and He is, over all things, Disposer of affairs.\"*  \n  > — **Surah Az-Zumar (39:62)**\n\n---\n\n## 3. Reconciling Divine Decree with Human Free Will\n\nA common question arises: *“If Allah already wrote everything, why are humans held accountable?”*\n\n### The Orthodox Resolution:\n1. **Allah's Knowledge is Descriptive, Not Coercive**: Allah wrote what we would freely choose to do because His knowledge is infinite, not because He forced us against our will.\n2. **Humans Possess Real Choice (*Ikhtiyar*) and Ability (*Qudrah*)**: You consciously decided to read this lesson right now; no one forced you. When you choose good, you are rewarded; when you choose evil, you bear moral responsibility.\n3. **Difference Between Universal Will (*Iradah Kawniyyah*) and Legislative Will (*Iradah Shar'iyyah*)**:\n   * *Universal Will*: What Allah permits to happen in the universe (both good and bad events for a higher divine wisdom).\n   * *Legislative Will*: What Allah loves and commands (faith, justice, prayer, kindness).\n\n---\n\n## 4. The Psychological Fruits of Believing in Qadr\n\n1. **Unshakable Resilience in Hardship**: When tragedy strikes, a Muslim does not collapse into despair or say *\"If only I had done XYZ...\"* Instead, they say:\n   > **«قَدَرُ اللَّهِ وَمَا شَاءَ فَعَلَ»**  \n   > *Qaddarallahu wa ma sha'a fa'ala* (*\"It is the Decree of Allah, and whatever He willed, He has done\"* — Sahih Muslim 2664).\n2. **Freedom from Arrogance in Success**: When successful, you recognize that your intelligence, health, and wealth are divine gifts, not self-made supremacy.\n3. **True Tawakkul (Reliance) vs. Tawakul (Fatalism)**: Tying your camel and taking all practical means (*Asbab*), while relying completely on Allah for the outcome.\n      ",
         "keyTerms": [
           {
             "term": "Al-Qadr (القَدَر)",
@@ -26910,8 +27017,8 @@ export const coursesData = [
           "How does combining the taking of practical means with complete reliance on Allah (Tawakkul) produce both productivity and mental peace?"
         ],
         "quiz": {
-          "id": "aqeedah-quiz-6",
-          "title": "Module 6 Knowledge Check: Divine Decree (Al-Qadr)",
+          "id": "aqeedah-quiz-7",
+          "title": "Module 7 Knowledge Check: Divine Decree (Al-Qadr)",
           "questions": [
             {
               "question": "What are the four essential levels (Maratib) of belief in Al-Qadr?",
@@ -26947,12 +27054,15 @@ export const coursesData = [
               "explanation": "The Prophet ﷺ taught believers to say 'Qaddarallahu wa ma sha'a fa'ala' to close the door to Satan's despair."
             }
           ]
-        }
+        },
+        "aliases": [
+          "aqeedah-6"
+        ]
       },
       {
-        "id": "aqeedah-7",
-        "number": 7,
-        "title": "Module 7: Revision, Creed Synthesis & Knowledge Assessment",
+        "id": "aqeedah-8",
+        "number": 8,
+        "title": "Module 8: Revision, Creed Synthesis & Knowledge Assessment",
         "subtitle": "Consolidated synthesis of the Six Pillars of Iman, psychological impact of sound creed, and capstone assessment",
         "readingTime": "18 min",
         "videoLesson": {
@@ -26974,7 +27084,7 @@ export const coursesData = [
           "Formulate a lifelong commitment to preserving sound faith and sound practice",
           "Complete the comprehensive capstone assessment in Islamic Aqeedah"
         ],
-        "content": "\n# Module 7: Revision, Creed Synthesis & Knowledge Assessment\n\nCongratulations on reaching the final capstone module of **Islamic Aqeedah From Zero**!\n\n---\n\n## 1. Summary of Our 7-Module Journey\n\n```\n┌─────────────────────────────────────────────────────────────────────────┐\n│                    FAHMRISE AQEEDAH CURRICULUM OVERVIEW                 │\n├─────────────────────────────────────────────────────────────────────────┤\n│ Module 1: Foundations of Creed (Islam, Iman, Ihsan, Hadith Jibreel)     │\n│ Module 2: Belief in Allah (Tawheed Rububiyyah, Uluhiyyah, Asma' wa-Sifat)│\n│ Module 3: Angels & Revealed Scriptures (Mala'ikah, Jibreel, Preserved)  │\n│ Module 4: Prophets & Messengers (Attributes, 25 Named, Khatam an-Nabiyyin)│\n│ Module 5: The Day of Judgment (Barzakh, Resurrection, Meezan, Jannah)   │\n│ Module 6: Divine Decree (Al-Qadr: 4 Levels, Human Free Will, Tawakkul)  │\n│ Module 7: Comprehensive Synthesis & Lifelong Creed Blueprint            │\n└─────────────────────────────────────────────────────────────────────────┘\n```\n\n* **The Comprehensive Pillar Verse**:\n  > ﴿آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِ﴾  \n  > *\"The Messenger has believed in what was revealed to him from his Lord, and [so have] the believers. All of them have believed in Allah and His angels and His books and His messengers...\"*  \n  > — [Surah Al-Baqarah (2:285)](https://quran.com/2/285)\n\n* **The Essence of Pure Monotheism**:\n  > Explore the declaration of Allah's oneness in [Surah Al-Ikhlas (112)](https://quran.com/112).\n\n---\n\n## 2. The Core Creedal Manifesto of the Believer\n\n1. **My Lord is Allah Alone**: Creator, Sustainer, and Sole Object of all worship, love, fear, and reliance.\n2. **My Guide is the Noble Qur'an**: The uncreated, preserved Word of Allah.\n3. **My Leader and Exemplar is Prophet Muhammad ﷺ**: The final Seal of the Prophets whose Sunnah is my pathway to Paradise.\n4. **My Destination is the Hereafter**: Striving daily for Allah's Good Pleasure and the eternal gardens of Jannah.\n5. **My Trust is in Al-Qadr**: Living with active effort (*Asbab*) and tranquil reliance (*Tawakkul*).\n\nMay Allah keep your heart steadfast upon the true faith:\n> **«يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ»**  \n> *Ya Muqallib al-Qulub, thabbit qalbi 'ala deenik.*  \n> *\"O Turner of the hearts, keep my heart steadfast upon Your religion.\"* (Jami' at-Tirmidhi 3522).\n      ",
+        "content": "\n# Module 8: Revision, Creed Synthesis & Knowledge Assessment\n\nCongratulations on reaching the final capstone module of **Islamic Aqeedah From Zero**!\n\n---\n\n## 1. Summary of Our 8-Module Journey\n\n```\n┌─────────────────────────────────────────────────────────────────────────┐\n│                    FAHMRISE AQEEDAH CURRICULUM OVERVIEW                 │\n├─────────────────────────────────────────────────────────────────────────┤\n│ Module 1: Foundations of Creed (Islam, Iman, Ihsan, Hadith Jibreel)     │\n│ Module 2: Belief in Allah (Tawheed Rububiyyah, Uluhiyyah, Asma' wa-Sifat)│\n│ Module 3: Belief in the Angels (Mala'ikah, Creation from Noor, Roles)   │\n│ Module 4: Revealed Scriptures (Kutub, Suhuf, Tawrat, Injeel, Qur'an)    │\n│ Module 5: Prophets & Messengers (Attributes, 25 Named, Khatam an-Nabiyyin)│\n│ Module 6: The Day of Judgment (Barzakh, Resurrection, Meezan, Jannah)   │\n│ Module 7: Divine Decree (Al-Qadr: 4 Levels, Human Free Will, Tawakkul)  │\n│ Module 8: Comprehensive Synthesis & Lifelong Creed Blueprint            │\n└─────────────────────────────────────────────────────────────────────────┘\n```\n\n* **The Comprehensive Pillar Verse**:\n  > ﴿آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِ﴾  \n  > *\"The Messenger has believed in what was revealed to him from his Lord, and [so have] the believers. All of them have believed in Allah and His angels and His books and His messengers...\"*  \n  > — [Surah Al-Baqarah (2:285)](https://quran.com/2/285)\n\n* **The Essence of Pure Monotheism**:\n  > Explore the declaration of Allah's oneness in [Surah Al-Ikhlas (112)](https://quran.com/112).\n\n---\n\n## 2. The Core Creedal Manifesto of the Believer\n\n1. **My Lord is Allah Alone**: Creator, Sustainer, and Sole Object of all worship, love, fear, and reliance.\n2. **My Guide is the Noble Qur'an**: The uncreated, preserved Word of Allah.\n3. **My Leader and Exemplar is Prophet Muhammad ﷺ**: The final Seal of the Prophets whose Sunnah is my pathway to Paradise.\n4. **My Destination is the Hereafter**: Striving daily for Allah's Good Pleasure and the eternal gardens of Jannah.\n5. **My Trust is in Al-Qadr**: Living with active effort (*Asbab*) and tranquil reliance (*Tawakkul*).\n\nMay Allah keep your heart steadfast upon the true faith:\n> **«يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ»**  \n> *Ya Muqallib al-Qulub, thabbit qalbi 'ala deenik.*  \n> *\"O Turner of the hearts, keep my heart steadfast upon Your religion.\"* (Jami' at-Tirmidhi 3522).\n      ",
         "keyTerms": [
           {
             "term": "Thabat (ثَبَات)",
@@ -26997,8 +27107,8 @@ export const coursesData = [
           "What is the single most transformative theological principle you learned in this course?"
         ],
         "quiz": {
-          "id": "aqeedah-quiz-7",
-          "title": "Module 7 Capstone Knowledge Check: Comprehensive Creed Mastery",
+          "id": "aqeedah-quiz-8",
+          "title": "Module 8 Capstone Knowledge Check: Comprehensive Creed Mastery",
           "questions": [
             {
               "question": "What was the single most frequent supplication of Prophet Muhammad ﷺ reported by Umm Salamah (RA)?",
@@ -27034,7 +27144,10 @@ export const coursesData = [
               "explanation": "Belief in Qadr grants tranquility in hardships and humility in success, knowing all outcomes rest with Allah."
             }
           ]
-        }
+        },
+        "aliases": [
+          "aqeedah-7"
+        ]
       }
     ],
     "quizzes": [
@@ -27118,7 +27231,7 @@ export const coursesData = [
       },
       {
         "id": "aqeedah-quiz-3",
-        "title": "Module 3 Knowledge Check: Angels & Scriptures",
+        "title": "Module 3 Knowledge Check: Belief in the Angels",
         "questions": [
           {
             "question": "From what substance were the Angels created, as affirmed in Sahih Muslim?",
@@ -27143,21 +27256,60 @@ export const coursesData = [
             "explanation": "Archangel Jibreel (AS) was divinely appointed as the emissary of divine revelation."
           },
           {
-            "question": "Why has the Noble Qur'an remained unchanged and preserved word-for-word for over 1,400 years?",
+            "question": "What is the primary function of the angels known as Kiraman Katibin (Surah Qaf 50:17-18)?",
             "options": [
-              "It was hidden away from humans",
-              "Allah the Almighty Himself guaranteed its preservation in Surah Al-Hijr (15:9)",
-              "It was only translated recently",
-              "No one read it"
+              "Bringing rain and sustenance",
+              "Recording the good and bad deeds of every human being",
+              "Guarding the gates of Paradise",
+              "Blowing the Trumpet"
             ],
             "correctAnswer": 1,
-            "explanation": "Allah Himself promised to guard and preserve the Qur'an from all corruption until the end of time."
+            "explanation": "Kiraman Katibin are the noble scribes on the right and left who faithfully record all human actions and speech."
           }
         ]
       },
       {
         "id": "aqeedah-quiz-4",
-        "title": "Module 4 Knowledge Check: Prophets & Messengers",
+        "title": "Module 4 Knowledge Check: Revealed Scriptures",
+        "questions": [
+          {
+            "question": "What does the second foundation of belief in the Revealed Scriptures (Arkan al-Iman bil-Kutub) require of a Muslim?",
+            "options": [
+              "To believe only in the Qur'an and deny that Allah ever spoke to previous nations",
+              "To believe specifically in the named scriptures (Tawrat, Zabur, Injeel, Suhuf, Qur'an) and generally in all unnamed scriptures revealed to Allah's messengers",
+              "To accept all modern translations of ancient texts as 100% word-for-word identical to the originals",
+              "To follow the laws of all previous scriptures simultaneously"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Muslims believe specifically in the scriptures explicitly identified in revelation and generally in all genuine revelations sent to past messengers."
+          },
+          {
+            "question": "According to the prophetic methodology taught in Sahih al-Bukhari (4485), how should a Muslim treat reports from previous scriptures that are neither confirmed nor contradicted by the Qur'an and Sunnah?",
+            "options": [
+              "Adopt them immediately as mandatory Islamic laws",
+              "Hold them in suspense: neither dogmatically affirming them as divine fact nor aggressively denying them without evidence",
+              "Declare anyone who mentions them an apostate",
+              "Burn them without reading"
+            ],
+            "correctAnswer": 1,
+            "explanation": "The Prophet ﷺ taught believers to neither believe nor disbelieve unverified reports from previous scriptures, maintaining balanced suspense (Tawaqquf)."
+          },
+          {
+            "question": "Why has the Noble Qur'an remained unaltered for over 1,400 years, and what is its status as 'Muhaymin' (Surah Al-Ma'idah 5:48)?",
+            "options": [
+              "It was kept secret in a mountain cave",
+              "Allah Himself guaranteed its perpetual preservation (Surah Al-Hijr 15:9), and it acts as a guardian, criterion, and confirmation over all preceding scriptures",
+              "It was only written down in modern times",
+              "It adopts all legal rulings of earlier nations without change"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Surah Al-Hijr (15:9) establishes divine protection, and Surah Al-Ma'idah (5:48) affirms the Qur'an as Muhaymin over previous revelations."
+          }
+        ]
+      },
+      {
+        "id": "aqeedah-quiz-5",
+        "title": "Module 5 Knowledge Check: Prophets & Messengers",
         "questions": [
           {
             "question": "Who are the 'Ulul-'Azm' (The Five Messengers of Firm Resolve) in Islamic theology?",
@@ -27195,8 +27347,8 @@ export const coursesData = [
         ]
       },
       {
-        "id": "aqeedah-quiz-5",
-        "title": "Module 5 Knowledge Check: The Last Day",
+        "id": "aqeedah-quiz-6",
+        "title": "Module 6 Knowledge Check: The Last Day",
         "questions": [
           {
             "question": "What are the three questions asked by angels Munkar and Nakir to every soul in the grave (Al-Barzakh)?",
@@ -27234,8 +27386,8 @@ export const coursesData = [
         ]
       },
       {
-        "id": "aqeedah-quiz-6",
-        "title": "Module 6 Knowledge Check: Divine Decree (Al-Qadr)",
+        "id": "aqeedah-quiz-7",
+        "title": "Module 7 Knowledge Check: Divine Decree (Al-Qadr)",
         "questions": [
           {
             "question": "What are the four essential levels (Maratib) of belief in Al-Qadr?",
@@ -27273,8 +27425,8 @@ export const coursesData = [
         ]
       },
       {
-        "id": "aqeedah-quiz-7",
-        "title": "Module 7 Capstone Knowledge Check: Comprehensive Creed Mastery",
+        "id": "aqeedah-quiz-8",
+        "title": "Module 8 Capstone Knowledge Check: Comprehensive Creed Mastery",
         "questions": [
           {
             "question": "What was the single most frequent supplication of Prophet Muhammad ﷺ reported by Umm Salamah (RA)?",
@@ -27329,38 +27481,45 @@ export const coursesData = [
       },
       {
         "id": "exercise-aqeedah-3",
-        "title": "Module 3: The Second & Third Pillars: Belief in the Angels (Mala'ikah) & Revealed Scriptures (Kutub) - Reflection & Practice Drill",
+        "title": "Module 3: The Second Pillar: Belief in the Angels (Al-Mala'ikah) - Reflection & Practice Drill",
         "description": "Be mindful of the Noble Scribes (Kiraman Katibin) accompanying you on your right and left. Strive to ensure that your record of deeds contains countless entries of charity, kindness, and remembrance of Allah every day.",
         "type": "reflection",
         "lessonId": "aqeedah-3"
       },
       {
         "id": "exercise-aqeedah-4",
-        "title": "Module 4: The Fourth Pillar: Belief in the Prophets & Messengers (Rusul) - Reflection & Practice Drill",
-        "description": "Express your love for the Prophet Muhammad ﷺ by sending regular Salawat upon him throughout the day, and reading his authentic biography (Seerah) to emulate his compassion, justice, and courage.",
+        "title": "Module 4: The Third Pillar: Belief in the Revealed Scriptures (Al-Kutub) - Reflection & Practice Drill",
+        "description": "Apply the Qur'an as your ultimate criterion (Furqan) in life. When evaluating religious claims, historical stories, or moral philosophies, compare them against the clear teachings of the Qur'an and authentic Sunnah.",
         "type": "reflection",
         "lessonId": "aqeedah-4"
       },
       {
         "id": "exercise-aqeedah-5",
-        "title": "Module 5: The Fifth Pillar: Belief in the Day of Judgment (Al-Yawm al-Akhir) - Reflection & Practice Drill",
-        "description": "Whenever you are faced with a choice between an easy wrongful act and a difficult righteous act, visualize the Scales of the Day of Judgment. Choose the action that will bring joy to your record when you hold your book on that Day.",
+        "title": "Module 5: The Fourth Pillar: Belief in the Prophets & Messengers (Rusul) - Reflection & Practice Drill",
+        "description": "Express your love for the Prophet Muhammad ﷺ by sending regular Salawat upon him throughout the day, and reading his authentic biography (Seerah) to emulate his compassion, justice, and courage.",
         "type": "reflection",
         "lessonId": "aqeedah-5"
       },
       {
         "id": "exercise-aqeedah-6",
-        "title": "Module 6: The Sixth Pillar: Belief in Divine Decree & Predestination (Al-Qadr) - Reflection & Practice Drill",
-        "description": "Whenever you face an unexpected setback or disappointment, train your tongue to say immediately: «قَدَرُ اللَّهِ وَمَا شَاءَ فَعَلَ» (Qaddarallahu wa ma sha'a fa'ala). Feel the peace of knowing Allah's plan is wiser than your wish.",
+        "title": "Module 6: The Fifth Pillar: Belief in the Day of Judgment (Al-Yawm al-Akhir) - Reflection & Practice Drill",
+        "description": "Whenever you are faced with a choice between an easy wrongful act and a difficult righteous act, visualize the Scales of the Day of Judgment. Choose the action that will bring joy to your record when you hold your book on that Day.",
         "type": "reflection",
         "lessonId": "aqeedah-6"
       },
       {
         "id": "exercise-aqeedah-7",
-        "title": "Module 7: Revision, Creed Synthesis & Knowledge Assessment - Reflection & Practice Drill",
-        "description": "Make the Prophet's most frequent du'a: «يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ» (Ya Muqallib al-Qulub, thabbit qalbi 'ala deenik) part of your daily supplication in every Sujood.",
+        "title": "Module 7: The Sixth Pillar: Belief in Divine Decree & Predestination (Al-Qadr) - Reflection & Practice Drill",
+        "description": "Whenever you face an unexpected setback or disappointment, train your tongue to say immediately: «قَدَرُ اللَّهِ وَمَا شَاءَ فَعَلَ» (Qaddarallahu wa ma sha'a fa'ala). Feel the peace of knowing Allah's plan is wiser than your wish.",
         "type": "reflection",
         "lessonId": "aqeedah-7"
+      },
+      {
+        "id": "exercise-aqeedah-8",
+        "title": "Module 8: Revision, Creed Synthesis & Knowledge Assessment - Reflection & Practice Drill",
+        "description": "Make the Prophet's most frequent du'a: «يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ» (Ya Muqallib al-Qulub, thabbit qalbi 'ala deenik) part of your daily supplication in every Sujood.",
+        "type": "reflection",
+        "lessonId": "aqeedah-8"
       }
     ]
   },
