@@ -19392,6 +19392,7569 @@ export const coursesData = [
   ]
 },
   {
+    "id": "noble-quran-fatihah-to-nas",
+    "aliases": [
+      "noble-quran",
+      "the-noble-quran",
+      "quran-fatihah-to-nas",
+      "quran-114-surahs",
+      "the-holy-quran",
+      "quran-recitation-and-translation",
+      "quran-complete"
+    ],
+    "title": "The Noble Quran — From Surah Al-Fatihah to Surah An-Nas",
+    "subtitle": "A Complete Journey Through all 114 Surahs of the Holy Quran: Verse-by-Verse Recitation, English Translation, and Spiritual Guidance.",
+    "tagline": "The Words of Allah. Clear Guidance for the Mind, Peace for the Heart.",
+    "category": "Islamic Studies",
+    "subCategory": "Quran Studies",
+    "price": 0,
+    "regularPrice": 0,
+    "discountAmount": 0,
+    "monthlyPrice": 0,
+    "paymentType": "free",
+    "billingType": "free",
+    "billingCycle": "free",
+    "priceFormatted": "FREE — Islamic Studies Offering",
+    "pricingLabel": "FREE — Accessible to all learners worldwide",
+    "currency": "KSh",
+    "priceUSD": 0,
+    "format": "7-Module Interactive Quranic Curriculum (114 Surahs)",
+    "recommendedDuration": "12–16 Weeks",
+    "learningFlexibility": "Self-paced complete recitation and translation with lifetime access.",
+    "coverBadge": "Islamic Studies • 100% Free",
+    "coverColor": "from-emerald-950 via-teal-900 to-slate-950",
+    "author": "FAHMRISE Qur'anic & Islamic Studies Faculty",
+    "instructor": "FAHMRISE Quranic Scholars",
+    "instructorEmail": "quran.studies@fahmrise.com",
+    "instructorId": "usr_instructor_quran_01",
+    "level": "Beginner to Intermediate",
+    "estimatedHours": "65 – 75 Hours (Self-Paced)",
+    "totalLessons": 114,
+    "totalModules": 7,
+    "totalExercises": 114,
+    "totalQuizzes": 114,
+    "rating": null,
+    "reviewsCount": 0,
+    "published": true,
+    "requiresPayment": false,
+    "isFree": true,
+    "keywords": [
+      "Quran",
+      "The Noble Quran",
+      "Surah Al-Fatihah",
+      "Surah An-Nas",
+      "114 Surahs",
+      "Mishary Rashid Al-Afasy",
+      "Ibrahim Walk",
+      "Sahih International",
+      "Quran Translation",
+      "Quran Recitation",
+      "Islamic Studies",
+      "Free Quran Course"
+    ],
+    "tags": [
+      "Quran",
+      "Recitation",
+      "Translation",
+      "114 Surahs",
+      "Islamic Studies"
+    ],
+    "description": "Experience the complete Holy Quran from Surah Al-Fatihah to Surah An-Nas in its canonical 114-Surah order. Each lesson provides high-definition verse-by-verse Arabic recitation by Shaykh Mishary Rashid Al-Afasy alongside clear English audio translation by Ibrahim Walk (Sahih International), accompanied by on-screen Uthmani Arabic script, phonetic transliteration, thematic summaries, and comprehension assessments.",
+    "learningOutcomes": [
+      "Journey through every single Surah of the Holy Quran from Surah 1 (Al-Fatihah) to Surah 114 (An-Nas)",
+      "Listen to crystal-clear verse-by-verse Arabic recitation by renowned reciter Shaykh Mishary Rashid Al-Afasy",
+      "Understand the direct English meanings of each verse with Sahih International audio translation narrated by Ibrahim Walk",
+      "Follow along with burned-in on-screen Arabic Uthmani text (with Tashkeel) and English transliteration",
+      "Understand the core themes, historical context (Makki vs Madani), and moral lessons of each Surah",
+      "Test your comprehension and retention of each Surah through interactive knowledge checks"
+    ],
+    "targetAudience": [
+      "Muslims seeking to listen to, understand, and reflect upon the complete Quran in English and Arabic",
+      "Students of Islamic knowledge wanting a structured chapter-by-chapter progression through all 114 Surahs",
+      "Beginners and non-Arabic speakers who want verse-by-verse English audio translation with transliteration",
+      "Anyone looking for a reliable, comprehensive, and beautiful online Quran study resource"
+    ],
+    "prerequisites": "None. Open to everyone seeking to engage directly with the Word of Allah.",
+    "includes": [
+      "114 Dedicated Surah lessons organized into 7 classical Quranic modules",
+      "High-definition video for every Surah with dual Arabic recitation and English voiceover",
+      "Uthmani Arabic script, phonetic transliteration, and English translation on every video slide",
+      "Comprehensive Surah profiles, verse counts, revelation types, and thematic outlines",
+      "Interactive comprehension checks and review questions for every Surah",
+      "Official Verified FAHMRISE Certificate of Completion upon finishing all 114 Surahs"
+    ],
+    "modules": [
+      {
+        "id": "module-1",
+        "number": 1,
+        "title": "Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs)",
+        "surahRange": "Surahs 1 – 9",
+        "lessonsCount": 9,
+        "description": "The foundational chapters of divine revelation: the Opening of the Book (Al-Fatihah) and the Seven Long Surahs establishing Islamic monotheism (Tawheed), comprehensive law, family and societal governance, and the covenants of faith."
+      },
+      {
+        "id": "module-2",
+        "number": 2,
+        "title": "Al-Mi'un (The Hundred-Verse Surahs)",
+        "surahRange": "Surahs 10 – 20",
+        "lessonsCount": 11,
+        "description": "The extended prophetic narratives and divine signs: the journeys of Yunus, Hud, Salih, Yusuf, Ibrahim, and Musa, the devotion of Maryam, and profound lessons of perseverance, patience, and divine wisdom."
+      },
+      {
+        "id": "module-3",
+        "number": 3,
+        "title": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "surahRange": "Surahs 21 – 35",
+        "lessonsCount": 15,
+        "description": "Universal prophetic brotherhood, spiritual and family law, social purity (Surat An-Nur), wise moral counsel of Luqman, and firm character in adversity."
+      },
+      {
+        "id": "module-4",
+        "number": 4,
+        "title": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "surahRange": "Surahs 36 – 49",
+        "lessonsCount": 14,
+        "description": "The Heart of the Quran (Ya-Sin), the blessed Ha-Meem series, divine repentance (Surat Az-Zumar), consultation (Shura), and the ethical constitution of the believers (Al-Hujurat)."
+      },
+      {
+        "id": "module-5",
+        "number": 5,
+        "title": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "surahRange": "Surahs 50 – 66",
+        "lessonsCount": 17,
+        "description": "The transition into Al-Mufassal: the reality of mortality, resurrection, social and domestic structure in Madinah, divine gifts (Ar-Rahman), and the Sublime Names of Allah (Al-Hashr)."
+      },
+      {
+        "id": "module-6",
+        "number": 6,
+        "title": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "surahRange": "Surahs 67 – 85",
+        "lessonsCount": 19,
+        "description": "Sovereignty of the Creator (Tabarak / Al-Mulk), nocturnal spiritual training (Al-Muzzammil), awakening the human conscience, and vivid cosmic reminders of the Day of Reckoning."
+      },
+      {
+        "id": "module-7",
+        "number": 7,
+        "title": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "surahRange": "Surahs 86 – 114",
+        "lessonsCount": 29,
+        "description": "The short, rhythmic Makkan revelations: moral awakening, time and human destiny (Al-'Asr), pure monotheism (Al-Ikhlas), and the ultimate spiritual refuges (Al-Falaq and An-Nas)."
+      }
+    ],
+    "lessons": [
+      {
+        "id": "quran-surah-1",
+        "number": 1,
+        "surahNumber": 1,
+        "title": "Surah Al-Fatihah (الفاتحة) — The Opener",
+        "subtitle": "Makki Revelation • 7 Verses",
+        "readingTime": "5 min",
+        "arabic": "الفاتحة",
+        "transliteration": "Al-Fatihah",
+        "englishMeaning": "The Opener",
+        "versesCount": 7,
+        "revelationType": "Makki",
+        "moduleNumber": 1,
+        "moduleTitle": "Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs)",
+        "videoLesson": {
+          "videoId": "-PqP0BCiTlE",
+          "title": "Quran: 1. Surah Al-Fatihah (The Opener): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=-PqP0BCiTlE",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 47s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Fatihah (الفاتحة) consists of 7 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the opener, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 1 in canonical Mushaf order: Al-Fatihah (الفاتحة — The Opener).",
+          "Revealed as a Makki surah containing 7 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Fatihah instills in the heart of the listener?",
+          "How does the meaning of \"The Opener\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Fatihah (الفاتحة — The Opener)\n\n**Surah Number:** 1 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 7 Ayahs  \n**Curriculum Division:** Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs) (Surahs 1 – 9)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Fatihah** (*الفاتحة*, \"The Opener\") is the 1st chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-1",
+          "title": "Surah Al-Fatihah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Fatihah in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Fatihah is classified as Makki, containing 7 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Fatihah?",
+              "options": [
+                "7 Ayahs",
+                "17 Ayahs",
+                "2 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Fatihah contains exactly 7 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-2",
+        "number": 2,
+        "surahNumber": 2,
+        "title": "Surah Al-Baqarah (البقرة) — The Cow",
+        "subtitle": "Madani Revelation • 286 Verses",
+        "readingTime": "115 min",
+        "arabic": "البقرة",
+        "transliteration": "Al-Baqarah",
+        "englishMeaning": "The Cow",
+        "versesCount": 286,
+        "revelationType": "Madani",
+        "moduleNumber": 1,
+        "moduleTitle": "Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs)",
+        "videoLesson": {
+          "videoId": "FEUmrpBXOuc",
+          "title": "Quran 2  Surah Al Baqara The Calf Complete Arabic and English translation/RE MEDIA & injaz teqani",
+          "url": "https://www.youtube.com/watch?v=FEUmrpBXOuc",
+          "channel": "غسق GHASAQ",
+          "duration": "3h 21m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Baqarah (البقرة) consists of 286 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the cow, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 2 in canonical Mushaf order: Al-Baqarah (البقرة — The Cow).",
+          "Revealed as a Madani surah containing 286 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Baqarah instills in the heart of the listener?",
+          "How does the meaning of \"The Cow\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Baqarah (البقرة — The Cow)\n\n**Surah Number:** 2 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 286 Ayahs  \n**Curriculum Division:** Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs) (Surahs 1 – 9)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Baqarah** (*البقرة*, \"The Cow\") is the 2nd chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-2",
+          "title": "Surah Al-Baqarah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Baqarah in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Baqarah is classified as Madani, containing 286 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Baqarah?",
+              "options": [
+                "286 Ayahs",
+                "296 Ayahs",
+                "281 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Baqarah contains exactly 286 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-3",
+        "number": 3,
+        "surahNumber": 3,
+        "title": "Surah Ali 'Imran (آل عمران) — Family of Imran",
+        "subtitle": "Madani Revelation • 200 Verses",
+        "readingTime": "80 min",
+        "arabic": "آل عمران",
+        "transliteration": "Ali 'Imran",
+        "englishMeaning": "Family of Imran",
+        "versesCount": 200,
+        "revelationType": "Madani",
+        "moduleNumber": 1,
+        "moduleTitle": "Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs)",
+        "videoLesson": {
+          "videoId": "_w2yG1bDJfo",
+          "title": "Quran: 3. Surat Ali Imran (Family of Imran): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=_w2yG1bDJfo",
+          "channel": "The Meaning Of Islam",
+          "duration": "2h 5m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ali 'Imran (آل عمران) consists of 200 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on family of imran, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 3 in canonical Mushaf order: Ali 'Imran (آل عمران — Family of Imran).",
+          "Revealed as a Madani surah containing 200 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ali 'Imran instills in the heart of the listener?",
+          "How does the meaning of \"Family of Imran\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ali 'Imran (آل عمران — Family of Imran)\n\n**Surah Number:** 3 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 200 Ayahs  \n**Curriculum Division:** Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs) (Surahs 1 – 9)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ali 'Imran** (*آل عمران*, \"Family of Imran\") is the 3rd chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-3",
+          "title": "Surah Ali 'Imran Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ali 'Imran in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ali 'Imran is classified as Madani, containing 200 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ali 'Imran?",
+              "options": [
+                "200 Ayahs",
+                "210 Ayahs",
+                "195 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ali 'Imran contains exactly 200 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-4",
+        "number": 4,
+        "surahNumber": 4,
+        "title": "Surah An-Nisa (النساء) — The Women",
+        "subtitle": "Madani Revelation • 176 Verses",
+        "readingTime": "71 min",
+        "arabic": "النساء",
+        "transliteration": "An-Nisa",
+        "englishMeaning": "The Women",
+        "versesCount": 176,
+        "revelationType": "Madani",
+        "moduleNumber": 1,
+        "moduleTitle": "Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs)",
+        "videoLesson": {
+          "videoId": "0lMNMwTB5M8",
+          "title": "Quran: 4. Surat An-Nisa (The Women): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=0lMNMwTB5M8",
+          "channel": "The Meaning Of Islam",
+          "duration": "2h 9m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah An-Nisa (النساء) consists of 176 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the women, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 4 in canonical Mushaf order: An-Nisa (النساء — The Women).",
+          "Revealed as a Madani surah containing 176 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah An-Nisa instills in the heart of the listener?",
+          "How does the meaning of \"The Women\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah An-Nisa (النساء — The Women)\n\n**Surah Number:** 4 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 176 Ayahs  \n**Curriculum Division:** Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs) (Surahs 1 – 9)\n\n---\n\n## Overview & Core Themes\n\nSurah **An-Nisa** (*النساء*, \"The Women\") is the 4th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-4",
+          "title": "Surah An-Nisa Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah An-Nisa in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Nisa is classified as Madani, containing 176 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah An-Nisa?",
+              "options": [
+                "176 Ayahs",
+                "186 Ayahs",
+                "171 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Nisa contains exactly 176 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-5",
+        "number": 5,
+        "surahNumber": 5,
+        "title": "Surah Al-Ma'idah (المائدة) — The Table Spread",
+        "subtitle": "Madani Revelation • 120 Verses",
+        "readingTime": "48 min",
+        "arabic": "المائدة",
+        "transliteration": "Al-Ma'idah",
+        "englishMeaning": "The Table Spread",
+        "versesCount": 120,
+        "revelationType": "Madani",
+        "moduleNumber": 1,
+        "moduleTitle": "Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs)",
+        "videoLesson": {
+          "videoId": "w4uUvBMrVjc",
+          "title": "Quran: 5. Surat Al-Mai'dah (The Table Spread): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=w4uUvBMrVjc",
+          "channel": "The Meaning Of Islam",
+          "duration": "1h 39m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Ma'idah (المائدة) consists of 120 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the table spread, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 5 in canonical Mushaf order: Al-Ma'idah (المائدة — The Table Spread).",
+          "Revealed as a Madani surah containing 120 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Ma'idah instills in the heart of the listener?",
+          "How does the meaning of \"The Table Spread\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Ma'idah (المائدة — The Table Spread)\n\n**Surah Number:** 5 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 120 Ayahs  \n**Curriculum Division:** Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs) (Surahs 1 – 9)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Ma'idah** (*المائدة*, \"The Table Spread\") is the 5th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-5",
+          "title": "Surah Al-Ma'idah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Ma'idah in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ma'idah is classified as Madani, containing 120 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Ma'idah?",
+              "options": [
+                "120 Ayahs",
+                "130 Ayahs",
+                "115 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ma'idah contains exactly 120 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-6",
+        "number": 6,
+        "surahNumber": 6,
+        "title": "Surah Al-An'am (الأنعام) — The Cattle",
+        "subtitle": "Makki Revelation • 165 Verses",
+        "readingTime": "66 min",
+        "arabic": "الأنعام",
+        "transliteration": "Al-An'am",
+        "englishMeaning": "The Cattle",
+        "versesCount": 165,
+        "revelationType": "Makki",
+        "moduleNumber": 1,
+        "moduleTitle": "Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs)",
+        "videoLesson": {
+          "videoId": "jOfjatghBoI",
+          "title": "Quran: 6. Surat Al-An'am (The Cattle): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=jOfjatghBoI",
+          "channel": "The Meaning Of Islam",
+          "duration": "1h 53m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-An'am (الأنعام) consists of 165 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the cattle, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 6 in canonical Mushaf order: Al-An'am (الأنعام — The Cattle).",
+          "Revealed as a Makki surah containing 165 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-An'am instills in the heart of the listener?",
+          "How does the meaning of \"The Cattle\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-An'am (الأنعام — The Cattle)\n\n**Surah Number:** 6 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 165 Ayahs  \n**Curriculum Division:** Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs) (Surahs 1 – 9)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-An'am** (*الأنعام*, \"The Cattle\") is the 6th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-6",
+          "title": "Surah Al-An'am Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-An'am in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-An'am is classified as Makki, containing 165 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-An'am?",
+              "options": [
+                "165 Ayahs",
+                "175 Ayahs",
+                "160 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-An'am contains exactly 165 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-7",
+        "number": 7,
+        "surahNumber": 7,
+        "title": "Surah Al-A'raf (الأعراف) — The Heights",
+        "subtitle": "Makki Revelation • 206 Verses",
+        "readingTime": "83 min",
+        "arabic": "الأعراف",
+        "transliteration": "Al-A'raf",
+        "englishMeaning": "The Heights",
+        "versesCount": 206,
+        "revelationType": "Makki",
+        "moduleNumber": 1,
+        "moduleTitle": "Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs)",
+        "videoLesson": {
+          "videoId": "0oL-AXH4CIw",
+          "title": "Quran: 7. Surat A-Ar'af (The Heights): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=0oL-AXH4CIw",
+          "channel": "The Meaning Of Islam",
+          "duration": "2h 7m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-A'raf (الأعراف) consists of 206 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the heights, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 7 in canonical Mushaf order: Al-A'raf (الأعراف — The Heights).",
+          "Revealed as a Makki surah containing 206 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-A'raf instills in the heart of the listener?",
+          "How does the meaning of \"The Heights\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-A'raf (الأعراف — The Heights)\n\n**Surah Number:** 7 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 206 Ayahs  \n**Curriculum Division:** Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs) (Surahs 1 – 9)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-A'raf** (*الأعراف*, \"The Heights\") is the 7th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-7",
+          "title": "Surah Al-A'raf Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-A'raf in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-A'raf is classified as Makki, containing 206 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-A'raf?",
+              "options": [
+                "206 Ayahs",
+                "216 Ayahs",
+                "201 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-A'raf contains exactly 206 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-8",
+        "number": 8,
+        "surahNumber": 8,
+        "title": "Surah Al-Anfal (الأنفال) — The Spoils of War",
+        "subtitle": "Madani Revelation • 75 Verses",
+        "readingTime": "30 min",
+        "arabic": "الأنفال",
+        "transliteration": "Al-Anfal",
+        "englishMeaning": "The Spoils of War",
+        "versesCount": 75,
+        "revelationType": "Madani",
+        "moduleNumber": 1,
+        "moduleTitle": "Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs)",
+        "videoLesson": {
+          "videoId": "eTcU3Zf0sY8",
+          "title": "Quran: 8. Surat Al-Anfal (The Spoils of War): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=eTcU3Zf0sY8",
+          "channel": "The Meaning Of Islam",
+          "duration": "47m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Anfal (الأنفال) consists of 75 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the spoils of war, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 8 in canonical Mushaf order: Al-Anfal (الأنفال — The Spoils of War).",
+          "Revealed as a Madani surah containing 75 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Anfal instills in the heart of the listener?",
+          "How does the meaning of \"The Spoils of War\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Anfal (الأنفال — The Spoils of War)\n\n**Surah Number:** 8 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 75 Ayahs  \n**Curriculum Division:** Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs) (Surahs 1 – 9)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Anfal** (*الأنفال*, \"The Spoils of War\") is the 8th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-8",
+          "title": "Surah Al-Anfal Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Anfal in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Anfal is classified as Madani, containing 75 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Anfal?",
+              "options": [
+                "75 Ayahs",
+                "85 Ayahs",
+                "70 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Anfal contains exactly 75 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-9",
+        "number": 9,
+        "surahNumber": 9,
+        "title": "Surah At-Tawbah (التوبة) — The Repentance",
+        "subtitle": "Madani Revelation • 129 Verses",
+        "readingTime": "52 min",
+        "arabic": "التوبة",
+        "transliteration": "At-Tawbah",
+        "englishMeaning": "The Repentance",
+        "versesCount": 129,
+        "revelationType": "Madani",
+        "moduleNumber": 1,
+        "moduleTitle": "Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs)",
+        "videoLesson": {
+          "videoId": "o8oghQgLJgY",
+          "title": "Quran: 9. Surat At-Tawbah (The Repentance): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=o8oghQgLJgY",
+          "channel": "The Meaning Of Islam",
+          "duration": "1h 34m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah At-Tawbah (التوبة) consists of 129 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the repentance, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 9 in canonical Mushaf order: At-Tawbah (التوبة — The Repentance).",
+          "Revealed as a Madani surah containing 129 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah At-Tawbah instills in the heart of the listener?",
+          "How does the meaning of \"The Repentance\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah At-Tawbah (التوبة — The Repentance)\n\n**Surah Number:** 9 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 129 Ayahs  \n**Curriculum Division:** Al-Fatihah & As-Sab' At-Tiwal (The Opening & Seven Long Surahs) (Surahs 1 – 9)\n\n---\n\n## Overview & Core Themes\n\nSurah **At-Tawbah** (*التوبة*, \"The Repentance\") is the 9th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-9",
+          "title": "Surah At-Tawbah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah At-Tawbah in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Tawbah is classified as Madani, containing 129 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah At-Tawbah?",
+              "options": [
+                "129 Ayahs",
+                "139 Ayahs",
+                "124 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Tawbah contains exactly 129 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-10",
+        "number": 10,
+        "surahNumber": 10,
+        "title": "Surah Yunus (يونس) — Jonah",
+        "subtitle": "Makki Revelation • 109 Verses",
+        "readingTime": "44 min",
+        "arabic": "يونس",
+        "transliteration": "Yunus",
+        "englishMeaning": "Jonah",
+        "versesCount": 109,
+        "revelationType": "Makki",
+        "moduleNumber": 2,
+        "moduleTitle": "Al-Mi'un (The Hundred-Verse Surahs)",
+        "videoLesson": {
+          "videoId": "We3rtNjBm7Q",
+          "title": "Quran: 10. Surah Yunus (Jonah): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=We3rtNjBm7Q",
+          "channel": "The Meaning Of Islam",
+          "duration": "1h 9m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Yunus (يونس) consists of 109 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on jonah, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 10 in canonical Mushaf order: Yunus (يونس — Jonah).",
+          "Revealed as a Makki surah containing 109 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Yunus instills in the heart of the listener?",
+          "How does the meaning of \"Jonah\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Yunus (يونس — Jonah)\n\n**Surah Number:** 10 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 109 Ayahs  \n**Curriculum Division:** Al-Mi'un (The Hundred-Verse Surahs) (Surahs 10 – 20)\n\n---\n\n## Overview & Core Themes\n\nSurah **Yunus** (*يونس*, \"Jonah\") is the 10th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-10",
+          "title": "Surah Yunus Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Yunus in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Yunus is classified as Makki, containing 109 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Yunus?",
+              "options": [
+                "109 Ayahs",
+                "119 Ayahs",
+                "104 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Yunus contains exactly 109 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-11",
+        "number": 11,
+        "surahNumber": 11,
+        "title": "Surah Hud (هود) — Hud",
+        "subtitle": "Makki Revelation • 123 Verses",
+        "readingTime": "50 min",
+        "arabic": "هود",
+        "transliteration": "Hud",
+        "englishMeaning": "Hud",
+        "versesCount": 123,
+        "revelationType": "Makki",
+        "moduleNumber": 2,
+        "moduleTitle": "Al-Mi'un (The Hundred-Verse Surahs)",
+        "videoLesson": {
+          "videoId": "OAnFuUtaC2k",
+          "title": "Quran: 11. Surat Hud (Prophet Hud): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=OAnFuUtaC2k",
+          "channel": "The Meaning Of Islam",
+          "duration": "1h 13m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Hud (هود) consists of 123 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on hud, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 11 in canonical Mushaf order: Hud (هود — Hud).",
+          "Revealed as a Makki surah containing 123 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Hud instills in the heart of the listener?",
+          "How does the meaning of \"Hud\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Hud (هود — Hud)\n\n**Surah Number:** 11 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 123 Ayahs  \n**Curriculum Division:** Al-Mi'un (The Hundred-Verse Surahs) (Surahs 10 – 20)\n\n---\n\n## Overview & Core Themes\n\nSurah **Hud** (*هود*, \"Hud\") is the 11th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-11",
+          "title": "Surah Hud Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Hud in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Hud is classified as Makki, containing 123 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Hud?",
+              "options": [
+                "123 Ayahs",
+                "133 Ayahs",
+                "118 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Hud contains exactly 123 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-12",
+        "number": 12,
+        "surahNumber": 12,
+        "title": "Surah Yusuf (يوسف) — Joseph",
+        "subtitle": "Makki Revelation • 111 Verses",
+        "readingTime": "45 min",
+        "arabic": "يوسف",
+        "transliteration": "Yusuf",
+        "englishMeaning": "Joseph",
+        "versesCount": 111,
+        "revelationType": "Makki",
+        "moduleNumber": 2,
+        "moduleTitle": "Al-Mi'un (The Hundred-Verse Surahs)",
+        "videoLesson": {
+          "videoId": "iR611FNDTKM",
+          "title": "Quran: 12. Surat Yusuf (Joseph): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=iR611FNDTKM",
+          "channel": "The Meaning Of Islam",
+          "duration": "1h 5m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Yusuf (يوسف) consists of 111 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on joseph, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 12 in canonical Mushaf order: Yusuf (يوسف — Joseph).",
+          "Revealed as a Makki surah containing 111 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Yusuf instills in the heart of the listener?",
+          "How does the meaning of \"Joseph\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Yusuf (يوسف — Joseph)\n\n**Surah Number:** 12 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 111 Ayahs  \n**Curriculum Division:** Al-Mi'un (The Hundred-Verse Surahs) (Surahs 10 – 20)\n\n---\n\n## Overview & Core Themes\n\nSurah **Yusuf** (*يوسف*, \"Joseph\") is the 12th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-12",
+          "title": "Surah Yusuf Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Yusuf in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Yusuf is classified as Makki, containing 111 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Yusuf?",
+              "options": [
+                "111 Ayahs",
+                "121 Ayahs",
+                "106 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Yusuf contains exactly 111 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-13",
+        "number": 13,
+        "surahNumber": 13,
+        "title": "Surah Ar-Ra'd (الرعد) — The Thunder",
+        "subtitle": "Madani Revelation • 43 Verses",
+        "readingTime": "18 min",
+        "arabic": "الرعد",
+        "transliteration": "Ar-Ra'd",
+        "englishMeaning": "The Thunder",
+        "versesCount": 43,
+        "revelationType": "Madani",
+        "moduleNumber": 2,
+        "moduleTitle": "Al-Mi'un (The Hundred-Verse Surahs)",
+        "videoLesson": {
+          "videoId": "lQDY7mSAk8M",
+          "title": "Quran: 13. Surat Ar-Ra'd (The Thunder): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=lQDY7mSAk8M",
+          "channel": "The Meaning Of Islam",
+          "duration": "32m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ar-Ra'd (الرعد) consists of 43 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the thunder, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 13 in canonical Mushaf order: Ar-Ra'd (الرعد — The Thunder).",
+          "Revealed as a Madani surah containing 43 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ar-Ra'd instills in the heart of the listener?",
+          "How does the meaning of \"The Thunder\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ar-Ra'd (الرعد — The Thunder)\n\n**Surah Number:** 13 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 43 Ayahs  \n**Curriculum Division:** Al-Mi'un (The Hundred-Verse Surahs) (Surahs 10 – 20)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ar-Ra'd** (*الرعد*, \"The Thunder\") is the 13th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-13",
+          "title": "Surah Ar-Ra'd Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ar-Ra'd in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ar-Ra'd is classified as Madani, containing 43 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ar-Ra'd?",
+              "options": [
+                "43 Ayahs",
+                "53 Ayahs",
+                "38 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ar-Ra'd contains exactly 43 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-14",
+        "number": 14,
+        "surahNumber": 14,
+        "title": "Surah Ibrahim (إبراهيم) — Abraham",
+        "subtitle": "Makki Revelation • 52 Verses",
+        "readingTime": "21 min",
+        "arabic": "إبراهيم",
+        "transliteration": "Ibrahim",
+        "englishMeaning": "Abraham",
+        "versesCount": 52,
+        "revelationType": "Makki",
+        "moduleNumber": 2,
+        "moduleTitle": "Al-Mi'un (The Hundred-Verse Surahs)",
+        "videoLesson": {
+          "videoId": "g6Eb5HmxGLY",
+          "title": "Quran: 14. Surat Ibrahim (Abraham): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=g6Eb5HmxGLY",
+          "channel": "The Meaning Of Islam",
+          "duration": "31m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ibrahim (إبراهيم) consists of 52 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on abraham, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 14 in canonical Mushaf order: Ibrahim (إبراهيم — Abraham).",
+          "Revealed as a Makki surah containing 52 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ibrahim instills in the heart of the listener?",
+          "How does the meaning of \"Abraham\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ibrahim (إبراهيم — Abraham)\n\n**Surah Number:** 14 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 52 Ayahs  \n**Curriculum Division:** Al-Mi'un (The Hundred-Verse Surahs) (Surahs 10 – 20)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ibrahim** (*إبراهيم*, \"Abraham\") is the 14th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-14",
+          "title": "Surah Ibrahim Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ibrahim in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ibrahim is classified as Makki, containing 52 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ibrahim?",
+              "options": [
+                "52 Ayahs",
+                "62 Ayahs",
+                "47 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ibrahim contains exactly 52 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-15",
+        "number": 15,
+        "surahNumber": 15,
+        "title": "Surah Al-Hijr (الحجر) — The Rocky Tract",
+        "subtitle": "Makki Revelation • 99 Verses",
+        "readingTime": "40 min",
+        "arabic": "الحجر",
+        "transliteration": "Al-Hijr",
+        "englishMeaning": "The Rocky Tract",
+        "versesCount": 99,
+        "revelationType": "Makki",
+        "moduleNumber": 2,
+        "moduleTitle": "Al-Mi'un (The Hundred-Verse Surahs)",
+        "videoLesson": {
+          "videoId": "GEEWx8bGPXE",
+          "title": "Quran: 15. Surat Al-Hijr (The Rocky Tract): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=GEEWx8bGPXE",
+          "channel": "The Meaning Of Islam",
+          "duration": "26m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Hijr (الحجر) consists of 99 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the rocky tract, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 15 in canonical Mushaf order: Al-Hijr (الحجر — The Rocky Tract).",
+          "Revealed as a Makki surah containing 99 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Hijr instills in the heart of the listener?",
+          "How does the meaning of \"The Rocky Tract\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Hijr (الحجر — The Rocky Tract)\n\n**Surah Number:** 15 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 99 Ayahs  \n**Curriculum Division:** Al-Mi'un (The Hundred-Verse Surahs) (Surahs 10 – 20)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Hijr** (*الحجر*, \"The Rocky Tract\") is the 15th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-15",
+          "title": "Surah Al-Hijr Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Hijr in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Hijr is classified as Makki, containing 99 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Hijr?",
+              "options": [
+                "99 Ayahs",
+                "109 Ayahs",
+                "94 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Hijr contains exactly 99 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-16",
+        "number": 16,
+        "surahNumber": 16,
+        "title": "Surah An-Nahl (النحل) — The Bee",
+        "subtitle": "Makki Revelation • 128 Verses",
+        "readingTime": "52 min",
+        "arabic": "النحل",
+        "transliteration": "An-Nahl",
+        "englishMeaning": "The Bee",
+        "versesCount": 128,
+        "revelationType": "Makki",
+        "moduleNumber": 2,
+        "moduleTitle": "Al-Mi'un (The Hundred-Verse Surahs)",
+        "videoLesson": {
+          "videoId": "JmjP3wUqg74",
+          "title": "Quran: 16. Surat An-Nahl (The Bee): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=JmjP3wUqg74",
+          "channel": "The Meaning Of Islam",
+          "duration": "1h 7m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah An-Nahl (النحل) consists of 128 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the bee, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 16 in canonical Mushaf order: An-Nahl (النحل — The Bee).",
+          "Revealed as a Makki surah containing 128 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah An-Nahl instills in the heart of the listener?",
+          "How does the meaning of \"The Bee\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah An-Nahl (النحل — The Bee)\n\n**Surah Number:** 16 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 128 Ayahs  \n**Curriculum Division:** Al-Mi'un (The Hundred-Verse Surahs) (Surahs 10 – 20)\n\n---\n\n## Overview & Core Themes\n\nSurah **An-Nahl** (*النحل*, \"The Bee\") is the 16th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-16",
+          "title": "Surah An-Nahl Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah An-Nahl in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Nahl is classified as Makki, containing 128 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah An-Nahl?",
+              "options": [
+                "128 Ayahs",
+                "138 Ayahs",
+                "123 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Nahl contains exactly 128 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-17",
+        "number": 17,
+        "surahNumber": 17,
+        "title": "Surah Al-Isra (الإسراء) — The Night Journey",
+        "subtitle": "Makki Revelation • 111 Verses",
+        "readingTime": "45 min",
+        "arabic": "الإسراء",
+        "transliteration": "Al-Isra",
+        "englishMeaning": "The Night Journey",
+        "versesCount": 111,
+        "revelationType": "Makki",
+        "moduleNumber": 2,
+        "moduleTitle": "Al-Mi'un (The Hundred-Verse Surahs)",
+        "videoLesson": {
+          "videoId": "6duZhHezK6A",
+          "title": "Quran: 17. Surat Al Isra (The Night Journey): Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=6duZhHezK6A",
+          "channel": "The Meaning Of Islam",
+          "duration": "53m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Isra (الإسراء) consists of 111 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the night journey, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 17 in canonical Mushaf order: Al-Isra (الإسراء — The Night Journey).",
+          "Revealed as a Makki surah containing 111 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Isra instills in the heart of the listener?",
+          "How does the meaning of \"The Night Journey\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Isra (الإسراء — The Night Journey)\n\n**Surah Number:** 17 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 111 Ayahs  \n**Curriculum Division:** Al-Mi'un (The Hundred-Verse Surahs) (Surahs 10 – 20)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Isra** (*الإسراء*, \"The Night Journey\") is the 17th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-17",
+          "title": "Surah Al-Isra Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Isra in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Isra is classified as Makki, containing 111 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Isra?",
+              "options": [
+                "111 Ayahs",
+                "121 Ayahs",
+                "106 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Isra contains exactly 111 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-18",
+        "number": 18,
+        "surahNumber": 18,
+        "title": "Surah Al-Kahf (الكهف) — The Cave",
+        "subtitle": "Makki Revelation • 110 Verses",
+        "readingTime": "44 min",
+        "arabic": "الكهف",
+        "transliteration": "Al-Kahf",
+        "englishMeaning": "The Cave",
+        "versesCount": 110,
+        "revelationType": "Makki",
+        "moduleNumber": 2,
+        "moduleTitle": "Al-Mi'un (The Hundred-Verse Surahs)",
+        "videoLesson": {
+          "videoId": "QD9aNjDU9Ho",
+          "title": "Quran: 18. Surat Al-Kahf (The Cave): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=QD9aNjDU9Ho",
+          "channel": "The Meaning Of Islam",
+          "duration": "54m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Kahf (الكهف) consists of 110 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the cave, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 18 in canonical Mushaf order: Al-Kahf (الكهف — The Cave).",
+          "Revealed as a Makki surah containing 110 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Kahf instills in the heart of the listener?",
+          "How does the meaning of \"The Cave\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Kahf (الكهف — The Cave)\n\n**Surah Number:** 18 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 110 Ayahs  \n**Curriculum Division:** Al-Mi'un (The Hundred-Verse Surahs) (Surahs 10 – 20)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Kahf** (*الكهف*, \"The Cave\") is the 18th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-18",
+          "title": "Surah Al-Kahf Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Kahf in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Kahf is classified as Makki, containing 110 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Kahf?",
+              "options": [
+                "110 Ayahs",
+                "120 Ayahs",
+                "105 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Kahf contains exactly 110 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-19",
+        "number": 19,
+        "surahNumber": 19,
+        "title": "Surah Maryam (مريم) — Mary",
+        "subtitle": "Makki Revelation • 98 Verses",
+        "readingTime": "40 min",
+        "arabic": "مريم",
+        "transliteration": "Maryam",
+        "englishMeaning": "Mary",
+        "versesCount": 98,
+        "revelationType": "Makki",
+        "moduleNumber": 2,
+        "moduleTitle": "Al-Mi'un (The Hundred-Verse Surahs)",
+        "videoLesson": {
+          "videoId": "OwUZ6nN2gv4",
+          "title": "Quran: 19. Surat Maryam (Mary): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=OwUZ6nN2gv4",
+          "channel": "The Meaning Of Islam",
+          "duration": "35m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Maryam (مريم) consists of 98 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on mary, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 19 in canonical Mushaf order: Maryam (مريم — Mary).",
+          "Revealed as a Makki surah containing 98 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Maryam instills in the heart of the listener?",
+          "How does the meaning of \"Mary\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Maryam (مريم — Mary)\n\n**Surah Number:** 19 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 98 Ayahs  \n**Curriculum Division:** Al-Mi'un (The Hundred-Verse Surahs) (Surahs 10 – 20)\n\n---\n\n## Overview & Core Themes\n\nSurah **Maryam** (*مريم*, \"Mary\") is the 19th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-19",
+          "title": "Surah Maryam Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Maryam in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Maryam is classified as Makki, containing 98 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Maryam?",
+              "options": [
+                "98 Ayahs",
+                "108 Ayahs",
+                "93 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Maryam contains exactly 98 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-20",
+        "number": 20,
+        "surahNumber": 20,
+        "title": "Surah Taha (طه) — Ta-Ha",
+        "subtitle": "Makki Revelation • 135 Verses",
+        "readingTime": "54 min",
+        "arabic": "طه",
+        "transliteration": "Taha",
+        "englishMeaning": "Ta-Ha",
+        "versesCount": 135,
+        "revelationType": "Makki",
+        "moduleNumber": 2,
+        "moduleTitle": "Al-Mi'un (The Hundred-Verse Surahs)",
+        "videoLesson": {
+          "videoId": "ysW3-rcGjYc",
+          "title": "Quran: 20. Surat Taha (Ta-Ha): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=ysW3-rcGjYc",
+          "channel": "The Meaning Of Islam",
+          "duration": "46m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Taha (طه) consists of 135 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on ta-ha, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 20 in canonical Mushaf order: Taha (طه — Ta-Ha).",
+          "Revealed as a Makki surah containing 135 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Taha instills in the heart of the listener?",
+          "How does the meaning of \"Ta-Ha\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Taha (طه — Ta-Ha)\n\n**Surah Number:** 20 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 135 Ayahs  \n**Curriculum Division:** Al-Mi'un (The Hundred-Verse Surahs) (Surahs 10 – 20)\n\n---\n\n## Overview & Core Themes\n\nSurah **Taha** (*طه*, \"Ta-Ha\") is the 20th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-20",
+          "title": "Surah Taha Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Taha in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Taha is classified as Makki, containing 135 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Taha?",
+              "options": [
+                "135 Ayahs",
+                "145 Ayahs",
+                "130 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Taha contains exactly 135 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-21",
+        "number": 21,
+        "surahNumber": 21,
+        "title": "Surah Al-Anbiya (الأنبياء) — The Prophets",
+        "subtitle": "Makki Revelation • 112 Verses",
+        "readingTime": "45 min",
+        "arabic": "الأنبياء",
+        "transliteration": "Al-Anbiya",
+        "englishMeaning": "The Prophets",
+        "versesCount": 112,
+        "revelationType": "Makki",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "MQETxncZBQY",
+          "title": "Quran: 21. Surah Al-Anbya (The Prophets): Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=MQETxncZBQY",
+          "channel": "The Meaning Of Islam",
+          "duration": "43m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Anbiya (الأنبياء) consists of 112 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the prophets, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 21 in canonical Mushaf order: Al-Anbiya (الأنبياء — The Prophets).",
+          "Revealed as a Makki surah containing 112 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Anbiya instills in the heart of the listener?",
+          "How does the meaning of \"The Prophets\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Anbiya (الأنبياء — The Prophets)\n\n**Surah Number:** 21 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 112 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Anbiya** (*الأنبياء*, \"The Prophets\") is the 21th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-21",
+          "title": "Surah Al-Anbiya Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Anbiya in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Anbiya is classified as Makki, containing 112 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Anbiya?",
+              "options": [
+                "112 Ayahs",
+                "122 Ayahs",
+                "107 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Anbiya contains exactly 112 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-22",
+        "number": 22,
+        "surahNumber": 22,
+        "title": "Surah Al-Hajj (الحج) — The Pilgrimage",
+        "subtitle": "Madani Revelation • 78 Verses",
+        "readingTime": "32 min",
+        "arabic": "الحج",
+        "transliteration": "Al-Hajj",
+        "englishMeaning": "The Pilgrimage",
+        "versesCount": 78,
+        "revelationType": "Madani",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "PjgIeq_ndY4",
+          "title": "Quran: 22. Surat Al-Ĥaj (The Pilgrimage) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=PjgIeq_ndY4",
+          "channel": "listen 2 Quran",
+          "duration": "47m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Hajj (الحج) consists of 78 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the pilgrimage, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 22 in canonical Mushaf order: Al-Hajj (الحج — The Pilgrimage).",
+          "Revealed as a Madani surah containing 78 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Hajj instills in the heart of the listener?",
+          "How does the meaning of \"The Pilgrimage\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Hajj (الحج — The Pilgrimage)\n\n**Surah Number:** 22 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 78 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Hajj** (*الحج*, \"The Pilgrimage\") is the 22th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-22",
+          "title": "Surah Al-Hajj Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Hajj in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Hajj is classified as Madani, containing 78 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Hajj?",
+              "options": [
+                "78 Ayahs",
+                "88 Ayahs",
+                "73 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Hajj contains exactly 78 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-23",
+        "number": 23,
+        "surahNumber": 23,
+        "title": "Surah Al-Mu'minun (المؤمنون) — The Believers",
+        "subtitle": "Makki Revelation • 118 Verses",
+        "readingTime": "48 min",
+        "arabic": "المؤمنون",
+        "transliteration": "Al-Mu'minun",
+        "englishMeaning": "The Believers",
+        "versesCount": 118,
+        "revelationType": "Makki",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "ZHSYTPXMcqQ",
+          "title": "Quran: 23. Surat Al-Mu'minūn (The Believers) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=ZHSYTPXMcqQ",
+          "channel": "listen 2 Quran",
+          "duration": "40m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Mu'minun (المؤمنون) consists of 118 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the believers, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 23 in canonical Mushaf order: Al-Mu'minun (المؤمنون — The Believers).",
+          "Revealed as a Makki surah containing 118 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Mu'minun instills in the heart of the listener?",
+          "How does the meaning of \"The Believers\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Mu'minun (المؤمنون — The Believers)\n\n**Surah Number:** 23 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 118 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Mu'minun** (*المؤمنون*, \"The Believers\") is the 23th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-23",
+          "title": "Surah Al-Mu'minun Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Mu'minun in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Mu'minun is classified as Makki, containing 118 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Mu'minun?",
+              "options": [
+                "118 Ayahs",
+                "128 Ayahs",
+                "113 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Mu'minun contains exactly 118 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-24",
+        "number": 24,
+        "surahNumber": 24,
+        "title": "Surah An-Nur (النور) — The Light",
+        "subtitle": "Madani Revelation • 64 Verses",
+        "readingTime": "26 min",
+        "arabic": "النور",
+        "transliteration": "An-Nur",
+        "englishMeaning": "The Light",
+        "versesCount": 64,
+        "revelationType": "Madani",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "Bxb14OK8zjo",
+          "title": "Quran: 24. Surat An-Nūr (The Light) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=Bxb14OK8zjo",
+          "channel": "listen 2 Quran",
+          "duration": "52m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah An-Nur (النور) consists of 64 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the light, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 24 in canonical Mushaf order: An-Nur (النور — The Light).",
+          "Revealed as a Madani surah containing 64 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah An-Nur instills in the heart of the listener?",
+          "How does the meaning of \"The Light\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah An-Nur (النور — The Light)\n\n**Surah Number:** 24 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 64 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **An-Nur** (*النور*, \"The Light\") is the 24th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-24",
+          "title": "Surah An-Nur Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah An-Nur in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Nur is classified as Madani, containing 64 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah An-Nur?",
+              "options": [
+                "64 Ayahs",
+                "74 Ayahs",
+                "59 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Nur contains exactly 64 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-25",
+        "number": 25,
+        "surahNumber": 25,
+        "title": "Surah Al-Furqan (الفرقان) — The Criterion",
+        "subtitle": "Makki Revelation • 77 Verses",
+        "readingTime": "31 min",
+        "arabic": "الفرقان",
+        "transliteration": "Al-Furqan",
+        "englishMeaning": "The Criterion",
+        "versesCount": 77,
+        "revelationType": "Makki",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "EOILDLRr9a4",
+          "title": "Quran: 25. Surat Al-Furqān (The Criterian) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=EOILDLRr9a4",
+          "channel": "listen 2 Quran",
+          "duration": "31m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Furqan (الفرقان) consists of 77 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the criterion, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 25 in canonical Mushaf order: Al-Furqan (الفرقان — The Criterion).",
+          "Revealed as a Makki surah containing 77 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Furqan instills in the heart of the listener?",
+          "How does the meaning of \"The Criterion\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Furqan (الفرقان — The Criterion)\n\n**Surah Number:** 25 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 77 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Furqan** (*الفرقان*, \"The Criterion\") is the 25th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-25",
+          "title": "Surah Al-Furqan Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Furqan in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Furqan is classified as Makki, containing 77 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Furqan?",
+              "options": [
+                "77 Ayahs",
+                "87 Ayahs",
+                "72 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Furqan contains exactly 77 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-26",
+        "number": 26,
+        "surahNumber": 26,
+        "title": "Surah Ash-Shu'ara (الشعراء) — The Poets",
+        "subtitle": "Makki Revelation • 227 Verses",
+        "readingTime": "91 min",
+        "arabic": "الشعراء",
+        "transliteration": "Ash-Shu'ara",
+        "englishMeaning": "The Poets",
+        "versesCount": 227,
+        "revelationType": "Makki",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "4_0WPolcFcw",
+          "title": "Quran: 26. Surat Ash-Shu`arā' (The Poets) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=4_0WPolcFcw",
+          "channel": "listen 2 Quran",
+          "duration": "52m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ash-Shu'ara (الشعراء) consists of 227 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the poets, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 26 in canonical Mushaf order: Ash-Shu'ara (الشعراء — The Poets).",
+          "Revealed as a Makki surah containing 227 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ash-Shu'ara instills in the heart of the listener?",
+          "How does the meaning of \"The Poets\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ash-Shu'ara (الشعراء — The Poets)\n\n**Surah Number:** 26 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 227 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ash-Shu'ara** (*الشعراء*, \"The Poets\") is the 26th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-26",
+          "title": "Surah Ash-Shu'ara Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ash-Shu'ara in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ash-Shu'ara is classified as Makki, containing 227 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ash-Shu'ara?",
+              "options": [
+                "227 Ayahs",
+                "237 Ayahs",
+                "222 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ash-Shu'ara contains exactly 227 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-27",
+        "number": 27,
+        "surahNumber": 27,
+        "title": "Surah An-Naml (النمل) — The Ant",
+        "subtitle": "Makki Revelation • 93 Verses",
+        "readingTime": "38 min",
+        "arabic": "النمل",
+        "transliteration": "An-Naml",
+        "englishMeaning": "The Ant",
+        "versesCount": 93,
+        "revelationType": "Makki",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "JDC3CM_N6yI",
+          "title": "Quran: 27. Surat An-Naml (The Ant) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=JDC3CM_N6yI",
+          "channel": "listen 2 Quran",
+          "duration": "43m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah An-Naml (النمل) consists of 93 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the ant, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 27 in canonical Mushaf order: An-Naml (النمل — The Ant).",
+          "Revealed as a Makki surah containing 93 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah An-Naml instills in the heart of the listener?",
+          "How does the meaning of \"The Ant\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah An-Naml (النمل — The Ant)\n\n**Surah Number:** 27 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 93 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **An-Naml** (*النمل*, \"The Ant\") is the 27th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-27",
+          "title": "Surah An-Naml Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah An-Naml in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Naml is classified as Makki, containing 93 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah An-Naml?",
+              "options": [
+                "93 Ayahs",
+                "103 Ayahs",
+                "88 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Naml contains exactly 93 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-28",
+        "number": 28,
+        "surahNumber": 28,
+        "title": "Surah Al-Qasas (القصص) — The Stories",
+        "subtitle": "Makki Revelation • 88 Verses",
+        "readingTime": "36 min",
+        "arabic": "القصص",
+        "transliteration": "Al-Qasas",
+        "englishMeaning": "The Stories",
+        "versesCount": 88,
+        "revelationType": "Makki",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "ganNcbDh0SM",
+          "title": "Quran: 28. Surat Al-Qaşaş (The Stories) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=ganNcbDh0SM",
+          "channel": "listen 2 Quran",
+          "duration": "51m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Qasas (القصص) consists of 88 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the stories, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 28 in canonical Mushaf order: Al-Qasas (القصص — The Stories).",
+          "Revealed as a Makki surah containing 88 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Qasas instills in the heart of the listener?",
+          "How does the meaning of \"The Stories\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Qasas (القصص — The Stories)\n\n**Surah Number:** 28 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 88 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Qasas** (*القصص*, \"The Stories\") is the 28th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-28",
+          "title": "Surah Al-Qasas Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Qasas in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Qasas is classified as Makki, containing 88 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Qasas?",
+              "options": [
+                "88 Ayahs",
+                "98 Ayahs",
+                "83 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Qasas contains exactly 88 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-29",
+        "number": 29,
+        "surahNumber": 29,
+        "title": "Surah Al-'Ankabut (العنكبوت) — The Spider",
+        "subtitle": "Makki Revelation • 69 Verses",
+        "readingTime": "28 min",
+        "arabic": "العنكبوت",
+        "transliteration": "Al-'Ankabut",
+        "englishMeaning": "The Spider",
+        "versesCount": 69,
+        "revelationType": "Makki",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "1-Dem6hakok",
+          "title": "Quran: 29. Surat Al-`Ankabūt (The Spider) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=1-Dem6hakok",
+          "channel": "listen 2 Quran",
+          "duration": "35m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-'Ankabut (العنكبوت) consists of 69 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the spider, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 29 in canonical Mushaf order: Al-'Ankabut (العنكبوت — The Spider).",
+          "Revealed as a Makki surah containing 69 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-'Ankabut instills in the heart of the listener?",
+          "How does the meaning of \"The Spider\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-'Ankabut (العنكبوت — The Spider)\n\n**Surah Number:** 29 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 69 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-'Ankabut** (*العنكبوت*, \"The Spider\") is the 29th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-29",
+          "title": "Surah Al-'Ankabut Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-'Ankabut in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-'Ankabut is classified as Makki, containing 69 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-'Ankabut?",
+              "options": [
+                "69 Ayahs",
+                "79 Ayahs",
+                "64 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-'Ankabut contains exactly 69 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-30",
+        "number": 30,
+        "surahNumber": 30,
+        "title": "Surah Ar-Rum (الروم) — The Romans",
+        "subtitle": "Makki Revelation • 60 Verses",
+        "readingTime": "24 min",
+        "arabic": "الروم",
+        "transliteration": "Ar-Rum",
+        "englishMeaning": "The Romans",
+        "versesCount": 60,
+        "revelationType": "Makki",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "Mo34YXrjieI",
+          "title": "Quran: 30. Surat Ar-Rūm (The Romans) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=Mo34YXrjieI",
+          "channel": "listen 2 Quran",
+          "duration": "31m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ar-Rum (الروم) consists of 60 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the romans, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 30 in canonical Mushaf order: Ar-Rum (الروم — The Romans).",
+          "Revealed as a Makki surah containing 60 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ar-Rum instills in the heart of the listener?",
+          "How does the meaning of \"The Romans\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ar-Rum (الروم — The Romans)\n\n**Surah Number:** 30 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 60 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ar-Rum** (*الروم*, \"The Romans\") is the 30th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-30",
+          "title": "Surah Ar-Rum Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ar-Rum in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ar-Rum is classified as Makki, containing 60 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ar-Rum?",
+              "options": [
+                "60 Ayahs",
+                "70 Ayahs",
+                "55 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ar-Rum contains exactly 60 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-31",
+        "number": 31,
+        "surahNumber": 31,
+        "title": "Surah Luqman (لقمان) — Luqman",
+        "subtitle": "Makki Revelation • 34 Verses",
+        "readingTime": "14 min",
+        "arabic": "لقمان",
+        "transliteration": "Luqman",
+        "englishMeaning": "Luqman",
+        "versesCount": 34,
+        "revelationType": "Makki",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "vb-GMPxeOUU",
+          "title": "Quran: 31. Surat Luqmān (Luqman) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=vb-GMPxeOUU",
+          "channel": "listen 2 Quran",
+          "duration": "19m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Luqman (لقمان) consists of 34 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on luqman, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 31 in canonical Mushaf order: Luqman (لقمان — Luqman).",
+          "Revealed as a Makki surah containing 34 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Luqman instills in the heart of the listener?",
+          "How does the meaning of \"Luqman\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Luqman (لقمان — Luqman)\n\n**Surah Number:** 31 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 34 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **Luqman** (*لقمان*, \"Luqman\") is the 31th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-31",
+          "title": "Surah Luqman Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Luqman in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Luqman is classified as Makki, containing 34 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Luqman?",
+              "options": [
+                "34 Ayahs",
+                "44 Ayahs",
+                "29 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Luqman contains exactly 34 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-32",
+        "number": 32,
+        "surahNumber": 32,
+        "title": "Surah As-Sajdah (السجدة) — The Prostration",
+        "subtitle": "Makki Revelation • 30 Verses",
+        "readingTime": "12 min",
+        "arabic": "السجدة",
+        "transliteration": "As-Sajdah",
+        "englishMeaning": "The Prostration",
+        "versesCount": 30,
+        "revelationType": "Makki",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "MZ1P8evakwA",
+          "title": "Quran: 32. Surat As-Sajdah (The Prostration) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=MZ1P8evakwA",
+          "channel": "listen 2 Quran",
+          "duration": "14m 14s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah As-Sajdah (السجدة) consists of 30 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the prostration, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 32 in canonical Mushaf order: As-Sajdah (السجدة — The Prostration).",
+          "Revealed as a Makki surah containing 30 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah As-Sajdah instills in the heart of the listener?",
+          "How does the meaning of \"The Prostration\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah As-Sajdah (السجدة — The Prostration)\n\n**Surah Number:** 32 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 30 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **As-Sajdah** (*السجدة*, \"The Prostration\") is the 32th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-32",
+          "title": "Surah As-Sajdah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah As-Sajdah in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah As-Sajdah is classified as Makki, containing 30 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah As-Sajdah?",
+              "options": [
+                "30 Ayahs",
+                "40 Ayahs",
+                "25 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah As-Sajdah contains exactly 30 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-33",
+        "number": 33,
+        "surahNumber": 33,
+        "title": "Surah Al-Ahzab (الأحزاب) — The Combined Forces",
+        "subtitle": "Madani Revelation • 73 Verses",
+        "readingTime": "30 min",
+        "arabic": "الأحزاب",
+        "transliteration": "Al-Ahzab",
+        "englishMeaning": "The Combined Forces",
+        "versesCount": 73,
+        "revelationType": "Madani",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "DjXimNjzYog",
+          "title": "Quran: 33. Surat Al-'Aĥzāb (The Combined Forces) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=DjXimNjzYog",
+          "channel": "listen 2 Quran",
+          "duration": "48m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Ahzab (الأحزاب) consists of 73 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the combined forces, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 33 in canonical Mushaf order: Al-Ahzab (الأحزاب — The Combined Forces).",
+          "Revealed as a Madani surah containing 73 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Ahzab instills in the heart of the listener?",
+          "How does the meaning of \"The Combined Forces\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Ahzab (الأحزاب — The Combined Forces)\n\n**Surah Number:** 33 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 73 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Ahzab** (*الأحزاب*, \"The Combined Forces\") is the 33th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-33",
+          "title": "Surah Al-Ahzab Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Ahzab in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ahzab is classified as Madani, containing 73 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Ahzab?",
+              "options": [
+                "73 Ayahs",
+                "83 Ayahs",
+                "68 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ahzab contains exactly 73 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-34",
+        "number": 34,
+        "surahNumber": 34,
+        "title": "Surah Saba (سبأ) — Sheba",
+        "subtitle": "Makki Revelation • 54 Verses",
+        "readingTime": "22 min",
+        "arabic": "سبأ",
+        "transliteration": "Saba",
+        "englishMeaning": "Sheba",
+        "versesCount": 54,
+        "revelationType": "Makki",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "62ZlpCgNM8c",
+          "title": "Quran: 34. Surat Saba' (Sheba) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=62ZlpCgNM8c",
+          "channel": "listen 2 Quran",
+          "duration": "31m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Saba (سبأ) consists of 54 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on sheba, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 34 in canonical Mushaf order: Saba (سبأ — Sheba).",
+          "Revealed as a Makki surah containing 54 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Saba instills in the heart of the listener?",
+          "How does the meaning of \"Sheba\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Saba (سبأ — Sheba)\n\n**Surah Number:** 34 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 54 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **Saba** (*سبأ*, \"Sheba\") is the 34th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-34",
+          "title": "Surah Saba Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Saba in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Saba is classified as Makki, containing 54 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Saba?",
+              "options": [
+                "54 Ayahs",
+                "64 Ayahs",
+                "49 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Saba contains exactly 54 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-35",
+        "number": 35,
+        "surahNumber": 35,
+        "title": "Surah Fatir (فاطر) — The Originator",
+        "subtitle": "Makki Revelation • 45 Verses",
+        "readingTime": "18 min",
+        "arabic": "فاطر",
+        "transliteration": "Fatir",
+        "englishMeaning": "The Originator",
+        "versesCount": 45,
+        "revelationType": "Makki",
+        "moduleNumber": 3,
+        "moduleTitle": "Al-Mathani — Part 1 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "iWfFN5A7iiA",
+          "title": "Quran: 35. Surat Fāţir (Originator) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=iWfFN5A7iiA",
+          "channel": "listen 2 Quran",
+          "duration": "28m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Fatir (فاطر) consists of 45 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the originator, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 35 in canonical Mushaf order: Fatir (فاطر — The Originator).",
+          "Revealed as a Makki surah containing 45 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Fatir instills in the heart of the listener?",
+          "How does the meaning of \"The Originator\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Fatir (فاطر — The Originator)\n\n**Surah Number:** 35 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 45 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 1 (Frequently Repeated Surahs) (Surahs 21 – 35)\n\n---\n\n## Overview & Core Themes\n\nSurah **Fatir** (*فاطر*, \"The Originator\") is the 35th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-35",
+          "title": "Surah Fatir Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Fatir in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Fatir is classified as Makki, containing 45 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Fatir?",
+              "options": [
+                "45 Ayahs",
+                "55 Ayahs",
+                "40 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Fatir contains exactly 45 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-36",
+        "number": 36,
+        "surahNumber": 36,
+        "title": "Surah Ya-Sin (يس) — Ya-Sin",
+        "subtitle": "Makki Revelation • 83 Verses",
+        "readingTime": "34 min",
+        "arabic": "يس",
+        "transliteration": "Ya-Sin",
+        "englishMeaning": "Ya-Sin",
+        "versesCount": 83,
+        "revelationType": "Makki",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "EEBBCTEBBO4",
+          "title": "Quran 36   Ya Seen   Arabic to English Audio Translation and Transliteration by Meshari Al Afassi H",
+          "url": "https://www.youtube.com/watch?v=EEBBCTEBBO4",
+          "channel": "Quran Reader",
+          "duration": "28m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ya-Sin (يس) consists of 83 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on ya-sin, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 36 in canonical Mushaf order: Ya-Sin (يس — Ya-Sin).",
+          "Revealed as a Makki surah containing 83 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ya-Sin instills in the heart of the listener?",
+          "How does the meaning of \"Ya-Sin\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ya-Sin (يس — Ya-Sin)\n\n**Surah Number:** 36 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 83 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ya-Sin** (*يس*, \"Ya-Sin\") is the 36th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-36",
+          "title": "Surah Ya-Sin Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ya-Sin in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ya-Sin is classified as Makki, containing 83 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ya-Sin?",
+              "options": [
+                "83 Ayahs",
+                "93 Ayahs",
+                "78 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ya-Sin contains exactly 83 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-37",
+        "number": 37,
+        "surahNumber": 37,
+        "title": "Surah As-Saffat (الصافات) — Those Who Set The Ranks",
+        "subtitle": "Makki Revelation • 182 Verses",
+        "readingTime": "73 min",
+        "arabic": "الصافات",
+        "transliteration": "As-Saffat",
+        "englishMeaning": "Those Who Set The Ranks",
+        "versesCount": 182,
+        "revelationType": "Makki",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "5MP8vUhMQiM",
+          "title": "Quran: 37. Surat Aş-Şāffāt (Those who set the Ranks) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=5MP8vUhMQiM",
+          "channel": "listen 2 Quran",
+          "duration": "40m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah As-Saffat (الصافات) consists of 182 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on those who set the ranks, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 37 in canonical Mushaf order: As-Saffat (الصافات — Those Who Set The Ranks).",
+          "Revealed as a Makki surah containing 182 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah As-Saffat instills in the heart of the listener?",
+          "How does the meaning of \"Those Who Set The Ranks\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah As-Saffat (الصافات — Those Who Set The Ranks)\n\n**Surah Number:** 37 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 182 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **As-Saffat** (*الصافات*, \"Those Who Set The Ranks\") is the 37th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-37",
+          "title": "Surah As-Saffat Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah As-Saffat in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah As-Saffat is classified as Makki, containing 182 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah As-Saffat?",
+              "options": [
+                "182 Ayahs",
+                "192 Ayahs",
+                "177 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah As-Saffat contains exactly 182 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-38",
+        "number": 38,
+        "surahNumber": 38,
+        "title": "Surah Sad (ص) — The Letter Sad",
+        "subtitle": "Makki Revelation • 88 Verses",
+        "readingTime": "36 min",
+        "arabic": "ص",
+        "transliteration": "Sad",
+        "englishMeaning": "The Letter Sad",
+        "versesCount": 88,
+        "revelationType": "Makki",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "ynn1jQ70YAs",
+          "title": "Quran: 38. Surat Şād (The Letter \"Saad\") Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=ynn1jQ70YAs",
+          "channel": "listen 2 Quran",
+          "duration": "29m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Sad (ص) consists of 88 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the letter sad, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 38 in canonical Mushaf order: Sad (ص — The Letter Sad).",
+          "Revealed as a Makki surah containing 88 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Sad instills in the heart of the listener?",
+          "How does the meaning of \"The Letter Sad\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Sad (ص — The Letter Sad)\n\n**Surah Number:** 38 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 88 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Sad** (*ص*, \"The Letter Sad\") is the 38th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-38",
+          "title": "Surah Sad Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Sad in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Sad is classified as Makki, containing 88 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Sad?",
+              "options": [
+                "88 Ayahs",
+                "98 Ayahs",
+                "83 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Sad contains exactly 88 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-39",
+        "number": 39,
+        "surahNumber": 39,
+        "title": "Surah Az-Zumar (الزمر) — The Groups",
+        "subtitle": "Makki Revelation • 75 Verses",
+        "readingTime": "30 min",
+        "arabic": "الزمر",
+        "transliteration": "Az-Zumar",
+        "englishMeaning": "The Groups",
+        "versesCount": 75,
+        "revelationType": "Makki",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "T5bGSGvI5xE",
+          "title": "Quran: 39. Surat Az-Zumar (The Troops) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=T5bGSGvI5xE",
+          "channel": "listen 2 Quran",
+          "duration": "43m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Az-Zumar (الزمر) consists of 75 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the groups, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 39 in canonical Mushaf order: Az-Zumar (الزمر — The Groups).",
+          "Revealed as a Makki surah containing 75 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Az-Zumar instills in the heart of the listener?",
+          "How does the meaning of \"The Groups\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Az-Zumar (الزمر — The Groups)\n\n**Surah Number:** 39 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 75 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Az-Zumar** (*الزمر*, \"The Groups\") is the 39th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-39",
+          "title": "Surah Az-Zumar Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Az-Zumar in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Az-Zumar is classified as Makki, containing 75 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Az-Zumar?",
+              "options": [
+                "75 Ayahs",
+                "85 Ayahs",
+                "70 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Az-Zumar contains exactly 75 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-40",
+        "number": 40,
+        "surahNumber": 40,
+        "title": "Surah Ghafir (غافر) — The Forgiver",
+        "subtitle": "Makki Revelation • 85 Verses",
+        "readingTime": "34 min",
+        "arabic": "غافر",
+        "transliteration": "Ghafir",
+        "englishMeaning": "The Forgiver",
+        "versesCount": 85,
+        "revelationType": "Makki",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "ynVd1P7O3m4",
+          "title": "Quran: 40. Surat Ghāfir (The Forgiver) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=ynVd1P7O3m4",
+          "channel": "listen 2 Quran",
+          "duration": "43m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ghafir (غافر) consists of 85 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the forgiver, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 40 in canonical Mushaf order: Ghafir (غافر — The Forgiver).",
+          "Revealed as a Makki surah containing 85 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ghafir instills in the heart of the listener?",
+          "How does the meaning of \"The Forgiver\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ghafir (غافر — The Forgiver)\n\n**Surah Number:** 40 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 85 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ghafir** (*غافر*, \"The Forgiver\") is the 40th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-40",
+          "title": "Surah Ghafir Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ghafir in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ghafir is classified as Makki, containing 85 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ghafir?",
+              "options": [
+                "85 Ayahs",
+                "95 Ayahs",
+                "80 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ghafir contains exactly 85 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-41",
+        "number": 41,
+        "surahNumber": 41,
+        "title": "Surah Fussilat (فصلت) — Explained in Detail",
+        "subtitle": "Makki Revelation • 54 Verses",
+        "readingTime": "22 min",
+        "arabic": "فصلت",
+        "transliteration": "Fussilat",
+        "englishMeaning": "Explained in Detail",
+        "versesCount": 54,
+        "revelationType": "Makki",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "VYG9ZesRLJ4",
+          "title": "Quran: 41. Surat Fuşşilat (Explained in Detail) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=VYG9ZesRLJ4",
+          "channel": "listen 2 Quran",
+          "duration": "30m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Fussilat (فصلت) consists of 54 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on explained in detail, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 41 in canonical Mushaf order: Fussilat (فصلت — Explained in Detail).",
+          "Revealed as a Makki surah containing 54 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Fussilat instills in the heart of the listener?",
+          "How does the meaning of \"Explained in Detail\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Fussilat (فصلت — Explained in Detail)\n\n**Surah Number:** 41 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 54 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Fussilat** (*فصلت*, \"Explained in Detail\") is the 41th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-41",
+          "title": "Surah Fussilat Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Fussilat in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Fussilat is classified as Makki, containing 54 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Fussilat?",
+              "options": [
+                "54 Ayahs",
+                "64 Ayahs",
+                "49 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Fussilat contains exactly 54 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-42",
+        "number": 42,
+        "surahNumber": 42,
+        "title": "Surah Ash-Shura (الشورى) — The Consultation",
+        "subtitle": "Makki Revelation • 53 Verses",
+        "readingTime": "22 min",
+        "arabic": "الشورى",
+        "transliteration": "Ash-Shura",
+        "englishMeaning": "The Consultation",
+        "versesCount": 53,
+        "revelationType": "Makki",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "E7nvzz3reNU",
+          "title": "Quran: 42. Surat Ash-Shūraá (The Consultation) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=E7nvzz3reNU",
+          "channel": "listen 2 Quran",
+          "duration": "31m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ash-Shura (الشورى) consists of 53 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the consultation, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 42 in canonical Mushaf order: Ash-Shura (الشورى — The Consultation).",
+          "Revealed as a Makki surah containing 53 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ash-Shura instills in the heart of the listener?",
+          "How does the meaning of \"The Consultation\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ash-Shura (الشورى — The Consultation)\n\n**Surah Number:** 42 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 53 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ash-Shura** (*الشورى*, \"The Consultation\") is the 42th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-42",
+          "title": "Surah Ash-Shura Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ash-Shura in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ash-Shura is classified as Makki, containing 53 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ash-Shura?",
+              "options": [
+                "53 Ayahs",
+                "63 Ayahs",
+                "48 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ash-Shura contains exactly 53 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-43",
+        "number": 43,
+        "surahNumber": 43,
+        "title": "Surah Az-Zukhruf (الزخرف) — The Ornaments of Gold",
+        "subtitle": "Makki Revelation • 89 Verses",
+        "readingTime": "36 min",
+        "arabic": "الزخرف",
+        "transliteration": "Az-Zukhruf",
+        "englishMeaning": "The Ornaments of Gold",
+        "versesCount": 89,
+        "revelationType": "Makki",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "2dquCVETAgw",
+          "title": "Quran: 43. Surat Az-Zukhruf (The Ornaments of Gold) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=2dquCVETAgw",
+          "channel": "listen 2 Quran",
+          "duration": "33m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Az-Zukhruf (الزخرف) consists of 89 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the ornaments of gold, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 43 in canonical Mushaf order: Az-Zukhruf (الزخرف — The Ornaments of Gold).",
+          "Revealed as a Makki surah containing 89 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Az-Zukhruf instills in the heart of the listener?",
+          "How does the meaning of \"The Ornaments of Gold\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Az-Zukhruf (الزخرف — The Ornaments of Gold)\n\n**Surah Number:** 43 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 89 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Az-Zukhruf** (*الزخرف*, \"The Ornaments of Gold\") is the 43th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-43",
+          "title": "Surah Az-Zukhruf Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Az-Zukhruf in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Az-Zukhruf is classified as Makki, containing 89 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Az-Zukhruf?",
+              "options": [
+                "89 Ayahs",
+                "99 Ayahs",
+                "84 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Az-Zukhruf contains exactly 89 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-44",
+        "number": 44,
+        "surahNumber": 44,
+        "title": "Surah Ad-Dukhan (الدخان) — The Smoke",
+        "subtitle": "Makki Revelation • 59 Verses",
+        "readingTime": "24 min",
+        "arabic": "الدخان",
+        "transliteration": "Ad-Dukhan",
+        "englishMeaning": "The Smoke",
+        "versesCount": 59,
+        "revelationType": "Makki",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "r-QjcnCQSPc",
+          "title": "Quran: 44. Surat Ad-Dukhān (The Smoke) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=r-QjcnCQSPc",
+          "channel": "listen 2 Quran",
+          "duration": "15m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ad-Dukhan (الدخان) consists of 59 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the smoke, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 44 in canonical Mushaf order: Ad-Dukhan (الدخان — The Smoke).",
+          "Revealed as a Makki surah containing 59 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ad-Dukhan instills in the heart of the listener?",
+          "How does the meaning of \"The Smoke\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ad-Dukhan (الدخان — The Smoke)\n\n**Surah Number:** 44 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 59 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ad-Dukhan** (*الدخان*, \"The Smoke\") is the 44th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-44",
+          "title": "Surah Ad-Dukhan Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ad-Dukhan in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ad-Dukhan is classified as Makki, containing 59 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ad-Dukhan?",
+              "options": [
+                "59 Ayahs",
+                "69 Ayahs",
+                "54 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ad-Dukhan contains exactly 59 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-45",
+        "number": 45,
+        "surahNumber": 45,
+        "title": "Surah Al-Jathiyah (الجاثية) — The Crouching",
+        "subtitle": "Makki Revelation • 37 Verses",
+        "readingTime": "15 min",
+        "arabic": "الجاثية",
+        "transliteration": "Al-Jathiyah",
+        "englishMeaning": "The Crouching",
+        "versesCount": 37,
+        "revelationType": "Makki",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "swT_TP-20oQ",
+          "title": "Quran: 45. Surat Al-Jāthiyah (The Crouching) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=swT_TP-20oQ",
+          "channel": "listen 2 Quran",
+          "duration": "17m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Jathiyah (الجاثية) consists of 37 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the crouching, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 45 in canonical Mushaf order: Al-Jathiyah (الجاثية — The Crouching).",
+          "Revealed as a Makki surah containing 37 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Jathiyah instills in the heart of the listener?",
+          "How does the meaning of \"The Crouching\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Jathiyah (الجاثية — The Crouching)\n\n**Surah Number:** 45 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 37 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Jathiyah** (*الجاثية*, \"The Crouching\") is the 45th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-45",
+          "title": "Surah Al-Jathiyah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Jathiyah in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Jathiyah is classified as Makki, containing 37 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Jathiyah?",
+              "options": [
+                "37 Ayahs",
+                "47 Ayahs",
+                "32 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Jathiyah contains exactly 37 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-46",
+        "number": 46,
+        "surahNumber": 46,
+        "title": "Surah Al-Ahqaf (الأحقاف) — The Wind-Curved Sandhills",
+        "subtitle": "Makki Revelation • 35 Verses",
+        "readingTime": "14 min",
+        "arabic": "الأحقاف",
+        "transliteration": "Al-Ahqaf",
+        "englishMeaning": "The Wind-Curved Sandhills",
+        "versesCount": 35,
+        "revelationType": "Makki",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "L7ALeazSyng",
+          "title": "Quran: 46. Surat Al-'Aĥqāf (The Wind-Curved Sandhills) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=L7ALeazSyng",
+          "channel": "listen 2 Quran",
+          "duration": "24m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Ahqaf (الأحقاف) consists of 35 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the wind-curved sandhills, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 46 in canonical Mushaf order: Al-Ahqaf (الأحقاف — The Wind-Curved Sandhills).",
+          "Revealed as a Makki surah containing 35 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Ahqaf instills in the heart of the listener?",
+          "How does the meaning of \"The Wind-Curved Sandhills\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Ahqaf (الأحقاف — The Wind-Curved Sandhills)\n\n**Surah Number:** 46 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 35 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Ahqaf** (*الأحقاف*, \"The Wind-Curved Sandhills\") is the 46th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-46",
+          "title": "Surah Al-Ahqaf Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Ahqaf in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ahqaf is classified as Makki, containing 35 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Ahqaf?",
+              "options": [
+                "35 Ayahs",
+                "45 Ayahs",
+                "30 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ahqaf contains exactly 35 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-47",
+        "number": 47,
+        "surahNumber": 47,
+        "title": "Surah Muhammad (محمد) — Muhammad",
+        "subtitle": "Madani Revelation • 38 Verses",
+        "readingTime": "16 min",
+        "arabic": "محمد",
+        "transliteration": "Muhammad",
+        "englishMeaning": "Muhammad",
+        "versesCount": 38,
+        "revelationType": "Madani",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "ETywoHy_h0Y",
+          "title": "Quran: 47. Surat Muĥammad (Muhammad) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=ETywoHy_h0Y",
+          "channel": "listen 2 Quran",
+          "duration": "19m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Muhammad (محمد) consists of 38 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on muhammad, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 47 in canonical Mushaf order: Muhammad (محمد — Muhammad).",
+          "Revealed as a Madani surah containing 38 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Muhammad instills in the heart of the listener?",
+          "How does the meaning of \"Muhammad\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Muhammad (محمد — Muhammad)\n\n**Surah Number:** 47 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 38 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Muhammad** (*محمد*, \"Muhammad\") is the 47th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-47",
+          "title": "Surah Muhammad Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Muhammad in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Muhammad is classified as Madani, containing 38 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Muhammad?",
+              "options": [
+                "38 Ayahs",
+                "48 Ayahs",
+                "33 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Muhammad contains exactly 38 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-48",
+        "number": 48,
+        "surahNumber": 48,
+        "title": "Surah Al-Fath (الفتح) — The Victory",
+        "subtitle": "Madani Revelation • 29 Verses",
+        "readingTime": "12 min",
+        "arabic": "الفتح",
+        "transliteration": "Al-Fath",
+        "englishMeaning": "The Victory",
+        "versesCount": 29,
+        "revelationType": "Madani",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "hSG4GikwzIc",
+          "title": "Quran: 48. Surat Al-Fatĥ (The Victory) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=hSG4GikwzIc",
+          "channel": "listen 2 Quran",
+          "duration": "20m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Fath (الفتح) consists of 29 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the victory, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 48 in canonical Mushaf order: Al-Fath (الفتح — The Victory).",
+          "Revealed as a Madani surah containing 29 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Fath instills in the heart of the listener?",
+          "How does the meaning of \"The Victory\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Fath (الفتح — The Victory)\n\n**Surah Number:** 48 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 29 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Fath** (*الفتح*, \"The Victory\") is the 48th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-48",
+          "title": "Surah Al-Fath Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Fath in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Fath is classified as Madani, containing 29 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Fath?",
+              "options": [
+                "29 Ayahs",
+                "39 Ayahs",
+                "24 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Fath contains exactly 29 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-49",
+        "number": 49,
+        "surahNumber": 49,
+        "title": "Surah Al-Hujurat (الحجرات) — The Rooms",
+        "subtitle": "Madani Revelation • 18 Verses",
+        "readingTime": "8 min",
+        "arabic": "الحجرات",
+        "transliteration": "Al-Hujurat",
+        "englishMeaning": "The Rooms",
+        "versesCount": 18,
+        "revelationType": "Madani",
+        "moduleNumber": 4,
+        "moduleTitle": "Al-Mathani — Part 2 (Frequently Repeated Surahs)",
+        "videoLesson": {
+          "videoId": "WsP9a5bFTzc",
+          "title": "Quran: 49. Surat Al-Ĥujurāt (The Rooms) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=WsP9a5bFTzc",
+          "channel": "listen 2 Quran",
+          "duration": "13m 15s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Hujurat (الحجرات) consists of 18 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the rooms, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 49 in canonical Mushaf order: Al-Hujurat (الحجرات — The Rooms).",
+          "Revealed as a Madani surah containing 18 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Hujurat instills in the heart of the listener?",
+          "How does the meaning of \"The Rooms\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Hujurat (الحجرات — The Rooms)\n\n**Surah Number:** 49 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 18 Ayahs  \n**Curriculum Division:** Al-Mathani — Part 2 (Frequently Repeated Surahs) (Surahs 36 – 49)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Hujurat** (*الحجرات*, \"The Rooms\") is the 49th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-49",
+          "title": "Surah Al-Hujurat Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Hujurat in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Hujurat is classified as Madani, containing 18 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Hujurat?",
+              "options": [
+                "18 Ayahs",
+                "28 Ayahs",
+                "13 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Hujurat contains exactly 18 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-50",
+        "number": 50,
+        "surahNumber": 50,
+        "title": "Surah Qaf (ق) — The Letter Qaf",
+        "subtitle": "Makki Revelation • 45 Verses",
+        "readingTime": "18 min",
+        "arabic": "ق",
+        "transliteration": "Qaf",
+        "englishMeaning": "The Letter Qaf",
+        "versesCount": 45,
+        "revelationType": "Makki",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "wO7nZAsAUFk",
+          "title": "Holy quran 50 Surat Qaf With English Audio Translation and Transliteration By Mishari AlAfassy",
+          "url": "https://www.youtube.com/watch?v=wO7nZAsAUFk",
+          "channel": "Quran Reader",
+          "duration": "15m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Qaf (ق) consists of 45 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the letter qaf, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 50 in canonical Mushaf order: Qaf (ق — The Letter Qaf).",
+          "Revealed as a Makki surah containing 45 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Qaf instills in the heart of the listener?",
+          "How does the meaning of \"The Letter Qaf\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Qaf (ق — The Letter Qaf)\n\n**Surah Number:** 50 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 45 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **Qaf** (*ق*, \"The Letter Qaf\") is the 50th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-50",
+          "title": "Surah Qaf Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Qaf in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Qaf is classified as Makki, containing 45 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Qaf?",
+              "options": [
+                "45 Ayahs",
+                "55 Ayahs",
+                "40 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Qaf contains exactly 45 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-51",
+        "number": 51,
+        "surahNumber": 51,
+        "title": "Surah Adh-Dhariyat (الذاريات) — The Winnowing Winds",
+        "subtitle": "Makki Revelation • 60 Verses",
+        "readingTime": "24 min",
+        "arabic": "الذاريات",
+        "transliteration": "Adh-Dhariyat",
+        "englishMeaning": "The Winnowing Winds",
+        "versesCount": 60,
+        "revelationType": "Makki",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "7J42ducf2ls",
+          "title": "Quran: 51. Surat Adh-Dhāriyāt (The Winnowing Winds) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=7J42ducf2ls",
+          "channel": "listen 2 Quran",
+          "duration": "15m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Adh-Dhariyat (الذاريات) consists of 60 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the winnowing winds, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 51 in canonical Mushaf order: Adh-Dhariyat (الذاريات — The Winnowing Winds).",
+          "Revealed as a Makki surah containing 60 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Adh-Dhariyat instills in the heart of the listener?",
+          "How does the meaning of \"The Winnowing Winds\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Adh-Dhariyat (الذاريات — The Winnowing Winds)\n\n**Surah Number:** 51 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 60 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **Adh-Dhariyat** (*الذاريات*, \"The Winnowing Winds\") is the 51th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-51",
+          "title": "Surah Adh-Dhariyat Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Adh-Dhariyat in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Adh-Dhariyat is classified as Makki, containing 60 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Adh-Dhariyat?",
+              "options": [
+                "60 Ayahs",
+                "70 Ayahs",
+                "55 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Adh-Dhariyat contains exactly 60 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-52",
+        "number": 52,
+        "surahNumber": 52,
+        "title": "Surah At-Tur (الطور) — The Mount",
+        "subtitle": "Makki Revelation • 49 Verses",
+        "readingTime": "20 min",
+        "arabic": "الطور",
+        "transliteration": "At-Tur",
+        "englishMeaning": "The Mount",
+        "versesCount": 49,
+        "revelationType": "Makki",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "3Mx9gd7oer8",
+          "title": "Quran: 52. Surat Aţ-Ţūr (The Mount) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=3Mx9gd7oer8",
+          "channel": "listen 2 Quran",
+          "duration": "13m 19s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah At-Tur (الطور) consists of 49 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the mount, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 52 in canonical Mushaf order: At-Tur (الطور — The Mount).",
+          "Revealed as a Makki surah containing 49 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah At-Tur instills in the heart of the listener?",
+          "How does the meaning of \"The Mount\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah At-Tur (الطور — The Mount)\n\n**Surah Number:** 52 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 49 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **At-Tur** (*الطور*, \"The Mount\") is the 52th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-52",
+          "title": "Surah At-Tur Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah At-Tur in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Tur is classified as Makki, containing 49 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah At-Tur?",
+              "options": [
+                "49 Ayahs",
+                "59 Ayahs",
+                "44 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Tur contains exactly 49 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-53",
+        "number": 53,
+        "surahNumber": 53,
+        "title": "Surah An-Najm (النجم) — The Star",
+        "subtitle": "Makki Revelation • 62 Verses",
+        "readingTime": "25 min",
+        "arabic": "النجم",
+        "transliteration": "An-Najm",
+        "englishMeaning": "The Star",
+        "versesCount": 62,
+        "revelationType": "Makki",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "kheZLBRBbt8",
+          "title": "Quran: 53. Surat An-Najm (The Star) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=kheZLBRBbt8",
+          "channel": "listen 2 Quran",
+          "duration": "13m 38s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah An-Najm (النجم) consists of 62 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the star, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 53 in canonical Mushaf order: An-Najm (النجم — The Star).",
+          "Revealed as a Makki surah containing 62 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah An-Najm instills in the heart of the listener?",
+          "How does the meaning of \"The Star\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah An-Najm (النجم — The Star)\n\n**Surah Number:** 53 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 62 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **An-Najm** (*النجم*, \"The Star\") is the 53th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-53",
+          "title": "Surah An-Najm Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah An-Najm in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Najm is classified as Makki, containing 62 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah An-Najm?",
+              "options": [
+                "62 Ayahs",
+                "72 Ayahs",
+                "57 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Najm contains exactly 62 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-54",
+        "number": 54,
+        "surahNumber": 54,
+        "title": "Surah Al-Qamar (القمر) — The Moon",
+        "subtitle": "Makki Revelation • 55 Verses",
+        "readingTime": "22 min",
+        "arabic": "القمر",
+        "transliteration": "Al-Qamar",
+        "englishMeaning": "The Moon",
+        "versesCount": 55,
+        "revelationType": "Makki",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "s6eKrmzsOTg",
+          "title": "Quran: 54. Surat Al-Qamar (The Moon) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=s6eKrmzsOTg",
+          "channel": "listen 2 Quran",
+          "duration": "13m 42s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Qamar (القمر) consists of 55 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the moon, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 54 in canonical Mushaf order: Al-Qamar (القمر — The Moon).",
+          "Revealed as a Makki surah containing 55 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Qamar instills in the heart of the listener?",
+          "How does the meaning of \"The Moon\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Qamar (القمر — The Moon)\n\n**Surah Number:** 54 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 55 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Qamar** (*القمر*, \"The Moon\") is the 54th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-54",
+          "title": "Surah Al-Qamar Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Qamar in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Qamar is classified as Makki, containing 55 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Qamar?",
+              "options": [
+                "55 Ayahs",
+                "65 Ayahs",
+                "50 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Qamar contains exactly 55 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-55",
+        "number": 55,
+        "surahNumber": 55,
+        "title": "Surah Ar-Rahman (الرحمن) — The Beneficent",
+        "subtitle": "Madani Revelation • 78 Verses",
+        "readingTime": "32 min",
+        "arabic": "الرحمن",
+        "transliteration": "Ar-Rahman",
+        "englishMeaning": "The Beneficent",
+        "versesCount": 78,
+        "revelationType": "Madani",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "GnnD7YUWybI",
+          "title": "Quran 55 Ar-Rahman with English Audio Translation and Transliteration HD",
+          "url": "https://www.youtube.com/watch?v=GnnD7YUWybI",
+          "channel": "Quran Reader",
+          "duration": "17m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ar-Rahman (الرحمن) consists of 78 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the beneficent, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 55 in canonical Mushaf order: Ar-Rahman (الرحمن — The Beneficent).",
+          "Revealed as a Madani surah containing 78 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ar-Rahman instills in the heart of the listener?",
+          "How does the meaning of \"The Beneficent\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ar-Rahman (الرحمن — The Beneficent)\n\n**Surah Number:** 55 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 78 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ar-Rahman** (*الرحمن*, \"The Beneficent\") is the 55th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-55",
+          "title": "Surah Ar-Rahman Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ar-Rahman in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ar-Rahman is classified as Madani, containing 78 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ar-Rahman?",
+              "options": [
+                "78 Ayahs",
+                "88 Ayahs",
+                "73 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ar-Rahman contains exactly 78 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-56",
+        "number": 56,
+        "surahNumber": 56,
+        "title": "Surah Al-Waqi'ah (الواقعة) — The Inevitable",
+        "subtitle": "Makki Revelation • 96 Verses",
+        "readingTime": "39 min",
+        "arabic": "الواقعة",
+        "transliteration": "Al-Waqi'ah",
+        "englishMeaning": "The Inevitable",
+        "versesCount": 96,
+        "revelationType": "Makki",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "TtJBskJQKIw",
+          "title": "Quran 56  Surat Al Waqi'a (The Event) English Translation and Transliteration HD",
+          "url": "https://www.youtube.com/watch?v=TtJBskJQKIw",
+          "channel": "Quran Reader",
+          "duration": "18m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Waqi'ah (الواقعة) consists of 96 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the inevitable, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 56 in canonical Mushaf order: Al-Waqi'ah (الواقعة — The Inevitable).",
+          "Revealed as a Makki surah containing 96 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Waqi'ah instills in the heart of the listener?",
+          "How does the meaning of \"The Inevitable\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Waqi'ah (الواقعة — The Inevitable)\n\n**Surah Number:** 56 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 96 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Waqi'ah** (*الواقعة*, \"The Inevitable\") is the 56th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-56",
+          "title": "Surah Al-Waqi'ah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Waqi'ah in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Waqi'ah is classified as Makki, containing 96 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Waqi'ah?",
+              "options": [
+                "96 Ayahs",
+                "106 Ayahs",
+                "91 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Waqi'ah contains exactly 96 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-57",
+        "number": 57,
+        "surahNumber": 57,
+        "title": "Surah Al-Hadid (الحديد) — The Iron",
+        "subtitle": "Madani Revelation • 29 Verses",
+        "readingTime": "12 min",
+        "arabic": "الحديد",
+        "transliteration": "Al-Hadid",
+        "englishMeaning": "The Iron",
+        "versesCount": 29,
+        "revelationType": "Madani",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "kKJZrryKjBE",
+          "title": "Quran: 57. Surat Al-Ĥadīd (The Iron) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=kKJZrryKjBE",
+          "channel": "listen 2 Quran",
+          "duration": "21m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Hadid (الحديد) consists of 29 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the iron, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 57 in canonical Mushaf order: Al-Hadid (الحديد — The Iron).",
+          "Revealed as a Madani surah containing 29 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Hadid instills in the heart of the listener?",
+          "How does the meaning of \"The Iron\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Hadid (الحديد — The Iron)\n\n**Surah Number:** 57 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 29 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Hadid** (*الحديد*, \"The Iron\") is the 57th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-57",
+          "title": "Surah Al-Hadid Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Hadid in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Hadid is classified as Madani, containing 29 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Hadid?",
+              "options": [
+                "29 Ayahs",
+                "39 Ayahs",
+                "24 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Hadid contains exactly 29 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-58",
+        "number": 58,
+        "surahNumber": 58,
+        "title": "Surah Al-Mujadilah (المجادلة) — The Pleading Woman",
+        "subtitle": "Madani Revelation • 22 Verses",
+        "readingTime": "9 min",
+        "arabic": "المجادلة",
+        "transliteration": "Al-Mujadilah",
+        "englishMeaning": "The Pleading Woman",
+        "versesCount": 22,
+        "revelationType": "Madani",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "n8DD8rhLZ94",
+          "title": "Quran: 58. Surat Al-Mujādila (The Pleading Woman) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=n8DD8rhLZ94",
+          "channel": "listen 2 Quran",
+          "duration": "17m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Mujadilah (المجادلة) consists of 22 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the pleading woman, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 58 in canonical Mushaf order: Al-Mujadilah (المجادلة — The Pleading Woman).",
+          "Revealed as a Madani surah containing 22 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Mujadilah instills in the heart of the listener?",
+          "How does the meaning of \"The Pleading Woman\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Mujadilah (المجادلة — The Pleading Woman)\n\n**Surah Number:** 58 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 22 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Mujadilah** (*المجادلة*, \"The Pleading Woman\") is the 58th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-58",
+          "title": "Surah Al-Mujadilah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Mujadilah in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Mujadilah is classified as Madani, containing 22 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Mujadilah?",
+              "options": [
+                "22 Ayahs",
+                "32 Ayahs",
+                "17 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Mujadilah contains exactly 22 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-59",
+        "number": 59,
+        "surahNumber": 59,
+        "title": "Surah Al-Hashr (الحشر) — The Exile",
+        "subtitle": "Madani Revelation • 24 Verses",
+        "readingTime": "10 min",
+        "arabic": "الحشر",
+        "transliteration": "Al-Hashr",
+        "englishMeaning": "The Exile",
+        "versesCount": 24,
+        "revelationType": "Madani",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "uqqazDWf74E",
+          "title": "Quran: 59. Surat Al-Ĥashr (The Exile) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=uqqazDWf74E",
+          "channel": "listen 2 Quran",
+          "duration": "17m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Hashr (الحشر) consists of 24 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the exile, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 59 in canonical Mushaf order: Al-Hashr (الحشر — The Exile).",
+          "Revealed as a Madani surah containing 24 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Hashr instills in the heart of the listener?",
+          "How does the meaning of \"The Exile\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Hashr (الحشر — The Exile)\n\n**Surah Number:** 59 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 24 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Hashr** (*الحشر*, \"The Exile\") is the 59th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-59",
+          "title": "Surah Al-Hashr Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Hashr in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Hashr is classified as Madani, containing 24 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Hashr?",
+              "options": [
+                "24 Ayahs",
+                "34 Ayahs",
+                "19 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Hashr contains exactly 24 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-60",
+        "number": 60,
+        "surahNumber": 60,
+        "title": "Surah Al-Mumtahanah (الممتحنة) — She That Is To Be Examined",
+        "subtitle": "Madani Revelation • 13 Verses",
+        "readingTime": "6 min",
+        "arabic": "الممتحنة",
+        "transliteration": "Al-Mumtahanah",
+        "englishMeaning": "She That Is To Be Examined",
+        "versesCount": 13,
+        "revelationType": "Madani",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "CpN6SbHJAxg",
+          "title": "Quran: 60. Surat Al-Mumtaĥanah (She that is to be examined) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=CpN6SbHJAxg",
+          "channel": "listen 2 Quran",
+          "duration": "12m 44s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Mumtahanah (الممتحنة) consists of 13 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on she that is to be examined, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 60 in canonical Mushaf order: Al-Mumtahanah (الممتحنة — She That Is To Be Examined).",
+          "Revealed as a Madani surah containing 13 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Mumtahanah instills in the heart of the listener?",
+          "How does the meaning of \"She That Is To Be Examined\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Mumtahanah (الممتحنة — She That Is To Be Examined)\n\n**Surah Number:** 60 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 13 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Mumtahanah** (*الممتحنة*, \"She That Is To Be Examined\") is the 60th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-60",
+          "title": "Surah Al-Mumtahanah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Mumtahanah in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Mumtahanah is classified as Madani, containing 13 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Mumtahanah?",
+              "options": [
+                "13 Ayahs",
+                "23 Ayahs",
+                "8 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Mumtahanah contains exactly 13 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-61",
+        "number": 61,
+        "surahNumber": 61,
+        "title": "Surah As-Saff (الصف) — The Ranks",
+        "subtitle": "Madani Revelation • 14 Verses",
+        "readingTime": "6 min",
+        "arabic": "الصف",
+        "transliteration": "As-Saff",
+        "englishMeaning": "The Ranks",
+        "versesCount": 14,
+        "revelationType": "Madani",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "b-PPkuiMuBE",
+          "title": "Quran: 61. Surat Aş-Şaf (The Ranks) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=b-PPkuiMuBE",
+          "channel": "listen 2 Quran",
+          "duration": "8m 3s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah As-Saff (الصف) consists of 14 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the ranks, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 61 in canonical Mushaf order: As-Saff (الصف — The Ranks).",
+          "Revealed as a Madani surah containing 14 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah As-Saff instills in the heart of the listener?",
+          "How does the meaning of \"The Ranks\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah As-Saff (الصف — The Ranks)\n\n**Surah Number:** 61 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 14 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **As-Saff** (*الصف*, \"The Ranks\") is the 61th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-61",
+          "title": "Surah As-Saff Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah As-Saff in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah As-Saff is classified as Madani, containing 14 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah As-Saff?",
+              "options": [
+                "14 Ayahs",
+                "24 Ayahs",
+                "9 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah As-Saff contains exactly 14 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-62",
+        "number": 62,
+        "surahNumber": 62,
+        "title": "Surah Al-Jumu'ah (الجمعة) — The Congregation, Friday",
+        "subtitle": "Madani Revelation • 11 Verses",
+        "readingTime": "5 min",
+        "arabic": "الجمعة",
+        "transliteration": "Al-Jumu'ah",
+        "englishMeaning": "The Congregation, Friday",
+        "versesCount": 11,
+        "revelationType": "Madani",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "A3_SeDB6wG8",
+          "title": "Quran: 62. Surat Al-Jumu`ah (The Congregation, Friday) Arabic and English translation",
+          "url": "https://www.youtube.com/watch?v=A3_SeDB6wG8",
+          "channel": "listen 2 Quran",
+          "duration": "6m 12s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Jumu'ah (الجمعة) consists of 11 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the congregation, friday, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 62 in canonical Mushaf order: Al-Jumu'ah (الجمعة — The Congregation, Friday).",
+          "Revealed as a Madani surah containing 11 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Jumu'ah instills in the heart of the listener?",
+          "How does the meaning of \"The Congregation, Friday\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Jumu'ah (الجمعة — The Congregation, Friday)\n\n**Surah Number:** 62 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 11 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Jumu'ah** (*الجمعة*, \"The Congregation, Friday\") is the 62th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-62",
+          "title": "Surah Al-Jumu'ah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Jumu'ah in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Jumu'ah is classified as Madani, containing 11 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Jumu'ah?",
+              "options": [
+                "11 Ayahs",
+                "21 Ayahs",
+                "6 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Jumu'ah contains exactly 11 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-63",
+        "number": 63,
+        "surahNumber": 63,
+        "title": "Surah Al-Munafiqun (المنافقون) — The Hypocrites",
+        "subtitle": "Madani Revelation • 11 Verses",
+        "readingTime": "5 min",
+        "arabic": "المنافقون",
+        "transliteration": "Al-Munafiqun",
+        "englishMeaning": "The Hypocrites",
+        "versesCount": 11,
+        "revelationType": "Madani",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "yoRDzLzZSYM",
+          "title": "surah 63; Surat Al-Munāfiqūn (The Hypocrites)  English and Arabic",
+          "url": "https://www.youtube.com/watch?v=yoRDzLzZSYM",
+          "channel": "Here To Help",
+          "duration": "7m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Munafiqun (المنافقون) consists of 11 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the hypocrites, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 63 in canonical Mushaf order: Al-Munafiqun (المنافقون — The Hypocrites).",
+          "Revealed as a Madani surah containing 11 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Munafiqun instills in the heart of the listener?",
+          "How does the meaning of \"The Hypocrites\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Munafiqun (المنافقون — The Hypocrites)\n\n**Surah Number:** 63 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 11 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Munafiqun** (*المنافقون*, \"The Hypocrites\") is the 63th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-63",
+          "title": "Surah Al-Munafiqun Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Munafiqun in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Munafiqun is classified as Madani, containing 11 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Munafiqun?",
+              "options": [
+                "11 Ayahs",
+                "21 Ayahs",
+                "6 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Munafiqun contains exactly 11 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-64",
+        "number": 64,
+        "surahNumber": 64,
+        "title": "Surah At-Taghabun (التغابن) — Mutual Disillusion",
+        "subtitle": "Madani Revelation • 18 Verses",
+        "readingTime": "8 min",
+        "arabic": "التغابن",
+        "transliteration": "At-Taghabun",
+        "englishMeaning": "Mutual Disillusion",
+        "versesCount": 18,
+        "revelationType": "Madani",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "AEWk239_shE",
+          "title": "Surah At-Taghabun - English Audio Translation + Arabic - 64",
+          "url": "https://www.youtube.com/watch?v=AEWk239_shE",
+          "channel": "Free Quran CD",
+          "duration": "9m 7s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah At-Taghabun (التغابن) consists of 18 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on mutual disillusion, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 64 in canonical Mushaf order: At-Taghabun (التغابن — Mutual Disillusion).",
+          "Revealed as a Madani surah containing 18 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah At-Taghabun instills in the heart of the listener?",
+          "How does the meaning of \"Mutual Disillusion\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah At-Taghabun (التغابن — Mutual Disillusion)\n\n**Surah Number:** 64 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 18 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **At-Taghabun** (*التغابن*, \"Mutual Disillusion\") is the 64th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-64",
+          "title": "Surah At-Taghabun Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah At-Taghabun in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Taghabun is classified as Madani, containing 18 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah At-Taghabun?",
+              "options": [
+                "18 Ayahs",
+                "28 Ayahs",
+                "13 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Taghabun contains exactly 18 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-65",
+        "number": 65,
+        "surahNumber": 65,
+        "title": "Surah At-Talaq (الطلاق) — Divorce",
+        "subtitle": "Madani Revelation • 12 Verses",
+        "readingTime": "5 min",
+        "arabic": "الطلاق",
+        "transliteration": "At-Talaq",
+        "englishMeaning": "Divorce",
+        "versesCount": 12,
+        "revelationType": "Madani",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "3c0gwrPwQ1Q",
+          "title": "Surah At-Talaq - English Audio Translation + Arabic - 65",
+          "url": "https://www.youtube.com/watch?v=3c0gwrPwQ1Q",
+          "channel": "Free Quran CD",
+          "duration": "10m 2s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah At-Talaq (الطلاق) consists of 12 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on divorce, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 65 in canonical Mushaf order: At-Talaq (الطلاق — Divorce).",
+          "Revealed as a Madani surah containing 12 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah At-Talaq instills in the heart of the listener?",
+          "How does the meaning of \"Divorce\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah At-Talaq (الطلاق — Divorce)\n\n**Surah Number:** 65 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 12 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **At-Talaq** (*الطلاق*, \"Divorce\") is the 65th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-65",
+          "title": "Surah At-Talaq Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah At-Talaq in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Talaq is classified as Madani, containing 12 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah At-Talaq?",
+              "options": [
+                "12 Ayahs",
+                "22 Ayahs",
+                "7 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Talaq contains exactly 12 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-66",
+        "number": 66,
+        "surahNumber": 66,
+        "title": "Surah At-Tahrim (التحريم) — The Prohibition",
+        "subtitle": "Madani Revelation • 12 Verses",
+        "readingTime": "5 min",
+        "arabic": "التحريم",
+        "transliteration": "At-Tahrim",
+        "englishMeaning": "The Prohibition",
+        "versesCount": 12,
+        "revelationType": "Madani",
+        "moduleNumber": 5,
+        "moduleTitle": "Tiwal Al-Mufassal (The Long Divided Surahs)",
+        "videoLesson": {
+          "videoId": "p04I0Zy1YnM",
+          "title": "Surah At-Tahrim - English Audio Translation + Arabic - 66",
+          "url": "https://www.youtube.com/watch?v=p04I0Zy1YnM",
+          "channel": "Free Quran CD",
+          "duration": "9m 35s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah At-Tahrim (التحريم) consists of 12 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the prohibition, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 66 in canonical Mushaf order: At-Tahrim (التحريم — The Prohibition).",
+          "Revealed as a Madani surah containing 12 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah At-Tahrim instills in the heart of the listener?",
+          "How does the meaning of \"The Prohibition\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah At-Tahrim (التحريم — The Prohibition)\n\n**Surah Number:** 66 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 12 Ayahs  \n**Curriculum Division:** Tiwal Al-Mufassal (The Long Divided Surahs) (Surahs 50 – 66)\n\n---\n\n## Overview & Core Themes\n\nSurah **At-Tahrim** (*التحريم*, \"The Prohibition\") is the 66th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-66",
+          "title": "Surah At-Tahrim Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah At-Tahrim in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Tahrim is classified as Madani, containing 12 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah At-Tahrim?",
+              "options": [
+                "12 Ayahs",
+                "22 Ayahs",
+                "7 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Tahrim contains exactly 12 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-67",
+        "number": 67,
+        "surahNumber": 67,
+        "title": "Surah Al-Mulk (الملك) — The Sovereignty",
+        "subtitle": "Makki Revelation • 30 Verses",
+        "readingTime": "12 min",
+        "arabic": "الملك",
+        "transliteration": "Al-Mulk",
+        "englishMeaning": "The Sovereignty",
+        "versesCount": 30,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "ZHalJp_88bg",
+          "title": "Quran : 67 Al Mulk (The Sovereignty) Arabic and English Translation and Transliteration HD",
+          "url": "https://www.youtube.com/watch?v=ZHalJp_88bg",
+          "channel": "Quran Reader",
+          "duration": "12m 15s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Mulk (الملك) consists of 30 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the sovereignty, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 67 in canonical Mushaf order: Al-Mulk (الملك — The Sovereignty).",
+          "Revealed as a Makki surah containing 30 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Mulk instills in the heart of the listener?",
+          "How does the meaning of \"The Sovereignty\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Mulk (الملك — The Sovereignty)\n\n**Surah Number:** 67 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 30 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Mulk** (*الملك*, \"The Sovereignty\") is the 67th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-67",
+          "title": "Surah Al-Mulk Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Mulk in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Mulk is classified as Makki, containing 30 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Mulk?",
+              "options": [
+                "30 Ayahs",
+                "40 Ayahs",
+                "25 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Mulk contains exactly 30 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-68",
+        "number": 68,
+        "surahNumber": 68,
+        "title": "Surah Al-Qalam (القلم) — The Pen",
+        "subtitle": "Makki Revelation • 52 Verses",
+        "readingTime": "21 min",
+        "arabic": "القلم",
+        "transliteration": "Al-Qalam",
+        "englishMeaning": "The Pen",
+        "versesCount": 52,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "BJOrap4JM9g",
+          "title": "Quran : 68 Al Qalam (The Pen) Arabic to English Translation and Transliteration HD",
+          "url": "https://www.youtube.com/watch?v=BJOrap4JM9g",
+          "channel": "Quran Reader",
+          "duration": "12m 30s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Qalam (القلم) consists of 52 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the pen, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 68 in canonical Mushaf order: Al-Qalam (القلم — The Pen).",
+          "Revealed as a Makki surah containing 52 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Qalam instills in the heart of the listener?",
+          "How does the meaning of \"The Pen\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Qalam (القلم — The Pen)\n\n**Surah Number:** 68 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 52 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Qalam** (*القلم*, \"The Pen\") is the 68th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-68",
+          "title": "Surah Al-Qalam Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Qalam in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Qalam is classified as Makki, containing 52 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Qalam?",
+              "options": [
+                "52 Ayahs",
+                "62 Ayahs",
+                "47 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Qalam contains exactly 52 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-69",
+        "number": 69,
+        "surahNumber": 69,
+        "title": "Surah Al-Haqqah (الحاقة) — The Inevitable Reality",
+        "subtitle": "Makki Revelation • 52 Verses",
+        "readingTime": "21 min",
+        "arabic": "الحاقة",
+        "transliteration": "Al-Haqqah",
+        "englishMeaning": "The Inevitable Reality",
+        "versesCount": 52,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "O1WOpArmw7E",
+          "title": "Quran : 69 Surat Al Haqaa  - Arabic to English Translation and Transliteration HD",
+          "url": "https://www.youtube.com/watch?v=O1WOpArmw7E",
+          "channel": "Quran Reader",
+          "duration": "11m 3s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Haqqah (الحاقة) consists of 52 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the inevitable reality, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 69 in canonical Mushaf order: Al-Haqqah (الحاقة — The Inevitable Reality).",
+          "Revealed as a Makki surah containing 52 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Haqqah instills in the heart of the listener?",
+          "How does the meaning of \"The Inevitable Reality\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Haqqah (الحاقة — The Inevitable Reality)\n\n**Surah Number:** 69 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 52 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Haqqah** (*الحاقة*, \"The Inevitable Reality\") is the 69th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-69",
+          "title": "Surah Al-Haqqah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Haqqah in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Haqqah is classified as Makki, containing 52 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Haqqah?",
+              "options": [
+                "52 Ayahs",
+                "62 Ayahs",
+                "47 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Haqqah contains exactly 52 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-70",
+        "number": 70,
+        "surahNumber": 70,
+        "title": "Surah Al-Ma'arij (المعارج) — The Ascending Stairways",
+        "subtitle": "Makki Revelation • 44 Verses",
+        "readingTime": "18 min",
+        "arabic": "المعارج",
+        "transliteration": "Al-Ma'arij",
+        "englishMeaning": "The Ascending Stairways",
+        "versesCount": 44,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "IrBo_1EaZAg",
+          "title": "Quran :70 Surat Al-Maarij  -Arabic to English Translation and Transliteration HD",
+          "url": "https://www.youtube.com/watch?v=IrBo_1EaZAg",
+          "channel": "Quran Reader",
+          "duration": "8m 43s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Ma'arij (المعارج) consists of 44 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the ascending stairways, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 70 in canonical Mushaf order: Al-Ma'arij (المعارج — The Ascending Stairways).",
+          "Revealed as a Makki surah containing 44 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Ma'arij instills in the heart of the listener?",
+          "How does the meaning of \"The Ascending Stairways\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Ma'arij (المعارج — The Ascending Stairways)\n\n**Surah Number:** 70 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 44 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Ma'arij** (*المعارج*, \"The Ascending Stairways\") is the 70th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-70",
+          "title": "Surah Al-Ma'arij Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Ma'arij in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ma'arij is classified as Makki, containing 44 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Ma'arij?",
+              "options": [
+                "44 Ayahs",
+                "54 Ayahs",
+                "39 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ma'arij contains exactly 44 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-71",
+        "number": 71,
+        "surahNumber": 71,
+        "title": "Surah Nuh (نوح) — Noah",
+        "subtitle": "Makki Revelation • 28 Verses",
+        "readingTime": "12 min",
+        "arabic": "نوح",
+        "transliteration": "Nuh",
+        "englishMeaning": "Noah",
+        "versesCount": 28,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "HF7AyTFz-i4",
+          "title": "Quran : 71 Surat Nuh (NOAH)  Arabic and English Translation and Transliteration HD",
+          "url": "https://www.youtube.com/watch?v=HF7AyTFz-i4",
+          "channel": "Quran Reader",
+          "duration": "8m 3s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Nuh (نوح) consists of 28 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on noah, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 71 in canonical Mushaf order: Nuh (نوح — Noah).",
+          "Revealed as a Makki surah containing 28 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Nuh instills in the heart of the listener?",
+          "How does the meaning of \"Noah\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Nuh (نوح — Noah)\n\n**Surah Number:** 71 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 28 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Nuh** (*نوح*, \"Noah\") is the 71th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-71",
+          "title": "Surah Nuh Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Nuh in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Nuh is classified as Makki, containing 28 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Nuh?",
+              "options": [
+                "28 Ayahs",
+                "38 Ayahs",
+                "23 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Nuh contains exactly 28 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-72",
+        "number": 72,
+        "surahNumber": 72,
+        "title": "Surah Al-Jinn (الجن) — The Jinn",
+        "subtitle": "Makki Revelation • 28 Verses",
+        "readingTime": "12 min",
+        "arabic": "الجن",
+        "transliteration": "Al-Jinn",
+        "englishMeaning": "The Jinn",
+        "versesCount": 28,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "3gbthuZVs6Q",
+          "title": "Quran : 72 Surat Al Jinn (The Djinn) Arabic to English Translation and Transliteration",
+          "url": "https://www.youtube.com/watch?v=3gbthuZVs6Q",
+          "channel": "Quran Reader",
+          "duration": "9m 43s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Jinn (الجن) consists of 28 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the jinn, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 72 in canonical Mushaf order: Al-Jinn (الجن — The Jinn).",
+          "Revealed as a Makki surah containing 28 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Jinn instills in the heart of the listener?",
+          "How does the meaning of \"The Jinn\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Jinn (الجن — The Jinn)\n\n**Surah Number:** 72 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 28 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Jinn** (*الجن*, \"The Jinn\") is the 72th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-72",
+          "title": "Surah Al-Jinn Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Jinn in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Jinn is classified as Makki, containing 28 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Jinn?",
+              "options": [
+                "28 Ayahs",
+                "38 Ayahs",
+                "23 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Jinn contains exactly 28 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-73",
+        "number": 73,
+        "surahNumber": 73,
+        "title": "Surah Al-Muzzammil (المزمل) — The Enshrouded One",
+        "subtitle": "Makki Revelation • 20 Verses",
+        "readingTime": "8 min",
+        "arabic": "المزمل",
+        "transliteration": "Al-Muzzammil",
+        "englishMeaning": "The Enshrouded One",
+        "versesCount": 20,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "RxjMl-J09GU",
+          "title": "Quran : 73  Surat Al Muzzamil (The Enshrouded One) Arabic and English Translation HD",
+          "url": "https://www.youtube.com/watch?v=RxjMl-J09GU",
+          "channel": "Quran Reader",
+          "duration": "7m 5s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Muzzammil (المزمل) consists of 20 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the enshrouded one, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 73 in canonical Mushaf order: Al-Muzzammil (المزمل — The Enshrouded One).",
+          "Revealed as a Makki surah containing 20 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Muzzammil instills in the heart of the listener?",
+          "How does the meaning of \"The Enshrouded One\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Muzzammil (المزمل — The Enshrouded One)\n\n**Surah Number:** 73 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 20 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Muzzammil** (*المزمل*, \"The Enshrouded One\") is the 73th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-73",
+          "title": "Surah Al-Muzzammil Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Muzzammil in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Muzzammil is classified as Makki, containing 20 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Muzzammil?",
+              "options": [
+                "20 Ayahs",
+                "30 Ayahs",
+                "15 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Muzzammil contains exactly 20 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-74",
+        "number": 74,
+        "surahNumber": 74,
+        "title": "Surah Al-Muddaththir (المدثر) — The Cloaked One",
+        "subtitle": "Makki Revelation • 56 Verses",
+        "readingTime": "23 min",
+        "arabic": "المدثر",
+        "transliteration": "Al-Muddaththir",
+        "englishMeaning": "The Cloaked One",
+        "versesCount": 56,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "S9NrUf9c4g4",
+          "title": "Quran : 74.  Surat Al Muddathir (The Cloaked One) English Translation and Transliteration with Audio",
+          "url": "https://www.youtube.com/watch?v=S9NrUf9c4g4",
+          "channel": "Quran Reader",
+          "duration": "9m 34s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Muddaththir (المدثر) consists of 56 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the cloaked one, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 74 in canonical Mushaf order: Al-Muddaththir (المدثر — The Cloaked One).",
+          "Revealed as a Makki surah containing 56 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Muddaththir instills in the heart of the listener?",
+          "How does the meaning of \"The Cloaked One\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Muddaththir (المدثر — The Cloaked One)\n\n**Surah Number:** 74 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 56 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Muddaththir** (*المدثر*, \"The Cloaked One\") is the 74th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-74",
+          "title": "Surah Al-Muddaththir Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Muddaththir in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Muddaththir is classified as Makki, containing 56 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Muddaththir?",
+              "options": [
+                "56 Ayahs",
+                "66 Ayahs",
+                "51 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Muddaththir contains exactly 56 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-75",
+        "number": 75,
+        "surahNumber": 75,
+        "title": "Surah Al-Qiyamah (القيامة) — The Resurrection",
+        "subtitle": "Makki Revelation • 40 Verses",
+        "readingTime": "16 min",
+        "arabic": "القيامة",
+        "transliteration": "Al-Qiyamah",
+        "englishMeaning": "The Resurrection",
+        "versesCount": 40,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "jSJQazp4cBk",
+          "title": "Quran : 75  Surat Al Qiyamah  with audio English Translation and Transliteration HD",
+          "url": "https://www.youtube.com/watch?v=jSJQazp4cBk",
+          "channel": "Quran Reader",
+          "duration": "6m 23s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Qiyamah (القيامة) consists of 40 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the resurrection, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 75 in canonical Mushaf order: Al-Qiyamah (القيامة — The Resurrection).",
+          "Revealed as a Makki surah containing 40 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Qiyamah instills in the heart of the listener?",
+          "How does the meaning of \"The Resurrection\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Qiyamah (القيامة — The Resurrection)\n\n**Surah Number:** 75 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 40 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Qiyamah** (*القيامة*, \"The Resurrection\") is the 75th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-75",
+          "title": "Surah Al-Qiyamah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Qiyamah in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Qiyamah is classified as Makki, containing 40 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Qiyamah?",
+              "options": [
+                "40 Ayahs",
+                "50 Ayahs",
+                "35 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Qiyamah contains exactly 40 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-76",
+        "number": 76,
+        "surahNumber": 76,
+        "title": "Surah Al-Insan (الإنسان) — Man",
+        "subtitle": "Madani Revelation • 31 Verses",
+        "readingTime": "13 min",
+        "arabic": "الإنسان",
+        "transliteration": "Al-Insan",
+        "englishMeaning": "Man",
+        "versesCount": 31,
+        "revelationType": "Madani",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "RNlmrBzKC1U",
+          "title": "Quran : 76 Surat Al-Insan (The Mankind) - Arabic and English Translation and Transliteration",
+          "url": "https://www.youtube.com/watch?v=RNlmrBzKC1U",
+          "channel": "Quran Reader",
+          "duration": "9m 2s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Insan (الإنسان) consists of 31 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on man, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 76 in canonical Mushaf order: Al-Insan (الإنسان — Man).",
+          "Revealed as a Madani surah containing 31 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Insan instills in the heart of the listener?",
+          "How does the meaning of \"Man\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Insan (الإنسان — Man)\n\n**Surah Number:** 76 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 31 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Insan** (*الإنسان*, \"Man\") is the 76th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-76",
+          "title": "Surah Al-Insan Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Insan in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Insan is classified as Madani, containing 31 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Insan?",
+              "options": [
+                "31 Ayahs",
+                "41 Ayahs",
+                "26 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Insan contains exactly 31 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-77",
+        "number": 77,
+        "surahNumber": 77,
+        "title": "Surah Al-Mursalat (المرسلات) — The Emissaries",
+        "subtitle": "Makki Revelation • 50 Verses",
+        "readingTime": "20 min",
+        "arabic": "المرسلات",
+        "transliteration": "Al-Mursalat",
+        "englishMeaning": "The Emissaries",
+        "versesCount": 50,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "ailp_ms37CM",
+          "title": "Quran: 77. Surat Al-Mursalat (The Emissaries): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=ailp_ms37CM",
+          "channel": "The Meaning Of Islam",
+          "duration": "8m 20s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Mursalat (المرسلات) consists of 50 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the emissaries, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 77 in canonical Mushaf order: Al-Mursalat (المرسلات — The Emissaries).",
+          "Revealed as a Makki surah containing 50 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Mursalat instills in the heart of the listener?",
+          "How does the meaning of \"The Emissaries\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Mursalat (المرسلات — The Emissaries)\n\n**Surah Number:** 77 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 50 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Mursalat** (*المرسلات*, \"The Emissaries\") is the 77th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-77",
+          "title": "Surah Al-Mursalat Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Mursalat in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Mursalat is classified as Makki, containing 50 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Mursalat?",
+              "options": [
+                "50 Ayahs",
+                "60 Ayahs",
+                "45 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Mursalat contains exactly 50 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-78",
+        "number": 78,
+        "surahNumber": 78,
+        "title": "Surah An-Naba (النبأ) — The Tidings",
+        "subtitle": "Makki Revelation • 40 Verses",
+        "readingTime": "16 min",
+        "arabic": "النبأ",
+        "transliteration": "An-Naba",
+        "englishMeaning": "The Tidings",
+        "versesCount": 40,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "uprYj4MZ3lE",
+          "title": "Quran: 78. Surat An-Naba (The Tidings): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=uprYj4MZ3lE",
+          "channel": "The Meaning Of Islam",
+          "duration": "7m 48s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah An-Naba (النبأ) consists of 40 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the tidings, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 78 in canonical Mushaf order: An-Naba (النبأ — The Tidings).",
+          "Revealed as a Makki surah containing 40 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah An-Naba instills in the heart of the listener?",
+          "How does the meaning of \"The Tidings\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah An-Naba (النبأ — The Tidings)\n\n**Surah Number:** 78 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 40 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **An-Naba** (*النبأ*, \"The Tidings\") is the 78th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-78",
+          "title": "Surah An-Naba Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah An-Naba in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Naba is classified as Makki, containing 40 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah An-Naba?",
+              "options": [
+                "40 Ayahs",
+                "50 Ayahs",
+                "35 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Naba contains exactly 40 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-79",
+        "number": 79,
+        "surahNumber": 79,
+        "title": "Surah An-Nazi'at (النازعات) — Those Who Extract",
+        "subtitle": "Makki Revelation • 46 Verses",
+        "readingTime": "19 min",
+        "arabic": "النازعات",
+        "transliteration": "An-Nazi'at",
+        "englishMeaning": "Those Who Extract",
+        "versesCount": 46,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "QIJ5H8M0SKU",
+          "title": "Quran: 79. Surat An-Naziat (Those Who Drag Forth): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=QIJ5H8M0SKU",
+          "channel": "The Meaning Of Islam",
+          "duration": "7m 39s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah An-Nazi'at (النازعات) consists of 46 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on those who extract, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 79 in canonical Mushaf order: An-Nazi'at (النازعات — Those Who Extract).",
+          "Revealed as a Makki surah containing 46 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah An-Nazi'at instills in the heart of the listener?",
+          "How does the meaning of \"Those Who Extract\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah An-Nazi'at (النازعات — Those Who Extract)\n\n**Surah Number:** 79 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 46 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **An-Nazi'at** (*النازعات*, \"Those Who Extract\") is the 79th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-79",
+          "title": "Surah An-Nazi'at Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah An-Nazi'at in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Nazi'at is classified as Makki, containing 46 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah An-Nazi'at?",
+              "options": [
+                "46 Ayahs",
+                "56 Ayahs",
+                "41 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Nazi'at contains exactly 46 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-80",
+        "number": 80,
+        "surahNumber": 80,
+        "title": "Surah 'Abasa (عبس) — He Frowned",
+        "subtitle": "Makki Revelation • 42 Verses",
+        "readingTime": "17 min",
+        "arabic": "عبس",
+        "transliteration": "'Abasa",
+        "englishMeaning": "He Frowned",
+        "versesCount": 42,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "ChQ9io6uumg",
+          "title": "Quran: 80. Surat Abasa (He Frowned): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=ChQ9io6uumg",
+          "channel": "The Meaning Of Islam",
+          "duration": "6m 13s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah 'Abasa (عبس) consists of 42 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on he frowned, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 80 in canonical Mushaf order: 'Abasa (عبس — He Frowned).",
+          "Revealed as a Makki surah containing 42 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah 'Abasa instills in the heart of the listener?",
+          "How does the meaning of \"He Frowned\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah 'Abasa (عبس — He Frowned)\n\n**Surah Number:** 80 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 42 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **'Abasa** (*عبس*, \"He Frowned\") is the 80th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-80",
+          "title": "Surah 'Abasa Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah 'Abasa in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah 'Abasa is classified as Makki, containing 42 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah 'Abasa?",
+              "options": [
+                "42 Ayahs",
+                "52 Ayahs",
+                "37 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah 'Abasa contains exactly 42 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-81",
+        "number": 81,
+        "surahNumber": 81,
+        "title": "Surah At-Takwir (التكوير) — The Overthrowing",
+        "subtitle": "Makki Revelation • 29 Verses",
+        "readingTime": "12 min",
+        "arabic": "التكوير",
+        "transliteration": "At-Takwir",
+        "englishMeaning": "The Overthrowing",
+        "versesCount": 29,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "StvXVPBbZQs",
+          "title": "Quran: 81. Surat At-Takwir (The Overthrowing): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=StvXVPBbZQs",
+          "channel": "The Meaning Of Islam",
+          "duration": "4m 41s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah At-Takwir (التكوير) consists of 29 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the overthrowing, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 81 in canonical Mushaf order: At-Takwir (التكوير — The Overthrowing).",
+          "Revealed as a Makki surah containing 29 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah At-Takwir instills in the heart of the listener?",
+          "How does the meaning of \"The Overthrowing\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah At-Takwir (التكوير — The Overthrowing)\n\n**Surah Number:** 81 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 29 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **At-Takwir** (*التكوير*, \"The Overthrowing\") is the 81th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-81",
+          "title": "Surah At-Takwir Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah At-Takwir in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Takwir is classified as Makki, containing 29 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah At-Takwir?",
+              "options": [
+                "29 Ayahs",
+                "39 Ayahs",
+                "24 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Takwir contains exactly 29 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-82",
+        "number": 82,
+        "surahNumber": 82,
+        "title": "Surah Al-Infitar (الانفطار) — The Cleaving",
+        "subtitle": "Makki Revelation • 19 Verses",
+        "readingTime": "8 min",
+        "arabic": "الانفطار",
+        "transliteration": "Al-Infitar",
+        "englishMeaning": "The Cleaving",
+        "versesCount": 19,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "19Mp6pSvR0c",
+          "title": "Quran: 82. Surat Al-Infitar (The Cleaving): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=19Mp6pSvR0c",
+          "channel": "The Meaning Of Islam",
+          "duration": "3m 48s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Infitar (الانفطار) consists of 19 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the cleaving, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 82 in canonical Mushaf order: Al-Infitar (الانفطار — The Cleaving).",
+          "Revealed as a Makki surah containing 19 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Infitar instills in the heart of the listener?",
+          "How does the meaning of \"The Cleaving\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Infitar (الانفطار — The Cleaving)\n\n**Surah Number:** 82 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 19 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Infitar** (*الانفطار*, \"The Cleaving\") is the 82th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-82",
+          "title": "Surah Al-Infitar Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Infitar in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Infitar is classified as Makki, containing 19 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Infitar?",
+              "options": [
+                "19 Ayahs",
+                "29 Ayahs",
+                "14 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Infitar contains exactly 19 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-83",
+        "number": 83,
+        "surahNumber": 83,
+        "title": "Surah Al-Mutaffifin (المطففين) — The Defrauding",
+        "subtitle": "Makki Revelation • 36 Verses",
+        "readingTime": "15 min",
+        "arabic": "المطففين",
+        "transliteration": "Al-Mutaffifin",
+        "englishMeaning": "The Defrauding",
+        "versesCount": 36,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "zpqOOtu9Qf0",
+          "title": "Quran: 83. Surat Al-Mutaffifin (The Defrauding): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=zpqOOtu9Qf0",
+          "channel": "The Meaning Of Islam",
+          "duration": "8m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Mutaffifin (المطففين) consists of 36 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the defrauding, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 83 in canonical Mushaf order: Al-Mutaffifin (المطففين — The Defrauding).",
+          "Revealed as a Makki surah containing 36 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Mutaffifin instills in the heart of the listener?",
+          "How does the meaning of \"The Defrauding\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Mutaffifin (المطففين — The Defrauding)\n\n**Surah Number:** 83 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 36 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Mutaffifin** (*المطففين*, \"The Defrauding\") is the 83th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-83",
+          "title": "Surah Al-Mutaffifin Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Mutaffifin in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Mutaffifin is classified as Makki, containing 36 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Mutaffifin?",
+              "options": [
+                "36 Ayahs",
+                "46 Ayahs",
+                "31 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Mutaffifin contains exactly 36 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-84",
+        "number": 84,
+        "surahNumber": 84,
+        "title": "Surah Al-Inshiqaq (الانشقاق) — The Sundering, Splitting Open",
+        "subtitle": "Makki Revelation • 25 Verses",
+        "readingTime": "10 min",
+        "arabic": "الانشقاق",
+        "transliteration": "Al-Inshiqaq",
+        "englishMeaning": "The Sundering, Splitting Open",
+        "versesCount": 25,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "Cpwq1H9ZPVo",
+          "title": "Quran: 84. Surat Al-Inshiqaq (The Sundering, Splitting Open): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=Cpwq1H9ZPVo",
+          "channel": "The Meaning Of Islam",
+          "duration": "4m 37s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Inshiqaq (الانشقاق) consists of 25 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the sundering, splitting open, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 84 in canonical Mushaf order: Al-Inshiqaq (الانشقاق — The Sundering, Splitting Open).",
+          "Revealed as a Makki surah containing 25 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Inshiqaq instills in the heart of the listener?",
+          "How does the meaning of \"The Sundering, Splitting Open\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Inshiqaq (الانشقاق — The Sundering, Splitting Open)\n\n**Surah Number:** 84 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 25 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Inshiqaq** (*الانشقاق*, \"The Sundering, Splitting Open\") is the 84th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-84",
+          "title": "Surah Al-Inshiqaq Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Inshiqaq in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Inshiqaq is classified as Makki, containing 25 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Inshiqaq?",
+              "options": [
+                "25 Ayahs",
+                "35 Ayahs",
+                "20 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Inshiqaq contains exactly 25 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-85",
+        "number": 85,
+        "surahNumber": 85,
+        "title": "Surah Al-Buruj (البروج) — The Mansions of the Stars",
+        "subtitle": "Makki Revelation • 22 Verses",
+        "readingTime": "9 min",
+        "arabic": "البروج",
+        "transliteration": "Al-Buruj",
+        "englishMeaning": "The Mansions of the Stars",
+        "versesCount": 22,
+        "revelationType": "Makki",
+        "moduleNumber": 6,
+        "moduleTitle": "Awsat Al-Mufassal (The Medium Divided Surahs)",
+        "videoLesson": {
+          "videoId": "z3V6-fGaH9c",
+          "title": "Quran: 85. Surat Al-Buruj (The Mansions of the Stars): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=z3V6-fGaH9c",
+          "channel": "The Meaning Of Islam",
+          "duration": "5m 15s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Buruj (البروج) consists of 22 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the mansions of the stars, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 85 in canonical Mushaf order: Al-Buruj (البروج — The Mansions of the Stars).",
+          "Revealed as a Makki surah containing 22 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Buruj instills in the heart of the listener?",
+          "How does the meaning of \"The Mansions of the Stars\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Buruj (البروج — The Mansions of the Stars)\n\n**Surah Number:** 85 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 22 Ayahs  \n**Curriculum Division:** Awsat Al-Mufassal (The Medium Divided Surahs) (Surahs 67 – 85)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Buruj** (*البروج*, \"The Mansions of the Stars\") is the 85th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-85",
+          "title": "Surah Al-Buruj Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Buruj in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Buruj is classified as Makki, containing 22 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Buruj?",
+              "options": [
+                "22 Ayahs",
+                "32 Ayahs",
+                "17 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Buruj contains exactly 22 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-86",
+        "number": 86,
+        "surahNumber": 86,
+        "title": "Surah At-Tariq (الطارق) — The Night Comer",
+        "subtitle": "Makki Revelation • 17 Verses",
+        "readingTime": "7 min",
+        "arabic": "الطارق",
+        "transliteration": "At-Tariq",
+        "englishMeaning": "The Night Comer",
+        "versesCount": 17,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "VzFsp8dbfdw",
+          "title": "Quran: 86. Surat At-Tariq (The Night Comer): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=VzFsp8dbfdw",
+          "channel": "The Meaning Of Islam",
+          "duration": "3m 6s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah At-Tariq (الطارق) consists of 17 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the night comer, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 86 in canonical Mushaf order: At-Tariq (الطارق — The Night Comer).",
+          "Revealed as a Makki surah containing 17 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah At-Tariq instills in the heart of the listener?",
+          "How does the meaning of \"The Night Comer\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah At-Tariq (الطارق — The Night Comer)\n\n**Surah Number:** 86 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 17 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **At-Tariq** (*الطارق*, \"The Night Comer\") is the 86th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-86",
+          "title": "Surah At-Tariq Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah At-Tariq in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Tariq is classified as Makki, containing 17 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah At-Tariq?",
+              "options": [
+                "17 Ayahs",
+                "27 Ayahs",
+                "12 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Tariq contains exactly 17 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-87",
+        "number": 87,
+        "surahNumber": 87,
+        "title": "Surah Al-A'la (الأعلى) — The Most High",
+        "subtitle": "Makki Revelation • 19 Verses",
+        "readingTime": "8 min",
+        "arabic": "الأعلى",
+        "transliteration": "Al-A'la",
+        "englishMeaning": "The Most High",
+        "versesCount": 19,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "02S3jnoAY2k",
+          "title": "Quran: 87. Surat Al-Ala (The Most High): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=02S3jnoAY2k",
+          "channel": "The Meaning Of Islam",
+          "duration": "3m 15s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-A'la (الأعلى) consists of 19 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the most high, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 87 in canonical Mushaf order: Al-A'la (الأعلى — The Most High).",
+          "Revealed as a Makki surah containing 19 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-A'la instills in the heart of the listener?",
+          "How does the meaning of \"The Most High\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-A'la (الأعلى — The Most High)\n\n**Surah Number:** 87 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 19 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-A'la** (*الأعلى*, \"The Most High\") is the 87th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-87",
+          "title": "Surah Al-A'la Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-A'la in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-A'la is classified as Makki, containing 19 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-A'la?",
+              "options": [
+                "19 Ayahs",
+                "29 Ayahs",
+                "14 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-A'la contains exactly 19 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-88",
+        "number": 88,
+        "surahNumber": 88,
+        "title": "Surah Al-Ghashiyah (الغاشية) — The Overwhelming",
+        "subtitle": "Makki Revelation • 26 Verses",
+        "readingTime": "11 min",
+        "arabic": "الغاشية",
+        "transliteration": "Al-Ghashiyah",
+        "englishMeaning": "The Overwhelming",
+        "versesCount": 26,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "SKuFg8kt1EI",
+          "title": "Quran: 88. Surat Al-Ghashiyah (The Overwhelming): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=SKuFg8kt1EI",
+          "channel": "The Meaning Of Islam",
+          "duration": "4m 4s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Ghashiyah (الغاشية) consists of 26 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the overwhelming, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 88 in canonical Mushaf order: Al-Ghashiyah (الغاشية — The Overwhelming).",
+          "Revealed as a Makki surah containing 26 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Ghashiyah instills in the heart of the listener?",
+          "How does the meaning of \"The Overwhelming\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Ghashiyah (الغاشية — The Overwhelming)\n\n**Surah Number:** 88 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 26 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Ghashiyah** (*الغاشية*, \"The Overwhelming\") is the 88th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-88",
+          "title": "Surah Al-Ghashiyah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Ghashiyah in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ghashiyah is classified as Makki, containing 26 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Ghashiyah?",
+              "options": [
+                "26 Ayahs",
+                "36 Ayahs",
+                "21 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ghashiyah contains exactly 26 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-89",
+        "number": 89,
+        "surahNumber": 89,
+        "title": "Surah Al-Fajr (الفجر) — The Dawn",
+        "subtitle": "Makki Revelation • 30 Verses",
+        "readingTime": "12 min",
+        "arabic": "الفجر",
+        "transliteration": "Al-Fajr",
+        "englishMeaning": "The Dawn",
+        "versesCount": 30,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "ZwVSFJsjNlE",
+          "title": "Quran: 89. Surat Al-Fajr (The Dawn): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=ZwVSFJsjNlE",
+          "channel": "The Meaning Of Islam",
+          "duration": "6m",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Fajr (الفجر) consists of 30 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the dawn, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 89 in canonical Mushaf order: Al-Fajr (الفجر — The Dawn).",
+          "Revealed as a Makki surah containing 30 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Fajr instills in the heart of the listener?",
+          "How does the meaning of \"The Dawn\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Fajr (الفجر — The Dawn)\n\n**Surah Number:** 89 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 30 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Fajr** (*الفجر*, \"The Dawn\") is the 89th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-89",
+          "title": "Surah Al-Fajr Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Fajr in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Fajr is classified as Makki, containing 30 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Fajr?",
+              "options": [
+                "30 Ayahs",
+                "40 Ayahs",
+                "25 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Fajr contains exactly 30 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-90",
+        "number": 90,
+        "surahNumber": 90,
+        "title": "Surah Al-Balad (البلد) — The City",
+        "subtitle": "Makki Revelation • 20 Verses",
+        "readingTime": "8 min",
+        "arabic": "البلد",
+        "transliteration": "Al-Balad",
+        "englishMeaning": "The City",
+        "versesCount": 20,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "SzGtLMf3xJY",
+          "title": "Quran: 90. Surah Al-Balad (The City): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=SzGtLMf3xJY",
+          "channel": "The Meaning Of Islam",
+          "duration": "3m 32s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Balad (البلد) consists of 20 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the city, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 90 in canonical Mushaf order: Al-Balad (البلد — The City).",
+          "Revealed as a Makki surah containing 20 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Balad instills in the heart of the listener?",
+          "How does the meaning of \"The City\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Balad (البلد — The City)\n\n**Surah Number:** 90 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 20 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Balad** (*البلد*, \"The City\") is the 90th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-90",
+          "title": "Surah Al-Balad Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Balad in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Balad is classified as Makki, containing 20 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Balad?",
+              "options": [
+                "20 Ayahs",
+                "30 Ayahs",
+                "15 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Balad contains exactly 20 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-91",
+        "number": 91,
+        "surahNumber": 91,
+        "title": "Surah Ash-Shams (الشمس) — The Sun",
+        "subtitle": "Makki Revelation • 15 Verses",
+        "readingTime": "6 min",
+        "arabic": "الشمس",
+        "transliteration": "Ash-Shams",
+        "englishMeaning": "The Sun",
+        "versesCount": 15,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "a77YrcF3QNg",
+          "title": "Quran: 91. Surah Ash-Shams (The Sun): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=a77YrcF3QNg",
+          "channel": "The Meaning Of Islam",
+          "duration": "2m 47s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ash-Shams (الشمس) consists of 15 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the sun, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 91 in canonical Mushaf order: Ash-Shams (الشمس — The Sun).",
+          "Revealed as a Makki surah containing 15 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ash-Shams instills in the heart of the listener?",
+          "How does the meaning of \"The Sun\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ash-Shams (الشمس — The Sun)\n\n**Surah Number:** 91 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 15 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ash-Shams** (*الشمس*, \"The Sun\") is the 91th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-91",
+          "title": "Surah Ash-Shams Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ash-Shams in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ash-Shams is classified as Makki, containing 15 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ash-Shams?",
+              "options": [
+                "15 Ayahs",
+                "25 Ayahs",
+                "10 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ash-Shams contains exactly 15 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-92",
+        "number": 92,
+        "surahNumber": 92,
+        "title": "Surah Al-Layl (الليل) — The Night",
+        "subtitle": "Makki Revelation • 21 Verses",
+        "readingTime": "9 min",
+        "arabic": "الليل",
+        "transliteration": "Al-Layl",
+        "englishMeaning": "The Night",
+        "versesCount": 21,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "HJM994cn1Fs",
+          "title": "Quran: 92. Surah Al-Layl (The Night): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=HJM994cn1Fs",
+          "channel": "The Meaning Of Islam",
+          "duration": "3m 30s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Layl (الليل) consists of 21 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the night, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 92 in canonical Mushaf order: Al-Layl (الليل — The Night).",
+          "Revealed as a Makki surah containing 21 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Layl instills in the heart of the listener?",
+          "How does the meaning of \"The Night\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Layl (الليل — The Night)\n\n**Surah Number:** 92 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 21 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Layl** (*الليل*, \"The Night\") is the 92th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-92",
+          "title": "Surah Al-Layl Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Layl in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Layl is classified as Makki, containing 21 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Layl?",
+              "options": [
+                "21 Ayahs",
+                "31 Ayahs",
+                "16 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Layl contains exactly 21 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-93",
+        "number": 93,
+        "surahNumber": 93,
+        "title": "Surah Ad-Duha (الضحى) — The Morning Hours",
+        "subtitle": "Makki Revelation • 11 Verses",
+        "readingTime": "5 min",
+        "arabic": "الضحى",
+        "transliteration": "Ad-Duha",
+        "englishMeaning": "The Morning Hours",
+        "versesCount": 11,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "ICgxYb1X9I0",
+          "title": "Quran: 93. Surah Ad-Duhaa (The Morning Hours): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=ICgxYb1X9I0",
+          "channel": "The Meaning Of Islam",
+          "duration": "2m 11s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ad-Duha (الضحى) consists of 11 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the morning hours, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 93 in canonical Mushaf order: Ad-Duha (الضحى — The Morning Hours).",
+          "Revealed as a Makki surah containing 11 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ad-Duha instills in the heart of the listener?",
+          "How does the meaning of \"The Morning Hours\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ad-Duha (الضحى — The Morning Hours)\n\n**Surah Number:** 93 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 11 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ad-Duha** (*الضحى*, \"The Morning Hours\") is the 93th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-93",
+          "title": "Surah Ad-Duha Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ad-Duha in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ad-Duha is classified as Makki, containing 11 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ad-Duha?",
+              "options": [
+                "11 Ayahs",
+                "21 Ayahs",
+                "6 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ad-Duha contains exactly 11 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-94",
+        "number": 94,
+        "surahNumber": 94,
+        "title": "Surah Ash-Sharh (الشرح) — The Relief",
+        "subtitle": "Makki Revelation • 8 Verses",
+        "readingTime": "5 min",
+        "arabic": "الشرح",
+        "transliteration": "Ash-Sharh",
+        "englishMeaning": "The Relief",
+        "versesCount": 8,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "XoaQvMIXXf8",
+          "title": "Quran: 94. Surah Ash-Sharh (The Relief): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=XoaQvMIXXf8",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 33s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Ash-Sharh (الشرح) consists of 8 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the relief, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 94 in canonical Mushaf order: Ash-Sharh (الشرح — The Relief).",
+          "Revealed as a Makki surah containing 8 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Ash-Sharh instills in the heart of the listener?",
+          "How does the meaning of \"The Relief\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Ash-Sharh (الشرح — The Relief)\n\n**Surah Number:** 94 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 8 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Ash-Sharh** (*الشرح*, \"The Relief\") is the 94th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-94",
+          "title": "Surah Ash-Sharh Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Ash-Sharh in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ash-Sharh is classified as Makki, containing 8 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Ash-Sharh?",
+              "options": [
+                "8 Ayahs",
+                "18 Ayahs",
+                "3 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Ash-Sharh contains exactly 8 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-95",
+        "number": 95,
+        "surahNumber": 95,
+        "title": "Surah At-Tin (التين) — The Fig",
+        "subtitle": "Makki Revelation • 8 Verses",
+        "readingTime": "5 min",
+        "arabic": "التين",
+        "transliteration": "At-Tin",
+        "englishMeaning": "The Fig",
+        "versesCount": 8,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "S4RN6imMO8Y",
+          "title": "Quran: 95. Surah At-Tin (The Fig): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=S4RN6imMO8Y",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 57s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah At-Tin (التين) consists of 8 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the fig, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 95 in canonical Mushaf order: At-Tin (التين — The Fig).",
+          "Revealed as a Makki surah containing 8 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah At-Tin instills in the heart of the listener?",
+          "How does the meaning of \"The Fig\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah At-Tin (التين — The Fig)\n\n**Surah Number:** 95 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 8 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **At-Tin** (*التين*, \"The Fig\") is the 95th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-95",
+          "title": "Surah At-Tin Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah At-Tin in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Tin is classified as Makki, containing 8 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah At-Tin?",
+              "options": [
+                "8 Ayahs",
+                "18 Ayahs",
+                "3 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Tin contains exactly 8 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-96",
+        "number": 96,
+        "surahNumber": 96,
+        "title": "Surah Al-'Alaq (العلق) — The Clot",
+        "subtitle": "Makki Revelation • 19 Verses",
+        "readingTime": "8 min",
+        "arabic": "العلق",
+        "transliteration": "Al-'Alaq",
+        "englishMeaning": "The Clot",
+        "versesCount": 19,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "2R30TkTj1tY",
+          "title": "Quran: 96. Surah Al-Alaq (The Clot): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=2R30TkTj1tY",
+          "channel": "The Meaning Of Islam",
+          "duration": "3m 1s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-'Alaq (العلق) consists of 19 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the clot, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 96 in canonical Mushaf order: Al-'Alaq (العلق — The Clot).",
+          "Revealed as a Makki surah containing 19 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-'Alaq instills in the heart of the listener?",
+          "How does the meaning of \"The Clot\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-'Alaq (العلق — The Clot)\n\n**Surah Number:** 96 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 19 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-'Alaq** (*العلق*, \"The Clot\") is the 96th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-96",
+          "title": "Surah Al-'Alaq Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-'Alaq in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-'Alaq is classified as Makki, containing 19 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-'Alaq?",
+              "options": [
+                "19 Ayahs",
+                "29 Ayahs",
+                "14 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-'Alaq contains exactly 19 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-97",
+        "number": 97,
+        "surahNumber": 97,
+        "title": "Surah Al-Qadr (القدر) — The Power",
+        "subtitle": "Makki Revelation • 5 Verses",
+        "readingTime": "5 min",
+        "arabic": "القدر",
+        "transliteration": "Al-Qadr",
+        "englishMeaning": "The Power",
+        "versesCount": 5,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "Abr1lkUweTU",
+          "title": "Quran: 97. Surah Al-Qadr (The Power): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=Abr1lkUweTU",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 30s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Qadr (القدر) consists of 5 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the power, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 97 in canonical Mushaf order: Al-Qadr (القدر — The Power).",
+          "Revealed as a Makki surah containing 5 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Qadr instills in the heart of the listener?",
+          "How does the meaning of \"The Power\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Qadr (القدر — The Power)\n\n**Surah Number:** 97 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 5 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Qadr** (*القدر*, \"The Power\") is the 97th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-97",
+          "title": "Surah Al-Qadr Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Qadr in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Qadr is classified as Makki, containing 5 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Qadr?",
+              "options": [
+                "5 Ayahs",
+                "15 Ayahs",
+                "1 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Qadr contains exactly 5 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-98",
+        "number": 98,
+        "surahNumber": 98,
+        "title": "Surah Al-Bayyinah (البينة) — The Clear Proof",
+        "subtitle": "Madani Revelation • 8 Verses",
+        "readingTime": "5 min",
+        "arabic": "البينة",
+        "transliteration": "Al-Bayyinah",
+        "englishMeaning": "The Clear Proof",
+        "versesCount": 8,
+        "revelationType": "Madani",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "Mbkz_olg0Qw",
+          "title": "Quran: 98. Surah Al-Bayyinah (The Clear Proof): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=Mbkz_olg0Qw",
+          "channel": "The Meaning Of Islam",
+          "duration": "3m 41s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Bayyinah (البينة) consists of 8 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the clear proof, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 98 in canonical Mushaf order: Al-Bayyinah (البينة — The Clear Proof).",
+          "Revealed as a Madani surah containing 8 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Bayyinah instills in the heart of the listener?",
+          "How does the meaning of \"The Clear Proof\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Bayyinah (البينة — The Clear Proof)\n\n**Surah Number:** 98 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 8 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Bayyinah** (*البينة*, \"The Clear Proof\") is the 98th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-98",
+          "title": "Surah Al-Bayyinah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Bayyinah in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Bayyinah is classified as Madani, containing 8 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Bayyinah?",
+              "options": [
+                "8 Ayahs",
+                "18 Ayahs",
+                "3 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Bayyinah contains exactly 8 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-99",
+        "number": 99,
+        "surahNumber": 99,
+        "title": "Surah Az-Zalzalah (الزلزلة) — The Earthquake",
+        "subtitle": "Madani Revelation • 8 Verses",
+        "readingTime": "5 min",
+        "arabic": "الزلزلة",
+        "transliteration": "Az-Zalzalah",
+        "englishMeaning": "The Earthquake",
+        "versesCount": 8,
+        "revelationType": "Madani",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "XunR9qLCaco",
+          "title": "Quran: 99. Surah Az-Zalzalah (The Earthquake): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=XunR9qLCaco",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 53s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Az-Zalzalah (الزلزلة) consists of 8 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on the earthquake, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 99 in canonical Mushaf order: Az-Zalzalah (الزلزلة — The Earthquake).",
+          "Revealed as a Madani surah containing 8 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Az-Zalzalah instills in the heart of the listener?",
+          "How does the meaning of \"The Earthquake\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Az-Zalzalah (الزلزلة — The Earthquake)\n\n**Surah Number:** 99 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 8 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Az-Zalzalah** (*الزلزلة*, \"The Earthquake\") is the 99th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-99",
+          "title": "Surah Az-Zalzalah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Az-Zalzalah in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Az-Zalzalah is classified as Madani, containing 8 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Az-Zalzalah?",
+              "options": [
+                "8 Ayahs",
+                "18 Ayahs",
+                "3 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Az-Zalzalah contains exactly 8 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-100",
+        "number": 100,
+        "surahNumber": 100,
+        "title": "Surah Al-'Adiyat (العاديات) — The Courser",
+        "subtitle": "Makki Revelation • 11 Verses",
+        "readingTime": "5 min",
+        "arabic": "العاديات",
+        "transliteration": "Al-'Adiyat",
+        "englishMeaning": "The Courser",
+        "versesCount": 11,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "Fa4qJZsXkcc",
+          "title": "Quran: 100. Surah Al-Adiyat (The Courser): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=Fa4qJZsXkcc",
+          "channel": "The Meaning Of Islam",
+          "duration": "2m 13s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-'Adiyat (العاديات) consists of 11 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the courser, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 100 in canonical Mushaf order: Al-'Adiyat (العاديات — The Courser).",
+          "Revealed as a Makki surah containing 11 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-'Adiyat instills in the heart of the listener?",
+          "How does the meaning of \"The Courser\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-'Adiyat (العاديات — The Courser)\n\n**Surah Number:** 100 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 11 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-'Adiyat** (*العاديات*, \"The Courser\") is the 100th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-100",
+          "title": "Surah Al-'Adiyat Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-'Adiyat in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-'Adiyat is classified as Makki, containing 11 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-'Adiyat?",
+              "options": [
+                "11 Ayahs",
+                "21 Ayahs",
+                "6 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-'Adiyat contains exactly 11 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-101",
+        "number": 101,
+        "surahNumber": 101,
+        "title": "Surah Al-Qari'ah (القارعة) — The Calamity",
+        "subtitle": "Makki Revelation • 11 Verses",
+        "readingTime": "5 min",
+        "arabic": "القارعة",
+        "transliteration": "Al-Qari'ah",
+        "englishMeaning": "The Calamity",
+        "versesCount": 11,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "gWhVvANWOQs",
+          "title": "Quran: 101. Surah Al-Qari'ah (The Calamity): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=gWhVvANWOQs",
+          "channel": "The Meaning Of Islam",
+          "duration": "2m 1s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Qari'ah (القارعة) consists of 11 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the calamity, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 101 in canonical Mushaf order: Al-Qari'ah (القارعة — The Calamity).",
+          "Revealed as a Makki surah containing 11 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Qari'ah instills in the heart of the listener?",
+          "How does the meaning of \"The Calamity\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Qari'ah (القارعة — The Calamity)\n\n**Surah Number:** 101 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 11 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Qari'ah** (*القارعة*, \"The Calamity\") is the 101th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-101",
+          "title": "Surah Al-Qari'ah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Qari'ah in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Qari'ah is classified as Makki, containing 11 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Qari'ah?",
+              "options": [
+                "11 Ayahs",
+                "21 Ayahs",
+                "6 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Qari'ah contains exactly 11 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-102",
+        "number": 102,
+        "surahNumber": 102,
+        "title": "Surah At-Takathur (التكاثر) — The Rivalry for Worldly Increase",
+        "subtitle": "Makki Revelation • 8 Verses",
+        "readingTime": "5 min",
+        "arabic": "التكاثر",
+        "transliteration": "At-Takathur",
+        "englishMeaning": "The Rivalry for Worldly Increase",
+        "versesCount": 8,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "R8D7rztcLkY",
+          "title": "Quran: 102. Surah At-Takathur (The Rivalry for Worldly Increase): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=R8D7rztcLkY",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 53s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah At-Takathur (التكاثر) consists of 8 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the rivalry for worldly increase, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 102 in canonical Mushaf order: At-Takathur (التكاثر — The Rivalry for Worldly Increase).",
+          "Revealed as a Makki surah containing 8 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah At-Takathur instills in the heart of the listener?",
+          "How does the meaning of \"The Rivalry for Worldly Increase\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah At-Takathur (التكاثر — The Rivalry for Worldly Increase)\n\n**Surah Number:** 102 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 8 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **At-Takathur** (*التكاثر*, \"The Rivalry for Worldly Increase\") is the 102th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-102",
+          "title": "Surah At-Takathur Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah At-Takathur in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Takathur is classified as Makki, containing 8 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah At-Takathur?",
+              "options": [
+                "8 Ayahs",
+                "18 Ayahs",
+                "3 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah At-Takathur contains exactly 8 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-103",
+        "number": 103,
+        "surahNumber": 103,
+        "title": "Surah Al-'Asr (العصر) — The Declining Day",
+        "subtitle": "Makki Revelation • 3 Verses",
+        "readingTime": "5 min",
+        "arabic": "العصر",
+        "transliteration": "Al-'Asr",
+        "englishMeaning": "The Declining Day",
+        "versesCount": 3,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "hbLAXTzKokU",
+          "title": "Quran: 103. Surah Al-Asr (The Declining Day): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=hbLAXTzKokU",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 5s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-'Asr (العصر) consists of 3 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the declining day, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 103 in canonical Mushaf order: Al-'Asr (العصر — The Declining Day).",
+          "Revealed as a Makki surah containing 3 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-'Asr instills in the heart of the listener?",
+          "How does the meaning of \"The Declining Day\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-'Asr (العصر — The Declining Day)\n\n**Surah Number:** 103 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 3 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-'Asr** (*العصر*, \"The Declining Day\") is the 103th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-103",
+          "title": "Surah Al-'Asr Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-'Asr in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-'Asr is classified as Makki, containing 3 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-'Asr?",
+              "options": [
+                "3 Ayahs",
+                "13 Ayahs",
+                "1 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-'Asr contains exactly 3 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-104",
+        "number": 104,
+        "surahNumber": 104,
+        "title": "Surah Al-Humazah (الهمزة) — The Traducer/Gossipmonger",
+        "subtitle": "Makki Revelation • 9 Verses",
+        "readingTime": "5 min",
+        "arabic": "الهمزة",
+        "transliteration": "Al-Humazah",
+        "englishMeaning": "The Traducer/Gossipmonger",
+        "versesCount": 9,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "O_H8_-OK5bI",
+          "title": "Quran: 104. Surah Al-Humazah (The Traducer/Gossipmonger): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=O_H8_-OK5bI",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 51s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Humazah (الهمزة) consists of 9 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the traducer/gossipmonger, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 104 in canonical Mushaf order: Al-Humazah (الهمزة — The Traducer/Gossipmonger).",
+          "Revealed as a Makki surah containing 9 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Humazah instills in the heart of the listener?",
+          "How does the meaning of \"The Traducer/Gossipmonger\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Humazah (الهمزة — The Traducer/Gossipmonger)\n\n**Surah Number:** 104 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 9 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Humazah** (*الهمزة*, \"The Traducer/Gossipmonger\") is the 104th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-104",
+          "title": "Surah Al-Humazah Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Humazah in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Humazah is classified as Makki, containing 9 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Humazah?",
+              "options": [
+                "9 Ayahs",
+                "19 Ayahs",
+                "4 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Humazah contains exactly 9 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-105",
+        "number": 105,
+        "surahNumber": 105,
+        "title": "Surah Al-Fil (الفيل) — The Elephant",
+        "subtitle": "Makki Revelation • 5 Verses",
+        "readingTime": "5 min",
+        "arabic": "الفيل",
+        "transliteration": "Al-Fil",
+        "englishMeaning": "The Elephant",
+        "versesCount": 5,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "Y2sfUdJ4e6o",
+          "title": "Quran: 105. Surah Al-Fil (The Elephant): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=Y2sfUdJ4e6o",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 31s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Fil (الفيل) consists of 5 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the elephant, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 105 in canonical Mushaf order: Al-Fil (الفيل — The Elephant).",
+          "Revealed as a Makki surah containing 5 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Fil instills in the heart of the listener?",
+          "How does the meaning of \"The Elephant\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Fil (الفيل — The Elephant)\n\n**Surah Number:** 105 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 5 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Fil** (*الفيل*, \"The Elephant\") is the 105th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-105",
+          "title": "Surah Al-Fil Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Fil in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Fil is classified as Makki, containing 5 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Fil?",
+              "options": [
+                "5 Ayahs",
+                "15 Ayahs",
+                "1 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Fil contains exactly 5 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-106",
+        "number": 106,
+        "surahNumber": 106,
+        "title": "Surah Quraysh (قريش) — Quraysh",
+        "subtitle": "Makki Revelation • 4 Verses",
+        "readingTime": "5 min",
+        "arabic": "قريش",
+        "transliteration": "Quraysh",
+        "englishMeaning": "Quraysh",
+        "versesCount": 4,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "-I2wz7rof0k",
+          "title": "Quran: 106. Surah Al-Quraysh (Quraysh): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=-I2wz7rof0k",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 24s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Quraysh (قريش) consists of 4 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on quraysh, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 106 in canonical Mushaf order: Quraysh (قريش — Quraysh).",
+          "Revealed as a Makki surah containing 4 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Quraysh instills in the heart of the listener?",
+          "How does the meaning of \"Quraysh\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Quraysh (قريش — Quraysh)\n\n**Surah Number:** 106 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 4 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Quraysh** (*قريش*, \"Quraysh\") is the 106th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-106",
+          "title": "Surah Quraysh Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Quraysh in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Quraysh is classified as Makki, containing 4 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Quraysh?",
+              "options": [
+                "4 Ayahs",
+                "14 Ayahs",
+                "1 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Quraysh contains exactly 4 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-107",
+        "number": 107,
+        "surahNumber": 107,
+        "title": "Surah Al-Ma'un (الماعون) — The Small Kindness",
+        "subtitle": "Makki Revelation • 7 Verses",
+        "readingTime": "5 min",
+        "arabic": "الماعون",
+        "transliteration": "Al-Ma'un",
+        "englishMeaning": "The Small Kindness",
+        "versesCount": 7,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "j4nxAfTOtdo",
+          "title": "Quran: 107. Surah Al-Ma'un (The Small Kindness): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=j4nxAfTOtdo",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 43s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Ma'un (الماعون) consists of 7 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the small kindness, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 107 in canonical Mushaf order: Al-Ma'un (الماعون — The Small Kindness).",
+          "Revealed as a Makki surah containing 7 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Ma'un instills in the heart of the listener?",
+          "How does the meaning of \"The Small Kindness\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Ma'un (الماعون — The Small Kindness)\n\n**Surah Number:** 107 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 7 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Ma'un** (*الماعون*, \"The Small Kindness\") is the 107th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-107",
+          "title": "Surah Al-Ma'un Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Ma'un in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ma'un is classified as Makki, containing 7 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Ma'un?",
+              "options": [
+                "7 Ayahs",
+                "17 Ayahs",
+                "2 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ma'un contains exactly 7 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-108",
+        "number": 108,
+        "surahNumber": 108,
+        "title": "Surah Al-Kawthar (الكوثر) — The Abundance",
+        "subtitle": "Makki Revelation • 3 Verses",
+        "readingTime": "5 min",
+        "arabic": "الكوثر",
+        "transliteration": "Al-Kawthar",
+        "englishMeaning": "The Abundance",
+        "versesCount": 3,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "9JqOsNS8c8w",
+          "title": "Quran: 108. Surah Al-Kawther (The Abundance): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=9JqOsNS8c8w",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 3s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Kawthar (الكوثر) consists of 3 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the abundance, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 108 in canonical Mushaf order: Al-Kawthar (الكوثر — The Abundance).",
+          "Revealed as a Makki surah containing 3 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Kawthar instills in the heart of the listener?",
+          "How does the meaning of \"The Abundance\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Kawthar (الكوثر — The Abundance)\n\n**Surah Number:** 108 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 3 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Kawthar** (*الكوثر*, \"The Abundance\") is the 108th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-108",
+          "title": "Surah Al-Kawthar Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Kawthar in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Kawthar is classified as Makki, containing 3 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Kawthar?",
+              "options": [
+                "3 Ayahs",
+                "13 Ayahs",
+                "1 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Kawthar contains exactly 3 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-109",
+        "number": 109,
+        "surahNumber": 109,
+        "title": "Surah Al-Kafirun (الكافرون) — The Disbelievers",
+        "subtitle": "Makki Revelation • 6 Verses",
+        "readingTime": "5 min",
+        "arabic": "الكافرون",
+        "transliteration": "Al-Kafirun",
+        "englishMeaning": "The Disbelievers",
+        "versesCount": 6,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "YPH1OZ0Zcow",
+          "title": "Quran: 109. Surah Al-Kafirun (The Disbelievers): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=YPH1OZ0Zcow",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 37s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Kafirun (الكافرون) consists of 6 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the disbelievers, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 109 in canonical Mushaf order: Al-Kafirun (الكافرون — The Disbelievers).",
+          "Revealed as a Makki surah containing 6 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Kafirun instills in the heart of the listener?",
+          "How does the meaning of \"The Disbelievers\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Kafirun (الكافرون — The Disbelievers)\n\n**Surah Number:** 109 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 6 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Kafirun** (*الكافرون*, \"The Disbelievers\") is the 109th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-109",
+          "title": "Surah Al-Kafirun Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Kafirun in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Kafirun is classified as Makki, containing 6 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Kafirun?",
+              "options": [
+                "6 Ayahs",
+                "16 Ayahs",
+                "1 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Kafirun contains exactly 6 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-110",
+        "number": 110,
+        "surahNumber": 110,
+        "title": "Surah An-Nasr (النصر) — Divine Support",
+        "subtitle": "Madani Revelation • 3 Verses",
+        "readingTime": "5 min",
+        "arabic": "النصر",
+        "transliteration": "An-Nasr",
+        "englishMeaning": "Divine Support",
+        "versesCount": 3,
+        "revelationType": "Madani",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "tvznSJbFQ7M",
+          "title": "Quran: 110. Surah An-Nasr (Divine Support): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=tvznSJbFQ7M",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 19s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah An-Nasr (النصر) consists of 3 verses revealed in Madinah. It conveys fundamental Qur'anic guidance focusing on divine support, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 110 in canonical Mushaf order: An-Nasr (النصر — Divine Support).",
+          "Revealed as a Madani surah containing 3 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah An-Nasr instills in the heart of the listener?",
+          "How does the meaning of \"Divine Support\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah An-Nasr (النصر — Divine Support)\n\n**Surah Number:** 110 of 114  \n**Revelation Period:** Madani (Revealed following the Hijrah to Madinah)  \n**Number of Verses:** 3 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **An-Nasr** (*النصر*, \"Divine Support\") is the 110th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-110",
+          "title": "Surah An-Nasr Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah An-Nasr in terms of its revelation period?",
+              "options": [
+                "Madani (revealed after Hijrah)",
+                "Makki (revealed before Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Nasr is classified as Madani, containing 3 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah An-Nasr?",
+              "options": [
+                "3 Ayahs",
+                "13 Ayahs",
+                "1 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Nasr contains exactly 3 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-111",
+        "number": 111,
+        "surahNumber": 111,
+        "title": "Surah Al-Masad (المسد) — Palm Fiber, Flame",
+        "subtitle": "Makki Revelation • 5 Verses",
+        "readingTime": "5 min",
+        "arabic": "المسد",
+        "transliteration": "Al-Masad",
+        "englishMeaning": "Palm Fiber, Flame",
+        "versesCount": 5,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "ruZgKdhE1Os",
+          "title": "Quran: 111. Surah Al-Massad (Palm Fiber, Flame): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=ruZgKdhE1Os",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 25s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Masad (المسد) consists of 5 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on palm fiber, flame, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 111 in canonical Mushaf order: Al-Masad (المسد — Palm Fiber, Flame).",
+          "Revealed as a Makki surah containing 5 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Masad instills in the heart of the listener?",
+          "How does the meaning of \"Palm Fiber, Flame\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Masad (المسد — Palm Fiber, Flame)\n\n**Surah Number:** 111 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 5 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Masad** (*المسد*, \"Palm Fiber, Flame\") is the 111th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-111",
+          "title": "Surah Al-Masad Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Masad in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Masad is classified as Makki, containing 5 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Masad?",
+              "options": [
+                "5 Ayahs",
+                "15 Ayahs",
+                "1 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Masad contains exactly 5 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-112",
+        "number": 112,
+        "surahNumber": 112,
+        "title": "Surah Al-Ikhlas (الإخلاص) — The Sincerity",
+        "subtitle": "Makki Revelation • 4 Verses",
+        "readingTime": "5 min",
+        "arabic": "الإخلاص",
+        "transliteration": "Al-Ikhlas",
+        "englishMeaning": "The Sincerity",
+        "versesCount": 4,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "R3t9ePIzleU",
+          "title": "Quran: 112. Surah Al-Ikhlas (The Sincerity): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=R3t9ePIzleU",
+          "channel": "The Meaning Of Islam",
+          "duration": "59s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Ikhlas (الإخلاص) consists of 4 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the sincerity, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 112 in canonical Mushaf order: Al-Ikhlas (الإخلاص — The Sincerity).",
+          "Revealed as a Makki surah containing 4 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Ikhlas instills in the heart of the listener?",
+          "How does the meaning of \"The Sincerity\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Ikhlas (الإخلاص — The Sincerity)\n\n**Surah Number:** 112 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 4 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Ikhlas** (*الإخلاص*, \"The Sincerity\") is the 112th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-112",
+          "title": "Surah Al-Ikhlas Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Ikhlas in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ikhlas is classified as Makki, containing 4 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Ikhlas?",
+              "options": [
+                "4 Ayahs",
+                "14 Ayahs",
+                "1 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Ikhlas contains exactly 4 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-113",
+        "number": 113,
+        "surahNumber": 113,
+        "title": "Surah Al-Falaq (الفلق) — The Daybreak",
+        "subtitle": "Makki Revelation • 5 Verses",
+        "readingTime": "5 min",
+        "arabic": "الفلق",
+        "transliteration": "Al-Falaq",
+        "englishMeaning": "The Daybreak",
+        "versesCount": 5,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "OS5PTyEB4gQ",
+          "title": "Quran: 113. Surah Al-Falaq (The Daybreak): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=OS5PTyEB4gQ",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 14s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah Al-Falaq (الفلق) consists of 5 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on the daybreak, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 113 in canonical Mushaf order: Al-Falaq (الفلق — The Daybreak).",
+          "Revealed as a Makki surah containing 5 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah Al-Falaq instills in the heart of the listener?",
+          "How does the meaning of \"The Daybreak\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah Al-Falaq (الفلق — The Daybreak)\n\n**Surah Number:** 113 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 5 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **Al-Falaq** (*الفلق*, \"The Daybreak\") is the 113th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-113",
+          "title": "Surah Al-Falaq Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah Al-Falaq in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Falaq is classified as Makki, containing 5 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah Al-Falaq?",
+              "options": [
+                "5 Ayahs",
+                "15 Ayahs",
+                "1 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah Al-Falaq contains exactly 5 verses."
+            }
+          ]
+        }
+      },
+      {
+        "id": "quran-surah-114",
+        "number": 114,
+        "surahNumber": 114,
+        "title": "Surah An-Nas (الناس) — Mankind",
+        "subtitle": "Makki Revelation • 6 Verses",
+        "readingTime": "5 min",
+        "arabic": "الناس",
+        "transliteration": "An-Nas",
+        "englishMeaning": "Mankind",
+        "versesCount": 6,
+        "revelationType": "Makki",
+        "moduleNumber": 7,
+        "moduleTitle": "Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination)",
+        "videoLesson": {
+          "videoId": "AcVtT2d8-kk",
+          "title": "Quran: 114. Surah An-Nas (Mankind): Arabic and English translation HD",
+          "url": "https://www.youtube.com/watch?v=AcVtT2d8-kk",
+          "channel": "The Meaning Of Islam",
+          "duration": "1m 32s",
+          "reciter": "Shaykh Mishary Rashid Al-Afasy",
+          "translator": "Sahih International",
+          "voiceover": "Ibrahim Walk"
+        },
+        "summary": "Surah An-Nas (الناس) consists of 6 verses revealed in Makkah. It conveys fundamental Qur'anic guidance focusing on mankind, devotion to Allah, and moral uprightness.",
+        "keyPoints": [
+          "Surah 114 in canonical Mushaf order: An-Nas (الناس — Mankind).",
+          "Revealed as a Makki surah containing 6 Ayahs.",
+          "Features verse-by-verse recitation by Shaykh Mishary Al-Afasy with Sahih International English translation.",
+          "Teaches sincere devotion, moral responsibility, and reflection on the divine word."
+        ],
+        "reflectionQuestions": [
+          "What is the primary spiritual message that Surah An-Nas instills in the heart of the listener?",
+          "How does the meaning of \"Mankind\" inspire greater awareness and righteous conduct in daily life?"
+        ],
+        "content": "# Surah An-Nas (الناس — Mankind)\n\n**Surah Number:** 114 of 114  \n**Revelation Period:** Makki (Revealed prior to the Hijrah to Madinah)  \n**Number of Verses:** 6 Ayahs  \n**Curriculum Division:** Qisar Al-Mufassal (The Short Surahs / Juz 'Amma Culmination) (Surahs 86 – 114)\n\n---\n\n## Overview & Core Themes\n\nSurah **An-Nas** (*الناس*, \"Mankind\") is the 114th chapter of the Holy Qur'an. It stands as a vital station of divine guidance, teaching believers profound spiritual, moral, and practical lessons.\n\n### Key Thematic Focus\n- **Pure Monotheism (*Tawheed*):** Directing worship, hope, and reliance exclusively to Allah, the Lord of all creation.\n- **Divine Revelation & Prophetic Guidance:** Affirming the truth of the Qur'an and the timeless message delivered by the Prophets of Allah.\n- **Moral Responsibility & The Hereafter:** Reminding humanity of the accountability of every soul and the reality of the Day of Reckoning.\n\n---\n\n## Verse-by-Verse Recitation & Translation\n\nFollow along with the official verse-by-verse recitation by **Shaykh Mishary Rashid Al-Afasy** accompanied by the verified English translation spoken by **Ibrahim Walk** (**Sahih International**). Observe the on-screen Arabic text in clear Uthmani script with full Tashkeel, alongside phonetic transliteration and translation.\n",
+        "quiz": {
+          "id": "quiz-surah-114",
+          "title": "Surah An-Nas Knowledge Check",
+          "questions": [
+            {
+              "question": "What is the classification of Surah An-Nas in terms of its revelation period?",
+              "options": [
+                "Makki (revealed before Hijrah)",
+                "Madani (revealed after Hijrah)",
+                "Non-Qur'anic historical narration",
+                "Modern commentary text"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Nas is classified as Makki, containing 6 verses."
+            },
+            {
+              "question": "How many verses (Ayahs) are contained in Surah An-Nas?",
+              "options": [
+                "6 Ayahs",
+                "16 Ayahs",
+                "1 Ayahs",
+                "100 Ayahs"
+              ],
+              "correctAnswer": 0,
+              "explanation": "Surah An-Nas contains exactly 6 verses."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
     "id": "hadith-essentials",
     "aliases": [
       "al-arbaeen",
@@ -26294,864 +33857,156 @@ export const coursesData = [
     ]
   },
       {
-    "id": "islamic-aqeedah-from-zero",
-    "aliases": [
-      "aqeedah-from-zero",
-      "aqeedah",
-      "islamic-creed",
-      "six-pillars-of-iman",
-      "tawheed-from-zero",
-      "aqeedah-course",
-      "islamic-studies-aqeedah",
-      "iman",
-      "creed"
-    ],
-    "title": "Islamic Aqeedah From Zero",
-    "subtitle": "Understand the Foundations of Islamic Creed, the Six Pillars of Iman, Tawheed, and the Core Principles of Faith.",
-    "tagline": "Firm Belief in the Heart. Clarity in the Mind. Peace in the Soul.",
-    "category": "Islamic Studies",
-    "subCategory": "Islamic Creed (Aqeedah)",
-    "price": 0,
-    "regularPrice": 0,
-    "discountAmount": 0,
-    "monthlyPrice": 0,
-    "paymentType": "free",
-    "billingType": "free",
-    "billingCycle": "free",
-    "priceFormatted": "FREE — Islamic Studies Offering",
-    "pricingLabel": "FREE — Accessible to all learners worldwide",
-    "currency": "KSh",
-    "priceUSD": 0,
-    "format": "8-Module Interactive Islamic Curriculum",
-    "recommendedDuration": "4–6 Weeks",
-    "learningFlexibility": "Free self-paced learning with lifetime access, quizzes, and verified certification.",
-    "coverBadge": "Islamic Studies • 100% Free",
-    "coverColor": "from-blue-950 via-slate-900 to-slate-950",
-    "author": "FAHMRISE Islamic Studies Faculty",
-    "instructor": "FAHMRISE Aqeedah & Theology Scholars",
-    "instructorEmail": "aqeedah.studies@fahmrise.com",
-    "instructorId": "usr_instructor_aqeedah_01",
-    "level": "Beginner",
-    "estimatedHours": "12 – 16 Hours (Self-Paced)",
-    "totalLessons": 8,
-    "totalExercises": 8,
-    "totalQuizzes": 8,
-    "rating": null,
-    "reviewsCount": 0,
-    "published": true,
-    "requiresPayment": false,
-    "isFree": true,
-    "keywords": [
-      "Aqeedah",
-      "Creed",
-      "Tawheed",
-      "Six Pillars of Iman",
-      "Belief in Allah",
-      "Angels",
-      "Prophets",
-      "Day of Judgment",
-      "Qadr",
-      "Islamic Creed",
-      "Islamic Studies",
-      "Free"
-    ],
-    "tags": [
-      "Aqeedah",
-      "Creed",
-      "Tawheed",
-      "Iman",
-      "Islamic Studies",
-      "Free"
-    ],
-    "description": "A comprehensive, beginner-friendly exploration of Islamic Creed (Aqeedah) grounded firmly in the Noble Qur'an, authentic Sunnah, and mainstream consensus of Ahl as-Sunnah wal-Jama'ah. Explores the Six Pillars of Iman, the Three Categories of Tawheed, the divine attributes, prophetic guidance, the Hereafter, and the wisdom of Divine Decree (Al-Qadr).",
-    "learningOutcomes": [
-      "Understand the definition, sources, and importance of sound Islamic Aqeedah",
-      "Master the Three Categories of Tawheed: Rububiyyah (Lordship), Uluhiyyah (Worship), and Asma' was-Sifat (Names & Attributes)",
-      "Recognize and avoid Shirk (polytheism) in its major and minor manifestations",
-      "Understand belief in the Angels (Al-Mala'ikah), their celestial nature, and divine cosmic roles",
-      "Understand belief in the Revealed Scriptures (Al-Kutub) and the miraculous preservation of the Noble Qur'an",
-      "Affirm the qualities of the Prophets, the 25 Prophets named in the Qur'an, and Muhammad ﷺ as the Final Seal",
-      "Navigate the stages of the Hereafter (Barzakh, Resurrection, Scales, Reckoning, Paradise and Hell)",
-      "Grasp the four levels of Divine Decree (Al-Qadr) while maintaining human moral responsibility"
-    ],
-    "targetAudience": [
-      "Beginner and intermediate learners wanting a clear, sound, and authentic foundation in Islamic theology",
-      "New Muslims seeking to understand the core tenets of faith with intellectual clarity",
-      "Students of knowledge wanting structured overviews of the Six Pillars of Iman"
-    ],
-    "prerequisites": "Zero prior background in theology required. Open and free to all learners worldwide.",
-    "includes": [
-      "8 In-depth interactive modules with verified Qur'anic citations, authentic Hadith, and classical references",
-      "Clear breakdowns of Tawheed, Divine Attributes, the Unseen, and Divine Decree",
-      "Vocabulary glossaries, reflection inquiries, and end-of-module knowledge check quizzes",
-      "24/7 FAHMRISE Socratic AI Tutor guidance",
-      "Official Verified Certificate of Completion in Islamic Creed upon graduation"
-    ],
-    "lessons": [
-      {
-        "id": "aqeedah-1",
-        "number": 1,
-        "title": "Module 1: Introduction to Aqeedah & Foundations of Islamic Creed",
-        "subtitle": "Definition, importance, Islam vs. Iman vs. Ihsan in the Hadith of Jibreel, and sources of sound creed",
-        "readingTime": "18 min",
-        "videoLesson": {
-          "title": "Episode 1: Faith is Refuge | The Faith Revival",
-          "channel": "Yaqeen Institute",
-          "duration": "11:20",
-          "videoId": "hYQEW37_hWM",
-          "watchUrl": "https://www.youtube.com/watch?v=hYQEW37_hWM",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/hYQEW37_hWM",
-          "url": "https://www.youtube-nocookie.com/embed/hYQEW37_hWM",
-          "alternativeSource": "https://sunnah.com/muslim:8",
-          "sourceName": "Sahih Muslim 8 — The Hadith of Jibreel (Islam, Iman, Ihsan)",
-          "badge": "Reference Video — Verification Pending"
+  "id": "islamic-aqeedah-from-zero",
+  "aliases": [
+    "aqeedah-from-zero",
+    "aqeedah",
+    "islamic-creed",
+    "six-pillars-of-iman",
+    "tawheed-from-zero",
+    "aqeedah-course",
+    "islamic-studies-aqeedah",
+    "iman",
+    "creed"
+  ],
+  "title": "Islamic Aqeedah From Zero",
+  "subtitle": "Understand the Foundations of Islamic Creed, the Six Pillars of Iman, Tawheed, and the Core Principles of Faith.",
+  "tagline": "Firm Belief in the Heart. Clarity in the Mind. Peace in the Soul.",
+  "category": "Islamic Studies",
+  "subCategory": "Islamic Creed (Aqeedah)",
+  "price": 0,
+  "regularPrice": 0,
+  "discountAmount": 0,
+  "monthlyPrice": 0,
+  "paymentType": "free",
+  "billingType": "free",
+  "billingCycle": "free",
+  "priceFormatted": "FREE — Islamic Studies Offering",
+  "pricingLabel": "FREE — Accessible to all learners worldwide",
+  "currency": "KSh",
+  "priceUSD": 0,
+  "format": "8-Module Interactive Islamic Curriculum",
+  "recommendedDuration": "4–6 Weeks",
+  "learningFlexibility": "Free self-paced learning with lifetime access, quizzes, and verified certification.",
+  "coverBadge": "Islamic Studies • 100% Free",
+  "coverColor": "from-blue-950 via-slate-900 to-slate-950",
+  "author": "FAHMRISE Islamic Studies Faculty",
+  "instructor": "FAHMRISE Aqeedah & Theology Scholars",
+  "instructorEmail": "aqeedah.studies@fahmrise.com",
+  "instructorId": "usr_instructor_aqeedah_01",
+  "level": "Beginner",
+  "estimatedHours": "12 – 16 Hours (Self-Paced)",
+  "totalLessons": 8,
+  "totalExercises": 8,
+  "totalQuizzes": 8,
+  "rating": null,
+  "reviewsCount": 0,
+  "published": true,
+  "requiresPayment": false,
+  "isFree": true,
+  "keywords": [
+    "Aqeedah",
+    "Creed",
+    "Tawheed",
+    "Six Pillars of Iman",
+    "Belief in Allah",
+    "Angels",
+    "Prophets",
+    "Day of Judgment",
+    "Qadr",
+    "Islamic Creed",
+    "Islamic Studies",
+    "Free"
+  ],
+  "tags": [
+    "Aqeedah",
+    "Creed",
+    "Tawheed",
+    "Iman",
+    "Islamic Studies",
+    "Free"
+  ],
+  "description": "A comprehensive, beginner-friendly exploration of Islamic Creed (Aqeedah) grounded firmly in the Noble Qur'an, authentic Sunnah, and mainstream consensus of Ahl as-Sunnah wal-Jama'ah. Explores the Six Pillars of Iman, the Three Categories of Tawheed, the divine attributes, prophetic guidance, the Hereafter, and the wisdom of Divine Decree (Al-Qadr).",
+  "learningOutcomes": [
+    "Understand the definition, sources, and importance of sound Islamic Aqeedah",
+    "Master the Three Categories of Tawheed: Rububiyyah (Lordship), Uluhiyyah (Worship), and Asma' was-Sifat (Names & Attributes)",
+    "Recognize and avoid Shirk (polytheism) in its major and minor manifestations",
+    "Understand belief in the Angels (Al-Mala'ikah), their celestial nature, and divine cosmic roles",
+    "Understand belief in the Revealed Scriptures (Al-Kutub) and the miraculous preservation of the Noble Qur'an",
+    "Affirm the qualities of the Prophets, the 25 Prophets named in the Qur'an, and Muhammad ﷺ as the Final Seal",
+    "Navigate the stages of the Hereafter (Barzakh, Resurrection, Scales, Reckoning, Paradise and Hell)",
+    "Grasp the four levels of Divine Decree (Al-Qadr) while maintaining human moral responsibility"
+  ],
+  "targetAudience": [
+    "Beginner and intermediate learners wanting a clear, sound, and authentic foundation in Islamic theology",
+    "New Muslims seeking to understand the core tenets of faith with intellectual clarity",
+    "Students of knowledge wanting structured overviews of the Six Pillars of Iman"
+  ],
+  "prerequisites": "Zero prior background in theology required. Open and free to all learners worldwide.",
+  "includes": [
+    "8 In-depth interactive modules with verified Qur'anic citations, authentic Hadith, and classical references",
+    "Clear breakdowns of Tawheed, Divine Attributes, the Unseen, and Divine Decree",
+    "Vocabulary glossaries, reflection inquiries, and end-of-module knowledge check quizzes",
+    "24/7 FAHMRISE Socratic AI Tutor guidance",
+    "Official Verified Certificate of Completion in Islamic Creed upon graduation"
+  ],
+  "lessons": [
+    {
+      "id": "aqeedah-1",
+      "number": 1,
+      "title": "Module 1: Introduction to Aqeedah & Foundations of Islamic Creed",
+      "subtitle": "Definition, importance, Islam vs. Iman vs. Ihsan in the Hadith of Jibreel, and sources of sound creed",
+      "readingTime": "18 min",
+      "videoLesson": {
+        "title": "Hadith of Jibril: Islam, Iman and Ihsan | Understanding Allah's Names and Attributes",
+        "channel": "Reflected Light",
+        "duration": "2:58",
+        "videoId": "bp7VyMrPgzA",
+        "watchUrl": "https://www.youtube.com/watch?v=bp7VyMrPgzA",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/bp7VyMrPgzA",
+        "url": "https://www.youtube-nocookie.com/embed/bp7VyMrPgzA",
+        "alternativeSource": "https://sunnah.com/muslim:8",
+        "sourceName": "Sahih Muslim 8 — The Hadith of Jibreel (Islam, Iman, Ihsan)",
+        "badge": "Verified Reference Video"
+      },
+      "summary": "Understand what Aqeedah means, the essential difference between Islam, Iman, and Ihsan, and the authoritative sources of orthodox Islamic creed.",
+      "objectives": [
+        "Define the linguistic meaning of 'Aqd (firm binding) and technical meaning of Aqeedah (firm faith)",
+        "Understand the Hadith of Jibreel and the three ascending levels of religion: Islam, Iman, and Ihsan",
+        "Identify the authoritative sources of Islamic creed (Qur'an, Authentic Sunnah, Consensus / Ijma')",
+        "Recognize the harmonious relationship between sound human intellect ('Aql) and authentic revelation (Naql)"
+      ],
+      "content": "\n# Module 1: Introduction to Aqeedah & Foundations of Islamic Creed\n\nWelcome to **Islamic Aqeedah From Zero**. Aqeedah forms the intellectual and spiritual foundation of a Muslim's entire existence.\n\n---\n\n## 1. What is Aqeedah?\n\n### Linguistic & Technical Definitions\n* **Linguistic Meaning (*Lughatan*)**: Derived from the Arabic root *'A-Q-D* (ع-ق-د), meaning to tie a firm knot, bind securely, or contract.\n* **Technical Islamic Meaning (*Istilahan*)**: In Islamic scholarship, *Aqeedah* refers to **the firm, unshakeable belief that a Muslim holds in their heart regarding Allah, His Angels, His Books, His Messengers, the Last Day, and Divine Decree—free from any doubt or skepticism**.\n\n---\n\n## 2. The Three Levels of Religion: The Hadith of Jibreel\n\nIn the most famous foundational narration in Islam, recorded in Sahih Muslim (Hadith 8), Angel Jibreel came in human form to teach the Companions the three ascending dimensions of the faith:\n\n```\n┌─────────────────────────────────────────────────────────────┐\n│                       3. IHSAN (Excellence)                 │\n│      \"To worship Allah as though you see Him...\"            │\n├─────────────────────────────────────────────────────────────┤\n│                       2. IMAN (Faith)                       │\n│    The 6 Pillars: Allah, Angels, Books, Messengers, Day, Qadr│\n├─────────────────────────────────────────────────────────────┤\n│                       1. ISLAM (Outward Submission)         │\n│  The 5 Pillars: Shahadah, Salah, Zakah, Sawm, Hajj          │\n└─────────────────────────────────────────────────────────────┘\n```\n\n1. **Islam (الإِسْلَام)**: The outward physical deeds and submission—testifying that none has the right to be worshiped but Allah and Muhammad is His Messenger, establishing prayer, paying Zakah, fasting Ramadan, and performing Hajj.\n2. **Iman (الإِيمَان)**: The internal conviction of the heart and mind—believing in the Six Pillars of Faith.\n3. **Ihsan (الإِحْسَان)**: The highest spiritual perfection—*\"To worship Allah as though you see Him; for even if you do not see Him, He surely sees you.\"*\n\n### Al-Islam (الإسلام) — The Five Pillars of Islam\n\nIn response to Jibreel's question, the Prophet ﷺ outlined the outward pillars that define a Muslim's practice:\n\n- **Shahadah (الشهادتان) — Declaration of Faith**: Bearing witness that there is no deity worthy of worship except Allah, and that Muhammad ﷺ is His final Messenger.\n- **Salah (الصلاة) — Five Daily Prayers**: Establishing the five daily prescribed prayers as a direct spiritual lifeline connecting the servant to their Lord.\n- **Zakah (الزكاة) — Obligatory Charity**: Paying the annual prescribed charity on surplus wealth to purify one's wealth and support the poor and needy.\n- **Sawm (الصيام) — Fasting in Ramadan**: Fasting from dawn until sunset throughout the blessed month of Ramadan to attain God-consciousness (*Taqwa*).\n- **Hajj (الحج) — Pilgrimage to Makkah**: Performing the pilgrimage to the Sacred House of Allah in Makkah once in a lifetime for those who are physically and financially able.\n\n### Arkan al-Iman (أركان الإيمان) — The Six Pillars of Iman\n\nWhen asked about Iman, the Prophet ﷺ enumerated the Six Pillars that form the foundation of internal conviction:\n\n1. **Belief in Allah (الإيمان بالله)**: Affirming Allah's existence and His absolute Oneness in Lordship (*Rububiyyah*), Worship (*Uluhiyyah*), and His Names and Sublime Attributes (*Al-Asma' was-Sifat*).\n2. **Belief in His Angels (الإيمان بالملائكة)**: Affirming the existence of Allah's celestial servants created from light, who obey Him unconditionally and execute divine commands across creation.\n3. **Belief in His Revealed Books (الإيمان بالكتب)**: Affirming all scriptures revealed to His messengers as literal divine speech, including the Tawrat, Zabur, Injeel, Suhuf, and the final, preserved Qur'an.\n4. **Belief in His Messengers (الإيمان بالرسل)**: Affirming that Allah sent prophets and messengers—from Adam to Muhammad ﷺ—to guide humanity toward pure monotheism.\n5. **Belief in the Last Day (الإيمان باليوم الآخر)**: Believing with certainty in everything that occurs after death: the life of the grave (*Barzakh*), the Day of Resurrection, the Reckoning (*Hisab*), the Scales (*Meezan*), and the eternal abodes of Paradise (*Jannah*) and Hellfire (*Jahannam*).\n6. **Belief in Al-Qadar (الإيمان بالقدر)**: Believing in Divine Decree—that Allah has eternally known, recorded, willed, and created all things, encompassing both its good and its apparent bad, while maintaining human moral responsibility.\n\n### Al-Ihsan (الإحسان) — Excellence in Worship\n\nIn the Hadith of Jibreel, the Prophet ﷺ defined the pinnacle of spiritual maturity:\n\n> **«أَنْ تَعْبُدَ اللَّهَ كَأَنَّكَ تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ»**  \n> *\"To worship Allah as though you see Him, and if you do not see Him, indeed He sees you.\"*  \n> — Sahih Muslim (Hadith 8)\n\nAl-Ihsan elevates ordinary worship and lifestyle into sincere, beautiful, and heartfelt devotion through three core pillars:\n\n* **Ikhlas (الإخلاص — Sincerity)**: Purifying the intention solely for the pleasure of Allah, free from showing off (*Riya'*), seeking praise, or worldly reputation.\n* **Muraqabah (المراقبة — Awareness that Allah Sees Us)**: Living with constant, vigilant awareness of Allah's watchful presence—knowing that He knows every secret thought, whispers of the heart, and hidden deed.\n* **Excellence in Worship & Everyday Conduct**: Striving for perfection (*Itqan*) not only in prayers, fasting, and dhikr, but also in everyday manners, ethical transactions, compassion toward others, and excellence in all lawful pursuits.\n\n---\n\n## 3. The Authoritative Sources of Islamic Creed\n\nOrthodox Islamic creed (*Ahl as-Sunnah wal-Jama'ah*) is strictly **textual and evidence-based (*Tawqifiyyah*)**. We do not speculate about the unseen realms or divine nature using human guesswork:\n\n1. **The Noble Qur'an**: The immutable, definitive Word of Allah.\n2. **The Authentic Prophetic Sunnah**: Mutawatir and Sahih hadiths explaining the realities of faith and the unseen.\n3. **The Consensus (*Ijma'*) of the Early Generations (*As-Salaf as-Salih*)**: The unanimous understanding of the Sahabah and great classical imams.\n\n### The Balance Between Revelation and Intellect\n* **Sound Intellect (*Al-'Aql as-Sareeh*)** never contradicts **Authentic Revelation (*An-Naql as-Saheeh*)**.\n* Intellect is a divine faculty that recognizes the necessity of a Creator and the truth of Prophethood; revelation then details for the intellect what it could never discover independently (the afterlife, angels, and detailed divine attributes).\n      ",
+      "keyTerms": [
+        {
+          "term": "Aqeedah (عَقِيدَة)",
+          "meaning": "The firm, decisive theological creed and doctrinal convictions held in the heart of a believer."
         },
-        "summary": "Understand what Aqeedah means, the essential difference between Islam, Iman, and Ihsan, and the authoritative sources of orthodox Islamic creed.",
-        "objectives": [
-          "Define the linguistic meaning of 'Aqd (firm binding) and technical meaning of Aqeedah (firm faith)",
-          "Understand the Hadith of Jibreel and the three ascending levels of religion: Islam, Iman, and Ihsan",
-          "Identify the authoritative sources of Islamic creed (Qur'an, Authentic Sunnah, Consensus / Ijma')",
-          "Recognize the harmonious relationship between sound human intellect ('Aql) and authentic revelation (Naql)"
-        ],
-        "content": "\n# Module 1: Introduction to Aqeedah & Foundations of Islamic Creed\n\nWelcome to **Islamic Aqeedah From Zero**. Aqeedah forms the intellectual and spiritual foundation of a Muslim's entire existence.\n\n---\n\n## 1. What is Aqeedah?\n\n### Linguistic & Technical Definitions\n* **Linguistic Meaning (*Lughatan*)**: Derived from the Arabic root *'A-Q-D* (ع-ق-د), meaning to tie a firm knot, bind securely, or contract.\n* **Technical Islamic Meaning (*Istilahan*)**: In Islamic scholarship, *Aqeedah* refers to **the firm, unshakeable belief that a Muslim holds in their heart regarding Allah, His Angels, His Books, His Messengers, the Last Day, and Divine Decree—free from any doubt or skepticism**.\n\n---\n\n## 2. The Three Levels of Religion: The Hadith of Jibreel\n\nIn the most famous foundational narration in Islam, recorded in Sahih Muslim (Hadith 8), Angel Jibreel came in human form to teach the Companions the three ascending dimensions of the faith:\n\n```\n┌─────────────────────────────────────────────────────────────┐\n│                       3. IHSAN (Excellence)                 │\n│      \"To worship Allah as though you see Him...\"            │\n├─────────────────────────────────────────────────────────────┤\n│                       2. IMAN (Faith)                       │\n│    The 6 Pillars: Allah, Angels, Books, Messengers, Day, Qadr│\n├─────────────────────────────────────────────────────────────┤\n│                       1. ISLAM (Outward Submission)         │\n│  The 5 Pillars: Shahadah, Salah, Zakah, Sawm, Hajj          │\n└─────────────────────────────────────────────────────────────┘\n```\n\n1. **Islam (الإِسْلَام)**: The outward physical deeds and submission—testifying that none has the right to be worshiped but Allah and Muhammad is His Messenger, establishing prayer, paying Zakah, fasting Ramadan, and performing Hajj.\n2. **Iman (الإِيمَان)**: The internal conviction of the heart and mind—believing in the Six Pillars of Faith.\n3. **Ihsan (الإِحْسَان)**: The highest spiritual perfection—*\"To worship Allah as though you see Him; for even if you do not see Him, He surely sees you.\"*\n\n---\n\n## 3. The Authoritative Sources of Islamic Creed\n\nOrthodox Islamic creed (*Ahl as-Sunnah wal-Jama'ah*) is strictly **textual and evidence-based (*Tawqifiyyah*)**. We do not speculate about the unseen realms or divine nature using human guesswork:\n\n1. **The Noble Qur'an**: The immutable, definitive Word of Allah.\n2. **The Authentic Prophetic Sunnah**: Mutawatir and Sahih hadiths explaining the realities of faith and the unseen.\n3. **The Consensus (*Ijma'*) of the Early Generations (*As-Salaf as-Salih*)**: The unanimous understanding of the Sahabah and great classical imams.\n\n### The Balance Between Revelation and Intellect\n* **Sound Intellect (*Al-'Aql as-Sareeh*)** never contradicts **Authentic Revelation (*An-Naql as-Saheeh*)**.\n* Intellect is a divine faculty that recognizes the necessity of a Creator and the truth of Prophethood; revelation then details for the intellect what it could never discover independently (the afterlife, angels, and detailed divine attributes).\n      ",
-        "keyTerms": [
-          {
-            "term": "Aqeedah (عَقِيدَة)",
-            "meaning": "The firm, decisive theological creed and doctrinal convictions held in the heart of a believer."
-          },
-          {
-            "term": "Iman (إِيمَان)",
-            "meaning": "Faith comprising belief in the heart, speech of the tongue, and actions of the limbs, which increases with obedience and decreases with disobedience."
-          },
-          {
-            "term": "Ihsan (إِحْسَان)",
-            "meaning": "Spiritual excellence: worshiping Allah with supreme awareness of His continuous divine sight and presence."
-          },
-          {
-            "term": "Ahl as-Sunnah wal-Jama'ah (أَهْل السُّنَّة وَالجَمَاعَة)",
-            "meaning": "The mainstream body of Muslims adhering strictly to the Qur'an, Sunnah, and consensus of the early righteous generations."
-          }
-        ],
-        "verifiedHadith": {
-          "arabic": "عَنْ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُ قَالَ: بَيْنَمَا نَحْنُ عِنْدَ رَسُولِ اللَّهِ ﷺ ذَاتَ يَوْمٍ... قَالَ [جِبْرِيلُ]: يَا مُحَمَّدُ أَخْبِرْنِي عَنِ الإِيمَانِ، قَالَ: «أَنْ تُؤْمِنَ بِاللَّهِ، وَمَلاَئِكَتِهِ، وَكُتُبِهِ، وَرُسُلِهِ، وَالْيَوْمِ الآخِرِ، وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ»",
-          "translation": "On the authority of 'Umar ibn al-Khattab (may Allah be pleased with him): Jibreel said: 'O Muhammad, tell me about Iman.' The Prophet ﷺ said: 'It is that you believe in Allah, His Angels, His Books, His Messengers, the Last Day, and that you believe in Divine Decree (Al-Qadr), its good and its bad.'",
-          "reference": "Sahih Muslim (Hadith 8)",
-          "grading": "Sahih (Authentic)"
+        {
+          "term": "Iman (إِيمَان)",
+          "meaning": "Faith comprising belief in the heart, speech of the tongue, and actions of the limbs, which increases with obedience and decreases with disobedience."
         },
-        "practicalApplication": "Reflect on the definition of Ihsan today. Whatever work or worship you perform, remind yourself: 'Allah is watching me right now.' Notice how this consciousness purifies your integrity.",
-        "reflectionQuestions": [
-          "Why is sound Aqeedah considered the foundational tree from which all moral actions and worship branch out?",
-          "How does the Hadith of Jibreel provide a complete structural roadmap for a Muslim's entire religious development?"
-        ],
-        "quiz": {
-          "id": "aqeedah-quiz-1",
-          "title": "Module 1 Knowledge Check: Foundations of Creed",
-          "questions": [
-            {
-              "question": "What are the Six Pillars of Iman enumerated in the famous Hadith of Jibreel in Sahih Muslim?",
-              "options": [
-                "Belief in Kings, Empires, Stars, Dreams, Wealth, and Fortune",
-                "Belief in Allah, His Angels, His Books, His Messengers, the Last Day, and Divine Decree (Al-Qadr)",
-                "Prayer, Fasting, Zakah, Hajj, Jihad, and Charity",
-                "Philosophy, Logic, History, Science, Poetry, and Grammar"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The Six Pillars of Iman are belief in Allah, His Angels, His Books, His Messengers, the Last Day, and Al-Qadr (Divine Decree)."
-            },
-            {
-              "question": "What is the definition of 'Ihsan' taught by the Prophet ﷺ?",
-              "options": [
-                "To perform only voluntary deeds",
-                "To worship Allah as though you see Him; for even if you do not see Him, He surely sees you",
-                "To debate theological controversies",
-                "To fast every single day of the year"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Ihsan is spiritual excellence, worshiping with complete consciousness of Allah's watchful divine presence."
-            },
-            {
-              "question": "What is the relationship between sound intellect ('Aql) and authentic revelation (Naql) in orthodox Islamic creed?",
-              "options": [
-                "They are in perpetual warfare",
-                "Sound intellect harmonizes completely with authentic revelation, with revelation guiding the intellect regarding unseen realities",
-                "Intellect is discarded completely",
-                "Revelation is rewritten by modern opinion"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Authentic revelation and sound intellect are in complete harmony; revelation informs the intellect of unseen truths beyond empirical reach."
-            }
-          ]
+        {
+          "term": "Ihsan (إِحْسَان)",
+          "meaning": "Spiritual excellence: worshiping Allah with supreme awareness of His continuous divine sight and presence."
+        },
+        {
+          "term": "Ahl as-Sunnah wal-Jama'ah (أَهْل السُّنَّة وَالجَمَاعَة)",
+          "meaning": "The mainstream body of Muslims adhering strictly to the Qur'an, Sunnah, and consensus of the early righteous generations."
         }
+      ],
+      "verifiedHadith": {
+        "arabic": "عَنْ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُ قَالَ: بَيْنَمَا نَحْنُ عِنْدَ رَسُولِ اللَّهِ ﷺ ذَاتَ يَوْمٍ... قَالَ [جِبْرِيلُ]: يَا مُحَمَّدُ أَخْبِرْنِي عَنِ الإِيمَانِ، قَالَ: «أَنْ تُؤْمِنَ بِاللَّهِ، وَمَلاَئِكَتِهِ، وَكُتُبِهِ، وَرُسُلِهِ، وَالْيَوْمِ الآخِرِ، وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ»",
+        "translation": "On the authority of 'Umar ibn al-Khattab (may Allah be pleased with him): Jibreel said: 'O Muhammad, tell me about Iman.' The Prophet ﷺ said: 'It is that you believe in Allah, His Angels, His Books, His Messengers, the Last Day, and that you believe in Divine Decree (Al-Qadr), its good and its bad.'",
+        "reference": "Sahih Muslim (Hadith 8)",
+        "grading": "Sahih (Authentic)"
       },
-      {
-        "id": "aqeedah-2",
-        "number": 2,
-        "title": "Module 2: The First Pillar of Iman: Belief in Allah & The Three Categories of Tawheed",
-        "subtitle": "Tawheed ar-Rububiyyah, Tawheed al-Uluhiyyah, Tawheed al-Asma' was-Sifat, and avoiding Shirk",
-        "readingTime": "22 min",
-        "videoLesson": {
-          "title": "Yaqeen is Full Faith - Tawheed & Belief in Allah",
-          "channel": "Yaqeen Institute",
-          "duration": "13:40",
-          "videoId": "0Luz7xgzpNg",
-          "watchUrl": "https://www.youtube.com/watch?v=0Luz7xgzpNg",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/0Luz7xgzpNg",
-          "url": "https://www.youtube-nocookie.com/embed/0Luz7xgzpNg",
-          "alternativeSource": "https://quran.com/112",
-          "sourceName": "Quran.com Surah Al-Ikhlas (112) — Pure Monotheism (Tawheed)",
-          "badge": "Reference Video — Verification Pending"
-        },
-        "summary": "Master the foundational Islamic doctrine of Tawheed. Explore the three complementary categories of monotheism and learn how to guard against major and minor Shirk.",
-        "objectives": [
-          "Define the concept of Tawheed and its central place in Islamic theology",
-          "Differentiate between Tawheed ar-Rububiyyah, Tawheed al-Uluhiyyah, and Tawheed al-Asma' was-Sifat",
-          "Understand the orthodox methodology regarding Allah's Names and Attributes without distortion or anthropomorphism",
-          "Define Shirk, distinguishing between major Shirk (polytheism) and minor Shirk (e.g. Riya' / showing off)"
-        ],
-        "content": "\n# Module 2: The First Pillar of Iman: Belief in Allah & The Three Categories of Tawheed\n\nBelief in Allah is the paramount pillar of Iman upon which everything else depends. To systematically understand how the Qur'an describes monotheism, classical scholars categorize Tawheed into **three interconnected aspects**:\n\n---\n\n## 1. The Three Categories of Tawheed\n\n```\n                                  ┌───────────────────────────────┐\n                                  │       TAWHEED (Monotheism)    │\n                                  └───────────────┬───────────────┘\n                     ┌────────────────────────────┼────────────────────────────┐\n                     ▼                            ▼                            ▼\n         1. AR-RUBUBIYYAH             2. AL-ULUHIYYAH              3. AL-ASMA' WAS-SIFAT\n     (Oneness of Lordship)        (Oneness of Worship)        (Names & Divine Attributes)\n   • Sole Creator & Sustainer   • Directing all worship     • Affirming divine perfection\n   • Sole Controller of cosmos    solely to Allah alone       without likeness to creation\n```\n\n### 1. Tawheed ar-Rububiyyah (Oneness of Lordship)\n* Affirming that Allah is the **Sole Creator (*Al-Khaliq*)**, **Owner (*Al-Malik*)**, and **Controller (*Al-Mudabbir*)** of the entire universe.\n* Nothing happens in existence without His permission and decree.\n* *Note*: Even the pre-Islamic Arab pagans acknowledged that Allah created the heavens and earth (Surah Luqman 31:25), yet this alone was not enough to make them believers because they lacked *Tawheed al-Uluhiyyah*.\n\n### 2. Tawheed al-Uluhiyyah / al-'Ibadah (Oneness of Worship)\n* Directing **all acts of worship**—prayer (*Salah*), supplication (*Du'a*), sacrifice (*Dhabh*), vows (*Nadhr*), reliance (*Tawakkul*), hope (*Raja'*), and reverential fear (*Khawf*)—**exclusively to Allah alone**, without setting up any intermediaries, idols, saints, or partners.\n* This was the primary battleground between every Prophet and their respective nations:\n  > ﴿وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَّسُولًا أَنِ اعْبُدُوا اللَّهَ وَاجْتَنِبُوا الطَّاغُوتَ﴾  \n  > *\"And We certainly sent into every nation a messenger, saying: 'Worship Allah and avoid false deities.'\"*  \n  > — **Surah An-Nahl (16:36)**\n\n### 3. Tawheed al-Asma' was-Sifat (Oneness of Names & Attributes)\n* Believing in all the Beautiful Names and Sublime Attributes that Allah affirmed for Himself in the Qur'an and authentic Sunnah, without:\n  1. **Tahreef (Distortion)**: Changing the text or twisting meanings.\n  2. **Ta'teel (Denial/Negation)**: Denying the divine attributes.\n  3. **Takyif (Speculating 'How')**: Inquiring into the exact physical modality of how divine attributes exist.\n  4. **Tamtheel / Tashbeeh (Likening to creation)**: Comparing Allah's attributes to human limitations.\n* **The Foundational Qur'anic Principle**:\n  > ﴿لَيْسَ كَمِثْلِهِ شَيْءٌ ۖ وَهُوَ السَّمِيعُ الْبَصِيرُ﴾  \n  > *\"There is nothing like unto Him, and He is the All-Hearing, the All-Seeing.\"*  \n  > — **Surah Ash-Shura (42:11)**\n\n---\n\n## 2. Understanding and Avoiding Shirk\n\n*Shirk* is the opposite of Tawheed—associating partners with Allah. It is the greatest injustice and the only sin that Allah does not forgive if a person dies upon it without repentance (Surah An-Nisa 4:48).\n\n### Categories of Shirk:\n1. **Major Shirk (*Ash-Shirk al-Akbar*)**: Directing worship, prayer, sacrifice, or ultimate fear/reliance to other than Allah. This expels a person from Islam.\n2. **Minor Shirk (*Ash-Shirk al-Asghar*)**: Matters that lead towards polytheism or taint sincere intentions:\n   * **Riya' (Showing Off)**: Performing acts of worship (like prayer or charity) to win human praise. The Prophet ﷺ called this *\"the hidden Shirk\"* (Sunan Ibn Majah 4204).\n   * Swearing oaths by other than Allah.\n      ",
-        "keyTerms": [
-          {
-            "term": "Tawheed ar-Rububiyyah (تَوْحِيد الرُّبُوبِيَّة)",
-            "meaning": "Belief in Allah as the sole, sovereign Creator, Sustainer, and Controller of the universe."
-          },
-          {
-            "term": "Tawheed al-Uluhiyyah (تَوْحِيد الأُلُوهِيَّة)",
-            "meaning": "Directing all worship, prayer, fear, hope, and reliance exclusively to Allah alone."
-          },
-          {
-            "term": "Tawheed al-Asma' was-Sifat (تَوْحِيد الأَسْمَاء وَالصِّفَات)",
-            "meaning": "Affirming Allah's beautiful names and divine attributes without distortion, denial, or likeness to creation."
-          },
-          {
-            "term": "Riya' (رِيَاء)",
-            "meaning": "Minor shirk involving performing acts of worship to be seen, admired, or praised by human beings."
-          }
-        ],
-        "verifiedHadith": {
-          "arabic": "عَنْ مُعَاذِ بْنِ جَبَلٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ النَّبِيُّ ﷺ: «يَا مُعَاذُ، هَلْ تَدْرِي حَقَّ اللَّهِ عَلَى عِبَادِهِ، وَمَا حَقُّ الْعِبَادِ عَلَى اللَّهِ؟» قُلْتُ: اللَّهُ وَرَسُولُهُ أَعْلَمُ، قَالَ: «فَإِنَّ حَقَّ اللَّهِ عَلَى الْعِبَادِ أَنْ يَعْبُدُوهُ وَلاَ يُشْرِكُوا بِهِ شَيْئًا، وَحَقَّ الْعِبَادِ عَلَى اللَّهِ أَنْ لاَ يُعَذِّبَ مَنْ لاَ يُشْرِكُ بِهِ شَيْئًا»",
-          "translation": "On the authority of Mu'adh ibn Jabal (may Allah be pleased with him): The Prophet ﷺ said: 'O Mu'adh, do you know what Allah's right over His servants is, and what the servants' right over Allah is?' I said: 'Allah and His Messenger know best.' He said: 'Allah's right over His servants is that they worship Him alone and associate nothing with Him; and the right of the servants over Allah is that He will not punish whoever associates nothing with Him.'",
-          "reference": "Sahih al-Bukhari (Hadith 2856), Sahih Muslim (Hadith 30)",
-          "grading": "Sahih (Muttafaq 'Alayh — Agreed upon by Al-Bukhari and Muslim)"
-        },
-        "practicalApplication": "Protect your intentions from Riya' (minor shirk) by keeping certain good deeds completely secret between you and Allah—such as private late-night prayer, hidden charity, or private recitation.",
-        "reflectionQuestions": [
-          "Why was affirming that Allah created the universe (Tawheed ar-Rububiyyah) alone insufficient for the pre-Islamic pagans to enter Islam?",
-          "How does the golden principle of Surah Ash-Shura 42:11 ('There is nothing like unto Him, and He is the All-Hearing, the All-Seeing') maintain the perfect balance in understanding divine attributes?"
-        ],
-        "quiz": {
-          "id": "aqeedah-quiz-2",
-          "title": "Module 2 Knowledge Check: Tawheed & Divine Oneness",
-          "questions": [
-            {
-              "question": "What is Tawheed al-Uluhiyyah?",
-              "options": [
-                "Belief that Allah created the mountains",
-                "Directing all acts of worship (prayer, du'a, reliance, sacrifice) exclusively to Allah alone without intermediaries",
-                "Studying astronomy",
-                "Reading history"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Tawheed al-Uluhiyyah is the single greatest duty: singling out Allah alone in all acts of worship."
-            },
-            {
-              "question": "What is the foundational Qur'anic rule for understanding Allah's Names and Attributes in Surah Ash-Shura (42:11)?",
-              "options": [
-                "'Allah resembles His creation in every way'",
-                "'There is nothing like unto Him, and He is the All-Hearing, the All-Seeing'",
-                "'Divine attributes are poetic metaphors with no reality'",
-                "'Humans can imagine the exact modality of Allah'"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Surah Ash-Shura (42:11) establishes that Allah possesses real, perfect attributes while being completely beyond any similarity to creation."
-            },
-            {
-              "question": "What is 'Riya'' (minor Shirk)?",
-              "options": [
-                "Giving charity in secret",
-                "Performing acts of worship to be seen, praised, or admired by other human beings",
-                "Memorizing the Qur'an",
-                "Praying on time"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Riya' is showing off in worship to win human approval, which corrupts the reward and constitutes minor Shirk."
-            }
-          ]
-        }
-      },
-      {
-        "id": "aqeedah-3",
-        "number": 3,
-        "title": "Module 3: The Second Pillar: Belief in the Angels (Al-Mala'ikah)",
-        "subtitle": "Nature, attributes, and cosmic roles of the Mala'ikah created from light",
-        "readingTime": "18 min",
-        "videoLesson": {
-          "title": "Episode 2: Hold Your Pens | Angels in Your Presence",
-          "channel": "Yaqeen Institute",
-          "duration": "09:55",
-          "videoId": "swoO1nd2VKw",
-          "watchUrl": "https://www.youtube.com/watch?v=swoO1nd2VKw",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/swoO1nd2VKw",
-          "url": "https://www.youtube-nocookie.com/embed/swoO1nd2VKw",
-          "alternativeSource": "https://quran.com/66/6",
-          "sourceName": "Quran.com 66:6 — Surah At-Tahrim (The Angels of Allah)",
-          "badge": "Reference Video — Verification Pending"
-        },
-        "summary": "Understand the reality of the Angelic realm, their creation from light, their flawless obedience to Allah, and their specific entrusted roles in cosmic and human affairs.",
-        "objectives": [
-          "Explain the origin, nature, and characteristics of the Angels (Mala'ikah) created from light",
-          "Identify the major named Angels in the Qur'an and authentic Sunnah (Jibreel, Mika'il, Israfil, Malik, etc.) and their specific duties",
-          "Understand the role of Kiraman Katibin and Munkar & Nakir in human life and the afterlife",
-          "Cultivate modesty, accountability, and awe through continuous awareness of the angels"
-        ],
-        "content": "\n# Module 3: The Second Pillar: Belief in the Angels (Al-Mala'ikah)\n\nIn this module, we explore the unseen realm of noble celestial beings who worship and serve Allah with flawless devotion.\n\n---\n\n## 1. What Are Angels (*Al-Mala'ikah*)?\n\nAngels are noble, unseen spiritual beings created by Allah from pure light (*Noor*). Unlike humans and jinn, angels possess **no desire or capacity to disobey Allah**; they execute divine commands with flawless obedience:\n\n> ﴿لَّا يَعْصُونَ اللَّهَ مَا أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ﴾  \n> *\"They do not disobey Allah in what He commands them but do what they are commanded.\"*  \n> — **Surah At-Tahrim (66:6)**\n\nAngels are immense in number; as the Prophet ﷺ described in Sahih al-Bukhari (3207), seventy thousand angels enter *Al-Bayt al-Ma'mur* (The Frequently Visited House in heaven) every single day, never to return again until the Day of Resurrection.\n\n---\n\n## 2. Major Named Angels and Their Entrusted Roles\n\n1. **Jibreel (Gabriel) (عَلَيْهِ السَّلَام)**: The Archangel of Revelation (*Ar-Rooh al-Ameen*), entrusted with delivering divine scripture to all Prophets.\n2. **Mika'il (Michael) (عَلَيْهِ السَّلَام)**: Entrusted with rainfall, vegetation, and natural sustenance across the earth.\n3. **Israfil (عَلَيْهِ السَّلَام)**: Entrusted with blowing the Trumpet (*As-Soor*) to signal the end of the world and the Resurrection.\n4. **Malak al-Mawt (The Angel of Death)**: Entrusted with taking the souls of human beings at their appointed time (Surah As-Sajdah 32:11).\n5. **Malik (عَلَيْهِ السَّلَام)**: The guardian keeper of the Hellfire (Surah Az-Zukhruf 43:77).\n6. **Kiraman Katibin (The Noble Scribes)**: The two honorable recording angels on the right and left of every human, recording good and bad deeds (Surah Qaf 50:17-18).\n7. **Munkar and Nakir**: The two angels sent to question every deceased person in the intermediate realm of the grave (*Al-Barzakh*).\n8. **Hamalat al-'Arsh (Bearers of the Throne)**: The magnificent angels who carry the Throne of Allah (Surah Ghafir 40:7).\n\n---\n\n## 3. The Spiritual Impact of Belief in the Angels\n\nBelief in the Angels is not mere theoretical knowledge; it shapes everyday character:\n* **Accountability & Modesty**: Knowing that Kiraman Katibin write down every spoken word inspires caution in speech, writing, and online interactions.\n* **Humility**: Realizing how mighty, pure creations worship Allah unceasingly cures human arrogance and pride.\n* **Solace**: Believers are never truly alone; angels pray for those who seek knowledge, visit the sick, and sit in circles of remembrance.\n  ",
-        "keyTerms": [
-          {
-            "term": "Mala'ikah (مَلَائِكَة)",
-            "meaning": "Noble unseen celestial beings created from light who worship Allah continuously and execute divine orders."
-          },
-          {
-            "term": "Jibreel (جِبْرِيل)",
-            "meaning": "The archangel of divine revelation who delivered the Qur'an to Prophet Muhammad ﷺ."
-          },
-          {
-            "term": "Kiraman Katibin (كِرَامًا كَاتِبِينَ)",
-            "meaning": "The honorable recording angels assigned to every human to document deeds."
-          }
-        ],
-        "verifiedHadith": {
-          "arabic": "عَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا قَالَتْ: قَالَ رَسُولُ اللَّهِ ﷺ: «خُلِقَتِ الْمَلاَئِكَةُ مِنْ نُورٍ، وَخُلِقَ الْجَانُّ مِنْ مَارِجٍ مِنْ نَارٍ، وَخُلِقَ آدَمُ مِمَّا وُصِفَ لَكُمْ»",
-          "translation": "On the authority of 'A'ishah (may Allah be pleased with her): The Messenger of Allah ﷺ said: 'The Angels were created from light, the Jinn were created from a smokeless flame of fire, and Adam was created from what has been described to you (clay).'",
-          "reference": "Sahih Muslim (Hadith 2996)",
-          "grading": "Sahih (Authentic)"
-        },
-        "practicalApplication": "Be mindful of the Noble Scribes (Kiraman Katibin) accompanying you on your right and left. Strive to ensure that your record of deeds contains countless entries of charity, kindness, and remembrance of Allah every day.",
-        "reflectionQuestions": [
-          "How does knowing that noble angels record every word you utter impact your daily speech and online interactions?",
-          "What does the flawless obedience of angels teach us about the greatness of Allah?"
-        ],
-        "quiz": {
-          "id": "aqeedah-quiz-3",
-          "title": "Module 3 Knowledge Check: Belief in the Angels",
-          "questions": [
-            {
-              "question": "From what substance were the Angels created, as affirmed in Sahih Muslim?",
-              "options": [
-                "Clay",
-                "Smokeless fire",
-                "Pure Light (Noor)",
-                "Water"
-              ],
-              "correctAnswer": 2,
-              "explanation": "The Prophet ﷺ affirmed in Sahih Muslim (2996) that angels were created from light."
-            },
-            {
-              "question": "Which Archangel was entrusted with delivering revelation to all the Prophets?",
-              "options": [
-                "Mika'il (AS)",
-                "Jibreel (Gabriel) (AS)",
-                "Israfil (AS)",
-                "Malik (AS)"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Archangel Jibreel (AS) was divinely appointed as the emissary of divine revelation."
-            },
-            {
-              "question": "What is the primary function of the angels known as Kiraman Katibin (Surah Qaf 50:17-18)?",
-              "options": [
-                "Bringing rain and sustenance",
-                "Recording the good and bad deeds of every human being",
-                "Guarding the gates of Paradise",
-                "Blowing the Trumpet"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Kiraman Katibin are the noble scribes on the right and left who faithfully record all human actions and speech."
-            }
-          ]
-        }
-      },
-      {
-        "id": "aqeedah-4",
-        "number": 4,
-        "title": "Module 4: The Third Pillar: Belief in the Revealed Scriptures (Al-Kutub)",
-        "subtitle": "Divine revelation across prophetic history, the named scriptures, the 4 foundations of belief, and the methodology regarding previous texts",
-        "readingTime": "22 min",
-        "videoLesson": {
-          "title": "The Preserved Word of Allah: Understanding the Divine Scriptures",
-          "channel": "Yaqeen Institute",
-          "duration": "11:45",
-          "videoId": "swoO1nd2VKw",
-          "watchUrl": "https://www.youtube.com/watch?v=swoO1nd2VKw",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/swoO1nd2VKw",
-          "url": "https://www.youtube-nocookie.com/embed/swoO1nd2VKw",
-          "alternativeSource": "https://quran.com/15/9",
-          "sourceName": "Quran.com 15:9 — Surah Al-Hijr (Divine Preservation of the Scripture)",
-          "badge": "Reference Video — Verification Pending"
-        },
-        "summary": "Explore the necessity of divine revelation, the named scriptures sent throughout human history, the four foundational pillars of belief in the Books, and the orthodox prophetic methodology (Mawqif al-Muslim) regarding previous texts culminating in the preserved Qur'an.",
-        "objectives": [
-          "Define the third pillar of Iman: belief in the Revealed Scriptures (Al-Kutub) as literal divine speech from Allah",
-          "Identify the named divine scriptures in the Qur'an (Tawrat, Zabur, Injeel, Suhuf, Qur'an) and affirm belief in all unnamed revelations",
-          "Master the Four Foundations of Belief in Revealed Scriptures (Arkan al-Iman bil-Kutub)",
-          "Apply the prophetic methodology (Sahih al-Bukhari 4485) and the 3-part criterion when encountering reports from previous scriptures (Mawqif al-Muslim)",
-          "Understand the concept of Tahrif (textual and interpretive alteration) and the unique perpetual preservation of the Holy Qur'an as Muhaymin"
-        ],
-        "content": "\n# Module 4: The Third Pillar: Belief in the Revealed Scriptures (Al-Kutub)\n\nBelief in the Books (*Al-Kutub*) is the third pillar of Iman. It entails the decisive conviction that Allah revealed literal divine speech (*Kalamullah*) to His Messengers as guidance, light, and mercy for humanity.\n\n---\n\n## 1. The Theological Necessity and Purpose of Revealed Guidance\n\nHuman intellect alone can deduce that a Creator exists, but human intellect can never independently discover how to worship the Creator, what moral laws to live by, or what detailed realities await the soul in the Hereafter. Divine scripture provides the objective roadmap that intellect requires to fulfill its purpose:\n\n> ﴿كَانَ النَّاسُ أُمَّةً وَاحِدَةً فَبَعَثَ اللَّهُ النَّبِيِّينَ مُبَشِّرِينَ وَمُنذِرِينَ وَأَنزَلَ مَعَهُمُ الْكِتَابَ بِالْحَقِّ لِيَحْكُمَ بَيْنَ النَّاسِ فِيمَا اخْتَلَفُوا فِيهِ﴾  \n> *\"Mankind was [of] one religion [before it parted]; then Allah sent the prophets as bringers of good tidings and warners and sent down with them the Scripture in truth to judge between the people in that wherein they differed.\"*  \n> — **Surah Al-Baqarah (2:213)**\n\nRevelation illuminates what human reason alone could never uncover, providing the ultimate divine standard for truth, justice, and spiritual purification.\n\n---\n\n## 2. The Four Foundations of Belief in Revealed Scriptures (*Arkan al-Iman bil-Kutub*)\n\nClassical Islamic theology outlines **four essential foundations** that comprise sound, complete belief in Allah's Revealed Scriptures:\n\n1. **Believing in Their Divine Origin**: Affirming that all genuine scriptures were truly sent down by Allah. They represent His literal speech (*Kalamullah*), not human compositions, philosophical reflections, or prophetic poetry. Allah spoke His words and communicated His divine guidance to His messengers.\n2. **Believing in the Named and Unnamed Scriptures**:\n   * *Specifically*: Believing in the scriptures explicitly identified by name in Islamic revelation:\n     - **Suhuf Ibrahim (The Scrolls of Abraham)**: Revealed to Prophet Ibrahim (AS) containing wisdom and moral counsel (Surah Al-A'la 87:18-19).\n     - **At-Tawrat (The Torah)**: Revealed to Prophet Musa (Moses) (AS) containing guidance, light, and legal statutes for the Children of Israel (Surah Al-Ma'idah 5:44).\n     - **Az-Zabur (The Psalms)**: Revealed to Prophet Dawud (David) (AS), consisting of praises, prayers, and spiritual hymns (Surah An-Nisa 4:163).\n     - **Al-Injeel (The Gospel)**: Revealed to Prophet 'Isa (Jesus) (AS) confirming the original Torah and providing spiritual rejuvenation (Surah Al-Ma'idah 5:46).\n     - **Al-Qur'an al-Kareem**: Revealed to Prophet Muhammad ﷺ through Angel Jibreel as the final, universal revelation for all humanity.\n   * *Generally*: Believing firmly that Allah revealed scriptures to earlier messengers whose specific names have not been mentioned to us in revelation. We affirm that every genuine messenger was supported by divine revelation.\n3. **Affirming What is Authentically Preserved of Their Original Revelation**: Affirming belief in the original, pristine truths revealed to the past prophets. Muslims recognize that while the original revelations were pure divine light, historical processes of human alteration (*Tahrif*) mean that present-day versions of earlier texts cannot be uncritically assumed to be the unaltered original Word of Allah.\n4. **Following the Final Revelation (The Noble Qur'an)**: Acting upon the commands, prohibitions, and guidance of the Qur'an as the final, unabrogated Book and the governing criterion for Muslims. The legislation of the Qur'an supersedes earlier religious laws where Allah has decreed adjustments, providing a complete, universal law for all mankind until the Day of Resurrection.\n\n---\n\n## 3. The Muslim's Methodology Regarding Previous Scriptures (*Mawqif al-Muslim*)\n\nHow should a Muslim approach narratives, historical reports, and religious statements found in the remnants of earlier scriptures (*Isra'iliyyat*)? \n\nThe Prophet Muhammad ﷺ laid down the golden academic and theological criterion in an authentic narration in Sahih al-Bukhari:\n\n> عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: كَانَ أَهْلُ الْكِتَابِ يَقْرَءُونَ التَّوْرَاةَ بِالْعِبْرَانِيَّةِ، وَيُفَسِّرُونَهَا بِالْعَرَبِيَّةِ لِأَهْلِ الإِسْلاَمِ، فَقَالَ رَسُولُ اللَّهِ ﷺ: «لاَ تُصَدِّقُوا أَهْلَ الْكِتَابِ وَلاَ تُكَذِّبُوهُمْ، وَقُولُوا: ﴿آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ إِلَيْنَا وَمَا أُنْزِلَ إِلَيْكُمْ﴾»  \n> *Abu Hurairah (RA) narrated: The People of the Scripture used to read the Torah in Hebrew and explain it in Arabic to the Muslims. So the Messenger of Allah ﷺ said: \"Do not believe the People of the Scripture nor disbelieve them, but say: 'We believe in Allah and what has been revealed to us and what has been revealed to you.'\"*  \n> — **Sahih al-Bukhari (Hadith 4485)**\n\nFrom this authentic prophetic guidance, scholars derived **The Three Principles of Evaluation**:\n\n1. **What Agrees with the Qur'an and Authentic Sunnah**: Accepted as true and confirmed, because divine revelation corroborates it (e.g., stories of monotheism, the historical existence of the Prophets, and core moral virtues).\n2. **What Contradicts the Qur'an and Authentic Sunnah**: Rejected as incorrect and recognized as the result of human alteration (*Tahrif*) or historical distortion (e.g., attributing major sins, injustice, or idolatry to noble Prophets, or claiming divinity for created beings).\n3. **What is Neither Confirmed nor Contradicted**: Held in suspense (*Tawaqquf*); we neither dogmatically affirm it as divine fact nor aggressively deny it without evidence, as it may be a surviving truth or a human addition. It cannot be used to establish Islamic dogma or legal rulings.\n\n### Understanding *Tahrif* Accurately and Respectfully\nIslam teaches that earlier scriptures were entrusted to human custodians for preservation (Surah Al-Ma'idah 5:44), but over centuries of translation, theological councils, and loss of original manuscripts, alterations occurred. *Tahrif* does not mean that every single statement in modern religious texts of prior traditions is false; rather, it means that the original revelation is no longer preserved in its pristine, word-for-word entirety, making the Qur'an necessary as the final, incorruptible standard.\n\n---\n\n## 4. The Uniqueness and Perpetual Preservation of the Holy Qur'an\n\nUnlike past scriptures, Allah Himself took direct responsibility for safeguarding the Qur'an from all alteration:\n\n> ﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾  \n> *\"Indeed, it is We who sent down the Qur'an and indeed, We will be its guardian.\"*  \n> — **Surah Al-Hijr (15:9)**\n\nThe Qur'an is characterized by two unique theological guarantees:\n1. **The Dual Preservation Lock**: Preserved simultaneously through mass oral memorization (*Hifz*) by millions across every generation and meticulous physical manuscript collation (*Rasm*).\n2. **Muhaymin (Guardian and Criterion)**: Surah Al-Ma'idah (5:48) defines the Qur'an as *Muhaymin* over all preceding revelations—confirming the enduring truths of monotheism sent to earlier prophets, judging between differences, and correcting subsequent human distortions.\n  ",
-        "keyTerms": [
-          {
-            "term": "Al-Kutub (الكُتُب)",
-            "meaning": "The revealed Books containing literal divine speech sent by Allah to His Messengers."
-          },
-          {
-            "term": "Wahy (وَحْي)",
-            "meaning": "Divine inspiration and revelation communicated from Allah to His chosen Prophets."
-          },
-          {
-            "term": "Muhaymin (مُهَيْمِن)",
-            "meaning": "The status of the Qur'an as a guardian, judge, and criterion over all preceding divine scriptures."
-          },
-          {
-            "term": "Tahrif (تَحْرِيف)",
-            "meaning": "The historical alteration, textual modification, or doctrinal distortion of earlier scriptures over centuries."
-          },
-          {
-            "term": "Mawqif al-Muslim (مَوْقِف المُسْلِم)",
-            "meaning": "The balanced prophetic methodology of evaluating reports from previous scriptures against the Qur'an and Sunnah."
-          }
-        ],
-        "verifiedHadith": {
-          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «لاَ تُصَدِّقُوا أَهْلَ الْكِتَابِ وَلاَ تُكَذِّبُوهُمْ، وَقُولُوا: ﴿آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ إِلَيْنَا وَمَا أُنْزِلَ إِلَيْكُمْ﴾»",
-          "translation": "On the authority of Abu Hurairah (may Allah be pleased with him): The Messenger of Allah ﷺ said: 'Do not believe the People of the Scripture nor disbelieve them, but say: «We believe in Allah and what has been revealed to us and what has been revealed to you».'",
-          "reference": "Sahih al-Bukhari (Hadith 4485)",
-          "grading": "Sahih (Authentic)"
-        },
-        "practicalApplication": "Apply the Qur'an as your ultimate criterion (Furqan) in life. When evaluating religious claims, historical stories, or moral philosophies, compare them against the clear teachings of the Qur'an and authentic Sunnah.",
-        "reflectionQuestions": [
-          "How does the prophetic rule in Sahih al-Bukhari 4485 demonstrate intellectual honesty and respect when evaluating previous scriptures?",
-          "Why is believing in the original revelations given to Moses and Jesus an essential pillar of every Muslim's faith?"
-        ],
-        "quiz": {
-          "id": "aqeedah-quiz-4",
-          "title": "Module 4 Knowledge Check: Revealed Scriptures",
-          "questions": [
-            {
-              "question": "What does the second foundation of belief in the Revealed Scriptures (Arkan al-Iman bil-Kutub) require of a Muslim?",
-              "options": [
-                "To believe only in the Qur'an and deny that Allah ever spoke to previous nations",
-                "To believe specifically in the named scriptures (Tawrat, Zabur, Injeel, Suhuf, Qur'an) and generally in all unnamed scriptures revealed to Allah's messengers",
-                "To accept all modern translations of ancient texts as 100% word-for-word identical to the originals",
-                "To follow the laws of all previous scriptures simultaneously"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Muslims believe specifically in the scriptures explicitly identified in revelation and generally in all genuine revelations sent to past messengers."
-            },
-            {
-              "question": "According to the prophetic methodology taught in Sahih al-Bukhari (4485), how should a Muslim treat reports from previous scriptures that are neither confirmed nor contradicted by the Qur'an and Sunnah?",
-              "options": [
-                "Adopt them immediately as mandatory Islamic laws",
-                "Hold them in suspense: neither dogmatically affirming them as divine fact nor aggressively denying them without evidence",
-                "Declare anyone who mentions them an apostate",
-                "Burn them without reading"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The Prophet ﷺ taught believers to neither believe nor disbelieve unverified reports from previous scriptures, maintaining balanced suspense (Tawaqquf)."
-            },
-            {
-              "question": "Why has the Noble Qur'an remained unaltered for over 1,400 years, and what is its status as 'Muhaymin' (Surah Al-Ma'idah 5:48)?",
-              "options": [
-                "It was kept secret in a mountain cave",
-                "Allah Himself guaranteed its perpetual preservation (Surah Al-Hijr 15:9), and it acts as a guardian, criterion, and confirmation over all preceding scriptures",
-                "It was only written down in modern times",
-                "It adopts all legal rulings of earlier nations without change"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Surah Al-Hijr (15:9) establishes divine protection, and Surah Al-Ma'idah (5:48) affirms the Qur'an as Muhaymin over previous revelations."
-            }
-          ]
-        }
-      },
-      {
-        "id": "aqeedah-5",
-        "number": 5,
-        "title": "Module 5: The Fourth Pillar: Belief in the Prophets & Messengers (Rusul)",
-        "subtitle": "Qualities of the Prophets, 25 Prophets named in the Qur'an, and Muhammad ﷺ as the Final Seal",
-        "readingTime": "20 min",
-        "videoLesson": {
-          "title": "Episode 15: The Faith of the Prophets Before | The Faith Revival",
-          "channel": "Yaqeen Institute",
-          "duration": "12:15",
-          "videoId": "XnZchqD36TM",
-          "watchUrl": "https://www.youtube.com/watch?v=XnZchqD36TM",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/XnZchqD36TM",
-          "url": "https://www.youtube-nocookie.com/embed/XnZchqD36TM",
-          "alternativeSource": "https://quran.com/33/40",
-          "sourceName": "Quran.com 33:40 — The Seal of the Prophets (Khatam an-Nabiyyin)",
-          "badge": "Reference Video — Verification Pending"
-        },
-        "summary": "Explore the fourth pillar of Iman. Learn the essential qualities of Prophets, the universal brotherhood of Messengers, and the finality of Prophethood with Muhammad ﷺ.",
-        "objectives": [
-          "Differentiate between a Nabi (Prophet) and a Rasul (Messenger)",
-          "Identify the essential moral attributes of Prophets (Truthfulness, Trustworthiness, Infallibility in conveyance)",
-          "Recognize the 25 Prophets explicitly mentioned by name in the Noble Qur'an",
-          "Understand the doctrine of Khatam an-Nabiyyin (The Seal of the Prophets) and its theological finality"
-        ],
-        "content": "\n# Module 5: The Fourth Pillar: Belief in the Prophets & Messengers (Rusul)\n\nBelief in the Messengers is the bridge between human beings and the divine will of their Creator.\n\n---\n\n## 1. What is a Prophet and a Messenger?\n\n* **Nabi (نَبِيّ - Prophet)**: A man chosen by Allah who receives divine revelation (*Wahy*) and is commanded to practice and convey guidance, typically confirming an existing divine law.\n* **Rasul (رَسُول - Messenger)**: A Prophet sent to a specific nation with a new scripture, law (*Shari'ah*), or major divine message.\n* *Rule*: Every Messenger (*Rasul*) is a Prophet (*Nabi*), but not every Prophet is a Messenger.\n\n---\n\n## 2. Essential Qualities of the Prophets\n\nAll Prophets chosen by Allah share sublime, exemplary characteristics:\n1. **Complete Truthfulness (*As-Sidq*)**: They never uttered falsehood or deceit in their entire lives.\n2. **Absolute Trustworthiness (*Al-Amanah*)**: They conveyed every single letter of the divine message without alteration or omission.\n3. **Infallibility in Conveying Revelation (*Al-'Ismah*)**: Protected by Allah from making errors in teaching the religion or committing major sins.\n4. **Sublime Moral Character (*Husn al-Khuluq*)**: They were the most patient, compassionate, and brave humans of their respective eras.\n5. **Human Nature (*Al-Bashariyyah*)**: They were fully human—eating, sleeping, marrying, facing trials, and experiencing mortality—possessing zero divine attributes of Godhood.\n\n---\n\n## 3. The 25 Prophets Mentioned in the Qur'an\n\nThe Qur'an explicitly mentions twenty-five noble Prophets by name:\n1. **Adam** (آدم)\n2. **Idris** (إدريس)\n3. **Nuh** (Noah) (نوح)\n4. **Hud** (هود)\n5. **Salih** (صالح)\n6. **Ibrahim** (Abraham) (إبراهيم)\n7. **Lut** (Lot) (لوط)\n8. **Isma'il** (Ishmael) (إسماعيل)\n9. **Ishaq** (Isaac) (إسحاق)\n10. **Ya'qub** (Jacob) (يعقوب)\n11. **Yusuf** (Joseph) (يوسف)\n12. **Ayyub** (Job) (أيوب)\n13. **Shu'ayb** (شعيب)\n14. **Musa** (Moses) (موسى)\n15. **Harun** (Aaron) (هارون)\n16. **Dhul-Kifl** (Ezekiel) (ذو الكفل)\n17. **Dawud** (David) (داود)\n18. **Sulayman** (Solomon) (سليمان)\n19. **Ilyas** (Elijah) (إلياس)\n20. **Al-Yasa'** (Elisha) (اليسع)\n21. **Yunus** (Jonah) (يونس)\n22. **Zakariyya** (Zechariah) (زكريا)\n23. **Yahya** (John the Baptist) (يحيى)\n24. **'Isa** (Jesus) (عيسى)\n25. **Muhammad** (محمد) (صَلَّى اللَّهُ عَلَيْهِمْ وَسَلَّمَ أَجْمَعِينَ).\n\nThe greatest among them are known as **Ulul-'Azm (The Messengers of Firm Resolve)**: Nuh, Ibrahim, Musa, 'Isa, and Muhammad (peace be upon them all).\n\n---\n\n## 4. Prophet Muhammad ﷺ: The Seal of the Prophets\n\nProphet Muhammad ﷺ holds a unique, universal status:\n1. **Sent to All Mankind and Jinn**: Whereas past prophets were sent specifically to their own local tribes, Muhammad ﷺ was sent as a universal mercy to all creation (Surah Al-Anbiya 21:107).\n2. **Khatam an-Nabiyyin (The Seal of the Prophets)**:\n   > ﴿مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ﴾  \n   > *\"Muhammad is not the father of [any] one of your men, but [he is] the Messenger of Allah and the Seal of the Prophets.\"*  \n   > — **Surah Al-Ahzab (33:40)**\n3. The Prophet ﷺ explicitly stated: *«لاَ نَبِيَّ بَعْدِي»* (*\"There is no Prophet after me\"* — Sahih al-Bukhari 3455).\n      ",
-        "keyTerms": [
-          {
-            "term": "Rusul (رُسُل)",
-            "meaning": "The chosen Messengers of Allah sent throughout history to guide mankind to pure monotheism."
-          },
-          {
-            "term": "Ulul-'Azm (أُولُو العَزْم)",
-            "meaning": "The five Messengers of exceptional resolve: Nuh, Ibrahim, Musa, 'Isa, and Muhammad (peace be upon them all)."
-          },
-          {
-            "term": "Khatam an-Nabiyyin (خَاتَم النَّبِيِّين)",
-            "meaning": "The theological doctrine affirming Prophet Muhammad ﷺ as the final, terminating Seal of all Prophets."
-          }
-        ],
-        "verifiedHadith": {
-          "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «إِنَّ مَثَلِي وَمَثَلَ الأَنْبِيَاءِ مِنْ قَبْلِي كَمَثَلِ رَجُلٍ بَنَى بَيْتًا فَأَحْسَنَهُ وَأَجْمَلَهُ، إِلاَّ مَوْضِعَ لَبِنَةٍ مِنْ زَاوِيَةٍ... فَأَنَا اللَّبِنَةُ، وَأَنَا خَاتِمُ النَّبِيِّينَ»",
-          "translation": "On the authority of Abu Hurairah (may Allah be pleased with him): The Messenger of Allah ﷺ said: 'The parable of myself and the Prophets before me is like a man who built a house, perfecting and beautifying it, except for the place of a single brick in a corner... I am that final brick, and I am the Seal of the Prophets.'",
-          "reference": "Sahih al-Bukhari (Hadith 3535), Sahih Muslim (Hadith 2286)",
-          "grading": "Sahih (Muttafaq 'Alayh — Agreed upon by Al-Bukhari and Muslim)"
-        },
-        "practicalApplication": "Express your love for the Prophet Muhammad ﷺ by sending regular Salawat upon him throughout the day, and reading his authentic biography (Seerah) to emulate his compassion, justice, and courage.",
-        "reflectionQuestions": [
-          "Why was it essential that all Prophets were human beings rather than angels?",
-          "What does the finality of Prophethood (Khatam an-Nabiyyin) mean for the preservation of religious truth for all future generations?"
-        ],
-        "quiz": {
-          "id": "aqeedah-quiz-5",
-          "title": "Module 5 Knowledge Check: Prophets & Messengers",
-          "questions": [
-            {
-              "question": "Who are the 'Ulul-'Azm' (The Five Messengers of Firm Resolve) in Islamic theology?",
-              "options": [
-                "Adam, Idris, Hud, Salih, and Lut",
-                "Nuh, Ibrahim, Musa, 'Isa, and Muhammad (peace be upon them all)",
-                "Dawud, Sulayman, Yunus, Yahya, and Zakariyya",
-                "Isma'il, Ishaq, Ya'qub, Yusuf, and Ayyub"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The five Messengers of supreme resolve mentioned together in the Qur'an are Nuh, Ibrahim, Musa, 'Isa, and Muhammad."
-            },
-            {
-              "question": "What is the meaning of Prophet Muhammad ﷺ being 'Khatam an-Nabiyyin' (The Seal of the Prophets)?",
-              "options": [
-                "He lived the longest life",
-                "He is the final Prophet sent by Allah, after whom there will be no new Prophets or divine revelation until the Day of Judgment",
-                "He was the first Prophet created on Earth",
-                "He was sent only to one tribe"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Surah Al-Ahzab (33:40) and authentic Hadith establish that Prophet Muhammad ﷺ is the final Seal terminating the chain of Prophethood."
-            },
-            {
-              "question": "What core universal message did all 25 Prophets in the Qur'an teach without exception?",
-              "options": [
-                "Worship Allah alone without partners, shun false deities, and live righteously",
-                "Build large palaces and gather gold",
-                "Engage in philosophical debate",
-                "Create separate religions"
-              ],
-              "correctAnswer": 0,
-              "explanation": "All Prophets shared the identical core message of Pure Monotheism (Tawheed) and moral righteousness."
-            }
-          ]
-        },
-        "aliases": [
-          "aqeedah-4"
-        ]
-      },
-      {
-        "id": "aqeedah-6",
-        "number": 6,
-        "title": "Module 6: The Fifth Pillar: Belief in the Day of Judgment (Al-Yawm al-Akhir)",
-        "subtitle": "The Barzakh, Resurrection, the Scales (Meezan), the Reckoning (Hisab), Sirat, Paradise, and Hell",
-        "readingTime": "22 min",
-        "videoLesson": {
-          "title": "What Banner Represents You | Judgment Day | Ep. 8",
-          "channel": "Yaqeen Institute",
-          "duration": "10:30",
-          "videoId": "uDiVuVpjgtA",
-          "watchUrl": "https://www.youtube.com/watch?v=uDiVuVpjgtA",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/uDiVuVpjgtA",
-          "url": "https://www.youtube-nocookie.com/embed/uDiVuVpjgtA",
-          "alternativeSource": "https://quran.com/21/47",
-          "sourceName": "Quran.com 21:47 — The Scales of the Day of Judgment",
-          "badge": "Reference Video — Verification Pending"
-        },
-        "summary": "Understand the journey of the soul through the intermediate realm (Barzakh), the Day of Resurrection, absolute divine accountability, the Scales, and the eternal abodes of Jannah and Jahannam.",
-        "objectives": [
-          "Explain the stages of the afterlife from physical death to eternal destination",
-          "Understand the nature of the intermediate realm (Al-Barzakh) and the questioning in the grave",
-          "Describe the major events of the Day of Resurrection: The Scales (Meezan), Presentation of Deeds, and the Bridge (Sirat)",
-          "Appreciate how belief in the Hereafter provides supreme justice, accountability, and purpose to earthly life"
-        ],
-        "content": "\n# Module 6: The Fifth Pillar: Belief in the Day of Judgment (Al-Yawm al-Akhir)\n\nBelief in the Last Day transforms human life from a fleeting, meaningless biological existence into a purposeful, morally accountable journey toward eternity.\n\n---\n\n## 1. The Stages of the Journey to the Hereafter\n\n```\n[Earthly Life] ──► [Death] ──► [Al-Barzakh (Grave)] ──► [Trumpet Blown & Resurrection]\n                                                                  │\n[Eternal Jannah / Jahannam] ◄── [As-Sirat Bridge] ◄── [Hisab (Reckoning) & Meezan (Scales)]\n```\n\n### Stage 1: The Intermediate Realm (*Al-Barzakh*)\n* Immediately upon death, the soul enters *Al-Barzakh* (the barrier realm between this world and the Resurrection).\n* The deceased is visited by two angels, **Munkar and Nakir**, who ask the three foundational questions:\n  1. *Man Rabbuk?* (Who is your Lord?)\n  2. *Ma Deenuk?* (What is your religion?)\n  3. *Man Nabiyyuk?* (Who is your Prophet?)\n* The righteous soul answers with ease and experiences the peace and fragrance of Paradise in the grave, while the disobedient experience distress.\n\n### Stage 2: The Blowing of the Trumpet & Resurrection (*Al-Ba'th*)\n* Angel **Israfil** blows the Trumpet (*As-Soor*) twice:\n  * The first blast (*Nafkhat as-Sa'q*) causes all living creatures in the cosmos to die.\n  * The second blast (*Nafkhat al-Ba'th*) resurrects all human beings from their graves, standing bare before Allah.\n\n### Stage 3: The Gathering (*Al-Hashr*) & Standing\n* All of humanity from Adam to the last human are assembled on a vast, flat white plain on a Day whose length is equivalent to 50,000 years, under the shade of Allah's Throne.\n\n### Stage 4: The Presentation of Records & The Scales (*Al-Meezan*)\n* Every person receives their Book of Deeds (*Kitab al-A'mal*): the righteous in their right hand, and the wicked in their left hand or behind their back (Surah Al-Haqqah 69:19-25).\n* The Deeds are weighed on the literal **Scales (*Al-Meezan*)** of absolute divine justice:\n  > ﴿فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ • وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ﴾  \n  > *\"So whoever does an atom's weight of good will see it, and whoever does an atom's weight of evil will see it.\"*  \n  > — **Surah Az-Zalzalah (99:7-8)**\n\n### Stage 5: The Pool (*Al-Hawd*) & The Bridge (*As-Sirat*)\n* The Prophet's Pool (*Al-Hawd al-Mawrood*): Whoever drinks from it once will never thirst again.\n* The Bridge (*As-Sirat*): A bridge suspended over the Hellfire that every human must cross. Believers cross with varying speeds (like lightning, wind, or running) according to their deeds and light, leading into **Paradise (*Jannah*)**.\n\n---\n\n## 2. Jannah and Jahannam: The Eternal Realities\n\n* **Jannah (Paradise)**: The eternal abode of supreme bliss, light, and peace prepared for the believers:\n  > *«فِيهَا مَا لاَ عَيْنٌ رَأَتْ، وَلاَ أُذُنٌ سَمِعَتْ، وَلاَ خَطَرَ عَلَى قَلْبِ بَشَرٍ»*  \n  > *\"In it is what no eye has ever seen, no ear has ever heard, and no human heart has ever conceived.\"* (Sahih al-Bukhari 3244).\n  * The ultimate pinnacle reward of Jannah is gazing upon the Noble Countenance of Allah the Exalted (Surah Al-Qiyamah 75:22-23).\n* **Jahannam (Hellfire)**: The abode of divine justice, punishment, and agony prepared for tyrants, oppressors, and unrepentant disbelievers.\n      ",
-        "keyTerms": [
-          {
-            "term": "Al-Barzakh (البَرْزَخ)",
-            "meaning": "The intermediate barrier realm between death and the Day of Resurrection."
-          },
-          {
-            "term": "Al-Ba'th (البَعْث)",
-            "meaning": "The physical resurrection of all human bodies from their graves on the Last Day."
-          },
-          {
-            "term": "Al-Meezan (المِيزَان)",
-            "meaning": "The real, accurate Scales of divine justice upon which all human deeds will be weighed on the Day of Judgment."
-          },
-          {
-            "term": "As-Sirat (الصِّرَاط)",
-            "meaning": "The bridge suspended over the Hellfire which all souls must cross to enter Paradise."
-          }
-        ],
-        "verifiedHadith": {
-          "arabic": "عَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا قَالَتْ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «يُحْشَرُ النَّاسُ يَوْمَ الْقِيَامَةِ حُفَاةً عُرَاةً غُرْلاً»، قُلْتُ: يَا رَسُولَ اللَّهِ النِّسَاءُ وَالرِّجَالُ جَمِيعًا يَنْظُرُ بَعْضُهُمْ إِلَى بَعْضٍ؟ قَالَ: «يَا عَائِشَةُ، الأَمْرُ أَشَدُّ مِنْ أَنْ يَنْظُرَ بَعْضُهُمْ إِلَى بَعْضٍ»",
-          "translation": "On the authority of 'A'ishah (may Allah be pleased with her): I heard the Messenger of Allah ﷺ say: 'Mankind will be gathered on the Day of Resurrection barefoot, naked, and uncircumcised.' I said: 'O Messenger of Allah, men and women together looking at each other?' He replied: 'O 'A'ishah, the matter is far too grave for them to look at one another.'",
-          "reference": "Sahih al-Bukhari (Hadith 6527), Sahih Muslim (Hadith 2859)",
-          "grading": "Sahih (Muttafaq 'Alayh — Agreed upon by Al-Bukhari and Muslim)"
-        },
-        "practicalApplication": "Whenever you are faced with a choice between an easy wrongful act and a difficult righteous act, visualize the Scales of the Day of Judgment. Choose the action that will bring joy to your record when you hold your book on that Day.",
-        "reflectionQuestions": [
-          "How does belief in the Day of Judgment provide ultimate solace and comfort to victims of oppression who do not receive justice in this worldly life?",
-          "What are the three questions of the grave, and how does righteous living today ensure a steadfast answer on that day?"
-        ],
-        "quiz": {
-          "id": "aqeedah-quiz-6",
-          "title": "Module 6 Knowledge Check: The Last Day",
-          "questions": [
-            {
-              "question": "What are the three questions asked by angels Munkar and Nakir to every soul in the grave (Al-Barzakh)?",
-              "options": [
-                "How much wealth did you leave, what car did you drive, and where did you travel?",
-                "Who is your Lord? What is your religion? Who is your Prophet?",
-                "What language did you speak, what was your career, and how many followers did you have?",
-                "Did you study philosophy, politics, and trade?"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The three foundational inquiries of the grave evaluate one's core faith: Lord, Religion, and Prophet."
-            },
-            {
-              "question": "What is the ultimate, greatest single reward experienced by the people of Paradise (Jannah)?",
-              "options": [
-                "Rivers of honey and milk",
-                "Gazing upon the Noble Countenance of Allah the Exalted",
-                "Palaces of pearls",
-                "Perpetual youth"
-              ],
-              "correctAnswer": 1,
-              "explanation": "As affirmed in Sahih Muslim and the Qur'an (75:22-23), the supreme delight of Jannah is gazing at the Countenance of Allah."
-            },
-            {
-              "question": "What is 'Al-Meezan' on the Day of Judgment?",
-              "options": [
-                "A clock on the wall",
-                "The accurate Scales of divine justice upon which all human deeds will be weighed",
-                "A mountain in Makkah",
-                "A ship in the ocean"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Al-Meezan is the real, precise Scale upon which deeds, records, and the doer will be weighed with absolute justice."
-            }
-          ]
-        },
-        "aliases": [
-          "aqeedah-5"
-        ]
-      },
-      {
-        "id": "aqeedah-7",
-        "number": 7,
-        "title": "Module 7: The Sixth Pillar: Belief in Divine Decree & Predestination (Al-Qadr)",
-        "subtitle": "The four levels of Qadr ('Ilm, Kitabah, Mashi'ah, Khalq), human free will, moral responsibility, and Tawakkul",
-        "readingTime": "22 min",
-        "videoLesson": {
-          "title": "Divine Decree & Predestination: Trusting Allah's Wisdom",
-          "channel": "Yaqeen Institute",
-          "duration": "11:20",
-          "videoId": "hYQEW37_hWM",
-          "watchUrl": "https://www.youtube.com/watch?v=hYQEW37_hWM",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/hYQEW37_hWM",
-          "url": "https://www.youtube-nocookie.com/embed/hYQEW37_hWM",
-          "alternativeSource": "https://quran.com/54/49",
-          "sourceName": "Quran.com 54:49 — Divine Decree (Al-Qadr)",
-          "badge": "Reference Video — Verification Pending"
-        },
-        "summary": "Master the profound doctrine of Al-Qadr (Divine Decree). Understand the 4 stages of Qadr, reconcile divine knowledge with human moral choice, and overcome fatalism with Tawakkul.",
-        "objectives": [
-          "Define Al-Qadr and understand its necessity as the sixth pillar of Iman",
-          "Master the Four Essential Levels (*Maratib al-Qadr*): 'Ilm, Kitabah, Mashi'ah, and Khalq",
-          "Reconcile Allah's absolute sovereignty with human free will (*Ikhtiyar*) and accountability",
-          "Distinguish between authentic reliance on Allah (*Tawakkul*) and passive fatalism (*Tawakul*)"
-        ],
-        "content": "\n# Module 7: The Sixth Pillar: Belief in Divine Decree & Predestination (Al-Qadr)\n\nBelief in **Al-Qadr (Divine Decree)** provides the believer with supreme mental peace, resilience during adversity, and liberation from arrogance during success.\n\n---\n\n## 1. What is Al-Qadr?\n\n* **Linguistic Meaning**: Measurement, decree, determination, or precise proportion.\n* **Technical Islamic Meaning**: Believing that **Allah eternally knew, recorded, willed, and created everything that exists and occurs in the universe, in exact measure and perfect wisdom**.\n* **Primary Qur'anic Evidence**:\n  > ﴿إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ﴾  \n  > *\"Indeed, all things We created with predestination.\"*  \n  > — [Surah Al-Qamar (54:49)](https://quran.com/54/49)\n\n  > ﴿مَا أَصَابَ مِن مُّصِيبَةٍ فِي الْأَرْضِ وَلَا فِي أَنفُسِكُمْ إِلَّا فِي كِتَابٍ مِّن قَبْلِ أَن نَّبْرَأَهَا ۚ إِنَّ ذَٰلِكَ عَلَى اللَّهِ يَسِيرٌ﴾  \n  > *\"No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being — indeed that, for Allah, is easy.\"*  \n  > — [Surah Al-Hadid (57:22)](https://quran.com/57/22)\n\n---\n\n## 2. The Four Essential Levels of Qadr (*Maratib al-Qadr*)\n\nTo have sound belief in Al-Qadr, a Muslim must affirm all **four consecutive levels**:\n\n```\n1. AL-'ILM (Divine Knowledge) ──► 2. AL-KITABAH (Eternal Writing)\n                 │                                │\n                 ▼                                ▼\n3. AL-MASHI'AH (Divine Will)  ──► 4. AL-KHALQ (Divine Creation)\n```\n\n### 1. Al-'Ilm (All-Encompassing Knowledge)\n* Believing that Allah has eternal, perfect knowledge of everything—general and detailed, past, present, and future—before it occurs.\n* Allah knows what was, what will be, and what will not be (and if it were to be, how it would have been).\n\n### 2. Al-Kitabah (The Preserved Writing)\n* Believing that Allah recorded all the decrees of creation in the **Preserved Tablet (*Al-Lawh al-Mahfoodh*)** fifty thousand years before creating the heavens and earth.\n* The Prophet ﷺ said:\n  > *«كَتَبَ اللَّهُ مَقَادِيرَ الْخَلاَئِقِ قَبْلَ أَنْ يَخْلُقَ السَّمَاوَاتِ وَالأَرْضَ بِخَمْسِينَ أَلْفَ سَنَةٍ»*  \n  > *\"Allah recorded the decrees of all created things fifty thousand years before He created the heavens and the earth.\"* (Sahih Muslim 2653).\n\n### 3. Al-Mashi'ah (The Universal Divine Will)\n* Believing that whatever Allah wills happens (*Ma sha' Allahu kan*), and whatever He does not will never happens (*Wa ma lam yasha' lam yakun*).\n* Nothing exists or moves in the cosmos outside of His sovereign permission.\n\n### 4. Al-Khalq (The Creation of All Things)\n* Believing that Allah is the Sole Creator of all things, their attributes, and their actions:\n  > ﴿اللَّهُ خَالِقُ كُلِّ شَيْءٍ ۖ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ وَكِيلٌ﴾  \n  > *\"Allah is the Creator of all things, and He is, over all things, Disposer of affairs.\"*  \n  > — **Surah Az-Zumar (39:62)**\n\n---\n\n## 3. Reconciling Divine Decree with Human Free Will\n\nA common question arises: *“If Allah already wrote everything, why are humans held accountable?”*\n\n### The Orthodox Resolution:\n1. **Allah's Knowledge is Descriptive, Not Coercive**: Allah wrote what we would freely choose to do because His knowledge is infinite, not because He forced us against our will.\n2. **Humans Possess Real Choice (*Ikhtiyar*) and Ability (*Qudrah*)**: You consciously decided to read this lesson right now; no one forced you. When you choose good, you are rewarded; when you choose evil, you bear moral responsibility.\n3. **Difference Between Universal Will (*Iradah Kawniyyah*) and Legislative Will (*Iradah Shar'iyyah*)**:\n   * *Universal Will*: What Allah permits to happen in the universe (both good and bad events for a higher divine wisdom).\n   * *Legislative Will*: What Allah loves and commands (faith, justice, prayer, kindness).\n\n---\n\n## 4. The Psychological Fruits of Believing in Qadr\n\n1. **Unshakable Resilience in Hardship**: When tragedy strikes, a Muslim does not collapse into despair or say *\"If only I had done XYZ...\"* Instead, they say:\n   > **«قَدَرُ اللَّهِ وَمَا شَاءَ فَعَلَ»**  \n   > *Qaddarallahu wa ma sha'a fa'ala* (*\"It is the Decree of Allah, and whatever He willed, He has done\"* — Sahih Muslim 2664).\n2. **Freedom from Arrogance in Success**: When successful, you recognize that your intelligence, health, and wealth are divine gifts, not self-made supremacy.\n3. **True Tawakkul (Reliance) vs. Tawakul (Fatalism)**: Tying your camel and taking all practical means (*Asbab*), while relying completely on Allah for the outcome.\n      ",
-        "keyTerms": [
-          {
-            "term": "Al-Qadr (القَدَر)",
-            "meaning": "The divine decree and eternal determination of all events in the universe according to Allah's perfect knowledge and wisdom."
-          },
-          {
-            "term": "Al-Lawh al-Mahfoodh (اللَّوْح المَحْفُوظ)",
-            "meaning": "The Preserved Tablet with Allah wherein all decrees of creation were recorded."
-          },
-          {
-            "term": "Tawakkul (تَوَكُّل)",
-            "meaning": "Authentic spiritual reliance upon Allah combined with taking all legitimate practical means."
-          },
-          {
-            "term": "Ikhtiyar (اخْتِيَار)",
-            "meaning": "The human capacity for free will and moral choice granted by Allah for which humans are held accountable."
-          }
-        ],
-        "verifiedHadith": {
-          "arabic": "عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: كُنْتُ خَلْفَ النَّبِيِّ ﷺ يَوْمًا فَقَالَ: «يَا غُلاَمُ إِنِّي أُعَلِّمُكَ كَلِمَاتٍ: احْفَظِ اللَّهَ يَحْفَظْكَ، احْفَظِ اللَّهَ تَجِدْهُ تُجَاهَكَ... وَاعْلَمْ أَنَّ الأُمَّةَ لَوِ اجْتَمَعَتْ عَلَى أَنْ يَنْفَعُوكَ بِشَيْءٍ لَمْ يَنْفَعُوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ لَكَ، وَلَوِ اجْتَمَعُوا عَلَى أَنْ يَضُرُّوكَ بِشَيْءٍ لَمْ يَضُرُّوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ عَلَيْكَ، رُفِعَتِ الأَقْلاَمُ وَجَفَّتِ الصُّحُفُ»",
-          "translation": "On the authority of 'Abdullah ibn 'Abbas (may Allah be pleased with them both): I was behind the Prophet ﷺ one day and he said: 'O young man, I will teach you some words: Be mindful of Allah and He will protect you; be mindful of Allah and you will find Him in front of you... And know that if the entire nation were to gather to benefit you with something, they could not benefit you except with what Allah had already written for you; and if they were to gather to harm you with something, they could not harm you except with what Allah had already written against you. The pens have been lifted and the pages have dried.'",
-          "reference": "Jami' at-Tirmidhi (Hadith 2516)",
-          "grading": "Sahih (Authentic)"
-        },
-        "practicalApplication": "Whenever you face an unexpected setback or disappointment, train your tongue to say immediately: «قَدَرُ اللَّهِ وَمَا شَاءَ فَعَلَ» (Qaddarallahu wa ma sha'a fa'ala). Feel the peace of knowing Allah's plan is wiser than your wish.",
-        "reflectionQuestions": [
-          "Why is saying 'If only I had done this...' discouraged by the Prophet ﷺ when dealing with past calamities?",
-          "How does combining the taking of practical means with complete reliance on Allah (Tawakkul) produce both productivity and mental peace?"
-        ],
-        "quiz": {
-          "id": "aqeedah-quiz-7",
-          "title": "Module 7 Knowledge Check: Divine Decree (Al-Qadr)",
-          "questions": [
-            {
-              "question": "What are the four essential levels (Maratib) of belief in Al-Qadr?",
-              "options": [
-                "Gold, silver, bronze, and stone",
-                "Al-'Ilm (Knowledge), Al-Kitabah (Writing), Al-Mashi'ah (Will), and Al-Khalq (Creation)",
-                "Past, Present, Future, and Never",
-                "East, West, North, and South"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Sound belief in Qadr requires affirming Allah's eternal Knowledge, Writing in the Tablet, sovereign Will, and Creation of all things."
-            },
-            {
-              "question": "What did the Prophet ﷺ teach Ibn 'Abbas (RA) in the famous Hadith in Jami' at-Tirmidhi?",
-              "options": [
-                "That humans can change the past",
-                "That if the entire nation united to benefit or harm you, they could only do what Allah had already decreed, for 'the pens have been lifted and pages dried'",
-                "That you should never plan for the future",
-                "That other humans control your destiny"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The Prophet ﷺ instilled absolute trust in Allah's decree, freeing the believer from fear of human creation."
-            },
-            {
-              "question": "What is the proper Islamic phrase to utter when faced with an unavoidable loss or setback?",
-              "options": [
-                "'If only I had done something else'",
-                "'Qaddarallahu wa ma sha'a fa'ala' (It is the Decree of Allah, and whatever He willed, He has done)",
-                "'This was completely unfair'",
-                "'I will never try again'"
-              ],
-              "correctAnswer": 1,
-              "explanation": "The Prophet ﷺ taught believers to say 'Qaddarallahu wa ma sha'a fa'ala' to close the door to Satan's despair."
-            }
-          ]
-        },
-        "aliases": [
-          "aqeedah-6"
-        ]
-      },
-      {
-        "id": "aqeedah-8",
-        "number": 8,
-        "title": "Module 8: Revision, Creed Synthesis & Knowledge Assessment",
-        "subtitle": "Consolidated synthesis of the Six Pillars of Iman, psychological impact of sound creed, and capstone assessment",
-        "readingTime": "18 min",
-        "videoLesson": {
-          "title": "Creed Synthesis: Unshakeable Conviction in the Modern World",
-          "channel": "Yaqeen Institute",
-          "duration": "13:40",
-          "videoId": "0Luz7xgzpNg",
-          "watchUrl": "https://www.youtube.com/watch?v=0Luz7xgzpNg",
-          "embedUrl": "https://www.youtube-nocookie.com/embed/0Luz7xgzpNg",
-          "url": "https://www.youtube-nocookie.com/embed/0Luz7xgzpNg",
-          "alternativeSource": "https://quran.com/2/285",
-          "sourceName": "Quran.com 2:285 — The Foundations of Faith (Ayat al-Iman)",
-          "badge": "Reference Video — Verification Pending"
-        },
-        "summary": "Consolidate the complete architecture of Islamic Aqeedah. Synthesize the Six Pillars of Iman and Three Categories of Tawheed, and complete the final verified assessment.",
-        "objectives": [
-          "Review and synthesize the Six Pillars of Iman and Three Categories of Tawheed",
-          "Explain how authentic creed builds moral resilience, courage, and mental tranquility",
-          "Formulate a lifelong commitment to preserving sound faith and sound practice",
-          "Complete the comprehensive capstone assessment in Islamic Aqeedah"
-        ],
-        "content": "\n# Module 8: Revision, Creed Synthesis & Knowledge Assessment\n\nCongratulations on reaching the final capstone module of **Islamic Aqeedah From Zero**!\n\n---\n\n## 1. Summary of Our 8-Module Journey\n\n```\n┌─────────────────────────────────────────────────────────────────────────┐\n│                    FAHMRISE AQEEDAH CURRICULUM OVERVIEW                 │\n├─────────────────────────────────────────────────────────────────────────┤\n│ Module 1: Foundations of Creed (Islam, Iman, Ihsan, Hadith Jibreel)     │\n│ Module 2: Belief in Allah (Tawheed Rububiyyah, Uluhiyyah, Asma' wa-Sifat)│\n│ Module 3: Belief in the Angels (Mala'ikah, Creation from Noor, Roles)   │\n│ Module 4: Revealed Scriptures (Kutub, Suhuf, Tawrat, Injeel, Qur'an)    │\n│ Module 5: Prophets & Messengers (Attributes, 25 Named, Khatam an-Nabiyyin)│\n│ Module 6: The Day of Judgment (Barzakh, Resurrection, Meezan, Jannah)   │\n│ Module 7: Divine Decree (Al-Qadr: 4 Levels, Human Free Will, Tawakkul)  │\n│ Module 8: Comprehensive Synthesis & Lifelong Creed Blueprint            │\n└─────────────────────────────────────────────────────────────────────────┘\n```\n\n* **The Comprehensive Pillar Verse**:\n  > ﴿آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِ﴾  \n  > *\"The Messenger has believed in what was revealed to him from his Lord, and [so have] the believers. All of them have believed in Allah and His angels and His books and His messengers...\"*  \n  > — [Surah Al-Baqarah (2:285)](https://quran.com/2/285)\n\n* **The Essence of Pure Monotheism**:\n  > Explore the declaration of Allah's oneness in [Surah Al-Ikhlas (112)](https://quran.com/112).\n\n---\n\n## 2. The Core Creedal Manifesto of the Believer\n\n1. **My Lord is Allah Alone**: Creator, Sustainer, and Sole Object of all worship, love, fear, and reliance.\n2. **My Guide is the Noble Qur'an**: The uncreated, preserved Word of Allah.\n3. **My Leader and Exemplar is Prophet Muhammad ﷺ**: The final Seal of the Prophets whose Sunnah is my pathway to Paradise.\n4. **My Destination is the Hereafter**: Striving daily for Allah's Good Pleasure and the eternal gardens of Jannah.\n5. **My Trust is in Al-Qadr**: Living with active effort (*Asbab*) and tranquil reliance (*Tawakkul*).\n\nMay Allah keep your heart steadfast upon the true faith:\n> **«يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ»**  \n> *Ya Muqallib al-Qulub, thabbit qalbi 'ala deenik.*  \n> *\"O Turner of the hearts, keep my heart steadfast upon Your religion.\"* (Jami' at-Tirmidhi 3522).\n      ",
-        "keyTerms": [
-          {
-            "term": "Thabat (ثَبَات)",
-            "meaning": "Spiritual and intellectual steadfastness upon the authentic truth despite trials and doubts."
-          },
-          {
-            "term": "Istiqaamah (اسْتِقَامَة)",
-            "meaning": "Continuous unwavering uprightness and integrity in faith, speech, and conduct."
-          }
-        ],
-        "verifiedHadith": {
-          "arabic": "عَنْ شَهْرِ بْنِ حَوْشَبٍ قَالَ: قُلْتُ لِأُمِّ سَلَمَةَ رَضِيَ اللَّهُ عَنْهَا: يَا أُمَّ الْمُؤْمِنِينَ مَا كَانَ أَكْثَرُ دُعَاءِ رَسُولِ اللَّهِ ﷺ إِذَا كَانَ عِنْدَكِ؟ قَالَتْ: كَانَ أَكْثَرُ دُعَائِهِ: «يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ»",
-          "translation": "On the authority of Shahr ibn Hawshab: I said to Umm Salamah (may Allah be pleased with her): 'O Mother of the Believers, what was the most frequent supplication of the Messenger of Allah ﷺ when he was with you?' She said: 'His most frequent supplication was: «O Turner of the hearts, make my heart steadfast upon Your religion».'",
-          "reference": "Jami' at-Tirmidhi (Hadith 3522)",
-          "grading": "Sahih (Authentic)"
-        },
-        "practicalApplication": "Make the Prophet's most frequent du'a: «يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ» (Ya Muqallib al-Qulub, thabbit qalbi 'ala deenik) part of your daily supplication in every Sujood.",
-        "reflectionQuestions": [
-          "How does sound Aqeedah liberate the human heart from the fear of creation, the tyranny of material desires, and the trap of superstitions?",
-          "What is the single most transformative theological principle you learned in this course?"
-        ],
-        "quiz": {
-          "id": "aqeedah-quiz-8",
-          "title": "Module 8 Capstone Knowledge Check: Comprehensive Creed Mastery",
-          "questions": [
-            {
-              "question": "What was the single most frequent supplication of Prophet Muhammad ﷺ reported by Umm Salamah (RA)?",
-              "options": [
-                "'O Allah, grant me an empire'",
-                "'O Turner of the hearts, make my heart steadfast upon Your religion' (Ya Muqallib al-Qulub thabbit qalbi 'ala deenik)",
-                "'O Allah, make me famous among nations'",
-                "'O Allah, remove all physical work from me'"
-              ],
-              "correctAnswer": 1,
-              "explanation": "In Jami' at-Tirmidhi (3522), Umm Salamah reported that the Prophet ﷺ constantly prayed for steadfastness of the heart upon Islam."
-            },
-            {
-              "question": "What does Tawheed al-Asma' was-Sifat prohibit according to orthodox Islamic methodology?",
-              "options": [
-                "Reciting the Qur'an",
-                "Tahreef (distortion), Ta'teel (denial), Takyif (speculating 'how'), and Tamtheel (likening to creation)",
-                "Memorizing Allah's Names",
-                "Supplicating using Allah's Names"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Orthodox methodology affirms Allah's divine attributes as revealed, free from distortion, denial, anthropomorphism, or speculation."
-            },
-            {
-              "question": "How does sound belief in Al-Qadr produce profound peace of mind in daily living?",
-              "options": [
-                "By eliminating the need to take medicine or work",
-                "By assuring the believer that everything is in Allah's perfect wisdom and decree, freeing them from crippling anxiety, arrogance, and despair",
-                "By predicting lottery numbers",
-                "By stopping the passage of time"
-              ],
-              "correctAnswer": 1,
-              "explanation": "Belief in Qadr grants tranquility in hardships and humility in success, knowing all outcomes rest with Allah."
-            }
-          ]
-        },
-        "aliases": [
-          "aqeedah-7"
-        ]
-      }
-    ],
-    "quizzes": [
-      {
+      "practicalApplication": "Reflect on the definition of Ihsan today. Whatever work or worship you perform, remind yourself: 'Allah is watching me right now.' Notice how this consciousness purifies your integrity.",
+      "reflectionQuestions": [
+        "Why is sound Aqeedah considered the foundational tree from which all moral actions and worship branch out?",
+        "How does the Hadith of Jibreel provide a complete structural roadmap for a Muslim's entire religious development?"
+      ],
+      "quiz": {
         "id": "aqeedah-quiz-1",
         "title": "Module 1 Knowledge Check: Foundations of Creed",
         "questions": [
@@ -27189,8 +34044,64 @@ export const coursesData = [
             "explanation": "Authentic revelation and sound intellect are in complete harmony; revelation informs the intellect of unseen truths beyond empirical reach."
           }
         ]
+      }
+    },
+    {
+      "id": "aqeedah-2",
+      "number": 2,
+      "title": "Module 2: The First Pillar of Iman: Belief in Allah & The Three Categories of Tawheed",
+      "subtitle": "Tawheed ar-Rububiyyah, Tawheed al-Uluhiyyah, Tawheed al-Asma' was-Sifat, and avoiding Shirk",
+      "readingTime": "22 min",
+      "videoLesson": {
+        "title": "Two Pillars of Tawheed & Rights of Allah | Kitab at-Tawheed Class 2 | Sh. Abdurrahman Abdullateef",
+        "channel": "MUI Kuwait",
+        "duration": "54:04",
+        "videoId": "4_yDF_AJzhU",
+        "watchUrl": "https://www.youtube.com/watch?v=4_yDF_AJzhU",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/4_yDF_AJzhU",
+        "url": "https://www.youtube-nocookie.com/embed/4_yDF_AJzhU",
+        "alternativeSource": "https://quran.com/112",
+        "sourceName": "Quran.com Surah Al-Ikhlas (112) — Pure Monotheism (Tawheed)",
+        "badge": "Verified Reference Video"
       },
-      {
+      "summary": "Master the foundational Islamic doctrine of Tawheed. Explore the three complementary categories of monotheism and learn how to guard against major and minor Shirk.",
+      "objectives": [
+        "Define the concept of Tawheed and its central place in Islamic theology",
+        "Differentiate between Tawheed ar-Rububiyyah, Tawheed al-Uluhiyyah, and Tawheed al-Asma' was-Sifat",
+        "Understand the orthodox methodology regarding Allah's Names and Attributes without distortion or anthropomorphism",
+        "Define Shirk, distinguishing between major Shirk (polytheism) and minor Shirk (e.g. Riya' / showing off)"
+      ],
+      "content": "\n# Module 2: The First Pillar of Iman: Belief in Allah & The Three Categories of Tawheed\n\nBelief in Allah is the paramount pillar of Iman upon which everything else depends. To systematically understand how the Qur'an describes monotheism, classical scholars categorize Tawheed into **three interconnected aspects**:\n\n---\n\n## 1. The Three Categories of Tawheed\n\n```\n                                  ┌───────────────────────────────┐\n                                  │       TAWHEED (Monotheism)    │\n                                  └───────────────┬───────────────┘\n                     ┌────────────────────────────┼────────────────────────────┐\n                     ▼                            ▼                            ▼\n         1. AR-RUBUBIYYAH             2. AL-ULUHIYYAH              3. AL-ASMA' WAS-SIFAT\n     (Oneness of Lordship)        (Oneness of Worship)        (Names & Divine Attributes)\n   • Sole Creator & Sustainer   • Directing all worship     • Affirming divine perfection\n   • Sole Controller of cosmos    solely to Allah alone       without likeness to creation\n```\n\n### 1. Tawheed ar-Rububiyyah (Oneness of Lordship)\n* Affirming that Allah is the **Sole Creator (*Al-Khaliq*)**, **Owner (*Al-Malik*)**, and **Controller (*Al-Mudabbir*)** of the entire universe.\n* Nothing happens in existence without His permission and decree.\n* *Note*: Even the pre-Islamic Arab pagans acknowledged that Allah created the heavens and earth (Surah Luqman 31:25), yet this alone was not enough to make them believers because they lacked *Tawheed al-Uluhiyyah*.\n\n### 2. Tawheed al-Uluhiyyah / al-'Ibadah (Oneness of Worship)\n* Directing **all acts of worship**—prayer (*Salah*), supplication (*Du'a*), sacrifice (*Dhabh*), vows (*Nadhr*), reliance (*Tawakkul*), hope (*Raja'*), and reverential fear (*Khawf*)—**exclusively to Allah alone**, without setting up any intermediaries, idols, saints, or partners.\n* This was the primary battleground between every Prophet and their respective nations:\n  > ﴿وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَّسُولًا أَنِ اعْبُدُوا اللَّهَ وَاجْتَنِبُوا الطَّاغُوتَ﴾  \n  > *\"And We certainly sent into every nation a messenger, saying: 'Worship Allah and avoid false deities.'\"*  \n  > — **Surah An-Nahl (16:36)**\n\n### 3. Tawheed al-Asma' was-Sifat (Oneness of Names & Attributes)\n* Believing in all the Beautiful Names and Sublime Attributes that Allah affirmed for Himself in the Qur'an and authentic Sunnah, without:\n  1. **Tahreef (Distortion)**: Changing the text or twisting meanings.\n  2. **Ta'teel (Denial/Negation)**: Denying the divine attributes.\n  3. **Takyif (Speculating 'How')**: Inquiring into the exact physical modality of how divine attributes exist.\n  4. **Tamtheel / Tashbeeh (Likening to creation)**: Comparing Allah's attributes to human limitations.\n* **The Foundational Qur'anic Principle**:\n  > ﴿لَيْسَ كَمِثْلِهِ شَيْءٌ ۖ وَهُوَ السَّمِيعُ الْبَصِيرُ﴾  \n  > *\"There is nothing like unto Him, and He is the All-Hearing, the All-Seeing.\"*  \n  > — **Surah Ash-Shura (42:11)**\n\n---\n\n## 2. Understanding and Avoiding Shirk\n\n*Shirk* is the opposite of Tawheed—associating partners with Allah. It is the greatest injustice and the only sin that Allah does not forgive if a person dies upon it without repentance (Surah An-Nisa 4:48).\n\n### Categories of Shirk:\n1. **Major Shirk (*Ash-Shirk al-Akbar*)**: Directing worship, prayer, sacrifice, or ultimate fear/reliance to other than Allah. This expels a person from Islam.\n2. **Minor Shirk (*Ash-Shirk al-Asghar*)**: Matters that lead towards polytheism or taint sincere intentions:\n   * **Riya' (Showing Off)**: Performing acts of worship (like prayer or charity) to win human praise. The Prophet ﷺ called this *\"the hidden Shirk\"* (Sunan Ibn Majah 4204).\n   * Swearing oaths by other than Allah.\n      ",
+      "keyTerms": [
+        {
+          "term": "Tawheed ar-Rububiyyah (تَوْحِيد الرُّبُوبِيَّة)",
+          "meaning": "Belief in Allah as the sole, sovereign Creator, Sustainer, and Controller of the universe."
+        },
+        {
+          "term": "Tawheed al-Uluhiyyah (تَوْحِيد الأُلُوهِيَّة)",
+          "meaning": "Directing all worship, prayer, fear, hope, and reliance exclusively to Allah alone."
+        },
+        {
+          "term": "Tawheed al-Asma' was-Sifat (تَوْحِيد الأَسْمَاء وَالصِّفَات)",
+          "meaning": "Affirming Allah's beautiful names and divine attributes without distortion, denial, or likeness to creation."
+        },
+        {
+          "term": "Riya' (رِيَاء)",
+          "meaning": "Minor shirk involving performing acts of worship to be seen, admired, or praised by human beings."
+        }
+      ],
+      "verifiedHadith": {
+        "arabic": "عَنْ مُعَاذِ بْنِ جَبَلٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ النَّبِيُّ ﷺ: «يَا مُعَاذُ، هَلْ تَدْرِي حَقَّ اللَّهِ عَلَى عِبَادِهِ، وَمَا حَقُّ الْعِبَادِ عَلَى اللَّهِ؟» قُلْتُ: اللَّهُ وَرَسُولُهُ أَعْلَمُ، قَالَ: «فَإِنَّ حَقَّ اللَّهِ عَلَى الْعِبَادِ أَنْ يَعْبُدُوهُ وَلاَ يُشْرِكُوا بِهِ شَيْئًا، وَحَقَّ الْعِبَادِ عَلَى اللَّهِ أَنْ لاَ يُعَذِّبَ مَنْ لاَ يُشْرِكُ بِهِ شَيْئًا»",
+        "translation": "On the authority of Mu'adh ibn Jabal (may Allah be pleased with him): The Prophet ﷺ said: 'O Mu'adh, do you know what Allah's right over His servants is, and what the servants' right over Allah is?' I said: 'Allah and His Messenger know best.' He said: 'Allah's right over His servants is that they worship Him alone and associate nothing with Him; and the right of the servants over Allah is that He will not punish whoever associates nothing with Him.'",
+        "reference": "Sahih al-Bukhari (Hadith 2856), Sahih Muslim (Hadith 30)",
+        "grading": "Sahih (Muttafaq 'Alayh — Agreed upon by Al-Bukhari and Muslim)"
+      },
+      "practicalApplication": "Protect your intentions from Riya' (minor shirk) by keeping certain good deeds completely secret between you and Allah—such as private late-night prayer, hidden charity, or private recitation.",
+      "reflectionQuestions": [
+        "Why was affirming that Allah created the universe (Tawheed ar-Rububiyyah) alone insufficient for the pre-Islamic pagans to enter Islam?",
+        "How does the golden principle of Surah Ash-Shura 42:11 ('There is nothing like unto Him, and He is the All-Hearing, the All-Seeing') maintain the perfect balance in understanding divine attributes?"
+      ],
+      "quiz": {
         "id": "aqeedah-quiz-2",
         "title": "Module 2 Knowledge Check: Tawheed & Divine Oneness",
         "questions": [
@@ -27228,8 +34139,60 @@ export const coursesData = [
             "explanation": "Riya' is showing off in worship to win human approval, which corrupts the reward and constitutes minor Shirk."
           }
         ]
+      }
+    },
+    {
+      "id": "aqeedah-3",
+      "number": 3,
+      "title": "Module 3: The Second Pillar: Belief in the Angels (Al-Mala'ikah)",
+      "subtitle": "Nature, attributes, and cosmic roles of the Mala'ikah created from light",
+      "readingTime": "18 min",
+      "videoLesson": {
+        "title": "They've Got Your Back — Angels in Your Presence",
+        "channel": "Yaqeen Institute",
+        "duration": "05:21",
+        "videoId": "9VtsVxVyn1g",
+        "watchUrl": "https://www.youtube.com/watch?v=9VtsVxVyn1g",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/9VtsVxVyn1g",
+        "url": "https://www.youtube-nocookie.com/embed/9VtsVxVyn1g",
+        "alternativeSource": "https://quran.com/66/6",
+        "sourceName": "Quran.com 66:6 — Surah At-Tahrim (The Angels of Allah)",
+        "badge": "Verified Reference Video"
       },
-      {
+      "summary": "Understand the reality of the Angelic realm, their creation from light, their flawless obedience to Allah, and their specific entrusted roles in cosmic and human affairs.",
+      "objectives": [
+        "Explain the origin, nature, and characteristics of the Angels (Mala'ikah) created from light",
+        "Identify the major named Angels in the Qur'an and authentic Sunnah (Jibreel, Mika'il, Israfil, Malik, etc.) and their specific duties",
+        "Understand the role of Kiraman Katibin and Munkar & Nakir in human life and the afterlife",
+        "Cultivate modesty, accountability, and awe through continuous awareness of the angels"
+      ],
+      "content": "\n# Module 3: The Second Pillar: Belief in the Angels (Al-Mala'ikah)\n\nIn this module, we explore the unseen realm of noble celestial beings who worship and serve Allah with flawless devotion.\n\n---\n\n## 1. What Are Angels (*Al-Mala'ikah*)?\n\nAngels are noble, unseen spiritual beings created by Allah from pure light (*Noor*). Unlike humans and jinn, angels possess **no desire or capacity to disobey Allah**; they execute divine commands with flawless obedience:\n\n> ﴿لَّا يَعْصُونَ اللَّهَ مَا أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ﴾  \n> *\"They do not disobey Allah in what He commands them but do what they are commanded.\"*  \n> — **Surah At-Tahrim (66:6)**\n\nAngels are immense in number; as the Prophet ﷺ described in Sahih al-Bukhari (3207), seventy thousand angels enter *Al-Bayt al-Ma'mur* (The Frequently Visited House in heaven) every single day, never to return again until the Day of Resurrection.\n\n---\n\n## 2. Major Named Angels and Their Entrusted Roles\n\n1. **Jibreel (Gabriel) (عَلَيْهِ السَّلَام)**: The Archangel of Revelation (*Ar-Rooh al-Ameen*), entrusted with delivering divine scripture to all Prophets.\n2. **Mika'il (Michael) (عَلَيْهِ السَّلَام)**: Entrusted with rainfall, vegetation, and natural sustenance across the earth.\n3. **Israfil (عَلَيْهِ السَّلَام)**: Entrusted with blowing the Trumpet (*As-Soor*) to signal the end of the world and the Resurrection.\n4. **Malak al-Mawt (The Angel of Death)**: Entrusted with taking the souls of human beings at their appointed time (Surah As-Sajdah 32:11).\n5. **Malik (عَلَيْهِ السَّلَام)**: The guardian keeper of the Hellfire (Surah Az-Zukhruf 43:77).\n6. **Kiraman Katibin (The Noble Scribes)**: The two honorable recording angels on the right and left of every human, recording good and bad deeds (Surah Qaf 50:17-18).\n7. **Munkar and Nakir**: The two angels sent to question every deceased person in the intermediate realm of the grave (*Al-Barzakh*).\n8. **Hamalat al-'Arsh (Bearers of the Throne)**: The magnificent angels who carry the Throne of Allah (Surah Ghafir 40:7).\n\n---\n\n## 3. The Spiritual Impact of Belief in the Angels\n\nBelief in the Angels is not mere theoretical knowledge; it shapes everyday character:\n* **Accountability & Modesty**: Knowing that Kiraman Katibin write down every spoken word inspires caution in speech, writing, and online interactions.\n* **Humility**: Realizing how mighty, pure creations worship Allah unceasingly cures human arrogance and pride.\n* **Solace**: Believers are never truly alone; angels pray for those who seek knowledge, visit the sick, and sit in circles of remembrance.\n  ",
+      "keyTerms": [
+        {
+          "term": "Mala'ikah (مَلَائِكَة)",
+          "meaning": "Noble unseen celestial beings created from light who worship Allah continuously and execute divine orders."
+        },
+        {
+          "term": "Jibreel (جِبْرِيل)",
+          "meaning": "The archangel of divine revelation who delivered the Qur'an to Prophet Muhammad ﷺ."
+        },
+        {
+          "term": "Kiraman Katibin (كِرَامًا كَاتِبِينَ)",
+          "meaning": "The honorable recording angels assigned to every human to document deeds."
+        }
+      ],
+      "verifiedHadith": {
+        "arabic": "عَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا قَالَتْ: قَالَ رَسُولُ اللَّهِ ﷺ: «خُلِقَتِ الْمَلاَئِكَةُ مِنْ نُورٍ، وَخُلِقَ الْجَانُّ مِنْ مَارِجٍ مِنْ نَارٍ، وَخُلِقَ آدَمُ مِمَّا وُصِفَ لَكُمْ»",
+        "translation": "On the authority of 'A'ishah (may Allah be pleased with her): The Messenger of Allah ﷺ said: 'The Angels were created from light, the Jinn were created from a smokeless flame of fire, and Adam was created from what has been described to you (clay).'",
+        "reference": "Sahih Muslim (Hadith 2996)",
+        "grading": "Sahih (Authentic)"
+      },
+      "practicalApplication": "Be mindful of the Noble Scribes (Kiraman Katibin) accompanying you on your right and left. Strive to ensure that your record of deeds contains countless entries of charity, kindness, and remembrance of Allah every day.",
+      "reflectionQuestions": [
+        "How does knowing that noble angels record every word you utter impact your daily speech and online interactions?",
+        "What does the flawless obedience of angels teach us about the greatness of Allah?"
+      ],
+      "quiz": {
         "id": "aqeedah-quiz-3",
         "title": "Module 3 Knowledge Check: Belief in the Angels",
         "questions": [
@@ -27267,8 +34230,69 @@ export const coursesData = [
             "explanation": "Kiraman Katibin are the noble scribes on the right and left who faithfully record all human actions and speech."
           }
         ]
+      }
+    },
+    {
+      "id": "aqeedah-4",
+      "number": 4,
+      "title": "Module 4: The Third Pillar: Belief in the Revealed Scriptures (Al-Kutub)",
+      "subtitle": "Divine revelation across prophetic history, the named scriptures, the 4 foundations of belief, and the methodology regarding previous texts",
+      "readingTime": "22 min",
+      "videoLesson": {
+        "title": "What Is the Qur’an—Really? — Snapshots",
+        "channel": "Yaqeen Institute",
+        "duration": "06:30",
+        "videoId": "AB7gp2bqo64",
+        "watchUrl": "https://www.youtube.com/watch?v=AB7gp2bqo64",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/AB7gp2bqo64",
+        "url": "https://www.youtube-nocookie.com/embed/AB7gp2bqo64",
+        "alternativeSource": "https://quran.com/15/9",
+        "sourceName": "Quran.com 15:9 — Surah Al-Hijr (Divine Preservation of the Scripture)",
+        "badge": "Verified Reference Video"
       },
-      {
+      "summary": "Explore the necessity of divine revelation, the named scriptures sent throughout human history, the four foundational pillars of belief in the Books, and the orthodox prophetic methodology (Mawqif al-Muslim) regarding previous texts culminating in the preserved Qur'an.",
+      "objectives": [
+        "Define the third pillar of Iman: belief in the Revealed Scriptures (Al-Kutub) as literal divine speech from Allah",
+        "Identify the named divine scriptures in the Qur'an (Tawrat, Zabur, Injeel, Suhuf, Qur'an) and affirm belief in all unnamed revelations",
+        "Master the Four Foundations of Belief in Revealed Scriptures (Arkan al-Iman bil-Kutub)",
+        "Apply the prophetic methodology (Sahih al-Bukhari 4485) and the three-part criterion when encountering reports from previous scriptures (Mawqif al-Muslim)",
+        "Understand the concept of Tahrif (textual and interpretive alteration) and the unique perpetual preservation of the Holy Qur'an as Muhaymin"
+      ],
+      "content": "\n# Module 4: The Third Pillar: Belief in the Revealed Scriptures (Al-Kutub)\n\nBelief in the Books (*Al-Kutub*) is the third pillar of Iman. It entails the decisive conviction that Allah revealed literal divine speech (*Kalamullah*) to His Messengers as guidance, light, and mercy for humanity.\n\n---\n\n## 1. The Theological Necessity and Purpose of Revealed Guidance\n\nHuman intellect alone can deduce that a Creator exists, but human intellect can never independently discover how to worship the Creator, what moral laws to live by, or what detailed realities await the soul in the Hereafter. Divine scripture provides the objective roadmap that intellect requires to fulfill its purpose:\n\n> ﴿كَانَ النَّاسُ أُمَّةً وَاحِدَةً فَبَعَثَ اللَّهُ النَّبِيِّينَ مُبَشِّرِينَ وَمُنذِرِينَ وَأَنزَلَ مَعَهُمُ الْكِتَابَ بِالْحَقِّ لِيَحْكُمَ بَيْنَ النَّاسِ فِيمَا اخْتَلَفُوا فِيهِ﴾  \n> *\"Mankind was [of] one religion [before it parted]; then Allah sent the prophets as bringers of good tidings and warners and sent down with them the Scripture in truth to judge between the people in that wherein they differed.\"*  \n> — **Surah Al-Baqarah (2:213)**\n\nRevelation illuminates what human reason alone could never uncover, providing the ultimate divine standard for truth, justice, and spiritual purification.\n\n---\n\n## 2. The Four Foundations of Belief in Revealed Scriptures (*Arkan al-Iman bil-Kutub*)\n\nClassical Islamic theology outlines **four essential foundations** that comprise sound, complete belief in Allah's Revealed Scriptures:\n\n1. **Believing in Their Divine Origin**: Affirming that all genuine scriptures were truly sent down by Allah. They represent His literal speech (*Kalamullah*), not human compositions, philosophical reflections, or prophetic poetry. Allah spoke His words and communicated His divine guidance to His messengers.\n2. **Believing in the Named and Unnamed Scriptures**:\n   * *Specifically*: Believing in the scriptures explicitly identified by name in Islamic revelation:\n     - **Suhuf Ibrahim (The Scrolls of Abraham)**: Revealed to Prophet Ibrahim (AS) containing wisdom and moral counsel (Surah Al-A'la 87:18-19).\n     - **At-Tawrat (The Torah)**: Revealed to Prophet Musa (Moses) (AS) containing guidance, light, and legal statutes for the Children of Israel (Surah Al-Ma'idah 5:44).\n     - **Az-Zabur (The Psalms)**: Revealed to Prophet Dawud (David) (AS), consisting of praises, prayers, and spiritual hymns (Surah An-Nisa 4:163).\n     - **Al-Injeel (The Gospel)**: Revealed to Prophet 'Isa (Jesus) (AS) confirming the original Torah and providing spiritual rejuvenation (Surah Al-Ma'idah 5:46).\n     - **Al-Qur'an al-Kareem**: Revealed to Prophet Muhammad ﷺ through Angel Jibreel as the final, universal revelation for all humanity.\n   * *Generally*: Believing firmly that Allah revealed scriptures to earlier messengers whose specific names have not been mentioned to us in revelation. We affirm that every genuine messenger was supported by divine revelation.\n3. **Affirming What is Authentically Preserved of Their Original Revelation**: Affirming belief in the original, pristine truths revealed to the past prophets. Muslims recognize that while the original revelations were pure divine light, historical processes of human alteration (*Tahrif*) mean that present-day versions of earlier texts cannot be uncritically assumed to be the unaltered original Word of Allah.\n4. **Following the Final Revelation (The Noble Qur'an)**: Acting upon the commands, prohibitions, and guidance of the Qur'an as the final, unabrogated Book and the governing criterion for Muslims. The legislation of the Qur'an supersedes earlier religious laws where Allah has decreed adjustments, providing a complete, universal law for all mankind until the Day of Resurrection.\n\n---\n\n## 3. The Muslim's Methodology Regarding Previous Scriptures (*Mawqif al-Muslim*)\n\nHow should a Muslim approach narratives, historical reports, and religious statements found in the remnants of earlier scriptures (*Isra'iliyyat*)? \n\nThe Prophet Muhammad ﷺ laid down the golden academic and theological criterion in an authentic narration in Sahih al-Bukhari:\n\n> عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: كَانَ أَهْلُ الْكِتَابِ يَقْرَءُونَ التَّوْرَاةَ بِالْعِبْرَانِيَّةِ، وَيُفَسِّرُونَهَا بِالْعَرَبِيَّةِ لِأَهْلِ الإِسْلاَمِ، فَقَالَ رَسُولُ اللَّهِ ﷺ: «لاَ تُصَدِّقُوا أَهْلَ الْكِتَابِ وَلاَ تُكَذِّبُوهُمْ، وَقُولُوا: ﴿آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ إِلَيْنَا وَمَا أُنْزِلَ إِلَيْكُمْ﴾»  \n> *Abu Hurairah (RA) narrated: The People of the Scripture used to read the Torah in Hebrew and explain it in Arabic to the Muslims. So the Messenger of Allah ﷺ said: \"Do not believe the People of the Scripture nor disbelieve them, but say: 'We believe in Allah and what has been revealed to us and what has been revealed to you.'\"*  \n> — **Sahih al-Bukhari (Hadith 4485)**\n\nFrom this authentic prophetic guidance, scholars derived **The Three Principles of Evaluation**:\n\n1. **What Agrees with the Qur'an and Authentic Sunnah**: Accepted as true and confirmed, because divine revelation corroborates it (e.g., stories of monotheism, the historical existence of the Prophets, and core moral virtues).\n2. **What Contradicts the Qur'an and Authentic Sunnah**: Rejected as incorrect and recognized as the result of human alteration (*Tahrif*) or historical distortion (e.g., attributing major sins, injustice, or idolatry to noble Prophets, or claiming divinity for created beings).\n3. **What is Neither Confirmed nor Contradicted**: Held in suspense (*Tawaqquf*); we neither dogmatically affirm it as divine fact nor aggressively deny it without evidence, as it may be a surviving truth or a human addition. It cannot be used to establish Islamic dogma or legal rulings.\n\n### Understanding *Tahrif* Accurately and Respectfully\nIslam teaches that earlier scriptures were entrusted to human custodians for preservation (Surah Al-Ma'idah 5:44), but over centuries of translation, theological councils, and loss of original manuscripts, alterations occurred. *Tahrif* does not mean that every single statement in modern religious texts of prior traditions is false; rather, it means that the original revelation is no longer preserved in its pristine, word-for-word entirety, making the Qur'an necessary as the final, incorruptible standard.\n\n---\n\n## 4. The Uniqueness and Perpetual Preservation of the Holy Qur'an\n\nUnlike past scriptures, Allah Himself took direct responsibility for safeguarding the Qur'an from all alteration:\n\n> ﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾  \n> *\"Indeed, it is We who sent down the Qur'an and indeed, We will be its guardian.\"*  \n> — **Surah Al-Hijr (15:9)**\n\nThe Qur'an is characterized by two unique theological guarantees:\n1. **The Dual Preservation Lock**: Preserved simultaneously through mass oral memorization (*Hifz*) by millions across every generation and meticulous physical manuscript collation (*Rasm*).\n2. **Muhaymin (Guardian and Criterion)**: Surah Al-Ma'idah (5:48) defines the Qur'an as *Muhaymin* over all preceding revelations—confirming the enduring truths of monotheism sent to earlier prophets, judging between differences, and correcting subsequent human distortions.\n  ",
+      "keyTerms": [
+        {
+          "term": "Al-Kutub (الكُتُب)",
+          "meaning": "The revealed Books containing literal divine speech sent by Allah to His Messengers."
+        },
+        {
+          "term": "Wahy (وَحْي)",
+          "meaning": "Divine inspiration and revelation communicated from Allah to His chosen Prophets."
+        },
+        {
+          "term": "Muhaymin (مُهَيْمِن)",
+          "meaning": "The status of the Qur'an as a guardian, judge, and criterion over all preceding divine scriptures."
+        },
+        {
+          "term": "Tahrif (تَحْرِيف)",
+          "meaning": "The historical alteration, textual modification, or doctrinal distortion of earlier scriptures over centuries."
+        },
+        {
+          "term": "Mawqif al-Muslim (مَوْقِف المُسْلِم)",
+          "meaning": "The balanced prophetic methodology of evaluating reports from previous scriptures against the Qur'an and Sunnah."
+        }
+      ],
+      "verifiedHadith": {
+        "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ ﷺ: «لاَ تُصَدِّقُوا أَهْلَ الْكِتَابِ وَلاَ تُكَذِّبُوهُمْ، وَقُولُوا: ﴿آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ إِلَيْنَا وَمَا أُنْزِلَ إِلَيْكُمْ﴾»",
+        "translation": "On the authority of Abu Hurairah (may Allah be pleased with him): The Messenger of Allah ﷺ said: 'Do not believe the People of the Scripture nor disbelieve them, but say: «We believe in Allah and what has been revealed to us and what has been revealed to you».'",
+        "reference": "Sahih al-Bukhari (Hadith 4485)",
+        "grading": "Sahih (Authentic)"
+      },
+      "practicalApplication": "Apply the Qur'an as your ultimate criterion (Furqan) in life. When evaluating religious claims, historical stories, or moral philosophies, compare them against the clear teachings of the Qur'an and authentic Sunnah.",
+      "reflectionQuestions": [
+        "How does the prophetic rule in Sahih al-Bukhari 4485 demonstrate intellectual honesty and respect when evaluating previous scriptures?",
+        "Why is believing in the original revelations given to Moses and Jesus an essential pillar of every Muslim's faith?"
+      ],
+      "quiz": {
         "id": "aqeedah-quiz-4",
         "title": "Module 4 Knowledge Check: Revealed Scriptures",
         "questions": [
@@ -27306,8 +34330,60 @@ export const coursesData = [
             "explanation": "Surah Al-Hijr (15:9) establishes divine protection, and Surah Al-Ma'idah (5:48) affirms the Qur'an as Muhaymin over previous revelations."
           }
         ]
+      }
+    },
+    {
+      "id": "aqeedah-5",
+      "number": 5,
+      "title": "Module 5: The Fourth Pillar: Belief in the Prophets & Messengers (Rusul)",
+      "subtitle": "Qualities of the Prophets, 25 Prophets named in the Qur'an, and Muhammad ﷺ as the Final Seal",
+      "readingTime": "20 min",
+      "videoLesson": {
+        "title": "Do We Still Need Prophets? — Proofs of Prophethood",
+        "channel": "Yaqeen Institute",
+        "duration": "05:24",
+        "videoId": "iH86XdKlF3s",
+        "watchUrl": "https://www.youtube.com/watch?v=iH86XdKlF3s",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/iH86XdKlF3s",
+        "url": "https://www.youtube-nocookie.com/embed/iH86XdKlF3s",
+        "alternativeSource": "https://quran.com/33/40",
+        "sourceName": "Quran.com 33:40 — The Seal of the Prophets (Khatam an-Nabiyyin)",
+        "badge": "Verified Reference Video"
       },
-      {
+      "summary": "Explore the fourth pillar of Iman. Learn the essential qualities of Prophets, the universal brotherhood of Messengers, and the finality of Prophethood with Muhammad ﷺ.",
+      "objectives": [
+        "Differentiate between a Nabi (Prophet) and a Rasul (Messenger)",
+        "Identify the essential moral attributes of Prophets (Truthfulness, Trustworthiness, Infallibility in conveyance)",
+        "Recognize the 25 Prophets explicitly mentioned by name in the Noble Qur'an",
+        "Understand the doctrine of Khatam an-Nabiyyin (The Seal of the Prophets) and its theological finality"
+      ],
+      "content": "\n# Module 5: The Fourth Pillar: Belief in the Prophets & Messengers (Rusul)\n\nBelief in the Messengers is the bridge between human beings and the divine will of their Creator.\n\n---\n\n## 1. What is a Prophet and a Messenger?\n\n* **Nabi (نَبِيّ - Prophet)**: A man chosen by Allah who receives divine revelation (*Wahy*) and is commanded to practice and convey guidance, typically confirming an existing divine law.\n* **Rasul (رَسُول - Messenger)**: A Prophet sent to a specific nation with a new scripture, law (*Shari'ah*), or major divine message.\n* *Rule*: Every Messenger (*Rasul*) is a Prophet (*Nabi*), but not every Prophet is a Messenger.\n\n---\n\n## 2. Essential Qualities of the Prophets\n\nAll Prophets chosen by Allah share sublime, exemplary characteristics:\n1. **Complete Truthfulness (*As-Sidq*)**: They never uttered falsehood or deceit in their entire lives.\n2. **Absolute Trustworthiness (*Al-Amanah*)**: They conveyed every single letter of the divine message without alteration or omission.\n3. **Infallibility in Conveying Revelation (*Al-'Ismah*)**: Protected by Allah from making errors in teaching the religion or committing major sins.\n4. **Sublime Moral Character (*Husn al-Khuluq*)**: They were the most patient, compassionate, and brave humans of their respective eras.\n5. **Human Nature (*Al-Bashariyyah*)**: They were fully human—eating, sleeping, marrying, facing trials, and experiencing mortality—possessing zero divine attributes of Godhood.\n\n---\n\n## 3. The 25 Prophets Mentioned in the Qur'an\n\nThe Qur'an explicitly mentions twenty-five noble Prophets by name:\n1. **Adam** (آدم)\n2. **Idris** (إدريس)\n3. **Nuh** (Noah) (نوح)\n4. **Hud** (هود)\n5. **Salih** (صالح)\n6. **Ibrahim** (Abraham) (إبراهيم)\n7. **Lut** (Lot) (لوط)\n8. **Isma'il** (Ishmael) (إسماعيل)\n9. **Ishaq** (Isaac) (إسحاق)\n10. **Ya'qub** (Jacob) (يعقوب)\n11. **Yusuf** (Joseph) (يوسف)\n12. **Ayyub** (Job) (أيوب)\n13. **Shu'ayb** (شعيب)\n14. **Musa** (Moses) (موسى)\n15. **Harun** (Aaron) (هارون)\n16. **Dhul-Kifl** (Ezekiel) (ذو الكفل)\n17. **Dawud** (David) (داود)\n18. **Sulayman** (Solomon) (سليمان)\n19. **Ilyas** (Elijah) (إلياس)\n20. **Al-Yasa'** (Elisha) (اليسع)\n21. **Yunus** (Jonah) (يونس)\n22. **Zakariyya** (Zechariah) (زكريا)\n23. **Yahya** (John the Baptist) (يحيى)\n24. **'Isa** (Jesus) (عيسى)\n25. **Muhammad** (محمد) (صَلَّى اللَّهُ عَلَيْهِمْ وَسَلَّمَ أَجْمَعِينَ).\n\nThe greatest among them are known as **Ulul-'Azm (The Messengers of Firm Resolve)**: Nuh, Ibrahim, Musa, 'Isa, and Muhammad (peace be upon them all).\n\n---\n\n## 4. Prophet Muhammad ﷺ: The Seal of the Prophets\n\nProphet Muhammad ﷺ holds a unique, universal status:\n1. **Sent to All Mankind and Jinn**: Whereas past prophets were sent specifically to their own local tribes, Muhammad ﷺ was sent as a universal mercy to all creation (Surah Al-Anbiya 21:107).\n2. **Khatam an-Nabiyyin (The Seal of the Prophets)**:\n   > ﴿مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ﴾  \n   > *\"Muhammad is not the father of [any] one of your men, but [he is] the Messenger of Allah and the Seal of the Prophets.\"*  \n   > — **Surah Al-Ahzab (33:40)**\n3. The Prophet ﷺ explicitly stated: *«لاَ نَبِيَّ بَعْدِي»* (*\"There is no Prophet after me\"* — Sahih al-Bukhari 3455).\n      ",
+      "keyTerms": [
+        {
+          "term": "Rusul (رُسُل)",
+          "meaning": "The chosen Messengers of Allah sent throughout history to guide mankind to pure monotheism."
+        },
+        {
+          "term": "Ulul-'Azm (أُولُو العَزْم)",
+          "meaning": "The five Messengers of exceptional resolve: Nuh, Ibrahim, Musa, 'Isa, and Muhammad (peace be upon them all)."
+        },
+        {
+          "term": "Khatam an-Nabiyyin (خَاتَم النَّبِيِّين)",
+          "meaning": "The theological doctrine affirming Prophet Muhammad ﷺ as the final, terminating Seal of all Prophets."
+        }
+      ],
+      "verifiedHadith": {
+        "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «إِنَّ مَثَلِي وَمَثَلَ الأَنْبِيَاءِ مِنْ قَبْلِي كَمَثَلِ رَجُلٍ بَنَى بَيْتًا فَأَحْسَنَهُ وَأَجْمَلَهُ، إِلاَّ مَوْضِعَ لَبِنَةٍ مِنْ زَاوِيَةٍ... فَأَنَا اللَّبِنَةُ، وَأَنَا خَاتِمُ النَّبِيِّينَ»",
+        "translation": "On the authority of Abu Hurairah (may Allah be pleased with him): The Messenger of Allah ﷺ said: 'The parable of myself and the Prophets before me is like a man who built a house, perfecting and beautifying it, except for the place of a single brick in a corner... I am that final brick, and I am the Seal of the Prophets.'",
+        "reference": "Sahih al-Bukhari (Hadith 3535), Sahih Muslim (Hadith 2286)",
+        "grading": "Sahih (Muttafaq 'Alayh — Agreed upon by Al-Bukhari and Muslim)"
+      },
+      "practicalApplication": "Express your love for the Prophet Muhammad ﷺ by sending regular Salawat upon him throughout the day, and reading his authentic biography (Seerah) to emulate his compassion, justice, and courage.",
+      "reflectionQuestions": [
+        "Why was it essential that all Prophets were human beings rather than angels?",
+        "What does the finality of Prophethood (Khatam an-Nabiyyin) mean for the preservation of religious truth for all future generations?"
+      ],
+      "quiz": {
         "id": "aqeedah-quiz-5",
         "title": "Module 5 Knowledge Check: Prophets & Messengers",
         "questions": [
@@ -27346,7 +34422,66 @@ export const coursesData = [
           }
         ]
       },
-      {
+      "aliases": [
+        "aqeedah-4"
+      ]
+    },
+    {
+      "id": "aqeedah-6",
+      "number": 6,
+      "title": "Module 6: The Fifth Pillar: Belief in the Day of Judgment (Al-Yawm al-Akhir)",
+      "subtitle": "The Barzakh, Resurrection, the Scales (Meezan), the Reckoning (Hisab), Sirat, Paradise, and Hell",
+      "readingTime": "22 min",
+      "videoLesson": {
+        "title": "The Day of Judgement as if You Can See it",
+        "channel": "Yaqeen Institute",
+        "duration": "27:07",
+        "videoId": "msMNbnSIbLA",
+        "watchUrl": "https://www.youtube.com/watch?v=msMNbnSIbLA",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/msMNbnSIbLA",
+        "url": "https://www.youtube-nocookie.com/embed/msMNbnSIbLA",
+        "alternativeSource": "https://quran.com/21/47",
+        "sourceName": "Quran.com 21:47 — The Scales of the Day of Judgment",
+        "badge": "Verified Reference Video"
+      },
+      "summary": "Understand the journey of the soul through the intermediate realm (Barzakh), the Day of Resurrection, absolute divine accountability, the Scales, and the eternal abodes of Jannah and Jahannam.",
+      "objectives": [
+        "Explain the stages of the afterlife from physical death to eternal destination",
+        "Understand the nature of the intermediate realm (Al-Barzakh) and the questioning in the grave",
+        "Describe the major events of the Day of Resurrection: The Scales (Meezan), Presentation of Deeds, and the Bridge (Sirat)",
+        "Appreciate how belief in the Hereafter provides supreme justice, accountability, and purpose to earthly life"
+      ],
+      "content": "\n# Module 6: The Fifth Pillar: Belief in the Day of Judgment (Al-Yawm al-Akhir)\n\nBelief in the Last Day transforms human life from a fleeting, meaningless biological existence into a purposeful, morally accountable journey toward eternity.\n\n---\n\n## 1. The Stages of the Journey to the Hereafter\n\n```\n[Earthly Life] ──► [Death] ──► [Al-Barzakh (Grave)] ──► [Trumpet Blown & Resurrection]\n                                                                  │\n[Eternal Jannah / Jahannam] ◄── [As-Sirat Bridge] ◄── [Hisab (Reckoning) & Meezan (Scales)]\n```\n\n### Stage 1: The Intermediate Realm (*Al-Barzakh*)\n* Immediately upon death, the soul enters *Al-Barzakh* (the barrier realm between this world and the Resurrection).\n* The deceased is visited by two angels, **Munkar and Nakir**, who ask the three foundational questions:\n  1. *Man Rabbuk?* (Who is your Lord?)\n  2. *Ma Deenuk?* (What is your religion?)\n  3. *Man Nabiyyuk?* (Who is your Prophet?)\n* The righteous soul answers with ease and experiences the peace and fragrance of Paradise in the grave, while the disobedient experience distress.\n\n### Stage 2: The Blowing of the Trumpet & Resurrection (*Al-Ba'th*)\n* Angel **Israfil** blows the Trumpet (*As-Soor*) twice:\n  * The first blast (*Nafkhat as-Sa'q*) causes all living creatures in the cosmos to die.\n  * The second blast (*Nafkhat al-Ba'th*) resurrects all human beings from their graves, standing bare before Allah.\n\n### Stage 3: The Gathering (*Al-Hashr*) & Standing\n* All of humanity from Adam to the last human are assembled on a vast, flat white plain on a Day whose length is equivalent to 50,000 years, under the shade of Allah's Throne.\n\n### Stage 4: The Presentation of Records & The Scales (*Al-Meezan*)\n* Every person receives their Book of Deeds (*Kitab al-A'mal*): the righteous in their right hand, and the wicked in their left hand or behind their back (Surah Al-Haqqah 69:19-25).\n* The Deeds are weighed on the literal **Scales (*Al-Meezan*)** of absolute divine justice:\n  > ﴿فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ • وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ﴾  \n  > *\"So whoever does an atom's weight of good will see it, and whoever does an atom's weight of evil will see it.\"*  \n  > — **Surah Az-Zalzalah (99:7-8)**\n\n### Stage 5: The Pool (*Al-Hawd*) & The Bridge (*As-Sirat*)\n* The Prophet's Pool (*Al-Hawd al-Mawrood*): Whoever drinks from it once will never thirst again.\n* The Bridge (*As-Sirat*): A bridge suspended over the Hellfire that every human must cross. Believers cross with varying speeds (like lightning, wind, or running) according to their deeds and light, leading into **Paradise (*Jannah*)**.\n\n---\n\n## 2. Jannah and Jahannam: The Eternal Realities\n\n* **Jannah (Paradise)**: The eternal abode of supreme bliss, light, and peace prepared for the believers:\n  > *«فِيهَا مَا لاَ عَيْنٌ رَأَتْ، وَلاَ أُذُنٌ سَمِعَتْ، وَلاَ خَطَرَ عَلَى قَلْبِ بَشَرٍ»*  \n  > *\"In it is what no eye has ever seen, no ear has ever heard, and no human heart has ever conceived.\"* (Sahih al-Bukhari 3244).\n  * The ultimate pinnacle reward of Jannah is gazing upon the Noble Countenance of Allah the Exalted (Surah Al-Qiyamah 75:22-23).\n* **Jahannam (Hellfire)**: The abode of divine justice, punishment, and agony prepared for tyrants, oppressors, and unrepentant disbelievers.\n      ",
+      "keyTerms": [
+        {
+          "term": "Al-Barzakh (البَرْزَخ)",
+          "meaning": "The intermediate barrier realm between death and the Day of Resurrection."
+        },
+        {
+          "term": "Al-Ba'th (البَعْث)",
+          "meaning": "The physical resurrection of all human bodies from their graves on the Last Day."
+        },
+        {
+          "term": "Al-Meezan (المِيزَان)",
+          "meaning": "The real, accurate Scales of divine justice upon which all human deeds will be weighed on the Day of Judgment."
+        },
+        {
+          "term": "As-Sirat (الصِّرَاط)",
+          "meaning": "The bridge suspended over the Hellfire which all souls must cross to enter Paradise."
+        }
+      ],
+      "verifiedHadith": {
+        "arabic": "عَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا قَالَتْ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: «يُحْشَرُ النَّاسُ يَوْمَ الْقِيَامَةِ حُفَاةً عُرَاةً غُرْلاً»، قُلْتُ: يَا رَسُولَ اللَّهِ النِّسَاءُ وَالرِّجَالُ جَمِيعًا يَنْظُرُ بَعْضُهُمْ إِلَى بَعْضٍ؟ قَالَ: «يَا عَائِشَةُ، الأَمْرُ أَشَدُّ مِنْ أَنْ يَنْظُرَ بَعْضُهُمْ إِلَى بَعْضٍ»",
+        "translation": "On the authority of 'A'ishah (may Allah be pleased with her): I heard the Messenger of Allah ﷺ say: 'Mankind will be gathered on the Day of Resurrection barefoot, naked, and uncircumcised.' I said: 'O Messenger of Allah, men and women together looking at each other?' He replied: 'O 'A'ishah, the matter is far too grave for them to look at one another.'",
+        "reference": "Sahih al-Bukhari (Hadith 6527), Sahih Muslim (Hadith 2859)",
+        "grading": "Sahih (Muttafaq 'Alayh — Agreed upon by Al-Bukhari and Muslim)"
+      },
+      "practicalApplication": "Whenever you are faced with a choice between an easy wrongful act and a difficult righteous act, visualize the Scales of the Day of Judgment. Choose the action that will bring joy to your record when you hold your book on that Day.",
+      "reflectionQuestions": [
+        "How does belief in the Day of Judgment provide ultimate solace and comfort to victims of oppression who do not receive justice in this worldly life?",
+        "What are the three questions of the grave, and how does righteous living today ensure a steadfast answer on that day?"
+      ],
+      "quiz": {
         "id": "aqeedah-quiz-6",
         "title": "Module 6 Knowledge Check: The Last Day",
         "questions": [
@@ -27385,7 +34520,66 @@ export const coursesData = [
           }
         ]
       },
-      {
+      "aliases": [
+        "aqeedah-5"
+      ]
+    },
+    {
+      "id": "aqeedah-7",
+      "number": 7,
+      "title": "Module 7: The Sixth Pillar: Belief in Divine Decree & Predestination (Al-Qadr)",
+      "subtitle": "The four levels of Qadr ('Ilm, Kitabah, Mashi'ah, Khalq), human free will, moral responsibility, and Tawakkul",
+      "readingTime": "22 min",
+      "videoLesson": {
+        "title": "Where Was I Before I Was Born? — Why Me?",
+        "channel": "Yaqeen Institute",
+        "duration": "10:34",
+        "videoId": "uzE5j2qkFA0",
+        "watchUrl": "https://www.youtube.com/watch?v=uzE5j2qkFA0",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/uzE5j2qkFA0",
+        "url": "https://www.youtube-nocookie.com/embed/uzE5j2qkFA0",
+        "alternativeSource": "https://quran.com/54/49",
+        "sourceName": "Quran.com 54:49 — Divine Decree (Al-Qadr)",
+        "badge": "Verified Reference Video"
+      },
+      "summary": "Master the profound doctrine of Al-Qadr (Divine Decree). Understand the 4 stages of Qadr, reconcile divine knowledge with human moral choice, and overcome fatalism with Tawakkul.",
+      "objectives": [
+        "Define Al-Qadr and understand its necessity as the sixth pillar of Iman",
+        "Master the Four Essential Levels (*Maratib al-Qadr*): 'Ilm, Kitabah, Mashi'ah, and Khalq",
+        "Reconcile Allah's absolute sovereignty with human free will (*Ikhtiyar*) and accountability",
+        "Distinguish between authentic reliance on Allah (*Tawakkul*) and passive fatalism (*Tawakul*)"
+      ],
+      "content": "\n# Module 7: The Sixth Pillar: Belief in Divine Decree & Predestination (Al-Qadr)\n\nBelief in **Al-Qadr (Divine Decree)** provides the believer with supreme mental peace, resilience during adversity, and liberation from arrogance during success.\n\n---\n\n## 1. What is Al-Qadr?\n\n* **Linguistic Meaning**: Measurement, decree, determination, or precise proportion.\n* **Technical Islamic Meaning**: Believing that **Allah eternally knew, recorded, willed, and created everything that exists and occurs in the universe, in exact measure and perfect wisdom**.\n* **Primary Qur'anic Evidence**:\n  > ﴿إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ﴾  \n  > *\"Indeed, all things We created with predestination.\"*  \n  > — [Surah Al-Qamar (54:49)](https://quran.com/54/49)\n\n  > ﴿مَا أَصَابَ مِن مُّصِيبَةٍ فِي الْأَرْضِ وَلَا فِي أَنفُسِكُمْ إِلَّا فِي كِتَابٍ مِّن قَبْلِ أَن نَّبْرَأَهَا ۚ إِنَّ ذَٰلِكَ عَلَى اللَّهِ يَسِيرٌ﴾  \n  > *\"No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being — indeed that, for Allah, is easy.\"*  \n  > — [Surah Al-Hadid (57:22)](https://quran.com/57/22)\n\n---\n\n## 2. The Four Essential Levels of Qadr (*Maratib al-Qadr*)\n\nTo have sound belief in Al-Qadr, a Muslim must affirm all **four consecutive levels**:\n\n```\n1. AL-'ILM (Divine Knowledge) ──► 2. AL-KITABAH (Eternal Writing)\n                 │                                │\n                 ▼                                ▼\n3. AL-MASHI'AH (Divine Will)  ──► 4. AL-KHALQ (Divine Creation)\n```\n\n### 1. Al-'Ilm (All-Encompassing Knowledge)\n* Believing that Allah has eternal, perfect knowledge of everything—general and detailed, past, present, and future—before it occurs.\n* Allah knows what was, what will be, and what will not be (and if it were to be, how it would have been).\n\n### 2. Al-Kitabah (The Preserved Writing)\n* Believing that Allah recorded all the decrees of creation in the **Preserved Tablet (*Al-Lawh al-Mahfoodh*)** fifty thousand years before creating the heavens and earth.\n* The Prophet ﷺ said:\n  > *«كَتَبَ اللَّهُ مَقَادِيرَ الْخَلاَئِقِ قَبْلَ أَنْ يَخْلُقَ السَّمَاوَاتِ وَالأَرْضَ بِخَمْسِينَ أَلْفَ سَنَةٍ»*  \n  > *\"Allah recorded the decrees of all created things fifty thousand years before He created the heavens and the earth.\"* (Sahih Muslim 2653).\n\n### 3. Al-Mashi'ah (The Universal Divine Will)\n* Believing that whatever Allah wills happens (*Ma sha' Allahu kan*), and whatever He does not will never happens (*Wa ma lam yasha' lam yakun*).\n* Nothing exists or moves in the cosmos outside of His sovereign permission.\n\n### 4. Al-Khalq (The Creation of All Things)\n* Believing that Allah is the Sole Creator of all things, their attributes, and their actions:\n  > ﴿اللَّهُ خَالِقُ كُلِّ شَيْءٍ ۖ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ وَكِيلٌ﴾  \n  > *\"Allah is the Creator of all things, and He is, over all things, Disposer of affairs.\"*  \n  > — **Surah Az-Zumar (39:62)**\n\n---\n\n## 3. Reconciling Divine Decree with Human Free Will\n\nA common question arises: *“If Allah already wrote everything, why are humans held accountable?”*\n\n### The Orthodox Resolution:\n1. **Allah's Knowledge is Descriptive, Not Coercive**: Allah wrote what we would freely choose to do because His knowledge is infinite, not because He forced us against our will.\n2. **Humans Possess Real Choice (*Ikhtiyar*) and Ability (*Qudrah*)**: You consciously decided to read this lesson right now; no one forced you. When you choose good, you are rewarded; when you choose evil, you bear moral responsibility.\n3. **Difference Between Universal Will (*Iradah Kawniyyah*) and Legislative Will (*Iradah Shar'iyyah*)**:\n   * *Universal Will*: What Allah permits to happen in the universe (both good and bad events for a higher divine wisdom).\n   * *Legislative Will*: What Allah loves and commands (faith, justice, prayer, kindness).\n\n---\n\n## 4. The Psychological Fruits of Believing in Qadr\n\n1. **Unshakable Resilience in Hardship**: When tragedy strikes, a Muslim does not collapse into despair or say *\"If only I had done XYZ...\"* Instead, they say:\n   > **«قَدَرُ اللَّهِ وَمَا شَاءَ فَعَلَ»**  \n   > *Qaddarallahu wa ma sha'a fa'ala* (*\"It is the Decree of Allah, and whatever He willed, He has done\"* — Sahih Muslim 2664).\n2. **Freedom from Arrogance in Success**: When successful, you recognize that your intelligence, health, and wealth are divine gifts, not self-made supremacy.\n3. **True Tawakkul (Reliance) vs. Tawakul (Fatalism)**: Tying your camel and taking all practical means (*Asbab*), while relying completely on Allah for the outcome.\n      ",
+      "keyTerms": [
+        {
+          "term": "Al-Qadr (القَدَر)",
+          "meaning": "The divine decree and eternal determination of all events in the universe according to Allah's perfect knowledge and wisdom."
+        },
+        {
+          "term": "Al-Lawh al-Mahfoodh (اللَّوْح المَحْفُوظ)",
+          "meaning": "The Preserved Tablet with Allah wherein all decrees of creation were recorded."
+        },
+        {
+          "term": "Tawakkul (تَوَكُّل)",
+          "meaning": "Authentic spiritual reliance upon Allah combined with taking all legitimate practical means."
+        },
+        {
+          "term": "Ikhtiyar (اخْتِيَار)",
+          "meaning": "The human capacity for free will and moral choice granted by Allah for which humans are held accountable."
+        }
+      ],
+      "verifiedHadith": {
+        "arabic": "عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: كُنْتُ خَلْفَ النَّبِيِّ ﷺ يَوْمًا فَقَالَ: «يَا غُلاَمُ إِنِّي أُعَلِّمُكَ كَلِمَاتٍ: احْفَظِ اللَّهَ يَحْفَظْكَ، احْفَظِ اللَّهَ تَجِدْهُ تُجَاهَكَ... وَاعْلَمْ أَنَّ الأُمَّةَ لَوِ اجْتَمَعَتْ عَلَى أَنْ يَنْفَعُوكَ بِشَيْءٍ لَمْ يَنْفَعُوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ لَكَ، وَلَوِ اجْتَمَعُوا عَلَى أَنْ يَضُرُّوكَ بِشَيْءٍ لَمْ يَضُرُّوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ عَلَيْكَ، رُفِعَتِ الأَقْلاَمُ وَجَفَّتِ الصُّحُفُ»",
+        "translation": "On the authority of 'Abdullah ibn 'Abbas (may Allah be pleased with them both): I was behind the Prophet ﷺ one day and he said: 'O young man, I will teach you some words: Be mindful of Allah and He will protect you; be mindful of Allah and you will find Him in front of you... And know that if the entire nation were to gather to benefit you with something, they could not benefit you except with what Allah had already written for you; and if they were to gather to harm you with something, they could not harm you except with what Allah had already written against you. The pens have been lifted and the pages have dried.'",
+        "reference": "Jami' at-Tirmidhi (Hadith 2516)",
+        "grading": "Sahih (Authentic)"
+      },
+      "practicalApplication": "Whenever you face an unexpected setback or disappointment, train your tongue to say immediately: «قَدَرُ اللَّهِ وَمَا شَاءَ فَعَلَ» (Qaddarallahu wa ma sha'a fa'ala). Feel the peace of knowing Allah's plan is wiser than your wish.",
+      "reflectionQuestions": [
+        "Why is saying 'If only I had done this...' discouraged by the Prophet ﷺ when dealing with past calamities?",
+        "How does combining the taking of practical means with complete reliance on Allah (Tawakkul) produce both productivity and mental peace?"
+      ],
+      "quiz": {
         "id": "aqeedah-quiz-7",
         "title": "Module 7 Knowledge Check: Divine Decree (Al-Qadr)",
         "questions": [
@@ -27424,7 +34618,58 @@ export const coursesData = [
           }
         ]
       },
-      {
+      "aliases": [
+        "aqeedah-6"
+      ]
+    },
+    {
+      "id": "aqeedah-8",
+      "number": 8,
+      "title": "Module 8: Revision, Creed Synthesis & Knowledge Assessment",
+      "subtitle": "Consolidated synthesis of the Six Pillars of Iman, psychological impact of sound creed, and capstone assessment",
+      "readingTime": "18 min",
+      "videoLesson": {
+        "title": "Basic Beliefs of Islam",
+        "channel": "University of Nottingham",
+        "duration": "6:39",
+        "videoId": "WxuHBTES2-s",
+        "watchUrl": "https://www.youtube.com/watch?v=WxuHBTES2-s",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/WxuHBTES2-s",
+        "url": "https://www.youtube-nocookie.com/embed/WxuHBTES2-s",
+        "alternativeSource": "https://quran.com/2/285",
+        "sourceName": "Quran.com 2:285 — The Foundations of Faith (Ayat al-Iman)",
+        "badge": "Verified Reference Video"
+      },
+      "summary": "Consolidate the complete architecture of Islamic Aqeedah. Synthesize the Six Pillars of Iman and Three Categories of Tawheed, and complete the final verified assessment.",
+      "objectives": [
+        "Review and synthesize the Six Pillars of Iman and Three Categories of Tawheed",
+        "Explain how authentic creed builds moral resilience, courage, and mental tranquility",
+        "Formulate a lifelong commitment to preserving sound faith and sound practice",
+        "Complete the comprehensive capstone assessment in Islamic Aqeedah"
+      ],
+      "content": "\n# Module 8: Revision, Creed Synthesis & Knowledge Assessment\n\nCongratulations on reaching the final capstone module of **Islamic Aqeedah From Zero**!\n\n---\n\n## 1. Summary of Our 8-Module Journey\n\n```\n┌─────────────────────────────────────────────────────────────────────────┐\n│                    FAHMRISE AQEEDAH CURRICULUM OVERVIEW                 │\n├─────────────────────────────────────────────────────────────────────────┤\n│ Module 1: Foundations of Creed (Islam, Iman, Ihsan, Hadith Jibreel)     │\n│ Module 2: Belief in Allah (Tawheed Rububiyyah, Uluhiyyah, Asma' wa-Sifat)│\n│ Module 3: Belief in the Angels (Mala'ikah, Creation from Noor, Roles)   │\n│ Module 4: Revealed Scriptures (Kutub, Suhuf, Tawrat, Injeel, Qur'an)    │\n│ Module 5: Prophets & Messengers (Attributes, 25 Named, Khatam an-Nabiyyin)│\n│ Module 6: The Day of Judgment (Barzakh, Resurrection, Meezan, Jannah)   │\n│ Module 7: Divine Decree (Al-Qadr: 4 Levels, Human Free Will, Tawakkul)  │\n│ Module 8: Comprehensive Synthesis & Lifelong Creed Blueprint            │\n└─────────────────────────────────────────────────────────────────────────┘\n```\n\n* **The Comprehensive Pillar Verse**:\n  > ﴿آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِ﴾  \n  > *\"The Messenger has believed in what was revealed to him from his Lord, and [so have] the believers. All of them have believed in Allah and His angels and His books and His messengers...\"*  \n  > — [Surah Al-Baqarah (2:285)](https://quran.com/2/285)\n\n* **The Essence of Pure Monotheism**:\n  > Explore the declaration of Allah's oneness in [Surah Al-Ikhlas (112)](https://quran.com/112).\n\n---\n\n## 2. The Core Creedal Manifesto of the Believer\n\n1. **My Lord is Allah Alone**: Creator, Sustainer, and Sole Object of all worship, love, fear, and reliance.\n2. **My Guide is the Noble Qur'an**: The uncreated, preserved Word of Allah.\n3. **My Leader and Exemplar is Prophet Muhammad ﷺ**: The final Seal of the Prophets whose Sunnah is my pathway to Paradise.\n4. **My Destination is the Hereafter**: Striving daily for Allah's Good Pleasure and the eternal gardens of Jannah.\n5. **My Trust is in Al-Qadr**: Living with active effort (*Asbab*) and tranquil reliance (*Tawakkul*).\n\nMay Allah keep your heart steadfast upon the true faith:\n> **«يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ»**  \n> *Ya Muqallib al-Qulub, thabbit qalbi 'ala deenik.*  \n> *\"O Turner of the hearts, keep my heart steadfast upon Your religion.\"* (Jami' at-Tirmidhi 3522).\n      ",
+      "keyTerms": [
+        {
+          "term": "Thabat (ثَبَات)",
+          "meaning": "Spiritual and intellectual steadfastness upon the authentic truth despite trials and doubts."
+        },
+        {
+          "term": "Istiqaamah (اسْتِقَامَة)",
+          "meaning": "Continuous unwavering uprightness and integrity in faith, speech, and conduct."
+        }
+      ],
+      "verifiedHadith": {
+        "arabic": "عَنْ شَهْرِ بْنِ حَوْشَبٍ قَالَ: قُلْتُ لِأُمِّ سَلَمَةَ رَضِيَ اللَّهُ عَنْهَا: يَا أُمَّ الْمُؤْمِنِينَ مَا كَانَ أَكْثَرُ دُعَاءِ رَسُولِ اللَّهِ ﷺ إِذَا كَانَ عِنْدَكِ؟ قَالَتْ: كَانَ أَكْثَرُ دُعَائِهِ: «يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ»",
+        "translation": "On the authority of Shahr ibn Hawshab: I said to Umm Salamah (may Allah be pleased with her): 'O Mother of the Believers, what was the most frequent supplication of the Messenger of Allah ﷺ when he was with you?' She said: 'His most frequent supplication was: «O Turner of the hearts, make my heart steadfast upon Your religion».'",
+        "reference": "Jami' at-Tirmidhi (Hadith 3522)",
+        "grading": "Sahih (Authentic)"
+      },
+      "practicalApplication": "Make the Prophet's most frequent du'a: «يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ» (Ya Muqallib al-Qulub, thabbit qalbi 'ala deenik) part of your daily supplication in every Sujood.",
+      "reflectionQuestions": [
+        "How does sound Aqeedah liberate the human heart from the fear of creation, the tyranny of material desires, and the trap of superstitions?",
+        "What is the single most transformative theological principle you learned in this course?"
+      ],
+      "quiz": {
         "id": "aqeedah-quiz-8",
         "title": "Module 8 Capstone Knowledge Check: Comprehensive Creed Mastery",
         "questions": [
@@ -27462,67 +34707,385 @@ export const coursesData = [
             "explanation": "Belief in Qadr grants tranquility in hardships and humility in success, knowing all outcomes rest with Allah."
           }
         ]
-      }
-    ],
-    "exercises": [
-      {
-        "id": "exercise-aqeedah-1",
-        "title": "Module 1: Introduction to Aqeedah & Foundations of Islamic Creed - Reflection & Practice Drill",
-        "description": "Reflect on the definition of Ihsan today. Whatever work or worship you perform, remind yourself: 'Allah is watching me right now.' Notice how this consciousness purifies your integrity.",
-        "type": "reflection",
-        "lessonId": "aqeedah-1"
       },
-      {
-        "id": "exercise-aqeedah-2",
-        "title": "Module 2: The First Pillar of Iman: Belief in Allah & The Three Categories of Tawheed - Reflection & Practice Drill",
-        "description": "Protect your intentions from Riya' (minor shirk) by keeping certain good deeds completely secret between you and Allah—such as private late-night prayer, hidden charity, or private recitation.",
-        "type": "reflection",
-        "lessonId": "aqeedah-2"
-      },
-      {
-        "id": "exercise-aqeedah-3",
-        "title": "Module 3: The Second Pillar: Belief in the Angels (Al-Mala'ikah) - Reflection & Practice Drill",
-        "description": "Be mindful of the Noble Scribes (Kiraman Katibin) accompanying you on your right and left. Strive to ensure that your record of deeds contains countless entries of charity, kindness, and remembrance of Allah every day.",
-        "type": "reflection",
-        "lessonId": "aqeedah-3"
-      },
-      {
-        "id": "exercise-aqeedah-4",
-        "title": "Module 4: The Third Pillar: Belief in the Revealed Scriptures (Al-Kutub) - Reflection & Practice Drill",
-        "description": "Apply the Qur'an as your ultimate criterion (Furqan) in life. When evaluating religious claims, historical stories, or moral philosophies, compare them against the clear teachings of the Qur'an and authentic Sunnah.",
-        "type": "reflection",
-        "lessonId": "aqeedah-4"
-      },
-      {
-        "id": "exercise-aqeedah-5",
-        "title": "Module 5: The Fourth Pillar: Belief in the Prophets & Messengers (Rusul) - Reflection & Practice Drill",
-        "description": "Express your love for the Prophet Muhammad ﷺ by sending regular Salawat upon him throughout the day, and reading his authentic biography (Seerah) to emulate his compassion, justice, and courage.",
-        "type": "reflection",
-        "lessonId": "aqeedah-5"
-      },
-      {
-        "id": "exercise-aqeedah-6",
-        "title": "Module 6: The Fifth Pillar: Belief in the Day of Judgment (Al-Yawm al-Akhir) - Reflection & Practice Drill",
-        "description": "Whenever you are faced with a choice between an easy wrongful act and a difficult righteous act, visualize the Scales of the Day of Judgment. Choose the action that will bring joy to your record when you hold your book on that Day.",
-        "type": "reflection",
-        "lessonId": "aqeedah-6"
-      },
-      {
-        "id": "exercise-aqeedah-7",
-        "title": "Module 7: The Sixth Pillar: Belief in Divine Decree & Predestination (Al-Qadr) - Reflection & Practice Drill",
-        "description": "Whenever you face an unexpected setback or disappointment, train your tongue to say immediately: «قَدَرُ اللَّهِ وَمَا شَاءَ فَعَلَ» (Qaddarallahu wa ma sha'a fa'ala). Feel the peace of knowing Allah's plan is wiser than your wish.",
-        "type": "reflection",
-        "lessonId": "aqeedah-7"
-      },
-      {
-        "id": "exercise-aqeedah-8",
-        "title": "Module 8: Revision, Creed Synthesis & Knowledge Assessment - Reflection & Practice Drill",
-        "description": "Make the Prophet's most frequent du'a: «يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ» (Ya Muqallib al-Qulub, thabbit qalbi 'ala deenik) part of your daily supplication in every Sujood.",
-        "type": "reflection",
-        "lessonId": "aqeedah-8"
-      }
-    ]
-  },
+      "aliases": [
+        "aqeedah-7"
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "aqeedah-quiz-1",
+      "title": "Module 1 Knowledge Check: Foundations of Creed",
+      "questions": [
+        {
+          "question": "What are the Six Pillars of Iman enumerated in the famous Hadith of Jibreel in Sahih Muslim?",
+          "options": [
+            "Belief in Kings, Empires, Stars, Dreams, Wealth, and Fortune",
+            "Belief in Allah, His Angels, His Books, His Messengers, the Last Day, and Divine Decree (Al-Qadr)",
+            "Prayer, Fasting, Zakah, Hajj, Jihad, and Charity",
+            "Philosophy, Logic, History, Science, Poetry, and Grammar"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The Six Pillars of Iman are belief in Allah, His Angels, His Books, His Messengers, the Last Day, and Al-Qadr (Divine Decree)."
+        },
+        {
+          "question": "What is the definition of 'Ihsan' taught by the Prophet ﷺ?",
+          "options": [
+            "To perform only voluntary deeds",
+            "To worship Allah as though you see Him; for even if you do not see Him, He surely sees you",
+            "To debate theological controversies",
+            "To fast every single day of the year"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Ihsan is spiritual excellence, worshiping with complete consciousness of Allah's watchful divine presence."
+        },
+        {
+          "question": "What is the relationship between sound intellect ('Aql) and authentic revelation (Naql) in orthodox Islamic creed?",
+          "options": [
+            "They are in perpetual warfare",
+            "Sound intellect harmonizes completely with authentic revelation, with revelation guiding the intellect regarding unseen realities",
+            "Intellect is discarded completely",
+            "Revelation is rewritten by modern opinion"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Authentic revelation and sound intellect are in complete harmony; revelation informs the intellect of unseen truths beyond empirical reach."
+        }
+      ]
+    },
+    {
+      "id": "aqeedah-quiz-2",
+      "title": "Module 2 Knowledge Check: Tawheed & Divine Oneness",
+      "questions": [
+        {
+          "question": "What is Tawheed al-Uluhiyyah?",
+          "options": [
+            "Belief that Allah created the mountains",
+            "Directing all acts of worship (prayer, du'a, reliance, sacrifice) exclusively to Allah alone without intermediaries",
+            "Studying astronomy",
+            "Reading history"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tawheed al-Uluhiyyah is the single greatest duty: singling out Allah alone in all acts of worship."
+        },
+        {
+          "question": "What is the foundational Qur'anic rule for understanding Allah's Names and Attributes in Surah Ash-Shura (42:11)?",
+          "options": [
+            "'Allah resembles His creation in every way'",
+            "'There is nothing like unto Him, and He is the All-Hearing, the All-Seeing'",
+            "'Divine attributes are poetic metaphors with no reality'",
+            "'Humans can imagine the exact modality of Allah'"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Surah Ash-Shura (42:11) establishes that Allah possesses real, perfect attributes while being completely beyond any similarity to creation."
+        },
+        {
+          "question": "What is 'Riya'' (minor Shirk)?",
+          "options": [
+            "Giving charity in secret",
+            "Performing acts of worship to be seen, praised, or admired by other human beings",
+            "Memorizing the Qur'an",
+            "Praying on time"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Riya' is showing off in worship to win human approval, which corrupts the reward and constitutes minor Shirk."
+        }
+      ]
+    },
+    {
+      "id": "aqeedah-quiz-3",
+      "title": "Module 3 Knowledge Check: Belief in the Angels",
+      "questions": [
+        {
+          "question": "From what substance were the Angels created, as affirmed in Sahih Muslim?",
+          "options": [
+            "Clay",
+            "Smokeless fire",
+            "Pure Light (Noor)",
+            "Water"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The Prophet ﷺ affirmed in Sahih Muslim (2996) that angels were created from light."
+        },
+        {
+          "question": "Which Archangel was entrusted with delivering revelation to all the Prophets?",
+          "options": [
+            "Mika'il (AS)",
+            "Jibreel (Gabriel) (AS)",
+            "Israfil (AS)",
+            "Malik (AS)"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Archangel Jibreel (AS) was divinely appointed as the emissary of divine revelation."
+        },
+        {
+          "question": "What is the primary function of the angels known as Kiraman Katibin (Surah Qaf 50:17-18)?",
+          "options": [
+            "Bringing rain and sustenance",
+            "Recording the good and bad deeds of every human being",
+            "Guarding the gates of Paradise",
+            "Blowing the Trumpet"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Kiraman Katibin are the noble scribes on the right and left who faithfully record all human actions and speech."
+        }
+      ]
+    },
+    {
+      "id": "aqeedah-quiz-4",
+      "title": "Module 4 Knowledge Check: Revealed Scriptures",
+      "questions": [
+        {
+          "question": "What does the second foundation of belief in the Revealed Scriptures (Arkan al-Iman bil-Kutub) require of a Muslim?",
+          "options": [
+            "To believe only in the Qur'an and deny that Allah ever spoke to previous nations",
+            "To believe specifically in the named scriptures (Tawrat, Zabur, Injeel, Suhuf, Qur'an) and generally in all unnamed scriptures revealed to Allah's messengers",
+            "To accept all modern translations of ancient texts as 100% word-for-word identical to the originals",
+            "To follow the laws of all previous scriptures simultaneously"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Muslims believe specifically in the scriptures explicitly identified in revelation and generally in all genuine revelations sent to past messengers."
+        },
+        {
+          "question": "According to the prophetic methodology taught in Sahih al-Bukhari (4485), how should a Muslim treat reports from previous scriptures that are neither confirmed nor contradicted by the Qur'an and Sunnah?",
+          "options": [
+            "Adopt them immediately as mandatory Islamic laws",
+            "Hold them in suspense: neither dogmatically affirming them as divine fact nor aggressively denying them without evidence",
+            "Declare anyone who mentions them an apostate",
+            "Burn them without reading"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The Prophet ﷺ taught believers to neither believe nor disbelieve unverified reports from previous scriptures, maintaining balanced suspense (Tawaqquf)."
+        },
+        {
+          "question": "Why has the Noble Qur'an remained unaltered for over 1,400 years, and what is its status as 'Muhaymin' (Surah Al-Ma'idah 5:48)?",
+          "options": [
+            "It was kept secret in a mountain cave",
+            "Allah Himself guaranteed its perpetual preservation (Surah Al-Hijr 15:9), and it acts as a guardian, criterion, and confirmation over all preceding scriptures",
+            "It was only written down in modern times",
+            "It adopts all legal rulings of earlier nations without change"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Surah Al-Hijr (15:9) establishes divine protection, and Surah Al-Ma'idah (5:48) affirms the Qur'an as Muhaymin over previous revelations."
+        }
+      ]
+    },
+    {
+      "id": "aqeedah-quiz-5",
+      "title": "Module 5 Knowledge Check: Prophets & Messengers",
+      "questions": [
+        {
+          "question": "Who are the 'Ulul-'Azm' (The Five Messengers of Firm Resolve) in Islamic theology?",
+          "options": [
+            "Adam, Idris, Hud, Salih, and Lut",
+            "Nuh, Ibrahim, Musa, 'Isa, and Muhammad (peace be upon them all)",
+            "Dawud, Sulayman, Yunus, Yahya, and Zakariyya",
+            "Isma'il, Ishaq, Ya'qub, Yusuf, and Ayyub"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The five Messengers of supreme resolve mentioned together in the Qur'an are Nuh, Ibrahim, Musa, 'Isa, and Muhammad."
+        },
+        {
+          "question": "What is the meaning of Prophet Muhammad ﷺ being 'Khatam an-Nabiyyin' (The Seal of the Prophets)?",
+          "options": [
+            "He lived the longest life",
+            "He is the final Prophet sent by Allah, after whom there will be no new Prophets or divine revelation until the Day of Judgment",
+            "He was the first Prophet created on Earth",
+            "He was sent only to one tribe"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Surah Al-Ahzab (33:40) and authentic Hadith establish that Prophet Muhammad ﷺ is the final Seal terminating the chain of Prophethood."
+        },
+        {
+          "question": "What core universal message did all 25 Prophets in the Qur'an teach without exception?",
+          "options": [
+            "Worship Allah alone without partners, shun false deities, and live righteously",
+            "Build large palaces and gather gold",
+            "Engage in philosophical debate",
+            "Create separate religions"
+          ],
+          "correctAnswer": 0,
+          "explanation": "All Prophets shared the identical core message of Pure Monotheism (Tawheed) and moral righteousness."
+        }
+      ]
+    },
+    {
+      "id": "aqeedah-quiz-6",
+      "title": "Module 6 Knowledge Check: The Last Day",
+      "questions": [
+        {
+          "question": "What are the three questions asked by angels Munkar and Nakir to every soul in the grave (Al-Barzakh)?",
+          "options": [
+            "How much wealth did you leave, what car did you drive, and where did you travel?",
+            "Who is your Lord? What is your religion? Who is your Prophet?",
+            "What language did you speak, what was your career, and how many followers did you have?",
+            "Did you study philosophy, politics, and trade?"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The three foundational inquiries of the grave evaluate one's core faith: Lord, Religion, and Prophet."
+        },
+        {
+          "question": "What is the ultimate, greatest single reward experienced by the people of Paradise (Jannah)?",
+          "options": [
+            "Rivers of honey and milk",
+            "Gazing upon the Noble Countenance of Allah the Exalted",
+            "Palaces of pearls",
+            "Perpetual youth"
+          ],
+          "correctAnswer": 1,
+          "explanation": "As affirmed in Sahih Muslim and the Qur'an (75:22-23), the supreme delight of Jannah is gazing at the Countenance of Allah."
+        },
+        {
+          "question": "What is 'Al-Meezan' on the Day of Judgment?",
+          "options": [
+            "A clock on the wall",
+            "The accurate Scales of divine justice upon which all human deeds will be weighed",
+            "A mountain in Makkah",
+            "A ship in the ocean"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Al-Meezan is the real, precise Scale upon which deeds, records, and the doer will be weighed with absolute justice."
+        }
+      ]
+    },
+    {
+      "id": "aqeedah-quiz-7",
+      "title": "Module 7 Knowledge Check: Divine Decree (Al-Qadr)",
+      "questions": [
+        {
+          "question": "What are the four essential levels (Maratib) of belief in Al-Qadr?",
+          "options": [
+            "Gold, silver, bronze, and stone",
+            "Al-'Ilm (Knowledge), Al-Kitabah (Writing), Al-Mashi'ah (Will), and Al-Khalq (Creation)",
+            "Past, Present, Future, and Never",
+            "East, West, North, and South"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Sound belief in Qadr requires affirming Allah's eternal Knowledge, Writing in the Tablet, sovereign Will, and Creation of all things."
+        },
+        {
+          "question": "What did the Prophet ﷺ teach Ibn 'Abbas (RA) in the famous Hadith in Jami' at-Tirmidhi?",
+          "options": [
+            "That humans can change the past",
+            "That if the entire nation united to benefit or harm you, they could only do what Allah had already decreed, for 'the pens have been lifted and pages dried'",
+            "That you should never plan for the future",
+            "That other humans control your destiny"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The Prophet ﷺ instilled absolute trust in Allah's decree, freeing the believer from fear of human creation."
+        },
+        {
+          "question": "What is the proper Islamic phrase to utter when faced with an unavoidable loss or setback?",
+          "options": [
+            "'If only I had done something else'",
+            "'Qaddarallahu wa ma sha'a fa'ala' (It is the Decree of Allah, and whatever He willed, He has done)",
+            "'This was completely unfair'",
+            "'I will never try again'"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The Prophet ﷺ taught believers to say 'Qaddarallahu wa ma sha'a fa'ala' to close the door to Satan's despair."
+        }
+      ]
+    },
+    {
+      "id": "aqeedah-quiz-8",
+      "title": "Module 8 Capstone Knowledge Check: Comprehensive Creed Mastery",
+      "questions": [
+        {
+          "question": "What was the single most frequent supplication of Prophet Muhammad ﷺ reported by Umm Salamah (RA)?",
+          "options": [
+            "'O Allah, grant me an empire'",
+            "'O Turner of the hearts, make my heart steadfast upon Your religion' (Ya Muqallib al-Qulub thabbit qalbi 'ala deenik)",
+            "'O Allah, make me famous among nations'",
+            "'O Allah, remove all physical work from me'"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In Jami' at-Tirmidhi (3522), Umm Salamah reported that the Prophet ﷺ constantly prayed for steadfastness of the heart upon Islam."
+        },
+        {
+          "question": "What does Tawheed al-Asma' was-Sifat prohibit according to orthodox Islamic methodology?",
+          "options": [
+            "Reciting the Qur'an",
+            "Tahreef (distortion), Ta'teel (denial), Takyif (speculating 'how'), and Tamtheel (likening to creation)",
+            "Memorizing Allah's Names",
+            "Supplicating using Allah's Names"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Orthodox methodology affirms Allah's divine attributes as revealed, free from distortion, denial, anthropomorphism, or speculation."
+        },
+        {
+          "question": "How does sound belief in Al-Qadr produce profound peace of mind in daily living?",
+          "options": [
+            "By eliminating the need to take medicine or work",
+            "By assuring the believer that everything is in Allah's perfect wisdom and decree, freeing them from crippling anxiety, arrogance, and despair",
+            "By predicting lottery numbers",
+            "By stopping the passage of time"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Belief in Qadr grants tranquility in hardships and humility in success, knowing all outcomes rest with Allah."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exercise-aqeedah-1",
+      "title": "Module 1: Introduction to Aqeedah & Foundations of Islamic Creed - Reflection & Practice Drill",
+      "description": "Reflect on the definition of Ihsan today. Whatever work or worship you perform, remind yourself: 'Allah is watching me right now.' Notice how this consciousness purifies your integrity.",
+      "type": "reflection",
+      "lessonId": "aqeedah-1"
+    },
+    {
+      "id": "exercise-aqeedah-2",
+      "title": "Module 2: The First Pillar of Iman: Belief in Allah & The Three Categories of Tawheed - Reflection & Practice Drill",
+      "description": "Protect your intentions from Riya' (minor shirk) by keeping certain good deeds completely secret between you and Allah—such as private late-night prayer, hidden charity, or private recitation.",
+      "type": "reflection",
+      "lessonId": "aqeedah-2"
+    },
+    {
+      "id": "exercise-aqeedah-3",
+      "title": "Module 3: The Second Pillar: Belief in the Angels (Al-Mala'ikah) - Reflection & Practice Drill",
+      "description": "Be mindful of the Noble Scribes (Kiraman Katibin) accompanying you on your right and left. Strive to ensure that your record of deeds contains countless entries of charity, kindness, and remembrance of Allah every day.",
+      "type": "reflection",
+      "lessonId": "aqeedah-3"
+    },
+    {
+      "id": "exercise-aqeedah-4",
+      "title": "Module 4: The Third Pillar: Belief in the Revealed Scriptures (Al-Kutub) - Reflection & Practice Drill",
+      "description": "Apply the Qur'an as your ultimate criterion (Furqan) in life. When evaluating religious claims, historical stories, or moral philosophies, compare them against the clear teachings of the Qur'an and authentic Sunnah.",
+      "type": "reflection",
+      "lessonId": "aqeedah-4"
+    },
+    {
+      "id": "exercise-aqeedah-5",
+      "title": "Module 5: The Fourth Pillar: Belief in the Prophets & Messengers (Rusul) - Reflection & Practice Drill",
+      "description": "Express your love for the Prophet Muhammad ﷺ by sending regular Salawat upon him throughout the day, and reading his authentic biography (Seerah) to emulate his compassion, justice, and courage.",
+      "type": "reflection",
+      "lessonId": "aqeedah-5"
+    },
+    {
+      "id": "exercise-aqeedah-6",
+      "title": "Module 6: The Fifth Pillar: Belief in the Day of Judgment (Al-Yawm al-Akhir) - Reflection & Practice Drill",
+      "description": "Whenever you are faced with a choice between an easy wrongful act and a difficult righteous act, visualize the Scales of the Day of Judgment. Choose the action that will bring joy to your record when you hold your book on that Day.",
+      "type": "reflection",
+      "lessonId": "aqeedah-6"
+    },
+    {
+      "id": "exercise-aqeedah-7",
+      "title": "Module 7: The Sixth Pillar: Belief in Divine Decree & Predestination (Al-Qadr) - Reflection & Practice Drill",
+      "description": "Whenever you face an unexpected setback or disappointment, train your tongue to say immediately: «قَدَرُ اللَّهِ وَمَا شَاءَ فَعَلَ» (Qaddarallahu wa ma sha'a fa'ala). Feel the peace of knowing Allah's plan is wiser than your wish.",
+      "type": "reflection",
+      "lessonId": "aqeedah-7"
+    },
+    {
+      "id": "exercise-aqeedah-8",
+      "title": "Module 8: Revision, Creed Synthesis & Knowledge Assessment - Reflection & Practice Drill",
+      "description": "Make the Prophet's most frequent du'a: «يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ» (Ya Muqallib al-Qulub, thabbit qalbi 'ala deenik) part of your daily supplication in every Sujood.",
+      "type": "reflection",
+      "lessonId": "aqeedah-8"
+    }
+  ]
+},
   {
     "id": "islamic-manners-and-duas",
     "aliases": [
@@ -31803,6 +39366,9 @@ export const CoursesDB = {
     }
     if (targetId.includes('tajweed') || targetId.includes('tajweued') || targetId.includes('ahkam') || targetId.includes('hijaa')) {
       return coursesData.find(c => c.id === 'quran-tajweed-from-zero');
+    }
+    if (targetId === 'noble-quran-fatihah-to-nas' || targetId.includes('noble-quran') || targetId === 'quran-fatihah-to-nas') {
+      return coursesData.find(c => c.id === 'noble-quran-fatihah-to-nas');
     }
     if (targetId.includes('hadith')) {
       return coursesData.find(c => c.id === 'hadith-essentials');

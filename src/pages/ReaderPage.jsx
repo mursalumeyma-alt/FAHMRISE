@@ -76,7 +76,8 @@ function renderInlineMarkdown(text) {
   return tokens.map((token, i) => {
     if (token.type === 'bold') {
       const hasArabic = /[\u0600-\u06FF]/.test(token.content);
-      if (hasArabic) {
+      const hasLatin = /[a-zA-Z]/.test(token.content);
+      if (hasArabic && !hasLatin) {
         return (
           <span key={i} className="font-serif text-teal-200 font-normal px-1 inline-block" dir="rtl">
             {token.content}
@@ -90,9 +91,9 @@ function renderInlineMarkdown(text) {
       return <span key={i} className="font-semibold text-slate-100">{token.content}</span>;
     }
     if (token.type === 'code') {
-      const isArabic = /[\u0600-\u06FF]/.test(token.content);
+      const isPureArabic = /[\u0600-\u06FF]/.test(token.content) && !/[a-zA-Z]/.test(token.content);
       return (
-        <code key={i} className={`px-1.5 py-0.5 rounded bg-slate-900 border border-slate-800 text-teal-300 font-normal ${isArabic ? 'font-serif text-sm px-2' : 'font-mono text-xs'}`} dir={isArabic ? 'rtl' : undefined}>
+        <code key={i} className={`px-1.5 py-0.5 rounded bg-slate-900 border border-slate-800 text-teal-300 font-normal ${isPureArabic ? 'font-serif text-sm px-2' : 'font-mono text-xs'}`} dir={isPureArabic ? 'rtl' : undefined}>
           {token.content}
         </code>
       );

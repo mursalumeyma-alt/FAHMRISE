@@ -216,7 +216,8 @@ export const api = {
     async getById(id) {
       try {
         const res = await fetch(`${API_BASE}/books/${id}`, {
-          headers: getAuthHeaders()
+          headers: getAuthHeaders(),
+          cache: 'no-cache'
         });
         if (res.ok) {
           const data = await res.json();
@@ -262,7 +263,8 @@ export const api = {
     async getLesson(bookId, lessonId) {
       try {
         const res = await fetch(`${API_BASE}/books/${bookId}/lessons/${lessonId}`, {
-          headers: getAuthHeaders()
+          headers: getAuthHeaders(),
+          cache: 'no-cache'
         });
         if (res.ok) {
           const data = await res.json();
